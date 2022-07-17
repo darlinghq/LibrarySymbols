@@ -1,5 +1,6 @@
 use std::{env::Args, path::{Path,PathBuf}};
 
+#[derive(Debug)]
 pub struct Arguments {
     pub results_path: String,
     pub base_path: String
@@ -51,7 +52,6 @@ impl OptionArugments {
                 if "base_path" == argument_type {
                     let value = args.get(index).expect(EXPECT_MSG_NOT_ENOUGH_ARGUMENTS);
                     self.base_path = Some(value.clone());
-                    println!("{}", value)
                 } else {
                     panic!("\"{}\" argument is invalid", argument_type);
                 }
@@ -78,12 +78,12 @@ impl Arguments {
         temp_arguments.to_arguments()
     }
 
-    pub fn path_from_base(&self, location: &Path) -> PathBuf {
+    pub fn path_from_base<P: AsRef<Path>>(&self, location: P) -> PathBuf {
         let base_path = Path::new(self.base_path.as_str());
         base_path.join(location)
     }
 
-    pub fn path_from_results(&self, location: &Path) -> PathBuf {
+    pub fn path_from_results<P: AsRef<Path>>(&self, location: P) -> PathBuf {
         let results_path = Path::new(self.results_path.as_str());
         results_path.join(location)
     }
