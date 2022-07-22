@@ -13,6 +13,7 @@ fn parse_stdout(output: Output) -> Vec<String> {
     vec
 }
 
+
 const PRODUCT_BUILD_VERSION: &str = "ProductBuildVersion";
 const PRODUCT_NAME: &str = "ProductName";
 const PRODUCT_VERSION: &str = "ProductVersion";
@@ -107,5 +108,30 @@ impl DyldSharedCacheExtractor {
             .args([shared_cache_path, temp_path])
             .status()
             .expect("Unable to launch 'dyld-shared-cache-extractor' application");
+    }
+}
+
+
+#[derive(Debug)]
+pub struct NmLibrarySymbols {
+    pub raw_output: String
+}
+
+impl NmLibrarySymbols {
+    pub fn new<P: AsRef<Path>>(macho_path: P) -> NmLibrarySymbols {
+        let raw_output = NmLibrarySymbols::launch_program(macho_path);
+        
+        NmLibrarySymbols {
+            raw_output
+        }
+    }
+
+    fn launch_program<P: AsRef<Path>>(macho_path: P) -> String {
+        let output = Command::new("nm")
+        .args(["-m", macho_path.as_ref().to_str().expect("Unable to convert path to string")])
+        .output()
+        .expect("Unable to launch 'nm' application");
+
+        String::from_utf8(output.stdout).expect("Unable to save output")
     }
 }
