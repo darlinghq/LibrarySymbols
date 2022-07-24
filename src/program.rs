@@ -59,12 +59,12 @@ impl DyldSharedCacheExtractor {
         };
         
         if let Ok(read_dir) = read_dir(&base_location.dyld_shardcache_macos_path) {
-            println!("dyld_shardcache_macos_path is dir");
+            println!("Inspecting {:?} for shared cache", base_location.dyld_shardcache_macos_path);
             instance.extract_shared_library(results_location,read_dir);
         }
 
         if let Ok(read_dir) = read_dir(&base_location.dyld_shardcache_iphoneos_path) {
-            println!("dyld_shardcache_iphoneos_path is dir");
+            println!("Inspecting {:?} for shared cache", base_location.dyld_shardcache_iphoneos_path);
             instance.extract_shared_library(results_location,read_dir);
         }
 
