@@ -1,0 +1,541 @@
+00000001990be8f8 (__TEXT,__text) non-external +[BLDownloadQueue sharedInstance]
+00000001990c3794 (__TEXT,__text) non-external +[BLHLSKeyFetcher sharedInstance]
+00000001990c70f4 (__TEXT,__text) non-external +[BLMediaItemUtils addPersistHLSOfflinePlaybackKey:forUri:toItem:]
+00000001990c6fb8 (__TEXT,__text) non-external +[BLMediaItemUtils bitrateForItem:]
+00000001990c757c (__TEXT,__text) non-external +[BLMediaItemUtils clearPersistHLSOfflinePlaybackKeysFromItem:]
+00000001990c6d50 (__TEXT,__text) non-external +[BLMediaItemUtils hlsOfflinePlaybackKeysForItem:]
+00000001990c73bc (__TEXT,__text) non-external +[BLMediaItemUtils removePersistHLSOfflinePlaybackKeyForUri:fromItem:]
+00000001990c7048 (__TEXT,__text) non-external +[BLMediaItemUtils setBitrate:forItem:]
+00000001990c68c0 (__TEXT,__text) non-external +[BLMediaQuery audiobooksNonPreordersQuery]
+00000001990be9f4 (__TEXT,__text) non-external +[BLMediaQuery audiobooksQuery]
+00000001990bebf4 (__TEXT,__text) non-external +[NSOperationQueue(BLHLS) bl_sharedHLSKeyRequestOperationQueue]
+00000001990c6a20 (__TEXT,__text) non-external -[BLDownloadManifestRequest(UIAdditions) startWithUIManager:manifestResponseBlock:]
+00000001990c421c (__TEXT,__text) non-external -[BLDownloadQueue addDownloadsWithManifestRequest:uiManager:completion:]
+00000001990c4100 (__TEXT,__text) non-external -[BLDownloadQueue init]
+00000001990c4138 (__TEXT,__text) non-external -[BLDownloadQueue purchaseWithRequest:completion:]
+00000001990c414c (__TEXT,__text) non-external -[BLDownloadQueue purchaseWithRequest:uiManager:completion:]
+00000001990c4554 (__TEXT,__text) non-external -[BLDownloadQueue setAutomaticDownloadEnabled:uiManager:withCompletion:]
+00000001990c3bb0 (__TEXT,__text) non-external -[BLHLSKeyFetcher fetchOfflineKeyForMediaItem:identity:completion:]
+00000001990c387c (__TEXT,__text) non-external -[BLHLSKeyFetcher fetchOnlineKeyForMediaItem:loadingRequest:]
+00000001990c40f0 (__TEXT,__text) non-external -[BLHLSKeyFetcher ignoreCache]
+00000001990c36f4 (__TEXT,__text) non-external -[BLHLSKeyFetcher init]
+00000001990c40f8 (__TEXT,__text) non-external -[BLHLSKeyFetcher setIgnoreCache:]
+00000001990c96c0 (__TEXT,__text) non-external -[BLOfflineKeyRequest .cxx_destruct]
+00000001990c9230 (__TEXT,__text) non-external -[BLOfflineKeyRequest _performOfflineKeyRequest]
+00000001990c8b54 (__TEXT,__text) non-external -[BLOfflineKeyRequest dealloc]
+00000001990c8e28 (__TEXT,__text) non-external -[BLOfflineKeyRequest execute]
+00000001990c89fc (__TEXT,__text) non-external -[BLOfflineKeyRequest initWithMediaItem:identity:]
+00000001990c8c60 (__TEXT,__text) non-external -[BLOfflineKeyRequest performRequestWithResponseHandler:]
+00000001990c67cc (__TEXT,__text) non-external -[BLSecureOfflineKeyDeliveryRequest .cxx_destruct]
+00000001990c5040 (__TEXT,__text) non-external -[BLSecureOfflineKeyDeliveryRequest _createSPCData]
+00000001990c4fa8 (__TEXT,__text) non-external -[BLSecureOfflineKeyDeliveryRequest _deviceGUID]
+00000001990c514c (__TEXT,__text) non-external -[BLSecureOfflineKeyDeliveryRequest _fetchCKCDataUsingSPC:forKeyRequest:]
+00000001990c6640 (__TEXT,__text) non-external -[BLSecureOfflineKeyDeliveryRequest contentKeySession:contentKeyRequest:didFailWithError:]
+00000001990c6280 (__TEXT,__text) non-external -[BLSecureOfflineKeyDeliveryRequest contentKeySession:didProvideContentKeyRequest:]
+00000001990c63dc (__TEXT,__text) non-external -[BLSecureOfflineKeyDeliveryRequest contentKeySession:didProvidePersistableContentKeyRequest:]
+00000001990c4aec (__TEXT,__text) non-external -[BLSecureOfflineKeyDeliveryRequest execute]
+00000001990c678c (__TEXT,__text) non-external -[BLSecureOfflineKeyDeliveryRequest identity]
+00000001990c47d8 (__TEXT,__text) non-external -[BLSecureOfflineKeyDeliveryRequest initWithRequestContext:]
+00000001990c4848 (__TEXT,__text) non-external -[BLSecureOfflineKeyDeliveryRequest init]
+00000001990c6754 (__TEXT,__text) non-external -[BLSecureOfflineKeyDeliveryRequest keyCertificateURL]
+00000001990c6770 (__TEXT,__text) non-external -[BLSecureOfflineKeyDeliveryRequest keyServerURL]
+00000001990c67a8 (__TEXT,__text) non-external -[BLSecureOfflineKeyDeliveryRequest mediaItem]
+00000001990c493c (__TEXT,__text) non-external -[BLSecureOfflineKeyDeliveryRequest performRequestWithResponseHandler:]
+00000001990c679c (__TEXT,__text) non-external -[BLSecureOfflineKeyDeliveryRequest setIdentity:]
+00000001990c6764 (__TEXT,__text) non-external -[BLSecureOfflineKeyDeliveryRequest setKeyCertificateURL:]
+00000001990c6780 (__TEXT,__text) non-external -[BLSecureOfflineKeyDeliveryRequest setKeyServerURL:]
+00000001990c67b8 (__TEXT,__text) non-external -[BLSecureOfflineKeyDeliveryRequest setMediaItem:]
+00000001990c8980 (__TEXT,__text) non-external -[BLStoreItemMetadataRequest .cxx_destruct]
+00000001990c7f18 (__TEXT,__text) non-external -[BLStoreItemMetadataRequest _performBuyProductRequest]
+00000001990c87d0 (__TEXT,__text) non-external -[BLStoreItemMetadataRequest _responseDictionaryForKeyCertificateURL:keyServerURL:]
+00000001990c7f0c (__TEXT,__text) non-external -[BLStoreItemMetadataRequest execute]
+00000001990c7cdc (__TEXT,__text) non-external -[BLStoreItemMetadataRequest initWithRequestContext:mediaItem:]
+00000001990c7d80 (__TEXT,__text) non-external -[BLStoreItemMetadataRequest performRequestWithResponseHandler:]
+00000001990c7c60 (__TEXT,__text) non-external -[BLStreamingKeyRequest .cxx_destruct]
+00000001990c7a08 (__TEXT,__text) non-external -[BLStreamingKeyRequest _performStreamingKeyRequestForHLSAsset:]
+00000001990c77d8 (__TEXT,__text) non-external -[BLStreamingKeyRequest execute]
+00000001990c75e8 (__TEXT,__text) non-external -[BLStreamingKeyRequest initWithMediaItem:loadingRequest:]
+00000001990c768c (__TEXT,__text) non-external -[BLStreamingKeyRequest performRequestWithResponseHandler:]
+00000001990c0a14 (__TEXT,__text) non-external -[BLUIHostServiceProxy .cxx_destruct]
+00000001990c0410 (__TEXT,__text) non-external -[BLUIHostServiceProxy _topMostViewController]
+00000001990c0984 (__TEXT,__text) non-external -[BLUIHostServiceProxy downloadQueue]
+00000001990c09b0 (__TEXT,__text) non-external -[BLUIHostServiceProxy fallback]
+00000001990bedac (__TEXT,__text) non-external -[BLUIHostServiceProxy handleAuthenticateRequest:withReply:]
+00000001990bf450 (__TEXT,__text) non-external -[BLUIHostServiceProxy handleDialogRequest:withReply:]
+00000001990bfb6c (__TEXT,__text) non-external -[BLUIHostServiceProxy handleEngagementRequest:withReply:]
+00000001990becd0 (__TEXT,__text) non-external -[BLUIHostServiceProxy initWithUIManager:forRequest:inDownloadQueue:]
+00000001990c09bc (__TEXT,__text) non-external -[BLUIHostServiceProxy request]
+00000001990c09e8 (__TEXT,__text) non-external -[BLUIHostServiceProxy uiManagerDelegate]
+00000001990c1c98 (__TEXT,__text) non-external -[ICStoreRequestContext(BLHLS) initWithActiveAccountAllowAuthenticationOnceADay_bl]
+00000001990c2978 (__TEXT,__text) non-external -[_BLAcquireSlotRequest .cxx_destruct]
+00000001990c22bc (__TEXT,__text) non-external -[_BLAcquireSlotRequest _acquireSlotWithURL:]
+00000001990c2050 (__TEXT,__text) non-external -[_BLAcquireSlotRequest execute]
+00000001990c1e4c (__TEXT,__text) non-external -[_BLAcquireSlotRequest initWithDeviceGUID:]
+00000001990c1f08 (__TEXT,__text) non-external -[_BLAcquireSlotRequest performRequestWithResponseHandler:]
+00000001990cac24 (__TEXT,__gcc_except_tab) non-external GCC_except_table0
+00000001990caca4 (__TEXT,__gcc_except_tab) non-external GCC_except_table0
+00000001990cad38 (__TEXT,__gcc_except_tab) non-external GCC_except_table0
+00000001990cac64 (__TEXT,__gcc_except_tab) non-external GCC_except_table11
+00000001990cace4 (__TEXT,__gcc_except_tab) non-external GCC_except_table11
+00000001990cad78 (__TEXT,__gcc_except_tab) non-external GCC_except_table11
+00000001990cac74 (__TEXT,__gcc_except_tab) non-external GCC_except_table13
+00000001990cad88 (__TEXT,__gcc_except_tab) non-external GCC_except_table13
+00000001990cac84 (__TEXT,__gcc_except_tab) non-external GCC_except_table15
+00000001990cad98 (__TEXT,__gcc_except_tab) non-external GCC_except_table16
+00000001990cac94 (__TEXT,__gcc_except_tab) non-external GCC_except_table17
+00000001990cada8 (__TEXT,__gcc_except_tab) non-external GCC_except_table19
+00000001990cac0c (__TEXT,__gcc_except_tab) non-external GCC_except_table22
+00000001990cadb8 (__TEXT,__gcc_except_tab) non-external GCC_except_table22
+00000001990cadc8 (__TEXT,__gcc_except_tab) non-external GCC_except_table25
+00000001990cac34 (__TEXT,__gcc_except_tab) non-external GCC_except_table5
+00000001990cacb4 (__TEXT,__gcc_except_tab) non-external GCC_except_table5
+00000001990cacf4 (__TEXT,__gcc_except_tab) non-external GCC_except_table5
+00000001990cad48 (__TEXT,__gcc_except_tab) non-external GCC_except_table5
+00000001990cac44 (__TEXT,__gcc_except_tab) non-external GCC_except_table7
+00000001990cacc4 (__TEXT,__gcc_except_tab) non-external GCC_except_table7
+00000001990cad58 (__TEXT,__gcc_except_tab) non-external GCC_except_table7
+00000001990cac54 (__TEXT,__gcc_except_tab) non-external GCC_except_table9
+00000001990cacd4 (__TEXT,__gcc_except_tab) non-external GCC_except_table9
+00000001990cad10 (__TEXT,__gcc_except_tab) non-external GCC_except_table9
+00000001990cad68 (__TEXT,__gcc_except_tab) non-external GCC_except_table9
+                 (undefined) external _AVContentKeySystemFairPlayStreaming (from AVFoundation)
+00000001990c174c (__TEXT,__text) non-external (was a private external) _AppleMediaServicesUILibrary
+00000001990c1574 (__TEXT,__text) non-external (was a private external) _AppleMediaServicesUILibraryCore
+00000001d75c11d8 (__DATA,__bss) non-external _AppleMediaServicesUILibraryCore.frameworkLibrary
+                 (undefined) external _BLDefaultLog (from BookLibraryCore)
+                 (undefined) external _BLError (from BookLibraryCore)
+                 (undefined) external _BLErrorDomain (from BookLibraryCore)
+                 (undefined) external _BLHLSKeyFetchingLog (from BookLibraryCore)
+                 (undefined) external _BLServiceLog (from BookLibraryCore)
+                 (undefined) external _BLUseAMSInsteadOfStoreServicesEnabled (from BookLibraryCore)
+                 (undefined) external _BUDynamicCast (from BookUtility)
+00000001990ca220 (__TEXT,__const) external _BookLibraryVersionNumber
+00000001990ca1e8 (__TEXT,__const) external _BookLibraryVersionString
+                 (undefined) external _ICErrorDomain (from iTunesCloud)
+                 (undefined) external _ICHTTPHeaderContentTypeJSON (from iTunesCloud)
+                 (undefined) external _ICHTTPHeaderContentTypeXApplePlist (from iTunesCloud)
+                 (undefined) external _ICHTTPHeaderKeyContentType (from iTunesCloud)
+                 (undefined) external _MGCopyAnswer (from libMobileGestalt)
+                 (undefined) external _MPMediaItemPropertyIsPreorder (from MediaPlayer)
+00000001990be998 (__TEXT,__text) non-external (was a private external) _MediaPlayerLibrary
+00000001990c29cc (__TEXT,__text) non-external (was a private external) _MediaPlayerLibraryCore
+00000001d9825918 (__DATA_DIRTY,__bss) non-external _MediaPlayerLibraryCore.frameworkLibrary
+                 (undefined) external _NSUnderlyingErrorKey (from Foundation)
+                 (undefined) external _OBJC_CLASS_$_AMSPromise (from AppleMediaServices)
+                 (undefined) external _OBJC_CLASS_$_AVContentKeySession (from AVFoundation)
+                 (undefined) external _OBJC_CLASS_$_BLDownloadManifestRequest (from BookLibraryCore)
+00000001d9825878 (__DATA_DIRTY,__objc_data) external _OBJC_CLASS_$_BLDownloadQueue
+                 (undefined) external _OBJC_CLASS_$_BLDownloadQueueNonUI (from BookLibraryCore)
+00000001d9e85d88 (__AUTH,__objc_data) external _OBJC_CLASS_$_BLHLSKeyFetcher
+00000001d9e85e50 (__AUTH,__objc_data) external _OBJC_CLASS_$_BLMediaItemUtils
+00000001d98258f0 (__DATA_DIRTY,__objc_data) external _OBJC_CLASS_$_BLMediaQuery
+00000001d9e85f18 (__AUTH,__objc_data) external _OBJC_CLASS_$_BLOfflineKeyRequest
+00000001d9e85dd8 (__AUTH,__objc_data) external _OBJC_CLASS_$_BLSecureOfflineKeyDeliveryRequest
+00000001d9e85ef0 (__AUTH,__objc_data) external _OBJC_CLASS_$_BLStoreItemMetadataRequest
+00000001d9e85ea0 (__AUTH,__objc_data) external _OBJC_CLASS_$_BLStreamingKeyRequest
+                 (undefined) external _OBJC_CLASS_$_BLUIHostServiceNonUI (from BookLibraryCore)
+00000001d9e85ce8 (__AUTH,__objc_data) external _OBJC_CLASS_$_BLUIHostServiceProxy
+                 (undefined) external _OBJC_CLASS_$_BUBag (from BookUtility)
+                 (undefined) external _OBJC_CLASS_$_ICBuyProductRequest (from iTunesCloud)
+                 (undefined) external _OBJC_CLASS_$_ICClientInfo (from iTunesCloud)
+                 (undefined) external _OBJC_CLASS_$_ICMediaRedownloadResponse (from iTunesCloud)
+                 (undefined) external _OBJC_CLASS_$_ICNanoPairedDeviceStatusMonitor (from iTunesCloud)
+                 (undefined) external _OBJC_CLASS_$_ICRequestOperation (from iTunesCloud)
+                 (undefined) external _OBJC_CLASS_$_ICSecureKeyDeliveryRequest (from iTunesCloud)
+                 (undefined) external _OBJC_CLASS_$_ICStoreDialogResponseHandler (from iTunesCloud)
+                 (undefined) external _OBJC_CLASS_$_ICStoreDialogResponseHandlerConfiguration (from iTunesCloud)
+                 (undefined) external _OBJC_CLASS_$_ICStoreMediaResponseItem (from iTunesCloud)
+                 (undefined) external _OBJC_CLASS_$_ICStoreRequestContext (from iTunesCloud)
+                 (undefined) external _OBJC_CLASS_$_ICStoreURLRequest (from iTunesCloud)
+                 (undefined) external _OBJC_CLASS_$_ICStoreURLResponseAuthenticationProvider (from iTunesCloud)
+                 (undefined) external _OBJC_CLASS_$_ICURLBagProvider (from iTunesCloud)
+                 (undefined) external _OBJC_CLASS_$_ICURLSessionManager (from iTunesCloud)
+                 (undefined) external _OBJC_CLASS_$_ICUserIdentity (from iTunesCloud)
+                 (undefined) external _OBJC_CLASS_$_ICUserIdentityStore (from iTunesCloud)
+                 (undefined) external _OBJC_CLASS_$_NSArray (from CoreFoundation)
+                 (undefined) external _OBJC_CLASS_$_NSConstantIntegerNumber (from Foundation)
+                 (undefined) external _OBJC_CLASS_$_NSData (from CoreFoundation)
+                 (undefined) external _OBJC_CLASS_$_NSDate (from CoreFoundation)
+                 (undefined) external _OBJC_CLASS_$_NSDictionary (from CoreFoundation)
+                 (undefined) external _OBJC_CLASS_$_NSError (from Foundation)
+                 (undefined) external _OBJC_CLASS_$_NSJSONSerialization (from Foundation)
+                 (undefined) external _OBJC_CLASS_$_NSKeyedArchiver (from Foundation)
+                 (undefined) external _OBJC_CLASS_$_NSKeyedUnarchiver (from Foundation)
+                 (undefined) external _OBJC_CLASS_$_NSMutableDictionary (from CoreFoundation)
+                 (undefined) external _OBJC_CLASS_$_NSMutableURLRequest (from Foundation)
+                 (undefined) external _OBJC_CLASS_$_NSNumber (from Foundation)
+                 (undefined) external _OBJC_CLASS_$_NSObject (from libobjc)
+                 (undefined) external _OBJC_CLASS_$_NSOperationQueue (from Foundation)
+                 (undefined) external _OBJC_CLASS_$_NSPropertyListSerialization (from Foundation)
+                 (undefined) external _OBJC_CLASS_$_NSSet (from CoreFoundation)
+                 (undefined) external _OBJC_CLASS_$_NSString (from Foundation)
+                 (undefined) external _OBJC_CLASS_$_NSThread (from Foundation)
+00000001d9e85d38 (__AUTH,__objc_data) external _OBJC_CLASS_$__BLAcquireSlotRequest
+00000001d75c1000 (__DATA,__objc_ivar) non-external (was a private external) _OBJC_IVAR_$_BLHLSKeyFetcher._ignoreCache
+00000001d75c1060 (__DATA,__objc_ivar) non-external (was a private external) _OBJC_IVAR_$_BLOfflineKeyRequest._assetInfo
+00000001d75c1050 (__DATA,__objc_ivar) non-external (was a private external) _OBJC_IVAR_$_BLOfflineKeyRequest._identity
+00000001d75c104c (__DATA,__objc_ivar) non-external (was a private external) _OBJC_IVAR_$_BLOfflineKeyRequest._mediaItem
+00000001d75c1058 (__DATA,__objc_ivar) non-external (was a private external) _OBJC_IVAR_$_BLOfflineKeyRequest._metadataRequest
+00000001d75c1054 (__DATA,__objc_ivar) non-external (was a private external) _OBJC_IVAR_$_BLOfflineKeyRequest._persistentKeyData
+00000001d75c105c (__DATA,__objc_ivar) non-external (was a private external) _OBJC_IVAR_$_BLOfflineKeyRequest._requestContext
+00000001d75c1064 (__DATA,__objc_ivar) non-external (was a private external) _OBJC_IVAR_$_BLOfflineKeyRequest._secureKeyRequest
+00000001d75c1024 (__DATA,__objc_ivar) non-external (was a private external) _OBJC_IVAR_$_BLSecureOfflineKeyDeliveryRequest._certificateData
+00000001d75c1028 (__DATA,__objc_ivar) non-external (was a private external) _OBJC_IVAR_$_BLSecureOfflineKeyDeliveryRequest._identity
+00000001d75c101c (__DATA,__objc_ivar) non-external (was a private external) _OBJC_IVAR_$_BLSecureOfflineKeyDeliveryRequest._keyCertificateURL
+00000001d75c1020 (__DATA,__objc_ivar) non-external (was a private external) _OBJC_IVAR_$_BLSecureOfflineKeyDeliveryRequest._keyServerURL
+00000001d75c100c (__DATA,__objc_ivar) non-external (was a private external) _OBJC_IVAR_$_BLSecureOfflineKeyDeliveryRequest._keySession
+00000001d75c1008 (__DATA,__objc_ivar) non-external (was a private external) _OBJC_IVAR_$_BLSecureOfflineKeyDeliveryRequest._keySessionQueue
+00000001d75c1018 (__DATA,__objc_ivar) non-external (was a private external) _OBJC_IVAR_$_BLSecureOfflineKeyDeliveryRequest._mediaItem
+00000001d75c1010 (__DATA,__objc_ivar) non-external (was a private external) _OBJC_IVAR_$_BLSecureOfflineKeyDeliveryRequest._persistentKeyData
+00000001d75c1004 (__DATA,__objc_ivar) non-external (was a private external) _OBJC_IVAR_$_BLSecureOfflineKeyDeliveryRequest._requestContext
+00000001d75c1014 (__DATA,__objc_ivar) non-external (was a private external) _OBJC_IVAR_$_BLSecureOfflineKeyDeliveryRequest._slotRequest
+00000001d75c1048 (__DATA,__objc_ivar) non-external (was a private external) _OBJC_IVAR_$_BLStoreItemMetadataRequest._buyProductRequest
+00000001d75c1040 (__DATA,__objc_ivar) non-external (was a private external) _OBJC_IVAR_$_BLStoreItemMetadataRequest._mediaItem
+00000001d75c103c (__DATA,__objc_ivar) non-external (was a private external) _OBJC_IVAR_$_BLStoreItemMetadataRequest._requestContext
+00000001d75c1044 (__DATA,__objc_ivar) non-external (was a private external) _OBJC_IVAR_$_BLStoreItemMetadataRequest._storeMetadata
+00000001d75c1030 (__DATA,__objc_ivar) non-external (was a private external) _OBJC_IVAR_$_BLStreamingKeyRequest._loadingRequest
+00000001d75c102c (__DATA,__objc_ivar) non-external (was a private external) _OBJC_IVAR_$_BLStreamingKeyRequest._mediaItem
+00000001d75c1034 (__DATA,__objc_ivar) non-external (was a private external) _OBJC_IVAR_$_BLStreamingKeyRequest._metadataRequest
+00000001d75c1038 (__DATA,__objc_ivar) non-external (was a private external) _OBJC_IVAR_$_BLStreamingKeyRequest._secureKeyRequest
+00000001d75c0fe8 (__DATA,__objc_ivar) non-external (was a private external) _OBJC_IVAR_$_BLUIHostServiceProxy._downloadQueue
+00000001d75c0fec (__DATA,__objc_ivar) non-external (was a private external) _OBJC_IVAR_$_BLUIHostServiceProxy._fallback
+00000001d75c0ff0 (__DATA,__objc_ivar) non-external (was a private external) _OBJC_IVAR_$_BLUIHostServiceProxy._request
+00000001d75c0ff4 (__DATA,__objc_ivar) non-external (was a private external) _OBJC_IVAR_$_BLUIHostServiceProxy._uiManagerDelegate
+00000001d75c0ffc (__DATA,__objc_ivar) non-external (was a private external) _OBJC_IVAR_$__BLAcquireSlotRequest._deviceGUID
+00000001d75c0ff8 (__DATA,__objc_ivar) non-external (was a private external) _OBJC_IVAR_$__BLAcquireSlotRequest._requestContext
+00000001d98258a0 (__DATA_DIRTY,__objc_data) external _OBJC_METACLASS_$_BLDownloadQueue
+                 (undefined) external _OBJC_METACLASS_$_BLDownloadQueueNonUI (from BookLibraryCore)
+00000001d9e85db0 (__AUTH,__objc_data) external _OBJC_METACLASS_$_BLHLSKeyFetcher
+00000001d9e85e28 (__AUTH,__objc_data) external _OBJC_METACLASS_$_BLMediaItemUtils
+00000001d98258c8 (__DATA_DIRTY,__objc_data) external _OBJC_METACLASS_$_BLMediaQuery
+00000001d9e85f40 (__AUTH,__objc_data) external _OBJC_METACLASS_$_BLOfflineKeyRequest
+00000001d9e85e00 (__AUTH,__objc_data) external _OBJC_METACLASS_$_BLSecureOfflineKeyDeliveryRequest
+00000001d9e85ec8 (__AUTH,__objc_data) external _OBJC_METACLASS_$_BLStoreItemMetadataRequest
+00000001d9e85e78 (__AUTH,__objc_data) external _OBJC_METACLASS_$_BLStreamingKeyRequest
+00000001d9e85d10 (__AUTH,__objc_data) external _OBJC_METACLASS_$_BLUIHostServiceProxy
+                 (undefined) external _OBJC_METACLASS_$_ICRequestOperation (from iTunesCloud)
+                 (undefined) external _OBJC_METACLASS_$_NSObject (from libobjc)
+00000001d9e85d60 (__AUTH,__objc_data) external _OBJC_METACLASS_$__BLAcquireSlotRequest
+00000001990c0c3c (__TEXT,__text) non-external (was a private external) _UIKitLibrary
+00000001990c0a64 (__TEXT,__text) non-external (was a private external) _UIKitLibraryCore
+00000001d75c1198 (__DATA,__bss) non-external _UIKitLibraryCore.frameworkLibrary
+                 (undefined) external __Block_object_assign (from libSystem)
+                 (undefined) external __Block_object_dispose (from libSystem)
+                 (undefined) external __NSConcreteGlobalBlock (from libSystem)
+                 (undefined) external __NSConcreteStackBlock (from libSystem)
+                 (undefined) external __NSIsNSArray (from CoreFoundation)
+                 (undefined) external __NSIsNSData (from CoreFoundation)
+                 (undefined) external __NSIsNSDictionary (from CoreFoundation)
+                 (undefined) external __NSIsNSString (from CoreFoundation)
+00000001dc31f308 (__AUTH_CONST,__objc_const) non-external __OBJC_$_CATEGORY_BLDownloadManifestRequest_$_UIAdditions
+00000001dc31f2c8 (__AUTH_CONST,__objc_const) non-external __OBJC_$_CATEGORY_ICStoreRequestContext_$_BLHLS
+00000001dc31f288 (__AUTH_CONST,__objc_const) non-external __OBJC_$_CATEGORY_NSOperationQueue_$_BLHLS
+00000001990c9f28 (__TEXT,__objc_methlist) non-external __OBJC_$_CLASS_METHODS_BLDownloadQueue
+00000001990c9ec8 (__TEXT,__objc_methlist) non-external __OBJC_$_CLASS_METHODS_BLHLSKeyFetcher
+00000001990ca0b0 (__TEXT,__objc_methlist) non-external __OBJC_$_CLASS_METHODS_BLMediaItemUtils
+00000001990ca078 (__TEXT,__objc_methlist) non-external __OBJC_$_CLASS_METHODS_BLMediaQuery
+00000001990c9dd0 (__TEXT,__objc_methlist) non-external __OBJC_$_CLASS_METHODS_NSOperationQueue(BLHLS)
+00000001d2dceaf0 (__DATA_CONST,__objc_const) non-external __OBJC_$_CLASS_PROP_LIST_BLHLSKeyFetcher
+00000001d2dcf150 (__DATA_CONST,__objc_const) non-external __OBJC_$_CLASS_PROP_LIST_BLMediaQuery
+00000001990ca098 (__TEXT,__objc_methlist) non-external __OBJC_$_INSTANCE_METHODS_BLDownloadManifestRequest(UIAdditions)
+00000001990c9f40 (__TEXT,__objc_methlist) non-external __OBJC_$_INSTANCE_METHODS_BLDownloadQueue
+00000001990c9ee0 (__TEXT,__objc_methlist) non-external __OBJC_$_INSTANCE_METHODS_BLHLSKeyFetcher
+00000001990ca198 (__TEXT,__objc_methlist) non-external __OBJC_$_INSTANCE_METHODS_BLOfflineKeyRequest
+00000001990c9f88 (__TEXT,__objc_methlist) non-external __OBJC_$_INSTANCE_METHODS_BLSecureOfflineKeyDeliveryRequest
+00000001990ca148 (__TEXT,__objc_methlist) non-external __OBJC_$_INSTANCE_METHODS_BLStoreItemMetadataRequest
+00000001990ca100 (__TEXT,__objc_methlist) non-external __OBJC_$_INSTANCE_METHODS_BLStreamingKeyRequest
+00000001990c9de8 (__TEXT,__objc_methlist) non-external __OBJC_$_INSTANCE_METHODS_BLUIHostServiceProxy
+00000001990c9e68 (__TEXT,__objc_methlist) non-external __OBJC_$_INSTANCE_METHODS_ICStoreRequestContext(BLHLS)
+00000001990c9e80 (__TEXT,__objc_methlist) non-external __OBJC_$_INSTANCE_METHODS__BLAcquireSlotRequest
+00000001d2dceb08 (__DATA_CONST,__objc_const) non-external __OBJC_$_INSTANCE_VARIABLES_BLHLSKeyFetcher
+00000001d2dcf288 (__DATA_CONST,__objc_const) non-external __OBJC_$_INSTANCE_VARIABLES_BLOfflineKeyRequest
+00000001d2dcef80 (__DATA_CONST,__objc_const) non-external __OBJC_$_INSTANCE_VARIABLES_BLSecureOfflineKeyDeliveryRequest
+00000001d2dcf200 (__DATA_CONST,__objc_const) non-external __OBJC_$_INSTANCE_VARIABLES_BLStoreItemMetadataRequest
+00000001d2dcf178 (__DATA_CONST,__objc_const) non-external __OBJC_$_INSTANCE_VARIABLES_BLStreamingKeyRequest
+00000001d2dce9d8 (__DATA_CONST,__objc_const) non-external __OBJC_$_INSTANCE_VARIABLES_BLUIHostServiceProxy
+00000001d2dceaa8 (__DATA_CONST,__objc_const) non-external __OBJC_$_INSTANCE_VARIABLES__BLAcquireSlotRequest
+00000001d2dceb30 (__DATA_CONST,__objc_const) non-external __OBJC_$_PROP_LIST_BLHLSKeyFetcher
+00000001d2dcf0c8 (__DATA_CONST,__objc_const) non-external __OBJC_$_PROP_LIST_BLSecureOfflineKeyDeliveryRequest
+00000001d2dcea60 (__DATA_CONST,__objc_const) non-external __OBJC_$_PROP_LIST_BLUIHostServiceProxy
+00000001d2dced38 (__DATA_CONST,__objc_const) non-external __OBJC_$_PROP_LIST_NSObject
+00000001d2dcee38 (__DATA_CONST,__objc_const) non-external __OBJC_$_PROTOCOL_INSTANCE_METHODS_AVContentKeySessionDelegate
+00000001d2dce958 (__DATA_CONST,__objc_const) non-external __OBJC_$_PROTOCOL_INSTANCE_METHODS_BLUIHostServiceProtocol
+00000001d2dceb48 (__DATA_CONST,__objc_const) non-external __OBJC_$_PROTOCOL_INSTANCE_METHODS_NSObject
+00000001d2dcee58 (__DATA_CONST,__objc_const) non-external __OBJC_$_PROTOCOL_INSTANCE_METHODS_OPT_AVContentKeySessionDelegate
+00000001d2dced18 (__DATA_CONST,__objc_const) non-external __OBJC_$_PROTOCOL_INSTANCE_METHODS_OPT_NSObject
+00000001d2dcef20 (__DATA_CONST,__objc_const) non-external __OBJC_$_PROTOCOL_METHOD_TYPES_AVContentKeySessionDelegate
+00000001d2dce9a8 (__DATA_CONST,__objc_const) non-external __OBJC_$_PROTOCOL_METHOD_TYPES_BLUIHostServiceProtocol
+00000001d2dced80 (__DATA_CONST,__objc_const) non-external __OBJC_$_PROTOCOL_METHOD_TYPES_NSObject
+00000001d2dcee20 (__DATA_CONST,__objc_const) non-external __OBJC_$_PROTOCOL_REFS_AVContentKeySessionDelegate
+00000001d2dcef68 (__DATA_CONST,__objc_const) non-external __OBJC_CLASS_PROTOCOLS_$_BLSecureOfflineKeyDeliveryRequest
+00000001d2dce9c0 (__DATA_CONST,__objc_const) non-external __OBJC_CLASS_PROTOCOLS_$_BLUIHostServiceProxy
+00000001dc31f6f0 (__OBJC_CONST,__objc_class_ro) non-external __OBJC_CLASS_RO_$_BLDownloadQueue
+00000001dc31f660 (__OBJC_CONST,__objc_class_ro) non-external __OBJC_CLASS_RO_$_BLHLSKeyFetcher
+00000001dc31f8a0 (__OBJC_CONST,__objc_class_ro) non-external __OBJC_CLASS_RO_$_BLMediaItemUtils
+00000001dc31f810 (__OBJC_CONST,__objc_class_ro) non-external __OBJC_CLASS_RO_$_BLMediaQuery
+00000001dc31fa50 (__OBJC_CONST,__objc_class_ro) non-external __OBJC_CLASS_RO_$_BLOfflineKeyRequest
+00000001dc31f780 (__OBJC_CONST,__objc_class_ro) non-external __OBJC_CLASS_RO_$_BLSecureOfflineKeyDeliveryRequest
+00000001dc31f9c0 (__OBJC_CONST,__objc_class_ro) non-external __OBJC_CLASS_RO_$_BLStoreItemMetadataRequest
+00000001dc31f930 (__OBJC_CONST,__objc_class_ro) non-external __OBJC_CLASS_RO_$_BLStreamingKeyRequest
+00000001dc31f540 (__OBJC_CONST,__objc_class_ro) non-external __OBJC_CLASS_RO_$_BLUIHostServiceProxy
+00000001dc31f5d0 (__OBJC_CONST,__objc_class_ro) non-external __OBJC_CLASS_RO_$__BLAcquireSlotRequest
+00000001d2dce948 (__DATA_CONST,__objc_protolist) non-external (was a private external) __OBJC_LABEL_PROTOCOL_$_AVContentKeySessionDelegate
+00000001d2dce938 (__DATA_CONST,__objc_protolist) non-external (was a private external) __OBJC_LABEL_PROTOCOL_$_BLUIHostServiceProtocol
+00000001d2dce940 (__DATA_CONST,__objc_protolist) non-external (was a private external) __OBJC_LABEL_PROTOCOL_$_NSObject
+00000001dc31f6a8 (__OBJC_CONST,__objc_class_ro) non-external __OBJC_METACLASS_RO_$_BLDownloadQueue
+00000001dc31f618 (__OBJC_CONST,__objc_class_ro) non-external __OBJC_METACLASS_RO_$_BLHLSKeyFetcher
+00000001dc31f858 (__OBJC_CONST,__objc_class_ro) non-external __OBJC_METACLASS_RO_$_BLMediaItemUtils
+00000001dc31f7c8 (__OBJC_CONST,__objc_class_ro) non-external __OBJC_METACLASS_RO_$_BLMediaQuery
+00000001dc31fa08 (__OBJC_CONST,__objc_class_ro) non-external __OBJC_METACLASS_RO_$_BLOfflineKeyRequest
+00000001dc31f738 (__OBJC_CONST,__objc_class_ro) non-external __OBJC_METACLASS_RO_$_BLSecureOfflineKeyDeliveryRequest
+00000001dc31f978 (__OBJC_CONST,__objc_class_ro) non-external __OBJC_METACLASS_RO_$_BLStoreItemMetadataRequest
+00000001dc31f8e8 (__OBJC_CONST,__objc_class_ro) non-external __OBJC_METACLASS_RO_$_BLStreamingKeyRequest
+00000001dc31f4f8 (__OBJC_CONST,__objc_class_ro) non-external __OBJC_METACLASS_RO_$_BLUIHostServiceProxy
+00000001dc31f588 (__OBJC_CONST,__objc_class_ro) non-external __OBJC_METACLASS_RO_$__BLAcquireSlotRequest
+00000001d75c1128 (__DATA,__data) non-external (was a private external) __OBJC_PROTOCOL_$_AVContentKeySessionDelegate
+00000001d75c1068 (__DATA,__data) non-external (was a private external) __OBJC_PROTOCOL_$_BLUIHostServiceProtocol
+00000001d75c10c8 (__DATA,__data) non-external (was a private external) __OBJC_PROTOCOL_$_NSObject
+                 (undefined) external __Unwind_Resume (from libSystem)
+00000001990c8fcc (__TEXT,__text) non-external ___30-[BLOfflineKeyRequest execute]_block_invoke
+00000001990c78c8 (__TEXT,__text) non-external ___32-[BLStreamingKeyRequest execute]_block_invoke
+00000001990c2174 (__TEXT,__text) non-external ___32-[_BLAcquireSlotRequest execute]_block_invoke
+00000001990beb08 (__TEXT,__text) non-external ___33+[BLDownloadQueue sharedInstance]_block_invoke
+00000001990c3834 (__TEXT,__text) non-external ___33+[BLHLSKeyFetcher sharedInstance]_block_invoke
+00000001990c4dac (__TEXT,__text) non-external ___44-[BLSecureOfflineKeyDeliveryRequest execute]_block_invoke
+00000001990c26bc (__TEXT,__text) non-external ___45-[_BLAcquireSlotRequest _acquireSlotWithURL:]_block_invoke
+00000001990c05c8 (__TEXT,__text) non-external ___46-[BLUIHostServiceProxy _topMostViewController]_block_invoke
+00000001990c9634 (__TEXT,__text) non-external ___48-[BLOfflineKeyRequest _performOfflineKeyRequest]_block_invoke
+00000001990c4ffc (__TEXT,__text) non-external ___48-[BLSecureOfflineKeyDeliveryRequest _deviceGUID]_block_invoke
+00000001990bf5d4 (__TEXT,__text) non-external ___54-[BLUIHostServiceProxy handleDialogRequest:withReply:]_block_invoke
+00000001990bf974 (__TEXT,__text) non-external ___54-[BLUIHostServiceProxy handleDialogRequest:withReply:]_block_invoke.47
+00000001990bfb5c (__TEXT,__text) non-external ___54-[BLUIHostServiceProxy handleDialogRequest:withReply:]_block_invoke.51
+00000001990c80bc (__TEXT,__text) non-external ___55-[BLStoreItemMetadataRequest _performBuyProductRequest]_block_invoke
+00000001990c8564 (__TEXT,__text) non-external ___55-[BLStoreItemMetadataRequest _performBuyProductRequest]_block_invoke.36
+00000001990c8d44 (__TEXT,__text) non-external ___57-[BLOfflineKeyRequest performRequestWithResponseHandler:]_block_invoke
+00000001990bfcf0 (__TEXT,__text) non-external ___58-[BLUIHostServiceProxy handleEngagementRequest:withReply:]_block_invoke
+00000001990c02ac (__TEXT,__text) non-external ___58-[BLUIHostServiceProxy handleEngagementRequest:withReply:]_block_invoke.73
+00000001990c0400 (__TEXT,__text) non-external ___58-[BLUIHostServiceProxy handleEngagementRequest:withReply:]_block_invoke.85
+00000001990bfef0 (__TEXT,__text) non-external ___58-[BLUIHostServiceProxy handleEngagementRequest:withReply:]_block_invoke_2
+00000001990c773c (__TEXT,__text) non-external ___59-[BLStreamingKeyRequest performRequestWithResponseHandler:]_block_invoke
+00000001990c1fb8 (__TEXT,__text) non-external ___59-[_BLAcquireSlotRequest performRequestWithResponseHandler:]_block_invoke
+00000001990bef30 (__TEXT,__text) non-external ___60-[BLUIHostServiceProxy handleAuthenticateRequest:withReply:]_block_invoke
+00000001990bf304 (__TEXT,__text) non-external ___60-[BLUIHostServiceProxy handleAuthenticateRequest:withReply:]_block_invoke.20
+00000001990bf440 (__TEXT,__text) non-external ___60-[BLUIHostServiceProxy handleAuthenticateRequest:withReply:]_block_invoke.32
+00000001990c3a78 (__TEXT,__text) non-external ___61-[BLHLSKeyFetcher fetchOnlineKeyForMediaItem:loadingRequest:]_block_invoke
+00000001990bec48 (__TEXT,__text) non-external ___63+[NSOperationQueue(BLHLS) bl_sharedHLSKeyRequestOperationQueue]_block_invoke
+00000001990c7e64 (__TEXT,__text) non-external ___64-[BLStoreItemMetadataRequest performRequestWithResponseHandler:]_block_invoke
+00000001990c7bcc (__TEXT,__text) non-external ___64-[BLStreamingKeyRequest _performStreamingKeyRequestForHLSAsset:]_block_invoke
+00000001990c3f28 (__TEXT,__text) non-external ___67-[BLHLSKeyFetcher fetchOfflineKeyForMediaItem:identity:completion:]_block_invoke
+00000001990c4a20 (__TEXT,__text) non-external ___71-[BLSecureOfflineKeyDeliveryRequest performRequestWithResponseHandler:]_block_invoke
+00000001990c43dc (__TEXT,__text) non-external ___72-[BLDownloadQueue addDownloadsWithManifestRequest:uiManager:completion:]_block_invoke
+00000001990c44ac (__TEXT,__text) non-external ___72-[BLDownloadQueue addDownloadsWithManifestRequest:uiManager:completion:]_block_invoke_2
+00000001990c46b8 (__TEXT,__text) non-external ___72-[BLDownloadQueue setAutomaticDownloadEnabled:uiManager:withCompletion:]_block_invoke
+00000001990c4788 (__TEXT,__text) non-external ___72-[BLDownloadQueue setAutomaticDownloadEnabled:uiManager:withCompletion:]_block_invoke_2
+00000001990c58e0 (__TEXT,__text) non-external ___73-[BLSecureOfflineKeyDeliveryRequest _fetchCKCDataUsingSPC:forKeyRequest:]_block_invoke
+00000001990c6be0 (__TEXT,__text) non-external ___83-[BLDownloadManifestRequest(UIAdditions) startWithUIManager:manifestResponseBlock:]_block_invoke
+00000001990c1cac (__TEXT,__text) non-external ___83-[ICStoreRequestContext(BLHLS) initWithActiveAccountAllowAuthenticationOnceADay_bl]_block_invoke
+00000001990c6524 (__TEXT,__text) non-external ___94-[BLSecureOfflineKeyDeliveryRequest contentKeySession:didProvidePersistableContentKeyRequest:]_block_invoke
+00000001990c16ac (__TEXT,__text) non-external ___AppleMediaServicesUILibraryCore_block_invoke
+00000001990c05b0 (__TEXT,__text) non-external ___Block_byref_object_copy_
+00000001990c05c0 (__TEXT,__text) non-external ___Block_byref_object_dispose_
+                 (undefined) external ___CFConstantStringClassReference (from CoreFoundation)
+00000001990c2b04 (__TEXT,__text) non-external ___MediaPlayerLibraryCore_block_invoke
+                 (undefined) external ___NSDictionary0__struct (from CoreFoundation)
+00000001990c0b9c (__TEXT,__text) non-external ___UIKitLibraryCore_block_invoke
+00000001d2dce8b0 (__DATA_CONST,__const) non-external (was a private external) ___block_descriptor_32_e17_v16?0"NSError"8l
+00000001d2dce850 (__DATA_CONST,__const) non-external (was a private external) ___block_descriptor_32_e31_v16?0"ICStoreRequestContext"8l
+00000001d2dce890 (__DATA_CONST,__const) non-external (was a private external) ___block_descriptor_32_e48_v24?0"BLDownloadManifestResponse"8"NSError"16l
+00000001d2dce830 (__DATA_CONST,__const) non-external (was a private external) ___block_descriptor_32_e5_v8?0l
+00000001d2dce870 (__DATA_CONST,__const) non-external (was a private external) ___block_descriptor_40_e17_v16?0"NSError"8l
+00000001dc31e988 (__AUTH_CONST,__const) non-external (was a private external) ___block_descriptor_40_e8_32bs_e41_v24?0"AMSEngagementResult"8"NSError"16l
+00000001dc31e8c8 (__AUTH_CONST,__const) non-external (was a private external) ___block_descriptor_40_e8_32bs_e43_v24?0"AMSAuthenticateResult"8"NSError"16l
+00000001dc31e928 (__AUTH_CONST,__const) non-external (was a private external) ___block_descriptor_40_e8_32bs_e5_v8?0l
+00000001dc31e9e8 (__AUTH_CONST,__const) non-external (was a private external) ___block_descriptor_40_e8_32r_e5_v8?0l
+00000001dc31ed98 (__AUTH_CONST,__const) non-external (was a private external) ___block_descriptor_40_e8_32s_e28_v24?0"NSData"8"NSError"16l
+00000001dc31ebf8 (__AUTH_CONST,__const) non-external (was a private external) ___block_descriptor_40_e8_32s_e35_v24?0"ICURLResponse"8"NSError"16l
+00000001dc31ecd8 (__AUTH_CONST,__const) non-external (was a private external) ___block_descriptor_40_e8_32s_e46_v24?0"ICStoreMediaResponseItem"8"NSError"16l
+00000001dc31ed08 (__AUTH_CONST,__const) non-external (was a private external) ___block_descriptor_40_e8_32s_e49_v24?0"ICSecureKeyDeliveryResponse"8"NSError"16l
+00000001dc31ea98 (__AUTH_CONST,__const) non-external (was a private external) ___block_descriptor_40_e8_32w_e30_v28?0"NSURL"8B16"NSError"20l
+00000001dc31eac8 (__AUTH_CONST,__const) non-external (was a private external) ___block_descriptor_40_e8_32w_e35_v24?0"ICURLResponse"8"NSError"16l
+00000001dc31eaf8 (__AUTH_CONST,__const) non-external (was a private external) ___block_descriptor_40_e8__e5_v8?0l
+00000001dc31ea68 (__AUTH_CONST,__const) non-external (was a private external) ___block_descriptor_48_e8_32bs40s_e17_v16?0"NSError"8l
+00000001dc31ea18 (__AUTH_CONST,__const) non-external (was a private external) ___block_descriptor_48_e8_32r_e5_v8?0l
+00000001dc31eb28 (__AUTH_CONST,__const) non-external (was a private external) ___block_descriptor_48_e8_32s40bs_e28_v24?0"NSData"8"NSError"16l
+00000001dc31e958 (__AUTH_CONST,__const) non-external (was a private external) ___block_descriptor_48_e8_32s40bs_e37_v24?0"AMSDialogResult"8"NSError"16l
+00000001dc31eca8 (__AUTH_CONST,__const) non-external (was a private external) ___block_descriptor_48_e8_32s40bs_e48_v24?0"BLDownloadManifestResponse"8"NSError"16l
+00000001dc31ed38 (__AUTH_CONST,__const) non-external (was a private external) ___block_descriptor_48_e8_32s40s_e20_v24?08"NSError"16l
+00000001dc31ec78 (__AUTH_CONST,__const) non-external (was a private external) ___block_descriptor_48_e8_32s40s_e28_v24?0"NSData"8"NSError"16l
+00000001dc31ed68 (__AUTH_CONST,__const) non-external (was a private external) ___block_descriptor_48_e8_32s40s_e30_v24?0"ICURLBag"8"NSError"16l
+00000001dc31ec48 (__AUTH_CONST,__const) non-external (was a private external) ___block_descriptor_48_e8_32s40s_e35_v24?0"ICURLResponse"8"NSError"16l
+00000001dc31e8f8 (__AUTH_CONST,__const) non-external (was a private external) ___block_descriptor_56_e8_32s40bs48s_e5_v8?0l
+00000001dc31ebc8 (__AUTH_CONST,__const) non-external (was a private external) ___block_descriptor_57_e8_32bs40s48s_e5_v8?0l
+00000001dc31eb78 (__AUTH_CONST,__const) non-external (was a private external) ___block_descriptor_64_e8_32s40s48s56bs_e5_v8?0l
+00000001dc31e9b8 (__AUTH_CONST,__const) non-external (was a private external) ___block_descriptor_80_e8_32s40s48s56bs64s72s_e8_v12?0B8l
+00000001dc31e8a8 (__AUTH_CONST,__const) non-external ___block_literal_global
+00000001dc31ea48 (__AUTH_CONST,__const) non-external ___block_literal_global
+00000001dc31eb58 (__AUTH_CONST,__const) non-external ___block_literal_global
+00000001dc31ec28 (__AUTH_CONST,__const) non-external ___block_literal_global
+00000001dc31eba8 (__AUTH_CONST,__const) non-external ___block_literal_global.17
+00000001990c3874 (__TEXT,__text) non-external (was a private external) ___copy_helper_block_e8_
+00000001990bf394 (__TEXT,__text) non-external (was a private external) ___copy_helper_block_e8_32b
+00000001990c200c (__TEXT,__text) non-external (was a private external) ___copy_helper_block_e8_32b40s
+00000001990c478c (__TEXT,__text) non-external (was a private external) ___copy_helper_block_e8_32b40s48s
+00000001990c0968 (__TEXT,__text) non-external (was a private external) ___copy_helper_block_e8_32r
+00000001990c4fa0 (__TEXT,__text) non-external (was a private external) ___copy_helper_block_e8_32s
+00000001990bfad8 (__TEXT,__text) non-external (was a private external) ___copy_helper_block_e8_32s40b
+00000001990bf3ac (__TEXT,__text) non-external (was a private external) ___copy_helper_block_e8_32s40b48s
+00000001990c6244 (__TEXT,__text) non-external (was a private external) ___copy_helper_block_e8_32s40s
+00000001990c44b0 (__TEXT,__text) non-external (was a private external) ___copy_helper_block_e8_32s40s48s56b
+00000001990c033c (__TEXT,__text) non-external (was a private external) ___copy_helper_block_e8_32s40s48s56b64s72s
+00000001990c22a8 (__TEXT,__text) non-external (was a private external) ___copy_helper_block_e8_32w
+00000001990c3878 (__TEXT,__text) non-external (was a private external) ___destroy_helper_block_e8_
+00000001990c0978 (__TEXT,__text) non-external (was a private external) ___destroy_helper_block_e8_32r
+00000001990bf3a4 (__TEXT,__text) non-external (was a private external) ___destroy_helper_block_e8_32s
+00000001990bfb20 (__TEXT,__text) non-external (was a private external) ___destroy_helper_block_e8_32s40s
+00000001990bf3fc (__TEXT,__text) non-external (was a private external) ___destroy_helper_block_e8_32s40s48s
+00000001990c4508 (__TEXT,__text) non-external (was a private external) ___destroy_helper_block_e8_32s40s48s56s
+00000001990c03a4 (__TEXT,__text) non-external (was a private external) ___destroy_helper_block_e8_32s40s48s56s64s72s
+00000001990c22b4 (__TEXT,__text) non-external (was a private external) ___destroy_helper_block_e8_32w
+00000001990c1b04 (__TEXT,__text) non-external ___getAMSSystemAlertDialogTaskClass_block_invoke
+00000001990c98dc (__TEXT,__text) non-external ___getAMSSystemAlertDialogTaskClass_block_invoke.cold.1
+00000001990c19c8 (__TEXT,__text) non-external ___getAMSUIAlertDialogTaskClass_block_invoke
+00000001990c98b4 (__TEXT,__text) non-external ___getAMSUIAlertDialogTaskClass_block_invoke.cold.1
+00000001990c188c (__TEXT,__text) non-external ___getAMSUIAuthenticateTaskClass_block_invoke
+00000001990c988c (__TEXT,__text) non-external ___getAMSUIAuthenticateTaskClass_block_invoke.cold.1
+00000001990c1c40 (__TEXT,__text) non-external ___getAMSUIEngagementTaskClass_block_invoke
+00000001990c9904 (__TEXT,__text) non-external ___getAMSUIEngagementTaskClass_block_invoke.cold.1
+00000001990c2c88 (__TEXT,__text) non-external ___getMPMediaItemClass_block_invoke
+00000001990c992c (__TEXT,__text) non-external ___getMPMediaItemClass_block_invoke.cold.1
+00000001990c30a0 (__TEXT,__text) non-external ___getMPMediaItemPropertyBitRateSymbolLoc_block_invoke
+00000001990c3214 (__TEXT,__text) non-external ___getMPMediaItemPropertyHLSOfflinePlaybackKeysSymbolLoc_block_invoke
+00000001990c3388 (__TEXT,__text) non-external ___getMPMediaItemPropertyHLSPlaylistURLSymbolLoc_block_invoke
+00000001990c3670 (__TEXT,__text) non-external ___getMPMediaItemPropertyPersistentIDSymbolLoc_block_invoke
+00000001990c34fc (__TEXT,__text) non-external ___getMPMediaItemPropertyStoreRedownloadParametersSymbolLoc_block_invoke
+00000001990c2dc4 (__TEXT,__text) non-external ___getMPMediaPlaylistClass_block_invoke
+00000001990c9954 (__TEXT,__text) non-external ___getMPMediaPlaylistClass_block_invoke.cold.1
+00000001990c2f00 (__TEXT,__text) non-external ___getMPMediaPropertyPredicateClass_block_invoke
+00000001990c997c (__TEXT,__text) non-external ___getMPMediaPropertyPredicateClass_block_invoke.cold.1
+00000001990c2f58 (__TEXT,__text) non-external ___getMPMediaQueryClass_block_invoke
+00000001990c99a4 (__TEXT,__text) non-external ___getMPMediaQueryClass_block_invoke.cold.1
+00000001990c0d7c (__TEXT,__text) non-external ___getUIApplicationClass_block_invoke
+00000001990c9778 (__TEXT,__text) non-external ___getUIApplicationClass_block_invoke.cold.1
+00000001990c126c (__TEXT,__text) non-external ___getUINavigationControllerClass_block_invoke
+00000001990c9818 (__TEXT,__text) non-external ___getUINavigationControllerClass_block_invoke.cold.1
+00000001990c0eb8 (__TEXT,__text) non-external ___getUISceneClass_block_invoke
+00000001990c97a0 (__TEXT,__text) non-external ___getUISceneClass_block_invoke.cold.1
+00000001990c13a8 (__TEXT,__text) non-external ___getUITabBarControllerClass_block_invoke
+00000001990c9840 (__TEXT,__text) non-external ___getUITabBarControllerClass_block_invoke.cold.1
+00000001990c1130 (__TEXT,__text) non-external ___getUIViewControllerClass_block_invoke
+00000001990c97f0 (__TEXT,__text) non-external ___getUIViewControllerClass_block_invoke.cold.1
+00000001990c0ff4 (__TEXT,__text) non-external ___getUIWindowSceneClass_block_invoke
+00000001990c97c8 (__TEXT,__text) non-external ___getUIWindowSceneClass_block_invoke.cold.1
+00000001990c14f0 (__TEXT,__text) non-external ___getUIWindowSceneSessionRoleApplicationSymbolLoc_block_invoke
+                 (undefined) external ___kCFBooleanTrue (from CoreFoundation)
+                 (undefined) external ___objc_personality_v0 (from libobjc)
+                 (undefined) external ___stack_chk_fail (from libSystem)
+                 (undefined) external ___stack_chk_guard (from libSystem)
+00000001d75c1248 (__DATA,__bss) non-external __deviceGUID.__deviceGUID
+00000001d75c1250 (__DATA,__bss) non-external __deviceGUID.onceToken
+                 (undefined) external __dispatch_main_q (from libSystem)
+                 (undefined) external __objc_empty_cache (from libobjc)
+                 (undefined) external __os_activity_create (from libSystem)
+                 (undefined) external __os_activity_current (from libSystem)
+                 (undefined) external __os_activity_none (from libSystem)
+                 (undefined) external __os_log_impl (from libSystem)
+                 (undefined) external __sl_dlopen (from SoftLinking)
+                 (undefined) external _abort_report_np (from libSystem)
+00000001990cbd16 (__TEXT,__dlopen_cstrs) non-external _audit_stringAppleMediaServicesUI
+00000001990cbd39 (__TEXT,__dlopen_cstrs) non-external _audit_stringMediaPlayer
+00000001990cbd02 (__TEXT,__dlopen_cstrs) non-external _audit_stringUIKit
+00000001d75c1190 (__DATA,__bss) non-external _bl_sharedHLSKeyRequestOperationQueue.sOnceToken
+00000001d75c1188 (__DATA,__bss) non-external _bl_sharedHLSKeyRequestOperationQueue.sOperationQueue
+                 (undefined) external _dispatch_async (from libSystem)
+                 (undefined) external _dispatch_once (from libSystem)
+                 (undefined) external _dispatch_queue_attr_make_with_autorelease_frequency (from libSystem)
+                 (undefined) external _dispatch_queue_create (from libSystem)
+                 (undefined) external _dlerror (from libSystem)
+                 (undefined) external _dlsym (from libSystem)
+                 (undefined) external _free (from libSystem)
+00000001990c1a20 (__TEXT,__text) non-external (was a private external) _getAMSSystemAlertDialogTaskClass
+00000001d75c11f0 (__DATA,__bss) non-external _getAMSSystemAlertDialogTaskClass.softClass
+00000001990c18e4 (__TEXT,__text) non-external (was a private external) _getAMSUIAlertDialogTaskClass
+00000001d75c11e8 (__DATA,__bss) non-external _getAMSUIAlertDialogTaskClass.softClass
+00000001990c17a8 (__TEXT,__text) non-external (was a private external) _getAMSUIAuthenticateTaskClass
+00000001d75c11e0 (__DATA,__bss) non-external _getAMSUIAuthenticateTaskClass.softClass
+00000001990c1b5c (__TEXT,__text) non-external (was a private external) _getAMSUIEngagementTaskClass
+00000001d75c11f8 (__DATA,__bss) non-external _getAMSUIEngagementTaskClass.softClass
+00000001990c2ba4 (__TEXT,__text) non-external (was a private external) _getMPMediaItemClass
+00000001d75c1200 (__DATA,__bss) non-external _getMPMediaItemClass.softClass
+00000001990c30f0 (__TEXT,__text) non-external (was a private external) _getMPMediaItemPropertyBitRate
+00000001990c99cc (__TEXT,__text) non-external _getMPMediaItemPropertyBitRate.cold.1
+00000001990c2fb0 (__TEXT,__text) non-external (was a private external) _getMPMediaItemPropertyBitRateSymbolLoc
+00000001d75c1218 (__DATA,__bss) non-external _getMPMediaItemPropertyBitRateSymbolLoc.ptr
+00000001990c3264 (__TEXT,__text) non-external (was a private external) _getMPMediaItemPropertyHLSOfflinePlaybackKeys
+00000001990c99f0 (__TEXT,__text) non-external _getMPMediaItemPropertyHLSOfflinePlaybackKeys.cold.1
+00000001990c3124 (__TEXT,__text) non-external (was a private external) _getMPMediaItemPropertyHLSOfflinePlaybackKeysSymbolLoc
+00000001d75c1220 (__DATA,__bss) non-external _getMPMediaItemPropertyHLSOfflinePlaybackKeysSymbolLoc.ptr
+00000001990c33d8 (__TEXT,__text) non-external (was a private external) _getMPMediaItemPropertyHLSPlaylistURL
+00000001990c9a14 (__TEXT,__text) non-external _getMPMediaItemPropertyHLSPlaylistURL.cold.1
+00000001990c3298 (__TEXT,__text) non-external (was a private external) _getMPMediaItemPropertyHLSPlaylistURLSymbolLoc
+00000001d75c1228 (__DATA,__bss) non-external _getMPMediaItemPropertyHLSPlaylistURLSymbolLoc.ptr
+00000001990c36c0 (__TEXT,__text) non-external (was a private external) _getMPMediaItemPropertyPersistentID
+00000001990c9a5c (__TEXT,__text) non-external _getMPMediaItemPropertyPersistentID.cold.1
+00000001990c3580 (__TEXT,__text) non-external (was a private external) _getMPMediaItemPropertyPersistentIDSymbolLoc
+00000001d75c1238 (__DATA,__bss) non-external _getMPMediaItemPropertyPersistentIDSymbolLoc.ptr
+00000001990c354c (__TEXT,__text) non-external (was a private external) _getMPMediaItemPropertyStoreRedownloadParameters
+00000001990c9a38 (__TEXT,__text) non-external _getMPMediaItemPropertyStoreRedownloadParameters.cold.1
+00000001990c340c (__TEXT,__text) non-external (was a private external) _getMPMediaItemPropertyStoreRedownloadParametersSymbolLoc
+00000001d75c1230 (__DATA,__bss) non-external _getMPMediaItemPropertyStoreRedownloadParametersSymbolLoc.ptr
+00000001990c2ce0 (__TEXT,__text) non-external (was a private external) _getMPMediaPlaylistClass
+00000001d75c1208 (__DATA,__bss) non-external _getMPMediaPlaylistClass.softClass
+00000001990c2e1c (__TEXT,__text) non-external (was a private external) _getMPMediaPropertyPredicateClass
+00000001d75c1210 (__DATA,__bss) non-external _getMPMediaPropertyPredicateClass.softClass
+00000001990bea24 (__TEXT,__text) non-external (was a private external) _getMPMediaQueryClass
+00000001d9825920 (__DATA_DIRTY,__bss) non-external _getMPMediaQueryClass.softClass
+00000001990c0c98 (__TEXT,__text) non-external (was a private external) _getUIApplicationClass
+00000001d75c11a0 (__DATA,__bss) non-external _getUIApplicationClass.softClass
+00000001990c1188 (__TEXT,__text) non-external (was a private external) _getUINavigationControllerClass
+00000001d75c11c0 (__DATA,__bss) non-external _getUINavigationControllerClass.softClass
+00000001990c0dd4 (__TEXT,__text) non-external (was a private external) _getUISceneClass
+00000001d75c11a8 (__DATA,__bss) non-external _getUISceneClass.softClass
+00000001990c12c4 (__TEXT,__text) non-external (was a private external) _getUITabBarControllerClass
+00000001d75c11c8 (__DATA,__bss) non-external _getUITabBarControllerClass.softClass
+00000001990c104c (__TEXT,__text) non-external (was a private external) _getUIViewControllerClass
+00000001d75c11b8 (__DATA,__bss) non-external _getUIViewControllerClass.softClass
+00000001990c0f10 (__TEXT,__text) non-external (was a private external) _getUIWindowSceneClass
+00000001d75c11b0 (__DATA,__bss) non-external _getUIWindowSceneClass.softClass
+00000001990c1540 (__TEXT,__text) non-external (was a private external) _getUIWindowSceneSessionRoleApplication
+00000001990c9868 (__TEXT,__text) non-external _getUIWindowSceneSessionRoleApplication.cold.1
+00000001990c1400 (__TEXT,__text) non-external (was a private external) _getUIWindowSceneSessionRoleApplicationSymbolLoc
+00000001d75c11d0 (__DATA,__bss) non-external _getUIWindowSceneSessionRoleApplicationSymbolLoc.ptr
+                 (undefined) external _objc_alloc (from libobjc)
+                 (undefined) external _objc_alloc_init (from libobjc)
+                 (undefined) external _objc_autoreleaseReturnValue (from libobjc)
+                 (undefined) external _objc_copyWeak (from libobjc)
+                 (undefined) external _objc_destroyWeak (from libobjc)
+                 (undefined) external _objc_enumerationMutation (from libobjc)
+                 (undefined) external _objc_getClass (from libobjc)
+                 (undefined) external _objc_getProperty (from libobjc)
+                 (undefined) external _objc_initWeak (from libobjc)
+                 (undefined) external _objc_loadWeakRetained (from libobjc)
+                 (undefined) external _objc_msgSend (from libobjc)
+                 (undefined) external _objc_msgSendSuper2 (from libobjc)
+                 (undefined) external _objc_opt_class (from libobjc)
+                 (undefined) external _objc_opt_isKindOfClass (from libobjc)
+                 (undefined) external _objc_opt_new (from libobjc)
+                 (undefined) external _objc_opt_respondsToSelector (from libobjc)
+                 (undefined) external _objc_release (from libobjc)
+                 (undefined) external _objc_retain (from libobjc)
+                 (undefined) external _objc_retainAutorelease (from libobjc)
+                 (undefined) external _objc_retainAutoreleaseReturnValue (from libobjc)
+                 (undefined) external _objc_retainAutoreleasedReturnValue (from libobjc)
+                 (undefined) external _objc_retainBlock (from libobjc)
+                 (undefined) external _objc_setProperty_nonatomic_copy (from libobjc)
+                 (undefined) external _objc_storeStrong (from libobjc)
+                 (undefined) external _objc_storeWeak (from libobjc)
+                 (undefined) external _os_activity_apply (from libSystem)
+                 (undefined) external _os_log_type_enabled (from libSystem)
+00000001d75c1240 (__DATA,__bss) non-external _sharedInstance.__sharedInstance
+00000001d9825928 (__DATA_DIRTY,__bss) non-external _sharedInstance.onceToken
+00000001d9825930 (__DATA_DIRTY,__bss) non-external _sharedInstance.onceToken
+00000001d9825938 (__DATA_DIRTY,__bss) non-external _sharedInstance.sSharedInstance
