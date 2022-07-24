@@ -50,6 +50,7 @@ pub struct ParseBaseFilesystem {
 }
 
 const NM_TEXTFILE_NAME: &str = "nm.txt";
+const OTOOL_TEXTFILE_NAME: &str = "otool.txt";
 
 impl ParseBaseFilesystem {
     pub fn new<P: AsRef<Path>>(location: P) -> ParseBaseFilesystem {
@@ -64,7 +65,7 @@ impl ParseBaseFilesystem {
         }
     }
 
-    pub fn traverse<P: AsRef<Path>, Q: AsRef<Path>>(&self, result_location: P, base_location: Q) {
+    pub fn traverse<P: AsRef<Path>, Q: AsRef<Path>>(&self, result_location: P, unique_folder: Option<&str>, base_location: Q) {
         let mut macho_paths: Vec<PathBuf> = Vec::new();
         macho_paths.append(&mut location::walk_directory(&self.framework_path, is_file_macho));
         macho_paths.append(&mut location::walk_directory(&self.privateframework_path, is_file_macho));
@@ -73,13 +74,22 @@ impl ParseBaseFilesystem {
         let macho_paths = macho_paths;
         for macho_path in macho_paths.iter() {
             let relative_location = macho_path.strip_prefix(base_location.as_ref()).unwrap();
-            let result_dir = result_location.as_ref().join(relative_location);
+            let result_dir: PathBuf = if let Some(unique_folder) = unique_folder {
+                result_location.as_ref().join(unique_folder).join(relative_location)
+            } else {
+                result_location.as_ref().join(relative_location)
+            };
 
+            println!("Parsing {:?}", macho_path);
             fs::create_dir_all(&result_dir).expect("Unable to create directory");
 
             let mut nm_textfile = File::create(result_dir.as_path().join(NM_TEXTFILE_NAME)).expect("Unable to create file");
             let nm = program::NmLibrarySymbols::new(&macho_path);
             nm_textfile.write(nm.raw_output.as_bytes()).expect("Unable to save log information into file");
+
+            let mut otool_textfile = File::create(result_dir.as_path().join(OTOOL_TEXTFILE_NAME)).expect("Unable to create file");
+            let otool = program::OtoolLibrarySymbols::new(&macho_path);
+            otool_textfile.write(otool.raw_output.as_bytes()).expect("Unable to save log information into file");
 
         }
     }

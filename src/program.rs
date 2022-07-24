@@ -135,3 +135,27 @@ impl NmLibrarySymbols {
         String::from_utf8(output.stdout).expect("Unable to save output")
     }
 }
+
+#[derive(Debug)]
+pub struct OtoolLibrarySymbols {
+    pub raw_output: String
+}
+
+impl OtoolLibrarySymbols {
+    pub fn new<P: AsRef<Path>>(macho_path: P) -> OtoolLibrarySymbols {
+        let raw_output = OtoolLibrarySymbols::launch_program(macho_path);
+
+        OtoolLibrarySymbols {
+            raw_output
+        }
+    }
+
+    fn launch_program<P: AsRef<Path>>(macho_path: P) -> String {
+        let output = Command::new("otool")
+        .args(["-L", macho_path.as_ref().to_str().expect("Unable to convert path to string")])
+        .output()
+        .expect("Unable to launch 'otool' application");
+
+        String::from_utf8(output.stdout).expect("Unable to save output")
+    }
+}

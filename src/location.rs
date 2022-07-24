@@ -65,6 +65,7 @@ impl BaseLocation {
 pub struct ResultsLocation {
     pub shared_cache_path: PathBuf,
     pub unique_version_path: PathBuf,
+    pub temp_path: PathBuf,
     pub temp_shared_cache_path: PathBuf
 }
 
@@ -78,11 +79,13 @@ impl ResultsLocation {
         let unique_version_path = arguments.path_from_results(Path::new(system_version.as_str())).join(version_folder);
         let shared_cache_path = unique_version_path.join(SHARED_CACHE_DIR);
 
-        let temp_shared_cache_path = unique_version_path.join(TEMP_DIR).join(SHARED_CACHE_DIR);
+        let temp_path =  unique_version_path.join(TEMP_DIR);
+        let temp_shared_cache_path = temp_path.join(SHARED_CACHE_DIR);
 
         ResultsLocation {
             shared_cache_path,
             unique_version_path,
+            temp_path,
             temp_shared_cache_path
         }
     }
