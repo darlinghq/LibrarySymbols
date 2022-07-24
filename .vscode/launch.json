@@ -19,27 +19,8 @@
                     "kind": "bin"
                 }
             },
-            "args": [],
+            "args": ["${workspaceFolder}/symbols"],
             "cwd": "${workspaceFolder}"
         },
-        {
-            "type": "lldb",
-            "request": "launch",
-            "name": "Debug unit tests in executable 'library_symbols'",
-            "cargo": {
-                "args": [
-                    "test",
-                    "--no-run",
-                    "--bin=library_symbols",
-                    "--package=library_symbols"
-                ],
-                "filter": {
-                    "name": "library_symbols",
-                    "kind": "bin"
-                }
-            },
-            "args": [],
-            "cwd": "${workspaceFolder}"
-        }
     ]
 }
