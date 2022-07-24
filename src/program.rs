@@ -1,4 +1,4 @@
-use std::{process::{Command, Output}, fs::{read_dir, ReadDir, File}, path::{Path, PathBuf}, io::Read};
+use std::{process::{Command, Output}, fs::{read_dir, ReadDir, File}, path::{Path, PathBuf}, io::Read, fmt::format};
 
 use crate::location::{BaseLocation, ResultsLocation};
 
@@ -142,20 +142,50 @@ pub struct OtoolLibrarySymbols {
 }
 
 impl OtoolLibrarySymbols {
-    pub fn new<P: AsRef<Path>>(macho_path: P) -> OtoolLibrarySymbols {
-        let raw_output = OtoolLibrarySymbols::launch_program(macho_path);
+    pub fn new<P: AsRef<Path>>(macho_path: P, whoami: &WhoAmIUserName) -> OtoolLibrarySymbols {
+        let raw_output = OtoolLibrarySymbols::launch_program(macho_path,whoami);
 
         OtoolLibrarySymbols {
             raw_output
         }
     }
 
-    fn launch_program<P: AsRef<Path>>(macho_path: P) -> String {
+    fn launch_program<P: AsRef<Path>>(macho_path: P, whoami: &WhoAmIUserName) -> String {
         let output = Command::new("otool")
         .args(["-L", macho_path.as_ref().to_str().expect("Unable to convert path to string")])
         .output()
         .expect("Unable to launch 'otool' application");
 
-        String::from_utf8(output.stdout).expect("Unable to save output")
+        OtoolLibrarySymbols::mask_user_account(String::from_utf8(output.stdout).expect("Unable to save output"),whoami)
+    }
+
+    fn mask_user_account(value: String, whoami: &WhoAmIUserName) -> String {
+        value.replace(whoami.macos_users_dir.as_str(), "/Users/[Removed Username]")
+    }
+}
+
+#[derive(Debug)]
+pub struct WhoAmIUserName {
+    pub username: String,
+    pub macos_users_dir: String
+}
+
+impl WhoAmIUserName {
+    pub fn new() -> WhoAmIUserName {
+        let username = WhoAmIUserName::launch_program();
+        let macos_users_dir = format!("/Users/{}",username);
+
+        WhoAmIUserName {
+            username,
+            macos_users_dir
+        }
+    }
+
+    fn launch_program() -> String {
+        let output = Command::new("whoami")
+        .output()
+        .expect("Unable to launch 'whoami' application");
+
+        parse_stdout(output).first().expect("Unable to obtain value").to_string()
     }
 }

@@ -65,7 +65,7 @@ impl ParseBaseFilesystem {
         }
     }
 
-    pub fn traverse<P: AsRef<Path>, Q: AsRef<Path>>(&self, result_location: P, unique_folder: Option<&str>, base_location: Q) {
+    pub fn traverse<P: AsRef<Path>, Q: AsRef<Path>>(&self, result_location: P, unique_folder: Option<&str>, base_location: Q, whoami: &program::WhoAmIUserName) {
         let mut macho_paths: Vec<PathBuf> = Vec::new();
         macho_paths.append(&mut location::walk_directory(&self.framework_path, is_file_macho));
         macho_paths.append(&mut location::walk_directory(&self.privateframework_path, is_file_macho));
@@ -88,7 +88,7 @@ impl ParseBaseFilesystem {
             nm_textfile.write(nm.raw_output.as_bytes()).expect("Unable to save log information into file");
 
             let mut otool_textfile = File::create(result_dir.as_path().join(OTOOL_TEXTFILE_NAME)).expect("Unable to create file");
-            let otool = program::OtoolLibrarySymbols::new(&macho_path);
+            let otool = program::OtoolLibrarySymbols::new(&macho_path,whoami);
             otool_textfile.write(otool.raw_output.as_bytes()).expect("Unable to save log information into file");
 
         }
