@@ -1,4 +1,4 @@
-use std::{process::{Command, Output}, fs::{read_dir, ReadDir, File}, path::{Path, PathBuf}, io::Read, fmt::format};
+use std::{process::{Command, Output}, fs::{read_dir, ReadDir, File}, path::{Path, PathBuf}, io::Read};
 
 use crate::location::{BaseLocation, ResultsLocation};
 
