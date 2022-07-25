@@ -6,11 +6,10 @@ mod symbols;
 
 use std::path::Path;
 
-fn analyse_system_path<P: AsRef<Path>>(path: &P, results_location: &location::ResultsLocation, whoami_username: &program::WhoAmIUserName, unique_folder :Option<&str>) {
+fn analyse_system_path<P: AsRef<Path>,Q: AsRef<Path>>(path: &P, whoami_username: &program::WhoAmIUserName, result_location: &Q, unique_folder :Option<&str>) {
     let parse_filesystem_symbols_list = symbols::ParseBaseFilesystem::new(path);
     for parse_filesystem_symbols in parse_filesystem_symbols_list {
-        
-        parse_filesystem_symbols.traverse(&results_location.shared_cache_path, unique_folder, path, &whoami_username);
+        parse_filesystem_symbols.traverse(result_location, unique_folder, path, &whoami_username);
     }
 }
 
@@ -28,14 +27,14 @@ fn main() {
     
     for path in dyld_shared_cache_extractor.extracted_paths.iter() {
         let shared_cache_folder = path.as_path().file_name().expect("Unable to obtain shared cache folder name").to_str();
-        analyse_system_path(path,&results_location,&whoami_username,shared_cache_folder);
+        analyse_system_path(path,&whoami_username,&results_location.shared_cache_path,shared_cache_folder);
     }
     clean::Cleanup::remove_temp(&results_location);
 
     {
         let path = Path::new(arguments.base_path.as_str());
         let unique_folder = Some("standard");
-        analyse_system_path(&path,&results_location,&whoami_username,unique_folder);
+        analyse_system_path(&path,&whoami_username,&results_location.unique_version_path,unique_folder);
         clean::Cleanup::remove_temp(&results_location);
     }
 
