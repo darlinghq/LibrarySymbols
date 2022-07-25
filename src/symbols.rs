@@ -5,6 +5,7 @@ use crate::{location, program};
 const SYSTEM_LIBRARY_FRAMEWORK_PATH: &str = "System/Library/Frameworks";
 const SYSTEM_LIBRARY_PRIVATEFRAMEWORK_PATH: &str = "System/Library/PrivateFrameworks";
 const USR_LIB_PATH: &str = "usr/lib";
+const SYSTEM_IOSSUPPORT: &str = "System/iOSSupport";
 
 const MACHO_32BIT_MH_MAGIC: u32 = 0xfeedface;
 const MACHO_32BIT_MH_CIGAM: u32 = 0xcefaedfe;
@@ -53,11 +54,24 @@ const NM_TEXTFILE_NAME: &str = "nm.txt";
 const OTOOL_TEXTFILE_NAME: &str = "otool.txt";
 
 impl ParseBaseFilesystem {
-    pub fn new<P: AsRef<Path>>(location: P) -> ParseBaseFilesystem {
+    pub fn new<P: AsRef<Path>>(location: &P) -> Vec<ParseBaseFilesystem> {
+        let mut base_filesystems: Vec<ParseBaseFilesystem> = Vec::new();
+        base_filesystems.push(ParseBaseFilesystem::build_parse_base_filesystem(location));
+        
+        let iossupport_path = location.as_ref().join(SYSTEM_IOSSUPPORT);
+        if iossupport_path.is_dir() {
+            println!("Found iOSSupport Directory");
+            base_filesystems.push(ParseBaseFilesystem::build_parse_base_filesystem(iossupport_path));
+        }
+
+        base_filesystems
+    }
+
+    fn build_parse_base_filesystem<P: AsRef<Path>>(location: P) -> ParseBaseFilesystem {
         let framework_path = location.as_ref().join(SYSTEM_LIBRARY_FRAMEWORK_PATH);
         let privateframework_path = location.as_ref().join(SYSTEM_LIBRARY_PRIVATEFRAMEWORK_PATH);
         let usr_lib_path = location.as_ref().join(USR_LIB_PATH);
-        
+
         ParseBaseFilesystem {
             framework_path,
             privateframework_path,
