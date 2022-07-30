@@ -1,0 +1,434 @@
+
+/System/Library/PrivateFrameworks/DeviceCheckInternal.framework/devicecheckd (for architecture x86_64):
+000000010000519a (__TEXT,__text) non-external +[DCXPCListener sharedInstance]
+00000001000062d0 (__TEXT,__text) non-external -[DCClientHandler .cxx_destruct]
+0000000100005c51 (__TEXT,__text) non-external -[DCClientHandler _generateAppIDFromCurrentConnection]
+0000000100005bb6 (__TEXT,__text) non-external -[DCClientHandler _isSupported]
+00000001000067f1 (__TEXT,__text) non-external -[DCClientHandler _isSupported].cold.1
+0000000100005ef8 (__TEXT,__text) non-external -[DCClientHandler _stringValueForEntitlement:]
+00000001000060b4 (__TEXT,__text) non-external -[DCClientHandler appAttestationAssert:keyId:clientDataHash:completion:]
+0000000100005fec (__TEXT,__text) non-external -[DCClientHandler appAttestationAttestKey:keyId:clientDataHash:completion:]
+0000000100005f5c (__TEXT,__text) non-external -[DCClientHandler appAttestationCreateKey:completion:]
+000000010000617c (__TEXT,__text) non-external -[DCClientHandler appAttestationIsSupportedWithCompletion:]
+000000010000684b (__TEXT,__text) non-external -[DCClientHandler appAttestationIsSupportedWithCompletion:].cold.1
+00000001000068bb (__TEXT,__text) non-external -[DCClientHandler appAttestationIsSupportedWithCompletion:].cold.2
+000000010000692a (__TEXT,__text) non-external -[DCClientHandler appAttestationIsSupportedWithCompletion:].cold.3
+0000000100005956 (__TEXT,__text) non-external -[DCClientHandler baaSignatureForData:completion:]
+000000010000678a (__TEXT,__text) non-external -[DCClientHandler baaSignatureForData:completion:].cold.1
+00000001000067be (__TEXT,__text) non-external -[DCClientHandler baaSignatureForData:completion:].cold.2
+00000001000056c9 (__TEXT,__text) non-external -[DCClientHandler baaSignaturesForData:completion:]
+0000000100006723 (__TEXT,__text) non-external -[DCClientHandler baaSignaturesForData:completion:].cold.1
+0000000100006757 (__TEXT,__text) non-external -[DCClientHandler baaSignaturesForData:completion:].cold.2
+00000001000054e2 (__TEXT,__text) non-external -[DCClientHandler fetchOpaqueBlobWithCompletion:]
+00000001000066ef (__TEXT,__text) non-external -[DCClientHandler fetchOpaqueBlobWithCompletion:].cold.1
+0000000100005488 (__TEXT,__text) non-external -[DCClientHandler initWithConnection:]
+0000000100005b68 (__TEXT,__text) non-external -[DCClientHandler isSupportedDeviceWithCompletion:]
+0000000100005478 (__TEXT,__text) non-external -[DCXPCListener .cxx_destruct]
+000000010000509d (__TEXT,__text) non-external -[DCXPCListener init]
+00000001000051ef (__TEXT,__text) non-external -[DCXPCListener listener:shouldAcceptNewConnection:]
+0000000100005123 (__TEXT,__text) non-external -[DCXPCListener start]
+0000000100007c34 (__TEXT,__gcc_except_tab) non-external GCC_except_table4
+                 (undefined) external _AppAttest_AppAttestation_Assert (from AppAttestInternal)
+                 (undefined) external _AppAttest_AppAttestation_AttestKey (from AppAttestInternal)
+                 (undefined) external _AppAttest_AppAttestation_CreateKey (from AppAttestInternal)
+                 (undefined) external _AppAttest_AppAttestation_IsEligibleApplication (from AppAttestInternal)
+                 (undefined) external _AppAttest_AppAttestation_IsSupported (from AppAttestInternal)
+                 (undefined) external _CFRelease (from CoreFoundation)
+                 (undefined) external _CFRunLoopRun (from CoreFoundation)
+                 (undefined) external _DCBAASignerErrorDomain (from DeviceCheck)
+000000010000639a (__TEXT,__text) external _EnterSandbox
+0000000100006999 (__TEXT,__text) non-external _EnterSandbox.cold.1
+00000001000069ff (__TEXT,__text) non-external _EnterSandbox.cold.2
+0000000100006a67 (__TEXT,__text) non-external _EnterSandbox.cold.3
+0000000100006acf (__TEXT,__text) non-external _EnterSandbox.cold.4
+0000000100006b37 (__TEXT,__text) non-external _EnterSandbox.cold.5
+0000000100006b9f (__TEXT,__text) non-external _EnterSandbox.cold.6
+0000000100006c07 (__TEXT,__text) non-external _EnterSandbox.cold.7
+0000000100006c6b (__TEXT,__text) non-external _EnterSandbox.cold.8
+00000001000080c0 (__DATA_CONST,__const) external _KAAAppAttestationEnvironmentDevelopment
+00000001000080b8 (__DATA_CONST,__const) external _KAAAppAttestationEnvironmentProduction
+                 (undefined) external _OBJC_CLASS_$_AppAttestKeychainCleanupController (from AppAttestInternal)
+000000010000ce58 (__DATA,__objc_data) external _OBJC_CLASS_$_DCClientHandler
+                 (undefined) external _OBJC_CLASS_$_DCContext (from DeviceCheck)
+                 (undefined) external _OBJC_CLASS_$_DCCryptoProxyImpl (from DeviceCheckInternal)
+                 (undefined) external _OBJC_CLASS_$_DCDDeviceMetadata (from DeviceCheckInternal)
+                 (undefined) external _OBJC_CLASS_$_DCDeviceMetadataInterface (from DeviceCheck)
+                 (undefined) external _OBJC_CLASS_$_DCXPCActivityController (from DeviceCheckInternal)
+000000010000cde0 (__DATA,__objc_data) external _OBJC_CLASS_$_DCXPCListener
+                 (undefined) external _OBJC_CLASS_$_NSError (from Foundation)
+                 (undefined) external _OBJC_CLASS_$_NSObject (from libobjc)
+                 (undefined) external _OBJC_CLASS_$_NSString (from Foundation)
+                 (undefined) external _OBJC_CLASS_$_NSUserDefaults (from CoreFoundation)
+                 (undefined) external _OBJC_CLASS_$_NSXPCListener (from Foundation)
+000000010000cdd8 (__DATA,__objc_ivar) non-external (was a private external) _OBJC_IVAR_$_DCClientHandler._connection
+000000010000cdd0 (__DATA,__objc_ivar) non-external (was a private external) _OBJC_IVAR_$_DCXPCListener._listener
+000000010000ce30 (__DATA,__objc_data) external _OBJC_METACLASS_$_DCClientHandler
+000000010000ce08 (__DATA,__objc_data) external _OBJC_METACLASS_$_DCXPCListener
+                 (undefined) external _OBJC_METACLASS_$_NSObject (from libobjc)
+                 (undefined) external _SecTaskCopySigningIdentifier (from Security)
+                 (undefined) external _SecTaskCopyTeamIdentifier (from Security)
+                 (undefined) external _SecTaskCreateWithAuditToken (from Security)
+                 (undefined) external __Block_object_assign (from libSystem)
+0000000100004d48 (__TEXT,__text) external __DCAALogSystem
+000000010000cfb8 (__DATA,__bss) non-external __DCAALogSystem.log
+000000010000cfc0 (__DATA,__bss) non-external __DCAALogSystem.onceToken
+0000000100004da4 (__TEXT,__text) external __DCLogDebugBinary
+000000010000661a (__TEXT,__text) non-external __DCLogDebugBinary.cold.1
+0000000100004cec (__TEXT,__text) external __DCLogSystem
+000000010000cfa8 (__DATA,__bss) non-external __DCLogSystem.log
+000000010000cfb0 (__DATA,__bss) non-external __DCLogSystem.onceToken
+                 (undefined) external __NSConcreteGlobalBlock (from libSystem)
+                 (undefined) external __NSConcreteStackBlock (from libSystem)
+000000010000c168 (__DATA,__objc_const) non-external __OBJC_$_CLASS_METHODS_DCXPCListener
+000000010000ca80 (__DATA,__objc_const) non-external __OBJC_$_INSTANCE_METHODS_DCClientHandler
+000000010000c500 (__DATA,__objc_const) non-external __OBJC_$_INSTANCE_METHODS_DCXPCListener
+000000010000cbc0 (__DATA,__objc_const) non-external __OBJC_$_INSTANCE_VARIABLES_DCClientHandler
+000000010000c568 (__DATA,__objc_const) non-external __OBJC_$_INSTANCE_VARIABLES_DCXPCListener
+000000010000cbe8 (__DATA,__objc_const) non-external __OBJC_$_PROP_LIST_DCClientHandler
+000000010000c590 (__DATA,__objc_const) non-external __OBJC_$_PROP_LIST_DCXPCListener
+000000010000c378 (__DATA,__objc_const) non-external __OBJC_$_PROP_LIST_NSObject
+000000010000c810 (__DATA,__objc_const) non-external __OBJC_$_PROP_LIST_NSObject
+000000010000c910 (__DATA,__objc_const) non-external __OBJC_$_PROTOCOL_INSTANCE_METHODS_DCDeviceMetadataProtocol
+000000010000c188 (__DATA,__objc_const) non-external __OBJC_$_PROTOCOL_INSTANCE_METHODS_NSObject
+000000010000c620 (__DATA,__objc_const) non-external __OBJC_$_PROTOCOL_INSTANCE_METHODS_NSObject
+000000010000c9a8 (__DATA,__objc_const) non-external __OBJC_$_PROTOCOL_INSTANCE_METHODS_OPT_DCDeviceMetadataProtocol
+000000010000c358 (__DATA,__objc_const) non-external __OBJC_$_PROTOCOL_INSTANCE_METHODS_OPT_NSObject
+000000010000c7f0 (__DATA,__objc_const) non-external __OBJC_$_PROTOCOL_INSTANCE_METHODS_OPT_NSObject
+000000010000c478 (__DATA,__objc_const) non-external __OBJC_$_PROTOCOL_INSTANCE_METHODS_OPT_NSXPCListenerDelegate
+000000010000c9e0 (__DATA,__objc_const) non-external __OBJC_$_PROTOCOL_METHOD_TYPES_DCDeviceMetadataProtocol
+000000010000c3c0 (__DATA,__objc_const) non-external __OBJC_$_PROTOCOL_METHOD_TYPES_NSObject
+000000010000c858 (__DATA,__objc_const) non-external __OBJC_$_PROTOCOL_METHOD_TYPES_NSObject
+000000010000c498 (__DATA,__objc_const) non-external __OBJC_$_PROTOCOL_METHOD_TYPES_NSXPCListenerDelegate
+000000010000c8f8 (__DATA,__objc_const) non-external __OBJC_$_PROTOCOL_REFS_DCDeviceMetadataProtocol
+000000010000c460 (__DATA,__objc_const) non-external __OBJC_$_PROTOCOL_REFS_NSXPCListenerDelegate
+000000010000ca20 (__DATA,__objc_const) non-external __OBJC_CLASS_PROTOCOLS_$_DCClientHandler
+000000010000c4a0 (__DATA,__objc_const) non-external __OBJC_CLASS_PROTOCOLS_$_DCXPCListener
+000000010000cc30 (__DATA,__objc_const) non-external __OBJC_CLASS_RO_$_DCClientHandler
+000000010000c5d8 (__DATA,__objc_const) non-external __OBJC_CLASS_RO_$_DCXPCListener
+0000000100008778 (__DATA_CONST,__objc_protolist) non-external (was a private external) __OBJC_LABEL_PROTOCOL_$_DCDeviceMetadataProtocol
+0000000100008768 (__DATA_CONST,__objc_protolist) non-external (was a private external) __OBJC_LABEL_PROTOCOL_$_NSObject
+0000000100008770 (__DATA_CONST,__objc_protolist) non-external (was a private external) __OBJC_LABEL_PROTOCOL_$_NSXPCListenerDelegate
+000000010000ca38 (__DATA,__objc_const) non-external __OBJC_METACLASS_RO_$_DCClientHandler
+000000010000c4b8 (__DATA,__objc_const) non-external __OBJC_METACLASS_RO_$_DCXPCListener
+000000010000cf48 (__DATA,__data) non-external (was a private external) __OBJC_PROTOCOL_$_DCDeviceMetadataProtocol
+000000010000ce88 (__DATA,__data) non-external (was a private external) __OBJC_PROTOCOL_$_NSObject
+000000010000cee8 (__DATA,__data) non-external (was a private external) __OBJC_PROTOCOL_$_NSXPCListenerDelegate
+                 (undefined) external __Unwind_Resume (from libSystem)
+00000001000051ca (__TEXT,__text) non-external ___31+[DCXPCListener sharedInstance]_block_invoke
+0000000100005921 (__TEXT,__text) non-external ___51-[DCClientHandler baaSignaturesForData:completion:]_block_invoke
+0000000100005412 (__TEXT,__text) non-external ___52-[DCXPCListener listener:shouldAcceptNewConnection:]_block_invoke
+0000000100006674 (__TEXT,__text) non-external ___52-[DCXPCListener listener:shouldAcceptNewConnection:]_block_invoke.cold.1
+                 (undefined) external ___CFConstantStringClassReference (from CoreFoundation)
+0000000100004d78 (__TEXT,__text) non-external ____DCAALogSystem_block_invoke
+0000000100004d1c (__TEXT,__text) non-external ____DCLogSystem_block_invoke
+0000000100008178 (__DATA_CONST,__const) non-external (was a private external) ___block_descriptor_32_e5_v8?0l
+0000000100008228 (__DATA_CONST,__const) non-external (was a private external) ___block_descriptor_40_e8_32bs_e45_v32?0"NSDictionary"8"NSData"16"NSError"24l
+00000001000081f8 (__DATA_CONST,__const) non-external (was a private external) ___block_descriptor_40_e8_32w_e5_v8?0l
+0000000100008198 (__DATA_CONST,__const) non-external ___block_literal_global
+00000001000081d8 (__DATA_CONST,__const) non-external ___block_literal_global
+00000001000081b8 (__DATA_CONST,__const) non-external ___block_literal_global.3
+                 (undefined) external ___bzero (from libSystem)
+0000000100005930 (__TEXT,__text) non-external (was a private external) ___copy_helper_block_e8_32b
+0000000100005458 (__TEXT,__text) non-external (was a private external) ___copy_helper_block_e8_32w
+0000000100005947 (__TEXT,__text) non-external (was a private external) ___destroy_helper_block_e8_32s
+000000010000546a (__TEXT,__text) non-external (was a private external) ___destroy_helper_block_e8_32w
+                 (undefined) external ___error (from libSystem)
+                 (undefined) external ___objc_personality_v0 (from libobjc)
+                 (undefined) external ___stack_chk_fail (from libSystem)
+                 (undefined) external ___stack_chk_guard (from libSystem)
+000000010000ce80 (__DATA,__data) non-external __dyld_private
+0000000100000000 (__TEXT,__text) [referenced dynamically] external __mh_execute_header
+                 (undefined) external __objc_empty_cache (from libobjc)
+                 (undefined) external __os_log_debug_impl (from libSystem)
+                 (undefined) external __os_log_default (from libSystem)
+                 (undefined) external __os_log_error_impl (from libSystem)
+                 (undefined) external __os_log_impl (from libSystem)
+                 (undefined) external __set_user_dir_suffix (from libSystem)
+                 (undefined) external _confstr (from libSystem)
+                 (undefined) external _dispatch_once (from libSystem)
+                 (undefined) external _exit (from libSystem)
+                 (undefined) external _free (from libSystem)
+                 (undefined) external _getpwuid (from libSystem)
+                 (undefined) external _getuid (from libSystem)
+0000000100008098 (__DATA_CONST,__const) external _kAAAAACleanupInterval
+0000000100008088 (__DATA_CONST,__const) external _kAAAAADisablePinning
+0000000100008090 (__DATA_CONST,__const) external _kAAAAADisableTracking
+0000000100008080 (__DATA_CONST,__const) external _kAAAAAOverrideURL
+00000001000080f0 (__DATA_CONST,__const) external _kAAAppAttestationAppClassClip
+00000001000080e8 (__DATA_CONST,__const) external _kAAAppAttestationAppClassMain
+00000001000080e0 (__DATA_CONST,__const) external _kAAAppAttestationAppUUIDKeychainPrefix
+0000000100008060 (__DATA_CONST,__const) external _kAAAppAttestationDaemonIdentifier
+0000000100008068 (__DATA_CONST,__const) external _kAAAppAttestationDaemonIdentifierCheck
+00000001000080b0 (__DATA_CONST,__const) external _kAAAppAttestationEnvironmentOverride
+0000000100008070 (__DATA_CONST,__const) external _kAAAppAttestationKeychainGroup
+00000001000080d8 (__DATA_CONST,__const) external _kAAAppAttestationKeychainPrefix
+00000001000080c8 (__DATA_CONST,__const) external _kAAAppAttestationOnDemandEnabled
+00000001000080d0 (__DATA_CONST,__const) external _kAAAppAttestationOnDemandParentIdentifier
+0000000100008078 (__DATA_CONST,__const) external _kAAAppAttestationOverrides
+0000000100008058 (__DATA_CONST,__const) external _kAAApplicationIdentifier
+0000000100008050 (__DATA_CONST,__const) external _kAAEntitlementSPI
+                 (undefined) external _kCFAllocatorDefault (from CoreFoundation)
+00000001000080a0 (__DATA_CONST,__const) external _kDCEnableExtendedBinaryLogs
+00000001000080a8 (__DATA_CONST,__const) external _kDCIgnoreExistingKeychainItems
+0000000100008100 (__DATA_CONST,__const) external _kMAEntitlementAttestation
+00000001000080f8 (__DATA_CONST,__const) external _kMAEntitlementGestalt
+0000000100008110 (__DATA_CONST,__const) external _kMAMobileActivationGroupContainerID
+0000000100008158 (__DATA_CONST,__const) external _kMAOptionsBAAAppIDKey
+0000000100008130 (__DATA_CONST,__const) external _kMAOptionsBAANonce
+0000000100008170 (__DATA_CONST,__const) external _kMAOptionsBAAOIDDeviceOSInformation
+0000000100008168 (__DATA_CONST,__const) external _kMAOptionsBAAOIDKeyUsageProperties
+0000000100008160 (__DATA_CONST,__const) external _kMAOptionsBAAOIDNonce
+0000000100008140 (__DATA_CONST,__const) external _kMAOptionsBAAOIDSToInclude
+0000000100008148 (__DATA_CONST,__const) external _kMAOptionsBAARKCertificationPublicKey
+0000000100008118 (__DATA_CONST,__const) external _kMAOptionsBAARKProperties
+0000000100008120 (__DATA_CONST,__const) external _kMAOptionsBAARKPropertiesSignature
+0000000100008128 (__DATA_CONST,__const) external _kMAOptionsBAASCRTAttestation
+0000000100008150 (__DATA_CONST,__const) external _kMAOptionsBAASIKPublicKey
+0000000100008138 (__DATA_CONST,__const) external _kMAOptionsBAAValidity
+0000000100008108 (__DATA_CONST,__const) external _kMARKCertification
+00000001000062e0 (__TEXT,__text) external _main
+                 (undefined) external _objc_alloc (from libobjc)
+                 (undefined) external _objc_alloc_init (from libobjc)
+                 (undefined) external _objc_autoreleaseReturnValue (from libobjc)
+                 (undefined) external _objc_copyWeak (from libobjc)
+                 (undefined) external _objc_destroyWeak (from libobjc)
+                 (undefined) external _objc_initWeak (from libobjc)
+                 (undefined) external _objc_loadWeakRetained (from libobjc)
+                 (undefined) external _objc_msgSend (from libobjc)
+                 (undefined) external _objc_msgSendSuper2 (from libobjc)
+                 (undefined) external _objc_msgSend_stret (from libobjc)
+                 (undefined) external _objc_opt_class (from libobjc)
+                 (undefined) external _objc_opt_isKindOfClass (from libobjc)
+                 (undefined) external _objc_release (from libobjc)
+                 (undefined) external _objc_retain (from libobjc)
+                 (undefined) external _objc_retainAutoreleaseReturnValue (from libobjc)
+                 (undefined) external _objc_retainAutoreleasedReturnValue (from libobjc)
+                 (undefined) external _objc_storeStrong (from libobjc)
+                 (undefined) external _os_log_create (from libSystem)
+                 (undefined) external _os_log_type_enabled (from libSystem)
+                 (undefined) external _os_variant_allows_internal_security_policies (from libSystem)
+                 (undefined) external _realpath$DARWIN_EXTSN (from libSystem)
+                 (undefined) external _remote_device_copy_unique_of_type (from RemoteServiceDiscovery)
+                 (undefined) external _sandbox_init_with_parameters (from libSystem)
+000000010000cfc8 (__DATA,__bss) non-external _sharedInstance.instance
+000000010000cfd0 (__DATA,__bss) non-external _sharedInstance.onceToken
+                 (undefined) external dyld_stub_binder (from libSystem)
+
+/System/Library/PrivateFrameworks/DeviceCheckInternal.framework/devicecheckd (for architecture arm64e):
+0000000100004f40 (__TEXT,__text) non-external +[DCXPCListener sharedInstance]
+0000000100006148 (__TEXT,__text) non-external -[DCClientHandler .cxx_destruct]
+0000000100005a98 (__TEXT,__text) non-external -[DCClientHandler _generateAppIDFromCurrentConnection]
+0000000100005a48 (__TEXT,__text) non-external -[DCClientHandler _isSupported]
+0000000100006724 (__TEXT,__text) non-external -[DCClientHandler _isSupported].cold.1
+0000000100005d50 (__TEXT,__text) non-external -[DCClientHandler _stringValueForEntitlement:]
+0000000100005f3c (__TEXT,__text) non-external -[DCClientHandler appAttestationAssert:keyId:clientDataHash:completion:]
+0000000100005e68 (__TEXT,__text) non-external -[DCClientHandler appAttestationAttestKey:keyId:clientDataHash:completion:]
+0000000100005dd4 (__TEXT,__text) non-external -[DCClientHandler appAttestationCreateKey:completion:]
+0000000100006010 (__TEXT,__text) non-external -[DCClientHandler appAttestationIsSupportedWithCompletion:]
+000000010000679c (__TEXT,__text) non-external -[DCClientHandler appAttestationIsSupportedWithCompletion:].cold.1
+0000000100006808 (__TEXT,__text) non-external -[DCClientHandler appAttestationIsSupportedWithCompletion:].cold.2
+0000000100006874 (__TEXT,__text) non-external -[DCClientHandler appAttestationIsSupportedWithCompletion:].cold.3
+00000001000057b8 (__TEXT,__text) non-external -[DCClientHandler baaSignatureForData:completion:]
+00000001000066bc (__TEXT,__text) non-external -[DCClientHandler baaSignatureForData:completion:].cold.1
+00000001000066f0 (__TEXT,__text) non-external -[DCClientHandler baaSignatureForData:completion:].cold.2
+0000000100005514 (__TEXT,__text) non-external -[DCClientHandler baaSignaturesForData:completion:]
+0000000100006654 (__TEXT,__text) non-external -[DCClientHandler baaSignaturesForData:completion:].cold.1
+0000000100006688 (__TEXT,__text) non-external -[DCClientHandler baaSignaturesForData:completion:].cold.2
+0000000100005308 (__TEXT,__text) non-external -[DCClientHandler fetchOpaqueBlobWithCompletion:]
+0000000100006620 (__TEXT,__text) non-external -[DCClientHandler fetchOpaqueBlobWithCompletion:].cold.1
+00000001000052a0 (__TEXT,__text) non-external -[DCClientHandler initWithConnection:]
+00000001000059d4 (__TEXT,__text) non-external -[DCClientHandler isSupportedDeviceWithCompletion:]
+0000000100005294 (__TEXT,__text) non-external -[DCXPCListener .cxx_destruct]
+0000000100004e2c (__TEXT,__text) non-external -[DCXPCListener init]
+0000000100004fd4 (__TEXT,__text) non-external -[DCXPCListener listener:shouldAcceptNewConnection:]
+0000000100004ebc (__TEXT,__text) non-external -[DCXPCListener start]
+0000000100007c30 (__TEXT,__gcc_except_tab) non-external GCC_except_table4
+                 (undefined) external _AppAttest_AppAttestation_Assert (from AppAttestInternal)
+                 (undefined) external _AppAttest_AppAttestation_AttestKey (from AppAttestInternal)
+                 (undefined) external _AppAttest_AppAttestation_CreateKey (from AppAttestInternal)
+                 (undefined) external _AppAttest_AppAttestation_IsEligibleApplication (from AppAttestInternal)
+                 (undefined) external _AppAttest_AppAttestation_IsSupported (from AppAttestInternal)
+                 (undefined) external _CFRelease (from CoreFoundation)
+                 (undefined) external _CFRunLoopRun (from CoreFoundation)
+                 (undefined) external _DCBAASignerErrorDomain (from DeviceCheck)
+0000000100006298 (__TEXT,__text) external _EnterSandbox
+00000001000068e0 (__TEXT,__text) non-external _EnterSandbox.cold.1
+0000000100006954 (__TEXT,__text) non-external _EnterSandbox.cold.2
+00000001000069bc (__TEXT,__text) non-external _EnterSandbox.cold.3
+0000000100006a24 (__TEXT,__text) non-external _EnterSandbox.cold.4
+0000000100006a8c (__TEXT,__text) non-external _EnterSandbox.cold.5
+0000000100006af4 (__TEXT,__text) non-external _EnterSandbox.cold.6
+0000000100006b5c (__TEXT,__text) non-external _EnterSandbox.cold.7
+0000000100006be0 (__TEXT,__text) non-external _EnterSandbox.cold.8
+0000000100008210 (__DATA_CONST,__const) external _KAAAppAttestationEnvironmentDevelopment
+0000000100008208 (__DATA_CONST,__const) external _KAAAppAttestationEnvironmentProduction
+                 (undefined) external _OBJC_CLASS_$_AppAttestKeychainCleanupController (from AppAttestInternal)
+000000010000cb60 (__DATA,__objc_data) external _OBJC_CLASS_$_DCClientHandler
+                 (undefined) external _OBJC_CLASS_$_DCContext (from DeviceCheck)
+                 (undefined) external _OBJC_CLASS_$_DCCryptoProxyImpl (from DeviceCheckInternal)
+                 (undefined) external _OBJC_CLASS_$_DCDDeviceMetadata (from DeviceCheckInternal)
+                 (undefined) external _OBJC_CLASS_$_DCDeviceMetadataInterface (from DeviceCheck)
+                 (undefined) external _OBJC_CLASS_$_DCXPCActivityController (from DeviceCheckInternal)
+000000010000cae8 (__DATA,__objc_data) external _OBJC_CLASS_$_DCXPCListener
+                 (undefined) external _OBJC_CLASS_$_NSError (from Foundation)
+                 (undefined) external _OBJC_CLASS_$_NSObject (from libobjc)
+                 (undefined) external _OBJC_CLASS_$_NSString (from Foundation)
+                 (undefined) external _OBJC_CLASS_$_NSUserDefaults (from CoreFoundation)
+                 (undefined) external _OBJC_CLASS_$_NSXPCListener (from Foundation)
+000000010000cae4 (__DATA,__objc_ivar) non-external (was a private external) _OBJC_IVAR_$_DCClientHandler._connection
+000000010000cae0 (__DATA,__objc_ivar) non-external (was a private external) _OBJC_IVAR_$_DCXPCListener._listener
+000000010000cb38 (__DATA,__objc_data) external _OBJC_METACLASS_$_DCClientHandler
+000000010000cb10 (__DATA,__objc_data) external _OBJC_METACLASS_$_DCXPCListener
+                 (undefined) external _OBJC_METACLASS_$_NSObject (from libobjc)
+0000000100006154 (__TEXT,__text) non-external _OUTLINED_FUNCTION_0
+00000001000064c8 (__TEXT,__text) non-external _OUTLINED_FUNCTION_0
+0000000100006174 (__TEXT,__text) non-external _OUTLINED_FUNCTION_1
+00000001000064e4 (__TEXT,__text) non-external _OUTLINED_FUNCTION_1
+0000000100006190 (__TEXT,__text) non-external _OUTLINED_FUNCTION_2
+00000001000064f8 (__TEXT,__text) non-external _OUTLINED_FUNCTION_2
+00000001000061ac (__TEXT,__text) non-external _OUTLINED_FUNCTION_3
+00000001000061b8 (__TEXT,__text) non-external _OUTLINED_FUNCTION_4
+                 (undefined) external _SecTaskCopySigningIdentifier (from Security)
+                 (undefined) external _SecTaskCopyTeamIdentifier (from Security)
+                 (undefined) external _SecTaskCreateWithAuditToken (from Security)
+                 (undefined) external __Block_object_assign (from libSystem)
+0000000100004ad0 (__TEXT,__text) external __DCAALogSystem
+000000010000ccb8 (__DATA,__bss) non-external __DCAALogSystem.log
+000000010000ccc0 (__DATA,__bss) non-external __DCAALogSystem.onceToken
+0000000100004b6c (__TEXT,__text) external __DCLogDebugBinary
+000000010000650c (__TEXT,__text) non-external __DCLogDebugBinary.cold.1
+0000000100004a34 (__TEXT,__text) external __DCLogSystem
+000000010000cca8 (__DATA,__bss) non-external __DCLogSystem.log
+000000010000ccb0 (__DATA,__bss) non-external __DCLogSystem.onceToken
+                 (undefined) external __NSConcreteGlobalBlock (from libSystem)
+                 (undefined) external __NSConcreteStackBlock (from libSystem)
+0000000100006f08 (__TEXT,__objc_methlist) non-external __OBJC_$_CLASS_METHODS_DCXPCListener
+0000000100006f58 (__TEXT,__objc_methlist) non-external __OBJC_$_INSTANCE_METHODS_DCClientHandler
+0000000100006f20 (__TEXT,__objc_methlist) non-external __OBJC_$_INSTANCE_METHODS_DCXPCListener
+000000010000c890 (__DATA,__objc_const) non-external __OBJC_$_INSTANCE_VARIABLES_DCClientHandler
+000000010000c378 (__DATA,__objc_const) non-external __OBJC_$_INSTANCE_VARIABLES_DCXPCListener
+000000010000c8b8 (__DATA,__objc_const) non-external __OBJC_$_PROP_LIST_DCClientHandler
+000000010000c3a0 (__DATA,__objc_const) non-external __OBJC_$_PROP_LIST_DCXPCListener
+000000010000c1f0 (__DATA,__objc_const) non-external __OBJC_$_PROP_LIST_NSObject
+000000010000c620 (__DATA,__objc_const) non-external __OBJC_$_PROP_LIST_NSObject
+000000010000c720 (__DATA,__objc_const) non-external __OBJC_$_PROTOCOL_INSTANCE_METHODS_DCDeviceMetadataProtocol
+000000010000c000 (__DATA,__objc_const) non-external __OBJC_$_PROTOCOL_INSTANCE_METHODS_NSObject
+000000010000c430 (__DATA,__objc_const) non-external __OBJC_$_PROTOCOL_INSTANCE_METHODS_NSObject
+000000010000c7b8 (__DATA,__objc_const) non-external __OBJC_$_PROTOCOL_INSTANCE_METHODS_OPT_DCDeviceMetadataProtocol
+000000010000c1d0 (__DATA,__objc_const) non-external __OBJC_$_PROTOCOL_INSTANCE_METHODS_OPT_NSObject
+000000010000c600 (__DATA,__objc_const) non-external __OBJC_$_PROTOCOL_INSTANCE_METHODS_OPT_NSObject
+000000010000c2f0 (__DATA,__objc_const) non-external __OBJC_$_PROTOCOL_INSTANCE_METHODS_OPT_NSXPCListenerDelegate
+000000010000c7f0 (__DATA,__objc_const) non-external __OBJC_$_PROTOCOL_METHOD_TYPES_DCDeviceMetadataProtocol
+000000010000c238 (__DATA,__objc_const) non-external __OBJC_$_PROTOCOL_METHOD_TYPES_NSObject
+000000010000c668 (__DATA,__objc_const) non-external __OBJC_$_PROTOCOL_METHOD_TYPES_NSObject
+000000010000c310 (__DATA,__objc_const) non-external __OBJC_$_PROTOCOL_METHOD_TYPES_NSXPCListenerDelegate
+000000010000c708 (__DATA,__objc_const) non-external __OBJC_$_PROTOCOL_REFS_DCDeviceMetadataProtocol
+000000010000c2d8 (__DATA,__objc_const) non-external __OBJC_$_PROTOCOL_REFS_NSXPCListenerDelegate
+000000010000c830 (__DATA,__objc_const) non-external __OBJC_CLASS_PROTOCOLS_$_DCClientHandler
+000000010000c318 (__DATA,__objc_const) non-external __OBJC_CLASS_PROTOCOLS_$_DCXPCListener
+000000010000c900 (__DATA,__objc_const) non-external __OBJC_CLASS_RO_$_DCClientHandler
+000000010000c3e8 (__DATA,__objc_const) non-external __OBJC_CLASS_RO_$_DCXPCListener
+00000001000088c8 (__DATA_CONST,__objc_protolist) non-external (was a private external) __OBJC_LABEL_PROTOCOL_$_DCDeviceMetadataProtocol
+00000001000088b8 (__DATA_CONST,__objc_protolist) non-external (was a private external) __OBJC_LABEL_PROTOCOL_$_NSObject
+00000001000088c0 (__DATA_CONST,__objc_protolist) non-external (was a private external) __OBJC_LABEL_PROTOCOL_$_NSXPCListenerDelegate
+000000010000c848 (__DATA,__objc_const) non-external __OBJC_METACLASS_RO_$_DCClientHandler
+000000010000c330 (__DATA,__objc_const) non-external __OBJC_METACLASS_RO_$_DCXPCListener
+000000010000cc48 (__DATA,__data) non-external (was a private external) __OBJC_PROTOCOL_$_DCDeviceMetadataProtocol
+000000010000cb88 (__DATA,__data) non-external (was a private external) __OBJC_PROTOCOL_$_NSObject
+000000010000cbe8 (__DATA,__data) non-external (was a private external) __OBJC_PROTOCOL_$_NSXPCListenerDelegate
+                 (undefined) external __Unwind_Resume (from libSystem)
+0000000100004f94 (__TEXT,__text) non-external ___31+[DCXPCListener sharedInstance]_block_invoke
+0000000100005790 (__TEXT,__text) non-external ___51-[DCClientHandler baaSignaturesForData:completion:]_block_invoke
+000000010000522c (__TEXT,__text) non-external ___52-[DCXPCListener listener:shouldAcceptNewConnection:]_block_invoke
+0000000100006584 (__TEXT,__text) non-external ___52-[DCXPCListener listener:shouldAcceptNewConnection:]_block_invoke.cold.1
+                 (undefined) external ___CFConstantStringClassReference (from CoreFoundation)
+0000000100004b24 (__TEXT,__text) non-external ____DCAALogSystem_block_invoke
+0000000100004a88 (__TEXT,__text) non-external ____DCLogSystem_block_invoke
+00000001000082c8 (__DATA_CONST,__const) non-external (was a private external) ___block_descriptor_32_e5_v8?0l
+0000000100008378 (__DATA_CONST,__const) non-external (was a private external) ___block_descriptor_40_e8_32bs_e45_v32?0"NSDictionary"8"NSData"16"NSError"24l
+0000000100008348 (__DATA_CONST,__const) non-external (was a private external) ___block_descriptor_40_e8_32w_e5_v8?0l
+00000001000082e8 (__DATA_CONST,__const) non-external ___block_literal_global
+0000000100008328 (__DATA_CONST,__const) non-external ___block_literal_global
+0000000100008308 (__DATA_CONST,__const) non-external ___block_literal_global.4
+00000001000057a0 (__TEXT,__text) non-external (was a private external) ___copy_helper_block_e8_32b
+0000000100005280 (__TEXT,__text) non-external (was a private external) ___copy_helper_block_e8_32w
+00000001000057b0 (__TEXT,__text) non-external (was a private external) ___destroy_helper_block_e8_32s
+000000010000528c (__TEXT,__text) non-external (was a private external) ___destroy_helper_block_e8_32w
+                 (undefined) external ___error (from libSystem)
+                 (undefined) external ___objc_personality_v0 (from libobjc)
+                 (undefined) external ___stack_chk_fail (from libSystem)
+                 (undefined) external ___stack_chk_guard (from libSystem)
+0000000100000000 (__TEXT,__text) [referenced dynamically] external __mh_execute_header
+                 (undefined) external __objc_empty_cache (from libobjc)
+                 (undefined) external __os_log_debug_impl (from libSystem)
+                 (undefined) external __os_log_default (from libSystem)
+                 (undefined) external __os_log_error_impl (from libSystem)
+                 (undefined) external __os_log_impl (from libSystem)
+                 (undefined) external __set_user_dir_suffix (from libSystem)
+                 (undefined) external _bzero (from libSystem)
+                 (undefined) external _confstr (from libSystem)
+                 (undefined) external _dispatch_once (from libSystem)
+                 (undefined) external _exit (from libSystem)
+                 (undefined) external _free (from libSystem)
+                 (undefined) external _getpwuid (from libSystem)
+                 (undefined) external _getuid (from libSystem)
+00000001000081e8 (__DATA_CONST,__const) external _kAAAAACleanupInterval
+00000001000081d8 (__DATA_CONST,__const) external _kAAAAADisablePinning
+00000001000081e0 (__DATA_CONST,__const) external _kAAAAADisableTracking
+00000001000081d0 (__DATA_CONST,__const) external _kAAAAAOverrideURL
+0000000100008240 (__DATA_CONST,__const) external _kAAAppAttestationAppClassClip
+0000000100008238 (__DATA_CONST,__const) external _kAAAppAttestationAppClassMain
+0000000100008230 (__DATA_CONST,__const) external _kAAAppAttestationAppUUIDKeychainPrefix
+00000001000081b0 (__DATA_CONST,__const) external _kAAAppAttestationDaemonIdentifier
+00000001000081b8 (__DATA_CONST,__const) external _kAAAppAttestationDaemonIdentifierCheck
+0000000100008200 (__DATA_CONST,__const) external _kAAAppAttestationEnvironmentOverride
+00000001000081c0 (__DATA_CONST,__const) external _kAAAppAttestationKeychainGroup
+0000000100008228 (__DATA_CONST,__const) external _kAAAppAttestationKeychainPrefix
+0000000100008218 (__DATA_CONST,__const) external _kAAAppAttestationOnDemandEnabled
+0000000100008220 (__DATA_CONST,__const) external _kAAAppAttestationOnDemandParentIdentifier
+00000001000081c8 (__DATA_CONST,__const) external _kAAAppAttestationOverrides
+00000001000081a8 (__DATA_CONST,__const) external _kAAApplicationIdentifier
+00000001000081a0 (__DATA_CONST,__const) external _kAAEntitlementSPI
+                 (undefined) external _kCFAllocatorDefault (from CoreFoundation)
+00000001000081f0 (__DATA_CONST,__const) external _kDCEnableExtendedBinaryLogs
+00000001000081f8 (__DATA_CONST,__const) external _kDCIgnoreExistingKeychainItems
+0000000100008250 (__DATA_CONST,__const) external _kMAEntitlementAttestation
+0000000100008248 (__DATA_CONST,__const) external _kMAEntitlementGestalt
+0000000100008260 (__DATA_CONST,__const) external _kMAMobileActivationGroupContainerID
+00000001000082a8 (__DATA_CONST,__const) external _kMAOptionsBAAAppIDKey
+0000000100008280 (__DATA_CONST,__const) external _kMAOptionsBAANonce
+00000001000082c0 (__DATA_CONST,__const) external _kMAOptionsBAAOIDDeviceOSInformation
+00000001000082b8 (__DATA_CONST,__const) external _kMAOptionsBAAOIDKeyUsageProperties
+00000001000082b0 (__DATA_CONST,__const) external _kMAOptionsBAAOIDNonce
+0000000100008290 (__DATA_CONST,__const) external _kMAOptionsBAAOIDSToInclude
+0000000100008298 (__DATA_CONST,__const) external _kMAOptionsBAARKCertificationPublicKey
+0000000100008268 (__DATA_CONST,__const) external _kMAOptionsBAARKProperties
+0000000100008270 (__DATA_CONST,__const) external _kMAOptionsBAARKPropertiesSignature
+0000000100008278 (__DATA_CONST,__const) external _kMAOptionsBAASCRTAttestation
+00000001000082a0 (__DATA_CONST,__const) external _kMAOptionsBAASIKPublicKey
+0000000100008288 (__DATA_CONST,__const) external _kMAOptionsBAAValidity
+0000000100008258 (__DATA_CONST,__const) external _kMARKCertification
+00000001000061d4 (__TEXT,__text) external _main
+                 (undefined) external _objc_alloc (from libobjc)
+                 (undefined) external _objc_alloc_init (from libobjc)
+                 (undefined) external _objc_autoreleaseReturnValue (from libobjc)
+                 (undefined) external _objc_copyWeak (from libobjc)
+                 (undefined) external _objc_destroyWeak (from libobjc)
+                 (undefined) external _objc_initWeak (from libobjc)
+                 (undefined) external _objc_loadWeakRetained (from libobjc)
+                 (undefined) external _objc_msgSend (from libobjc)
+                 (undefined) external _objc_msgSendSuper2 (from libobjc)
+                 (undefined) external _objc_opt_class (from libobjc)
+                 (undefined) external _objc_opt_isKindOfClass (from libobjc)
+                 (undefined) external _objc_release (from libobjc)
+                 (undefined) external _objc_retain (from libobjc)
+                 (undefined) external _objc_retainAutoreleaseReturnValue (from libobjc)
+                 (undefined) external _objc_retainAutoreleasedReturnValue (from libobjc)
+                 (undefined) external _objc_storeStrong (from libobjc)
+                 (undefined) external _os_log_create (from libSystem)
+                 (undefined) external _os_log_type_enabled (from libSystem)
+                 (undefined) external _os_variant_allows_internal_security_policies (from libSystem)
+                 (undefined) external _realpath$DARWIN_EXTSN (from libSystem)
+                 (undefined) external _sandbox_init_with_parameters (from libSystem)
+000000010000ccc8 (__DATA,__bss) non-external _sharedInstance.instance
+000000010000ccd0 (__DATA,__bss) non-external _sharedInstance.onceToken
