@@ -1,4 +1,5 @@
-use std::{env::Args, path::{Path,PathBuf}};
+use std::path::{Path,PathBuf};
+use clap::{Parser};
 
 #[derive(Debug)]
 pub struct Arguments {
@@ -6,76 +7,31 @@ pub struct Arguments {
     pub base_path: String
 }
 
-const RESULTS_DEFAULT_ARGUMENTS: usize = 0;
-const MAX_DEFAULT_ARGUMENTS: usize = 1;
-
-const EXPECT_MSG_NOT_ENOUGH_ARGUMENTS: &str = "Not enough arguments were provided";
-
-struct OptionArugments {
-    default_args: [Option<String>; MAX_DEFAULT_ARGUMENTS],
-    default_args_cnt: usize,
-    base_path: Option<String>
-}
-
-impl OptionArugments {
-    fn new() -> OptionArugments {
-        OptionArugments {
-            default_args: [None; 1],
-            default_args_cnt: 0,
-            base_path: None 
-        }
-    }
-
-    fn parse_commandline_arguments(&mut self, args: Args) {
-        let args: Vec<String> = args.collect();
-
-        let mut index = 1;
-        while index < args.len() {
-            let value = args.get(index).unwrap();
-            
-            let argument_type: Option<&str>;
-            if value.starts_with("--") {
-                argument_type = Some(&value[2..]);
-            } else if value.starts_with("-") {
-                argument_type = Some(&value[1..]);
-            } else {
-                argument_type = None;
-                if self.default_args_cnt < MAX_DEFAULT_ARGUMENTS {
-                    self.default_args[self.default_args_cnt] = Some(value.clone());
-                    self.default_args_cnt +=1;
-                }
-            }
-
-            if let Some(argument_type) = argument_type {
-                index += 1;
-
-                if "base_path" == argument_type {
-                    let value = args.get(index).expect(EXPECT_MSG_NOT_ENOUGH_ARGUMENTS);
-                    self.base_path = Some(value.clone());
-                } else {
-                    panic!("\"{}\" argument is invalid", argument_type);
-                }
-            }
-
-            index += 1;
-        }
-    }
-
-    fn to_arguments(self) -> Arguments {
-        let base_path = self.base_path.unwrap_or("/".to_string());
-
-        Arguments {
-            results_path: self.default_args[RESULTS_DEFAULT_ARGUMENTS].clone().expect(EXPECT_MSG_NOT_ENOUGH_ARGUMENTS),
-            base_path
-        }
-    }
+#[derive(Parser)]
+#[command(version, author = "Thomas A.", about = "Extracts library symbols from Apple's framework")]
+struct RawArguments {
+    /// The normal root directory in macOS, iOS, etc.
+    /// If no argument is provided, the root path will be used.
+    #[arg(long, value_name = "PATH")]
+    standard_path: Option<String>,
+    /// Where the symbols will be saved at.
+    #[arg(value_name = "RESULT FOLDER")]
+    results_path: String
 }
 
 impl Arguments {
-    pub fn new(args: Args) -> Arguments {
-        let mut temp_arguments = OptionArugments::new();
-        temp_arguments.parse_commandline_arguments(args);
-        temp_arguments.to_arguments()
+    pub fn new() -> Arguments {
+        let raw_arguments = RawArguments::parse();
+        Self::into_arguments(raw_arguments)
+    }
+
+    fn into_arguments(raw_arguments: RawArguments) -> Arguments {
+        let base_path = raw_arguments.standard_path.unwrap_or(String::from("/"));
+
+        Arguments { 
+            results_path: raw_arguments.results_path, 
+            base_path
+        }
     }
 
     pub fn path_from_base<P: AsRef<Path>>(&self, location: P) -> PathBuf {

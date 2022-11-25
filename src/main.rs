@@ -14,7 +14,7 @@ fn analyse_system_path<P: AsRef<Path>,Q: AsRef<Path>>(path: &P, whoami_username:
 }
 
 fn main() {
-    let arguments = argument::Arguments::new(std::env::args());
+    let arguments = argument::Arguments::new();
     let base_locations = location::BaseLocation::new(&arguments);
 
     let system_version = program::SystemVersionDefaults::new(base_locations.system_version_path.to_str().unwrap());
