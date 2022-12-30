@@ -1,9 +1,11 @@
+pub mod system;
+
 use std::fs::{read_dir, ReadDir};
 use std::iter::Enumerate;
 use std::path::{Path,PathBuf};
 
-use crate::argument::Arguments;
-use crate::program::SystemVersionDefaults;
+use crate::arguments::cli::{CliArguments};
+use crate::program::{SystemVersionDefaults};
 
 pub(crate) fn walk_directory<P: AsRef<Path>>(location: P, valid_file: fn(&PathBuf) -> bool) -> Vec<PathBuf> {
     let mut current_directory: Vec<Enumerate<ReadDir>> = Vec::new();
@@ -41,52 +43,24 @@ pub(crate) fn walk_directory<P: AsRef<Path>>(location: P, valid_file: fn(&PathBu
 
 
 #[derive(Debug)]
-pub struct BaseLocation {
-    pub system_version_path: PathBuf,
-    pub dyld_shardcache_macos_path: PathBuf,
-    pub dyld_shardcache_iphoneos_path: PathBuf,
-}
-
-impl BaseLocation {
-    pub fn new(arguments: &Arguments) -> BaseLocation {     
-        let system_version_path = Path::new("System/Library/CoreServices/SystemVersion");
-        let dyld_shardcache_macos =  Path::new("System/Library/dyld");
-        let dyld_shardcache_iphoneos = Path::new("System/Library/Caches/com.apple.dyld");
-
-        BaseLocation {
-            system_version_path: arguments.path_from_base(system_version_path),
-            dyld_shardcache_macos_path: arguments.path_from_base(dyld_shardcache_macos),
-            dyld_shardcache_iphoneos_path: arguments.path_from_base(dyld_shardcache_iphoneos),
-        }
-    }
-}
-
-#[derive(Debug)]
 pub struct ResultsLocation {
-    pub shared_cache_path: PathBuf,
-    pub unique_version_path: PathBuf,
+    pub os_version_path: PathBuf,
     pub temp_path: PathBuf,
-    pub temp_shared_cache_path: PathBuf
 }
 
 impl ResultsLocation {
-    pub fn new(arguments: &Arguments, system_version: &SystemVersionDefaults) -> ResultsLocation {
-        const SHARED_CACHE_DIR: &str = "shared_cache";
-        const TEMP_DIR: &str = "temp";
+    pub fn new(arguments: &CliArguments, system_version: SystemVersionDefaults) -> ResultsLocation {
+        const TEMP_DIR: &str = "tmp";
 
         let version_folder = format!("{} ({})", system_version.product_version, system_version.product_build_version);
         let system_version = &system_version.product_name;
-        let unique_version_path = arguments.path_from_results(Path::new(system_version.as_str())).join(version_folder);
-        let shared_cache_path = unique_version_path.join(SHARED_CACHE_DIR);
+        
+        let os_version_path = arguments.results_path.as_path().join(system_version).join(version_folder);
+        let temp_path =  os_version_path.join(TEMP_DIR);
 
-        let temp_path =  unique_version_path.join(TEMP_DIR);
-        let temp_shared_cache_path = temp_path.join(SHARED_CACHE_DIR);
-
-        ResultsLocation {
-            shared_cache_path,
-            unique_version_path,
+        Self {
+            os_version_path,
             temp_path,
-            temp_shared_cache_path
         }
     }
 }
