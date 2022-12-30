@@ -1,6 +1,6 @@
-use std::{process::{Command, Output}, fs::{read_dir, ReadDir, File}, path::{Path, PathBuf}, io::Read};
+use std::{process::{Command, Output}, fs::{read_dir, ReadDir}, path::{Path, PathBuf}};
 
-use crate::location::{BaseLocation, ResultsLocation};
+use crate::{symbols::macho::is_file_dyld_sharedcache};
 
 fn parse_stdout(output: Output) -> Vec<String> {
     let raw_string = String::from_utf8(output.stdout).expect("Unable to save output");
@@ -53,54 +53,36 @@ pub struct DyldSharedCacheExtractor {
 }
 
 impl DyldSharedCacheExtractor {
-    pub fn new(base_location: &BaseLocation, results_location: &ResultsLocation) -> DyldSharedCacheExtractor {
+    pub fn new<P: AsRef<Path>, Q: AsRef<Path>>(sharedcache_extracted_path: &Q, dyld_sharedcache_folder: &P) -> DyldSharedCacheExtractor {
         let mut instance =  DyldSharedCacheExtractor {
             extracted_paths: Vec::new()
         };
-        
-        if let Ok(read_dir) = read_dir(&base_location.dyld_shardcache_macos_path) {
-            println!("Inspecting {:?} for shared cache", base_location.dyld_shardcache_macos_path);
-            instance.extract_shared_library(results_location,read_dir);
-        }
 
-        if let Ok(read_dir) = read_dir(&base_location.dyld_shardcache_iphoneos_path) {
-            println!("Inspecting {:?} for shared cache", base_location.dyld_shardcache_iphoneos_path);
-            instance.extract_shared_library(results_location,read_dir);
+        if let Ok(sharedcache_readdir) = read_dir(dyld_sharedcache_folder) {
+            println!("Inspecting {:?} directory for shared cache", dyld_sharedcache_folder.as_ref());
+            instance.extract_shared_library(sharedcache_extracted_path,sharedcache_readdir);
         }
 
         instance
     }
 
-    fn extract_shared_library(&mut self, results_location: &ResultsLocation, read_dir: ReadDir) {
-        for dir_entry in read_dir {
-            let dir_entry = dir_entry.unwrap();
-            let file_path = dir_entry.path();
+    fn extract_shared_library<P: AsRef<Path>>(&mut self, sharedcache_extracted_path: &P, sharedcache_readdir: ReadDir) {
+        for sharedcache_direntry in sharedcache_readdir {
+            let sharedcache_direntry = sharedcache_direntry.unwrap();
+            let sharedcache_file_path = sharedcache_direntry.path();
 
-            if self.is_shared_cache_file(file_path.as_path()) {
-                let filename = file_path.as_path().file_name().expect("Unable to get file name");
-                let temp_path = results_location.temp_shared_cache_path.join(filename);
-                DyldSharedCacheExtractor::launch_program(file_path.as_path(), &temp_path);
+            if is_file_dyld_sharedcache(sharedcache_file_path.as_path()) {
+                let file_name = sharedcache_file_path.file_name().unwrap();
+                let temp_path = sharedcache_extracted_path.as_ref().join(&format!("{}.dir",file_name.to_str().unwrap()));
 
                 // If the path doesn't exist after `dyld-shared-cache-extractor` finishes executing, it means that
                 // the application was not able to extract anything from it.
+                DyldSharedCacheExtractor::launch_program(sharedcache_file_path.as_path(), &temp_path);
                 if temp_path.is_dir() {
                     self.extracted_paths.push(temp_path);
                 }
             }
         }
-    }
-
-    fn is_shared_cache_file(&self, file_path: &Path) -> bool {
-        if file_path.is_file() {
-            if let Ok(mut file) = File::open(file_path) {
-                let mut magic: [u8; 5] = [0; 5];
-                if let Ok(_) = file.read(&mut magic) {
-                    return [b'd',b'y',b'l',b'd',b'_'] == magic;
-                }
-            }
-        }
-
-        return false
     }
 
     fn launch_program(shared_cache_path: &Path, temp_path: &Path) {
