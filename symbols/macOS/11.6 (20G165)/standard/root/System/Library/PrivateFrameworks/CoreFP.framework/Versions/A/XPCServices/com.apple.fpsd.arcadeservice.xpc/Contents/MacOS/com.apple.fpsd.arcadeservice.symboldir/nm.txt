@@ -1,0 +1,510 @@
+
+/Volumes/Macintosh HD 1/System/Library/PrivateFrameworks/CoreFP.framework/Versions/A/XPCServices/com.apple.fpsd.arcadeservice.xpc/Contents/MacOS/com.apple.fpsd.arcadeservice (for architecture x86_64):
+0000000100004900 (__TEXT,__text) non-external +[ISPurchaseReceipt receiptWithContentsOfFile:]
+00000001000057d2 (__TEXT,__text) non-external +[asn1ReceiptToken readFromBuffer:]
+0000000100005d21 (__TEXT,__text) non-external +[asn1Token readOpaqueTokenFromBuffer:]
+0000000100005d06 (__TEXT,__text) non-external +[asn1Token readTokenFromBuffer:]
+0000000100005b91 (__TEXT,__text) non-external +[asn1Token readTokenFromBuffer:opaque:]
+0000000100004b33 (__TEXT,__text) non-external -[ISPurchaseReceipt _anchorTrust:toRootCertificateIn:]
+0000000100004c86 (__TEXT,__text) non-external -[ISPurchaseReceipt _checkArray:containsCertificateWithOID:]
+0000000100004cf6 (__TEXT,__text) non-external -[ISPurchaseReceipt _checkIfCertificate:containsOID:]
+0000000100004e7b (__TEXT,__text) non-external -[ISPurchaseReceipt _copyCertificatesFromSignedData:]
+0000000100004f15 (__TEXT,__text) non-external -[ISPurchaseReceipt _decodeReceiptData:toDecodedMessage:]
+0000000100004fb6 (__TEXT,__text) non-external -[ISPurchaseReceipt _extractSignedDataFromMessage:]
+0000000100005020 (__TEXT,__text) non-external -[ISPurchaseReceipt _parseReceiptFromMessage:]
+00000001000050c3 (__TEXT,__text) non-external -[ISPurchaseReceipt _parseTokens:]
+000000010000549c (__TEXT,__text) non-external -[ISPurchaseReceipt _setPoliciesForTrust:]
+000000010000560d (__TEXT,__text) non-external -[ISPurchaseReceipt _verifySignatureForSignedData:onDate:]
+0000000100005727 (__TEXT,__text) non-external -[ISPurchaseReceipt expirationDate]
+0000000100004a8d (__TEXT,__text) non-external -[ISPurchaseReceipt getAdamID]
+0000000100004a97 (__TEXT,__text) non-external -[ISPurchaseReceipt getBundleID]
+0000000100004ab1 (__TEXT,__text) non-external -[ISPurchaseReceipt getOpaqueDSIDBuffer]
+0000000100004abb (__TEXT,__text) non-external -[ISPurchaseReceipt getReceiptPath]
+0000000100004aa4 (__TEXT,__text) non-external -[ISPurchaseReceipt getReceiptType]
+000000010000492e (__TEXT,__text) non-external -[ISPurchaseReceipt initWithContentsOfFile:]
+0000000100004a5c (__TEXT,__text) non-external -[ISPurchaseReceipt isRevoked]
+0000000100004a7d (__TEXT,__text) non-external -[ISPurchaseReceipt isVPPLicensed]
+00000001000060c0 (__TEXT,__text) non-external -[asn1IntegerToken _initWithID:class:length:content:opaque:]
+0000000100006184 (__TEXT,__text) non-external -[asn1IntegerToken description]
+00000001000061b7 (__TEXT,__text) non-external -[asn1IntegerToken value]
+00000001000061c8 (__TEXT,__text) non-external -[asn1OSToken _initWithID:class:length:content:opaque:]
+000000010000628e (__TEXT,__text) non-external -[asn1OSToken dealloc]
+00000001000062d0 (__TEXT,__text) non-external -[asn1OSToken stringValue]
+000000010000639b (__TEXT,__text) non-external -[asn1OSToken value]
+0000000100005731 (__TEXT,__text) non-external -[asn1ReceiptToken _initWithType:typeVersion:contentToken:]
+0000000100005b29 (__TEXT,__text) non-external -[asn1ReceiptToken contentToken]
+0000000100005797 (__TEXT,__text) non-external -[asn1ReceiptToken dealloc]
+000000010000599c (__TEXT,__text) non-external -[asn1ReceiptToken description]
+0000000100005a81 (__TEXT,__text) non-external -[asn1ReceiptToken integerValue]
+0000000100005a3c (__TEXT,__text) non-external -[asn1ReceiptToken stringValue]
+0000000100005b1f (__TEXT,__text) non-external -[asn1ReceiptToken typeVersion]
+0000000100005b15 (__TEXT,__text) non-external -[asn1ReceiptToken type]
+0000000100005f55 (__TEXT,__text) non-external -[asn1SequenceToken _initWithID:class:length:content:opaque:]
+0000000100005fd9 (__TEXT,__text) non-external -[asn1SequenceToken description]
+000000010000602a (__TEXT,__text) non-external -[asn1SequenceToken nextToken]
+0000000100006002 (__TEXT,__text) non-external -[asn1SequenceToken reset]
+0000000100005dea (__TEXT,__text) non-external -[asn1SetToken _initWithID:class:length:content:opaque:]
+0000000100005e6e (__TEXT,__text) non-external -[asn1SetToken description]
+0000000100005ebf (__TEXT,__text) non-external -[asn1SetToken nextToken]
+0000000100005e97 (__TEXT,__text) non-external -[asn1SetToken reset]
+0000000100005b33 (__TEXT,__text) non-external -[asn1Token _initWithID:class:length:content:opaque:]
+0000000100005de0 (__TEXT,__text) non-external -[asn1Token content]
+0000000100005d3f (__TEXT,__text) non-external -[asn1Token description]
+0000000100005dcc (__TEXT,__text) non-external -[asn1Token identifier]
+0000000100005dd6 (__TEXT,__text) non-external -[asn1Token length]
+0000000100005dc2 (__TEXT,__text) non-external -[asn1Token tokenClass]
+                 (undefined) external _CFArrayAppendValue (from CoreFoundation)
+                 (undefined) external _CFArrayCreateMutable (from CoreFoundation)
+                 (undefined) external _CFArrayGetCount (from CoreFoundation)
+                 (undefined) external _CFArrayGetValueAtIndex (from CoreFoundation)
+                 (undefined) external _CFBooleanGetTypeID (from CoreFoundation)
+                 (undefined) external _CFBooleanGetValue (from CoreFoundation)
+                 (undefined) external _CFDataCreate (from CoreFoundation)
+                 (undefined) external _CFDataGetBytePtr (from CoreFoundation)
+                 (undefined) external _CFDataGetBytes (from CoreFoundation)
+                 (undefined) external _CFDictionaryAddValue (from CoreFoundation)
+                 (undefined) external _CFDictionaryCreateMutable (from CoreFoundation)
+                 (undefined) external _CFDictionaryGetValue (from CoreFoundation)
+                 (undefined) external _CFDictionarySetValue (from CoreFoundation)
+                 (undefined) external _CFEqual (from CoreFoundation)
+                 (undefined) external _CFGetTypeID (from CoreFoundation)
+                 (undefined) external _CFGregorianDateGetAbsoluteTime (from CoreFoundation)
+                 (undefined) external _CFRelease (from CoreFoundation)
+                 (undefined) external _CFStringCreateWithCStringNoCopy (from CoreFoundation)
+                 (undefined) external _IOIteratorNext (from IOKit)
+                 (undefined) external _IOObjectRelease (from IOKit)
+                 (undefined) external _IORegistryEntryCreateCFProperty (from IOKit)
+                 (undefined) external _IORegistryEntryGetParentEntry (from IOKit)
+                 (undefined) external _IOServiceGetMatchingServices (from IOKit)
+                 (undefined) external _IOServiceMatching (from IOKit)
+00000001000080f0 (__DATA_CONST,__const) external _IntermediateOID
+                 (undefined) external _NSLog (from Foundation)
+000000010000d280 (__DATA,__objc_data) external _OBJC_CLASS_$_ISPurchaseReceipt
+                 (undefined) external _OBJC_CLASS_$_NSBundle (from Foundation)
+                 (undefined) external _OBJC_CLASS_$_NSData (from CoreFoundation)
+                 (undefined) external _OBJC_CLASS_$_NSDate (from CoreFoundation)
+                 (undefined) external _OBJC_CLASS_$_NSDictionary (from CoreFoundation)
+                 (undefined) external _OBJC_CLASS_$_NSFileManager (from Foundation)
+                 (undefined) external _OBJC_CLASS_$_NSNumber (from Foundation)
+                 (undefined) external _OBJC_CLASS_$_NSObject (from libobjc)
+                 (undefined) external _OBJC_CLASS_$_NSString (from Foundation)
+000000010000d398 (__DATA,__objc_data) external _OBJC_CLASS_$_asn1IntegerToken
+000000010000d3c0 (__DATA,__objc_data) external _OBJC_CLASS_$_asn1OSToken
+000000010000d2d0 (__DATA,__objc_data) external _OBJC_CLASS_$_asn1ReceiptToken
+000000010000d370 (__DATA,__objc_data) external _OBJC_CLASS_$_asn1SequenceToken
+000000010000d348 (__DATA,__objc_data) external _OBJC_CLASS_$_asn1SetToken
+000000010000d320 (__DATA,__objc_data) external _OBJC_CLASS_$_asn1Token
+000000010000d208 (__DATA,__objc_ivar) non-external (was a private external) _OBJC_IVAR_$_ISPurchaseReceipt._adamID
+000000010000d210 (__DATA,__objc_ivar) non-external (was a private external) _OBJC_IVAR_$_ISPurchaseReceipt._bundleID
+000000010000d1e8 (__DATA,__objc_ivar) non-external (was a private external) _OBJC_IVAR_$_ISPurchaseReceipt._cancellationReason
+000000010000d1f0 (__DATA,__objc_ivar) non-external (was a private external) _OBJC_IVAR_$_ISPurchaseReceipt._expirationDate
+000000010000d220 (__DATA,__objc_ivar) non-external (was a private external) _OBJC_IVAR_$_ISPurchaseReceipt._opaqueDSIDBuffer
+000000010000d1f8 (__DATA,__objc_ivar) non-external (was a private external) _OBJC_IVAR_$_ISPurchaseReceipt._receiptCreationDate
+000000010000d218 (__DATA,__objc_ivar) non-external (was a private external) _OBJC_IVAR_$_ISPurchaseReceipt._receipt_type
+000000010000d200 (__DATA,__objc_ivar) non-external (was a private external) _OBJC_IVAR_$_ISPurchaseReceipt._renewalDate
+000000010000d270 (__DATA,__objc_ivar) external _OBJC_IVAR_$_asn1IntegerToken.mValue
+000000010000d278 (__DATA,__objc_ivar) external _OBJC_IVAR_$_asn1OSToken.mValue
+000000010000d238 (__DATA,__objc_ivar) external _OBJC_IVAR_$_asn1ReceiptToken.mContentToken
+000000010000d228 (__DATA,__objc_ivar) external _OBJC_IVAR_$_asn1ReceiptToken.mType
+000000010000d230 (__DATA,__objc_ivar) external _OBJC_IVAR_$_asn1ReceiptToken.mTypeVersion
+000000010000d268 (__DATA,__objc_ivar) external _OBJC_IVAR_$_asn1SequenceToken.mReadPointer
+000000010000d260 (__DATA,__objc_ivar) external _OBJC_IVAR_$_asn1SetToken.mReadPointer
+000000010000d240 (__DATA,__objc_ivar) external _OBJC_IVAR_$_asn1Token.mClass
+000000010000d258 (__DATA,__objc_ivar) external _OBJC_IVAR_$_asn1Token.mContent
+000000010000d248 (__DATA,__objc_ivar) external _OBJC_IVAR_$_asn1Token.mIdentifier
+000000010000d250 (__DATA,__objc_ivar) external _OBJC_IVAR_$_asn1Token.mLength
+000000010000d2a8 (__DATA,__objc_data) external _OBJC_METACLASS_$_ISPurchaseReceipt
+                 (undefined) external _OBJC_METACLASS_$_NSObject (from libobjc)
+000000010000d460 (__DATA,__objc_data) external _OBJC_METACLASS_$_asn1IntegerToken
+000000010000d488 (__DATA,__objc_data) external _OBJC_METACLASS_$_asn1OSToken
+000000010000d2f8 (__DATA,__objc_data) external _OBJC_METACLASS_$_asn1ReceiptToken
+000000010000d438 (__DATA,__objc_data) external _OBJC_METACLASS_$_asn1SequenceToken
+000000010000d410 (__DATA,__objc_data) external _OBJC_METACLASS_$_asn1SetToken
+000000010000d3e8 (__DATA,__objc_data) external _OBJC_METACLASS_$_asn1Token
+                 (undefined) external _SecCertificateCopyProperties (from Security)
+                 (undefined) external _SecCertificateCopySubjectPublicKeyInfoSHA256Digest (from Security)
+                 (undefined) external _SecCertificateCreateWithData (from Security)
+                 (undefined) external _SecCmsContentInfoGetContent (from Security)
+                 (undefined) external _SecCmsContentInfoGetContentTypeTag (from Security)
+                 (undefined) external _SecCmsDecoderCreate (from Security)
+                 (undefined) external _SecCmsDecoderDestroy (from Security)
+                 (undefined) external _SecCmsDecoderFinish (from Security)
+                 (undefined) external _SecCmsDecoderUpdate (from Security)
+                 (undefined) external _SecCmsMessageContentLevel (from Security)
+                 (undefined) external _SecCmsMessageContentLevelCount (from Security)
+                 (undefined) external _SecCmsMessageDestroy (from Security)
+                 (undefined) external _SecCmsMessageGetContent (from Security)
+                 (undefined) external _SecCmsSignedDataGetCertificateList (from Security)
+                 (undefined) external _SecCodeCheckValidity (from Security)
+                 (undefined) external _SecCodeCopyGuestWithAttributes (from Security)
+                 (undefined) external _SecPolicyCreateWithProperties (from Security)
+                 (undefined) external _SecRequirementCreateWithString (from Security)
+                 (undefined) external _SecTaskCopyValueForEntitlement (from Security)
+                 (undefined) external _SecTaskCreateWithAuditToken (from Security)
+                 (undefined) external _SecTrustCreateWithCertificates (from Security)
+                 (undefined) external _SecTrustEvaluate (from Security)
+                 (undefined) external _SecTrustSetAnchorCertificates (from Security)
+                 (undefined) external _SecTrustSetAnchorCertificatesOnly (from Security)
+                 (undefined) external _SecTrustSetPolicies (from Security)
+                 (undefined) external _SecTrustSetVerifyDate (from Security)
+                 (undefined) external __Block_object_assign (from libSystem)
+                 (undefined) external __Block_object_dispose (from libSystem)
+                 (undefined) external __NSConcreteGlobalBlock (from libSystem)
+                 (undefined) external __NSConcreteStackBlock (from libSystem)
+000000010000c270 (__DATA,__objc_const) non-external __OBJC_$_CLASS_METHODS_ISPurchaseReceipt
+000000010000c680 (__DATA,__objc_const) non-external __OBJC_$_CLASS_METHODS_asn1ReceiptToken
+000000010000c8b8 (__DATA,__objc_const) non-external __OBJC_$_CLASS_METHODS_asn1Token
+000000010000c2d8 (__DATA,__objc_const) non-external __OBJC_$_INSTANCE_METHODS_ISPurchaseReceipt
+000000010000cd88 (__DATA,__objc_const) non-external __OBJC_$_INSTANCE_METHODS_asn1IntegerToken
+000000010000cea8 (__DATA,__objc_const) non-external __OBJC_$_INSTANCE_METHODS_asn1OSToken
+000000010000c6e8 (__DATA,__objc_const) non-external __OBJC_$_INSTANCE_METHODS_asn1ReceiptToken
+000000010000cc68 (__DATA,__objc_const) non-external __OBJC_$_INSTANCE_METHODS_asn1SequenceToken
+000000010000cb48 (__DATA,__objc_const) non-external __OBJC_$_INSTANCE_METHODS_asn1SetToken
+000000010000c950 (__DATA,__objc_const) non-external __OBJC_$_INSTANCE_METHODS_asn1Token
+000000010000c4a8 (__DATA,__objc_const) non-external __OBJC_$_INSTANCE_VARIABLES_ISPurchaseReceipt
+000000010000cdd8 (__DATA,__objc_const) non-external __OBJC_$_INSTANCE_VARIABLES_asn1IntegerToken
+000000010000cf10 (__DATA,__objc_const) non-external __OBJC_$_INSTANCE_VARIABLES_asn1OSToken
+000000010000c7b0 (__DATA,__objc_const) non-external __OBJC_$_INSTANCE_VARIABLES_asn1ReceiptToken
+000000010000ccd0 (__DATA,__objc_const) non-external __OBJC_$_INSTANCE_VARIABLES_asn1SequenceToken
+000000010000cbb0 (__DATA,__objc_const) non-external __OBJC_$_INSTANCE_VARIABLES_asn1SetToken
+000000010000c9e8 (__DATA,__objc_const) non-external __OBJC_$_INSTANCE_VARIABLES_asn1Token
+000000010000c5b0 (__DATA,__objc_const) non-external __OBJC_$_PROP_LIST_ISPurchaseReceipt
+000000010000ce00 (__DATA,__objc_const) non-external __OBJC_$_PROP_LIST_asn1IntegerToken
+000000010000cf38 (__DATA,__objc_const) non-external __OBJC_$_PROP_LIST_asn1OSToken
+000000010000c818 (__DATA,__objc_const) non-external __OBJC_$_PROP_LIST_asn1ReceiptToken
+000000010000ca70 (__DATA,__objc_const) non-external __OBJC_$_PROP_LIST_asn1Token
+000000010000c638 (__DATA,__objc_const) non-external __OBJC_CLASS_RO_$_ISPurchaseReceipt
+000000010000ce18 (__DATA,__objc_const) non-external __OBJC_CLASS_RO_$_asn1IntegerToken
+000000010000cf50 (__DATA,__objc_const) non-external __OBJC_CLASS_RO_$_asn1OSToken
+000000010000c870 (__DATA,__objc_const) non-external __OBJC_CLASS_RO_$_asn1ReceiptToken
+000000010000ccf8 (__DATA,__objc_const) non-external __OBJC_CLASS_RO_$_asn1SequenceToken
+000000010000cbd8 (__DATA,__objc_const) non-external __OBJC_CLASS_RO_$_asn1SetToken
+000000010000cab8 (__DATA,__objc_const) non-external __OBJC_CLASS_RO_$_asn1Token
+000000010000c290 (__DATA,__objc_const) non-external __OBJC_METACLASS_RO_$_ISPurchaseReceipt
+000000010000cd40 (__DATA,__objc_const) non-external __OBJC_METACLASS_RO_$_asn1IntegerToken
+000000010000ce60 (__DATA,__objc_const) non-external __OBJC_METACLASS_RO_$_asn1OSToken
+000000010000c6a0 (__DATA,__objc_const) non-external __OBJC_METACLASS_RO_$_asn1ReceiptToken
+000000010000cc20 (__DATA,__objc_const) non-external __OBJC_METACLASS_RO_$_asn1SequenceToken
+000000010000cb00 (__DATA,__objc_const) non-external __OBJC_METACLASS_RO_$_asn1SetToken
+000000010000c908 (__DATA,__objc_const) non-external __OBJC_METACLASS_RO_$_asn1Token
+                 (undefined) external ___CFConstantStringClassReference (from CoreFoundation)
+00000001000069f4 (__TEXT,__text) non-external ___arcadeservice_event_handler_block_invoke
+0000000100006d51 (__TEXT,__text) non-external ___arcadeservice_event_handler_block_invoke.cold.1
+                 (undefined) external ___assert_rtn (from libSystem)
+00000001000080b0 (__DATA_CONST,__const) non-external (was a private external) ___block_descriptor_32_e5_v8?0l
+00000001000080f8 (__DATA_CONST,__const) non-external (was a private external) ___block_descriptor_40_e8_32o_e33_v16?0"NSObject<OS_xpc_object>"8l
+00000001000080d0 (__DATA_CONST,__const) non-external ___block_literal_global
+0000000100006d27 (__TEXT,__text) non-external (was a private external) ___copy_helper_block_e8_32o
+0000000100006d3e (__TEXT,__text) non-external (was a private external) ___destroy_helper_block_e8_32o
+0000000100004762 (__TEXT,__text) non-external ___get_mac_address_block_invoke
+                 (undefined) external ___stack_chk_fail (from libSystem)
+                 (undefined) external ___stack_chk_guard (from libSystem)
+                 (undefined) external ___strcpy_chk (from libSystem)
+                 (undefined) external ___strncat_chk (from libSystem)
+000000010000d4d0 (__DATA,__bss) non-external __bundleID_local
+000000010000d4b0 (__DATA,__data) non-external __dyld_private
+0000000100000000 (__TEXT,__text) [referenced dynamically] external __mh_execute_header
+                 (undefined) external __objc_empty_cache (from libobjc)
+000000010000d5d0 (__DATA,__bss) non-external __receipt_type_local
+                 (undefined) external __xpc_type_dictionary (from libSystem)
+                 (undefined) external __xpc_type_error (from libSystem)
+000000010000673a (__TEXT,__text) non-external _arcadeservice_event_handler
+                 (undefined) external _dispatch_once (from libSystem)
+00000001000046fc (__TEXT,__text) external _get_mac_address
+000000010000d4b8 (__DATA,__data) non-external _get_mac_address.kernResult
+000000010000d4c8 (__DATA,__bss) non-external _get_mac_address.onceToken
+000000010000d4c0 (__DATA,__bss) non-external _get_mac_address.stMacAddressBuffer
+                 (undefined) external _kCFAllocatorDefault (from CoreFoundation)
+                 (undefined) external _kCFAllocatorNull (from CoreFoundation)
+                 (undefined) external _kCFBooleanTrue (from CoreFoundation)
+                 (undefined) external _kCFTypeArrayCallBacks (from CoreFoundation)
+                 (undefined) external _kCFTypeDictionaryKeyCallBacks (from CoreFoundation)
+                 (undefined) external _kCFTypeDictionaryValueCallBacks (from CoreFoundation)
+                 (undefined) external _kIOMasterPortDefault (from IOKit)
+                 (undefined) external _kSecGuestAttributeAudit (from Security)
+                 (undefined) external _kSecPolicyAppleRevocation (from Security)
+                 (undefined) external _kSecPolicyAppleX509Basic (from Security)
+                 (undefined) external _kSecPolicyMacAppStoreReceipt (from Security)
+                 (undefined) external _kSecPolicyRevocationFlags (from Security)
+                 (undefined) external _kSecPropertyKeyLabel (from Security)
+                 (undefined) external _kSecPropertyKeyValue (from Security)
+000000010000672a (__TEXT,__text) external _main
+                 (undefined) external _objc_alloc (from libobjc)
+                 (undefined) external _objc_autorelease (from libobjc)
+                 (undefined) external _objc_autoreleasePoolPop (from libobjc)
+                 (undefined) external _objc_autoreleasePoolPush (from libobjc)
+                 (undefined) external _objc_msgSend (from libobjc)
+                 (undefined) external _objc_msgSendSuper2 (from libobjc)
+                 (undefined) external _objc_opt_class (from libobjc)
+                 (undefined) external _objc_opt_isKindOfClass (from libobjc)
+                 (undefined) external _objc_release (from libobjc)
+                 (undefined) external _objc_retain (from libobjc)
+00000001000063ac (__TEXT,__text) external _parseISO8601
+                 (undefined) external _strlen (from libSystem)
+                 (undefined) external _strncpy (from libSystem)
+                 (undefined) external _xpc_connection_cancel (from libSystem)
+                 (undefined) external _xpc_connection_get_audit_token (from libSystem)
+                 (undefined) external _xpc_connection_resume (from libSystem)
+                 (undefined) external _xpc_connection_send_message (from libSystem)
+                 (undefined) external _xpc_connection_set_event_handler (from libSystem)
+                 (undefined) external _xpc_dictionary_create_reply (from libSystem)
+                 (undefined) external _xpc_dictionary_get_data (from libSystem)
+                 (undefined) external _xpc_dictionary_set_data (from libSystem)
+                 (undefined) external _xpc_dictionary_set_int64 (from libSystem)
+                 (undefined) external _xpc_get_type (from libSystem)
+                 (undefined) external _xpc_main (from libSystem)
+                 (undefined) external dyld_stub_binder (from libSystem)
+
+/Volumes/Macintosh HD 1/System/Library/PrivateFrameworks/CoreFP.framework/Versions/A/XPCServices/com.apple.fpsd.arcadeservice.xpc/Contents/MacOS/com.apple.fpsd.arcadeservice (for architecture arm64e):
+0000000100004230 (__TEXT,__text) non-external +[ISPurchaseReceipt receiptWithContentsOfFile:]
+0000000100005278 (__TEXT,__text) non-external +[asn1ReceiptToken readFromBuffer:]
+000000010000584c (__TEXT,__text) non-external +[asn1Token readOpaqueTokenFromBuffer:]
+0000000100005834 (__TEXT,__text) non-external +[asn1Token readTokenFromBuffer:]
+00000001000056b0 (__TEXT,__text) non-external +[asn1Token readTokenFromBuffer:opaque:]
+000000010000449c (__TEXT,__text) non-external -[ISPurchaseReceipt _anchorTrust:toRootCertificateIn:]
+000000010000461c (__TEXT,__text) non-external -[ISPurchaseReceipt _checkArray:containsCertificateWithOID:]
+00000001000046ac (__TEXT,__text) non-external -[ISPurchaseReceipt _checkIfCertificate:containsOID:]
+0000000100004840 (__TEXT,__text) non-external -[ISPurchaseReceipt _copyCertificatesFromSignedData:]
+00000001000048f0 (__TEXT,__text) non-external -[ISPurchaseReceipt _decodeReceiptData:toDecodedMessage:]
+00000001000049ac (__TEXT,__text) non-external -[ISPurchaseReceipt _extractSignedDataFromMessage:]
+0000000100004a24 (__TEXT,__text) non-external -[ISPurchaseReceipt _parseReceiptFromMessage:]
+0000000100004ae0 (__TEXT,__text) non-external -[ISPurchaseReceipt _parseTokens:]
+0000000100004eb8 (__TEXT,__text) non-external -[ISPurchaseReceipt _setPoliciesForTrust:]
+0000000100005090 (__TEXT,__text) non-external -[ISPurchaseReceipt _verifySignatureForSignedData:onDate:]
+00000001000051b4 (__TEXT,__text) non-external -[ISPurchaseReceipt expirationDate]
+00000001000043e0 (__TEXT,__text) non-external -[ISPurchaseReceipt getAdamID]
+00000001000043e8 (__TEXT,__text) non-external -[ISPurchaseReceipt getBundleID]
+0000000100004400 (__TEXT,__text) non-external -[ISPurchaseReceipt getOpaqueDSIDBuffer]
+0000000100004408 (__TEXT,__text) non-external -[ISPurchaseReceipt getReceiptPath]
+00000001000043f4 (__TEXT,__text) non-external -[ISPurchaseReceipt getReceiptType]
+0000000100004278 (__TEXT,__text) non-external -[ISPurchaseReceipt initWithContentsOfFile:]
+00000001000043a4 (__TEXT,__text) non-external -[ISPurchaseReceipt isRevoked]
+00000001000043d0 (__TEXT,__text) non-external -[ISPurchaseReceipt isVPPLicensed]
+0000000100005ca0 (__TEXT,__text) non-external -[asn1IntegerToken _initWithID:class:length:content:opaque:]
+0000000100005d6c (__TEXT,__text) non-external -[asn1IntegerToken description]
+0000000100005db8 (__TEXT,__text) non-external -[asn1IntegerToken value]
+0000000100005dc8 (__TEXT,__text) non-external -[asn1OSToken _initWithID:class:length:content:opaque:]
+0000000100005ea0 (__TEXT,__text) non-external -[asn1OSToken dealloc]
+0000000100005ef4 (__TEXT,__text) non-external -[asn1OSToken stringValue]
+0000000100005fdc (__TEXT,__text) non-external -[asn1OSToken value]
+00000001000051bc (__TEXT,__text) non-external -[asn1ReceiptToken _initWithType:typeVersion:contentToken:]
+0000000100005640 (__TEXT,__text) non-external -[asn1ReceiptToken contentToken]
+000000010000522c (__TEXT,__text) non-external -[asn1ReceiptToken dealloc]
+0000000100005470 (__TEXT,__text) non-external -[asn1ReceiptToken description]
+0000000100005588 (__TEXT,__text) non-external -[asn1ReceiptToken integerValue]
+000000010000551c (__TEXT,__text) non-external -[asn1ReceiptToken stringValue]
+0000000100005638 (__TEXT,__text) non-external -[asn1ReceiptToken typeVersion]
+0000000100005630 (__TEXT,__text) non-external -[asn1ReceiptToken type]
+0000000100005ad8 (__TEXT,__text) non-external -[asn1SequenceToken _initWithID:class:length:content:opaque:]
+0000000100005b68 (__TEXT,__text) non-external -[asn1SequenceToken description]
+0000000100005be4 (__TEXT,__text) non-external -[asn1SequenceToken nextToken]
+0000000100005bac (__TEXT,__text) non-external -[asn1SequenceToken reset]
+0000000100005910 (__TEXT,__text) non-external -[asn1SetToken _initWithID:class:length:content:opaque:]
+00000001000059a0 (__TEXT,__text) non-external -[asn1SetToken description]
+0000000100005a1c (__TEXT,__text) non-external -[asn1SetToken nextToken]
+00000001000059e4 (__TEXT,__text) non-external -[asn1SetToken reset]
+0000000100005648 (__TEXT,__text) non-external -[asn1Token _initWithID:class:length:content:opaque:]
+0000000100005908 (__TEXT,__text) non-external -[asn1Token content]
+0000000100005864 (__TEXT,__text) non-external -[asn1Token description]
+00000001000058f8 (__TEXT,__text) non-external -[asn1Token identifier]
+0000000100005900 (__TEXT,__text) non-external -[asn1Token length]
+00000001000058ec (__TEXT,__text) non-external -[asn1Token tokenClass]
+                 (undefined) external _CFArrayAppendValue (from CoreFoundation)
+                 (undefined) external _CFArrayCreateMutable (from CoreFoundation)
+                 (undefined) external _CFArrayGetCount (from CoreFoundation)
+                 (undefined) external _CFArrayGetValueAtIndex (from CoreFoundation)
+                 (undefined) external _CFBooleanGetTypeID (from CoreFoundation)
+                 (undefined) external _CFBooleanGetValue (from CoreFoundation)
+                 (undefined) external _CFDataCreate (from CoreFoundation)
+                 (undefined) external _CFDataGetBytePtr (from CoreFoundation)
+                 (undefined) external _CFDataGetBytes (from CoreFoundation)
+                 (undefined) external _CFDictionaryAddValue (from CoreFoundation)
+                 (undefined) external _CFDictionaryCreateMutable (from CoreFoundation)
+                 (undefined) external _CFDictionaryGetValue (from CoreFoundation)
+                 (undefined) external _CFDictionarySetValue (from CoreFoundation)
+                 (undefined) external _CFEqual (from CoreFoundation)
+                 (undefined) external _CFGetTypeID (from CoreFoundation)
+                 (undefined) external _CFGregorianDateGetAbsoluteTime (from CoreFoundation)
+                 (undefined) external _CFRelease (from CoreFoundation)
+                 (undefined) external _CFStringCreateWithCStringNoCopy (from CoreFoundation)
+                 (undefined) external _IOIteratorNext (from IOKit)
+                 (undefined) external _IOObjectRelease (from IOKit)
+                 (undefined) external _IORegistryEntryCreateCFProperty (from IOKit)
+                 (undefined) external _IORegistryEntryGetParentEntry (from IOKit)
+                 (undefined) external _IOServiceGetMatchingServices (from IOKit)
+                 (undefined) external _IOServiceMatching (from IOKit)
+0000000100008358 (__DATA_CONST,__const) external _IntermediateOID
+                 (undefined) external _NSLog (from Foundation)
+000000010000cab8 (__DATA,__objc_data) external _OBJC_CLASS_$_ISPurchaseReceipt
+                 (undefined) external _OBJC_CLASS_$_NSBundle (from Foundation)
+                 (undefined) external _OBJC_CLASS_$_NSData (from CoreFoundation)
+                 (undefined) external _OBJC_CLASS_$_NSDate (from CoreFoundation)
+                 (undefined) external _OBJC_CLASS_$_NSDictionary (from CoreFoundation)
+                 (undefined) external _OBJC_CLASS_$_NSFileManager (from Foundation)
+                 (undefined) external _OBJC_CLASS_$_NSNumber (from Foundation)
+                 (undefined) external _OBJC_CLASS_$_NSObject (from libobjc)
+                 (undefined) external _OBJC_CLASS_$_NSString (from Foundation)
+000000010000cbd0 (__DATA,__objc_data) external _OBJC_CLASS_$_asn1IntegerToken
+000000010000cbf8 (__DATA,__objc_data) external _OBJC_CLASS_$_asn1OSToken
+000000010000cb08 (__DATA,__objc_data) external _OBJC_CLASS_$_asn1ReceiptToken
+000000010000cba8 (__DATA,__objc_data) external _OBJC_CLASS_$_asn1SequenceToken
+000000010000cb80 (__DATA,__objc_data) external _OBJC_CLASS_$_asn1SetToken
+000000010000cb58 (__DATA,__objc_data) external _OBJC_CLASS_$_asn1Token
+000000010000ca78 (__DATA,__objc_ivar) non-external (was a private external) _OBJC_IVAR_$_ISPurchaseReceipt._adamID
+000000010000ca7c (__DATA,__objc_ivar) non-external (was a private external) _OBJC_IVAR_$_ISPurchaseReceipt._bundleID
+000000010000ca68 (__DATA,__objc_ivar) non-external (was a private external) _OBJC_IVAR_$_ISPurchaseReceipt._cancellationReason
+000000010000ca6c (__DATA,__objc_ivar) non-external (was a private external) _OBJC_IVAR_$_ISPurchaseReceipt._expirationDate
+000000010000ca84 (__DATA,__objc_ivar) non-external (was a private external) _OBJC_IVAR_$_ISPurchaseReceipt._opaqueDSIDBuffer
+000000010000ca70 (__DATA,__objc_ivar) non-external (was a private external) _OBJC_IVAR_$_ISPurchaseReceipt._receiptCreationDate
+000000010000ca80 (__DATA,__objc_ivar) non-external (was a private external) _OBJC_IVAR_$_ISPurchaseReceipt._receipt_type
+000000010000ca74 (__DATA,__objc_ivar) non-external (was a private external) _OBJC_IVAR_$_ISPurchaseReceipt._renewalDate
+000000010000caac (__DATA,__objc_ivar) external _OBJC_IVAR_$_asn1IntegerToken.mValue
+000000010000cab0 (__DATA,__objc_ivar) external _OBJC_IVAR_$_asn1OSToken.mValue
+000000010000ca90 (__DATA,__objc_ivar) external _OBJC_IVAR_$_asn1ReceiptToken.mContentToken
+000000010000ca88 (__DATA,__objc_ivar) external _OBJC_IVAR_$_asn1ReceiptToken.mType
+000000010000ca8c (__DATA,__objc_ivar) external _OBJC_IVAR_$_asn1ReceiptToken.mTypeVersion
+000000010000caa8 (__DATA,__objc_ivar) external _OBJC_IVAR_$_asn1SequenceToken.mReadPointer
+000000010000caa4 (__DATA,__objc_ivar) external _OBJC_IVAR_$_asn1SetToken.mReadPointer
+000000010000ca94 (__DATA,__objc_ivar) external _OBJC_IVAR_$_asn1Token.mClass
+000000010000caa0 (__DATA,__objc_ivar) external _OBJC_IVAR_$_asn1Token.mContent
+000000010000ca98 (__DATA,__objc_ivar) external _OBJC_IVAR_$_asn1Token.mIdentifier
+000000010000ca9c (__DATA,__objc_ivar) external _OBJC_IVAR_$_asn1Token.mLength
+000000010000cae0 (__DATA,__objc_data) external _OBJC_METACLASS_$_ISPurchaseReceipt
+                 (undefined) external _OBJC_METACLASS_$_NSObject (from libobjc)
+000000010000cc98 (__DATA,__objc_data) external _OBJC_METACLASS_$_asn1IntegerToken
+000000010000ccc0 (__DATA,__objc_data) external _OBJC_METACLASS_$_asn1OSToken
+000000010000cb30 (__DATA,__objc_data) external _OBJC_METACLASS_$_asn1ReceiptToken
+000000010000cc70 (__DATA,__objc_data) external _OBJC_METACLASS_$_asn1SequenceToken
+000000010000cc48 (__DATA,__objc_data) external _OBJC_METACLASS_$_asn1SetToken
+000000010000cc20 (__DATA,__objc_data) external _OBJC_METACLASS_$_asn1Token
+                 (undefined) external _SecCertificateCopyProperties (from Security)
+                 (undefined) external _SecCertificateCopySubjectPublicKeyInfoSHA256Digest (from Security)
+                 (undefined) external _SecCertificateCreateWithData (from Security)
+                 (undefined) external _SecCmsContentInfoGetContent (from Security)
+                 (undefined) external _SecCmsContentInfoGetContentTypeTag (from Security)
+                 (undefined) external _SecCmsDecoderCreate (from Security)
+                 (undefined) external _SecCmsDecoderDestroy (from Security)
+                 (undefined) external _SecCmsDecoderFinish (from Security)
+                 (undefined) external _SecCmsDecoderUpdate (from Security)
+                 (undefined) external _SecCmsMessageContentLevel (from Security)
+                 (undefined) external _SecCmsMessageContentLevelCount (from Security)
+                 (undefined) external _SecCmsMessageDestroy (from Security)
+                 (undefined) external _SecCmsMessageGetContent (from Security)
+                 (undefined) external _SecCmsSignedDataGetCertificateList (from Security)
+                 (undefined) external _SecCodeCheckValidity (from Security)
+                 (undefined) external _SecCodeCopyGuestWithAttributes (from Security)
+                 (undefined) external _SecPolicyCreateWithProperties (from Security)
+                 (undefined) external _SecRequirementCreateWithString (from Security)
+                 (undefined) external _SecTaskCopyValueForEntitlement (from Security)
+                 (undefined) external _SecTaskCreateWithAuditToken (from Security)
+                 (undefined) external _SecTrustCreateWithCertificates (from Security)
+                 (undefined) external _SecTrustEvaluate (from Security)
+                 (undefined) external _SecTrustSetAnchorCertificates (from Security)
+                 (undefined) external _SecTrustSetAnchorCertificatesOnly (from Security)
+                 (undefined) external _SecTrustSetPolicies (from Security)
+                 (undefined) external _SecTrustSetVerifyDate (from Security)
+                 (undefined) external __Block_object_assign (from libSystem)
+                 (undefined) external __Block_object_dispose (from libSystem)
+                 (undefined) external __NSConcreteGlobalBlock (from libSystem)
+                 (undefined) external __NSConcreteStackBlock (from libSystem)
+0000000100006f48 (__TEXT,__objc_methlist) non-external __OBJC_$_CLASS_METHODS_ISPurchaseReceipt
+0000000100007050 (__TEXT,__objc_methlist) non-external __OBJC_$_CLASS_METHODS_asn1ReceiptToken
+00000001000070d0 (__TEXT,__objc_methlist) non-external __OBJC_$_CLASS_METHODS_asn1Token
+0000000100006f60 (__TEXT,__objc_methlist) non-external __OBJC_$_INSTANCE_METHODS_ISPurchaseReceipt
+0000000100007100 (__TEXT,__objc_methlist) non-external __OBJC_$_INSTANCE_METHODS_asn1IntegerToken
+0000000100007130 (__TEXT,__objc_methlist) non-external __OBJC_$_INSTANCE_METHODS_asn1OSToken
+0000000100007068 (__TEXT,__objc_methlist) non-external __OBJC_$_INSTANCE_METHODS_asn1ReceiptToken
+0000000100007168 (__TEXT,__objc_methlist) non-external __OBJC_$_INSTANCE_METHODS_asn1SequenceToken
+00000001000071a0 (__TEXT,__objc_methlist) non-external __OBJC_$_INSTANCE_METHODS_asn1SetToken
+00000001000071d8 (__TEXT,__objc_methlist) non-external __OBJC_$_INSTANCE_METHODS_asn1Token
+000000010000c048 (__DATA,__objc_const) non-external __OBJC_$_INSTANCE_VARIABLES_ISPurchaseReceipt
+000000010000c688 (__DATA,__objc_const) non-external __OBJC_$_INSTANCE_VARIABLES_asn1IntegerToken
+000000010000c758 (__DATA,__objc_const) non-external __OBJC_$_INSTANCE_VARIABLES_asn1OSToken
+000000010000c268 (__DATA,__objc_const) non-external __OBJC_$_INSTANCE_VARIABLES_asn1ReceiptToken
+000000010000c5d0 (__DATA,__objc_const) non-external __OBJC_$_INSTANCE_VARIABLES_asn1SequenceToken
+000000010000c518 (__DATA,__objc_const) non-external __OBJC_$_INSTANCE_VARIABLES_asn1SetToken
+000000010000c3b8 (__DATA,__objc_const) non-external __OBJC_$_INSTANCE_VARIABLES_asn1Token
+000000010000c150 (__DATA,__objc_const) non-external __OBJC_$_PROP_LIST_ISPurchaseReceipt
+000000010000c6b0 (__DATA,__objc_const) non-external __OBJC_$_PROP_LIST_asn1IntegerToken
+000000010000c780 (__DATA,__objc_const) non-external __OBJC_$_PROP_LIST_asn1OSToken
+000000010000c2d0 (__DATA,__objc_const) non-external __OBJC_$_PROP_LIST_asn1ReceiptToken
+000000010000c440 (__DATA,__objc_const) non-external __OBJC_$_PROP_LIST_asn1Token
+000000010000c1d8 (__DATA,__objc_const) non-external __OBJC_CLASS_RO_$_ISPurchaseReceipt
+000000010000c6c8 (__DATA,__objc_const) non-external __OBJC_CLASS_RO_$_asn1IntegerToken
+000000010000c798 (__DATA,__objc_const) non-external __OBJC_CLASS_RO_$_asn1OSToken
+000000010000c328 (__DATA,__objc_const) non-external __OBJC_CLASS_RO_$_asn1ReceiptToken
+000000010000c5f8 (__DATA,__objc_const) non-external __OBJC_CLASS_RO_$_asn1SequenceToken
+000000010000c540 (__DATA,__objc_const) non-external __OBJC_CLASS_RO_$_asn1SetToken
+000000010000c488 (__DATA,__objc_const) non-external __OBJC_CLASS_RO_$_asn1Token
+000000010000c000 (__DATA,__objc_const) non-external __OBJC_METACLASS_RO_$_ISPurchaseReceipt
+000000010000c640 (__DATA,__objc_const) non-external __OBJC_METACLASS_RO_$_asn1IntegerToken
+000000010000c710 (__DATA,__objc_const) non-external __OBJC_METACLASS_RO_$_asn1OSToken
+000000010000c220 (__DATA,__objc_const) non-external __OBJC_METACLASS_RO_$_asn1ReceiptToken
+000000010000c588 (__DATA,__objc_const) non-external __OBJC_METACLASS_RO_$_asn1SequenceToken
+000000010000c4d0 (__DATA,__objc_const) non-external __OBJC_METACLASS_RO_$_asn1SetToken
+000000010000c370 (__DATA,__objc_const) non-external __OBJC_METACLASS_RO_$_asn1Token
+                 (undefined) external ___CFConstantStringClassReference (from CoreFoundation)
+00000001000066d8 (__TEXT,__text) non-external ___arcadeservice_event_handler_block_invoke
+0000000100006a0c (__TEXT,__text) non-external ___arcadeservice_event_handler_block_invoke.cold.1
+                 (undefined) external ___assert_rtn (from libSystem)
+0000000100008318 (__DATA_CONST,__const) non-external (was a private external) ___block_descriptor_32_e5_v8?0l
+0000000100008360 (__DATA_CONST,__const) non-external (was a private external) ___block_descriptor_40_e8_32o_e33_v16?0"NSObject<OS_xpc_object>"8l
+0000000100008338 (__DATA_CONST,__const) non-external ___block_literal_global
+00000001000069f0 (__TEXT,__text) non-external (was a private external) ___copy_helper_block_e8_32o
+0000000100006a00 (__TEXT,__text) non-external (was a private external) ___destroy_helper_block_e8_32o
+000000010000408c (__TEXT,__text) non-external ___get_mac_address_block_invoke
+                 (undefined) external ___stack_chk_fail (from libSystem)
+                 (undefined) external ___stack_chk_guard (from libSystem)
+                 (undefined) external ___strcpy_chk (from libSystem)
+                 (undefined) external ___strncat_chk (from libSystem)
+000000010000cd00 (__DATA,__bss) non-external __bundleID_local
+0000000100000000 (__TEXT,__text) [referenced dynamically] external __mh_execute_header
+                 (undefined) external __objc_empty_cache (from libobjc)
+000000010000cdff (__DATA,__bss) non-external __receipt_type_local
+                 (undefined) external __xpc_type_dictionary (from libSystem)
+                 (undefined) external __xpc_type_error (from libSystem)
+000000010000641c (__TEXT,__text) non-external _arcadeservice_event_handler
+                 (undefined) external _dispatch_once (from libSystem)
+0000000100004000 (__TEXT,__text) external _get_mac_address
+000000010000cce8 (__DATA,__data) non-external _get_mac_address.kernResult
+000000010000ccf8 (__DATA,__bss) non-external _get_mac_address.onceToken
+000000010000ccf0 (__DATA,__bss) non-external _get_mac_address.stMacAddressBuffer
+                 (undefined) external _kCFAllocatorDefault (from CoreFoundation)
+                 (undefined) external _kCFAllocatorNull (from CoreFoundation)
+                 (undefined) external _kCFBooleanTrue (from CoreFoundation)
+                 (undefined) external _kCFTypeArrayCallBacks (from CoreFoundation)
+                 (undefined) external _kCFTypeDictionaryKeyCallBacks (from CoreFoundation)
+                 (undefined) external _kCFTypeDictionaryValueCallBacks (from CoreFoundation)
+                 (undefined) external _kIOMasterPortDefault (from IOKit)
+                 (undefined) external _kSecGuestAttributeAudit (from Security)
+                 (undefined) external _kSecPolicyAppleRevocation (from Security)
+                 (undefined) external _kSecPolicyAppleX509Basic (from Security)
+                 (undefined) external _kSecPolicyMacAppStoreReceipt (from Security)
+                 (undefined) external _kSecPolicyRevocationFlags (from Security)
+                 (undefined) external _kSecPropertyKeyLabel (from Security)
+                 (undefined) external _kSecPropertyKeyValue (from Security)
+00000001000063fc (__TEXT,__text) external _main
+                 (undefined) external _objc_alloc (from libobjc)
+                 (undefined) external _objc_autorelease (from libobjc)
+                 (undefined) external _objc_autoreleasePoolPop (from libobjc)
+                 (undefined) external _objc_autoreleasePoolPush (from libobjc)
+                 (undefined) external _objc_msgSend (from libobjc)
+                 (undefined) external _objc_msgSendSuper2 (from libobjc)
+                 (undefined) external _objc_opt_class (from libobjc)
+                 (undefined) external _objc_opt_isKindOfClass (from libobjc)
+                 (undefined) external _objc_release (from libobjc)
+                 (undefined) external _objc_retain (from libobjc)
+0000000100005fec (__TEXT,__text) external _parseISO8601
+                 (undefined) external _strlen (from libSystem)
+                 (undefined) external _strncpy (from libSystem)
+                 (undefined) external _xpc_connection_cancel (from libSystem)
+                 (undefined) external _xpc_connection_get_audit_token (from libSystem)
+                 (undefined) external _xpc_connection_resume (from libSystem)
+                 (undefined) external _xpc_connection_send_message (from libSystem)
+                 (undefined) external _xpc_connection_set_event_handler (from libSystem)
+                 (undefined) external _xpc_dictionary_create_reply (from libSystem)
+                 (undefined) external _xpc_dictionary_get_data (from libSystem)
+                 (undefined) external _xpc_dictionary_set_data (from libSystem)
+                 (undefined) external _xpc_dictionary_set_int64 (from libSystem)
+                 (undefined) external _xpc_get_type (from libSystem)
+                 (undefined) external _xpc_main (from libSystem)

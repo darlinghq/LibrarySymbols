@@ -1,0 +1,892 @@
+00007fff38644a37 (__TEXT,__text) non-external +[HIDEvent(HIDAccelerometerEvent) accelerometerEvent:x:y:z:options:]
+00007fff38644c26 (__TEXT,__text) non-external +[HIDEvent(HIDAmbientLightSensorEvent) ambientLightSensorEvent:level:options:]
+00007fff38645e6b (__TEXT,__text) non-external +[HIDEvent(HIDAtmosphericPressureEvent) atmosphericPressureEvent:level:sequence:options:]
+00007fff3864606e (__TEXT,__text) non-external +[HIDEvent(HIDBiometricEvent) biometricEvent:eventType:level:options:]
+00007fff38645b3b (__TEXT,__text) non-external +[HIDEvent(HIDBrightnessEvent) brightnessEvent:currentBrightness:targetBrightness:transitionTime:options:]
+00007fff38645d81 (__TEXT,__text) non-external +[HIDEvent(HIDButtonEvent) buttonEvent:buttonMask:options:]
+00007fff38645936 (__TEXT,__text) non-external +[HIDEvent(HIDCompassEvent) compassEvent:x:y:z:options:]
+00007fff3864528a (__TEXT,__text) non-external +[HIDEvent(HIDDigitizerEvent) digitizerEvent:transducerType:x:y:z:options:]
+00007fff386453c1 (__TEXT,__text) non-external +[HIDEvent(HIDDigitizerEvent) polarDigitizerEvent:altitude:azimuth:quality:density:majorRadius:minorRadius:options:]
+00007fff386454b4 (__TEXT,__text) non-external +[HIDEvent(HIDDigitizerEvent) qualityDigitizerEvent:quality:density:irregularity:majorRadius:minorRadius:accuracy:options:]
+00007fff38645332 (__TEXT,__text) non-external +[HIDEvent(HIDDigitizerEvent) tiltDigitizerEvent:x:y:options:]
+00007fff38644e49 (__TEXT,__text) non-external +[HIDEvent(HIDForceEvent) forceEvent:behavior:progress:stage:stageProgress:options:]
+00007fff38645006 (__TEXT,__text) non-external +[HIDEvent(HIDGameControllerEvent) gameControllerEvent:controllerType:options:]
+00007fff38644b95 (__TEXT,__text) non-external +[HIDEvent(HIDGenericGestureEvent) genericGestureEvent:gestureType:options:]
+00007fff38645c23 (__TEXT,__text) non-external +[HIDEvent(HIDGyroEvent) gyroEvent:x:y:z:options:]
+00007fff38646626 (__TEXT,__text) non-external +[HIDEvent(HIDKeyboardEvent) keyboardEvent:usagePage:usage:down:options:]
+00007fff38646181 (__TEXT,__text) non-external +[HIDEvent(HIDLEDEvent) lEDEvent:ledMask:number:state:options:]
+00007fff38645a94 (__TEXT,__text) non-external +[HIDEvent(HIDMotionActivityEvent) motionActivityEvent:activityType:confidence:options:]
+00007fff38644f5f (__TEXT,__text) non-external +[HIDEvent(HIDMotionGestureEvent) motionGestureEvent:gestureType:progress:options:]
+00007fff38646243 (__TEXT,__text) non-external +[HIDEvent(HIDOrientationEvent) polarOrientationEvent:radius:azimuth:altitude:options:]
+00007fff386462ee (__TEXT,__text) non-external +[HIDEvent(HIDOrientationEvent) quaternionOrientationEvent:w:x:y:z:options:]
+00007fff3864639c (__TEXT,__text) non-external +[HIDEvent(HIDOrientationEvent) tiltOrientationEvent:x:y:z:options:]
+00007fff386467f2 (__TEXT,__text) non-external +[HIDEvent(HIDPointerEvent) pointerEvent:x:y:z:buttonMask:options:]
+00007fff386465a2 (__TEXT,__text) non-external +[HIDEvent(HIDProximityEvent) proximityEvent:detectionMask:options:]
+00007fff38645f50 (__TEXT,__text) non-external +[HIDEvent(HIDScrollEvent) scrollEvent:x:y:z:options:]
+00007fff386449b1 (__TEXT,__text) non-external +[HIDEvent(HIDTemperatureEvent) temperatureEvent:level:options:]
+00007fff3864489d (__TEXT,__text) non-external +[HIDEvent(HIDVendorDefinedEvent) vendorDefinedEvent:usagePage:usage:version:data:length:options:]
+00007fff38646914 (__TEXT,__text) non-external +[NSError(IOReturn) errorWithIOReturn:]
+00007fff38643f3b (__TEXT,__text) non-external -[HIDConnection(HIDFramework) uuid]
+00007fff38643131 (__TEXT,__text) non-external -[HIDDevice(HIDFramework) activate]
+00007fff38643231 (__TEXT,__text) non-external -[HIDDevice(HIDFramework) cancel]
+00007fff38643125 (__TEXT,__text) non-external -[HIDDevice(HIDFramework) close]
+00007fff38642995 (__TEXT,__text) non-external -[HIDDevice(HIDFramework) commitElements:direction:error:]
+00007fff38642886 (__TEXT,__text) non-external -[HIDDevice(HIDFramework) conformsToUsagePage:usage:]
+00007fff38642898 (__TEXT,__text) non-external -[HIDDevice(HIDFramework) elementsMatching:]
+00007fff3864291c (__TEXT,__text) non-external -[HIDDevice(HIDFramework) getReport:reportLength:withIdentifier:forType:error:]
+00007fff38642839 (__TEXT,__text) non-external -[HIDDevice(HIDFramework) initWithService:]
+00007fff386430d1 (__TEXT,__text) non-external -[HIDDevice(HIDFramework) openSeize:]
+00007fff386430c5 (__TEXT,__text) non-external -[HIDDevice(HIDFramework) open]
+00007fff38642868 (__TEXT,__text) non-external -[HIDDevice(HIDFramework) propertyForKey:]
+00007fff3864323b (__TEXT,__text) non-external -[HIDDevice(HIDFramework) service]
+00007fff38642cb3 (__TEXT,__text) non-external -[HIDDevice(HIDFramework) setBatchInputElementHandler:]
+00007fff38647004 (__TEXT,__text) non-external -[HIDDevice(HIDFramework) setBatchInputElementHandler:].cold.1
+00007fff386430ab (__TEXT,__text) non-external -[HIDDevice(HIDFramework) setCancelHandler:]
+00007fff386430b8 (__TEXT,__text) non-external -[HIDDevice(HIDFramework) setDispatchQueue:]
+00007fff38642bd3 (__TEXT,__text) non-external -[HIDDevice(HIDFramework) setInputElementHandler:]
+00007fff38646ff2 (__TEXT,__text) non-external -[HIDDevice(HIDFramework) setInputElementHandler:].cold.1
+00007fff38642a60 (__TEXT,__text) non-external -[HIDDevice(HIDFramework) setInputElementMatching:]
+00007fff38642ee6 (__TEXT,__text) non-external -[HIDDevice(HIDFramework) setInputReportHandler:]
+00007fff38647028 (__TEXT,__text) non-external -[HIDDevice(HIDFramework) setInputReportHandler:].cold.1
+00007fff38642875 (__TEXT,__text) non-external -[HIDDevice(HIDFramework) setProperty:forKey:]
+00007fff38642e10 (__TEXT,__text) non-external -[HIDDevice(HIDFramework) setRemovalHandler:]
+00007fff38647016 (__TEXT,__text) non-external -[HIDDevice(HIDFramework) setRemovalHandler:].cold.1
+00007fff386428bd (__TEXT,__text) non-external -[HIDDevice(HIDFramework) setReport:reportLength:withIdentifier:forType:error:]
+00007fff386447d2 (__TEXT,__text) non-external -[HIDElement(HIDFramework) children]
+00007fff3864459b (__TEXT,__text) non-external -[HIDElement(HIDFramework) cookie]
+00007fff38644684 (__TEXT,__text) non-external -[HIDElement(HIDFramework) dataValue]
+00007fff386444c5 (__TEXT,__text) non-external -[HIDElement(HIDFramework) description]
+00007fff386445f9 (__TEXT,__text) non-external -[HIDElement(HIDFramework) integerValue]
+00007fff38644841 (__TEXT,__text) non-external -[HIDElement(HIDFramework) logicalMax]
+00007fff38644837 (__TEXT,__text) non-external -[HIDElement(HIDFramework) logicalMin]
+00007fff386447c8 (__TEXT,__text) non-external -[HIDElement(HIDFramework) parent]
+00007fff38644855 (__TEXT,__text) non-external -[HIDElement(HIDFramework) physicalMax]
+00007fff3864484b (__TEXT,__text) non-external -[HIDElement(HIDFramework) physicalMin]
+00007fff38644803 (__TEXT,__text) non-external -[HIDElement(HIDFramework) reportID]
+00007fff38644810 (__TEXT,__text) non-external -[HIDElement(HIDFramework) reportSize]
+00007fff386445a5 (__TEXT,__text) non-external -[HIDElement(HIDFramework) scaleValue:]
+00007fff38644713 (__TEXT,__text) non-external -[HIDElement(HIDFramework) setDataValue:]
+00007fff38644637 (__TEXT,__text) non-external -[HIDElement(HIDFramework) setIntegerValue:]
+00007fff3864458e (__TEXT,__text) non-external -[HIDElement(HIDFramework) setValueRef:]
+00007fff3864485f (__TEXT,__text) non-external -[HIDElement(HIDFramework) timestamp]
+00007fff386447dc (__TEXT,__text) non-external -[HIDElement(HIDFramework) type]
+00007fff3864482a (__TEXT,__text) non-external -[HIDElement(HIDFramework) unitExponent]
+00007fff3864481d (__TEXT,__text) non-external -[HIDElement(HIDFramework) unit]
+00007fff386447e9 (__TEXT,__text) non-external -[HIDElement(HIDFramework) usagePage]
+00007fff386447f6 (__TEXT,__text) non-external -[HIDElement(HIDFramework) usage]
+00007fff38644584 (__TEXT,__text) non-external -[HIDElement(HIDFramework) valueRef]
+00007fff38644adb (__TEXT,__text) non-external -[HIDEvent(HIDAccelerometerEventPrivate) accelerometerSequence]
+00007fff38644afb (__TEXT,__text) non-external -[HIDEvent(HIDAccelerometerEventPrivate) accelerometerSubType]
+00007fff38644b1b (__TEXT,__text) non-external -[HIDEvent(HIDAccelerometerEventPrivate) accelerometerType]
+00007fff38644b3b (__TEXT,__text) non-external -[HIDEvent(HIDAccelerometerEventPrivate) accelerometerX]
+00007fff38644b59 (__TEXT,__text) non-external -[HIDEvent(HIDAccelerometerEventPrivate) accelerometerY]
+00007fff38644b77 (__TEXT,__text) non-external -[HIDEvent(HIDAccelerometerEventPrivate) accelerometerZ]
+00007fff38644aea (__TEXT,__text) non-external -[HIDEvent(HIDAccelerometerEventPrivate) setAccelerometerSequence:]
+00007fff38644b0a (__TEXT,__text) non-external -[HIDEvent(HIDAccelerometerEventPrivate) setAccelerometerSubType:]
+00007fff38644b2a (__TEXT,__text) non-external -[HIDEvent(HIDAccelerometerEventPrivate) setAccelerometerType:]
+00007fff38644b4a (__TEXT,__text) non-external -[HIDEvent(HIDAccelerometerEventPrivate) setAccelerometerX:]
+00007fff38644b68 (__TEXT,__text) non-external -[HIDEvent(HIDAccelerometerEventPrivate) setAccelerometerY:]
+00007fff38644b86 (__TEXT,__text) non-external -[HIDEvent(HIDAccelerometerEventPrivate) setAccelerometerZ:]
+00007fff38644c6a (__TEXT,__text) non-external -[HIDEvent(HIDAmbientLightSensorEventPrivate) ambientLightColorComponent0]
+00007fff38644c88 (__TEXT,__text) non-external -[HIDEvent(HIDAmbientLightSensorEventPrivate) ambientLightColorComponent1]
+00007fff38644ca6 (__TEXT,__text) non-external -[HIDEvent(HIDAmbientLightSensorEventPrivate) ambientLightColorComponent2]
+00007fff38644cc4 (__TEXT,__text) non-external -[HIDEvent(HIDAmbientLightSensorEventPrivate) ambientLightColorSpace]
+00007fff38644ce8 (__TEXT,__text) non-external -[HIDEvent(HIDAmbientLightSensorEventPrivate) ambientLightDisplayBrightnessChanged]
+00007fff38644d0f (__TEXT,__text) non-external -[HIDEvent(HIDAmbientLightSensorEventPrivate) ambientLightSensorColorTemperature]
+00007fff38644d2d (__TEXT,__text) non-external -[HIDEvent(HIDAmbientLightSensorEventPrivate) ambientLightSensorIlluminance]
+00007fff38644d4b (__TEXT,__text) non-external -[HIDEvent(HIDAmbientLightSensorEventPrivate) ambientLightSensorLevel]
+00007fff38644d6b (__TEXT,__text) non-external -[HIDEvent(HIDAmbientLightSensorEventPrivate) ambientLightSensorRawChannel0]
+00007fff38644d8b (__TEXT,__text) non-external -[HIDEvent(HIDAmbientLightSensorEventPrivate) ambientLightSensorRawChannel1]
+00007fff38644dab (__TEXT,__text) non-external -[HIDEvent(HIDAmbientLightSensorEventPrivate) ambientLightSensorRawChannel2]
+00007fff38644dcb (__TEXT,__text) non-external -[HIDEvent(HIDAmbientLightSensorEventPrivate) ambientLightSensorRawChannel3]
+00007fff38644c79 (__TEXT,__text) non-external -[HIDEvent(HIDAmbientLightSensorEventPrivate) setAmbientLightColorComponent0:]
+00007fff38644c97 (__TEXT,__text) non-external -[HIDEvent(HIDAmbientLightSensorEventPrivate) setAmbientLightColorComponent1:]
+00007fff38644cb5 (__TEXT,__text) non-external -[HIDEvent(HIDAmbientLightSensorEventPrivate) setAmbientLightColorComponent2:]
+00007fff38644cd7 (__TEXT,__text) non-external -[HIDEvent(HIDAmbientLightSensorEventPrivate) setAmbientLightColorSpace:]
+00007fff38644cfe (__TEXT,__text) non-external -[HIDEvent(HIDAmbientLightSensorEventPrivate) setAmbientLightDisplayBrightnessChanged:]
+00007fff38644d1e (__TEXT,__text) non-external -[HIDEvent(HIDAmbientLightSensorEventPrivate) setAmbientLightSensorColorTemperature:]
+00007fff38644d3c (__TEXT,__text) non-external -[HIDEvent(HIDAmbientLightSensorEventPrivate) setAmbientLightSensorIlluminance:]
+00007fff38644d5a (__TEXT,__text) non-external -[HIDEvent(HIDAmbientLightSensorEventPrivate) setAmbientLightSensorLevel:]
+00007fff38644d7a (__TEXT,__text) non-external -[HIDEvent(HIDAmbientLightSensorEventPrivate) setAmbientLightSensorRawChannel0:]
+00007fff38644d9a (__TEXT,__text) non-external -[HIDEvent(HIDAmbientLightSensorEventPrivate) setAmbientLightSensorRawChannel1:]
+00007fff38644dba (__TEXT,__text) non-external -[HIDEvent(HIDAmbientLightSensorEventPrivate) setAmbientLightSensorRawChannel2:]
+00007fff38644dda (__TEXT,__text) non-external -[HIDEvent(HIDAmbientLightSensorEventPrivate) setAmbientLightSensorRawChannel3:]
+00007fff38645ed4 (__TEXT,__text) non-external -[HIDEvent(HIDAtmosphericPressureEventPrivate) atmosphericPressureLevel]
+00007fff38645ef2 (__TEXT,__text) non-external -[HIDEvent(HIDAtmosphericPressureEventPrivate) atmosphericSequence]
+00007fff38645ee3 (__TEXT,__text) non-external -[HIDEvent(HIDAtmosphericPressureEventPrivate) setAtmosphericPressureLevel:]
+00007fff38645f01 (__TEXT,__text) non-external -[HIDEvent(HIDAtmosphericPressureEventPrivate) setAtmosphericSequence:]
+00007fff386460d7 (__TEXT,__text) non-external -[HIDEvent(HIDBiometricEventPrivate) biometricEventType]
+00007fff386460f7 (__TEXT,__text) non-external -[HIDEvent(HIDBiometricEventPrivate) biometricLevel]
+00007fff38646115 (__TEXT,__text) non-external -[HIDEvent(HIDBiometricEventPrivate) biometricTapCount]
+00007fff3864615d (__TEXT,__text) non-external -[HIDEvent(HIDBiometricEventPrivate) biometricUsagePage]
+00007fff38646139 (__TEXT,__text) non-external -[HIDEvent(HIDBiometricEventPrivate) biometricUsage]
+00007fff386460e6 (__TEXT,__text) non-external -[HIDEvent(HIDBiometricEventPrivate) setBiometricEventType:]
+00007fff38646106 (__TEXT,__text) non-external -[HIDEvent(HIDBiometricEventPrivate) setBiometricLevel:]
+00007fff38646128 (__TEXT,__text) non-external -[HIDEvent(HIDBiometricEventPrivate) setBiometricTapCount:]
+00007fff3864614c (__TEXT,__text) non-external -[HIDEvent(HIDBiometricEventPrivate) setBiometricUsage:]
+00007fff38646170 (__TEXT,__text) non-external -[HIDEvent(HIDBiometricEventPrivate) setBiometricUsagePage:]
+00007fff38645bc9 (__TEXT,__text) non-external -[HIDEvent(HIDBrightnessEventPrivate) currentBrightness]
+00007fff38645bd8 (__TEXT,__text) non-external -[HIDEvent(HIDBrightnessEventPrivate) setCurrentBrightness:]
+00007fff38645bf6 (__TEXT,__text) non-external -[HIDEvent(HIDBrightnessEventPrivate) setTargetBrightness:]
+00007fff38645c14 (__TEXT,__text) non-external -[HIDEvent(HIDBrightnessEventPrivate) setTransitionTime:]
+00007fff38645be7 (__TEXT,__text) non-external -[HIDEvent(HIDBrightnessEventPrivate) targetBrightness]
+00007fff38645c05 (__TEXT,__text) non-external -[HIDEvent(HIDBrightnessEventPrivate) transitionTime]
+00007fff38645dc5 (__TEXT,__text) non-external -[HIDEvent(HIDButtonEventPrivate) buttonClickCount]
+00007fff38645de9 (__TEXT,__text) non-external -[HIDEvent(HIDButtonEventPrivate) buttonMask]
+00007fff38645e09 (__TEXT,__text) non-external -[HIDEvent(HIDButtonEventPrivate) buttonNumber]
+00007fff38645e2d (__TEXT,__text) non-external -[HIDEvent(HIDButtonEventPrivate) buttonPressure]
+00007fff38645e4b (__TEXT,__text) non-external -[HIDEvent(HIDButtonEventPrivate) buttonState]
+00007fff38645dd8 (__TEXT,__text) non-external -[HIDEvent(HIDButtonEventPrivate) setButtonClickCount:]
+00007fff38645df8 (__TEXT,__text) non-external -[HIDEvent(HIDButtonEventPrivate) setButtonMask:]
+00007fff38645e1c (__TEXT,__text) non-external -[HIDEvent(HIDButtonEventPrivate) setButtonNumber:]
+00007fff38645e3c (__TEXT,__text) non-external -[HIDEvent(HIDButtonEventPrivate) setButtonPressure:]
+00007fff38645e5a (__TEXT,__text) non-external -[HIDEvent(HIDButtonEventPrivate) setButtonState:]
+00007fff386459da (__TEXT,__text) non-external -[HIDEvent(HIDCompassEventPrivate) compassSequence]
+00007fff386459fa (__TEXT,__text) non-external -[HIDEvent(HIDCompassEventPrivate) compassSubType]
+00007fff38645a1a (__TEXT,__text) non-external -[HIDEvent(HIDCompassEventPrivate) compassType]
+00007fff38645a3a (__TEXT,__text) non-external -[HIDEvent(HIDCompassEventPrivate) compassX]
+00007fff38645a58 (__TEXT,__text) non-external -[HIDEvent(HIDCompassEventPrivate) compassY]
+00007fff38645a76 (__TEXT,__text) non-external -[HIDEvent(HIDCompassEventPrivate) compassZ]
+00007fff386459e9 (__TEXT,__text) non-external -[HIDEvent(HIDCompassEventPrivate) setCompassSequence:]
+00007fff38645a09 (__TEXT,__text) non-external -[HIDEvent(HIDCompassEventPrivate) setCompassSubType:]
+00007fff38645a29 (__TEXT,__text) non-external -[HIDEvent(HIDCompassEventPrivate) setCompassType:]
+00007fff38645a49 (__TEXT,__text) non-external -[HIDEvent(HIDCompassEventPrivate) setCompassX:]
+00007fff38645a67 (__TEXT,__text) non-external -[HIDEvent(HIDCompassEventPrivate) setCompassY:]
+00007fff38645a85 (__TEXT,__text) non-external -[HIDEvent(HIDCompassEventPrivate) setCompassZ:]
+00007fff386455a7 (__TEXT,__text) non-external -[HIDEvent(HIDDigitizerEventPrivate) digitizerAltitude]
+00007fff386455c5 (__TEXT,__text) non-external -[HIDEvent(HIDDigitizerEventPrivate) digitizerAuxiliaryPressure]
+00007fff386455e3 (__TEXT,__text) non-external -[HIDEvent(HIDDigitizerEventPrivate) digitizerAzimuth]
+00007fff38645601 (__TEXT,__text) non-external -[HIDEvent(HIDDigitizerEventPrivate) digitizerButtonMask]
+00007fff38645621 (__TEXT,__text) non-external -[HIDEvent(HIDDigitizerEventPrivate) digitizerChildEventMask]
+00007fff38645641 (__TEXT,__text) non-external -[HIDEvent(HIDDigitizerEventPrivate) digitizerCollection]
+00007fff38645661 (__TEXT,__text) non-external -[HIDEvent(HIDDigitizerEventPrivate) digitizerDensity]
+00007fff3864567f (__TEXT,__text) non-external -[HIDEvent(HIDDigitizerEventPrivate) digitizerDidUpdateMask]
+00007fff3864569f (__TEXT,__text) non-external -[HIDEvent(HIDDigitizerEventPrivate) digitizerEventMask]
+00007fff386456bf (__TEXT,__text) non-external -[HIDEvent(HIDDigitizerEventPrivate) digitizerGenerationCount]
+00007fff386456df (__TEXT,__text) non-external -[HIDEvent(HIDDigitizerEventPrivate) digitizerIdentity]
+00007fff386456ff (__TEXT,__text) non-external -[HIDEvent(HIDDigitizerEventPrivate) digitizerIndex]
+00007fff3864571f (__TEXT,__text) non-external -[HIDEvent(HIDDigitizerEventPrivate) digitizerIrregularity]
+00007fff3864573d (__TEXT,__text) non-external -[HIDEvent(HIDDigitizerEventPrivate) digitizerIsDisplayIntegrated]
+00007fff3864575d (__TEXT,__text) non-external -[HIDEvent(HIDDigitizerEventPrivate) digitizerMajorRadius]
+00007fff3864577b (__TEXT,__text) non-external -[HIDEvent(HIDDigitizerEventPrivate) digitizerMinorRadius]
+00007fff38645799 (__TEXT,__text) non-external -[HIDEvent(HIDDigitizerEventPrivate) digitizerOrientationType]
+00007fff386457a8 (__TEXT,__text) non-external -[HIDEvent(HIDDigitizerEventPrivate) digitizerPressure]
+00007fff386457e4 (__TEXT,__text) non-external -[HIDEvent(HIDDigitizerEventPrivate) digitizerQualityRadiiAccuracy]
+00007fff386457c6 (__TEXT,__text) non-external -[HIDEvent(HIDDigitizerEventPrivate) digitizerQuality]
+00007fff38645802 (__TEXT,__text) non-external -[HIDEvent(HIDDigitizerEventPrivate) digitizerRange]
+00007fff38645822 (__TEXT,__text) non-external -[HIDEvent(HIDDigitizerEventPrivate) digitizerTiltX]
+00007fff38645840 (__TEXT,__text) non-external -[HIDEvent(HIDDigitizerEventPrivate) digitizerTiltY]
+00007fff3864585e (__TEXT,__text) non-external -[HIDEvent(HIDDigitizerEventPrivate) digitizerTouch]
+00007fff3864587e (__TEXT,__text) non-external -[HIDEvent(HIDDigitizerEventPrivate) digitizerTwist]
+00007fff3864589c (__TEXT,__text) non-external -[HIDEvent(HIDDigitizerEventPrivate) digitizerType]
+00007fff386458bc (__TEXT,__text) non-external -[HIDEvent(HIDDigitizerEventPrivate) digitizerWillUpdateMask]
+00007fff386458dc (__TEXT,__text) non-external -[HIDEvent(HIDDigitizerEventPrivate) digitizerX]
+00007fff386458fa (__TEXT,__text) non-external -[HIDEvent(HIDDigitizerEventPrivate) digitizerY]
+00007fff38645918 (__TEXT,__text) non-external -[HIDEvent(HIDDigitizerEventPrivate) digitizerZ]
+00007fff386455b6 (__TEXT,__text) non-external -[HIDEvent(HIDDigitizerEventPrivate) setDigitizerAltitude:]
+00007fff386455d4 (__TEXT,__text) non-external -[HIDEvent(HIDDigitizerEventPrivate) setDigitizerAuxiliaryPressure:]
+00007fff386455f2 (__TEXT,__text) non-external -[HIDEvent(HIDDigitizerEventPrivate) setDigitizerAzimuth:]
+00007fff38645610 (__TEXT,__text) non-external -[HIDEvent(HIDDigitizerEventPrivate) setDigitizerButtonMask:]
+00007fff38645630 (__TEXT,__text) non-external -[HIDEvent(HIDDigitizerEventPrivate) setDigitizerChildEventMask:]
+00007fff38645650 (__TEXT,__text) non-external -[HIDEvent(HIDDigitizerEventPrivate) setDigitizerCollection:]
+00007fff38645670 (__TEXT,__text) non-external -[HIDEvent(HIDDigitizerEventPrivate) setDigitizerDensity:]
+00007fff3864568e (__TEXT,__text) non-external -[HIDEvent(HIDDigitizerEventPrivate) setDigitizerDidUpdateMask:]
+00007fff386456ae (__TEXT,__text) non-external -[HIDEvent(HIDDigitizerEventPrivate) setDigitizerEventMask:]
+00007fff386456ce (__TEXT,__text) non-external -[HIDEvent(HIDDigitizerEventPrivate) setDigitizerGenerationCount:]
+00007fff386456ee (__TEXT,__text) non-external -[HIDEvent(HIDDigitizerEventPrivate) setDigitizerIdentity:]
+00007fff3864570e (__TEXT,__text) non-external -[HIDEvent(HIDDigitizerEventPrivate) setDigitizerIndex:]
+00007fff3864572e (__TEXT,__text) non-external -[HIDEvent(HIDDigitizerEventPrivate) setDigitizerIrregularity:]
+00007fff3864574c (__TEXT,__text) non-external -[HIDEvent(HIDDigitizerEventPrivate) setDigitizerIsDisplayIntegrated:]
+00007fff3864576c (__TEXT,__text) non-external -[HIDEvent(HIDDigitizerEventPrivate) setDigitizerMajorRadius:]
+00007fff3864578a (__TEXT,__text) non-external -[HIDEvent(HIDDigitizerEventPrivate) setDigitizerMinorRadius:]
+00007fff386457b7 (__TEXT,__text) non-external -[HIDEvent(HIDDigitizerEventPrivate) setDigitizerPressure:]
+00007fff386457d5 (__TEXT,__text) non-external -[HIDEvent(HIDDigitizerEventPrivate) setDigitizerQuality:]
+00007fff386457f3 (__TEXT,__text) non-external -[HIDEvent(HIDDigitizerEventPrivate) setDigitizerQualityRadiiAccuracy:]
+00007fff38645811 (__TEXT,__text) non-external -[HIDEvent(HIDDigitizerEventPrivate) setDigitizerRange:]
+00007fff38645831 (__TEXT,__text) non-external -[HIDEvent(HIDDigitizerEventPrivate) setDigitizerTiltX:]
+00007fff3864584f (__TEXT,__text) non-external -[HIDEvent(HIDDigitizerEventPrivate) setDigitizerTiltY:]
+00007fff3864586d (__TEXT,__text) non-external -[HIDEvent(HIDDigitizerEventPrivate) setDigitizerTouch:]
+00007fff3864588d (__TEXT,__text) non-external -[HIDEvent(HIDDigitizerEventPrivate) setDigitizerTwist:]
+00007fff386458ab (__TEXT,__text) non-external -[HIDEvent(HIDDigitizerEventPrivate) setDigitizerType:]
+00007fff386458cb (__TEXT,__text) non-external -[HIDEvent(HIDDigitizerEventPrivate) setDigitizerWillUpdateMask:]
+00007fff386458eb (__TEXT,__text) non-external -[HIDEvent(HIDDigitizerEventPrivate) setDigitizerX:]
+00007fff38645909 (__TEXT,__text) non-external -[HIDEvent(HIDDigitizerEventPrivate) setDigitizerY:]
+00007fff38645927 (__TEXT,__text) non-external -[HIDEvent(HIDDigitizerEventPrivate) setDigitizerZ:]
+00007fff38640ed8 (__TEXT,__text) non-external -[HIDEvent(HIDEventDesc) enumerateFieldsWithBlock:]
+00007fff38640f3a (__TEXT,__text) non-external -[HIDEvent(HIDEventDesc) getEventFields]
+00007fff38644ee3 (__TEXT,__text) non-external -[HIDEvent(HIDForceEventPrivate) forceBehavior]
+00007fff38644f03 (__TEXT,__text) non-external -[HIDEvent(HIDForceEventPrivate) forceProgress]
+00007fff38644f41 (__TEXT,__text) non-external -[HIDEvent(HIDForceEventPrivate) forceStagePressure]
+00007fff38644f21 (__TEXT,__text) non-external -[HIDEvent(HIDForceEventPrivate) forceStage]
+00007fff38644ef2 (__TEXT,__text) non-external -[HIDEvent(HIDForceEventPrivate) setForceBehavior:]
+00007fff38644f12 (__TEXT,__text) non-external -[HIDEvent(HIDForceEventPrivate) setForceProgress:]
+00007fff38644f30 (__TEXT,__text) non-external -[HIDEvent(HIDForceEventPrivate) setForceStage:]
+00007fff38644f50 (__TEXT,__text) non-external -[HIDEvent(HIDForceEventPrivate) setForceStagePressure:]
+00007fff38641c79 (__TEXT,__text) non-external -[HIDEvent(HIDFramework) appendEvent:]
+00007fff38641e0f (__TEXT,__text) non-external -[HIDEvent(HIDFramework) children]
+00007fff38641db4 (__TEXT,__text) non-external -[HIDEvent(HIDFramework) conformsToEventType:]
+00007fff38641b3a (__TEXT,__text) non-external -[HIDEvent(HIDFramework) copyWithZone:]
+00007fff38641c6d (__TEXT,__text) non-external -[HIDEvent(HIDFramework) dataValueForField:]
+00007fff38641c55 (__TEXT,__text) non-external -[HIDEvent(HIDFramework) doubleValueForField:]
+00007fff38641b07 (__TEXT,__text) non-external -[HIDEvent(HIDFramework) initWithBytes:length:]
+00007fff38641ad7 (__TEXT,__text) non-external -[HIDEvent(HIDFramework) initWithData:]
+00007fff38641a6a (__TEXT,__text) non-external -[HIDEvent(HIDFramework) initWithType:timestamp:senderID:]
+00007fff38641c3d (__TEXT,__text) non-external -[HIDEvent(HIDFramework) integerValueForField:]
+00007fff38641b6b (__TEXT,__text) non-external -[HIDEvent(HIDFramework) isEqual:]
+00007fff38641b51 (__TEXT,__text) non-external -[HIDEvent(HIDFramework) isEqualToHIDEvent:]
+00007fff38641def (__TEXT,__text) non-external -[HIDEvent(HIDFramework) options]
+00007fff38641e05 (__TEXT,__text) non-external -[HIDEvent(HIDFramework) parent]
+00007fff38641c97 (__TEXT,__text) non-external -[HIDEvent(HIDFramework) removeAllEvents]
+00007fff38641c88 (__TEXT,__text) non-external -[HIDEvent(HIDFramework) removeEvent:]
+00007fff38641ddb (__TEXT,__text) non-external -[HIDEvent(HIDFramework) senderID]
+00007fff38641bd3 (__TEXT,__text) non-external -[HIDEvent(HIDFramework) serialize:error:]
+00007fff38641c61 (__TEXT,__text) non-external -[HIDEvent(HIDFramework) setDoubleValue:forField:]
+00007fff38641c49 (__TEXT,__text) non-external -[HIDEvent(HIDFramework) setIntegerValue:forField:]
+00007fff38641df9 (__TEXT,__text) non-external -[HIDEvent(HIDFramework) setOptions:]
+00007fff38641dce (__TEXT,__text) non-external -[HIDEvent(HIDFramework) setTimestamp:]
+00007fff38641dc4 (__TEXT,__text) non-external -[HIDEvent(HIDFramework) timestamp]
+00007fff38641de5 (__TEXT,__text) non-external -[HIDEvent(HIDFramework) type]
+00007fff3864504a (__TEXT,__text) non-external -[HIDEvent(HIDGameControllerEventPrivate) gameControllerDirectionPadDown]
+00007fff38645068 (__TEXT,__text) non-external -[HIDEvent(HIDGameControllerEventPrivate) gameControllerDirectionPadLeft]
+00007fff38645086 (__TEXT,__text) non-external -[HIDEvent(HIDGameControllerEventPrivate) gameControllerDirectionPadRight]
+00007fff386450a4 (__TEXT,__text) non-external -[HIDEvent(HIDGameControllerEventPrivate) gameControllerDirectionPadUp]
+00007fff386450c2 (__TEXT,__text) non-external -[HIDEvent(HIDGameControllerEventPrivate) gameControllerFaceButtonA]
+00007fff386450e0 (__TEXT,__text) non-external -[HIDEvent(HIDGameControllerEventPrivate) gameControllerFaceButtonB]
+00007fff386450fe (__TEXT,__text) non-external -[HIDEvent(HIDGameControllerEventPrivate) gameControllerFaceButtonX]
+00007fff3864511c (__TEXT,__text) non-external -[HIDEvent(HIDGameControllerEventPrivate) gameControllerFaceButtonY]
+00007fff3864513a (__TEXT,__text) non-external -[HIDEvent(HIDGameControllerEventPrivate) gameControllerJoyStickAxisRz]
+00007fff38645158 (__TEXT,__text) non-external -[HIDEvent(HIDGameControllerEventPrivate) gameControllerJoyStickAxisX]
+00007fff38645176 (__TEXT,__text) non-external -[HIDEvent(HIDGameControllerEventPrivate) gameControllerJoyStickAxisY]
+00007fff38645194 (__TEXT,__text) non-external -[HIDEvent(HIDGameControllerEventPrivate) gameControllerJoyStickAxisZ]
+00007fff386451b2 (__TEXT,__text) non-external -[HIDEvent(HIDGameControllerEventPrivate) gameControllerShoulderButtonL1]
+00007fff386451d0 (__TEXT,__text) non-external -[HIDEvent(HIDGameControllerEventPrivate) gameControllerShoulderButtonL2]
+00007fff386451ee (__TEXT,__text) non-external -[HIDEvent(HIDGameControllerEventPrivate) gameControllerShoulderButtonR1]
+00007fff3864520c (__TEXT,__text) non-external -[HIDEvent(HIDGameControllerEventPrivate) gameControllerShoulderButtonR2]
+00007fff3864522a (__TEXT,__text) non-external -[HIDEvent(HIDGameControllerEventPrivate) gameControllerThumbstickButtonLeft]
+00007fff3864524a (__TEXT,__text) non-external -[HIDEvent(HIDGameControllerEventPrivate) gameControllerThumbstickButtonRight]
+00007fff3864526a (__TEXT,__text) non-external -[HIDEvent(HIDGameControllerEventPrivate) gameControllerType]
+00007fff38645059 (__TEXT,__text) non-external -[HIDEvent(HIDGameControllerEventPrivate) setGameControllerDirectionPadDown:]
+00007fff38645077 (__TEXT,__text) non-external -[HIDEvent(HIDGameControllerEventPrivate) setGameControllerDirectionPadLeft:]
+00007fff38645095 (__TEXT,__text) non-external -[HIDEvent(HIDGameControllerEventPrivate) setGameControllerDirectionPadRight:]
+00007fff386450b3 (__TEXT,__text) non-external -[HIDEvent(HIDGameControllerEventPrivate) setGameControllerDirectionPadUp:]
+00007fff386450d1 (__TEXT,__text) non-external -[HIDEvent(HIDGameControllerEventPrivate) setGameControllerFaceButtonA:]
+00007fff386450ef (__TEXT,__text) non-external -[HIDEvent(HIDGameControllerEventPrivate) setGameControllerFaceButtonB:]
+00007fff3864510d (__TEXT,__text) non-external -[HIDEvent(HIDGameControllerEventPrivate) setGameControllerFaceButtonX:]
+00007fff3864512b (__TEXT,__text) non-external -[HIDEvent(HIDGameControllerEventPrivate) setGameControllerFaceButtonY:]
+00007fff38645149 (__TEXT,__text) non-external -[HIDEvent(HIDGameControllerEventPrivate) setGameControllerJoyStickAxisRz:]
+00007fff38645167 (__TEXT,__text) non-external -[HIDEvent(HIDGameControllerEventPrivate) setGameControllerJoyStickAxisX:]
+00007fff38645185 (__TEXT,__text) non-external -[HIDEvent(HIDGameControllerEventPrivate) setGameControllerJoyStickAxisY:]
+00007fff386451a3 (__TEXT,__text) non-external -[HIDEvent(HIDGameControllerEventPrivate) setGameControllerJoyStickAxisZ:]
+00007fff386451c1 (__TEXT,__text) non-external -[HIDEvent(HIDGameControllerEventPrivate) setGameControllerShoulderButtonL1:]
+00007fff386451df (__TEXT,__text) non-external -[HIDEvent(HIDGameControllerEventPrivate) setGameControllerShoulderButtonL2:]
+00007fff386451fd (__TEXT,__text) non-external -[HIDEvent(HIDGameControllerEventPrivate) setGameControllerShoulderButtonR1:]
+00007fff3864521b (__TEXT,__text) non-external -[HIDEvent(HIDGameControllerEventPrivate) setGameControllerShoulderButtonR2:]
+00007fff38645239 (__TEXT,__text) non-external -[HIDEvent(HIDGameControllerEventPrivate) setGameControllerThumbstickButtonLeft:]
+00007fff38645259 (__TEXT,__text) non-external -[HIDEvent(HIDGameControllerEventPrivate) setGameControllerThumbstickButtonRight:]
+00007fff38645279 (__TEXT,__text) non-external -[HIDEvent(HIDGameControllerEventPrivate) setGameControllerType:]
+00007fff38644be8 (__TEXT,__text) non-external -[HIDEvent(HIDGenericGestureEventPrivate) genericGestureTypeSwipeProgress]
+00007fff38644c06 (__TEXT,__text) non-external -[HIDEvent(HIDGenericGestureEventPrivate) genericGestureTypeTapCount]
+00007fff38644bd9 (__TEXT,__text) non-external -[HIDEvent(HIDGenericGestureEventPrivate) genericGestureType]
+00007fff38644bf7 (__TEXT,__text) non-external -[HIDEvent(HIDGenericGestureEventPrivate) setGenericGestureTypeSwipeProgress:]
+00007fff38644c15 (__TEXT,__text) non-external -[HIDEvent(HIDGenericGestureEventPrivate) setGenericGestureTypeTapCount:]
+00007fff38645cc7 (__TEXT,__text) non-external -[HIDEvent(HIDGyroEventPrivate) gyroSequence]
+00007fff38645ce7 (__TEXT,__text) non-external -[HIDEvent(HIDGyroEventPrivate) gyroSubType]
+00007fff38645d07 (__TEXT,__text) non-external -[HIDEvent(HIDGyroEventPrivate) gyroType]
+00007fff38645d27 (__TEXT,__text) non-external -[HIDEvent(HIDGyroEventPrivate) gyroX]
+00007fff38645d45 (__TEXT,__text) non-external -[HIDEvent(HIDGyroEventPrivate) gyroY]
+00007fff38645d63 (__TEXT,__text) non-external -[HIDEvent(HIDGyroEventPrivate) gyroZ]
+00007fff38645cd6 (__TEXT,__text) non-external -[HIDEvent(HIDGyroEventPrivate) setGyroSequence:]
+00007fff38645cf6 (__TEXT,__text) non-external -[HIDEvent(HIDGyroEventPrivate) setGyroSubType:]
+00007fff38645d16 (__TEXT,__text) non-external -[HIDEvent(HIDGyroEventPrivate) setGyroType:]
+00007fff38645d36 (__TEXT,__text) non-external -[HIDEvent(HIDGyroEventPrivate) setGyroX:]
+00007fff38645d54 (__TEXT,__text) non-external -[HIDEvent(HIDGyroEventPrivate) setGyroY:]
+00007fff38645d72 (__TEXT,__text) non-external -[HIDEvent(HIDGyroEventPrivate) setGyroZ:]
+00007fff38645f12 (__TEXT,__text) non-external -[HIDEvent(HIDHumidityEventPrivate) humidityRH]
+00007fff38645f30 (__TEXT,__text) non-external -[HIDEvent(HIDHumidityEventPrivate) humiditySequence]
+00007fff38645f21 (__TEXT,__text) non-external -[HIDEvent(HIDHumidityEventPrivate) setHumidityRH:]
+00007fff38645f3f (__TEXT,__text) non-external -[HIDEvent(HIDHumidityEventPrivate) setHumiditySequence:]
+00007fff38646686 (__TEXT,__text) non-external -[HIDEvent(HIDKeyboardEventPrivate) keyboardClickSpeed]
+00007fff386466a6 (__TEXT,__text) non-external -[HIDEvent(HIDKeyboardEventPrivate) keyboardDown]
+00007fff386466c6 (__TEXT,__text) non-external -[HIDEvent(HIDKeyboardEventPrivate) keyboardLongPress]
+00007fff386466e6 (__TEXT,__text) non-external -[HIDEvent(HIDKeyboardEventPrivate) keyboardMouseKeyToggle]
+00007fff38646706 (__TEXT,__text) non-external -[HIDEvent(HIDKeyboardEventPrivate) keyboardPressCount]
+00007fff3864672a (__TEXT,__text) non-external -[HIDEvent(HIDKeyboardEventPrivate) keyboardRepeat]
+00007fff3864674a (__TEXT,__text) non-external -[HIDEvent(HIDKeyboardEventPrivate) keyboardSlowKeyPhase]
+00007fff3864676a (__TEXT,__text) non-external -[HIDEvent(HIDKeyboardEventPrivate) keyboardStickyKeyPhase]
+00007fff3864678a (__TEXT,__text) non-external -[HIDEvent(HIDKeyboardEventPrivate) keyboardStickyKeyToggle]
+00007fff386467ce (__TEXT,__text) non-external -[HIDEvent(HIDKeyboardEventPrivate) keyboardUsagePage]
+00007fff386467aa (__TEXT,__text) non-external -[HIDEvent(HIDKeyboardEventPrivate) keyboardUsage]
+00007fff38646695 (__TEXT,__text) non-external -[HIDEvent(HIDKeyboardEventPrivate) setKeyboardClickSpeed:]
+00007fff386466b5 (__TEXT,__text) non-external -[HIDEvent(HIDKeyboardEventPrivate) setKeyboardDown:]
+00007fff386466d5 (__TEXT,__text) non-external -[HIDEvent(HIDKeyboardEventPrivate) setKeyboardLongPress:]
+00007fff386466f5 (__TEXT,__text) non-external -[HIDEvent(HIDKeyboardEventPrivate) setKeyboardMouseKeyToggle:]
+00007fff38646719 (__TEXT,__text) non-external -[HIDEvent(HIDKeyboardEventPrivate) setKeyboardPressCount:]
+00007fff38646739 (__TEXT,__text) non-external -[HIDEvent(HIDKeyboardEventPrivate) setKeyboardRepeat:]
+00007fff38646759 (__TEXT,__text) non-external -[HIDEvent(HIDKeyboardEventPrivate) setKeyboardSlowKeyPhase:]
+00007fff38646779 (__TEXT,__text) non-external -[HIDEvent(HIDKeyboardEventPrivate) setKeyboardStickyKeyPhase:]
+00007fff38646799 (__TEXT,__text) non-external -[HIDEvent(HIDKeyboardEventPrivate) setKeyboardStickyKeyToggle:]
+00007fff386467bd (__TEXT,__text) non-external -[HIDEvent(HIDKeyboardEventPrivate) setKeyboardUsage:]
+00007fff386467e1 (__TEXT,__text) non-external -[HIDEvent(HIDKeyboardEventPrivate) setKeyboardUsagePage:]
+00007fff386461df (__TEXT,__text) non-external -[HIDEvent(HIDLEDEventPrivate) ledMask]
+00007fff386461ff (__TEXT,__text) non-external -[HIDEvent(HIDLEDEventPrivate) ledNumber]
+00007fff38646223 (__TEXT,__text) non-external -[HIDEvent(HIDLEDEventPrivate) ledState]
+00007fff386461ee (__TEXT,__text) non-external -[HIDEvent(HIDLEDEventPrivate) setLedMask:]
+00007fff38646212 (__TEXT,__text) non-external -[HIDEvent(HIDLEDEventPrivate) setLedNumber:]
+00007fff38646232 (__TEXT,__text) non-external -[HIDEvent(HIDLEDEventPrivate) setLedState:]
+00007fff38645afd (__TEXT,__text) non-external -[HIDEvent(HIDMotionActivityEventPrivate) motionActivityActivityType]
+00007fff38645b1d (__TEXT,__text) non-external -[HIDEvent(HIDMotionActivityEventPrivate) motionActivityConfidence]
+00007fff38645b0c (__TEXT,__text) non-external -[HIDEvent(HIDMotionActivityEventPrivate) setMotionActivityActivityType:]
+00007fff38645b2c (__TEXT,__text) non-external -[HIDEvent(HIDMotionActivityEventPrivate) setMotionActivityConfidence:]
+00007fff38644fc8 (__TEXT,__text) non-external -[HIDEvent(HIDMotionGestureEventPrivate) motionGestureGestureType]
+00007fff38644fe8 (__TEXT,__text) non-external -[HIDEvent(HIDMotionGestureEventPrivate) motionGestureProgress]
+00007fff38644fd7 (__TEXT,__text) non-external -[HIDEvent(HIDMotionGestureEventPrivate) setMotionGestureGestureType:]
+00007fff38644ff7 (__TEXT,__text) non-external -[HIDEvent(HIDMotionGestureEventPrivate) setMotionGestureProgress:]
+00007fff38646447 (__TEXT,__text) non-external -[HIDEvent(HIDOrientationEventPrivate) orientationAltitude]
+00007fff38646465 (__TEXT,__text) non-external -[HIDEvent(HIDOrientationEventPrivate) orientationAzimuth]
+00007fff38646483 (__TEXT,__text) non-external -[HIDEvent(HIDOrientationEventPrivate) orientationDeviceOrientationUsage]
+00007fff386464a3 (__TEXT,__text) non-external -[HIDEvent(HIDOrientationEventPrivate) orientationOrientationType]
+00007fff386464b2 (__TEXT,__text) non-external -[HIDEvent(HIDOrientationEventPrivate) orientationQuatW]
+00007fff386464d0 (__TEXT,__text) non-external -[HIDEvent(HIDOrientationEventPrivate) orientationQuatX]
+00007fff386464ee (__TEXT,__text) non-external -[HIDEvent(HIDOrientationEventPrivate) orientationQuatY]
+00007fff3864650c (__TEXT,__text) non-external -[HIDEvent(HIDOrientationEventPrivate) orientationQuatZ]
+00007fff3864652a (__TEXT,__text) non-external -[HIDEvent(HIDOrientationEventPrivate) orientationRadius]
+00007fff38646548 (__TEXT,__text) non-external -[HIDEvent(HIDOrientationEventPrivate) orientationTiltX]
+00007fff38646566 (__TEXT,__text) non-external -[HIDEvent(HIDOrientationEventPrivate) orientationTiltY]
+00007fff38646584 (__TEXT,__text) non-external -[HIDEvent(HIDOrientationEventPrivate) orientationTiltZ]
+00007fff38646456 (__TEXT,__text) non-external -[HIDEvent(HIDOrientationEventPrivate) setOrientationAltitude:]
+00007fff38646474 (__TEXT,__text) non-external -[HIDEvent(HIDOrientationEventPrivate) setOrientationAzimuth:]
+00007fff38646492 (__TEXT,__text) non-external -[HIDEvent(HIDOrientationEventPrivate) setOrientationDeviceOrientationUsage:]
+00007fff386464c1 (__TEXT,__text) non-external -[HIDEvent(HIDOrientationEventPrivate) setOrientationQuatW:]
+00007fff386464df (__TEXT,__text) non-external -[HIDEvent(HIDOrientationEventPrivate) setOrientationQuatX:]
+00007fff386464fd (__TEXT,__text) non-external -[HIDEvent(HIDOrientationEventPrivate) setOrientationQuatY:]
+00007fff3864651b (__TEXT,__text) non-external -[HIDEvent(HIDOrientationEventPrivate) setOrientationQuatZ:]
+00007fff38646539 (__TEXT,__text) non-external -[HIDEvent(HIDOrientationEventPrivate) setOrientationRadius:]
+00007fff38646557 (__TEXT,__text) non-external -[HIDEvent(HIDOrientationEventPrivate) setOrientationTiltX:]
+00007fff38646575 (__TEXT,__text) non-external -[HIDEvent(HIDOrientationEventPrivate) setOrientationTiltY:]
+00007fff38646593 (__TEXT,__text) non-external -[HIDEvent(HIDOrientationEventPrivate) setOrientationTiltZ:]
+00007fff3864689a (__TEXT,__text) non-external -[HIDEvent(HIDPointerEventPrivate) pointerButtonMask]
+00007fff386468ba (__TEXT,__text) non-external -[HIDEvent(HIDPointerEventPrivate) pointerX]
+00007fff386468d8 (__TEXT,__text) non-external -[HIDEvent(HIDPointerEventPrivate) pointerY]
+00007fff386468f6 (__TEXT,__text) non-external -[HIDEvent(HIDPointerEventPrivate) pointerZ]
+00007fff386468a9 (__TEXT,__text) non-external -[HIDEvent(HIDPointerEventPrivate) setPointerButtonMask:]
+00007fff386468c9 (__TEXT,__text) non-external -[HIDEvent(HIDPointerEventPrivate) setPointerX:]
+00007fff386468e7 (__TEXT,__text) non-external -[HIDEvent(HIDPointerEventPrivate) setPointerY:]
+00007fff38646905 (__TEXT,__text) non-external -[HIDEvent(HIDPointerEventPrivate) setPointerZ:]
+00007fff38644deb (__TEXT,__text) non-external -[HIDEvent(HIDPowerEventPrivate) powerMeasurement]
+00007fff38644e09 (__TEXT,__text) non-external -[HIDEvent(HIDPowerEventPrivate) powerSubType]
+00007fff38644e29 (__TEXT,__text) non-external -[HIDEvent(HIDPowerEventPrivate) powerType]
+00007fff38644dfa (__TEXT,__text) non-external -[HIDEvent(HIDPowerEventPrivate) setPowerMeasurement:]
+00007fff38644e18 (__TEXT,__text) non-external -[HIDEvent(HIDPowerEventPrivate) setPowerSubType:]
+00007fff38644e38 (__TEXT,__text) non-external -[HIDEvent(HIDPowerEventPrivate) setPowerType:]
+00007fff386465e6 (__TEXT,__text) non-external -[HIDEvent(HIDProximityEventPrivate) proximityDetectionMask]
+00007fff38646606 (__TEXT,__text) non-external -[HIDEvent(HIDProximityEventPrivate) proximityLevel]
+00007fff386465f5 (__TEXT,__text) non-external -[HIDEvent(HIDProximityEventPrivate) setProximityDetectionMask:]
+00007fff38646615 (__TEXT,__text) non-external -[HIDEvent(HIDProximityEventPrivate) setProximityLevel:]
+00007fff38645ff4 (__TEXT,__text) non-external -[HIDEvent(HIDScrollEventPrivate) scrollIsPixels]
+00007fff38646014 (__TEXT,__text) non-external -[HIDEvent(HIDScrollEventPrivate) scrollX]
+00007fff38646032 (__TEXT,__text) non-external -[HIDEvent(HIDScrollEventPrivate) scrollY]
+00007fff38646050 (__TEXT,__text) non-external -[HIDEvent(HIDScrollEventPrivate) scrollZ]
+00007fff38646003 (__TEXT,__text) non-external -[HIDEvent(HIDScrollEventPrivate) setScrollIsPixels:]
+00007fff38646023 (__TEXT,__text) non-external -[HIDEvent(HIDScrollEventPrivate) setScrollX:]
+00007fff38646041 (__TEXT,__text) non-external -[HIDEvent(HIDScrollEventPrivate) setScrollY:]
+00007fff3864605f (__TEXT,__text) non-external -[HIDEvent(HIDScrollEventPrivate) setScrollZ:]
+00007fff38644a28 (__TEXT,__text) non-external -[HIDEvent(HIDTemperatureEventPrivate) setTemperatureLevel:]
+00007fff38644a19 (__TEXT,__text) non-external -[HIDEvent(HIDTemperatureEventPrivate) temperatureLevel]
+00007fff3864495c (__TEXT,__text) non-external -[HIDEvent(HIDVendorDefinedEventPrivate) setVendorDefinedUsage:]
+00007fff38644980 (__TEXT,__text) non-external -[HIDEvent(HIDVendorDefinedEventPrivate) setVendorDefinedUsagePage:]
+00007fff386449a0 (__TEXT,__text) non-external -[HIDEvent(HIDVendorDefinedEventPrivate) setVendorDefinedVersion:]
+00007fff3864493a (__TEXT,__text) non-external -[HIDEvent(HIDVendorDefinedEventPrivate) vendorDefinedDataLength]
+00007fff3864492b (__TEXT,__text) non-external -[HIDEvent(HIDVendorDefinedEventPrivate) vendorDefinedData]
+00007fff3864496d (__TEXT,__text) non-external -[HIDEvent(HIDVendorDefinedEventPrivate) vendorDefinedUsagePage]
+00007fff38644949 (__TEXT,__text) non-external -[HIDEvent(HIDVendorDefinedEventPrivate) vendorDefinedUsage]
+00007fff38644991 (__TEXT,__text) non-external -[HIDEvent(HIDVendorDefinedEventPrivate) vendorDefinedVersion]
+00007fff38640e4f (__TEXT,__text) non-external -[HIDEventService(HIDFramework) conformsToUsagePage:usage:]
+00007fff38640e61 (__TEXT,__text) non-external -[HIDEventService(HIDFramework) eventMatching:]
+00007fff38640e29 (__TEXT,__text) non-external -[HIDEventService(HIDFramework) propertyForKey:]
+00007fff38640e86 (__TEXT,__text) non-external -[HIDEventService(HIDFramework) serviceID]
+00007fff38640e3e (__TEXT,__text) non-external -[HIDEventService(HIDFramework) setProperty:forKey:]
+00007fff38640ecb (__TEXT,__text) non-external -[HIDEventService(HIDFrameworkPrivate) dispatchEvent:]
+00007fff38643a96 (__TEXT,__text) non-external -[HIDEventSystemClient .cxx_destruct]
+00007fff386439ec (__TEXT,__text) non-external -[HIDEventSystemClient activate]
+00007fff38643a7e (__TEXT,__text) non-external -[HIDEventSystemClient cancel]
+00007fff38643a8c (__TEXT,__text) non-external -[HIDEventSystemClient client]
+00007fff386432f2 (__TEXT,__text) non-external -[HIDEventSystemClient dealloc]
+00007fff38643331 (__TEXT,__text) non-external -[HIDEventSystemClient description]
+00007fff38643245 (__TEXT,__text) non-external -[HIDEventSystemClient initWithType:]
+00007fff38643259 (__TEXT,__text) non-external -[HIDEventSystemClient initWithType:andAttributes:]
+00007fff3864335a (__TEXT,__text) non-external -[HIDEventSystemClient propertyForKey:]
+00007fff386434fd (__TEXT,__text) non-external -[HIDEventSystemClient services]
+00007fff38643521 (__TEXT,__text) non-external -[HIDEventSystemClient setCancelHandler:]
+00007fff38643546 (__TEXT,__text) non-external -[HIDEventSystemClient setDispatchQueue:]
+00007fff38643644 (__TEXT,__text) non-external -[HIDEventSystemClient setEventFilterHandler:]
+00007fff3864705e (__TEXT,__text) non-external -[HIDEventSystemClient setEventFilterHandler:].cold.1
+00007fff38643557 (__TEXT,__text) non-external -[HIDEventSystemClient setEventHandler:]
+00007fff3864703a (__TEXT,__text) non-external -[HIDEventSystemClient setEventHandler:].cold.1
+00007fff38643388 (__TEXT,__text) non-external -[HIDEventSystemClient setMatching:]
+00007fff38643373 (__TEXT,__text) non-external -[HIDEventSystemClient setProperty:forKey:]
+00007fff38643738 (__TEXT,__text) non-external -[HIDEventSystemClient setPropertyChangedHandler:matching:]
+00007fff38647082 (__TEXT,__text) non-external -[HIDEventSystemClient setPropertyChangedHandler:matching:].cold.1
+00007fff386435d2 (__TEXT,__text) non-external -[HIDEventSystemClient setResetHandler:]
+00007fff3864704c (__TEXT,__text) non-external -[HIDEventSystemClient setResetHandler:].cold.1
+00007fff386436c0 (__TEXT,__text) non-external -[HIDEventSystemClient setServiceNotificationHandler:]
+00007fff38647070 (__TEXT,__text) non-external -[HIDEventSystemClient setServiceNotificationHandler:].cold.1
+00007fff38642658 (__TEXT,__text) non-external -[HIDManager .cxx_destruct]
+00007fff3864259a (__TEXT,__text) non-external -[HIDManager activate]
+00007fff3864264a (__TEXT,__text) non-external -[HIDManager cancel]
+00007fff3864258a (__TEXT,__text) non-external -[HIDManager close]
+00007fff38641f08 (__TEXT,__text) non-external -[HIDManager dealloc]
+00007fff38641f47 (__TEXT,__text) non-external -[HIDManager description]
+00007fff38641f70 (__TEXT,__text) non-external -[HIDManager devices]
+00007fff38641e90 (__TEXT,__text) non-external -[HIDManager initWithOptions:]
+00007fff38641e19 (__TEXT,__text) non-external -[HIDManager init]
+00007fff3864257a (__TEXT,__text) non-external -[HIDManager open]
+00007fff38641fb3 (__TEXT,__text) non-external -[HIDManager propertyForKey:]
+00007fff38642544 (__TEXT,__text) non-external -[HIDManager setCancelHandler:]
+00007fff3864222a (__TEXT,__text) non-external -[HIDManager setDeviceMatching:]
+00007fff3864239f (__TEXT,__text) non-external -[HIDManager setDeviceNotificationHandler:]
+00007fff38646fbc (__TEXT,__text) non-external -[HIDManager setDeviceNotificationHandler:].cold.1
+00007fff38642569 (__TEXT,__text) non-external -[HIDManager setDispatchQueue:]
+00007fff3864214e (__TEXT,__text) non-external -[HIDManager setInputElementHandler:]
+00007fff38646faa (__TEXT,__text) non-external -[HIDManager setInputElementHandler:].cold.1
+00007fff38641fd9 (__TEXT,__text) non-external -[HIDManager setInputElementMatching:]
+00007fff38642441 (__TEXT,__text) non-external -[HIDManager setInputReportHandler:]
+00007fff38646fce (__TEXT,__text) non-external -[HIDManager setInputReportHandler:].cold.1
+00007fff38641fc4 (__TEXT,__text) non-external -[HIDManager setProperty:forKey:]
+00007fff386426df (__TEXT,__text) non-external -[HIDServiceClient(HIDFramework) conformsToUsagePage:usage:]
+00007fff386426f1 (__TEXT,__text) non-external -[HIDServiceClient(HIDFramework) eventMatching:]
+00007fff386426ab (__TEXT,__text) non-external -[HIDServiceClient(HIDFramework) propertiesForKeys:]
+00007fff38642696 (__TEXT,__text) non-external -[HIDServiceClient(HIDFramework) propertyForKey:]
+00007fff386427f4 (__TEXT,__text) non-external -[HIDServiceClient(HIDFramework) serviceID]
+00007fff386426ce (__TEXT,__text) non-external -[HIDServiceClient(HIDFramework) setProperty:forKey:]
+00007fff38642714 (__TEXT,__text) non-external -[HIDServiceClient(HIDFramework) setRemovalHandler:]
+00007fff38646fe0 (__TEXT,__text) non-external -[HIDServiceClient(HIDFramework) setRemovalHandler:].cold.1
+00007fff38643f45 (__TEXT,__text) non-external -[HIDSession(HIDFramework) propertyForKey:]
+00007fff38643f52 (__TEXT,__text) non-external -[HIDSession(HIDFramework) setProperty:forKey:]
+00007fff38643c10 (__TEXT,__text) non-external -[HIDTransaction commitElements:error:]
+00007fff38643b87 (__TEXT,__text) non-external -[HIDTransaction dealloc]
+00007fff38643bc6 (__TEXT,__text) non-external -[HIDTransaction description]
+00007fff38643bef (__TEXT,__text) non-external -[HIDTransaction direction]
+00007fff38643aea (__TEXT,__text) non-external -[HIDTransaction initWithDevice:]
+00007fff38643c00 (__TEXT,__text) non-external -[HIDTransaction setDirection:]
+00007fff38644492 (__TEXT,__text) non-external -[HIDUserDevice .cxx_destruct]
+00007fff3864415c (__TEXT,__text) non-external -[HIDUserDevice activate]
+00007fff386441ee (__TEXT,__text) non-external -[HIDUserDevice cancel]
+00007fff38644084 (__TEXT,__text) non-external -[HIDUserDevice dealloc]
+00007fff386440cf (__TEXT,__text) non-external -[HIDUserDevice description]
+00007fff38644316 (__TEXT,__text) non-external -[HIDUserDevice handleReport:error:]
+00007fff386443ca (__TEXT,__text) non-external -[HIDUserDevice handleReport:withTimestamp:error:]
+00007fff38643f63 (__TEXT,__text) non-external -[HIDUserDevice initWithProperties:]
+00007fff386440f8 (__TEXT,__text) non-external -[HIDUserDevice propertyForKey:]
+00007fff38644489 (__TEXT,__text) non-external -[HIDUserDevice service]
+00007fff38644126 (__TEXT,__text) non-external -[HIDUserDevice setCancelHandler:]
+00007fff3864414b (__TEXT,__text) non-external -[HIDUserDevice setDispatchQueue:]
+00007fff386441fc (__TEXT,__text) non-external -[HIDUserDevice setGetReportHandler:]
+00007fff38647094 (__TEXT,__text) non-external -[HIDUserDevice setGetReportHandler:].cold.1
+00007fff38644111 (__TEXT,__text) non-external -[HIDUserDevice setProperty:forKey:]
+00007fff3864429f (__TEXT,__text) non-external -[HIDUserDevice setSetReportHandler:]
+00007fff386470a6 (__TEXT,__text) non-external -[HIDUserDevice setSetReportHandler:].cold.1
+00007fff38641a2e (__TEXT,__text) non-external -[HIDVirtualEventService .cxx_destruct]
+00007fff3864122c (__TEXT,__text) non-external -[HIDVirtualEventService activate]
+00007fff38641892 (__TEXT,__text) non-external -[HIDVirtualEventService cancel]
+00007fff386419c5 (__TEXT,__text) non-external -[HIDVirtualEventService client]
+00007fff3864199e (__TEXT,__text) non-external -[HIDVirtualEventService delegate]
+00007fff386410f9 (__TEXT,__text) non-external -[HIDVirtualEventService description]
+00007fff386418cf (__TEXT,__text) non-external -[HIDVirtualEventService dispatchEvent:]
+00007fff3864102f (__TEXT,__text) non-external -[HIDVirtualEventService init]
+00007fff38641a0b (__TEXT,__text) non-external -[HIDVirtualEventService queue]
+00007fff386419e8 (__TEXT,__text) non-external -[HIDVirtualEventService serviceClient]
+00007fff38641935 (__TEXT,__text) non-external -[HIDVirtualEventService serviceID]
+00007fff38641138 (__TEXT,__text) non-external -[HIDVirtualEventService setCancelHandler:]
+00007fff386419d9 (__TEXT,__text) non-external -[HIDVirtualEventService setClient:]
+00007fff386419b4 (__TEXT,__text) non-external -[HIDVirtualEventService setDelegate:]
+00007fff386411aa (__TEXT,__text) non-external -[HIDVirtualEventService setDispatchQueue:]
+00007fff38641a1f (__TEXT,__text) non-external -[HIDVirtualEventService setQueue:]
+00007fff386419fc (__TEXT,__text) non-external -[HIDVirtualEventService setServiceClient:]
+00007fff3864aa84 (__TEXT,__gcc_except_tab) non-external GCC_except_table4
+00007fff81efd640 (__DATA,__data) non-external _AccelerometerEventFields
+00007fff81efd760 (__DATA,__data) non-external _AmbientLightSensorEventFields
+00007fff81efdd80 (__DATA,__data) non-external _AtmosphericPressureEventFields
+00007fff81efde70 (__DATA,__data) non-external _BiometricEventFields
+00007fff81efded0 (__DATA,__data) non-external _BoundaryScrollEventFields
+00007fff81efdbf0 (__DATA,__data) non-external _BrightnessEventFields
+00007fff81efdca0 (__DATA,__data) non-external _ButtonEventFields
+                 (undefined) external _CFArrayCreateMutable (from CoreFoundation)
+                 (undefined) external _CFDataCreateMutable (from CoreFoundation)
+                 (undefined) external _CFDataGetLength (from CoreFoundation)
+                 (undefined) external _CFDataGetMutableBytePtr (from CoreFoundation)
+                 (undefined) external _CFDataSetLength (from CoreFoundation)
+                 (undefined) external _CFRelease (from CoreFoundation)
+00007fff81efda90 (__DATA,__data) non-external _CompassEventFields
+00007fff81efda70 (__DATA,__data) non-external _DigitizerHIDSelectorTable
+00007fff81efe2b0 (__DATA,__data) non-external _DigitizerkIOHIDEventFieldDigitizerOrientationTypeHIDEventFieldSelectorTable
+00007fff81efe2f0 (__DATA,__data) non-external _DigitizerkIOHIDEventFieldDigitizerOrientationTypekIOHIDDigitizerOrientationTypePolarEventField
+00007fff81efe4a0 (__DATA,__data) non-external _DigitizerkIOHIDEventFieldDigitizerOrientationTypekIOHIDDigitizerOrientationTypeQualityEventField
+00007fff81efe650 (__DATA,__data) non-external _DigitizerkIOHIDEventFieldDigitizerOrientationTypekIOHIDDigitizerOrientationTypeTiltEventField
+00007fff81efe040 (__DATA,__data) non-external _DockSwipeEventFields
+00007fff81efdfd0 (__DATA,__data) non-external _FluidTouchGestureEventFields
+00007fff81efd870 (__DATA,__data) non-external _ForceEventFields
+00007fff81efd8f0 (__DATA,__data) non-external _GameControllerEventFields
+00007fff81efd6e0 (__DATA,__data) non-external _GenericGestureHIDSelectorTable
+00007fff81efe220 (__DATA,__data) non-external _GenericGesturekIOHIDEventFieldGenericGestureTypeHIDEventFieldSelectorTable
+00007fff81efe280 (__DATA,__data) non-external _GenericGesturekIOHIDEventFieldGenericGestureTypekIOHIDGenericGestureTypeSwipeEventField
+00007fff81efe250 (__DATA,__data) non-external _GenericGesturekIOHIDEventFieldGenericGestureTypekIOHIDGenericGestureTypeTapEventField
+00007fff81efdc30 (__DATA,__data) non-external _GyroEventFields
+00007fff38649398 (__TEXT,__const) external _HIDVersionNumber
+00007fff38649370 (__TEXT,__const) external _HIDVersionString
+00007fff81efddb0 (__DATA,__data) non-external _HumidityEventFields
+                 (undefined) external _IOHIDDeviceActivate (from IOKit)
+                 (undefined) external _IOHIDDeviceCancel (from IOKit)
+                 (undefined) external _IOHIDDeviceClose (from IOKit)
+                 (undefined) external _IOHIDDeviceConformsTo (from IOKit)
+                 (undefined) external _IOHIDDeviceCopyMatchingElements (from IOKit)
+                 (undefined) external _IOHIDDeviceCreate (from IOKit)
+                 (undefined) external _IOHIDDeviceGetProperty (from IOKit)
+                 (undefined) external _IOHIDDeviceGetReport (from IOKit)
+                 (undefined) external _IOHIDDeviceGetService (from IOKit)
+                 (undefined) external _IOHIDDeviceOpen (from IOKit)
+                 (undefined) external _IOHIDDeviceRegisterInputReportWithTimeStampCallback (from IOKit)
+                 (undefined) external _IOHIDDeviceRegisterInputValueCallback (from IOKit)
+                 (undefined) external _IOHIDDeviceRegisterRemovalCallback (from IOKit)
+                 (undefined) external _IOHIDDeviceSetCancelHandler (from IOKit)
+                 (undefined) external _IOHIDDeviceSetDispatchQueue (from IOKit)
+                 (undefined) external _IOHIDDeviceSetInputValueMatching (from IOKit)
+                 (undefined) external _IOHIDDeviceSetInputValueMatchingMultiple (from IOKit)
+                 (undefined) external _IOHIDDeviceSetProperty (from IOKit)
+                 (undefined) external _IOHIDDeviceSetReport (from IOKit)
+                 (undefined) external _IOHIDElementGetChildren (from IOKit)
+                 (undefined) external _IOHIDElementGetCookie (from IOKit)
+                 (undefined) external _IOHIDElementGetLogicalMax (from IOKit)
+                 (undefined) external _IOHIDElementGetLogicalMin (from IOKit)
+                 (undefined) external _IOHIDElementGetParent (from IOKit)
+                 (undefined) external _IOHIDElementGetPhysicalMax (from IOKit)
+                 (undefined) external _IOHIDElementGetPhysicalMin (from IOKit)
+                 (undefined) external _IOHIDElementGetReportID (from IOKit)
+                 (undefined) external _IOHIDElementGetReportSize (from IOKit)
+                 (undefined) external _IOHIDElementGetType (from IOKit)
+                 (undefined) external _IOHIDElementGetUnit (from IOKit)
+                 (undefined) external _IOHIDElementGetUnitExponent (from IOKit)
+                 (undefined) external _IOHIDElementGetUsage (from IOKit)
+                 (undefined) external _IOHIDElementGetUsagePage (from IOKit)
+                 (undefined) external _IOHIDEventAppendEvent (from IOKit)
+                 (undefined) external _IOHIDEventConformsTo (from IOKit)
+                 (undefined) external _IOHIDEventCreate (from IOKit)
+                 (undefined) external _IOHIDEventCreateCopy (from IOKit)
+                 (undefined) external _IOHIDEventCreateData (from IOKit)
+                 (undefined) external _IOHIDEventCreateWithBytes (from IOKit)
+                 (undefined) external _IOHIDEventCreateWithData (from IOKit)
+                 (undefined) external _IOHIDEventGetChildren (from IOKit)
+                 (undefined) external _IOHIDEventGetDataValue (from IOKit)
+                 (undefined) external _IOHIDEventGetDoubleValue (from IOKit)
+                 (undefined) external _IOHIDEventGetEventFlags (from IOKit)
+                 (undefined) external _IOHIDEventGetFloatValue (from IOKit)
+                 (undefined) external _IOHIDEventGetIntegerValue (from IOKit)
+                 (undefined) external _IOHIDEventGetParent (from IOKit)
+                 (undefined) external _IOHIDEventGetSenderID (from IOKit)
+                 (undefined) external _IOHIDEventGetTimeStamp (from IOKit)
+                 (undefined) external _IOHIDEventGetType (from IOKit)
+                 (undefined) external _IOHIDEventRemoveEvent (from IOKit)
+                 (undefined) external _IOHIDEventSetDoubleValue (from IOKit)
+                 (undefined) external _IOHIDEventSetEventFlags (from IOKit)
+                 (undefined) external _IOHIDEventSetFloatValue (from IOKit)
+                 (undefined) external _IOHIDEventSetIntegerValue (from IOKit)
+                 (undefined) external _IOHIDEventSetSenderID (from IOKit)
+                 (undefined) external _IOHIDEventSetTimeStamp (from IOKit)
+                 (undefined) external _IOHIDEventSystemClientActivate (from IOKit)
+                 (undefined) external _IOHIDEventSystemClientCancel (from IOKit)
+                 (undefined) external _IOHIDEventSystemClientCopyProperty (from IOKit)
+                 (undefined) external _IOHIDEventSystemClientCopyServices (from IOKit)
+                 (undefined) external _IOHIDEventSystemClientCreateWithType (from IOKit)
+                 (undefined) external _IOHIDEventSystemClientRegisterDeviceMatchingCallback (from IOKit)
+                 (undefined) external _IOHIDEventSystemClientRegisterEventCallback (from IOKit)
+                 (undefined) external _IOHIDEventSystemClientRegisterEventFilterCallback (from IOKit)
+                 (undefined) external _IOHIDEventSystemClientRegisterPropertyChangedCallback (from IOKit)
+                 (undefined) external _IOHIDEventSystemClientRegisterResetCallback (from IOKit)
+                 (undefined) external _IOHIDEventSystemClientSetCancelHandler (from IOKit)
+                 (undefined) external _IOHIDEventSystemClientSetDispatchQueue (from IOKit)
+                 (undefined) external _IOHIDEventSystemClientSetMatching (from IOKit)
+                 (undefined) external _IOHIDEventSystemClientSetMatchingMultiple (from IOKit)
+                 (undefined) external _IOHIDEventSystemClientSetProperty (from IOKit)
+                 (undefined) external _IOHIDEventSystemConnectionGetUUID (from IOKit)
+                 (undefined) external _IOHIDManagerActivate (from IOKit)
+                 (undefined) external _IOHIDManagerCancel (from IOKit)
+                 (undefined) external _IOHIDManagerClose (from IOKit)
+                 (undefined) external _IOHIDManagerCopyDevices (from IOKit)
+                 (undefined) external _IOHIDManagerCreate (from IOKit)
+                 (undefined) external _IOHIDManagerGetProperty (from IOKit)
+                 (undefined) external _IOHIDManagerOpen (from IOKit)
+                 (undefined) external _IOHIDManagerRegisterDeviceMatchingCallback (from IOKit)
+                 (undefined) external _IOHIDManagerRegisterDeviceRemovalCallback (from IOKit)
+                 (undefined) external _IOHIDManagerRegisterInputReportWithTimeStampCallback (from IOKit)
+                 (undefined) external _IOHIDManagerRegisterInputValueCallback (from IOKit)
+                 (undefined) external _IOHIDManagerSetCancelHandler (from IOKit)
+                 (undefined) external _IOHIDManagerSetDeviceMatching (from IOKit)
+                 (undefined) external _IOHIDManagerSetDeviceMatchingMultiple (from IOKit)
+                 (undefined) external _IOHIDManagerSetDispatchQueue (from IOKit)
+                 (undefined) external _IOHIDManagerSetInputValueMatching (from IOKit)
+                 (undefined) external _IOHIDManagerSetInputValueMatchingMultiple (from IOKit)
+                 (undefined) external _IOHIDManagerSetProperty (from IOKit)
+                 (undefined) external _IOHIDServiceClientConformsTo (from IOKit)
+                 (undefined) external _IOHIDServiceClientCopyMatchingEvent (from IOKit)
+                 (undefined) external _IOHIDServiceClientCopyProperties (from IOKit)
+                 (undefined) external _IOHIDServiceClientCopyProperty (from IOKit)
+                 (undefined) external _IOHIDServiceClientGetRegistryID (from IOKit)
+                 (undefined) external _IOHIDServiceClientRegisterRemovalCallback (from IOKit)
+                 (undefined) external _IOHIDServiceClientSetProperty (from IOKit)
+                 (undefined) external _IOHIDServiceConformsTo (from IOKit)
+                 (undefined) external _IOHIDServiceCopyMatchingEvent (from IOKit)
+                 (undefined) external _IOHIDServiceCopyProperty (from IOKit)
+                 (undefined) external _IOHIDServiceGetRegistryID (from IOKit)
+                 (undefined) external _IOHIDServiceSetProperty (from IOKit)
+                 (undefined) external _IOHIDSessionGetProperty (from IOKit)
+                 (undefined) external _IOHIDSessionSetProperty (from IOKit)
+                 (undefined) external _IOHIDTransactionAddElement (from IOKit)
+                 (undefined) external _IOHIDTransactionClear (from IOKit)
+                 (undefined) external _IOHIDTransactionCommit (from IOKit)
+                 (undefined) external _IOHIDTransactionCreate (from IOKit)
+                 (undefined) external _IOHIDTransactionGetDirection (from IOKit)
+                 (undefined) external _IOHIDTransactionGetValue (from IOKit)
+                 (undefined) external _IOHIDTransactionSetDirection (from IOKit)
+                 (undefined) external _IOHIDTransactionSetValue (from IOKit)
+                 (undefined) external _IOHIDUserDeviceActivate (from IOKit)
+                 (undefined) external _IOHIDUserDeviceCancel (from IOKit)
+                 (undefined) external _IOHIDUserDeviceCopyProperty (from IOKit)
+                 (undefined) external _IOHIDUserDeviceCopyService (from IOKit)
+                 (undefined) external _IOHIDUserDeviceCreateWithOptions (from IOKit)
+                 (undefined) external _IOHIDUserDeviceHandleReport (from IOKit)
+                 (undefined) external _IOHIDUserDeviceHandleReportWithTimeStamp (from IOKit)
+                 (undefined) external _IOHIDUserDeviceRegisterGetReportWithReturnLengthCallback (from IOKit)
+                 (undefined) external _IOHIDUserDeviceRegisterSetReportCallback (from IOKit)
+                 (undefined) external _IOHIDUserDeviceSetCancelHandler (from IOKit)
+                 (undefined) external _IOHIDUserDeviceSetDispatchQueue (from IOKit)
+                 (undefined) external _IOHIDUserDeviceSetProperty (from IOKit)
+                 (undefined) external _IOHIDValueCreateWithBytes (from IOKit)
+                 (undefined) external _IOHIDValueCreateWithIntegerValue (from IOKit)
+                 (undefined) external _IOHIDValueGetBytePtr (from IOKit)
+                 (undefined) external _IOHIDValueGetElement (from IOKit)
+                 (undefined) external _IOHIDValueGetIntegerValue (from IOKit)
+                 (undefined) external _IOHIDValueGetLength (from IOKit)
+                 (undefined) external _IOHIDValueGetScaledValue (from IOKit)
+                 (undefined) external _IOHIDValueGetTimeStamp (from IOKit)
+                 (undefined) external _IOHIDVirtualServiceClientCreateWithCallbacks (from IOKit)
+                 (undefined) external _IOHIDVirtualServiceClientDispatchEvent (from IOKit)
+                 (undefined) external _IOObjectRelease (from IOKit)
+00007fff81efe110 (__DATA,__data) non-external _KeyboardEventFields
+00007fff81efdf40 (__DATA,__data) non-external _LEDEventFields
+00007fff81efdb40 (__DATA,__data) non-external _MotionActivityEventFields
+00007fff81efd8c0 (__DATA,__data) non-external _MotionGestureEventFields
+00007fff81efdb70 (__DATA,__data) non-external _MultiAxisPointerEventFields
+                 (undefined) external _NSLocalizedDescriptionKey (from Foundation)
+00007fff81efd700 (__DATA,__data) non-external _NULLEventFields
+00007fff81efdd00 (__DATA,__data) non-external _NavigationSwipeEventFields
+                 (undefined) external _OBJC_CLASS_$_HIDConnection (from IOKit)
+                 (undefined) external _OBJC_CLASS_$_HIDDevice (from IOKit)
+                 (undefined) external _OBJC_CLASS_$_HIDElement (from IOKit)
+                 (undefined) external _OBJC_CLASS_$_HIDEvent (from IOKit)
+                 (undefined) external _OBJC_CLASS_$_HIDEventService (from IOKit)
+00007fff81efd460 (__DATA,__objc_data) external _OBJC_CLASS_$_HIDEventSystemClient
+00007fff81efd410 (__DATA,__objc_data) external _OBJC_CLASS_$_HIDManager
+                 (undefined) external _OBJC_CLASS_$_HIDServiceClient (from IOKit)
+                 (undefined) external _OBJC_CLASS_$_HIDSession (from IOKit)
+00007fff81efd4b0 (__DATA,__objc_data) non-external (was a private external) _OBJC_CLASS_$_HIDTransaction
+00007fff81efd500 (__DATA,__objc_data) external _OBJC_CLASS_$_HIDUserDevice
+00007fff81efd3c0 (__DATA,__objc_data) external _OBJC_CLASS_$_HIDVirtualEventService
+                 (undefined) external _OBJC_CLASS_$_NSArray (from CoreFoundation)
+                 (undefined) external _OBJC_CLASS_$_NSConstantDictionary (from CoreFoundation)
+                 (undefined) external _OBJC_CLASS_$_NSConstantIntegerNumber (from Foundation)
+                 (undefined) external _OBJC_CLASS_$_NSData (from CoreFoundation)
+                 (undefined) external _OBJC_CLASS_$_NSDictionary (from CoreFoundation)
+                 (undefined) external _OBJC_CLASS_$_NSError (from Foundation)
+                 (undefined) external _OBJC_CLASS_$_NSMutableArray (from CoreFoundation)
+                 (undefined) external _OBJC_CLASS_$_NSMutableDictionary (from CoreFoundation)
+                 (undefined) external _OBJC_CLASS_$_NSNumber (from Foundation)
+                 (undefined) external _OBJC_CLASS_$_NSObject (from libobjc)
+                 (undefined) external _OBJC_CLASS_$_NSString (from Foundation)
+                 (undefined) external _OBJC_IVAR_$_HIDDevice._device (from IOKit)
+                 (undefined) external _OBJC_IVAR_$_HIDEvent._event (from IOKit)
+00007fff81efd388 (__DATA,__objc_ivar) non-external (was a private external) _OBJC_IVAR_$_HIDEventSystemClient._cancelHandler
+00007fff81efd358 (__DATA,__objc_ivar) non-external (was a private external) _OBJC_IVAR_$_HIDEventSystemClient._client
+00007fff81efd360 (__DATA,__objc_ivar) non-external (was a private external) _OBJC_IVAR_$_HIDEventSystemClient._eventHandler
+00007fff81efd370 (__DATA,__objc_ivar) non-external (was a private external) _OBJC_IVAR_$_HIDEventSystemClient._filterHandler
+00007fff81efd380 (__DATA,__objc_ivar) non-external (was a private external) _OBJC_IVAR_$_HIDEventSystemClient._propertyChangedHandler
+00007fff81efd368 (__DATA,__objc_ivar) non-external (was a private external) _OBJC_IVAR_$_HIDEventSystemClient._resetHandler
+00007fff81efd378 (__DATA,__objc_ivar) non-external (was a private external) _OBJC_IVAR_$_HIDEventSystemClient._serviceHandler
+00007fff81efd350 (__DATA,__objc_ivar) non-external (was a private external) _OBJC_IVAR_$_HIDManager._cancelHandler
+00007fff81efd340 (__DATA,__objc_ivar) non-external (was a private external) _OBJC_IVAR_$_HIDManager._deviceNotificationHandler
+00007fff81efd338 (__DATA,__objc_ivar) non-external (was a private external) _OBJC_IVAR_$_HIDManager._elementHandler
+00007fff81efd348 (__DATA,__objc_ivar) non-external (was a private external) _OBJC_IVAR_$_HIDManager._inputReportHandler
+00007fff81efd330 (__DATA,__objc_ivar) non-external (was a private external) _OBJC_IVAR_$_HIDManager._manager
+                 (undefined) external _OBJC_IVAR_$_HIDServiceClient._client (from IOKit)
+00007fff81efd390 (__DATA,__objc_ivar) non-external (was a private external) _OBJC_IVAR_$_HIDTransaction._transaction
+00007fff81efd3b8 (__DATA,__objc_ivar) non-external (was a private external) _OBJC_IVAR_$_HIDUserDevice._cancelHandler
+00007fff81efd398 (__DATA,__objc_ivar) non-external (was a private external) _OBJC_IVAR_$_HIDUserDevice._device
+00007fff81efd3a0 (__DATA,__objc_ivar) non-external (was a private external) _OBJC_IVAR_$_HIDUserDevice._getReportHandler
+00007fff81efd3b0 (__DATA,__objc_ivar) non-external (was a private external) _OBJC_IVAR_$_HIDUserDevice._service
+00007fff81efd3a8 (__DATA,__objc_ivar) non-external (was a private external) _OBJC_IVAR_$_HIDUserDevice._setReportHandler
+00007fff81efd318 (__DATA,__objc_ivar) non-external (was a private external) _OBJC_IVAR_$_HIDVirtualEventService._client
+00007fff81efd310 (__DATA,__objc_ivar) non-external (was a private external) _OBJC_IVAR_$_HIDVirtualEventService._delegate
+00007fff81efd328 (__DATA,__objc_ivar) non-external (was a private external) _OBJC_IVAR_$_HIDVirtualEventService._queue
+00007fff81efd320 (__DATA,__objc_ivar) non-external (was a private external) _OBJC_IVAR_$_HIDVirtualEventService._serviceClient
+00007fff81efd488 (__DATA,__objc_data) external _OBJC_METACLASS_$_HIDEventSystemClient
+00007fff81efd438 (__DATA,__objc_data) external _OBJC_METACLASS_$_HIDManager
+00007fff81efd4d8 (__DATA,__objc_data) non-external (was a private external) _OBJC_METACLASS_$_HIDTransaction
+00007fff81efd528 (__DATA,__objc_data) external _OBJC_METACLASS_$_HIDUserDevice
+00007fff81efd3e8 (__DATA,__objc_data) external _OBJC_METACLASS_$_HIDVirtualEventService
+                 (undefined) external _OBJC_METACLASS_$_NSObject (from libobjc)
+00007fff81efdf80 (__DATA,__data) non-external _OrientationHIDSelectorTable
+00007fff81efe7c0 (__DATA,__data) non-external _OrientationkIOHIDEventFieldOrientationOrientationTypeHIDEventFieldSelectorTable
+00007fff81efe860 (__DATA,__data) non-external _OrientationkIOHIDEventFieldOrientationOrientationTypekIOHIDOrientationTypeCMUsageEventField
+00007fff81efe890 (__DATA,__data) non-external _OrientationkIOHIDEventFieldOrientationOrientationTypekIOHIDOrientationTypePolarEventField
+00007fff81efe8e0 (__DATA,__data) non-external _OrientationkIOHIDEventFieldOrientationOrientationTypekIOHIDOrientationTypeQuaternionEventField
+00007fff81efe810 (__DATA,__data) non-external _OrientationkIOHIDEventFieldOrientationOrientationTypekIOHIDOrientationTypeTiltEventField
+00007fff81efe1d0 (__DATA,__data) non-external _PointerEventFields
+00007fff81efd830 (__DATA,__data) non-external _PowerEventFields
+00007fff81efd6b0 (__DATA,__data) non-external _ProgressEventFields
+00007fff81efdfa0 (__DATA,__data) non-external _ProximityEventFields
+00007fff81efdb00 (__DATA,__data) non-external _RotationEventFields
+00007fff81efd5b0 (__DATA,__data) non-external _ScaleEventFields
+00007fff81efde20 (__DATA,__data) non-external _ScrollEventFields
+00007fff81efd5f0 (__DATA,__data) non-external _SymbolicHotKeyEventFields
+00007fff81efd620 (__DATA,__data) non-external _TemperatureEventFields
+00007fff81efda30 (__DATA,__data) non-external _TranslationEventFields
+00007fff81efe0c0 (__DATA,__data) non-external _UnicodeEventFields
+00007fff81efdde0 (__DATA,__data) non-external _VelocityEventFields
+00007fff81efd550 (__DATA,__data) non-external _VendorDefinedEventFields
+                 (undefined) external __Block_copy (from libSystem)
+                 (undefined) external __Block_release (from libSystem)
+                 (undefined) external __IOHIDElementGetValue (from IOKit)
+                 (undefined) external __IOHIDElementSetValue (from IOKit)
+                 (undefined) external __IOHIDEventCreate (from IOKit)
+                 (undefined) external __IOHIDEventEqual (from IOKit)
+                 (undefined) external __IOHIDServiceDispatchEvent (from IOKit)
+                 (undefined) external __NSConcreteStackBlock (from libSystem)
+00007fff81efc0f8 (__DATA,__objc_const) non-external __OBJC_$_CATEGORY_HIDConnection_$_HIDFramework
+00007fff81efbe40 (__DATA,__objc_const) non-external __OBJC_$_CATEGORY_HIDDevice_$_HIDFramework
+00007fff81efc3d0 (__DATA,__objc_const) non-external __OBJC_$_CATEGORY_HIDElement_$_HIDFramework
+00007fff81efb9f0 (__DATA,__objc_const) non-external __OBJC_$_CATEGORY_HIDEventService_$_HIDFramework
+00007fff81efba30 (__DATA,__objc_const) non-external __OBJC_$_CATEGORY_HIDEvent_$_HIDEventDesc
+00007fff81efbde8 (__DATA,__objc_const) non-external __OBJC_$_CATEGORY_HIDServiceClient_$_HIDFramework
+00007fff81efc138 (__DATA,__objc_const) non-external __OBJC_$_CATEGORY_HIDSession_$_HIDFramework
+00007fff81efc410 (__DATA,__objc_const) non-external __OBJC_$_CATEGORY_NSError_$_IOReturn
+00007fff38649208 (__TEXT,__objc_methlist) non-external __OBJC_$_CLASS_METHODS_HIDEvent(HIDEventDesc|HIDFramework|HIDVendorDefinedEvent|HIDVendorDefinedEventPrivate|HIDTemperatureEvent|HIDTemperatureEventPrivate|HIDAccelerometerEvent|HIDAccelerometerEventPrivate|HIDGenericGestureEvent|HIDGenericGestureEventPrivate|HIDAmbientLightSensorEvent|HIDAmbientLightSensorEventPrivate|HIDPowerEventPrivate|HIDForceEvent|HIDForceEventPrivate|HIDMotionGestureEvent|HIDMotionGestureEventPrivate|HIDGameControllerEvent|HIDGameControllerEventPrivate|HIDDigitizerEvent|HIDDigitizerEventPrivate|HIDCompassEvent|HIDCompassEventPrivate|HIDMotionActivityEvent|HIDMotionActivityEventPrivate|HIDBrightnessEvent|HIDBrightnessEventPrivate|HIDGyroEvent|HIDGyroEventPrivate|HIDButtonEvent|HIDButtonEventPrivate|HIDAtmosphericPressureEvent|HIDAtmosphericPressureEventPrivate|HIDHumidityEventPrivate|HIDScrollEvent|HIDScrollEventPrivate|HIDBiometricEvent|HIDBiometricEventPrivate|HIDLEDEvent|HIDLEDEventPrivate|HIDOrientationEvent|HIDOrientationEventPrivate|HIDProximityEvent|HIDProximityEventPrivate|HIDKeyboardEvent|HIDKeyboardEventPrivate|HIDPointerEvent|HIDPointerEventPrivate)
+00007fff38649358 (__TEXT,__objc_methlist) non-external __OBJC_$_CLASS_METHODS_NSError(IOReturn)
+00007fff38648ff0 (__TEXT,__objc_methlist) non-external __OBJC_$_INSTANCE_METHODS_HIDConnection(HIDFramework)
+00007fff38648da8 (__TEXT,__objc_methlist) non-external __OBJC_$_INSTANCE_METHODS_HIDDevice(HIDFramework)
+00007fff386490e8 (__TEXT,__objc_methlist) non-external __OBJC_$_INSTANCE_METHODS_HIDElement(HIDFramework)
+00007fff38647c38 (__TEXT,__objc_methlist) non-external __OBJC_$_INSTANCE_METHODS_HIDEvent(HIDEventDesc|HIDFramework|HIDVendorDefinedEvent|HIDVendorDefinedEventPrivate|HIDTemperatureEvent|HIDTemperatureEventPrivate|HIDAccelerometerEvent|HIDAccelerometerEventPrivate|HIDGenericGestureEvent|HIDGenericGestureEventPrivate|HIDAmbientLightSensorEvent|HIDAmbientLightSensorEventPrivate|HIDPowerEventPrivate|HIDForceEvent|HIDForceEventPrivate|HIDMotionGestureEvent|HIDMotionGestureEventPrivate|HIDGameControllerEvent|HIDGameControllerEventPrivate|HIDDigitizerEvent|HIDDigitizerEventPrivate|HIDCompassEvent|HIDCompassEventPrivate|HIDMotionActivityEvent|HIDMotionActivityEventPrivate|HIDBrightnessEvent|HIDBrightnessEventPrivate|HIDGyroEvent|HIDGyroEventPrivate|HIDButtonEvent|HIDButtonEventPrivate|HIDAtmosphericPressureEvent|HIDAtmosphericPressureEventPrivate|HIDHumidityEventPrivate|HIDScrollEvent|HIDScrollEventPrivate|HIDBiometricEvent|HIDBiometricEventPrivate|HIDLEDEvent|HIDLEDEventPrivate|HIDOrientationEvent|HIDOrientationEventPrivate|HIDProximityEvent|HIDProximityEventPrivate|HIDKeyboardEvent|HIDKeyboardEventPrivate|HIDPointerEvent|HIDPointerEventPrivate)
+00007fff38647be8 (__TEXT,__objc_methlist) non-external __OBJC_$_INSTANCE_METHODS_HIDEventService(HIDFramework|HIDFrameworkPrivate)
+00007fff38648eb0 (__TEXT,__objc_methlist) non-external __OBJC_$_INSTANCE_METHODS_HIDEventSystemClient
+00007fff38648c58 (__TEXT,__objc_methlist) non-external __OBJC_$_INSTANCE_METHODS_HIDManager
+00007fff38648d48 (__TEXT,__objc_methlist) non-external __OBJC_$_INSTANCE_METHODS_HIDServiceClient(HIDFramework)
+00007fff38649008 (__TEXT,__objc_methlist) non-external __OBJC_$_INSTANCE_METHODS_HIDSession(HIDFramework)
+00007fff38648fa0 (__TEXT,__objc_methlist) non-external __OBJC_$_INSTANCE_METHODS_HIDTransaction
+00007fff38649028 (__TEXT,__objc_methlist) non-external __OBJC_$_INSTANCE_METHODS_HIDUserDevice
+00007fff38648b80 (__TEXT,__objc_methlist) non-external __OBJC_$_INSTANCE_METHODS_HIDVirtualEventService
+00007fff81efbec8 (__DATA,__objc_const) non-external __OBJC_$_INSTANCE_VARIABLES_HIDEventSystemClient
+00007fff81efbcc8 (__DATA,__objc_const) non-external __OBJC_$_INSTANCE_VARIABLES_HIDManager
+00007fff81efc058 (__DATA,__objc_const) non-external __OBJC_$_INSTANCE_VARIABLES_HIDTransaction
+00007fff81efc1c0 (__DATA,__objc_const) non-external __OBJC_$_INSTANCE_VARIABLES_HIDUserDevice
+00007fff81efbab8 (__DATA,__objc_const) non-external __OBJC_$_INSTANCE_VARIABLES_HIDVirtualEventService
+00007fff81efbfb0 (__DATA,__objc_const) non-external __OBJC_$_PROP_LIST_HIDEventSystemClient
+00007fff81efbd70 (__DATA,__objc_const) non-external __OBJC_$_PROP_LIST_HIDManager
+00007fff81efc080 (__DATA,__objc_const) non-external __OBJC_$_PROP_LIST_HIDTransaction
+00007fff81efc268 (__DATA,__objc_const) non-external __OBJC_$_PROP_LIST_HIDUserDevice
+00007fff81efbb40 (__DATA,__objc_const) non-external __OBJC_$_PROP_LIST_HIDVirtualEventService
+00007fff81efbc58 (__DATA,__objc_const) non-external __OBJC_$_PROTOCOL_INSTANCE_METHODS_NSCopying
+00007fff81efbc78 (__DATA,__objc_const) non-external __OBJC_$_PROTOCOL_METHOD_TYPES_NSCopying
+00007fff81efbbe0 (__DATA,__objc_const) non-external (was a private external) __OBJC_CLASS_PROTOCOLS_$_HIDEvent(HIDFramework)
+00007fff81efbfc8 (__DATA,__objc_const) non-external __OBJC_CLASS_RO_$_HIDEventSystemClient
+00007fff81efbd88 (__DATA,__objc_const) non-external __OBJC_CLASS_RO_$_HIDManager
+00007fff81efc098 (__DATA,__objc_const) non-external __OBJC_CLASS_RO_$_HIDTransaction
+00007fff81efc280 (__DATA,__objc_const) non-external __OBJC_CLASS_RO_$_HIDUserDevice
+00007fff81efbb98 (__DATA,__objc_const) non-external __OBJC_CLASS_RO_$_HIDVirtualEventService
+00007fff81efb9c8 (__DATA,__objc_protolist) non-external (was a private external) __OBJC_LABEL_PROTOCOL_$_NSCopying
+00007fff81efbe80 (__DATA,__objc_const) non-external __OBJC_METACLASS_RO_$_HIDEventSystemClient
+00007fff81efbc80 (__DATA,__objc_const) non-external __OBJC_METACLASS_RO_$_HIDManager
+00007fff81efc010 (__DATA,__objc_const) non-external __OBJC_METACLASS_RO_$_HIDTransaction
+00007fff81efc178 (__DATA,__objc_const) non-external __OBJC_METACLASS_RO_$_HIDUserDevice
+00007fff81efba70 (__DATA,__objc_const) non-external __OBJC_METACLASS_RO_$_HIDVirtualEventService
+00007fff81efe940 (__DATA,__data) non-external (was a private external) __OBJC_PROTOCOL_$_NSCopying
+                 (undefined) external __Unwind_Resume (from libSystem)
+00007fff386425f0 (__TEXT,__text) non-external ___22-[HIDManager activate]_block_invoke
+00007fff386441b2 (__TEXT,__text) non-external ___25-[HIDUserDevice activate]_block_invoke
+00007fff38643a42 (__TEXT,__text) non-external ___32-[HIDEventSystemClient activate]_block_invoke
+00007fff38641805 (__TEXT,__text) non-external ___34-[HIDVirtualEventService activate]_block_invoke
+                 (undefined) external ___CFConstantStringClassReference (from CoreFoundation)
+00007fff38641791 (__TEXT,__text) non-external ___HIDVirtualServiceClientCopyMatchingEventCallback
+00007fff386415d0 (__TEXT,__text) non-external ___HIDVirtualServiceCopyEvent
+00007fff38641554 (__TEXT,__text) non-external ___HIDVirtualServiceCopyPropertyCallback
+00007fff38641452 (__TEXT,__text) non-external ___HIDVirtualServiceNotifyCallback
+00007fff38641716 (__TEXT,__text) non-external ___HIDVirtualServiceSetOutputEvent
+00007fff386414d7 (__TEXT,__text) non-external ___HIDVirtualServiceSetPropertyCallback
+00007fff81efb188 (__DATA,__const) non-external (was a private external) ___block_descriptor_40_e8_32s_e5_v8?0l
+00007fff81efb158 (__DATA,__const) non-external (was a private external) ___block_descriptor_40_e8_32w_e5_v8?0l
+00007fff3864262c (__TEXT,__text) non-external (was a private external) ___copy_helper_block_e8_32s
+00007fff38641872 (__TEXT,__text) non-external (was a private external) ___copy_helper_block_e8_32w
+00007fff3864263b (__TEXT,__text) non-external (was a private external) ___destroy_helper_block_e8_32s
+00007fff38641884 (__TEXT,__text) non-external (was a private external) ___destroy_helper_block_e8_32w
+                 (undefined) external ___error (from libSystem)
+                 (undefined) external ___kCFBooleanTrue (from CoreFoundation)
+                 (undefined) external ___objc_personality_v0 (from libobjc)
+                 (undefined) external ___stack_chk_fail (from libSystem)
+                 (undefined) external ___stack_chk_guard (from libSystem)
+00007fff386435bd (__TEXT,__text) non-external __eventCallback
+00007fff386436aa (__TEXT,__text) non-external __eventFilterCallback
+                 (undefined) external __objc_empty_cache (from libobjc)
+                 (undefined) external __os_crash (from libSystem)
+                 (undefined) external __os_crash_fmt (from libSystem)
+                 (undefined) external __os_log_pack_fill (from libSystem)
+                 (undefined) external __os_log_pack_size (from libSystem)
+00007fff386439d7 (__TEXT,__text) non-external __propertiesChangedCallback
+00007fff38642777 (__TEXT,__text) non-external __removalCallback
+00007fff38643638 (__TEXT,__text) non-external __resetCallback
+00007fff38643726 (__TEXT,__text) non-external __serviceCallback
+00007fff81efeec8 (__DATA,__objc_arraydata) non-external __unnamed_array_storage
+00007fff81efeed0 (__DATA,__objc_arraydata) non-external __unnamed_array_storage.25
+00007fff81efeed8 (__DATA,__objc_arraydata) non-external __unnamed_array_storage.27
+00007fff81efeee0 (__DATA,__objc_arraydata) non-external __unnamed_array_storage.28
+00007fff81efeee8 (__DATA,__objc_arraydata) non-external __unnamed_array_storage.31
+00007fff81efeef0 (__DATA,__objc_arraydata) non-external __unnamed_array_storage.32
+00007fff81efeef8 (__DATA,__objc_arraydata) non-external __unnamed_array_storage.35
+00007fff81efef00 (__DATA,__objc_arraydata) non-external __unnamed_array_storage.36
+00007fff81efef08 (__DATA,__objc_arraydata) non-external __unnamed_array_storage.41
+00007fff81efef10 (__DATA,__objc_arraydata) non-external __unnamed_array_storage.42
+00007fff38642d3b (__TEXT,__text) non-external _batchInputValueCallback
+00007fff38642416 (__TEXT,__text) non-external _deviceAddedCallback
+00007fff3864242d (__TEXT,__text) non-external _deviceRemovedCallback
+                 (undefined) external _dispatch_async (from libSystem)
+00007fff38644260 (__TEXT,__text) non-external _getReportCallback
+00007fff81efad90 (__DATA,__const) non-external _hidEventFieldDescTable
+00007fff386424a5 (__TEXT,__text) non-external _inputReportCallback
+00007fff38642ffc (__TEXT,__text) non-external _inputReportCallback
+00007fff386421b2 (__TEXT,__text) non-external _inputValueCallback
+00007fff38642c3b (__TEXT,__text) non-external _inputValueCallback
+                 (undefined) external _kCFAllocatorDefault (from CoreFoundation)
+                 (undefined) external _kCFTypeArrayCallBacks (from CoreFoundation)
+00007fff81efb1b8 (__DATA,__const) external _kHIDUserDevicePropertyCreateInactiveKey
+                 (undefined) external _memmove (from libSystem)
+                 (undefined) external _memset (from libSystem)
+                 (undefined) external _objc_alloc (from libobjc)
+                 (undefined) external _objc_alloc_init (from libobjc)
+                 (undefined) external _objc_autorelease (from libobjc)
+                 (undefined) external _objc_autoreleaseReturnValue (from libobjc)
+                 (undefined) external _objc_copyWeak (from libobjc)
+                 (undefined) external _objc_destroyWeak (from libobjc)
+                 (undefined) external _objc_enumerationMutation (from libobjc)
+                 (undefined) external _objc_getProperty (from libobjc)
+                 (undefined) external _objc_initWeak (from libobjc)
+                 (undefined) external _objc_loadWeakRetained (from libobjc)
+                 (undefined) external _objc_msgSend (from libobjc)
+                 (undefined) external _objc_msgSendSuper2 (from libobjc)
+                 (undefined) external _objc_opt_class (from libobjc)
+                 (undefined) external _objc_opt_isKindOfClass (from libobjc)
+                 (undefined) external _objc_release (from libobjc)
+                 (undefined) external _objc_retain (from libobjc)
+                 (undefined) external _objc_retainAutorelease (from libobjc)
+                 (undefined) external _objc_retainAutoreleasedReturnValue (from libobjc)
+                 (undefined) external _objc_retainBlock (from libobjc)
+                 (undefined) external _objc_setProperty_atomic (from libobjc)
+                 (undefined) external _objc_storeStrong (from libobjc)
+                 (undefined) external _objc_storeWeak (from libobjc)
+00007fff38642e78 (__TEXT,__text) non-external _removalCallback
+00007fff38644303 (__TEXT,__text) non-external _setReportCallback
+                 (undefined) external dyld_stub_binder (from libSystem)
