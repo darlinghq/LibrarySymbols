@@ -38,16 +38,18 @@ impl CliArguments {
             String::from("/")
         });
 
+        let base_path_temp = PathBuf::from(base_path.as_str());
         let cryptexes_os_path = raw_arguments.cryptexes_os_path.or_else(|| {
-            let temp = String::from("/System/Cryptexes/OS");
-            let temp_path = Path::new(temp.as_str());
+            let cryptexes_os_alt_path =  Path::new("System/Cryptexes/OS");
+            let temp_path = base_path_temp.join(cryptexes_os_alt_path);
 
-            println!("Cryptexes OS path not provided. Checking if path '{}' exists", temp);
+            let temp_path_str = temp_path.to_str().unwrap();
+            println!("Cryptexes OS path not provided. Checking if path '{}' exists", temp_path_str);
             if temp_path.exists() {
-                println!("Found '{}' path", temp);
-                Some(temp)
+                println!("Found '{}' path", temp_path_str);
+                Some(String::from(temp_path_str))
             } else {
-                println!("Unable to find '{}' path", temp);
+                println!("Unable to find '{}' path", temp_path_str);
                 None
             }
         });
