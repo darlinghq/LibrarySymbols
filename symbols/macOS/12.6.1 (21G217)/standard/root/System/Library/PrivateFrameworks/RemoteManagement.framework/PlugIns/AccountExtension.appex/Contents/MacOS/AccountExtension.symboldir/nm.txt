@@ -1,0 +1,822 @@
+
+/Volumes/Macintosh HD 1/System/Library/PrivateFrameworks/RemoteManagement.framework/PlugIns/AccountExtension.appex/Contents/MacOS/AccountExtension (for architecture x86_64):
+00000001000093d0 (__TEXT,__text) non-external +[AccountTransformer transformerClassForConfigurationType:]
+0000000100006ae0 (__TEXT,__text) non-external -[AccountAdapter .cxx_destruct]
+0000000100006380 (__TEXT,__text) non-external -[AccountAdapter _dataclassActionsForRemovalOfAccount:]
+0000000100005b20 (__TEXT,__text) non-external -[AccountAdapter accountKeyFromConfiguration:]
+0000000100004760 (__TEXT,__text) non-external -[AccountAdapter accountPropertiesFromConfiguration:account:completionHandler:]
+0000000100006a90 (__TEXT,__text) non-external -[AccountAdapter accountStore]
+0000000100005dd0 (__TEXT,__text) non-external -[AccountAdapter applyProperties:toAccount:configuration:completionHandler:]
+0000000100005c60 (__TEXT,__text) non-external -[AccountAdapter combinedServerTokensFromConfiguration:]
+0000000100005cf0 (__TEXT,__text) non-external -[AccountAdapter createAccountWithTypeIdentifier:]
+0000000100005600 (__TEXT,__text) non-external -[AccountAdapter getRemotelyManagedAccountsForStore:]
+00000001000049a0 (__TEXT,__text) non-external -[AccountAdapter getRemotelyManagedAccounts]
+00000001000046b0 (__TEXT,__text) non-external -[AccountAdapter init]
+0000000100006130 (__TEXT,__text) non-external -[AccountAdapter removeAccount:completionHandler:]
+0000000100006ab0 (__TEXT,__text) non-external -[AccountAdapter setAccountStore:]
+0000000100009390 (__TEXT,__text) non-external -[AccountApplicator .cxx_destruct]
+0000000100008b60 (__TEXT,__text) non-external -[AccountApplicator _createAccountIfNeededAndApplyProperties:configuration:properties:completionHandler:]
+0000000100009320 (__TEXT,__text) non-external -[AccountApplicator adapter]
+0000000100006c90 (__TEXT,__text) non-external -[AccountApplicator applyConfigurations:completionHandler:]
+0000000100009340 (__TEXT,__text) non-external -[AccountApplicator completionQueue]
+0000000100006b90 (__TEXT,__text) non-external -[AccountApplicator initWithAdapter:]
+0000000100006b10 (__TEXT,__text) non-external -[AccountApplicator init]
+0000000100009360 (__TEXT,__text) non-external -[AccountApplicator setCompletionQueue:]
+0000000100009b60 (__TEXT,__text) non-external -[AccountTransformer _personaIDForConfiguration:accountStore:]
+00000001000096c0 (__TEXT,__text) non-external -[AccountTransformer accountPropertiesFromConfiguration:account:accountStore:completionHandler:]
+000000010000a310 (__TEXT,__text) non-external -[AccountTransformer applyProperties:toAccount:accountStore:completionHandler:]
+000000010000b8e0 (__TEXT,__text) non-external -[AccountTransformer changesRequireRecreation:properties:]
+000000010000bd60 (__TEXT,__text) non-external -[AccountTransformer combinedServerTokensFromConfiguration:]
+000000010000cc70 (__TEXT,__text) non-external -[AccountTransformer extractUserIdentityAsset:assetIdentifier:completionHandler:]
+000000010000c1d0 (__TEXT,__text) non-external -[AccountTransformer resolveUserNameAndPasswordAsset:assetIdentifier:completionHandler:]
+0000000100009d30 (__TEXT,__text) non-external -[AccountTransformer saveAccount:accountStore:]
+000000010000d1e0 (__TEXT,__text) non-external -[AccountTransformerCalDAV accountPropertiesFromConfiguration:account:accountStore:completionHandler:]
+000000010000e220 (__TEXT,__text) non-external -[AccountTransformerCardDAV accountPropertiesFromConfiguration:account:accountStore:completionHandler:]
+000000010000efc0 (__TEXT,__text) non-external -[AccountTransformerExchange accountPropertiesFromConfiguration:account:accountStore:completionHandler:]
+0000000100011960 (__TEXT,__text) non-external -[AccountTransformerExchange changesRequireRecreation:properties:]
+0000000100012020 (__TEXT,__text) non-external -[AccountTransformerGoogle accountPropertiesFromConfiguration:account:accountStore:completionHandler:]
+0000000100012aa0 (__TEXT,__text) non-external -[AccountTransformerGoogle changesRequireRecreation:properties:]
+0000000100012c50 (__TEXT,__text) non-external -[AccountTransformerLDAP accountPropertiesFromConfiguration:account:accountStore:completionHandler:]
+00000001000138a0 (__TEXT,__text) non-external -[AccountTransformerLDAP applyProperties:toAccount:accountStore:completionHandler:]
+0000000100016fa0 (__TEXT,__text) non-external -[AccountTransformerMail _authSchemeForAuthenticationMethod:]
+0000000100014c40 (__TEXT,__text) non-external -[AccountTransformerMail accountPropertiesFromConfiguration:account:accountStore:completionHandler:]
+00000001000170c0 (__TEXT,__text) non-external -[AccountTransformerMail applyProperties:toAccount:accountStore:completionHandler:]
+000000010001bee8 (__TEXT,__gcc_except_tab) non-external GCC_except_table12
+000000010001bf28 (__TEXT,__gcc_except_tab) non-external GCC_except_table15
+000000010001be68 (__TEXT,__gcc_except_tab) non-external GCC_except_table2
+000000010001bec4 (__TEXT,__gcc_except_tab) non-external GCC_except_table4
+000000010001bf08 (__TEXT,__gcc_except_tab) non-external GCC_except_table8
+                 (undefined) external _ABAccountDescriptionKey (from AddressBook)
+                 (undefined) external _ABAccountEnabledKey (from AddressBook)
+                 (undefined) external _ABAccountLDAPSearchBaseKey (from AddressBook)
+                 (undefined) external _ABAccountLDAPSearchScopeKey (from AddressBook)
+                 (undefined) external _ABAccountLDAPUseAuthenticationKey (from AddressBook)
+                 (undefined) external _ABAccountServerHostKey (from AddressBook)
+                 (undefined) external _ABAccountServerPortKey (from AddressBook)
+                 (undefined) external _ABAccountServerUseSSLKey (from AddressBook)
+                 (undefined) external _ABAccountUserNameKey (from AddressBook)
+                 (undefined) external _ABBaseLDAPSearchScopeType (from AddressBook)
+                 (undefined) external _ABOneLevelLDAPSearchScopeType (from AddressBook)
+                 (undefined) external _ABSubtreeLDAPSearchScopeType (from AddressBook)
+                 (undefined) external _ACAccountDataclassCalendars (from Accounts)
+                 (undefined) external _ACAccountDataclassContacts (from Accounts)
+                 (undefined) external _ACAccountDataclassMail (from Accounts)
+                 (undefined) external _ACAccountDataclassNotes (from Accounts)
+                 (undefined) external _ACAccountDataclassReminders (from Accounts)
+                 (undefined) external _ACAccountPropertyAuthenticationScheme (from Accounts)
+                 (undefined) external _ACAccountPropertyEWSExternalURL (from Accounts)
+                 (undefined) external _ACAccountPropertyEWSInternalURL (from Accounts)
+                 (undefined) external _ACAccountPropertyFullName (from Accounts)
+                 (undefined) external _ACAccountPropertyHostname (from Accounts)
+                 (undefined) external _ACAccountPropertyIdentityEmailAddress (from Accounts)
+                 (undefined) external _ACAccountPropertyPersonaIdentifier (from Accounts)
+                 (undefined) external _ACAccountPropertyPortNumber (from Accounts)
+                 (undefined) external _ACAccountPropertyRemoteManagingAccountIdentifier (from Accounts)
+                 (undefined) external _ACAccountPropertySSLEnabled (from Accounts)
+                 (undefined) external _ACAccountPropertySendingAccountIdentifier (from Accounts)
+                 (undefined) external _ACAccountPropertyServerPath (from Accounts)
+                 (undefined) external _ACAccountPropertyShouldNeverUseSyncableCredential (from Accounts)
+                 (undefined) external _ACAccountTypeIdentifierCalDAV (from Accounts)
+                 (undefined) external _ACAccountTypeIdentifierCardDAV (from Accounts)
+                 (undefined) external _ACAccountTypeIdentifierExchange (from Accounts)
+                 (undefined) external _ACAccountTypeIdentifierGmail (from Accounts)
+                 (undefined) external _ACAccountTypeIdentifierHotmail (from Accounts)
+                 (undefined) external _ACAccountTypeIdentifierIMAP (from Accounts)
+                 (undefined) external _ACAccountTypeIdentifierLDAP (from Accounts)
+                 (undefined) external _ACAccountTypeIdentifierPOP (from Accounts)
+                 (undefined) external _ACAccountTypeIdentifierSMTP (from Accounts)
+                 (undefined) external _ACAuthenticationSchemeAnyPlainText (from Accounts)
+                 (undefined) external _ACCredentialTypePassword (from Accounts)
+000000010001c758 (__DATA_CONST,__const) non-external _AccountAuthenticationTypeCRAMMD5
+000000010001c760 (__DATA_CONST,__const) non-external _AccountAuthenticationTypeHTTPMD5
+000000010001c768 (__DATA_CONST,__const) non-external _AccountAuthenticationTypeNTLM
+000000010001c398 (__DATA_CONST,__const) external _AccountPropertyAccountActive
+000000010001c3a0 (__DATA_CONST,__const) external _AccountPropertyAccountDescription
+000000010001c3a8 (__DATA_CONST,__const) external _AccountPropertyAuthenticationScheme
+000000010001c3b0 (__DATA_CONST,__const) external _AccountPropertyAuthenticationSchemeSecondary
+000000010001c3b8 (__DATA_CONST,__const) external _AccountPropertyCredential
+000000010001c3c0 (__DATA_CONST,__const) external _AccountPropertyEmailAddress
+000000010001c3c8 (__DATA_CONST,__const) external _AccountPropertyEnableCalendarsUserOverridableKey
+000000010001c3d0 (__DATA_CONST,__const) external _AccountPropertyEnableContactsUserOverridableKey
+000000010001c3d8 (__DATA_CONST,__const) external _AccountPropertyEnableMailUserOverridableKey
+000000010001c3e0 (__DATA_CONST,__const) external _AccountPropertyEnableNotesUserOverridableKey
+000000010001c3e8 (__DATA_CONST,__const) external _AccountPropertyEnableRemindersUserOverridableKey
+000000010001c3f0 (__DATA_CONST,__const) external _AccountPropertyEnabledDataclasses
+000000010001c3f8 (__DATA_CONST,__const) external _AccountPropertyExchangeEASOAuthSupportedKey
+000000010001c410 (__DATA_CONST,__const) external _AccountPropertyExchangeEASOAuthTokenRequestURIKey
+000000010001c400 (__DATA_CONST,__const) external _AccountPropertyExchangeEASOAuthURIKey
+000000010001c408 (__DATA_CONST,__const) external _AccountPropertyExchangeEASOEndPointFQDNKey
+000000010001c418 (__DATA_CONST,__const) external _AccountPropertyExchangeEWSExternalURLKey
+000000010001c420 (__DATA_CONST,__const) external _AccountPropertyExchangeEWSInternalURLKey
+000000010001c428 (__DATA_CONST,__const) external _AccountPropertyExchangeEWSOAuthSupportedKey
+000000010001c438 (__DATA_CONST,__const) external _AccountPropertyExchangeEWSOAuthTokenRequestURI
+000000010001c430 (__DATA_CONST,__const) external _AccountPropertyExchangeEWSWebSignInURI
+000000010001c440 (__DATA_CONST,__const) external _AccountPropertyFullUserName
+000000010001c448 (__DATA_CONST,__const) external _AccountPropertyHostname
+000000010001c450 (__DATA_CONST,__const) external _AccountPropertyHostnameSecondary
+000000010001c458 (__DATA_CONST,__const) external _AccountPropertyIMAPServerPathPrefixKey
+000000010001c460 (__DATA_CONST,__const) external _AccountPropertyLDAPSearchSettings
+000000010001c468 (__DATA_CONST,__const) external _AccountPropertyMailAccountClassKey
+000000010001c470 (__DATA_CONST,__const) external _AccountPropertyManagingOwnerIdentifier
+000000010001c478 (__DATA_CONST,__const) external _AccountPropertyManagingSourceName
+000000010001c480 (__DATA_CONST,__const) external _AccountPropertyPassword
+000000010001c488 (__DATA_CONST,__const) external _AccountPropertyPasswordSecondary
+000000010001c490 (__DATA_CONST,__const) external _AccountPropertyPort
+000000010001c498 (__DATA_CONST,__const) external _AccountPropertyPortSecondary
+000000010001c4a0 (__DATA_CONST,__const) external _AccountPropertyPrincipalURL
+000000010001c4a8 (__DATA_CONST,__const) external _AccountPropertyProvisionedDataclasses
+000000010001c4e8 (__DATA_CONST,__const) external _AccountPropertyRemoteManagementAccountType
+000000010001c4f0 (__DATA_CONST,__const) external _AccountPropertyRemoteManagementConfigurationIdentifier
+000000010001c4f8 (__DATA_CONST,__const) external _AccountPropertyRemoteManagementConfigurationType
+000000010001c520 (__DATA_CONST,__const) external _AccountPropertyRemoteManagementPrefix
+000000010001c500 (__DATA_CONST,__const) external _AccountPropertyRemoteManagementPrimaryAccountIdentifier
+000000010001c508 (__DATA_CONST,__const) external _AccountPropertyRemoteManagementSecondaryAccountIdentifier
+000000010001c510 (__DATA_CONST,__const) external _AccountPropertyRemoteManagementServerTokens
+000000010001c518 (__DATA_CONST,__const) external _AccountPropertyRemoteManagementSourceIdentifier
+000000010001c4b0 (__DATA_CONST,__const) external _AccountPropertyShouldNeverUseSyncableCredentials
+000000010001c4b8 (__DATA_CONST,__const) external _AccountPropertyShouldNeverUseSyncableCredentialsSecondary
+000000010001c4c0 (__DATA_CONST,__const) external _AccountPropertySubscribedCalendarURL
+000000010001c4d8 (__DATA_CONST,__const) external _AccountPropertyUseSSL
+000000010001c4e0 (__DATA_CONST,__const) external _AccountPropertyUseSSLSecondary
+000000010001c4c8 (__DATA_CONST,__const) external _AccountPropertyUsername
+000000010001c4d0 (__DATA_CONST,__const) external _AccountPropertyUsernameSecondary
+000000010001c528 (__DATA_CONST,__const) external _AccountStatusKeyAuthenticated
+000000010001c530 (__DATA_CONST,__const) external _AccountStatusKeyDescription
+000000010001c538 (__DATA_CONST,__const) external _AccountStatusKeyIdentifier
+0000000100021808 (__DATA,__data) non-external _AccountTransformerExchangeErrorDomain
+0000000100021810 (__DATA,__data) non-external _AccountTransformerMailErrorDomain
+000000010001c648 (__DATA_CONST,__const) non-external _AssetsCredentialsKey
+000000010001c6b0 (__DATA_CONST,__const) non-external _AssetsCredentialsKey
+000000010001c6b8 (__DATA_CONST,__const) non-external _AssetsCredentialsKey
+000000010001c750 (__DATA_CONST,__const) non-external _AssetsCredentialsKey
+000000010001c788 (__DATA_CONST,__const) non-external _AssetsIncomingKey
+000000010001c790 (__DATA_CONST,__const) non-external _AssetsOutgoingKey
+000000010001c1d8 (__DATA_CONST,__const) external _ManagedAccountsResultTypeManaged
+000000010001c1e0 (__DATA_CONST,__const) external _ManagedAccountsResultTypeOrphaned
+                 (undefined) external _NSDebugDescriptionErrorKey (from Foundation)
+                 (undefined) external _NSExtensionMain (from Foundation)
+                 (undefined) external _OBJC_CLASS_$_ACAccount (from Accounts)
+                 (undefined) external _OBJC_CLASS_$_ACAccountCredential (from Accounts)
+                 (undefined) external _OBJC_CLASS_$_ACAccountStore (from Accounts)
+0000000100021470 (__DATA,__objc_data) external _OBJC_CLASS_$_AccountAdapter
+00000001000214c0 (__DATA,__objc_data) external _OBJC_CLASS_$_AccountApplicator
+0000000100021538 (__DATA,__objc_data) external _OBJC_CLASS_$_AccountTransformer
+0000000100021560 (__DATA,__objc_data) external _OBJC_CLASS_$_AccountTransformerCalDAV
+00000001000215b0 (__DATA,__objc_data) external _OBJC_CLASS_$_AccountTransformerCardDAV
+0000000100021600 (__DATA,__objc_data) external _OBJC_CLASS_$_AccountTransformerExchange
+0000000100021650 (__DATA,__objc_data) external _OBJC_CLASS_$_AccountTransformerGoogle
+00000001000216a0 (__DATA,__objc_data) external _OBJC_CLASS_$_AccountTransformerLDAP
+00000001000216f0 (__DATA,__objc_data) external _OBJC_CLASS_$_AccountTransformerMail
+                 (undefined) external _OBJC_CLASS_$_NSArray (from CoreFoundation)
+                 (undefined) external _OBJC_CLASS_$_NSDictionary (from CoreFoundation)
+                 (undefined) external _OBJC_CLASS_$_NSError (from Foundation)
+                 (undefined) external _OBJC_CLASS_$_NSMutableArray (from CoreFoundation)
+                 (undefined) external _OBJC_CLASS_$_NSMutableDictionary (from CoreFoundation)
+                 (undefined) external _OBJC_CLASS_$_NSMutableSet (from CoreFoundation)
+                 (undefined) external _OBJC_CLASS_$_NSNumber (from Foundation)
+                 (undefined) external _OBJC_CLASS_$_NSObject (from libobjc)
+                 (undefined) external _OBJC_CLASS_$_NSSet (from CoreFoundation)
+                 (undefined) external _OBJC_CLASS_$_NSSortDescriptor (from Foundation)
+                 (undefined) external _OBJC_CLASS_$_NSString (from Foundation)
+                 (undefined) external _OBJC_CLASS_$_NSURL (from CoreFoundation)
+                 (undefined) external _OBJC_CLASS_$_NSURLComponents (from Foundation)
+                 (undefined) external _OBJC_CLASS_$_RMErrorUtilities (from RemoteManagement)
+                 (undefined) external _OBJC_CLASS_$_RMModelAccountCalDAVDeclaration (from RemoteManagementModel)
+                 (undefined) external _OBJC_CLASS_$_RMModelAccountCardDAVDeclaration (from RemoteManagementModel)
+                 (undefined) external _OBJC_CLASS_$_RMModelAccountExchangeDeclaration (from RemoteManagementModel)
+                 (undefined) external _OBJC_CLASS_$_RMModelAccountGoogleDeclaration (from RemoteManagementModel)
+                 (undefined) external _OBJC_CLASS_$_RMModelAccountLDAPDeclaration (from RemoteManagementModel)
+                 (undefined) external _OBJC_CLASS_$_RMModelAccountMailDeclaration (from RemoteManagementModel)
+                 (undefined) external _OBJC_CLASS_$_RMModelCredentialUserNameAndPasswordDeclaration (from RemoteManagementModel)
+                 (undefined) external _OBJC_CLASS_$_RMModelUserIdentityDeclaration (from RemoteManagementModel)
+                 (undefined) external _OBJC_CLASS_$_RMModelUserNameAndPasswordCredentialsDeclaration (from RemoteManagementModel)
+                 (undefined) external _OBJC_CLASS_$_RMPersonaHelper (from RemoteManagement)
+                 (undefined) external _OBJC_CLASS_$_RMStoreUnresolvedAsset (from RemoteManagementStore)
+                 (undefined) external _OBJC_CLASS_$_RMSynchronous (from RemoteManagement)
+0000000100021458 (__DATA,__objc_ivar) non-external (was a private external) _OBJC_IVAR_$_AccountAdapter._accountStore
+0000000100021460 (__DATA,__objc_ivar) non-external (was a private external) _OBJC_IVAR_$_AccountApplicator._adapter
+0000000100021468 (__DATA,__objc_ivar) non-external (was a private external) _OBJC_IVAR_$_AccountApplicator._completionQueue
+0000000100021498 (__DATA,__objc_data) external _OBJC_METACLASS_$_AccountAdapter
+00000001000214e8 (__DATA,__objc_data) external _OBJC_METACLASS_$_AccountApplicator
+0000000100021510 (__DATA,__objc_data) external _OBJC_METACLASS_$_AccountTransformer
+0000000100021588 (__DATA,__objc_data) external _OBJC_METACLASS_$_AccountTransformerCalDAV
+00000001000215d8 (__DATA,__objc_data) external _OBJC_METACLASS_$_AccountTransformerCardDAV
+0000000100021628 (__DATA,__objc_data) external _OBJC_METACLASS_$_AccountTransformerExchange
+0000000100021678 (__DATA,__objc_data) external _OBJC_METACLASS_$_AccountTransformerGoogle
+00000001000216c8 (__DATA,__objc_data) external _OBJC_METACLASS_$_AccountTransformerLDAP
+0000000100021718 (__DATA,__objc_data) external _OBJC_METACLASS_$_AccountTransformerMail
+                 (undefined) external _OBJC_METACLASS_$_NSObject (from libobjc)
+000000010001c770 (__DATA_CONST,__const) non-external _PayloadAuthenticationTypeCRAMMD5
+000000010001c778 (__DATA_CONST,__const) non-external _PayloadAuthenticationTypeHTTPMD5
+000000010001c780 (__DATA_CONST,__const) non-external _PayloadAuthenticationTypeNTLM
+00000001000195f0 (__TEXT,__const) non-external (was a private external) _RMAccountExtensionVersionNumber
+00000001000195b0 (__TEXT,__const) non-external (was a private external) _RMAccountExtensionVersionString
+                 (undefined) external _RMModelAccountLDAPDeclaration_SearchSettingsItem_Scope_base (from RemoteManagementModel)
+                 (undefined) external _RMModelAccountLDAPDeclaration_SearchSettingsItem_Scope_oneLevel (from RemoteManagementModel)
+                 (undefined) external _RMModelAccountMailDeclaration_IncomingServer_AuthenticationMethod_none (from RemoteManagementModel)
+                 (undefined) external _RMModelAccountMailDeclaration_IncomingServer_ServerType_IMAP (from RemoteManagementModel)
+000000010001c540 (__DATA_CONST,__const) non-external _RemoteManagementManagingOwnerIdentifier
+                 (undefined) external __Block_object_assign (from libSystem)
+                 (undefined) external __Block_object_dispose (from libSystem)
+                 (undefined) external __NSConcreteGlobalBlock (from libSystem)
+                 (undefined) external __NSConcreteStackBlock (from libSystem)
+0000000100020820 (__DATA,__objc_const) non-external __OBJC_$_CLASS_METHODS_AccountTransformer
+0000000100020120 (__DATA,__objc_const) non-external __OBJC_$_INSTANCE_METHODS_AccountAdapter
+0000000100020660 (__DATA,__objc_const) non-external __OBJC_$_INSTANCE_METHODS_AccountApplicator
+0000000100020888 (__DATA,__objc_const) non-external __OBJC_$_INSTANCE_METHODS_AccountTransformer
+00000001000209e0 (__DATA,__objc_const) non-external __OBJC_$_INSTANCE_METHODS_AccountTransformerCalDAV
+0000000100020a90 (__DATA,__objc_const) non-external __OBJC_$_INSTANCE_METHODS_AccountTransformerCardDAV
+0000000100020b40 (__DATA,__objc_const) non-external __OBJC_$_INSTANCE_METHODS_AccountTransformerExchange
+0000000100020c08 (__DATA,__objc_const) non-external __OBJC_$_INSTANCE_METHODS_AccountTransformerGoogle
+0000000100020cd0 (__DATA,__objc_const) non-external __OBJC_$_INSTANCE_METHODS_AccountTransformerLDAP
+0000000100020d98 (__DATA,__objc_const) non-external __OBJC_$_INSTANCE_METHODS_AccountTransformerMail
+0000000100020260 (__DATA,__objc_const) non-external __OBJC_$_INSTANCE_VARIABLES_AccountAdapter
+0000000100020728 (__DATA,__objc_const) non-external __OBJC_$_INSTANCE_VARIABLES_AccountApplicator
+0000000100020288 (__DATA,__objc_const) non-external __OBJC_$_PROP_LIST_AccountAdapter
+0000000100020770 (__DATA,__objc_const) non-external __OBJC_$_PROP_LIST_AccountApplicator
+00000001000204d8 (__DATA,__objc_const) non-external __OBJC_$_PROP_LIST_NSObject
+00000001000202e8 (__DATA,__objc_const) non-external __OBJC_$_PROTOCOL_INSTANCE_METHODS_NSObject
+00000001000204b8 (__DATA,__objc_const) non-external __OBJC_$_PROTOCOL_INSTANCE_METHODS_OPT_NSObject
+00000001000205d8 (__DATA,__objc_const) non-external __OBJC_$_PROTOCOL_INSTANCE_METHODS_OPT_RMConfigurationApplicator
+0000000100020520 (__DATA,__objc_const) non-external __OBJC_$_PROTOCOL_METHOD_TYPES_NSObject
+00000001000205f8 (__DATA,__objc_const) non-external __OBJC_$_PROTOCOL_METHOD_TYPES_RMConfigurationApplicator
+00000001000205c0 (__DATA,__objc_const) non-external __OBJC_$_PROTOCOL_REFS_RMConfigurationApplicator
+0000000100020600 (__DATA,__objc_const) non-external __OBJC_CLASS_PROTOCOLS_$_AccountApplicator
+00000001000202a0 (__DATA,__objc_const) non-external __OBJC_CLASS_RO_$_AccountAdapter
+00000001000207d8 (__DATA,__objc_const) non-external __OBJC_CLASS_RO_$_AccountApplicator
+0000000100020950 (__DATA,__objc_const) non-external __OBJC_CLASS_RO_$_AccountTransformer
+0000000100020a00 (__DATA,__objc_const) non-external __OBJC_CLASS_RO_$_AccountTransformerCalDAV
+0000000100020ab0 (__DATA,__objc_const) non-external __OBJC_CLASS_RO_$_AccountTransformerCardDAV
+0000000100020b78 (__DATA,__objc_const) non-external __OBJC_CLASS_RO_$_AccountTransformerExchange
+0000000100020c40 (__DATA,__objc_const) non-external __OBJC_CLASS_RO_$_AccountTransformerGoogle
+0000000100020d08 (__DATA,__objc_const) non-external __OBJC_CLASS_RO_$_AccountTransformerLDAP
+0000000100020de8 (__DATA,__objc_const) non-external __OBJC_CLASS_RO_$_AccountTransformerMail
+000000010001d380 (__DATA_CONST,__objc_protolist) non-external (was a private external) __OBJC_LABEL_PROTOCOL_$_NSObject
+000000010001d388 (__DATA_CONST,__objc_protolist) non-external (was a private external) __OBJC_LABEL_PROTOCOL_$_RMConfigurationApplicator
+00000001000200d8 (__DATA,__objc_const) non-external __OBJC_METACLASS_RO_$_AccountAdapter
+0000000100020618 (__DATA,__objc_const) non-external __OBJC_METACLASS_RO_$_AccountApplicator
+0000000100020840 (__DATA,__objc_const) non-external __OBJC_METACLASS_RO_$_AccountTransformer
+0000000100020998 (__DATA,__objc_const) non-external __OBJC_METACLASS_RO_$_AccountTransformerCalDAV
+0000000100020a48 (__DATA,__objc_const) non-external __OBJC_METACLASS_RO_$_AccountTransformerCardDAV
+0000000100020af8 (__DATA,__objc_const) non-external __OBJC_METACLASS_RO_$_AccountTransformerExchange
+0000000100020bc0 (__DATA,__objc_const) non-external __OBJC_METACLASS_RO_$_AccountTransformerGoogle
+0000000100020c88 (__DATA,__objc_const) non-external __OBJC_METACLASS_RO_$_AccountTransformerLDAP
+0000000100020d50 (__DATA,__objc_const) non-external __OBJC_METACLASS_RO_$_AccountTransformerMail
+0000000100021748 (__DATA,__data) non-external (was a private external) __OBJC_PROTOCOL_$_NSObject
+00000001000217a8 (__DATA,__data) non-external (was a private external) __OBJC_PROTOCOL_$_RMConfigurationApplicator
+                 (undefined) external __Unwind_Resume (from libSystem)
+0000000100012eb0 (__TEXT,__text) non-external ___100-[AccountTransformerLDAP accountPropertiesFromConfiguration:account:accountStore:completionHandler:]_block_invoke
+0000000100013330 (__TEXT,__text) non-external ___100-[AccountTransformerLDAP accountPropertiesFromConfiguration:account:accountStore:completionHandler:]_block_invoke.8
+0000000100014ea0 (__TEXT,__text) non-external ___100-[AccountTransformerMail accountPropertiesFromConfiguration:account:accountStore:completionHandler:]_block_invoke
+0000000100015360 (__TEXT,__text) non-external ___100-[AccountTransformerMail accountPropertiesFromConfiguration:account:accountStore:completionHandler:]_block_invoke.24
+00000001000156c0 (__TEXT,__text) non-external ___100-[AccountTransformerMail accountPropertiesFromConfiguration:account:accountStore:completionHandler:]_block_invoke_2
+0000000100015ab0 (__TEXT,__text) non-external ___100-[AccountTransformerMail accountPropertiesFromConfiguration:account:accountStore:completionHandler:]_block_invoke_3
+000000010000d440 (__TEXT,__text) non-external ___102-[AccountTransformerCalDAV accountPropertiesFromConfiguration:account:accountStore:completionHandler:]_block_invoke
+000000010000d8c0 (__TEXT,__text) non-external ___102-[AccountTransformerCalDAV accountPropertiesFromConfiguration:account:accountStore:completionHandler:]_block_invoke.8
+0000000100012280 (__TEXT,__text) non-external ___102-[AccountTransformerGoogle accountPropertiesFromConfiguration:account:accountStore:completionHandler:]_block_invoke
+0000000100012700 (__TEXT,__text) non-external ___102-[AccountTransformerGoogle accountPropertiesFromConfiguration:account:accountStore:completionHandler:]_block_invoke.8
+000000010000e480 (__TEXT,__text) non-external ___103-[AccountTransformerCardDAV accountPropertiesFromConfiguration:account:accountStore:completionHandler:]_block_invoke
+000000010000e900 (__TEXT,__text) non-external ___103-[AccountTransformerCardDAV accountPropertiesFromConfiguration:account:accountStore:completionHandler:]_block_invoke.8
+000000010000f220 (__TEXT,__text) non-external ___104-[AccountTransformerExchange accountPropertiesFromConfiguration:account:accountStore:completionHandler:]_block_invoke
+000000010000f860 (__TEXT,__text) non-external ___104-[AccountTransformerExchange accountPropertiesFromConfiguration:account:accountStore:completionHandler:]_block_invoke.16
+000000010000fb60 (__TEXT,__text) non-external ___104-[AccountTransformerExchange accountPropertiesFromConfiguration:account:accountStore:completionHandler:]_block_invoke_2
+0000000100008f40 (__TEXT,__text) non-external ___105-[AccountApplicator _createAccountIfNeededAndApplyProperties:configuration:properties:completionHandler:]_block_invoke
+0000000100004f90 (__TEXT,__text) non-external ___44-[AccountAdapter getRemotelyManagedAccounts]_block_invoke
+000000010000a020 (__TEXT,__text) non-external ___47-[AccountTransformer saveAccount:accountStore:]_block_invoke
+0000000100006280 (__TEXT,__text) non-external ___50-[AccountAdapter removeAccount:completionHandler:]_block_invoke
+00000001000057a0 (__TEXT,__text) non-external ___53-[AccountAdapter getRemotelyManagedAccountsForStore:]_block_invoke
+00000001000094a0 (__TEXT,__text) non-external ___59+[AccountTransformer transformerClassForConfigurationType:]_block_invoke
+0000000100007ce0 (__TEXT,__text) non-external ___59-[AccountApplicator applyConfigurations:completionHandler:]_block_invoke
+0000000100008240 (__TEXT,__text) non-external ___59-[AccountApplicator applyConfigurations:completionHandler:]_block_invoke.37
+00000001000085d0 (__TEXT,__text) non-external ___59-[AccountApplicator applyConfigurations:completionHandler:]_block_invoke.38
+00000001000087c0 (__TEXT,__text) non-external ___59-[AccountApplicator applyConfigurations:completionHandler:]_block_invoke.45
+0000000100008900 (__TEXT,__text) non-external ___59-[AccountApplicator applyConfigurations:completionHandler:]_block_invoke.55
+0000000100008b30 (__TEXT,__text) non-external ___59-[AccountApplicator applyConfigurations:completionHandler:]_block_invoke.58
+000000010000a740 (__TEXT,__text) non-external ___79-[AccountTransformer applyProperties:toAccount:accountStore:completionHandler:]_block_invoke
+000000010000b680 (__TEXT,__text) non-external ___79-[AccountTransformer applyProperties:toAccount:accountStore:completionHandler:]_block_invoke.207
+0000000100013d30 (__TEXT,__text) non-external ___83-[AccountTransformerLDAP applyProperties:toAccount:accountStore:completionHandler:]_block_invoke
+0000000100014b30 (__TEXT,__text) non-external ___83-[AccountTransformerLDAP applyProperties:toAccount:accountStore:completionHandler:]_block_invoke.77
+0000000100017bd0 (__TEXT,__text) non-external ___83-[AccountTransformerMail applyProperties:toAccount:accountStore:completionHandler:]_block_invoke
+0000000100018760 (__TEXT,__text) non-external ___83-[AccountTransformerMail applyProperties:toAccount:accountStore:completionHandler:]_block_invoke.124
+0000000100018bc0 (__TEXT,__text) non-external ___83-[AccountTransformerMail applyProperties:toAccount:accountStore:completionHandler:]_block_invoke.129
+0000000100019030 (__TEXT,__text) non-external ___83-[AccountTransformerMail applyProperties:toAccount:accountStore:completionHandler:]_block_invoke.132
+0000000100018d40 (__TEXT,__text) non-external ___83-[AccountTransformerMail applyProperties:toAccount:accountStore:completionHandler:]_block_invoke_2
+000000010000c810 (__TEXT,__text) non-external ___88-[AccountTransformer resolveUserNameAndPasswordAsset:assetIdentifier:completionHandler:]_block_invoke
+0000000100007c60 (__TEXT,__text) non-external ___Block_byref_object_copy_
+0000000100009fa0 (__TEXT,__text) non-external ___Block_byref_object_copy_
+0000000100014ab0 (__TEXT,__text) non-external ___Block_byref_object_copy_
+0000000100018b40 (__TEXT,__text) non-external ___Block_byref_object_copy_
+0000000100007cb0 (__TEXT,__text) non-external ___Block_byref_object_dispose_
+0000000100009ff0 (__TEXT,__text) non-external ___Block_byref_object_dispose_
+0000000100014b00 (__TEXT,__text) non-external ___Block_byref_object_dispose_
+0000000100018b90 (__TEXT,__text) non-external ___Block_byref_object_dispose_
+                 (undefined) external ___CFConstantStringClassReference (from CoreFoundation)
+000000010001c798 (__DATA_CONST,__const) non-external (was a private external) ___block_descriptor_104_e8_32bs40s48s56s64s72s80s88s96s_e70_v24?0"RMModelUserNameAndPasswordCredentialsDeclaration"8"NSError"16l
+000000010001c548 (__DATA_CONST,__const) non-external (was a private external) ___block_descriptor_32_e5_v8?0l
+000000010001c248 (__DATA_CONST,__const) non-external (was a private external) ___block_descriptor_40_e8_32bs_e20_v20?0c8"NSError"12l
+000000010001c338 (__DATA_CONST,__const) non-external (was a private external) ___block_descriptor_40_e8_32bs_e5_v8?0l
+000000010001c828 (__DATA_CONST,__const) non-external (was a private external) ___block_descriptor_40_e8_32s_e25_v32?0"NSString"816^c24l
+000000010001c278 (__DATA_CONST,__const) non-external (was a private external) ___block_descriptor_40_e8_32s_e5_v8?0l
+000000010001c5b8 (__DATA_CONST,__const) non-external (was a private external) ___block_descriptor_48_e8_32s40s_e25_v32?0"NSString"816^c24l
+000000010001c218 (__DATA_CONST,__const) non-external (was a private external) ___block_descriptor_48_e8_32s40s_e26_v32?0"ACAccount"8Q16^c24l
+000000010001c368 (__DATA_CONST,__const) non-external (was a private external) ___block_descriptor_56_e8_32s40s48bs_e17_v16?0"NSError"8l
+000000010001c618 (__DATA_CONST,__const) non-external (was a private external) ___block_descriptor_56_e8_32s40s48bs_e42_v24?0"RMStoreResolvedAsset"8"NSError"16l
+000000010001c588 (__DATA_CONST,__const) non-external (was a private external) ___block_descriptor_56_e8_32s40s48r_e20_v20?0c8"NSError"12l
+000000010001c308 (__DATA_CONST,__const) non-external (was a private external) ___block_descriptor_56_e8_32s40s48s_e17_v16?0"NSError"8l
+000000010001c1e8 (__DATA_CONST,__const) non-external (was a private external) ___block_descriptor_56_e8_32s40s48s_e26_v32?0"ACAccount"8Q16^c24l
+000000010001c2d8 (__DATA_CONST,__const) non-external (was a private external) ___block_descriptor_64_e8_32s40s48s56r_e37_v28?0"NSDictionary"8c16"NSError"20l
+000000010001c680 (__DATA_CONST,__const) non-external (was a private external) ___block_descriptor_72_e8_32s40bs48s56s64s_e37_v28?0"NSDictionary"8c16"NSError"20l
+000000010001c5e8 (__DATA_CONST,__const) non-external (was a private external) ___block_descriptor_72_e8_32s40s48s56s64r_e5_v8?0l
+000000010001c720 (__DATA_CONST,__const) non-external (was a private external) ___block_descriptor_80_e8_32bs40s48s56s64s72s_e52_v24?0"RMModelUserIdentityDeclaration"8"NSError"16l
+000000010001c650 (__DATA_CONST,__const) non-external (was a private external) ___block_descriptor_80_e8_32bs40s48s56s64s72s_e70_v24?0"RMModelUserNameAndPasswordCredentialsDeclaration"8"NSError"16l
+000000010001c2a8 (__DATA_CONST,__const) non-external (was a private external) ___block_descriptor_80_e8_32s40s48s56s64s72r_e17_v16?0"NSError"8l
+000000010001c858 (__DATA_CONST,__const) non-external (was a private external) ___block_descriptor_80_e8_32s40s48s56s64s72r_e20_v20?0c8"NSError"12l
+000000010001c7f8 (__DATA_CONST,__const) non-external (was a private external) ___block_descriptor_88_e8_32bs40s48s56s64s72s80s_e52_v24?0"RMModelUserIdentityDeclaration"8"NSError"16l
+000000010001c888 (__DATA_CONST,__const) non-external (was a private external) ___block_descriptor_88_e8_32s40s48s56s64s72s80r_e5_v8?0l
+000000010001c6f0 (__DATA_CONST,__const) non-external (was a private external) ___block_descriptor_89_e8_32bs40s48s56s64s72s80s_e52_v24?0"RMModelUserIdentityDeclaration"8"NSError"16l
+000000010001c6c0 (__DATA_CONST,__const) non-external (was a private external) ___block_descriptor_89_e8_32bs40s48s56s64s72s80s_e70_v24?0"RMModelUserNameAndPasswordCredentialsDeclaration"8"NSError"16l
+000000010001c7c8 (__DATA_CONST,__const) non-external (was a private external) ___block_descriptor_96_e8_32bs40s48s56s64s72s80s88s_e70_v24?0"RMModelUserNameAndPasswordCredentialsDeclaration"8"NSError"16l
+000000010001c568 (__DATA_CONST,__const) non-external ___block_literal_global
+0000000100006320 (__TEXT,__text) non-external (was a private external) ___copy_helper_block_e8_32b
+000000010000df40 (__TEXT,__text) non-external (was a private external) ___copy_helper_block_e8_32b40s48s56s64s72s
+0000000100011790 (__TEXT,__text) non-external (was a private external) ___copy_helper_block_e8_32b40s48s56s64s72s80s
+0000000100016da0 (__TEXT,__text) non-external (was a private external) ___copy_helper_block_e8_32b40s48s56s64s72s80s88s
+0000000100016b60 (__TEXT,__text) non-external (was a private external) ___copy_helper_block_e8_32b40s48s56s64s72s80s88s96s
+0000000100008600 (__TEXT,__text) non-external (was a private external) ___copy_helper_block_e8_32s
+000000010000e0d0 (__TEXT,__text) non-external (was a private external) ___copy_helper_block_e8_32s40b48s56s64s
+0000000100005a70 (__TEXT,__text) non-external (was a private external) ___copy_helper_block_e8_32s40s
+00000001000092a0 (__TEXT,__text) non-external (was a private external) ___copy_helper_block_e8_32s40s48b
+000000010000a230 (__TEXT,__text) non-external (was a private external) ___copy_helper_block_e8_32s40s48r
+0000000100005510 (__TEXT,__text) non-external (was a private external) ___copy_helper_block_e8_32s40s48s
+00000001000087f0 (__TEXT,__text) non-external (was a private external) ___copy_helper_block_e8_32s40s48s56r
+000000010000b790 (__TEXT,__text) non-external (was a private external) ___copy_helper_block_e8_32s40s48s56s64r
+0000000100008640 (__TEXT,__text) non-external (was a private external) ___copy_helper_block_e8_32s40s48s56s64s72r
+0000000100019220 (__TEXT,__text) non-external (was a private external) ___copy_helper_block_e8_32s40s48s56s64s72s80r
+0000000100006350 (__TEXT,__text) non-external (was a private external) ___destroy_helper_block_e8_32s
+0000000100005ae0 (__TEXT,__text) non-external (was a private external) ___destroy_helper_block_e8_32s40s
+000000010000a2b0 (__TEXT,__text) non-external (was a private external) ___destroy_helper_block_e8_32s40s48r
+00000001000055a0 (__TEXT,__text) non-external (was a private external) ___destroy_helper_block_e8_32s40s48s
+0000000100008890 (__TEXT,__text) non-external (was a private external) ___destroy_helper_block_e8_32s40s48s56r
+000000010000b850 (__TEXT,__text) non-external (was a private external) ___destroy_helper_block_e8_32s40s48s56s64r
+000000010000e190 (__TEXT,__text) non-external (was a private external) ___destroy_helper_block_e8_32s40s48s56s64s
+0000000100008720 (__TEXT,__text) non-external (was a private external) ___destroy_helper_block_e8_32s40s48s56s64s72r
+000000010000e030 (__TEXT,__text) non-external (was a private external) ___destroy_helper_block_e8_32s40s48s56s64s72s
+0000000100019330 (__TEXT,__text) non-external (was a private external) ___destroy_helper_block_e8_32s40s48s56s64s72s80r
+00000001000118a0 (__TEXT,__text) non-external (was a private external) ___destroy_helper_block_e8_32s40s48s56s64s72s80s
+0000000100016ed0 (__TEXT,__text) non-external (was a private external) ___destroy_helper_block_e8_32s40s48s56s64s72s80s88s
+0000000100016cb0 (__TEXT,__text) non-external (was a private external) ___destroy_helper_block_e8_32s40s48s56s64s72s80s88s96s
+                 (undefined) external ___kCFBooleanFalse (from CoreFoundation)
+                 (undefined) external ___kCFBooleanTrue (from CoreFoundation)
+                 (undefined) external ___objc_personality_v0 (from libobjc)
+0000000100007c40 (__TEXT,__text) non-external (was a private external) ___os_log_helper_16_0_0
+000000010000c7e0 (__TEXT,__text) non-external (was a private external) ___os_log_helper_16_2_1_8_64
+0000000100006100 (__TEXT,__text) non-external (was a private external) ___os_log_helper_16_2_1_8_66
+00000001000054d0 (__TEXT,__text) non-external (was a private external) ___os_log_helper_16_2_2_8_66_8_66
+0000000100008ad0 (__TEXT,__text) non-external (was a private external) ___os_log_helper_16_2_3_8_66_8_66_8_66
+                 (undefined) external ___stack_chk_fail (from libSystem)
+                 (undefined) external ___stack_chk_guard (from libSystem)
+0000000100021740 (__DATA,__data) non-external __dyld_private
+0000000100000000 (__TEXT,__text) [referenced dynamically] external __mh_execute_header
+                 (undefined) external __objc_empty_cache (from libobjc)
+                 (undefined) external __os_log_debug_impl (from libSystem)
+                 (undefined) external __os_log_default (from libSystem)
+                 (undefined) external __os_log_error_impl (from libSystem)
+                 (undefined) external __os_log_impl (from libSystem)
+                 (undefined) external _dispatch_group_create (from libSystem)
+                 (undefined) external _dispatch_group_enter (from libSystem)
+                 (undefined) external _dispatch_group_leave (from libSystem)
+                 (undefined) external _dispatch_group_notify (from libSystem)
+                 (undefined) external _dispatch_once (from libSystem)
+                 (undefined) external _dispatch_queue_attr_make_with_autorelease_frequency (from libSystem)
+                 (undefined) external _dispatch_queue_create (from libSystem)
+                 (undefined) external _kExchangeOAuthSupportedKey (from ExchangeWebServices)
+                 (undefined) external _kExchangeTokenRequestURI (from ExchangeWebServices)
+                 (undefined) external _kExchangeWebSignInURI (from ExchangeWebServices)
+                 (undefined) external _memset (from libSystem)
+                 (undefined) external _objc_alloc (from libobjc)
+                 (undefined) external _objc_autoreleaseReturnValue (from libobjc)
+                 (undefined) external _objc_enumerationMutation (from libobjc)
+                 (undefined) external _objc_msgSend (from libobjc)
+                 (undefined) external _objc_msgSendSuper2 (from libobjc)
+                 (undefined) external _objc_opt_class (from libobjc)
+                 (undefined) external _objc_opt_isKindOfClass (from libobjc)
+                 (undefined) external _objc_opt_new (from libobjc)
+                 (undefined) external _objc_release (from libobjc)
+                 (undefined) external _objc_retain (from libobjc)
+                 (undefined) external _objc_retainAutoreleasedReturnValue (from libobjc)
+                 (undefined) external _objc_storeStrong (from libobjc)
+                 (undefined) external _objc_unsafeClaimAutoreleasedReturnValue (from libobjc)
+                 (undefined) external _os_log_type_enabled (from libSystem)
+0000000100021818 (__DATA,__bss) non-external _transformerClassForConfigurationType:.mapping
+0000000100021820 (__DATA,__bss) non-external _transformerClassForConfigurationType:.onceToken
+                 (undefined) external dyld_stub_binder (from libSystem)
+
+/Volumes/Macintosh HD 1/System/Library/PrivateFrameworks/RemoteManagement.framework/PlugIns/AccountExtension.appex/Contents/MacOS/AccountExtension (for architecture arm64e):
+0000000100006d00 (__TEXT,__text) non-external +[AccountTransformer transformerClassForConfigurationType:]
+0000000100004980 (__TEXT,__text) non-external -[AccountAdapter .cxx_destruct]
+0000000100004370 (__TEXT,__text) non-external -[AccountAdapter _dataclassActionsForRemovalOfAccount:]
+0000000100003b1c (__TEXT,__text) non-external -[AccountAdapter accountKeyFromConfiguration:]
+00000001000029ec (__TEXT,__text) non-external -[AccountAdapter accountPropertiesFromConfiguration:account:completionHandler:]
+000000010000492c (__TEXT,__text) non-external -[AccountAdapter accountStore]
+0000000100003ddc (__TEXT,__text) non-external -[AccountAdapter applyProperties:toAccount:configuration:completionHandler:]
+0000000100003c50 (__TEXT,__text) non-external -[AccountAdapter combinedServerTokensFromConfiguration:]
+0000000100003cfc (__TEXT,__text) non-external -[AccountAdapter createAccountWithTypeIdentifier:]
+0000000100003680 (__TEXT,__text) non-external -[AccountAdapter getRemotelyManagedAccountsForStore:]
+0000000100002bfc (__TEXT,__text) non-external -[AccountAdapter getRemotelyManagedAccounts]
+000000010000291c (__TEXT,__text) non-external -[AccountAdapter init]
+00000001000040f4 (__TEXT,__text) non-external -[AccountAdapter removeAccount:completionHandler:]
+0000000100004948 (__TEXT,__text) non-external -[AccountAdapter setAccountStore:]
+0000000100006cb4 (__TEXT,__text) non-external -[AccountApplicator .cxx_destruct]
+000000010000657c (__TEXT,__text) non-external -[AccountApplicator _createAccountIfNeededAndApplyProperties:configuration:properties:completionHandler:]
+0000000100006c44 (__TEXT,__text) non-external -[AccountApplicator adapter]
+0000000100004b58 (__TEXT,__text) non-external -[AccountApplicator applyConfigurations:completionHandler:]
+0000000100006c60 (__TEXT,__text) non-external -[AccountApplicator completionQueue]
+0000000100004a44 (__TEXT,__text) non-external -[AccountApplicator initWithAdapter:]
+00000001000049b4 (__TEXT,__text) non-external -[AccountApplicator init]
+0000000100006c7c (__TEXT,__text) non-external -[AccountApplicator setCompletionQueue:]
+000000010000740c (__TEXT,__text) non-external -[AccountTransformer _personaIDForConfiguration:accountStore:]
+0000000100006ff0 (__TEXT,__text) non-external -[AccountTransformer accountPropertiesFromConfiguration:account:accountStore:completionHandler:]
+0000000100007b44 (__TEXT,__text) non-external -[AccountTransformer applyProperties:toAccount:accountStore:completionHandler:]
+0000000100008e28 (__TEXT,__text) non-external -[AccountTransformer changesRequireRecreation:properties:]
+000000010000927c (__TEXT,__text) non-external -[AccountTransformer combinedServerTokensFromConfiguration:]
+0000000100009f78 (__TEXT,__text) non-external -[AccountTransformer extractUserIdentityAsset:assetIdentifier:completionHandler:]
+000000010000961c (__TEXT,__text) non-external -[AccountTransformer resolveUserNameAndPasswordAsset:assetIdentifier:completionHandler:]
+00000001000075d8 (__TEXT,__text) non-external -[AccountTransformer saveAccount:accountStore:]
+000000010000a42c (__TEXT,__text) non-external -[AccountTransformerCalDAV accountPropertiesFromConfiguration:account:accountStore:completionHandler:]
+000000010000b328 (__TEXT,__text) non-external -[AccountTransformerCardDAV accountPropertiesFromConfiguration:account:accountStore:completionHandler:]
+000000010000bfdc (__TEXT,__text) non-external -[AccountTransformerExchange accountPropertiesFromConfiguration:account:accountStore:completionHandler:]
+000000010000e418 (__TEXT,__text) non-external -[AccountTransformerExchange changesRequireRecreation:properties:]
+000000010000ea48 (__TEXT,__text) non-external -[AccountTransformerGoogle accountPropertiesFromConfiguration:account:accountStore:completionHandler:]
+000000010000f3dc (__TEXT,__text) non-external -[AccountTransformerGoogle changesRequireRecreation:properties:]
+000000010000f5a4 (__TEXT,__text) non-external -[AccountTransformerLDAP accountPropertiesFromConfiguration:account:accountStore:completionHandler:]
+000000010001010c (__TEXT,__text) non-external -[AccountTransformerLDAP applyProperties:toAccount:accountStore:completionHandler:]
+0000000100013220 (__TEXT,__text) non-external -[AccountTransformerMail _authSchemeForAuthenticationMethod:]
+00000001000112c8 (__TEXT,__text) non-external -[AccountTransformerMail accountPropertiesFromConfiguration:account:accountStore:completionHandler:]
+000000010001334c (__TEXT,__text) non-external -[AccountTransformerMail applyProperties:toAccount:accountStore:completionHandler:]
+0000000100017e58 (__TEXT,__gcc_except_tab) non-external GCC_except_table12
+0000000100017e98 (__TEXT,__gcc_except_tab) non-external GCC_except_table15
+0000000100017dd8 (__TEXT,__gcc_except_tab) non-external GCC_except_table2
+0000000100017e34 (__TEXT,__gcc_except_tab) non-external GCC_except_table4
+0000000100017e78 (__TEXT,__gcc_except_tab) non-external GCC_except_table8
+                 (undefined) external _ABAccountDescriptionKey (from AddressBook)
+                 (undefined) external _ABAccountEnabledKey (from AddressBook)
+                 (undefined) external _ABAccountLDAPSearchBaseKey (from AddressBook)
+                 (undefined) external _ABAccountLDAPSearchScopeKey (from AddressBook)
+                 (undefined) external _ABAccountLDAPUseAuthenticationKey (from AddressBook)
+                 (undefined) external _ABAccountServerHostKey (from AddressBook)
+                 (undefined) external _ABAccountServerPortKey (from AddressBook)
+                 (undefined) external _ABAccountServerUseSSLKey (from AddressBook)
+                 (undefined) external _ABAccountUserNameKey (from AddressBook)
+                 (undefined) external _ABBaseLDAPSearchScopeType (from AddressBook)
+                 (undefined) external _ABOneLevelLDAPSearchScopeType (from AddressBook)
+                 (undefined) external _ABSubtreeLDAPSearchScopeType (from AddressBook)
+                 (undefined) external _ACAccountDataclassCalendars (from Accounts)
+                 (undefined) external _ACAccountDataclassContacts (from Accounts)
+                 (undefined) external _ACAccountDataclassMail (from Accounts)
+                 (undefined) external _ACAccountDataclassNotes (from Accounts)
+                 (undefined) external _ACAccountDataclassReminders (from Accounts)
+                 (undefined) external _ACAccountPropertyAuthenticationScheme (from Accounts)
+                 (undefined) external _ACAccountPropertyEWSExternalURL (from Accounts)
+                 (undefined) external _ACAccountPropertyEWSInternalURL (from Accounts)
+                 (undefined) external _ACAccountPropertyFullName (from Accounts)
+                 (undefined) external _ACAccountPropertyHostname (from Accounts)
+                 (undefined) external _ACAccountPropertyIdentityEmailAddress (from Accounts)
+                 (undefined) external _ACAccountPropertyPersonaIdentifier (from Accounts)
+                 (undefined) external _ACAccountPropertyPortNumber (from Accounts)
+                 (undefined) external _ACAccountPropertyRemoteManagingAccountIdentifier (from Accounts)
+                 (undefined) external _ACAccountPropertySSLEnabled (from Accounts)
+                 (undefined) external _ACAccountPropertySendingAccountIdentifier (from Accounts)
+                 (undefined) external _ACAccountPropertyServerPath (from Accounts)
+                 (undefined) external _ACAccountPropertyShouldNeverUseSyncableCredential (from Accounts)
+                 (undefined) external _ACAccountTypeIdentifierCalDAV (from Accounts)
+                 (undefined) external _ACAccountTypeIdentifierCardDAV (from Accounts)
+                 (undefined) external _ACAccountTypeIdentifierExchange (from Accounts)
+                 (undefined) external _ACAccountTypeIdentifierGmail (from Accounts)
+                 (undefined) external _ACAccountTypeIdentifierHotmail (from Accounts)
+                 (undefined) external _ACAccountTypeIdentifierIMAP (from Accounts)
+                 (undefined) external _ACAccountTypeIdentifierLDAP (from Accounts)
+                 (undefined) external _ACAccountTypeIdentifierPOP (from Accounts)
+                 (undefined) external _ACAccountTypeIdentifierSMTP (from Accounts)
+                 (undefined) external _ACAuthenticationSchemeAnyPlainText (from Accounts)
+                 (undefined) external _ACCredentialTypePassword (from Accounts)
+0000000100018828 (__DATA_CONST,__const) non-external _AccountAuthenticationTypeCRAMMD5
+0000000100018830 (__DATA_CONST,__const) non-external _AccountAuthenticationTypeHTTPMD5
+0000000100018838 (__DATA_CONST,__const) non-external _AccountAuthenticationTypeNTLM
+0000000100018468 (__DATA_CONST,__const) external _AccountPropertyAccountActive
+0000000100018470 (__DATA_CONST,__const) external _AccountPropertyAccountDescription
+0000000100018478 (__DATA_CONST,__const) external _AccountPropertyAuthenticationScheme
+0000000100018480 (__DATA_CONST,__const) external _AccountPropertyAuthenticationSchemeSecondary
+0000000100018488 (__DATA_CONST,__const) external _AccountPropertyCredential
+0000000100018490 (__DATA_CONST,__const) external _AccountPropertyEmailAddress
+0000000100018498 (__DATA_CONST,__const) external _AccountPropertyEnableCalendarsUserOverridableKey
+00000001000184a0 (__DATA_CONST,__const) external _AccountPropertyEnableContactsUserOverridableKey
+00000001000184a8 (__DATA_CONST,__const) external _AccountPropertyEnableMailUserOverridableKey
+00000001000184b0 (__DATA_CONST,__const) external _AccountPropertyEnableNotesUserOverridableKey
+00000001000184b8 (__DATA_CONST,__const) external _AccountPropertyEnableRemindersUserOverridableKey
+00000001000184c0 (__DATA_CONST,__const) external _AccountPropertyEnabledDataclasses
+00000001000184c8 (__DATA_CONST,__const) external _AccountPropertyExchangeEASOAuthSupportedKey
+00000001000184e0 (__DATA_CONST,__const) external _AccountPropertyExchangeEASOAuthTokenRequestURIKey
+00000001000184d0 (__DATA_CONST,__const) external _AccountPropertyExchangeEASOAuthURIKey
+00000001000184d8 (__DATA_CONST,__const) external _AccountPropertyExchangeEASOEndPointFQDNKey
+00000001000184e8 (__DATA_CONST,__const) external _AccountPropertyExchangeEWSExternalURLKey
+00000001000184f0 (__DATA_CONST,__const) external _AccountPropertyExchangeEWSInternalURLKey
+00000001000184f8 (__DATA_CONST,__const) external _AccountPropertyExchangeEWSOAuthSupportedKey
+0000000100018508 (__DATA_CONST,__const) external _AccountPropertyExchangeEWSOAuthTokenRequestURI
+0000000100018500 (__DATA_CONST,__const) external _AccountPropertyExchangeEWSWebSignInURI
+0000000100018510 (__DATA_CONST,__const) external _AccountPropertyFullUserName
+0000000100018518 (__DATA_CONST,__const) external _AccountPropertyHostname
+0000000100018520 (__DATA_CONST,__const) external _AccountPropertyHostnameSecondary
+0000000100018528 (__DATA_CONST,__const) external _AccountPropertyIMAPServerPathPrefixKey
+0000000100018530 (__DATA_CONST,__const) external _AccountPropertyLDAPSearchSettings
+0000000100018538 (__DATA_CONST,__const) external _AccountPropertyMailAccountClassKey
+0000000100018540 (__DATA_CONST,__const) external _AccountPropertyManagingOwnerIdentifier
+0000000100018548 (__DATA_CONST,__const) external _AccountPropertyManagingSourceName
+0000000100018550 (__DATA_CONST,__const) external _AccountPropertyPassword
+0000000100018558 (__DATA_CONST,__const) external _AccountPropertyPasswordSecondary
+0000000100018560 (__DATA_CONST,__const) external _AccountPropertyPort
+0000000100018568 (__DATA_CONST,__const) external _AccountPropertyPortSecondary
+0000000100018570 (__DATA_CONST,__const) external _AccountPropertyPrincipalURL
+0000000100018578 (__DATA_CONST,__const) external _AccountPropertyProvisionedDataclasses
+00000001000185b8 (__DATA_CONST,__const) external _AccountPropertyRemoteManagementAccountType
+00000001000185c0 (__DATA_CONST,__const) external _AccountPropertyRemoteManagementConfigurationIdentifier
+00000001000185c8 (__DATA_CONST,__const) external _AccountPropertyRemoteManagementConfigurationType
+00000001000185f0 (__DATA_CONST,__const) external _AccountPropertyRemoteManagementPrefix
+00000001000185d0 (__DATA_CONST,__const) external _AccountPropertyRemoteManagementPrimaryAccountIdentifier
+00000001000185d8 (__DATA_CONST,__const) external _AccountPropertyRemoteManagementSecondaryAccountIdentifier
+00000001000185e0 (__DATA_CONST,__const) external _AccountPropertyRemoteManagementServerTokens
+00000001000185e8 (__DATA_CONST,__const) external _AccountPropertyRemoteManagementSourceIdentifier
+0000000100018580 (__DATA_CONST,__const) external _AccountPropertyShouldNeverUseSyncableCredentials
+0000000100018588 (__DATA_CONST,__const) external _AccountPropertyShouldNeverUseSyncableCredentialsSecondary
+0000000100018590 (__DATA_CONST,__const) external _AccountPropertySubscribedCalendarURL
+00000001000185a8 (__DATA_CONST,__const) external _AccountPropertyUseSSL
+00000001000185b0 (__DATA_CONST,__const) external _AccountPropertyUseSSLSecondary
+0000000100018598 (__DATA_CONST,__const) external _AccountPropertyUsername
+00000001000185a0 (__DATA_CONST,__const) external _AccountPropertyUsernameSecondary
+00000001000185f8 (__DATA_CONST,__const) external _AccountStatusKeyAuthenticated
+0000000100018600 (__DATA_CONST,__const) external _AccountStatusKeyDescription
+0000000100018608 (__DATA_CONST,__const) external _AccountStatusKeyIdentifier
+000000010001d320 (__DATA,__data) non-external _AccountTransformerExchangeErrorDomain
+000000010001d328 (__DATA,__data) non-external _AccountTransformerMailErrorDomain
+0000000100018718 (__DATA_CONST,__const) non-external _AssetsCredentialsKey
+0000000100018780 (__DATA_CONST,__const) non-external _AssetsCredentialsKey
+0000000100018788 (__DATA_CONST,__const) non-external _AssetsCredentialsKey
+0000000100018820 (__DATA_CONST,__const) non-external _AssetsCredentialsKey
+0000000100018858 (__DATA_CONST,__const) non-external _AssetsIncomingKey
+0000000100018860 (__DATA_CONST,__const) non-external _AssetsOutgoingKey
+00000001000182a8 (__DATA_CONST,__const) external _ManagedAccountsResultTypeManaged
+00000001000182b0 (__DATA_CONST,__const) external _ManagedAccountsResultTypeOrphaned
+                 (undefined) external _NSDebugDescriptionErrorKey (from Foundation)
+                 (undefined) external _NSExtensionMain (from Foundation)
+                 (undefined) external _OBJC_CLASS_$_ACAccount (from Accounts)
+                 (undefined) external _OBJC_CLASS_$_ACAccountCredential (from Accounts)
+                 (undefined) external _OBJC_CLASS_$_ACAccountStore (from Accounts)
+000000010001cf90 (__DATA,__objc_data) external _OBJC_CLASS_$_AccountAdapter
+000000010001cfe0 (__DATA,__objc_data) external _OBJC_CLASS_$_AccountApplicator
+000000010001d058 (__DATA,__objc_data) external _OBJC_CLASS_$_AccountTransformer
+000000010001d080 (__DATA,__objc_data) external _OBJC_CLASS_$_AccountTransformerCalDAV
+000000010001d0d0 (__DATA,__objc_data) external _OBJC_CLASS_$_AccountTransformerCardDAV
+000000010001d120 (__DATA,__objc_data) external _OBJC_CLASS_$_AccountTransformerExchange
+000000010001d170 (__DATA,__objc_data) external _OBJC_CLASS_$_AccountTransformerGoogle
+000000010001d1c0 (__DATA,__objc_data) external _OBJC_CLASS_$_AccountTransformerLDAP
+000000010001d210 (__DATA,__objc_data) external _OBJC_CLASS_$_AccountTransformerMail
+                 (undefined) external _OBJC_CLASS_$_NSArray (from CoreFoundation)
+                 (undefined) external _OBJC_CLASS_$_NSDictionary (from CoreFoundation)
+                 (undefined) external _OBJC_CLASS_$_NSError (from Foundation)
+                 (undefined) external _OBJC_CLASS_$_NSMutableArray (from CoreFoundation)
+                 (undefined) external _OBJC_CLASS_$_NSMutableDictionary (from CoreFoundation)
+                 (undefined) external _OBJC_CLASS_$_NSMutableSet (from CoreFoundation)
+                 (undefined) external _OBJC_CLASS_$_NSNumber (from Foundation)
+                 (undefined) external _OBJC_CLASS_$_NSObject (from libobjc)
+                 (undefined) external _OBJC_CLASS_$_NSSet (from CoreFoundation)
+                 (undefined) external _OBJC_CLASS_$_NSSortDescriptor (from Foundation)
+                 (undefined) external _OBJC_CLASS_$_NSString (from Foundation)
+                 (undefined) external _OBJC_CLASS_$_NSURL (from CoreFoundation)
+                 (undefined) external _OBJC_CLASS_$_NSURLComponents (from Foundation)
+                 (undefined) external _OBJC_CLASS_$_RMErrorUtilities (from RemoteManagement)
+                 (undefined) external _OBJC_CLASS_$_RMModelAccountCalDAVDeclaration (from RemoteManagementModel)
+                 (undefined) external _OBJC_CLASS_$_RMModelAccountCardDAVDeclaration (from RemoteManagementModel)
+                 (undefined) external _OBJC_CLASS_$_RMModelAccountExchangeDeclaration (from RemoteManagementModel)
+                 (undefined) external _OBJC_CLASS_$_RMModelAccountGoogleDeclaration (from RemoteManagementModel)
+                 (undefined) external _OBJC_CLASS_$_RMModelAccountLDAPDeclaration (from RemoteManagementModel)
+                 (undefined) external _OBJC_CLASS_$_RMModelAccountMailDeclaration (from RemoteManagementModel)
+                 (undefined) external _OBJC_CLASS_$_RMModelCredentialUserNameAndPasswordDeclaration (from RemoteManagementModel)
+                 (undefined) external _OBJC_CLASS_$_RMModelUserIdentityDeclaration (from RemoteManagementModel)
+                 (undefined) external _OBJC_CLASS_$_RMModelUserNameAndPasswordCredentialsDeclaration (from RemoteManagementModel)
+                 (undefined) external _OBJC_CLASS_$_RMPersonaHelper (from RemoteManagement)
+                 (undefined) external _OBJC_CLASS_$_RMStoreUnresolvedAsset (from RemoteManagementStore)
+                 (undefined) external _OBJC_CLASS_$_RMSynchronous (from RemoteManagement)
+000000010001cf80 (__DATA,__objc_ivar) non-external (was a private external) _OBJC_IVAR_$_AccountAdapter._accountStore
+000000010001cf84 (__DATA,__objc_ivar) non-external (was a private external) _OBJC_IVAR_$_AccountApplicator._adapter
+000000010001cf88 (__DATA,__objc_ivar) non-external (was a private external) _OBJC_IVAR_$_AccountApplicator._completionQueue
+000000010001cfb8 (__DATA,__objc_data) external _OBJC_METACLASS_$_AccountAdapter
+000000010001d008 (__DATA,__objc_data) external _OBJC_METACLASS_$_AccountApplicator
+000000010001d030 (__DATA,__objc_data) external _OBJC_METACLASS_$_AccountTransformer
+000000010001d0a8 (__DATA,__objc_data) external _OBJC_METACLASS_$_AccountTransformerCalDAV
+000000010001d0f8 (__DATA,__objc_data) external _OBJC_METACLASS_$_AccountTransformerCardDAV
+000000010001d148 (__DATA,__objc_data) external _OBJC_METACLASS_$_AccountTransformerExchange
+000000010001d198 (__DATA,__objc_data) external _OBJC_METACLASS_$_AccountTransformerGoogle
+000000010001d1e8 (__DATA,__objc_data) external _OBJC_METACLASS_$_AccountTransformerLDAP
+000000010001d238 (__DATA,__objc_data) external _OBJC_METACLASS_$_AccountTransformerMail
+                 (undefined) external _OBJC_METACLASS_$_NSObject (from libobjc)
+0000000100018840 (__DATA_CONST,__const) non-external _PayloadAuthenticationTypeCRAMMD5
+0000000100018848 (__DATA_CONST,__const) non-external _PayloadAuthenticationTypeHTTPMD5
+0000000100018850 (__DATA_CONST,__const) non-external _PayloadAuthenticationTypeNTLM
+0000000100015658 (__TEXT,__const) non-external (was a private external) _RMAccountExtensionVersionNumber
+0000000100015618 (__TEXT,__const) non-external (was a private external) _RMAccountExtensionVersionString
+                 (undefined) external _RMModelAccountLDAPDeclaration_SearchSettingsItem_Scope_base (from RemoteManagementModel)
+                 (undefined) external _RMModelAccountLDAPDeclaration_SearchSettingsItem_Scope_oneLevel (from RemoteManagementModel)
+                 (undefined) external _RMModelAccountMailDeclaration_IncomingServer_AuthenticationMethod_none (from RemoteManagementModel)
+                 (undefined) external _RMModelAccountMailDeclaration_IncomingServer_ServerType_IMAP (from RemoteManagementModel)
+0000000100018610 (__DATA_CONST,__const) non-external _RemoteManagementManagingOwnerIdentifier
+                 (undefined) external __Block_object_assign (from libSystem)
+                 (undefined) external __Block_object_dispose (from libSystem)
+                 (undefined) external __NSConcreteGlobalBlock (from libSystem)
+                 (undefined) external __NSConcreteStackBlock (from libSystem)
+00000001000154d8 (__TEXT,__objc_methlist) non-external __OBJC_$_CLASS_METHODS_AccountTransformer
+00000001000153c8 (__TEXT,__objc_methlist) non-external __OBJC_$_INSTANCE_METHODS_AccountAdapter
+0000000100015470 (__TEXT,__objc_methlist) non-external __OBJC_$_INSTANCE_METHODS_AccountApplicator
+00000001000154f0 (__TEXT,__objc_methlist) non-external __OBJC_$_INSTANCE_METHODS_AccountTransformer
+0000000100015558 (__TEXT,__objc_methlist) non-external __OBJC_$_INSTANCE_METHODS_AccountTransformerCalDAV
+0000000100015570 (__TEXT,__objc_methlist) non-external __OBJC_$_INSTANCE_METHODS_AccountTransformerCardDAV
+0000000100015588 (__TEXT,__objc_methlist) non-external __OBJC_$_INSTANCE_METHODS_AccountTransformerExchange
+00000001000155a8 (__TEXT,__objc_methlist) non-external __OBJC_$_INSTANCE_METHODS_AccountTransformerGoogle
+00000001000155c8 (__TEXT,__objc_methlist) non-external __OBJC_$_INSTANCE_METHODS_AccountTransformerLDAP
+00000001000155e8 (__TEXT,__objc_methlist) non-external __OBJC_$_INSTANCE_METHODS_AccountTransformerMail
+000000010001c048 (__DATA,__objc_const) non-external __OBJC_$_INSTANCE_VARIABLES_AccountAdapter
+000000010001c448 (__DATA,__objc_const) non-external __OBJC_$_INSTANCE_VARIABLES_AccountApplicator
+000000010001c070 (__DATA,__objc_const) non-external __OBJC_$_PROP_LIST_AccountAdapter
+000000010001c490 (__DATA,__objc_const) non-external __OBJC_$_PROP_LIST_AccountApplicator
+000000010001c2c0 (__DATA,__objc_const) non-external __OBJC_$_PROP_LIST_NSObject
+000000010001c0d0 (__DATA,__objc_const) non-external __OBJC_$_PROTOCOL_INSTANCE_METHODS_NSObject
+000000010001c2a0 (__DATA,__objc_const) non-external __OBJC_$_PROTOCOL_INSTANCE_METHODS_OPT_NSObject
+000000010001c3c0 (__DATA,__objc_const) non-external __OBJC_$_PROTOCOL_INSTANCE_METHODS_OPT_RMConfigurationApplicator
+000000010001c308 (__DATA,__objc_const) non-external __OBJC_$_PROTOCOL_METHOD_TYPES_NSObject
+000000010001c3e0 (__DATA,__objc_const) non-external __OBJC_$_PROTOCOL_METHOD_TYPES_RMConfigurationApplicator
+000000010001c3a8 (__DATA,__objc_const) non-external __OBJC_$_PROTOCOL_REFS_RMConfigurationApplicator
+000000010001c3e8 (__DATA,__objc_const) non-external __OBJC_CLASS_PROTOCOLS_$_AccountApplicator
+000000010001c088 (__DATA,__objc_const) non-external __OBJC_CLASS_RO_$_AccountAdapter
+000000010001c4f8 (__DATA,__objc_const) non-external __OBJC_CLASS_RO_$_AccountApplicator
+000000010001c588 (__DATA,__objc_const) non-external __OBJC_CLASS_RO_$_AccountTransformer
+000000010001c618 (__DATA,__objc_const) non-external __OBJC_CLASS_RO_$_AccountTransformerCalDAV
+000000010001c6a8 (__DATA,__objc_const) non-external __OBJC_CLASS_RO_$_AccountTransformerCardDAV
+000000010001c738 (__DATA,__objc_const) non-external __OBJC_CLASS_RO_$_AccountTransformerExchange
+000000010001c7c8 (__DATA,__objc_const) non-external __OBJC_CLASS_RO_$_AccountTransformerGoogle
+000000010001c858 (__DATA,__objc_const) non-external __OBJC_CLASS_RO_$_AccountTransformerLDAP
+000000010001c8e8 (__DATA,__objc_const) non-external __OBJC_CLASS_RO_$_AccountTransformerMail
+0000000100019450 (__DATA_CONST,__objc_protolist) non-external (was a private external) __OBJC_LABEL_PROTOCOL_$_NSObject
+0000000100019458 (__DATA_CONST,__objc_protolist) non-external (was a private external) __OBJC_LABEL_PROTOCOL_$_RMConfigurationApplicator
+000000010001c000 (__DATA,__objc_const) non-external __OBJC_METACLASS_RO_$_AccountAdapter
+000000010001c400 (__DATA,__objc_const) non-external __OBJC_METACLASS_RO_$_AccountApplicator
+000000010001c540 (__DATA,__objc_const) non-external __OBJC_METACLASS_RO_$_AccountTransformer
+000000010001c5d0 (__DATA,__objc_const) non-external __OBJC_METACLASS_RO_$_AccountTransformerCalDAV
+000000010001c660 (__DATA,__objc_const) non-external __OBJC_METACLASS_RO_$_AccountTransformerCardDAV
+000000010001c6f0 (__DATA,__objc_const) non-external __OBJC_METACLASS_RO_$_AccountTransformerExchange
+000000010001c780 (__DATA,__objc_const) non-external __OBJC_METACLASS_RO_$_AccountTransformerGoogle
+000000010001c810 (__DATA,__objc_const) non-external __OBJC_METACLASS_RO_$_AccountTransformerLDAP
+000000010001c8a0 (__DATA,__objc_const) non-external __OBJC_METACLASS_RO_$_AccountTransformerMail
+000000010001d260 (__DATA,__data) non-external (was a private external) __OBJC_PROTOCOL_$_NSObject
+000000010001d2c0 (__DATA,__data) non-external (was a private external) __OBJC_PROTOCOL_$_RMConfigurationApplicator
+                 (undefined) external __Unwind_Resume (from libSystem)
+000000010000f7bc (__TEXT,__text) non-external ___100-[AccountTransformerLDAP accountPropertiesFromConfiguration:account:accountStore:completionHandler:]_block_invoke
+000000010000fb98 (__TEXT,__text) non-external ___100-[AccountTransformerLDAP accountPropertiesFromConfiguration:account:accountStore:completionHandler:]_block_invoke.8
+00000001000114e0 (__TEXT,__text) non-external ___100-[AccountTransformerMail accountPropertiesFromConfiguration:account:accountStore:completionHandler:]_block_invoke
+00000001000118e4 (__TEXT,__text) non-external ___100-[AccountTransformerMail accountPropertiesFromConfiguration:account:accountStore:completionHandler:]_block_invoke.32
+0000000100011bb4 (__TEXT,__text) non-external ___100-[AccountTransformerMail accountPropertiesFromConfiguration:account:accountStore:completionHandler:]_block_invoke_2
+0000000100011f08 (__TEXT,__text) non-external ___100-[AccountTransformerMail accountPropertiesFromConfiguration:account:accountStore:completionHandler:]_block_invoke_3
+000000010000a644 (__TEXT,__text) non-external ___102-[AccountTransformerCalDAV accountPropertiesFromConfiguration:account:accountStore:completionHandler:]_block_invoke
+000000010000aa20 (__TEXT,__text) non-external ___102-[AccountTransformerCalDAV accountPropertiesFromConfiguration:account:accountStore:completionHandler:]_block_invoke.8
+000000010000ec60 (__TEXT,__text) non-external ___102-[AccountTransformerGoogle accountPropertiesFromConfiguration:account:accountStore:completionHandler:]_block_invoke
+000000010000f03c (__TEXT,__text) non-external ___102-[AccountTransformerGoogle accountPropertiesFromConfiguration:account:accountStore:completionHandler:]_block_invoke.8
+000000010000b540 (__TEXT,__text) non-external ___103-[AccountTransformerCardDAV accountPropertiesFromConfiguration:account:accountStore:completionHandler:]_block_invoke
+000000010000b91c (__TEXT,__text) non-external ___103-[AccountTransformerCardDAV accountPropertiesFromConfiguration:account:accountStore:completionHandler:]_block_invoke.8
+000000010000c1f4 (__TEXT,__text) non-external ___104-[AccountTransformerExchange accountPropertiesFromConfiguration:account:accountStore:completionHandler:]_block_invoke
+000000010000c74c (__TEXT,__text) non-external ___104-[AccountTransformerExchange accountPropertiesFromConfiguration:account:accountStore:completionHandler:]_block_invoke.18
+000000010000c9dc (__TEXT,__text) non-external ___104-[AccountTransformerExchange accountPropertiesFromConfiguration:account:accountStore:completionHandler:]_block_invoke_2
+00000001000068ec (__TEXT,__text) non-external ___105-[AccountApplicator _createAccountIfNeededAndApplyProperties:configuration:properties:completionHandler:]_block_invoke
+00000001000030f4 (__TEXT,__text) non-external ___44-[AccountAdapter getRemotelyManagedAccounts]_block_invoke
+0000000100007898 (__TEXT,__text) non-external ___47-[AccountTransformer saveAccount:accountStore:]_block_invoke
+0000000100004260 (__TEXT,__text) non-external ___50-[AccountAdapter removeAccount:completionHandler:]_block_invoke
+0000000100003808 (__TEXT,__text) non-external ___53-[AccountAdapter getRemotelyManagedAccountsForStore:]_block_invoke
+0000000100006de0 (__TEXT,__text) non-external ___59+[AccountTransformer transformerClassForConfigurationType:]_block_invoke
+000000010000588c (__TEXT,__text) non-external ___59-[AccountApplicator applyConfigurations:completionHandler:]_block_invoke
+0000000100005d10 (__TEXT,__text) non-external ___59-[AccountApplicator applyConfigurations:completionHandler:]_block_invoke.37
+0000000100006034 (__TEXT,__text) non-external ___59-[AccountApplicator applyConfigurations:completionHandler:]_block_invoke.38
+00000001000061f8 (__TEXT,__text) non-external ___59-[AccountApplicator applyConfigurations:completionHandler:]_block_invoke.45
+0000000100006328 (__TEXT,__text) non-external ___59-[AccountApplicator applyConfigurations:completionHandler:]_block_invoke.55
+0000000100006540 (__TEXT,__text) non-external ___59-[AccountApplicator applyConfigurations:completionHandler:]_block_invoke.58
+0000000100007f0c (__TEXT,__text) non-external ___79-[AccountTransformer applyProperties:toAccount:accountStore:completionHandler:]_block_invoke
+0000000100008bdc (__TEXT,__text) non-external ___79-[AccountTransformer applyProperties:toAccount:accountStore:completionHandler:]_block_invoke.265
+000000010001052c (__TEXT,__text) non-external ___83-[AccountTransformerLDAP applyProperties:toAccount:accountStore:completionHandler:]_block_invoke
+00000001000111a4 (__TEXT,__text) non-external ___83-[AccountTransformerLDAP applyProperties:toAccount:accountStore:completionHandler:]_block_invoke.77
+0000000100013c64 (__TEXT,__text) non-external ___83-[AccountTransformerMail applyProperties:toAccount:accountStore:completionHandler:]_block_invoke
+0000000100014608 (__TEXT,__text) non-external ___83-[AccountTransformerMail applyProperties:toAccount:accountStore:completionHandler:]_block_invoke.133
+0000000100014a64 (__TEXT,__text) non-external ___83-[AccountTransformerMail applyProperties:toAccount:accountStore:completionHandler:]_block_invoke.138
+0000000100014e98 (__TEXT,__text) non-external ___83-[AccountTransformerMail applyProperties:toAccount:accountStore:completionHandler:]_block_invoke.141
+0000000100014bec (__TEXT,__text) non-external ___83-[AccountTransformerMail applyProperties:toAccount:accountStore:completionHandler:]_block_invoke_2
+0000000100009ba4 (__TEXT,__text) non-external ___88-[AccountTransformer resolveUserNameAndPasswordAsset:assetIdentifier:completionHandler:]_block_invoke
+0000000100005804 (__TEXT,__text) non-external ___Block_byref_object_copy_
+0000000100007810 (__TEXT,__text) non-external ___Block_byref_object_copy_
+000000010001111c (__TEXT,__text) non-external ___Block_byref_object_copy_
+00000001000149dc (__TEXT,__text) non-external ___Block_byref_object_copy_
+000000010000585c (__TEXT,__text) non-external ___Block_byref_object_dispose_
+0000000100007868 (__TEXT,__text) non-external ___Block_byref_object_dispose_
+0000000100011174 (__TEXT,__text) non-external ___Block_byref_object_dispose_
+0000000100014a34 (__TEXT,__text) non-external ___Block_byref_object_dispose_
+                 (undefined) external ___CFConstantStringClassReference (from CoreFoundation)
+0000000100018868 (__DATA_CONST,__const) non-external (was a private external) ___block_descriptor_104_e8_32bs40s48s56s64s72s80s88s96s_e70_v24?0"RMModelUserNameAndPasswordCredentialsDeclaration"8"NSError"16l
+0000000100018618 (__DATA_CONST,__const) non-external (was a private external) ___block_descriptor_32_e5_v8?0l
+0000000100018318 (__DATA_CONST,__const) non-external (was a private external) ___block_descriptor_40_e8_32bs_e20_v20?0B8"NSError"12l
+0000000100018408 (__DATA_CONST,__const) non-external (was a private external) ___block_descriptor_40_e8_32bs_e5_v8?0l
+00000001000188f8 (__DATA_CONST,__const) non-external (was a private external) ___block_descriptor_40_e8_32s_e25_v32?0"NSString"816^B24l
+0000000100018348 (__DATA_CONST,__const) non-external (was a private external) ___block_descriptor_40_e8_32s_e5_v8?0l
+0000000100018688 (__DATA_CONST,__const) non-external (was a private external) ___block_descriptor_48_e8_32s40s_e25_v32?0"NSString"816^B24l
+00000001000182e8 (__DATA_CONST,__const) non-external (was a private external) ___block_descriptor_48_e8_32s40s_e26_v32?0"ACAccount"8Q16^B24l
+0000000100018438 (__DATA_CONST,__const) non-external (was a private external) ___block_descriptor_56_e8_32s40s48bs_e17_v16?0"NSError"8l
+00000001000186e8 (__DATA_CONST,__const) non-external (was a private external) ___block_descriptor_56_e8_32s40s48bs_e42_v24?0"RMStoreResolvedAsset"8"NSError"16l
+0000000100018658 (__DATA_CONST,__const) non-external (was a private external) ___block_descriptor_56_e8_32s40s48r_e20_v20?0B8"NSError"12l
+00000001000183d8 (__DATA_CONST,__const) non-external (was a private external) ___block_descriptor_56_e8_32s40s48s_e17_v16?0"NSError"8l
+00000001000182b8 (__DATA_CONST,__const) non-external (was a private external) ___block_descriptor_56_e8_32s40s48s_e26_v32?0"ACAccount"8Q16^B24l
+00000001000183a8 (__DATA_CONST,__const) non-external (was a private external) ___block_descriptor_64_e8_32s40s48s56r_e37_v28?0"NSDictionary"8B16"NSError"20l
+0000000100018750 (__DATA_CONST,__const) non-external (was a private external) ___block_descriptor_72_e8_32s40bs48s56s64s_e37_v28?0"NSDictionary"8B16"NSError"20l
+00000001000186b8 (__DATA_CONST,__const) non-external (was a private external) ___block_descriptor_72_e8_32s40s48s56s64r_e5_v8?0l
+00000001000187f0 (__DATA_CONST,__const) non-external (was a private external) ___block_descriptor_80_e8_32bs40s48s56s64s72s_e52_v24?0"RMModelUserIdentityDeclaration"8"NSError"16l
+0000000100018720 (__DATA_CONST,__const) non-external (was a private external) ___block_descriptor_80_e8_32bs40s48s56s64s72s_e70_v24?0"RMModelUserNameAndPasswordCredentialsDeclaration"8"NSError"16l
+0000000100018378 (__DATA_CONST,__const) non-external (was a private external) ___block_descriptor_80_e8_32s40s48s56s64s72r_e17_v16?0"NSError"8l
+0000000100018928 (__DATA_CONST,__const) non-external (was a private external) ___block_descriptor_80_e8_32s40s48s56s64s72r_e20_v20?0B8"NSError"12l
+00000001000188c8 (__DATA_CONST,__const) non-external (was a private external) ___block_descriptor_88_e8_32bs40s48s56s64s72s80s_e52_v24?0"RMModelUserIdentityDeclaration"8"NSError"16l
+0000000100018958 (__DATA_CONST,__const) non-external (was a private external) ___block_descriptor_88_e8_32s40s48s56s64s72s80r_e5_v8?0l
+00000001000187c0 (__DATA_CONST,__const) non-external (was a private external) ___block_descriptor_89_e8_32bs40s48s56s64s72s80s_e52_v24?0"RMModelUserIdentityDeclaration"8"NSError"16l
+0000000100018790 (__DATA_CONST,__const) non-external (was a private external) ___block_descriptor_89_e8_32bs40s48s56s64s72s80s_e70_v24?0"RMModelUserNameAndPasswordCredentialsDeclaration"8"NSError"16l
+0000000100018898 (__DATA_CONST,__const) non-external (was a private external) ___block_descriptor_96_e8_32bs40s48s56s64s72s80s88s_e70_v24?0"RMModelUserNameAndPasswordCredentialsDeclaration"8"NSError"16l
+0000000100018638 (__DATA_CONST,__const) non-external ___block_literal_global
+0000000100004304 (__TEXT,__text) non-external (was a private external) ___copy_helper_block_e8_32b
+000000010000b088 (__TEXT,__text) non-external (was a private external) ___copy_helper_block_e8_32b40s48s56s64s72s
+000000010000e280 (__TEXT,__text) non-external (was a private external) ___copy_helper_block_e8_32b40s48s56s64s72s80s
+0000000100013058 (__TEXT,__text) non-external (was a private external) ___copy_helper_block_e8_32b40s48s56s64s72s80s88s
+0000000100012e60 (__TEXT,__text) non-external (was a private external) ___copy_helper_block_e8_32b40s48s56s64s72s80s88s96s
+0000000100006068 (__TEXT,__text) non-external (was a private external) ___copy_helper_block_e8_32s
+000000010000b1f0 (__TEXT,__text) non-external (was a private external) ___copy_helper_block_e8_32s40b48s56s64s
+0000000100003a74 (__TEXT,__text) non-external (was a private external) ___copy_helper_block_e8_32s40s
+0000000100006bd0 (__TEXT,__text) non-external (was a private external) ___copy_helper_block_e8_32s40s48b
+0000000100007a74 (__TEXT,__text) non-external (was a private external) ___copy_helper_block_e8_32s40s48r
+00000001000035a8 (__TEXT,__text) non-external (was a private external) ___copy_helper_block_e8_32s40s48s
+000000010000622c (__TEXT,__text) non-external (was a private external) ___copy_helper_block_e8_32s40s48s56r
+0000000100008d00 (__TEXT,__text) non-external (was a private external) ___copy_helper_block_e8_32s40s48s56s64r
+00000001000060a4 (__TEXT,__text) non-external (was a private external) ___copy_helper_block_e8_32s40s48s56s64s72r
+0000000100015068 (__TEXT,__text) non-external (was a private external) ___copy_helper_block_e8_32s40s48s56s64s72s80r
+0000000100004340 (__TEXT,__text) non-external (was a private external) ___destroy_helper_block_e8_32s
+0000000100003ad0 (__TEXT,__text) non-external (was a private external) ___destroy_helper_block_e8_32s40s
+0000000100007ae8 (__TEXT,__text) non-external (was a private external) ___destroy_helper_block_e8_32s40s48r
+000000010000361c (__TEXT,__text) non-external (was a private external) ___destroy_helper_block_e8_32s40s48s
+00000001000062b8 (__TEXT,__text) non-external (was a private external) ___destroy_helper_block_e8_32s40s48s56r
+0000000100008da4 (__TEXT,__text) non-external (was a private external) ___destroy_helper_block_e8_32s40s48s56s64r
+000000010000b294 (__TEXT,__text) non-external (was a private external) ___destroy_helper_block_e8_32s40s48s56s64s
+0000000100006160 (__TEXT,__text) non-external (was a private external) ___destroy_helper_block_e8_32s40s48s56s64s72r
+000000010000b144 (__TEXT,__text) non-external (was a private external) ___destroy_helper_block_e8_32s40s48s56s64s72s
+000000010001513c (__TEXT,__text) non-external (was a private external) ___destroy_helper_block_e8_32s40s48s56s64s72s80r
+000000010000e354 (__TEXT,__text) non-external (was a private external) ___destroy_helper_block_e8_32s40s48s56s64s72s80s
+0000000100013144 (__TEXT,__text) non-external (was a private external) ___destroy_helper_block_e8_32s40s48s56s64s72s80s88s
+0000000100012f64 (__TEXT,__text) non-external (was a private external) ___destroy_helper_block_e8_32s40s48s56s64s72s80s88s96s
+                 (undefined) external ___kCFBooleanFalse (from CoreFoundation)
+                 (undefined) external ___kCFBooleanTrue (from CoreFoundation)
+                 (undefined) external ___objc_personality_v0 (from libobjc)
+00000001000057e8 (__TEXT,__text) non-external (was a private external) ___os_log_helper_16_0_0
+0000000100009b64 (__TEXT,__text) non-external (was a private external) ___os_log_helper_16_2_1_8_64
+00000001000040b4 (__TEXT,__text) non-external (was a private external) ___os_log_helper_16_2_1_8_66
+0000000100003558 (__TEXT,__text) non-external (was a private external) ___os_log_helper_16_2_2_8_66_8_66
+00000001000064d8 (__TEXT,__text) non-external (was a private external) ___os_log_helper_16_2_3_8_66_8_66_8_66
+                 (undefined) external ___stack_chk_fail (from libSystem)
+                 (undefined) external ___stack_chk_guard (from libSystem)
+0000000100000000 (__TEXT,__text) [referenced dynamically] external __mh_execute_header
+                 (undefined) external __objc_empty_cache (from libobjc)
+                 (undefined) external __os_log_debug_impl (from libSystem)
+                 (undefined) external __os_log_default (from libSystem)
+                 (undefined) external __os_log_error_impl (from libSystem)
+                 (undefined) external __os_log_impl (from libSystem)
+                 (undefined) external _dispatch_group_create (from libSystem)
+                 (undefined) external _dispatch_group_enter (from libSystem)
+                 (undefined) external _dispatch_group_leave (from libSystem)
+                 (undefined) external _dispatch_group_notify (from libSystem)
+                 (undefined) external _dispatch_once (from libSystem)
+                 (undefined) external _dispatch_queue_attr_make_with_autorelease_frequency (from libSystem)
+                 (undefined) external _dispatch_queue_create (from libSystem)
+                 (undefined) external _kExchangeOAuthSupportedKey (from ExchangeWebServices)
+                 (undefined) external _kExchangeTokenRequestURI (from ExchangeWebServices)
+                 (undefined) external _kExchangeWebSignInURI (from ExchangeWebServices)
+                 (undefined) external _memset (from libSystem)
+                 (undefined) external _objc_alloc (from libobjc)
+                 (undefined) external _objc_autoreleaseReturnValue (from libobjc)
+                 (undefined) external _objc_enumerationMutation (from libobjc)
+                 (undefined) external _objc_msgSend (from libobjc)
+                 (undefined) external _objc_msgSendSuper2 (from libobjc)
+                 (undefined) external _objc_opt_class (from libobjc)
+                 (undefined) external _objc_opt_isKindOfClass (from libobjc)
+                 (undefined) external _objc_opt_new (from libobjc)
+                 (undefined) external _objc_release (from libobjc)
+                 (undefined) external _objc_retain (from libobjc)
+                 (undefined) external _objc_retainAutoreleasedReturnValue (from libobjc)
+                 (undefined) external _objc_storeStrong (from libobjc)
+                 (undefined) external _objc_unsafeClaimAutoreleasedReturnValue (from libobjc)
+                 (undefined) external _os_log_type_enabled (from libSystem)
+000000010001d330 (__DATA,__bss) non-external _transformerClassForConfigurationType:.mapping
+000000010001d338 (__DATA,__bss) non-external _transformerClassForConfigurationType:.onceToken
