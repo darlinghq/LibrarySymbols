@@ -1,0 +1,761 @@
+00007ffb02fbc6f7 (__TEXT,__text) non-external +[CKPATKeyBlinding blindPublicKey:withPrivateKey:context:error:]
+00007ffb02fbc6de (__TEXT,__text) non-external +[CKPATKeyBlinding blindSignMessage:blindedBy:withKey:context:error:]
+00007ffb02fbc6ac (__TEXT,__text) non-external +[CKPATKeyBlinding compressedRepresentationFromSecKey:]
+00007ffb02fbc6c5 (__TEXT,__text) non-external +[CKPATKeyBlinding isValidSignature:forMessage:signedBy:context:]
+00007ffb02fbc664 (__TEXT,__text) non-external +[CKPATKeyBlinding privateScalarFromSecKey:]
+00007ffb02fbc67d (__TEXT,__text) non-external +[CKPATKeyBlinding secKeyFromCompressedRepresentation:]
+00007ffb02fbc726 (__TEXT,__text) non-external +[CKPATKeyBlinding unblindPublicKey:withPrivateKey:context:error:]
+00007ffb02fbb2be (__TEXT,__text) non-external +[RSABSSATokenBlinder keyIDFromSPKI:]
+00007ffb02fbbad9 (__TEXT,__text) non-external -[RSABSSATokenBlinder .cxx_destruct]
+00007ffb02fbb4a7 (__TEXT,__text) non-external -[RSABSSATokenBlinder initWithPublicKey:error:]
+00007ffb02fbbacc (__TEXT,__text) non-external -[RSABSSATokenBlinder keyId]
+00007ffb02fbb373 (__TEXT,__text) non-external -[RSABSSATokenBlinder publicKey]
+00007ffb02fbb3dd (__TEXT,__text) non-external -[RSABSSATokenBlinder setParamsForSize:params:error:]
+00007ffb02fbb69f (__TEXT,__text) non-external -[RSABSSATokenBlinder tokenWaitingActivationWithContent:error:]
+00007ffb02fbb37d (__TEXT,__text) non-external -[RSABSSATokenBlinder verifyFullyParsedASN1:end:error:]
+00007ffb02fbc636 (__TEXT,__text) non-external -[RSABSSATokenIssuer .cxx_destruct]
+00007ffb02fbc336 (__TEXT,__text) non-external -[RSABSSATokenIssuer blindSign:error:]
+00007ffb02fbc12a (__TEXT,__text) non-external -[RSABSSATokenIssuer initWithKeyByteCount:]
+00007ffb02fbc113 (__TEXT,__text) non-external -[RSABSSATokenIssuer init]
+00007ffb02fbc629 (__TEXT,__text) non-external -[RSABSSATokenIssuer keyId]
+00007ffb02fbc608 (__TEXT,__text) non-external -[RSABSSATokenIssuer publicKey]
+00007ffb02fbc615 (__TEXT,__text) non-external -[RSABSSATokenIssuer setPublicKey:]
+00007ffb02fbc0e0 (__TEXT,__text) non-external -[RSABSSATokenReady .cxx_destruct]
+00007ffb02fbc00b (__TEXT,__text) non-external -[RSABSSATokenReady initWithTokenContent:tokenSignature:keyId:]
+00007ffb02fbc0cc (__TEXT,__text) non-external -[RSABSSATokenReady keyId]
+00007ffb02fbc0d6 (__TEXT,__text) non-external -[RSABSSATokenReady signature]
+00007ffb02fbc0c2 (__TEXT,__text) non-external -[RSABSSATokenReady tokenContent]
+00007ffb02fbbfcd (__TEXT,__text) non-external -[RSABSSATokenWaitingActivation .cxx_destruct]
+00007ffb02fbbbce (__TEXT,__text) non-external -[RSABSSATokenWaitingActivation activateTokenWithServerResponse:error:]
+00007ffb02fbbfa5 (__TEXT,__text) non-external -[RSABSSATokenWaitingActivation blindedMessage]
+00007ffb02fbbfaf (__TEXT,__text) non-external -[RSABSSATokenWaitingActivation blindingInverse]
+00007ffb02fbbaec (__TEXT,__text) non-external -[RSABSSATokenWaitingActivation initWithBlindingInverse:blindedMessage:tokenContent:tokenBlinder:ciphersuite:]
+00007ffb02fbbfb9 (__TEXT,__text) non-external -[RSABSSATokenWaitingActivation tokenBlinder]
+00007ffb02fbbfc3 (__TEXT,__text) non-external -[RSABSSATokenWaitingActivation tokenContent]
+00007ffb02fbc802 (__TEXT,__text) non-external -[TDMEvaluation .cxx_destruct]
+00007ffb02fbc7ee (__TEXT,__text) non-external -[TDMEvaluation evaluatedElement]
+00007ffb02fbc755 (__TEXT,__text) non-external -[TDMEvaluation initWithEvaluatedElement:proof:]
+00007ffb02fbc7f8 (__TEXT,__text) non-external -[TDMEvaluation proof]
+00007ffb02fbcae4 (__TEXT,__text) non-external -[TDMTestServer .cxx_destruct]
+00007ffb02fbca2f (__TEXT,__text) non-external -[TDMTestServer FSR]
+00007ffb02fbc96d (__TEXT,__text) non-external -[TDMTestServer evaluate:error:]
+00007ffb02fbc917 (__TEXT,__text) non-external -[TDMTestServer init]
+00007ffb02fbc901 (__TEXT,__text) non-external -[TDMTestServer publicKey]
+00007ffb02fbcada (__TEXT,__text) non-external -[TDMTestServer tdmServer]
+00007ffb02fbca45 (__TEXT,__text) non-external -[TDMTestServer validateOutput:TID:]
+00007ffb02fbc8f1 (__TEXT,__text) non-external -[TDMToken .cxx_destruct]
+00007ffb02fbc8ac (__TEXT,__text) non-external -[TDMToken blindedElement]
+00007ffb02fbc8c2 (__TEXT,__text) non-external -[TDMToken finalizeWithEvaluatedElement:proof:publicKey:fsr:error:]
+00007ffb02fbc82a (__TEXT,__text) non-external -[TDMToken initWithTID:]
+00007ffb02fbc8e7 (__TEXT,__text) non-external -[TDMToken tdmClient]
+                 (undefined) external _CC_SHA256 (from libSystem)
+                 (undefined) external _CFRetain (from CoreFoundation)
+00007ffb02ffd898 (__TEXT,__const) external _CryptoKitPrivateVersionNumber
+00007ffb02ffd860 (__TEXT,__const) external _CryptoKitPrivateVersionString
+                 (undefined) external _OBJC_CLASS_$_CKCBCorecryptoECPoint (from CryptoKitCBridging)
+                 (undefined) external _OBJC_CLASS_$_CKCBCorecryptoECScalar (from CryptoKitCBridging)
+00007ffb40ce7948 (__DATA,__objc_data) external _OBJC_CLASS_$_CKPATKeyBlinding
+                 (undefined) external _OBJC_CLASS_$_CKSSShare (from CryptoKitCBridging)
+                 (undefined) external _OBJC_CLASS_$_NSData (from CoreFoundation)
+                 (undefined) external _OBJC_CLASS_$_NSDictionary (from CoreFoundation)
+                 (undefined) external _OBJC_CLASS_$_NSError (from Foundation)
+                 (undefined) external _OBJC_CLASS_$_NSMutableData (from CoreFoundation)
+                 (undefined) external _OBJC_CLASS_$_NSNumber (from Foundation)
+                 (undefined) external _OBJC_CLASS_$_NSObject (from libobjc)
+00007ffb40ce77e0 (__DATA,__objc_data) external _OBJC_CLASS_$_RSABSSATokenBlinder
+00007ffb40ce78d0 (__DATA,__objc_data) external _OBJC_CLASS_$_RSABSSATokenIssuer
+00007ffb40ce7858 (__DATA,__objc_data) external _OBJC_CLASS_$_RSABSSATokenReady
+00007ffb40ce7808 (__DATA,__objc_data) external _OBJC_CLASS_$_RSABSSATokenWaitingActivation
+                 (undefined) external _OBJC_CLASS_$_SSPBSecretShare (from CryptoKitCBridging)
+00007ffb40ce7970 (__DATA,__objc_data) external _OBJC_CLASS_$_TDMEvaluation
+00007ffb40ce7a10 (__DATA,__objc_data) external _OBJC_CLASS_$_TDMTestServer
+00007ffb40ce79c0 (__DATA,__objc_data) external _OBJC_CLASS_$_TDMToken
+00007ffb40ce7c28 (__DATA,__objc_data) external _OBJC_CLASS_$__TtC16CryptoKitPrivate18AlishaSPAKE2Prover
+00007ffb40ce7ab8 (__DATA,__objc_data) external _OBJC_CLASS_$__TtC16CryptoKitPrivate18CKPIETFKeyBlinding
+00007ffb40ce7b68 (__DATA,__objc_data) external _OBJC_CLASS_$__TtC16CryptoKitPrivate19RSAPSSSPKI_Bridging
+00007ffb40ce8000 (__DATA,__objc_data) external _OBJC_CLASS_$__TtC16CryptoKitPrivate19TDMServerEvaluation
+00007ffb40ce7d88 (__DATA,__objc_data) external _OBJC_CLASS_$__TtC16CryptoKitPrivate27AlishaSPAKE2ProverConfirmed
+00007ffb40ce7e78 (__DATA,__objc_data) external _OBJC_CLASS_$__TtC16CryptoKitPrivate6Scrypt
+00007ffb40ce7f20 (__DATA,__objc_data) external _OBJC_CLASS_$__TtC16CryptoKitPrivate9TDMClient
+00007ffb40ce80c0 (__DATA,__objc_data) external _OBJC_CLASS_$__TtC16CryptoKitPrivate9TDMServer
+                 (undefined) external _OBJC_CLASS_$__TtCs12_SwiftObject (from libswiftCore)
+00007ffb40ce7738 (__DATA,__objc_ivar) non-external (was a private external) _OBJC_IVAR_$_RSABSSATokenBlinder._ciphersuite
+00007ffb40ce7740 (__DATA,__objc_ivar) non-external (was a private external) _OBJC_IVAR_$_RSABSSATokenBlinder._ciphersuiteModulusByteCount
+00007ffb40ce7750 (__DATA,__objc_ivar) non-external (was a private external) _OBJC_IVAR_$_RSABSSATokenBlinder._keyId
+00007ffb40ce7748 (__DATA,__objc_ivar) non-external (was a private external) _OBJC_IVAR_$_RSABSSATokenBlinder._publicKey
+00007ffb40ce7798 (__DATA,__objc_ivar) non-external (was a private external) _OBJC_IVAR_$_RSABSSATokenIssuer._ciphersuite
+00007ffb40ce77a0 (__DATA,__objc_ivar) non-external (was a private external) _OBJC_IVAR_$_RSABSSATokenIssuer._ciphersuiteModulusByteCount
+00007ffb40ce77b8 (__DATA,__objc_ivar) non-external (was a private external) _OBJC_IVAR_$_RSABSSATokenIssuer._keyId
+00007ffb40ce77b0 (__DATA,__objc_ivar) non-external (was a private external) _OBJC_IVAR_$_RSABSSATokenIssuer._publicKey
+00007ffb40ce77a8 (__DATA,__objc_ivar) non-external (was a private external) _OBJC_IVAR_$_RSABSSATokenIssuer._rsaPrivateKey
+00007ffb40ce7788 (__DATA,__objc_ivar) non-external (was a private external) _OBJC_IVAR_$_RSABSSATokenReady._keyId
+00007ffb40ce7790 (__DATA,__objc_ivar) non-external (was a private external) _OBJC_IVAR_$_RSABSSATokenReady._signature
+00007ffb40ce7780 (__DATA,__objc_ivar) non-external (was a private external) _OBJC_IVAR_$_RSABSSATokenReady._tokenContent
+00007ffb40ce7760 (__DATA,__objc_ivar) non-external (was a private external) _OBJC_IVAR_$_RSABSSATokenWaitingActivation._blindedMessage
+00007ffb40ce7768 (__DATA,__objc_ivar) non-external (was a private external) _OBJC_IVAR_$_RSABSSATokenWaitingActivation._blindingInverse
+00007ffb40ce7758 (__DATA,__objc_ivar) non-external (was a private external) _OBJC_IVAR_$_RSABSSATokenWaitingActivation._ciphersuite
+00007ffb40ce7770 (__DATA,__objc_ivar) non-external (was a private external) _OBJC_IVAR_$_RSABSSATokenWaitingActivation._tokenBlinder
+00007ffb40ce7778 (__DATA,__objc_ivar) non-external (was a private external) _OBJC_IVAR_$_RSABSSATokenWaitingActivation._tokenContent
+00007ffb40ce77c0 (__DATA,__objc_ivar) non-external (was a private external) _OBJC_IVAR_$_TDMEvaluation._evaluatedElement
+00007ffb40ce77c8 (__DATA,__objc_ivar) non-external (was a private external) _OBJC_IVAR_$_TDMEvaluation._proof
+00007ffb40ce77d8 (__DATA,__objc_ivar) non-external (was a private external) _OBJC_IVAR_$_TDMTestServer._tdmServer
+00007ffb40ce77d0 (__DATA,__objc_ivar) non-external (was a private external) _OBJC_IVAR_$_TDMToken._tdmClient
+00007ffb40ce7920 (__DATA,__objc_data) external _OBJC_METACLASS_$_CKPATKeyBlinding
+                 (undefined) external _OBJC_METACLASS_$_NSObject (from libobjc)
+00007ffb40ce7830 (__DATA,__objc_data) external _OBJC_METACLASS_$_RSABSSATokenBlinder
+00007ffb40ce78f8 (__DATA,__objc_data) external _OBJC_METACLASS_$_RSABSSATokenIssuer
+00007ffb40ce78a8 (__DATA,__objc_data) external _OBJC_METACLASS_$_RSABSSATokenReady
+00007ffb40ce7880 (__DATA,__objc_data) external _OBJC_METACLASS_$_RSABSSATokenWaitingActivation
+00007ffb40ce7998 (__DATA,__objc_data) external _OBJC_METACLASS_$_TDMEvaluation
+00007ffb40ce7a38 (__DATA,__objc_data) external _OBJC_METACLASS_$_TDMTestServer
+00007ffb40ce79e8 (__DATA,__objc_data) external _OBJC_METACLASS_$_TDMToken
+00007ffb40ce8ef8 (__DATA,__data) external _OBJC_METACLASS_$__TtC16CryptoKitPrivate18AlishaSPAKE2Prover
+00007ffb40ce8dd0 (__DATA,__data) external _OBJC_METACLASS_$__TtC16CryptoKitPrivate18CKPIETFKeyBlinding
+00007ffb40ce8e48 (__DATA,__data) external _OBJC_METACLASS_$__TtC16CryptoKitPrivate19RSAPSSSPKI_Bridging
+00007ffb40ce9858 (__DATA,__data) external _OBJC_METACLASS_$__TtC16CryptoKitPrivate19TDMServerEvaluation
+00007ffb40ce8f20 (__DATA,__data) external _OBJC_METACLASS_$__TtC16CryptoKitPrivate27AlishaSPAKE2ProverConfirmed
+00007ffb40ce95d0 (__DATA,__data) external _OBJC_METACLASS_$__TtC16CryptoKitPrivate6Scrypt
+00007ffb40ce9830 (__DATA,__data) external _OBJC_METACLASS_$__TtC16CryptoKitPrivate9TDMClient
+00007ffb40ce9880 (__DATA,__data) external _OBJC_METACLASS_$__TtC16CryptoKitPrivate9TDMServer
+                 (undefined) external _OBJC_METACLASS_$__TtCs12_SwiftObject (from libswiftCore)
+                 (undefined) external _SPAKE2Alishaz0Size (from CryptoKitCBridging)
+                 (undefined) external _SPAKE2CtxSize (from CryptoKitCBridging)
+                 (undefined) external _SecAccessControlCreateWithFlags (from Security)
+                 (undefined) external _SecKeyCopyAttributes (from Security)
+                 (undefined) external _SecKeyCopyExternalRepresentation (from Security)
+                 (undefined) external _SecKeyCreateWithData (from Security)
+                 (undefined) external _SecRandomCopyBytes (from Security)
+00007ffb40ce7bd0 (__DATA,__objc_data) non-external __DATA__TtC16CryptoKitPrivate18AlishaSPAKE2Prover
+00007ffb40ce7a60 (__DATA,__objc_data) non-external __DATA__TtC16CryptoKitPrivate18CKPIETFKeyBlinding
+00007ffb40ce7b08 (__DATA,__objc_data) non-external __DATA__TtC16CryptoKitPrivate19RSAPSSSPKI_Bridging
+00007ffb40ce7fa8 (__DATA,__objc_data) non-external __DATA__TtC16CryptoKitPrivate19TDMServerEvaluation
+00007ffb40ce7d30 (__DATA,__objc_data) non-external __DATA__TtC16CryptoKitPrivate27AlishaSPAKE2ProverConfirmed
+00007ffb40ce7e20 (__DATA,__objc_data) non-external __DATA__TtC16CryptoKitPrivate6Scrypt
+00007ffb40ce7ec8 (__DATA,__objc_data) non-external __DATA__TtC16CryptoKitPrivate9TDMClient
+00007ffb40ce8068 (__DATA,__objc_data) non-external __DATA__TtC16CryptoKitPrivate9TDMServer
+00007ffb431563a0 (__DATA_CONST,__objc_const) non-external __DATA__TtCO16CryptoKitPrivate15CKSecretSharing32CKShamirShareSharedInternalState
+00007ffb43156b58 (__DATA_CONST,__objc_const) non-external __DATA__TtCO16CryptoKitPrivate15CKSecretSharingP33_CE506D4359C10354E8EAAF853DBEE0AA32CKHybridSecretShareInternalState
+00007ffb43156268 (__DATA_CONST,__objc_const) non-external __DATA__TtCV16CryptoKitPrivate11SecureBytes7Backing
+00007ffb431564e8 (__DATA_CONST,__objc_const) non-external __IVARS__TtC16CryptoKitPrivate18AlishaSPAKE2Prover
+00007ffb43156478 (__DATA_CONST,__objc_const) non-external __IVARS__TtC16CryptoKitPrivate19RSAPSSSPKI_Bridging
+00007ffb431568c8 (__DATA_CONST,__objc_const) non-external __IVARS__TtC16CryptoKitPrivate19TDMServerEvaluation
+00007ffb431565d8 (__DATA_CONST,__objc_const) non-external __IVARS__TtC16CryptoKitPrivate27AlishaSPAKE2ProverConfirmed
+00007ffb431567f8 (__DATA_CONST,__objc_const) non-external __IVARS__TtC16CryptoKitPrivate9TDMClient
+00007ffb43156980 (__DATA_CONST,__objc_const) non-external __IVARS__TtC16CryptoKitPrivate9TDMServer
+00007ffb431562f8 (__DATA_CONST,__objc_const) non-external __IVARS__TtCO16CryptoKitPrivate15CKSecretSharing32CKShamirShareSharedInternalState
+00007ffb43156a10 (__DATA_CONST,__objc_const) non-external __IVARS__TtCO16CryptoKitPrivate15CKSecretSharingP33_CE506D4359C10354E8EAAF853DBEE0AA32CKHybridSecretShareInternalState
+00007ffb431564a0 (__DATA_CONST,__objc_const) non-external __METACLASS_DATA__TtC16CryptoKitPrivate18AlishaSPAKE2Prover
+00007ffb431563e8 (__DATA_CONST,__objc_const) non-external __METACLASS_DATA__TtC16CryptoKitPrivate18CKPIETFKeyBlinding
+00007ffb43156430 (__DATA_CONST,__objc_const) non-external __METACLASS_DATA__TtC16CryptoKitPrivate19RSAPSSSPKI_Bridging
+00007ffb43156880 (__DATA_CONST,__objc_const) non-external __METACLASS_DATA__TtC16CryptoKitPrivate19TDMServerEvaluation
+00007ffb43156590 (__DATA_CONST,__objc_const) non-external __METACLASS_DATA__TtC16CryptoKitPrivate27AlishaSPAKE2ProverConfirmed
+00007ffb43156768 (__DATA_CONST,__objc_const) non-external __METACLASS_DATA__TtC16CryptoKitPrivate6Scrypt
+00007ffb431567b0 (__DATA_CONST,__objc_const) non-external __METACLASS_DATA__TtC16CryptoKitPrivate9TDMClient
+00007ffb43156938 (__DATA_CONST,__objc_const) non-external __METACLASS_DATA__TtC16CryptoKitPrivate9TDMServer
+00007ffb431562b0 (__DATA_CONST,__objc_const) non-external __METACLASS_DATA__TtCO16CryptoKitPrivate15CKSecretSharing32CKShamirShareSharedInternalState
+00007ffb431569c8 (__DATA_CONST,__objc_const) non-external __METACLASS_DATA__TtCO16CryptoKitPrivate15CKSecretSharingP33_CE506D4359C10354E8EAAF853DBEE0AA32CKHybridSecretShareInternalState
+00007ffb43156220 (__DATA_CONST,__objc_const) non-external __METACLASS_DATA__TtCV16CryptoKitPrivate11SecureBytes7Backing
+00007ffb02ffd480 (__TEXT,__objc_methlist) non-external __OBJC_$_CLASS_METHODS_CKPATKeyBlinding
+00007ffb02ffd300 (__TEXT,__objc_methlist) non-external __OBJC_$_CLASS_METHODS_RSABSSATokenBlinder
+00007ffb02ffd5c0 (__TEXT,__objc_methlist) non-external __OBJC_$_CLASS_METHODS__TtC16CryptoKitPrivate18CKPIETFKeyBlinding
+00007ffb02ffd640 (__TEXT,__objc_methlist) non-external __OBJC_$_CLASS_METHODS__TtC16CryptoKitPrivate19RSAPSSSPKI_Bridging
+00007ffb02ffd758 (__TEXT,__objc_methlist) non-external __OBJC_$_CLASS_METHODS__TtC16CryptoKitPrivate6Scrypt
+00007ffb02ffd318 (__TEXT,__objc_methlist) non-external __OBJC_$_INSTANCE_METHODS_RSABSSATokenBlinder
+00007ffb02ffd378 (__TEXT,__objc_methlist) non-external __OBJC_$_INSTANCE_METHODS_RSABSSATokenIssuer
+00007ffb02ffd3d8 (__TEXT,__objc_methlist) non-external __OBJC_$_INSTANCE_METHODS_RSABSSATokenReady
+00007ffb02ffd420 (__TEXT,__objc_methlist) non-external __OBJC_$_INSTANCE_METHODS_RSABSSATokenWaitingActivation
+00007ffb02ffd4e0 (__TEXT,__objc_methlist) non-external __OBJC_$_INSTANCE_METHODS_TDMEvaluation
+00007ffb02ffd518 (__TEXT,__objc_methlist) non-external __OBJC_$_INSTANCE_METHODS_TDMTestServer
+00007ffb02ffd578 (__TEXT,__objc_methlist) non-external __OBJC_$_INSTANCE_METHODS_TDMToken
+00007ffb02ffd690 (__TEXT,__objc_methlist) non-external __OBJC_$_INSTANCE_METHODS__TtC16CryptoKitPrivate18AlishaSPAKE2Prover
+00007ffb02ffd620 (__TEXT,__objc_methlist) non-external __OBJC_$_INSTANCE_METHODS__TtC16CryptoKitPrivate18CKPIETFKeyBlinding
+00007ffb02ffd658 (__TEXT,__objc_methlist) non-external __OBJC_$_INSTANCE_METHODS__TtC16CryptoKitPrivate19RSAPSSSPKI_Bridging
+00007ffb02ffd788 (__TEXT,__objc_methlist) non-external __OBJC_$_INSTANCE_METHODS__TtC16CryptoKitPrivate19TDMServerEvaluation
+00007ffb02ffd6d8 (__TEXT,__objc_methlist) non-external __OBJC_$_INSTANCE_METHODS__TtC16CryptoKitPrivate27AlishaSPAKE2ProverConfirmed
+00007ffb02ffd770 (__TEXT,__objc_methlist) non-external __OBJC_$_INSTANCE_METHODS__TtC16CryptoKitPrivate6Scrypt
+00007ffb02ffd7c0 (__TEXT,__objc_methlist) non-external __OBJC_$_INSTANCE_METHODS__TtC16CryptoKitPrivate9TDMClient
+00007ffb02ffd808 (__TEXT,__objc_methlist) non-external __OBJC_$_INSTANCE_METHODS__TtC16CryptoKitPrivate9TDMServer
+00007ffb431559f8 (__DATA_CONST,__objc_const) non-external __OBJC_$_INSTANCE_VARIABLES_RSABSSATokenBlinder
+00007ffb43155dd8 (__DATA_CONST,__objc_const) non-external __OBJC_$_INSTANCE_VARIABLES_RSABSSATokenIssuer
+00007ffb43155ca8 (__DATA_CONST,__objc_const) non-external __OBJC_$_INSTANCE_VARIABLES_RSABSSATokenReady
+00007ffb43155b28 (__DATA_CONST,__objc_const) non-external __OBJC_$_INSTANCE_VARIABLES_RSABSSATokenWaitingActivation
+00007ffb43155fc8 (__DATA_CONST,__objc_const) non-external __OBJC_$_INSTANCE_VARIABLES_TDMEvaluation
+00007ffb43156198 (__DATA_CONST,__objc_const) non-external __OBJC_$_INSTANCE_VARIABLES_TDMTestServer
+00007ffb431560c8 (__DATA_CONST,__objc_const) non-external __OBJC_$_INSTANCE_VARIABLES_TDMToken
+00007ffb43155a80 (__DATA_CONST,__objc_const) non-external __OBJC_$_PROP_LIST_RSABSSATokenBlinder
+00007ffb43155e80 (__DATA_CONST,__objc_const) non-external __OBJC_$_PROP_LIST_RSABSSATokenIssuer
+00007ffb43155d10 (__DATA_CONST,__objc_const) non-external __OBJC_$_PROP_LIST_RSABSSATokenReady
+00007ffb43155bd0 (__DATA_CONST,__objc_const) non-external __OBJC_$_PROP_LIST_RSABSSATokenWaitingActivation
+00007ffb43156010 (__DATA_CONST,__objc_const) non-external __OBJC_$_PROP_LIST_TDMEvaluation
+00007ffb431561c0 (__DATA_CONST,__objc_const) non-external __OBJC_$_PROP_LIST_TDMTestServer
+00007ffb431560f0 (__DATA_CONST,__objc_const) non-external __OBJC_$_PROP_LIST_TDMToken
+00007ffb43155f38 (__DATA_CONST,__objc_const) non-external __OBJC_CLASS_RO_$_CKPATKeyBlinding
+00007ffb43155a98 (__DATA_CONST,__objc_const) non-external __OBJC_CLASS_RO_$_RSABSSATokenBlinder
+00007ffb43155ea8 (__DATA_CONST,__objc_const) non-external __OBJC_CLASS_RO_$_RSABSSATokenIssuer
+00007ffb43155d48 (__DATA_CONST,__objc_const) non-external __OBJC_CLASS_RO_$_RSABSSATokenReady
+00007ffb43155c18 (__DATA_CONST,__objc_const) non-external __OBJC_CLASS_RO_$_RSABSSATokenWaitingActivation
+00007ffb43156038 (__DATA_CONST,__objc_const) non-external __OBJC_CLASS_RO_$_TDMEvaluation
+00007ffb431561d8 (__DATA_CONST,__objc_const) non-external __OBJC_CLASS_RO_$_TDMTestServer
+00007ffb43156108 (__DATA_CONST,__objc_const) non-external __OBJC_CLASS_RO_$_TDMToken
+00007ffb43155ef0 (__DATA_CONST,__objc_const) non-external __OBJC_METACLASS_RO_$_CKPATKeyBlinding
+00007ffb431559b0 (__DATA_CONST,__objc_const) non-external __OBJC_METACLASS_RO_$_RSABSSATokenBlinder
+00007ffb43155d90 (__DATA_CONST,__objc_const) non-external __OBJC_METACLASS_RO_$_RSABSSATokenIssuer
+00007ffb43155c60 (__DATA_CONST,__objc_const) non-external __OBJC_METACLASS_RO_$_RSABSSATokenReady
+00007ffb43155ae0 (__DATA_CONST,__objc_const) non-external __OBJC_METACLASS_RO_$_RSABSSATokenWaitingActivation
+00007ffb43155f80 (__DATA_CONST,__objc_const) non-external __OBJC_METACLASS_RO_$_TDMEvaluation
+00007ffb43156150 (__DATA_CONST,__objc_const) non-external __OBJC_METACLASS_RO_$_TDMTestServer
+00007ffb43156080 (__DATA_CONST,__objc_const) non-external __OBJC_METACLASS_RO_$_TDMToken
+00007ffb43156910 (__DATA_CONST,__objc_const) non-external __PROPERTIES__TtC16CryptoKitPrivate19TDMServerEvaluation
+00007ffb431566e0 (__DATA_CONST,__objc_const) non-external __PROPERTIES__TtC16CryptoKitPrivate27AlishaSPAKE2ProverConfirmed
+                 (undefined) external ___CFConstantStringClassReference (from CoreFoundation)
+                 (undefined) weak external ____chkstk_darwin (from libSystem)
+                 (undefined) external ___bzero (from libSystem)
+00007ffb02fc2410 (__TEXT,__text) non-external (was a private external) ___chkstk_darwin
+00007ffb02fc2430 (__TEXT,__text) non-external (was a private external) ___chkstk_darwin_llvm_probe
+                 (undefined) external ___stack_chk_fail (from libSystem)
+                 (undefined) external ___stack_chk_guard (from libSystem)
+00007ffb02fc61a0 (__TEXT,__text) non-external (was a private external) ___swift_allocate_boxed_opaque_existential_1
+00007ffb02fdd160 (__TEXT,__text) non-external (was a private external) ___swift_allocate_value_buffer
+00007ffb02fcb230 (__TEXT,__text) non-external (was a private external) ___swift_deallocate_boxed_opaque_existential_1
+00007ffb02fc60e0 (__TEXT,__text) non-external (was a private external) ___swift_destroy_boxed_opaque_existential_1
+00007ffb02fbd530 (__TEXT,__text) non-external (was a private external) ___swift_instantiateConcreteTypeFromMangledName
+00007ffb02fbd6f0 (__TEXT,__text) non-external (was a private external) ___swift_instantiateConcreteTypeFromMangledNameAbstract
+00007ffb02fbe8e0 (__TEXT,__text) non-external (was a private external) ___swift_instantiateGenericMetadata
+00007ffb02fbd770 (__TEXT,__text) non-external (was a private external) ___swift_memcpy0_1
+00007ffb02ffb2a0 (__TEXT,__text) non-external (was a private external) ___swift_memcpy104_8
+00007ffb02fbcb00 (__TEXT,__text) non-external (was a private external) ___swift_memcpy16_8
+00007ffb02fbcdd0 (__TEXT,__text) non-external (was a private external) ___swift_memcpy1_1
+00007ffb02fbcc40 (__TEXT,__text) non-external (was a private external) ___swift_memcpy24_8
+00007ffb02fbcbb0 (__TEXT,__text) non-external (was a private external) ___swift_memcpy32_8
+00007ffb02fbed70 (__TEXT,__text) non-external (was a private external) ___swift_memcpy3_1
+00007ffb02fc85f0 (__TEXT,__text) non-external (was a private external) ___swift_memcpy40_8
+00007ffb02fbccf0 (__TEXT,__text) non-external (was a private external) ___swift_memcpy56_8
+00007ffb02fedbc0 (__TEXT,__text) non-external (was a private external) ___swift_memcpy5_4
+00007ffb02fd5ef0 (__TEXT,__text) non-external (was a private external) ___swift_memcpy80_8
+00007ffb02fbd2b0 (__TEXT,__text) non-external (was a private external) ___swift_memcpy8_8
+00007ffb02fbd950 (__TEXT,__text) non-external (was a private external) ___swift_memcpy96_8
+00007ffb02fddb60 (__TEXT,__text) non-external (was a private external) ___swift_memcpy9_8
+00007ffb02fc61f0 (__TEXT,__text) non-external (was a private external) ___swift_mutable_project_boxed_opaque_existential_1
+00007ffb02fbcb10 (__TEXT,__text) non-external (was a private external) ___swift_noop_void_return
+00007ffb02fd09e0 (__TEXT,__text) non-external (was a private external) ___swift_project_boxed_opaque_existential_1
+00007ffb02fdd140 (__TEXT,__text) non-external (was a private external) ___swift_project_value_buffer
+00007ffb02ffdeb0 (__TEXT,__const) non-external (was a private external) ___swift_reflection_version
+00007ffb02ffe820 (__TEXT,__const) non-external ___unnamed_1
+00007ffb03000040 (__TEXT,__const) non-external ___unnamed_1
+00007ffb03001190 (__TEXT,__const) non-external ___unnamed_1
+00007ffb030014a8 (__TEXT,__const) non-external ___unnamed_1
+00007ffb030000c0 (__TEXT,__const) non-external ___unnamed_2
+                 (undefined) external __objc_empty_cache (from libobjc)
+                 (undefined) external __swiftEmptyArrayStorage (from libswiftCore)
+                 (undefined) external __swiftEmptyDictionarySingleton (from libswiftCore)
+                 (undefined) weak external __swift_FORCE_LOAD_$_swiftCoreFoundation (from libswiftCoreFoundation)
+00007ffb431542b0 (__DATA_CONST,__const) non-external (was a private external) __swift_FORCE_LOAD_$_swiftCoreFoundation_$_CryptoKitPrivate
+                 (undefined) weak external __swift_FORCE_LOAD_$_swiftDarwin (from libswiftDarwin)
+00007ffb431542a8 (__DATA_CONST,__const) non-external (was a private external) __swift_FORCE_LOAD_$_swiftDarwin_$_CryptoKitPrivate
+                 (undefined) weak external __swift_FORCE_LOAD_$_swiftDispatch (from libswiftDispatch)
+00007ffb431542b8 (__DATA_CONST,__const) non-external (was a private external) __swift_FORCE_LOAD_$_swiftDispatch_$_CryptoKitPrivate
+                 (undefined) weak external automatically hidden __swift_FORCE_LOAD_$_swiftFoundation (from Foundation)
+00007ffb431542d0 (__DATA_CONST,__const) non-external (was a private external) __swift_FORCE_LOAD_$_swiftFoundation_$_CryptoKitPrivate
+                 (undefined) weak external __swift_FORCE_LOAD_$_swiftIOKit (from libswiftIOKit)
+00007ffb431542d8 (__DATA_CONST,__const) non-external (was a private external) __swift_FORCE_LOAD_$_swiftIOKit_$_CryptoKitPrivate
+                 (undefined) weak external __swift_FORCE_LOAD_$_swiftObjectiveC (from libswiftObjectiveC)
+00007ffb431542c0 (__DATA_CONST,__const) non-external (was a private external) __swift_FORCE_LOAD_$_swiftObjectiveC_$_CryptoKitPrivate
+                 (undefined) weak external __swift_FORCE_LOAD_$_swiftXPC (from libswiftXPC)
+00007ffb431542c8 (__DATA_CONST,__const) non-external (was a private external) __swift_FORCE_LOAD_$_swiftXPC_$_CryptoKitPrivate
+                 (undefined) weak external __swift_FORCE_LOAD_$_swiftos (from libswiftos)
+00007ffb431542e0 (__DATA_CONST,__const) non-external (was a private external) __swift_FORCE_LOAD_$_swiftos_$_CryptoKitPrivate
+00007ffb02fc1b8c (__TEXT,__text) non-external __swift_stdlib_malloc_size
+00007ffb02fd882a (__TEXT,__text) non-external __swift_stdlib_malloc_size
+00007ffb02fed5fb (__TEXT,__text) non-external __swift_stdlib_malloc_size
+00007ffb02ffa902 (__TEXT,__text) non-external __swift_stdlib_malloc_size
+                 (undefined) external __swift_stdlib_reportUnimplementedInitializer (from libswiftCore)
+                 (undefined) external _abort (from libSystem)
+00007ffb03003dbe (__TEXT,__swift5_typeref) non-external (was a private external) _associated conformance 16CryptoKitPrivate04CoreA10Hash2CurveVyxGAA11HashToGroupAA1GAaEP_AA0I0
+00007ffb03003dce (__TEXT,__swift5_typeref) non-external (was a private external) _associated conformance 16CryptoKitPrivate04CoreA10Hash2CurveVyxGAA11HashToGroupAA1HAaEP_0aB00G8Function
+00007ffb03003dc6 (__TEXT,__swift5_typeref) non-external (was a private external) _associated conformance 16CryptoKitPrivate04CoreA10Hash2CurveVyxGAA11HashToGroupAA2GEAaEP_AA16OPRFGroupElement
+00007ffb03003e18 (__TEXT,__swift5_typeref) non-external (was a private external) _associated conformance 16CryptoKitPrivate04CoreA5GroupVyxGAA0E0AA7ElementAaEP_AA0eF0
+00007ffb03003c92 (__TEXT,__swift5_typeref) non-external (was a private external) _associated conformance 16CryptoKitPrivate0aB47SecretSharing_ShamirShareGeneratorSerializationV21InternalSwiftProtobuf26_MessageImplementationBaseAASH
+00007ffb03003c8a (__TEXT,__swift5_typeref) non-external (was a private external) _associated conformance 16CryptoKitPrivate0aB47SecretSharing_ShamirShareGeneratorSerializationV21InternalSwiftProtobuf26_MessageImplementationBaseAaD0M0
+00007ffb03003d0c (__TEXT,__swift5_typeref) non-external (was a private external) _associated conformance 16CryptoKitPrivate0aB47SecretSharing_ShamirShareGeneratorSerializationV21InternalSwiftProtobuf7MessageAAs28CustomDebugStringConvertible
+00007ffb03003c82 (__TEXT,__swift5_typeref) non-external (was a private external) _associated conformance 16CryptoKitPrivate0aB47SecretSharing_ShamirShareGeneratorSerializationVSHAASQ
+00007ffb03004096 (__TEXT,__swift5_typeref) non-external (was a private external) _associated conformance 16CryptoKitPrivate0aB9ASN1ErrorOSHAASQ
+00007ffb03003d64 (__TEXT,__swift5_typeref) non-external (was a private external) _associated conformance 16CryptoKitPrivate0ab20SecretSharing_HybriddE11SharedStateV11CiphersuiteO21InternalSwiftProtobuf4EnumAASH
+00007ffb03003d6c (__TEXT,__swift5_typeref) non-external (was a private external) _associated conformance 16CryptoKitPrivate0ab20SecretSharing_HybriddE11SharedStateV11CiphersuiteO21InternalSwiftProtobuf4EnumAASY
+00007ffb03003d56 (__TEXT,__swift5_typeref) non-external (was a private external) _associated conformance 16CryptoKitPrivate0ab20SecretSharing_HybriddE11SharedStateV11CiphersuiteOSHAASQ
+00007ffb03003cfc (__TEXT,__swift5_typeref) non-external (was a private external) _associated conformance 16CryptoKitPrivate0ab20SecretSharing_HybriddE11SharedStateV11CiphersuiteOs12CaseIterableAA8AllCasessAFP_Sl
+00007ffb03003caa (__TEXT,__swift5_typeref) non-external (was a private external) _associated conformance 16CryptoKitPrivate0ab20SecretSharing_HybriddE11SharedStateV21InternalSwiftProtobuf26_MessageImplementationBaseAASH
+00007ffb03003ca2 (__TEXT,__swift5_typeref) non-external (was a private external) _associated conformance 16CryptoKitPrivate0ab20SecretSharing_HybriddE11SharedStateV21InternalSwiftProtobuf26_MessageImplementationBaseAaD0L0
+00007ffb03003cb2 (__TEXT,__swift5_typeref) non-external (was a private external) _associated conformance 16CryptoKitPrivate0ab20SecretSharing_HybriddE11SharedStateV21InternalSwiftProtobuf7MessageAAs28CustomDebugStringConvertible
+00007ffb03003c9a (__TEXT,__swift5_typeref) non-external (was a private external) _associated conformance 16CryptoKitPrivate0ab20SecretSharing_HybriddE11SharedStateVSHAASQ
+00007ffb03003cea (__TEXT,__swift5_typeref) non-external (was a private external) _associated conformance 16CryptoKitPrivate0ab20SecretSharing_HybriddE22GeneratorSerializationV21InternalSwiftProtobuf26_MessageImplementationBaseAASH
+00007ffb03003ce2 (__TEXT,__swift5_typeref) non-external (was a private external) _associated conformance 16CryptoKitPrivate0ab20SecretSharing_HybriddE22GeneratorSerializationV21InternalSwiftProtobuf26_MessageImplementationBaseAaD0L0
+00007ffb03003d04 (__TEXT,__swift5_typeref) non-external (was a private external) _associated conformance 16CryptoKitPrivate0ab20SecretSharing_HybriddE22GeneratorSerializationV21InternalSwiftProtobuf7MessageAAs28CustomDebugStringConvertible
+00007ffb03003cca (__TEXT,__swift5_typeref) non-external (was a private external) _associated conformance 16CryptoKitPrivate0ab20SecretSharing_HybriddE22GeneratorSerializationV9SealedBoxV21InternalSwiftProtobuf26_MessageImplementationBaseAASH
+00007ffb03003cc2 (__TEXT,__swift5_typeref) non-external (was a private external) _associated conformance 16CryptoKitPrivate0ab20SecretSharing_HybriddE22GeneratorSerializationV9SealedBoxV21InternalSwiftProtobuf26_MessageImplementationBaseAaF0N0
+00007ffb03003cd2 (__TEXT,__swift5_typeref) non-external (was a private external) _associated conformance 16CryptoKitPrivate0ab20SecretSharing_HybriddE22GeneratorSerializationV9SealedBoxV21InternalSwiftProtobuf7MessageAAs28CustomDebugStringConvertible
+00007ffb03003cba (__TEXT,__swift5_typeref) non-external (was a private external) _associated conformance 16CryptoKitPrivate0ab20SecretSharing_HybriddE22GeneratorSerializationV9SealedBoxVSHAASQ
+00007ffb03003cda (__TEXT,__swift5_typeref) non-external (was a private external) _associated conformance 16CryptoKitPrivate0ab20SecretSharing_HybriddE22GeneratorSerializationVSHAASQ
+00007ffb03003702 (__TEXT,__swift5_typeref) non-external (was a private external) _associated conformance 16CryptoKitPrivate11SecureBytesV10Foundation12DataProtocolAA11SubSequenceSl_AdE
+00007ffb0300371a (__TEXT,__swift5_typeref) non-external (was a private external) _associated conformance 16CryptoKitPrivate11SecureBytesV10Foundation12DataProtocolAA7RegionsAdEP_7ElementST11SubSequenceSlAD010ContiguousE0
+00007ffb0300370a (__TEXT,__swift5_typeref) non-external (was a private external) _associated conformance 16CryptoKitPrivate11SecureBytesV10Foundation12DataProtocolAA7RegionsAdEP_7ElementSTAD010ContiguousE0
+00007ffb03003712 (__TEXT,__swift5_typeref) non-external (was a private external) _associated conformance 16CryptoKitPrivate11SecureBytesV10Foundation12DataProtocolAA7RegionsAdEP_7ElementSTAdE
+00007ffb030036fa (__TEXT,__swift5_typeref) non-external (was a private external) _associated conformance 16CryptoKitPrivate11SecureBytesV10Foundation12DataProtocolAA7RegionsAdEP_SK
+00007ffb030036e4 (__TEXT,__swift5_typeref) non-external (was a private external) _associated conformance 16CryptoKitPrivate11SecureBytesV10Foundation12DataProtocolAASk
+00007ffb03003612 (__TEXT,__swift5_typeref) non-external (was a private external) _associated conformance 16CryptoKitPrivate11SecureBytesV10Foundation19MutableDataProtocolAASM
+00007ffb0300361a (__TEXT,__swift5_typeref) non-external (was a private external) _associated conformance 16CryptoKitPrivate11SecureBytesV10Foundation19MutableDataProtocolAASm
+00007ffb0300360a (__TEXT,__swift5_typeref) non-external (was a private external) _associated conformance 16CryptoKitPrivate11SecureBytesV10Foundation19MutableDataProtocolAaD0hI0
+00007ffb03003602 (__TEXT,__swift5_typeref) non-external (was a private external) _associated conformance 16CryptoKitPrivate11SecureBytesV5IndexVSHAASQ
+00007ffb030035fa (__TEXT,__swift5_typeref) non-external (was a private external) _associated conformance 16CryptoKitPrivate11SecureBytesV5IndexVSLAASQ
+00007ffb030035de (__TEXT,__swift5_typeref) non-external (was a private external) _associated conformance 16CryptoKitPrivate11SecureBytesV5IndexVSxAA6StrideSx_SL
+00007ffb030035e6 (__TEXT,__swift5_typeref) non-external (was a private external) _associated conformance 16CryptoKitPrivate11SecureBytesV5IndexVSxAA6StrideSx_s13SignedNumeric
+00007ffb030035d6 (__TEXT,__swift5_typeref) non-external (was a private external) _associated conformance 16CryptoKitPrivate11SecureBytesV5IndexVSxAASL
+00007ffb03003694 (__TEXT,__swift5_typeref) non-external (was a private external) _associated conformance 16CryptoKitPrivate11SecureBytesVSKAA11SubSequenceSl_SK
+00007ffb0300368c (__TEXT,__swift5_typeref) non-external (was a private external) _associated conformance 16CryptoKitPrivate11SecureBytesVSKAA7IndicesSl_SK
+00007ffb03003684 (__TEXT,__swift5_typeref) non-external (was a private external) _associated conformance 16CryptoKitPrivate11SecureBytesVSKAASl
+00007ffb0300364e (__TEXT,__swift5_typeref) non-external (was a private external) _associated conformance 16CryptoKitPrivate11SecureBytesVSMAA11SubSequenceSl_SM
+00007ffb03003646 (__TEXT,__swift5_typeref) non-external (was a private external) _associated conformance 16CryptoKitPrivate11SecureBytesVSMAASl
+00007ffb030036b0 (__TEXT,__swift5_typeref) non-external (was a private external) _associated conformance 16CryptoKitPrivate11SecureBytesVSTAA8IteratorST_St
+00007ffb03003676 (__TEXT,__swift5_typeref) non-external (was a private external) _associated conformance 16CryptoKitPrivate11SecureBytesVSkAA11SubSequenceSl_Sk
+00007ffb0300366e (__TEXT,__swift5_typeref) non-external (was a private external) _associated conformance 16CryptoKitPrivate11SecureBytesVSkAA7IndicesSl_Sk
+00007ffb0300365c (__TEXT,__swift5_typeref) non-external (was a private external) _associated conformance 16CryptoKitPrivate11SecureBytesVSkAASK
+00007ffb030036d6 (__TEXT,__swift5_typeref) non-external (was a private external) _associated conformance 16CryptoKitPrivate11SecureBytesVSlAA11SubSequenceSl_Sl
+00007ffb030036c6 (__TEXT,__swift5_typeref) non-external (was a private external) _associated conformance 16CryptoKitPrivate11SecureBytesVSlAA5IndexSl_SL
+00007ffb030036ce (__TEXT,__swift5_typeref) non-external (was a private external) _associated conformance 16CryptoKitPrivate11SecureBytesVSlAA7IndicesSl_Sl
+00007ffb030036be (__TEXT,__swift5_typeref) non-external (was a private external) _associated conformance 16CryptoKitPrivate11SecureBytesVSlAAST
+00007ffb03003638 (__TEXT,__swift5_typeref) non-external (was a private external) _associated conformance 16CryptoKitPrivate11SecureBytesVSmAA11SubSequenceSl_Sm
+00007ffb03003622 (__TEXT,__swift5_typeref) non-external (was a private external) _associated conformance 16CryptoKitPrivate11SecureBytesVSmAASl
+00007ffb03003c04 (__TEXT,__swift5_typeref) non-external (was a private external) _associated conformance 16CryptoKitPrivate15CKSecretSharingO06SecretE5ErrorV0feG4TypeOSHAASQ
+00007ffb030034f6 (__TEXT,__swift5_typeref) non-external (was a private external) _associated conformance 16CryptoKitPrivate15CKSecretSharingO25ShamirGeneratorPrimeFieldOSHAASQ
+00007ffb03003508 (__TEXT,__swift5_typeref) non-external (was a private external) _associated conformance 16CryptoKitPrivate15CKSecretSharingO25ShamirGeneratorPrimeFieldOs12CaseIterableAA8AllCasessAFP_Sl
+00007ffb030034ee (__TEXT,__swift5_typeref) non-external (was a private external) _associated conformance 16CryptoKitPrivate15CKSecretSharingO29HybridShareParameterSelectionOSHAASQ
+00007ffb030041ca (__TEXT,__swift5_typeref) non-external (was a private external) _associated conformance 16CryptoKitPrivate16Hash2FieldErrorsOSHAASQ
+00007ffb03003e42 (__TEXT,__swift5_typeref) non-external (was a private external) _associated conformance 16CryptoKitPrivate20CorecryptoCurvePointVyxGAA12GroupElementAA6ScalarAaEP_AA0gI0
+00007ffb03003e7e (__TEXT,__swift5_typeref) non-external (was a private external) _associated conformance 16CryptoKitPrivate22SecKeySEPInteropErrorsOSHAASQ
+00007ffb03003bf0 (__TEXT,__swift5_typeref) non-external (was a private external) _associated conformance 16CryptoKitPrivate24CKPIETFKeyBlindingErrorsOSHAASQ
+00007ffb0300357a (__TEXT,__swift5_typeref) non-external (was a private external) _associated conformance 16CryptoKitPrivate4HPKEO11CiphersuiteV0E8DefaultsOSHAASQ
+00007ffb0300358c (__TEXT,__swift5_typeref) non-external (was a private external) _associated conformance 16CryptoKitPrivate4HPKEO11CiphersuiteV0E8DefaultsOs12CaseIterableAA8AllCasessAHP_Sl
+00007ffb0300386e (__TEXT,__swift5_typeref) non-external (was a private external) _associated conformance 16CryptoKitPrivate4HPKEO3KDFOSHAASQ
+00007ffb03003880 (__TEXT,__swift5_typeref) non-external (was a private external) _associated conformance 16CryptoKitPrivate4HPKEO3KDFOs12CaseIterableAA8AllCasessAFP_Sl
+00007ffb03003eea (__TEXT,__swift5_typeref) non-external (was a private external) _associated conformance 16CryptoKitPrivate4HPKEO3KEMOSHAASQ
+00007ffb03003efc (__TEXT,__swift5_typeref) non-external (was a private external) _associated conformance 16CryptoKitPrivate4HPKEO3KEMOs12CaseIterableAA8AllCasessAFP_Sl
+00007ffb03003e98 (__TEXT,__swift5_typeref) non-external (was a private external) _associated conformance 16CryptoKitPrivate4HPKEO4AEADOSHAASQ
+00007ffb03003e90 (__TEXT,__swift5_typeref) non-external (was a private external) _associated conformance 16CryptoKitPrivate4HPKEO4AEADOs12CaseIterableAA8AllCasessAFP_Sl
+00007ffb03004296 (__TEXT,__swift5_typeref) non-external (was a private external) _associated conformance 16CryptoKitPrivate4HPKEO4ModeOSHAASQ
+00007ffb0300428e (__TEXT,__swift5_typeref) non-external (was a private external) _associated conformance 16CryptoKitPrivate4HPKEO4ModeOs12CaseIterableAA8AllCasessAFP_Sl
+00007ffb030034a4 (__TEXT,__swift5_typeref) non-external (was a private external) _associated conformance 16CryptoKitPrivate4HPKEO6ErrorsOSHAASQ
+00007ffb03004260 (__TEXT,__swift5_typeref) non-external (was a private external) _associated conformance 16CryptoKitPrivate4OPRFO4ModeOSHAASQ
+00007ffb03004258 (__TEXT,__swift5_typeref) non-external (was a private external) _associated conformance 16CryptoKitPrivate4OPRFO4ModeOs12CaseIterableAA8AllCasessAFP_Sl
+00007ffb03004268 (__TEXT,__swift5_typeref) non-external (was a private external) _associated conformance 16CryptoKitPrivate4OPRFO6ErrorsOSHAASQ
+00007ffb0300382a (__TEXT,__swift5_typeref) non-external (was a private external) _associated conformance 16CryptoKitPrivate5APSICO15SupportedCurvesOSHAASQ
+00007ffb0300383c (__TEXT,__swift5_typeref) non-external (was a private external) _associated conformance 16CryptoKitPrivate5APSICO15SupportedCurvesOs12CaseIterableAA8AllCasessAFP_Sl
+00007ffb03003888 (__TEXT,__swift5_typeref) non-external (was a private external) _associated conformance 16CryptoKitPrivate5DHKEMVyxGAA3KEMAA9PublicKeyAaEP_AA09KEMPublicG0
+00007ffb03003f8e (__TEXT,__swift5_typeref) non-external (was a private external) _associated conformance 16CryptoKitPrivate9TDMErrorsOSHAASQ
+00007ffb0300406a (__TEXT,__swift5_typeref) non-external (was a private external) _associated conformance 9CryptoKit10Curve25519O12KeyAgreementO06PublicD0V0aB7Private08DHPublicD0AH09EphemeralgD0AhIP_AH09DHPrivateD0
+00007ffb03004080 (__TEXT,__swift5_typeref) non-external (was a private external) _associated conformance 9CryptoKit10Curve25519O12KeyAgreementO06PublicD0V0aB7Private09KEMPublicD0AH7fromKEMAhIP_AH0J0
+00007ffb03004056 (__TEXT,__swift5_typeref) non-external (was a private external) _associated conformance 9CryptoKit10Curve25519O12KeyAgreementO07PrivateD0V0abF0010KEMPrivateD0AH06PublicD0AhIP_AH09KEMPublicD0
+00007ffb0300404e (__TEXT,__swift5_typeref) non-external (was a private external) _associated conformance 9CryptoKit10Curve25519O12KeyAgreementO07PrivateD0V0abF009DHPrivateD0AH06PublicD0AH010KEMPrivateD0P_AH08DHPublicD0
+00007ffb03004088 (__TEXT,__swift5_typeref) non-external (was a private external) _associated conformance 9CryptoKit10Curve25519O12KeyAgreementO0aB7Private11DHPrimitiveAF06PublicD0AfGP_AF08DHPublicD0
+00007ffb030039fc (__TEXT,__swift5_typeref) non-external (was a private external) _associated conformance 9CryptoKit13SecureEnclaveO4P256O12KeyAgreementO07PrivateF0V0abH0010KEMPrivateF0AJ06PublicF0AjKP_AJ09KEMPublicF0
+00007ffb030039f4 (__TEXT,__swift5_typeref) non-external (was a private external) _associated conformance 9CryptoKit13SecureEnclaveO4P256O12KeyAgreementO07PrivateF0V0abH009DHPrivateF0AJ06PublicF0AJ010KEMPrivateF0P_AJ08DHPublicF0
+00007ffb03003a4c (__TEXT,__swift5_typeref) non-external (was a private external) _associated conformance 9CryptoKit4P256O12KeyAgreementO06PublicD0V0aB7Private08DHPublicD0AH09EphemeralgD0AhIP_AH09DHPrivateD0
+00007ffb03003a62 (__TEXT,__swift5_typeref) non-external (was a private external) _associated conformance 9CryptoKit4P256O12KeyAgreementO06PublicD0V0aB7Private09KEMPublicD0AH7fromKEMAhIP_AH0J0
+00007ffb03003a3e (__TEXT,__swift5_typeref) non-external (was a private external) _associated conformance 9CryptoKit4P256O12KeyAgreementO07PrivateD0V0abF0010KEMPrivateD0AH06PublicD0AhIP_AH09KEMPublicD0
+00007ffb03003a36 (__TEXT,__swift5_typeref) non-external (was a private external) _associated conformance 9CryptoKit4P256O12KeyAgreementO07PrivateD0V0abF009DHPrivateD0AH06PublicD0AH010KEMPrivateD0P_AH08DHPublicD0
+00007ffb03003a8e (__TEXT,__swift5_typeref) non-external (was a private external) _associated conformance 9CryptoKit4P256O12KeyAgreementO0aB7Private11DHPrimitiveAF06PublicD0AfGP_AF08DHPublicD0
+00007ffb03003ab8 (__TEXT,__swift5_typeref) non-external (was a private external) _associated conformance 9CryptoKit4P384O12KeyAgreementO06PublicD0V0aB7Private08DHPublicD0AH09EphemeralgD0AhIP_AH09DHPrivateD0
+00007ffb03003ace (__TEXT,__swift5_typeref) non-external (was a private external) _associated conformance 9CryptoKit4P384O12KeyAgreementO06PublicD0V0aB7Private09KEMPublicD0AH7fromKEMAhIP_AH0J0
+00007ffb03003aa4 (__TEXT,__swift5_typeref) non-external (was a private external) _associated conformance 9CryptoKit4P384O12KeyAgreementO07PrivateD0V0abF0010KEMPrivateD0AH06PublicD0AhIP_AH09KEMPublicD0
+00007ffb03003a9c (__TEXT,__swift5_typeref) non-external (was a private external) _associated conformance 9CryptoKit4P384O12KeyAgreementO07PrivateD0V0abF009DHPrivateD0AH06PublicD0AH010KEMPrivateD0P_AH08DHPublicD0
+00007ffb03003ad6 (__TEXT,__swift5_typeref) non-external (was a private external) _associated conformance 9CryptoKit4P384O12KeyAgreementO0aB7Private11DHPrimitiveAF06PublicD0AfGP_AF08DHPublicD0
+00007ffb03003b00 (__TEXT,__swift5_typeref) non-external (was a private external) _associated conformance 9CryptoKit4P521O12KeyAgreementO06PublicD0V0aB7Private08DHPublicD0AH09EphemeralgD0AhIP_AH09DHPrivateD0
+00007ffb03003b16 (__TEXT,__swift5_typeref) non-external (was a private external) _associated conformance 9CryptoKit4P521O12KeyAgreementO06PublicD0V0aB7Private09KEMPublicD0AH7fromKEMAhIP_AH0J0
+00007ffb03003aec (__TEXT,__swift5_typeref) non-external (was a private external) _associated conformance 9CryptoKit4P521O12KeyAgreementO07PrivateD0V0abF0010KEMPrivateD0AH06PublicD0AhIP_AH09KEMPublicD0
+00007ffb03003ae4 (__TEXT,__swift5_typeref) non-external (was a private external) _associated conformance 9CryptoKit4P521O12KeyAgreementO07PrivateD0V0abF009DHPrivateD0AH06PublicD0AH010KEMPrivateD0P_AH08DHPublicD0
+00007ffb03003b1e (__TEXT,__swift5_typeref) non-external (was a private external) _associated conformance 9CryptoKit4P521O12KeyAgreementO0aB7Private11DHPrimitiveAF06PublicD0AfGP_AF08DHPublicD0
+00007ffb030034ac (__TEXT,__swift5_typeref) non-external (was a private external) _associated conformance So11CFStringRefa14CoreFoundation9_CFObjectSCSH
+00007ffb030034b4 (__TEXT,__swift5_typeref) non-external (was a private external) _associated conformance So11CFStringRefaSHSCSQ
+                 (undefined) external _cc_cmp_safe (from libSystem)
+                 (undefined) external _ccapsic_client_check_intersect_response (from libSystem)
+                 (undefined) external _ccapsic_client_generate_match_response (from libSystem)
+                 (undefined) external _ccapsic_client_init (from libSystem)
+                 (undefined) external _ccapsic_client_state_sizeof (from libSystem)
+                 (undefined) external _ccder_decode_rsa_pub (from libSystem)
+                 (undefined) external _ccder_decode_rsa_pub_n (from libSystem)
+                 (undefined) external _ccder_encode_rsa_pub (from libSystem)
+                 (undefined) external _ccder_encode_rsa_pub_size (from libSystem)
+                 (undefined) external _ccec_compressed_x962_export_pub (from libSystem)
+                 (undefined) external _ccec_compressed_x962_export_pub_size (from libSystem)
+                 (undefined) external _ccec_cp_256 (from libSystem)
+                 (undefined) external _ccec_cp_384 (from libSystem)
+                 (undefined) external _ccec_cp_521 (from libSystem)
+                 (undefined) external _ccec_validate_pub (from libSystem)
+                 (undefined) external _ccec_x963_import_pub (from libSystem)
+                 (undefined) external _cchkdf (from libSystem)
+                 (undefined) external _ccrng (from libSystem)
+                 (undefined) external _ccrsa_generate_key (from libSystem)
+                 (undefined) external _ccrsabssa_blind_message (from libSystem)
+                 (undefined) external _ccrsabssa_ciphersuite_rsa2048_sha384 (from libSystem)
+                 (undefined) external _ccrsabssa_ciphersuite_rsa3072_sha384 (from libSystem)
+                 (undefined) external _ccrsabssa_ciphersuite_rsa4096_sha384 (from libSystem)
+                 (undefined) external _ccrsabssa_sign_blinded_message (from libSystem)
+                 (undefined) external _ccrsabssa_unblind_signature (from libSystem)
+                 (undefined) external _ccscrypt (from libSystem)
+                 (undefined) external _ccscrypt_storage_size (from libSystem)
+                 (undefined) external _ccsha256_di (from libSystem)
+                 (undefined) external _ccspake_cp_256 (from libSystem)
+                 (undefined) external _ccspake_kex_generate (from libSystem)
+                 (undefined) external _ccspake_kex_process (from libSystem)
+                 (undefined) external _ccspake_mac_compute (from libSystem)
+                 (undefined) external _ccspake_mac_hkdf_cmac_aes128_sha256 (from libSystem)
+                 (undefined) external _ccspake_mac_verify_and_get_session_key (from libSystem)
+                 (undefined) external _ccspake_prover_init (from libSystem)
+                 (undefined) external _ccspake_sizeof_point (from libSystem)
+                 (undefined) external _ccspake_sizeof_w (from libSystem)
+                 (undefined) external _ccss_shamir_parameters_init (from libSystem)
+                 (undefined) external _ccss_shamir_share_bag_add_share (from libSystem)
+                 (undefined) external _ccss_shamir_share_bag_init (from libSystem)
+                 (undefined) external _ccss_shamir_share_bag_recover_secret (from libSystem)
+                 (undefined) external _ccss_shamir_share_generator_deserialize (from libSystem)
+                 (undefined) external _ccss_shamir_share_generator_generate_share (from libSystem)
+                 (undefined) external _ccss_shamir_share_generator_init (from libSystem)
+                 (undefined) external _ccss_shamir_share_generator_init_with_secrets_less_than_prime (from libSystem)
+                 (undefined) external _ccss_shamir_share_generator_serialize (from libSystem)
+                 (undefined) external _ccss_shamir_share_init (from libSystem)
+                 (undefined) external _ccss_sizeof_generator (from libSystem)
+                 (undefined) external _ccss_sizeof_parameters_fix (from CryptoKitCBridging)
+                 (undefined) external _ccss_sizeof_shamir_share_generator_serialization (from libSystem)
+                 (undefined) external _ccss_sizeof_share (from libSystem)
+                 (undefined) external _ccss_sizeof_share_bag (from libSystem)
+00007ffb02fbb280 (__TEXT,__text) external _ciphersuiteForKeyByteCount
+00007ffb02fc2460 (__TEXT,__text) external _cryptokit_scrypt
+                 (undefined) external _free (from libSystem)
+                 (undefined) external _getccec_pub_ctx_size (from CryptoKitCBridging)
+                 (undefined) external _kSecAttrAccessibleAfterFirstUnlockThisDeviceOnly (from Security)
+                 (undefined) external _kSecAttrKeyClass (from Security)
+                 (undefined) external _kSecAttrKeyClassPrivate (from Security)
+                 (undefined) external _kSecAttrKeyClassPublic (from Security)
+                 (undefined) external _kSecAttrKeySizeInBits (from Security)
+                 (undefined) external _kSecAttrKeyType (from Security)
+                 (undefined) external _kSecAttrKeyTypeECSECPrimeRandom (from Security)
+                 (undefined) external _kSecRandomDefault (from Security)
+00007ffb02fd7e90 (__TEXT,__text) non-external _keypath_getTm
+00007ffb02fd7f00 (__TEXT,__text) non-external _keypath_setTm
+                 (undefined) external _log2 (from libSystem)
+                 (undefined) external _malloc (from libSystem)
+                 (undefined) external _malloc_size (from libSystem)
+                 (undefined) external _memcmp (from libSystem)
+                 (undefined) external _memcpy (from libSystem)
+                 (undefined) external _memmove (from libSystem)
+                 (undefined) external _memset (from libSystem)
+                 (undefined) external _memset_s (from libSystem)
+                 (undefined) external _objc_alloc (from libobjc)
+                 (undefined) external _objc_allocWithZone (from libobjc)
+                 (undefined) external _objc_alloc_init (from libobjc)
+                 (undefined) external _objc_autorelease (from libobjc)
+                 (undefined) external _objc_autoreleaseReturnValue (from libobjc)
+                 (undefined) external _objc_msgSend (from libobjc)
+                 (undefined) external _objc_msgSendSuper2 (from libobjc)
+                 (undefined) external _objc_opt_self (from libobjc)
+                 (undefined) external _objc_release (from libobjc)
+                 (undefined) external _objc_retain (from libobjc)
+                 (undefined) external _objc_retainAutorelease (from libobjc)
+                 (undefined) external _objc_retainAutoreleaseReturnValue (from libobjc)
+                 (undefined) external _objc_retainAutoreleasedReturnValue (from libobjc)
+                 (undefined) external _objc_storeStrong (from libobjc)
+                 (undefined) external _swift_allocBox (from libswiftCore)
+                 (undefined) external _swift_allocError (from libswiftCore)
+                 (undefined) external _swift_allocObject (from libswiftCore)
+                 (undefined) external _swift_allocateGenericValueMetadata (from libswiftCore)
+                 (undefined) external _swift_arrayInitWithCopy (from libswiftCore)
+                 (undefined) external _swift_beginAccess (from libswiftCore)
+                 (undefined) external _swift_bridgeObjectRelease (from libswiftCore)
+                 (undefined) external _swift_bridgeObjectRelease_n (from libswiftCore)
+                 (undefined) external _swift_bridgeObjectRetain (from libswiftCore)
+                 (undefined) external _swift_checkMetadataState (from libswiftCore)
+                 (undefined) external _swift_deallocClassInstance (from libswiftCore)
+                 (undefined) external _swift_deallocObject (from libswiftCore)
+                 (undefined) external _swift_deallocPartialClassInstance (from libswiftCore)
+                 (undefined) external _swift_deletedMethodError (from libswiftCore)
+                 (undefined) external _swift_dynamicCast (from libswiftCore)
+                 (undefined) external _swift_dynamicCastClass (from libswiftCore)
+                 (undefined) external _swift_dynamicCastObjCClass (from libswiftCore)
+                 (undefined) external _swift_dynamicCastObjCClassUnconditional (from libswiftCore)
+                 (undefined) external _swift_endAccess (from libswiftCore)
+                 (undefined) external _swift_errorRelease (from libswiftCore)
+                 (undefined) external _swift_errorRetain (from libswiftCore)
+                 (undefined) external _swift_getAssociatedConformanceWitness (from libswiftCore)
+                 (undefined) external _swift_getAssociatedTypeWitness (from libswiftCore)
+                 (undefined) external _swift_getEnumTagSinglePayloadGeneric (from libswiftCore)
+                 (undefined) external _swift_getForeignTypeMetadata (from libswiftCore)
+                 (undefined) external _swift_getGenericMetadata (from libswiftCore)
+                 (undefined) external _swift_getObjCClassMetadata (from libswiftCore)
+                 (undefined) external _swift_getObjectType (from libswiftCore)
+                 (undefined) external _swift_getSingletonMetadata (from libswiftCore)
+                 (undefined) external _swift_getTypeByMangledNameInContext (from libswiftCore)
+                 (undefined) external _swift_getTypeByMangledNameInContextInMetadataState (from libswiftCore)
+                 (undefined) external _swift_getWitnessTable (from libswiftCore)
+                 (undefined) external _swift_initClassMetadata2 (from libswiftCore)
+                 (undefined) external _swift_initStackObject (from libswiftCore)
+                 (undefined) external _swift_initStaticObject (from libswiftCore)
+                 (undefined) external _swift_initStructMetadata (from libswiftCore)
+                 (undefined) external _swift_isUniquelyReferenced_nonNull_native (from libswiftCore)
+                 (undefined) external _swift_isaMask (from libswiftCore)
+                 (undefined) external _swift_lookUpClassMethod (from libswiftCore)
+                 (undefined) external _swift_makeBoxUnique (from libswiftCore)
+                 (undefined) external _swift_once (from libswiftCore)
+                 (undefined) external _swift_release (from libswiftCore)
+                 (undefined) external _swift_release_n (from libswiftCore)
+                 (undefined) external _swift_retain (from libswiftCore)
+                 (undefined) external _swift_retain_n (from libswiftCore)
+                 (undefined) external _swift_slowAlloc (from libswiftCore)
+                 (undefined) external _swift_slowDealloc (from libswiftCore)
+                 (undefined) external _swift_storeEnumTagSinglePayloadGeneric (from libswiftCore)
+                 (undefined) external _swift_unexpectedError (from libswiftCore)
+                 (undefined) external _swift_unknownObjectRelease (from libswiftCore)
+                 (undefined) external _swift_unknownObjectRetain (from libswiftCore)
+                 (undefined) external _swift_updateClassMetadata2 (from libswiftCore)
+                 (undefined) external _swift_willThrow (from libswiftCore)
+00007ffb03003722 (__TEXT,__swift5_typeref) non-external (was a private external) _symbolic $s10Foundation12DataProtocolP
+00007ffb030038c2 (__TEXT,__swift5_typeref) non-external (was a private external) _symbolic $s16CryptoKitPrivate11DHPrimitiveP
+00007ffb0300391c (__TEXT,__swift5_typeref) non-external (was a private external) _symbolic $s16CryptoKitPrivate11DHPublicKeyP
+00007ffb0300401a (__TEXT,__swift5_typeref) non-external (was a private external) _symbolic $s16CryptoKitPrivate11GroupScalarP
+00007ffb03003df4 (__TEXT,__swift5_typeref) non-external (was a private external) _symbolic $s16CryptoKitPrivate11HashToGroupP
+00007ffb0300374e (__TEXT,__swift5_typeref) non-external (was a private external) _symbolic $s16CryptoKitPrivate11ZeroizationP
+00007ffb030038e6 (__TEXT,__swift5_typeref) non-external (was a private external) _symbolic $s16CryptoKitPrivate12DHPrivateKeyP
+00007ffb03003e54 (__TEXT,__swift5_typeref) non-external (was a private external) _symbolic $s16CryptoKitPrivate12GroupElementP
+00007ffb03003a6a (__TEXT,__swift5_typeref) non-external (was a private external) _symbolic $s16CryptoKitPrivate12KEMPublicKeyP
+00007ffb03003b2c (__TEXT,__swift5_typeref) non-external (was a private external) _symbolic $s16CryptoKitPrivate13AEADSealedBoxP
+00007ffb03003a10 (__TEXT,__swift5_typeref) non-external (was a private external) _symbolic $s16CryptoKitPrivate13KEMPrivateKeyP
+00007ffb03004214 (__TEXT,__swift5_typeref) non-external (was a private external) _symbolic $s16CryptoKitPrivate16OPRFGroupElementP
+00007ffb030038a8 (__TEXT,__swift5_typeref) non-external (was a private external) _symbolic $s16CryptoKitPrivate3KEMP
+00007ffb03003e26 (__TEXT,__swift5_typeref) non-external (was a private external) _symbolic $s16CryptoKitPrivate5GroupP
+00007ffb03003b60 (__TEXT,__swift5_typeref) non-external (was a private external) _symbolic $s16CryptoKitPrivate6CipherP
+00007ffb0300369c (__TEXT,__swift5_typeref) non-external (was a private external) _symbolic $sSK
+00007ffb03003656 (__TEXT,__swift5_typeref) non-external (was a private external) _symbolic $sSM
+00007ffb030036b8 (__TEXT,__swift5_typeref) non-external (was a private external) _symbolic $sST
+00007ffb03003d5e (__TEXT,__swift5_typeref) non-external (was a private external) _symbolic $sSY
+00007ffb0300367e (__TEXT,__swift5_typeref) non-external (was a private external) _symbolic $sSk
+00007ffb030036de (__TEXT,__swift5_typeref) non-external (was a private external) _symbolic $sSl
+00007ffb03003640 (__TEXT,__swift5_typeref) non-external (was a private external) _symbolic $sSm
+00007ffb030035f4 (__TEXT,__swift5_typeref) non-external (was a private external) _symbolic $sSx
+00007ffb03003516 (__TEXT,__swift5_typeref) non-external (was a private external) _symbolic $ss12CaseIterableP
+00007ffb0300396e (__TEXT,__swift5_typeref) non-external (was a private external) _symbolic 19EphemeralPrivateKey_____Qz 16CryptoKitPrivate11DHPublicKeyP
+00007ffb03003940 (__TEXT,__swift5_typeref) non-external (was a private external) _symbolic 19EphemeralPrivateKey______06PublicC0_____QZ 16CryptoKitPrivate11DHPublicKeyP AA010KEMPrivateE0P
+00007ffb03003fe2 (__TEXT,__swift5_typeref) non-external (was a private external) _symbolic 1G_____Qz 16CryptoKitPrivate11HashToGroupP
+00007ffb03003ff8 (__TEXT,__swift5_typeref) non-external (was a private external) _symbolic 1G______7Element_____QZ 16CryptoKitPrivate11HashToGroupP AA0F0P
+00007ffb03004010 (__TEXT,__swift5_typeref) non-external (was a private external) _symbolic 1H_____Qz 16CryptoKitPrivate11HashToGroupP
+00007ffb03003dd6 (__TEXT,__swift5_typeref) non-external (was a private external) _symbolic 1H_____Qz 9CryptoKit28CorecryptoSupportedNISTCurveP
+00007ffb03003fec (__TEXT,__swift5_typeref) non-external (was a private external) _symbolic 2GE_____Qz 16CryptoKitPrivate11HashToGroupP
+00007ffb0300378e (__TEXT,__swift5_typeref) non-external (was a private external) _symbolic 2GE______6Scalar_____QZ 16CryptoKitPrivate11HashToGroupP AA0F7ElementP
+00007ffb03003b52 (__TEXT,__swift5_typeref) non-external (was a private external) _symbolic 5Nonce_____Qz 16CryptoKitPrivate13AEADSealedBoxP
+00007ffb03003b7e (__TEXT,__swift5_typeref) non-external (was a private external) _symbolic 5Nonce_____Qz 16CryptoKitPrivate6CipherP
+00007ffb0300403e (__TEXT,__swift5_typeref) non-external (was a private external) _symbolic 6Scalar_____Qz 16CryptoKitPrivate12GroupElementP
+00007ffb03003fd2 (__TEXT,__swift5_typeref) non-external (was a private external) _symbolic 7Element_____Qz 16CryptoKitPrivate5GroupP
+00007ffb03004204 (__TEXT,__swift5_typeref) non-external (was a private external) _symbolic 7fromKEM_____Qz 16CryptoKitPrivate12KEMPublicKeyP
+00007ffb030041e4 (__TEXT,__swift5_typeref) non-external (was a private external) _symbolic 7fromKEM______9PublicKey_____QZ 16CryptoKitPrivate12KEMPublicKeyP AA3KEMP
+00007ffb03003890 (__TEXT,__swift5_typeref) non-external (was a private external) _symbolic 9PublicKey_____Qz 16CryptoKitPrivate11DHPrimitiveP
+00007ffb0300390a (__TEXT,__swift5_typeref) non-external (was a private external) _symbolic 9PublicKey_____Qz 16CryptoKitPrivate13KEMPrivateKeyP
+00007ffb030041d2 (__TEXT,__swift5_typeref) non-external (was a private external) _symbolic 9PublicKey_____Qz 16CryptoKitPrivate3KEMP
+00007ffb03003b8c (__TEXT,__swift5_typeref) non-external (was a private external) _symbolic 9SealedBox_____Qz 16CryptoKitPrivate6CipherP
+00007ffb03003856 (__TEXT,__swift5_typeref) non-external (was a private external) _symbolic SPy_____G So7ccec_cpV
+00007ffb03003440 (__TEXT,__swift5_typeref) non-external (was a private external) _symbolic SPy_____GSg So4cczpV
+00007ffb03003498 (__TEXT,__swift5_typeref) non-external (was a private external) _symbolic SPy_____GSg So7ccec_cpV
+00007ffb03003480 (__TEXT,__swift5_typeref) non-external (was a private external) _symbolic SPy_____GSg s5UInt8V
+00007ffb03003c28 (__TEXT,__swift5_typeref) non-external (was a private external) _symbolic SS
+00007ffb03003cf2 (__TEXT,__swift5_typeref) non-external (was a private external) _symbolic Say_____G 16CryptoKitPrivate0ab20SecretSharing_HybriddE11SharedStateV11CiphersuiteO
+00007ffb030034fe (__TEXT,__swift5_typeref) non-external (was a private external) _symbolic Say_____G 16CryptoKitPrivate15CKSecretSharingO25ShamirGeneratorPrimeFieldO
+00007ffb03003582 (__TEXT,__swift5_typeref) non-external (was a private external) _symbolic Say_____G 16CryptoKitPrivate4HPKEO11CiphersuiteV0E8DefaultsO
+00007ffb03003876 (__TEXT,__swift5_typeref) non-external (was a private external) _symbolic Say_____G 16CryptoKitPrivate4HPKEO3KDFO
+00007ffb03003ef2 (__TEXT,__swift5_typeref) non-external (was a private external) _symbolic Say_____G 16CryptoKitPrivate4HPKEO3KEMO
+00007ffb03003e86 (__TEXT,__swift5_typeref) non-external (was a private external) _symbolic Say_____G 16CryptoKitPrivate4HPKEO4AEADO
+00007ffb03004284 (__TEXT,__swift5_typeref) non-external (was a private external) _symbolic Say_____G 16CryptoKitPrivate4HPKEO4ModeO
+00007ffb0300424e (__TEXT,__swift5_typeref) non-external (was a private external) _symbolic Say_____G 16CryptoKitPrivate4OPRFO4ModeO
+00007ffb03003832 (__TEXT,__swift5_typeref) non-external (was a private external) _symbolic Say_____G 16CryptoKitPrivate5APSICO15SupportedCurvesO
+00007ffb0300353c (__TEXT,__swift5_typeref) non-external (was a private external) _symbolic Say_____G s5UInt8V
+00007ffb0300347c (__TEXT,__swift5_typeref) non-external (was a private external) _symbolic Sb
+00007ffb03003416 (__TEXT,__swift5_typeref) non-external (was a private external) _symbolic Si
+00007ffb03003d34 (__TEXT,__swift5_typeref) non-external (was a private external) _symbolic Si______t 21InternalSwiftProtobuf8_NameMapV0D11DescriptionO
+00007ffb03003664 (__TEXT,__swift5_typeref) non-external (was a private external) _symbolic Sny_____G 16CryptoKitPrivate11SecureBytesV5IndexV
+00007ffb03003da2 (__TEXT,__swift5_typeref) non-external (was a private external) _symbolic So21CKCBCorecryptoECPointC
+00007ffb03003d80 (__TEXT,__swift5_typeref) non-external (was a private external) _symbolic So22CKCBCorecryptoECScalarC
+00007ffb03003c42 (__TEXT,__swift5_typeref) non-external (was a private external) _symbolic So6NSDataC
+00007ffb03003b9e (__TEXT,__swift5_typeref) non-external (was a private external) _symbolic So8NSObjectC
+00007ffb030039b0 (__TEXT,__swift5_typeref) non-external (was a private external) _symbolic Spy_____G So17ccss_shamir_shareV
+00007ffb030039a6 (__TEXT,__swift5_typeref) non-external (was a private external) _symbolic Spy_____G So22ccss_shamir_parametersV
+00007ffb030039ba (__TEXT,__swift5_typeref) non-external (was a private external) _symbolic Spy_____G So27ccss_shamir_share_generatorV
+00007ffb03003470 (__TEXT,__swift5_typeref) non-external (was a private external) _symbolic Spy_____GSg So11ccrng_stateV
+00007ffb03003458 (__TEXT,__swift5_typeref) non-external (was a private external) _symbolic Spy_____GSg So22ccss_shamir_parametersV
+00007ffb0300399a (__TEXT,__swift5_typeref) non-external (was a private external) _symbolic _____ 10Foundation4DataV
+00007ffb03003d74 (__TEXT,__swift5_typeref) non-external (was a private external) _symbolic _____ 16CryptoKitPrivate04CoreA10Hash2CurveV
+00007ffb03003d7a (__TEXT,__swift5_typeref) non-external (was a private external) _symbolic _____ 16CryptoKitPrivate04CoreA11GroupScalarV
+00007ffb03003e20 (__TEXT,__swift5_typeref) non-external (was a private external) _symbolic _____ 16CryptoKitPrivate04CoreA5GroupV
+00007ffb03003c5e (__TEXT,__swift5_typeref) non-external (was a private external) _symbolic _____ 16CryptoKitPrivate0aB47SecretSharing_ShamirShareGeneratorSerializationV
+00007ffb0300409e (__TEXT,__swift5_typeref) non-external (was a private external) _symbolic _____ 16CryptoKitPrivate0aB5ErrorO
+00007ffb030040b2 (__TEXT,__swift5_typeref) non-external (was a private external) _symbolic _____ 16CryptoKitPrivate0aB9ASN1ErrorO
+00007ffb03003c70 (__TEXT,__swift5_typeref) non-external (was a private external) _symbolic _____ 16CryptoKitPrivate0ab20SecretSharing_HybriddE11SharedStateV
+00007ffb03003c76 (__TEXT,__swift5_typeref) non-external (was a private external) _symbolic _____ 16CryptoKitPrivate0ab20SecretSharing_HybriddE11SharedStateV11CiphersuiteO
+00007ffb03003c7c (__TEXT,__swift5_typeref) non-external (was a private external) _symbolic _____ 16CryptoKitPrivate0ab20SecretSharing_HybriddE22GeneratorSerializationV
+00007ffb03003c6a (__TEXT,__swift5_typeref) non-external (was a private external) _symbolic _____ 16CryptoKitPrivate0ab20SecretSharing_HybriddE22GeneratorSerializationV9SealedBoxV
+00007ffb030035d0 (__TEXT,__swift5_typeref) non-external (was a private external) _symbolic _____ 16CryptoKitPrivate11SecureBytesV
+00007ffb030035ca (__TEXT,__swift5_typeref) non-external (was a private external) _symbolic _____ 16CryptoKitPrivate11SecureBytesV13BackingHeaderV
+00007ffb030035ee (__TEXT,__swift5_typeref) non-external (was a private external) _symbolic _____ 16CryptoKitPrivate11SecureBytesV5IndexV
+00007ffb030035c4 (__TEXT,__swift5_typeref) non-external (was a private external) _symbolic _____ 16CryptoKitPrivate11SecureBytesV7BackingC
+00007ffb030041a8 (__TEXT,__swift5_typeref) non-external (was a private external) _symbolic _____ 16CryptoKitPrivate12SymmetricKeyV
+00007ffb030040b8 (__TEXT,__swift5_typeref) non-external (was a private external) _symbolic _____ 16CryptoKitPrivate15CKSecretSharingO
+00007ffb03003c0c (__TEXT,__swift5_typeref) non-external (was a private external) _symbolic _____ 16CryptoKitPrivate15CKSecretSharingO06SecretE5ErrorV
+00007ffb03003c12 (__TEXT,__swift5_typeref) non-external (was a private external) _symbolic _____ 16CryptoKitPrivate15CKSecretSharingO06SecretE5ErrorV0feG4TypeO
+00007ffb03003994 (__TEXT,__swift5_typeref) non-external (was a private external) _symbolic _____ 16CryptoKitPrivate15CKSecretSharingO11ShamirShareV
+00007ffb030040c4 (__TEXT,__swift5_typeref) non-external (was a private external) _symbolic _____ 16CryptoKitPrivate15CKSecretSharingO15HybridGeneratorV
+00007ffb030040d6 (__TEXT,__swift5_typeref) non-external (was a private external) _symbolic _____ 16CryptoKitPrivate15CKSecretSharingO17HybridSecretShareV
+00007ffb030040d0 (__TEXT,__swift5_typeref) non-external (was a private external) _symbolic _____ 16CryptoKitPrivate15CKSecretSharingO19HybridReconstructorV
+00007ffb030039c4 (__TEXT,__swift5_typeref) non-external (was a private external) _symbolic _____ 16CryptoKitPrivate15CKSecretSharingO20ShamirShareGeneratorV
+00007ffb03003510 (__TEXT,__swift5_typeref) non-external (was a private external) _symbolic _____ 16CryptoKitPrivate15CKSecretSharingO25ShamirGeneratorPrimeFieldO
+00007ffb0300352a (__TEXT,__swift5_typeref) non-external (was a private external) _symbolic _____ 16CryptoKitPrivate15CKSecretSharingO29HybridShareParameterSelectionO
+00007ffb03003530 (__TEXT,__swift5_typeref) non-external (was a private external) _symbolic _____ 16CryptoKitPrivate15CKSecretSharingO29HybridShareParameterSelectionO11suiteParamsV
+00007ffb030039ca (__TEXT,__swift5_typeref) non-external (was a private external) _symbolic _____ 16CryptoKitPrivate15CKSecretSharingO30ShamirShareSecretReconstructorV
+00007ffb030040be (__TEXT,__swift5_typeref) non-external (was a private external) _symbolic _____ 16CryptoKitPrivate15CKSecretSharingO32CKHybridSecretShareInternalState33_CE506D4359C10354E8EAAF853DBEE0AALLC
+00007ffb030039a0 (__TEXT,__swift5_typeref) non-external (was a private external) _symbolic _____ 16CryptoKitPrivate15CKSecretSharingO32CKShamirShareSharedInternalStateC
+00007ffb030041c4 (__TEXT,__swift5_typeref) non-external (was a private external) _symbolic _____ 16CryptoKitPrivate16Hash2FieldErrorsO
+00007ffb030041a2 (__TEXT,__swift5_typeref) non-external (was a private external) _symbolic _____ 16CryptoKitPrivate16SymmetricKeySizeV
+00007ffb03003c36 (__TEXT,__swift5_typeref) non-external (was a private external) _symbolic _____ 16CryptoKitPrivate18AlishaSPAKE2ProverC
+00007ffb03003bac (__TEXT,__swift5_typeref) non-external (was a private external) _symbolic _____ 16CryptoKitPrivate18CKPIETFKeyBlindingC
+00007ffb03003bf8 (__TEXT,__swift5_typeref) non-external (was a private external) _symbolic _____ 16CryptoKitPrivate19RSAPSSSPKI_BridgingC
+00007ffb03003f66 (__TEXT,__swift5_typeref) non-external (was a private external) _symbolic _____ 16CryptoKitPrivate19TDMServerEvaluationC
+00007ffb03003d9c (__TEXT,__swift5_typeref) non-external (was a private external) _symbolic _____ 16CryptoKitPrivate20CorecryptoCurvePointV
+00007ffb03003e78 (__TEXT,__swift5_typeref) non-external (was a private external) _symbolic _____ 16CryptoKitPrivate22SecKeySEPInteropErrorsO
+00007ffb03003bea (__TEXT,__swift5_typeref) non-external (was a private external) _symbolic _____ 16CryptoKitPrivate24CKPIETFKeyBlindingErrorsO
+00007ffb03003c3c (__TEXT,__swift5_typeref) non-external (was a private external) _symbolic _____ 16CryptoKitPrivate27AlishaSPAKE2ProverConfirmedC
+00007ffb03003ec4 (__TEXT,__swift5_typeref) non-external (was a private external) _symbolic _____ 16CryptoKitPrivate4HPKEO
+00007ffb0300359a (__TEXT,__swift5_typeref) non-external (was a private external) _symbolic _____ 16CryptoKitPrivate4HPKEO11CiphersuiteV
+00007ffb03003594 (__TEXT,__swift5_typeref) non-external (was a private external) _symbolic _____ 16CryptoKitPrivate4HPKEO11CiphersuiteV0E8DefaultsO
+00007ffb030037be (__TEXT,__swift5_typeref) non-external (was a private external) _symbolic _____ 16CryptoKitPrivate4HPKEO11KeyScheduleV
+00007ffb030035a6 (__TEXT,__swift5_typeref) non-external (was a private external) _symbolic _____ 16CryptoKitPrivate4HPKEO3KDFO
+00007ffb030035a0 (__TEXT,__swift5_typeref) non-external (was a private external) _symbolic _____ 16CryptoKitPrivate4HPKEO3KEMO
+00007ffb030035ac (__TEXT,__swift5_typeref) non-external (was a private external) _symbolic _____ 16CryptoKitPrivate4HPKEO4AEADO
+00007ffb0300427e (__TEXT,__swift5_typeref) non-external (was a private external) _symbolic _____ 16CryptoKitPrivate4HPKEO4ModeO
+00007ffb03003464 (__TEXT,__swift5_typeref) non-external (was a private external) _symbolic _____ 16CryptoKitPrivate4HPKEO6ErrorsO
+00007ffb03003eca (__TEXT,__swift5_typeref) non-external (was a private external) _symbolic _____ 16CryptoKitPrivate4HPKEO6SenderV
+00007ffb03003ed0 (__TEXT,__swift5_typeref) non-external (was a private external) _symbolic _____ 16CryptoKitPrivate4HPKEO7ContextV
+00007ffb03003ed6 (__TEXT,__swift5_typeref) non-external (was a private external) _symbolic _____ 16CryptoKitPrivate4HPKEO9RecipientV
+00007ffb0300423c (__TEXT,__swift5_typeref) non-external (was a private external) _symbolic _____ 16CryptoKitPrivate4OPRFO
+00007ffb03004242 (__TEXT,__swift5_typeref) non-external (was a private external) _symbolic _____ 16CryptoKitPrivate4OPRFO11CiphersuiteV
+00007ffb030037a6 (__TEXT,__swift5_typeref) non-external (was a private external) _symbolic _____ 16CryptoKitPrivate4OPRFO16VerifiableClientV
+00007ffb0300355c (__TEXT,__swift5_typeref) non-external (was a private external) _symbolic _____ 16CryptoKitPrivate4OPRFO16VerifiableServerV
+00007ffb0300377e (__TEXT,__swift5_typeref) non-external (was a private external) _symbolic _____ 16CryptoKitPrivate4OPRFO4ModeO
+00007ffb030041ae (__TEXT,__swift5_typeref) non-external (was a private external) _symbolic _____ 16CryptoKitPrivate4OPRFO6ClientV
+00007ffb03004248 (__TEXT,__swift5_typeref) non-external (was a private external) _symbolic _____ 16CryptoKitPrivate4OPRFO6ErrorsO
+00007ffb03003778 (__TEXT,__swift5_typeref) non-external (was a private external) _symbolic _____ 16CryptoKitPrivate4OPRFO6ServerV
+00007ffb0300384a (__TEXT,__swift5_typeref) non-external (was a private external) _symbolic _____ 16CryptoKitPrivate5APSICO
+00007ffb03003844 (__TEXT,__swift5_typeref) non-external (was a private external) _symbolic _____ 16CryptoKitPrivate5APSICO15SupportedCurvesO
+00007ffb03003850 (__TEXT,__swift5_typeref) non-external (was a private external) _symbolic _____ 16CryptoKitPrivate5APSICO6ClientV
+00007ffb030038a2 (__TEXT,__swift5_typeref) non-external (was a private external) _symbolic _____ 16CryptoKitPrivate5DHKEMV
+00007ffb03003772 (__TEXT,__swift5_typeref) non-external (was a private external) _symbolic _____ 16CryptoKitPrivate5PadmeV
+00007ffb03003ebe (__TEXT,__swift5_typeref) non-external (was a private external) _symbolic _____ 16CryptoKitPrivate6ScryptC
+00007ffb03003f2e (__TEXT,__swift5_typeref) non-external (was a private external) _symbolic _____ 16CryptoKitPrivate9TDMClientC
+00007ffb03003f88 (__TEXT,__swift5_typeref) non-external (was a private external) _symbolic _____ 16CryptoKitPrivate9TDMErrorsO
+00007ffb03003f6c (__TEXT,__swift5_typeref) non-external (was a private external) _symbolic _____ 16CryptoKitPrivate9TDMServerC
+00007ffb03003c64 (__TEXT,__swift5_typeref) non-external (was a private external) _symbolic _____ 21InternalSwiftProtobuf14UnknownStorageV
+00007ffb03004090 (__TEXT,__swift5_typeref) non-external (was a private external) _symbolic _____ 9CryptoKit10Curve25519O12KeyAgreementO
+00007ffb0300405e (__TEXT,__swift5_typeref) non-external (was a private external) _symbolic _____ 9CryptoKit10Curve25519O12KeyAgreementO06PublicD0V
+00007ffb03004064 (__TEXT,__swift5_typeref) non-external (was a private external) _symbolic _____ 9CryptoKit10Curve25519O12KeyAgreementO07PrivateD0V
+00007ffb03003bfe (__TEXT,__swift5_typeref) non-external (was a private external) _symbolic _____ 9CryptoKit10RSAPSSSPKIV
+00007ffb030037cc (__TEXT,__swift5_typeref) non-external (was a private external) _symbolic _____ 9CryptoKit12SymmetricKeyV
+00007ffb03003a0a (__TEXT,__swift5_typeref) non-external (was a private external) _symbolic _____ 9CryptoKit13SecureEnclaveO4P256O12KeyAgreementO07PrivateF0V
+00007ffb030040ca (__TEXT,__swift5_typeref) non-external (was a private external) _symbolic _____ 9CryptoKit3AESO3GCMO9SealedBoxV
+00007ffb03003a96 (__TEXT,__swift5_typeref) non-external (was a private external) _symbolic _____ 9CryptoKit4P256O12KeyAgreementO
+00007ffb03003a04 (__TEXT,__swift5_typeref) non-external (was a private external) _symbolic _____ 9CryptoKit4P256O12KeyAgreementO06PublicD0V
+00007ffb03003a46 (__TEXT,__swift5_typeref) non-external (was a private external) _symbolic _____ 9CryptoKit4P256O12KeyAgreementO07PrivateD0V
+00007ffb03003ade (__TEXT,__swift5_typeref) non-external (was a private external) _symbolic _____ 9CryptoKit4P384O12KeyAgreementO
+00007ffb03003aac (__TEXT,__swift5_typeref) non-external (was a private external) _symbolic _____ 9CryptoKit4P384O12KeyAgreementO06PublicD0V
+00007ffb03003ab2 (__TEXT,__swift5_typeref) non-external (was a private external) _symbolic _____ 9CryptoKit4P384O12KeyAgreementO07PrivateD0V
+00007ffb03003b26 (__TEXT,__swift5_typeref) non-external (was a private external) _symbolic _____ 9CryptoKit4P521O12KeyAgreementO
+00007ffb03003af4 (__TEXT,__swift5_typeref) non-external (was a private external) _symbolic _____ 9CryptoKit4P521O12KeyAgreementO06PublicD0V
+00007ffb03003afa (__TEXT,__swift5_typeref) non-external (was a private external) _symbolic _____ 9CryptoKit4P521O12KeyAgreementO07PrivateD0V
+00007ffb03003546 (__TEXT,__swift5_typeref) non-external (was a private external) _symbolic _____ SS8UTF8ViewV
+00007ffb030034bc (__TEXT,__swift5_typeref) non-external (was a private external) _symbolic _____ So11ccrng_stateV
+00007ffb0300346a (__TEXT,__swift5_typeref) non-external (was a private external) _symbolic _____ So11ccspake_ctxV
+00007ffb03003492 (__TEXT,__swift5_typeref) non-external (was a private external) _symbolic _____ So12ccec_pub_ctxV
+00007ffb0300343a (__TEXT,__swift5_typeref) non-external (was a private external) _symbolic _____ So17ccss_shamir_shareV
+00007ffb03003452 (__TEXT,__swift5_typeref) non-external (was a private external) _symbolic _____ So21ccss_shamir_share_bagV
+00007ffb03003428 (__TEXT,__swift5_typeref) non-external (was a private external) _symbolic _____ So22ccss_shamir_parametersV
+00007ffb0300344c (__TEXT,__swift5_typeref) non-external (was a private external) _symbolic _____ So27ccss_shamir_share_generatorV
+00007ffb03003434 (__TEXT,__swift5_typeref) non-external (was a private external) _symbolic _____ So4cczpV
+00007ffb03003410 (__TEXT,__swift5_typeref) non-external (was a private external) _symbolic _____ So7ccec_cpV
+00007ffb03003536 (__TEXT,__swift5_typeref) non-external (was a private external) _symbolic _____ s5Int64V
+00007ffb0300348c (__TEXT,__swift5_typeref) non-external (was a private external) _symbolic _____ s5UInt8V
+00007ffb0300342e (__TEXT,__swift5_typeref) non-external (was a private external) _symbolic _____ s6UInt32V
+00007ffb0300341a (__TEXT,__swift5_typeref) non-external (was a private external) _symbolic _____ s6UInt64V
+00007ffb03003f04 (__TEXT,__swift5_typeref) non-external (was a private external) _symbolic _____12sharedSecret______12encapsulatedt 9CryptoKit12SymmetricKeyV 10Foundation4DataV
+00007ffb030040a4 (__TEXT,__swift5_typeref) non-external (was a private external) _symbolic _____5error_t s5Int32V
+00007ffb030037c4 (__TEXT,__swift5_typeref) non-external (was a private external) _symbolic _____Sg 10Foundation4DataV
+00007ffb03003c20 (__TEXT,__swift5_typeref) non-external (was a private external) _symbolic _____Sg 16CryptoKitPrivate0aB5ErrorO
+00007ffb03003c4e (__TEXT,__swift5_typeref) non-external (was a private external) _symbolic _____Sg 16CryptoKitPrivate0ab20SecretSharing_HybriddE11SharedStateV
+00007ffb03003c56 (__TEXT,__swift5_typeref) non-external (was a private external) _symbolic _____Sg 16CryptoKitPrivate0ab20SecretSharing_HybriddE22GeneratorSerializationV9SealedBoxV
+00007ffb03003eb6 (__TEXT,__swift5_typeref) non-external (was a private external) _symbolic _____Sg 9CryptoKit03ChaC4PolyO5NonceV
+00007ffb030037b6 (__TEXT,__swift5_typeref) non-external (was a private external) _symbolic _____Sg 9CryptoKit12SymmetricKeyV
+00007ffb03003eae (__TEXT,__swift5_typeref) non-external (was a private external) _symbolic _____Sg 9CryptoKit3AESO3GCMO5NonceV
+00007ffb03003be2 (__TEXT,__swift5_typeref) non-external (was a private external) _symbolic _____Sg 9CryptoKit4P384O7SigningO14ECDSASignatureV
+00007ffb03003bda (__TEXT,__swift5_typeref) non-external (was a private external) _symbolic _____Sg 9CryptoKit4P384O7SigningO9PublicKeyV
+00007ffb03003420 (__TEXT,__swift5_typeref) non-external (was a private external) _symbolic _____Sg s13OpaquePointerV
+00007ffb03003c18 (__TEXT,__swift5_typeref) non-external (was a private external) _symbolic _____Sg s5Int32V
+00007ffb030040dc (__TEXT,__swift5_typeref) non-external (was a private external) _symbolic _____Sg s6UInt32V
+00007ffb03003d4a (__TEXT,__swift5_typeref) non-external (was a private external) _symbolic _____Sg_ABt 16CryptoKitPrivate0ab20SecretSharing_HybriddE11SharedStateV
+00007ffb03003d3e (__TEXT,__swift5_typeref) non-external (was a private external) _symbolic _____Sg_ABt 16CryptoKitPrivate0ab20SecretSharing_HybriddE22GeneratorSerializationV9SealedBoxV
+00007ffb030034c2 (__TEXT,__swift5_typeref) non-external (was a private external) _symbolic _____Spy_____GSg_SiSvSgtXCSg s5Int32V So11ccrng_stateV
+00007ffb03003fc6 (__TEXT,__swift5_typeref) non-external (was a private external) _symbolic ______A13At s5UInt8V
+00007ffb030037dc (__TEXT,__swift5_typeref) non-external (was a private external) _symbolic ______p 10Foundation15ContiguousBytesP
+00007ffb0300398c (__TEXT,__swift5_typeref) non-external (was a private external) _symbolic ______p s5ErrorP
+00007ffb030037d2 (__TEXT,__swift5_typeref) non-external (was a private external) _symbolic ______pSg 10Foundation15ContiguousBytesP
+00007ffb030039d0 (__TEXT,__swift5_typeref) non-external (was a private external) _symbolic _____m So27ccss_shamir_share_generatorV
+00007ffb030040fe (__TEXT,__swift5_typeref) non-external (was a private external) _symbolic _____m s5UInt8V
+00007ffb03004182 (__TEXT,__swift5_typeref) non-external (was a private external) _symbolic _____ySay_____GG s23_ContiguousArrayStorageC s5UInt8V
+00007ffb0300416a (__TEXT,__swift5_typeref) non-external (was a private external) _symbolic _____ySay_____G______G s12Zip2SequenceV8IteratorV s5UInt8V 10Foundation4DataV
+00007ffb03003d22 (__TEXT,__swift5_typeref) non-external (was a private external) _symbolic _____ySi______tG s23_ContiguousArrayStorageC 21InternalSwiftProtobuf8_NameMapV0G11DescriptionO
+00007ffb030041b4 (__TEXT,__swift5_typeref) non-external (was a private external) _symbolic _____y_____AB_G s12Zip2SequenceV8IteratorV 10Foundation4DataV
+00007ffb03003f4a (__TEXT,__swift5_typeref) non-external (was a private external) _symbolic _____y_____G 16CryptoKitPrivate04CoreA11GroupScalarV 0aB04P384O
+00007ffb03003f58 (__TEXT,__swift5_typeref) non-external (was a private external) _symbolic _____y_____G 16CryptoKitPrivate20CorecryptoCurvePointV 0aB04P384O
+00007ffb03004072 (__TEXT,__swift5_typeref) non-external (was a private external) _symbolic _____y_____G 16CryptoKitPrivate5DHKEMV 0aB010Curve25519O12KeyAgreementO
+00007ffb03003a54 (__TEXT,__swift5_typeref) non-external (was a private external) _symbolic _____y_____G 16CryptoKitPrivate5DHKEMV 0aB04P256O12KeyAgreementO
+00007ffb03003ac0 (__TEXT,__swift5_typeref) non-external (was a private external) _symbolic _____y_____G 16CryptoKitPrivate5DHKEMV 0aB04P384O12KeyAgreementO
+00007ffb03003b08 (__TEXT,__swift5_typeref) non-external (was a private external) _symbolic _____y_____G 16CryptoKitPrivate5DHKEMV 0aB04P521O12KeyAgreementO
+00007ffb03003800 (__TEXT,__swift5_typeref) non-external (was a private external) _symbolic _____y_____G 9CryptoKit24HashedAuthenticationCodeV AA6SHA256V
+00007ffb030037f2 (__TEXT,__swift5_typeref) non-external (was a private external) _symbolic _____y_____G 9CryptoKit24HashedAuthenticationCodeV AA6SHA384V
+00007ffb030037e4 (__TEXT,__swift5_typeref) non-external (was a private external) _symbolic _____y_____G 9CryptoKit24HashedAuthenticationCodeV AA6SHA512V
+00007ffb030036ec (__TEXT,__swift5_typeref) non-external (was a private external) _symbolic _____y_____G s15CollectionOfOneV 16CryptoKitPrivate11SecureBytesV
+00007ffb030039d8 (__TEXT,__swift5_typeref) non-external (was a private external) _symbolic _____y_____G s15CollectionOfOneV s5UInt8V
+00007ffb030036a2 (__TEXT,__swift5_typeref) non-external (was a private external) _symbolic _____y_____G s16IndexingIteratorV 16CryptoKitPrivate11SecureBytesV
+00007ffb03003d14 (__TEXT,__swift5_typeref) non-external (was a private external) _symbolic _____y_____G s23_ContiguousArrayStorageC 16CryptoKitPrivate0de20SecretSharing_HybridgH11SharedStateV11CiphersuiteO
+00007ffb03004194 (__TEXT,__swift5_typeref) non-external (was a private external) _symbolic _____y_____G s23_ContiguousArrayStorageC 16CryptoKitPrivate15CKSecretSharingO11ShamirShareV
+00007ffb030040f0 (__TEXT,__swift5_typeref) non-external (was a private external) _symbolic _____y_____G s23_ContiguousArrayStorageC 16CryptoKitPrivate15CKSecretSharingO17HybridSecretShareV
+00007ffb030034e0 (__TEXT,__swift5_typeref) non-external (was a private external) _symbolic _____y_____G s23_ContiguousArrayStorageC 16CryptoKitPrivate15CKSecretSharingO25ShamirGeneratorPrimeFieldO
+00007ffb0300356c (__TEXT,__swift5_typeref) non-external (was a private external) _symbolic _____y_____G s23_ContiguousArrayStorageC 16CryptoKitPrivate4HPKEO11CiphersuiteV0H8DefaultsO
+00007ffb03003860 (__TEXT,__swift5_typeref) non-external (was a private external) _symbolic _____y_____G s23_ContiguousArrayStorageC 16CryptoKitPrivate4HPKEO3KDFO
+00007ffb03003edc (__TEXT,__swift5_typeref) non-external (was a private external) _symbolic _____y_____G s23_ContiguousArrayStorageC 16CryptoKitPrivate4HPKEO3KEMO
+00007ffb03003ea0 (__TEXT,__swift5_typeref) non-external (was a private external) _symbolic _____y_____G s23_ContiguousArrayStorageC 16CryptoKitPrivate4HPKEO4AEADO
+00007ffb0300380e (__TEXT,__swift5_typeref) non-external (was a private external) _symbolic _____y_____G s23_ContiguousArrayStorageC 16CryptoKitPrivate4HPKEO4ModeO
+00007ffb03004270 (__TEXT,__swift5_typeref) non-external (was a private external) _symbolic _____y_____G s23_ContiguousArrayStorageC 16CryptoKitPrivate4OPRFO4ModeO
+00007ffb0300381c (__TEXT,__swift5_typeref) non-external (was a private external) _symbolic _____y_____G s23_ContiguousArrayStorageC 16CryptoKitPrivate5APSICO15SupportedCurvesO
+00007ffb0300354c (__TEXT,__swift5_typeref) non-external (was a private external) _symbolic _____y_____G s23_ContiguousArrayStorageC s5UInt8V
+00007ffb0300362a (__TEXT,__swift5_typeref) non-external (was a private external) _symbolic _____y_____G s5SliceV 16CryptoKitPrivate11SecureBytesV
+00007ffb03003740 (__TEXT,__swift5_typeref) non-external (was a private external) _symbolic _____y_____G s9UnmanagedV 16CryptoKitPrivate11SecureBytesV7BackingC
+00007ffb030039e6 (__TEXT,__swift5_typeref) non-external (was a private external) _symbolic _____y______G s18EnumeratedSequenceV8IteratorV 10Foundation4DataV
+00007ffb030035b2 (__TEXT,__swift5_typeref) non-external (was a private external) _symbolic _____y__________G s13ManagedBufferC 16CryptoKitPrivate11SecureBytesV13BackingHeaderV s5UInt8V
+00007ffb03003bb2 (__TEXT,__swift5_typeref) non-external (was a private external) _symbolic _____y______yXltG s23_ContiguousArrayStorageC So11CFStringRefa
+00007ffb03003f34 (__TEXT,__swift5_typeref) non-external (was a private external) _symbolic _____y______y_____GG 16CryptoKitPrivate4OPRFO16VerifiableClientV AA04CoreA10Hash2CurveV 0aB04P384O
+00007ffb03003f72 (__TEXT,__swift5_typeref) non-external (was a private external) _symbolic _____y______y_____GG 16CryptoKitPrivate4OPRFO16VerifiableServerV AA04CoreA10Hash2CurveV 0aB04P384O
+00007ffb0300414a (__TEXT,__swift5_typeref) non-external (was a private external) _symbolic _____y_____ySay_____G_____GACG s15LazyMapSequenceV s04Zip2C0V s5UInt8V 10Foundation4DataV
+00007ffb0300412a (__TEXT,__swift5_typeref) non-external (was a private external) _symbolic _____y_____ySay_____G_____GAC_G s15LazyMapSequenceV8IteratorV s04Zip2C0V s5UInt8V 10Foundation4DataV
+00007ffb03004106 (__TEXT,__swift5_typeref) non-external (was a private external) _symbolic _____y_____ySay_____G_____GAC_G_Sit s15LazyMapSequenceV8IteratorV s04Zip2C0V s5UInt8V 10Foundation4DataV
+00007ffb03003bc4 (__TEXT,__swift5_typeref) non-external (was a private external) _symbolic _____y_____yXlG s18_DictionaryStorageC So11CFStringRefa
+00007ffb03003faa (__TEXT,__swift5_typeref) non-external (was a private external) _symbolic _____y_____y_____G1C_AD1DtG s23_ContiguousArrayStorageC 16CryptoKitPrivate20CorecryptoCurvePointV 0dE04P384O
+00007ffb03003f96 (__TEXT,__swift5_typeref) non-external (was a private external) _symbolic _____y_____y_____GG s23_ContiguousArrayStorageC 16CryptoKitPrivate04CoreD11GroupScalarV 0dE04P384O
+00007ffb03003784 (__TEXT,__swift5_typeref) non-external (was a private external) _symbolic _____y_xG 16CryptoKitPrivate4OPRFO11CiphersuiteV
+00007ffb030037ac (__TEXT,__swift5_typeref) non-external (was a private external) _symbolic _____y_xG 16CryptoKitPrivate4OPRFO6ClientV
+00007ffb03003562 (__TEXT,__swift5_typeref) non-external (was a private external) _symbolic _____y_xG 16CryptoKitPrivate4OPRFO6ServerV
+00007ffb03003e4a (__TEXT,__swift5_typeref) non-external (was a private external) _symbolic _____yxG 16CryptoKitPrivate04CoreA11GroupScalarV
+00007ffb03003dea (__TEXT,__swift5_typeref) non-external (was a private external) _symbolic _____yxG 16CryptoKitPrivate04CoreA5GroupV
+00007ffb03003de0 (__TEXT,__swift5_typeref) non-external (was a private external) _symbolic _____yxG 16CryptoKitPrivate20CorecryptoCurvePointV
+00007ffb030040e4 (__TEXT,__swift5_typeref) non-external (was a private external) _symbolic _____yyXlG s23_ContiguousArrayStorageC
+00007ffb03003c2c (__TEXT,__swift5_typeref) non-external (was a private external) _symbolic _____yypG s23_ContiguousArrayStorageC
+00007ffb0300355a (__TEXT,__swift5_typeref) non-external (was a private external) _symbolic x
+00007ffb03003bd4 (__TEXT,__swift5_typeref) non-external (was a private external) _symbolic ypSg
