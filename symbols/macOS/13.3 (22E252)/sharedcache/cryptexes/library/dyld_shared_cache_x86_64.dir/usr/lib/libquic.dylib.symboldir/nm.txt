@@ -1,0 +1,1611 @@
+00007ff9041aa470 (__TEXT,__text) non-external +[QUICLog categoryString:]
+00007ff9041aa5c0 (__TEXT,__text) non-external +[QUICLog congestionStateString:]
+00007ff9041aa590 (__TEXT,__text) non-external +[QUICLog congestionTriggerString:]
+00007ff9041aa4a0 (__TEXT,__text) non-external +[QUICLog eventTypeString:]
+00007ff9041aa650 (__TEXT,__text) non-external +[QUICLog flowTypeString:]
+00007ff9041aa4d0 (__TEXT,__text) non-external +[QUICLog ownerString:]
+00007ff9041aa5f0 (__TEXT,__text) non-external +[QUICLog packetLostTriggerString:]
+00007ff9041aa620 (__TEXT,__text) non-external +[QUICLog packetSentRecievedTriggerString:]
+00007ff9041aa440 (__TEXT,__text) non-external +[QUICLog packetType:]
+00007ff9041aa500 (__TEXT,__text) non-external +[QUICLog packetTypeString:]
+00007ff9041aa560 (__TEXT,__text) non-external +[QUICLog streamSideString:]
+00007ff9041aa530 (__TEXT,__text) non-external +[QUICLog streamTypeString:]
+00007ff9041aa340 (__TEXT,__text) non-external -[QUICLog .cxx_destruct]
+00007ff9041a86f0 (__TEXT,__text) non-external -[QUICLog addEventValues:event:]
+00007ff9041a8af0 (__TEXT,__text) non-external -[QUICLog addFrameList:frame_list:]
+00007ff9041a9ee0 (__TEXT,__text) non-external -[QUICLog addMandatoryCharPointerToObject:key:value:function_name:]
+00007ff9041a9ff0 (__TEXT,__text) non-external -[QUICLog addMandatorySuperBoolToObject:key:value:function_name:]
+00007ff9041aa100 (__TEXT,__text) non-external -[QUICLog addMandatoryUint64ToObject:key:value:function_name:]
+00007ff9041a9e40 (__TEXT,__text) non-external -[QUICLog addOptionalCharPointerToObject:key:value:]
+00007ff9041a9f80 (__TEXT,__text) non-external -[QUICLog addOptionalSuperBoolToObject:key:value:]
+00007ff9041aa060 (__TEXT,__text) non-external -[QUICLog addOptionalUint64ToObject:key:value:]
+00007ff9041a87e0 (__TEXT,__text) non-external -[QUICLog addPacketHeader:header:]
+00007ff9041a5340 (__TEXT,__text) non-external -[QUICLog createEvent:]
+00007ff9041a5410 (__TEXT,__text) non-external -[QUICLog deallocEvent:]
+00007ff9041a5290 (__TEXT,__text) non-external -[QUICLog dealloc]
+00007ff9041aa1a0 (__TEXT,__text) non-external -[QUICLog dictToJsonString:]
+00007ff9041a5330 (__TEXT,__text) non-external -[QUICLog disableTimestamps:]
+00007ff9041a6f90 (__TEXT,__text) non-external -[QUICLog dumpData:]
+00007ff9041a5140 (__TEXT,__text) non-external -[QUICLog init]
+00007ff9041aa260 (__TEXT,__text) non-external -[QUICLog jsonStringToDict:]
+00007ff9041a6ec0 (__TEXT,__text) non-external -[QUICLog logCongestionStateUpdated:new_state:trigger:]
+00007ff9041a6f20 (__TEXT,__text) non-external -[QUICLog logStreamTypeSet:owner:old_state:new_state:]
+00007ff9041a6db0 (__TEXT,__text) non-external -[QUICLog metricsUpdated:smoothed_rtt:latest_rtt:rtt_variance:pto_count:congestion_window:bytes_in_flight:ssthresh:packets_in_flight:in_recovery:]
+00007ff9041a6650 (__TEXT,__text) non-external -[QUICLog packetLost:trigger:]
+00007ff9041a5ef0 (__TEXT,__text) non-external -[QUICLog packetReceived:isCoalesced:]
+00007ff9041a57c0 (__TEXT,__text) non-external -[QUICLog packetSent:]
+00007ff9041a5450 (__TEXT,__text) non-external -[QUICLog parametersSet:resumption_allowed:early_data_enabled:tls_cipher:original_dcid:initial_scid:retry_scid:disable_active_migration:max_idle_timeout:max_udp_payload_size:ack_delay_exponent:max_ack_delay:active_cid_limit:initial_max_data:initial_msd_bidi_remote:initial_msd_bidi_local:initial_msd_uni:initial_ms_bidi:initial_ms_uni:preferred_address:]
+00007ff9041a8150 (__TEXT,__text) non-external -[QUICLog processCongestionStateUpdated:]
+00007ff9041a7eb0 (__TEXT,__text) non-external -[QUICLog processMetricsUpdated:]
+00007ff9041a82d0 (__TEXT,__text) non-external -[QUICLog processPacketLost:]
+00007ff9041a7a30 (__TEXT,__text) non-external -[QUICLog processPacketSentAndPacketRecieved:]
+00007ff9041a7350 (__TEXT,__text) non-external -[QUICLog processParametersSet:]
+00007ff9041a7cc0 (__TEXT,__text) non-external -[QUICLog processStreamStateUpdated:]
+00007ff9041a8540 (__TEXT,__text) non-external -[QUICLog processStreamTypeSet:]
+00007ff9041aa320 (__TEXT,__text) non-external -[QUICLog setEntryInTopLevelObject:value:]
+00007ff9041a6e40 (__TEXT,__text) non-external -[QUICLog streamStateUpdated:stream_type:old_state:new_state:stream_side:]
+                 (undefined) external _CCCryptorChaCha20 (from libSystem)
+                 (undefined) external _CCCryptorChaCha20Poly1305OneshotDecrypt (from libSystem)
+                 (undefined) external _CCCryptorChaCha20Poly1305OneshotEncrypt (from libSystem)
+                 (undefined) external _CCCryptorCreate (from libSystem)
+                 (undefined) external _CCCryptorCreateWithMode (from libSystem)
+                 (undefined) external _CCCryptorGCMAddAAD (from libSystem)
+                 (undefined) external _CCCryptorGCMDecrypt (from libSystem)
+                 (undefined) external _CCCryptorGCMEncrypt (from libSystem)
+                 (undefined) external _CCCryptorGCMFinalize (from libSystem)
+                 (undefined) external _CCCryptorGCMOneshotDecrypt (from libSystem)
+                 (undefined) external _CCCryptorGCMOneshotEncrypt (from libSystem)
+                 (undefined) external _CCCryptorGCMReset (from libSystem)
+                 (undefined) external _CCCryptorGCMSetIV (from libSystem)
+                 (undefined) external _CCCryptorRelease (from libSystem)
+                 (undefined) external _CCCryptorUpdate (from libSystem)
+                 (undefined) external _CCHKDFExpand (from libSystem)
+                 (undefined) external _CCHKDFExtract (from libSystem)
+                 (undefined) external _CCKDFParametersCreateHkdf (from libSystem)
+                 (undefined) external _CCKDFParametersDestroy (from libSystem)
+                 (undefined) external _CFGetTypeID (from CoreFoundation)
+                 (undefined) external _CFPreferencesCopyAppValue (from CoreFoundation)
+                 (undefined) external _CFPreferencesGetAppBooleanValue (from CoreFoundation)
+                 (undefined) external _CFPreferencesGetAppIntegerValue (from CoreFoundation)
+                 (undefined) external _CFRelease (from CoreFoundation)
+                 (undefined) external _CFStringCreateWithCString (from CoreFoundation)
+                 (undefined) external _CFStringGetCString (from CoreFoundation)
+                 (undefined) external _CFStringGetTypeID (from CoreFoundation)
+                 (undefined) external _NSLog (from Foundation)
+                 (undefined) external _OBJC_CLASS_$_NSFileManager (from Foundation)
+                 (undefined) external _OBJC_CLASS_$_NSJSONSerialization (from Foundation)
+                 (undefined) external _OBJC_CLASS_$_NSMutableArray (from CoreFoundation)
+                 (undefined) external _OBJC_CLASS_$_NSMutableDictionary (from CoreFoundation)
+                 (undefined) external _OBJC_CLASS_$_NSNumber (from Foundation)
+                 (undefined) external _OBJC_CLASS_$_NSObject (from libobjc)
+                 (undefined) external _OBJC_CLASS_$_NSString (from Foundation)
+00007ff94270d2d8 (__DATA,__objc_data) non-external _OBJC_CLASS_$_QUICLog
+00007ff94270d2d0 (__DATA,__objc_ivar) non-external _OBJC_IVAR_$_QUICLog.disable_timestamps
+00007ff94270d2c0 (__DATA,__objc_ivar) non-external _OBJC_IVAR_$_QUICLog.events_list
+00007ff94270d2c8 (__DATA,__objc_ivar) non-external _OBJC_IVAR_$_QUICLog.top_level_object
+                 (undefined) external _OBJC_METACLASS_$_NSObject (from libobjc)
+00007ff94270d300 (__DATA,__objc_data) non-external _OBJC_METACLASS_$_QUICLog
+                 (undefined) external __Block_copy (from libSystem)
+                 (undefined) external __Block_object_assign (from libSystem)
+                 (undefined) external __Block_object_dispose (from libSystem)
+                 (undefined) external __Block_release (from libSystem)
+                 (undefined) external __DefaultRuneLocale (from libSystem)
+                 (undefined) external __NSConcreteGlobalBlock (from libSystem)
+                 (undefined) external __NSConcreteStackBlock (from libSystem)
+00007ff904213e18 (__TEXT,__objc_methlist) non-external __OBJC_$_CLASS_METHODS_QUICLog
+00007ff904213eb0 (__TEXT,__objc_methlist) non-external __OBJC_$_INSTANCE_METHODS_QUICLog
+00007ff940430110 (__DATA_CONST,__objc_const) non-external __OBJC_$_INSTANCE_VARIABLES_QUICLog
+00007ff940430178 (__DATA_CONST,__objc_const) non-external __OBJC_CLASS_RO_$_QUICLog
+00007ff9404300c8 (__DATA_CONST,__objc_const) non-external __OBJC_METACLASS_RO_$_QUICLog
+00007ff9041aa350 (__TEXT,__text) non-external ___35-[QUICLog addFrameList:frame_list:]_block_invoke
+                 (undefined) external ___CFConstantStringClassReference (from CoreFoundation)
+                 (undefined) weak external ____chkstk_darwin (from libSystem)
+00007ff94042d570 (__DATA_CONST,__const) non-external ___block_descriptor_40_e8_32s_e11_B24?0Q8Q16l
+00007ff94042afe0 (__DATA_CONST,__const) non-external ___block_descriptor_tmp
+00007ff94042dd08 (__DATA_CONST,__const) non-external ___block_descriptor_tmp.1
+00007ff94042d958 (__DATA_CONST,__const) non-external ___block_descriptor_tmp.10
+00007ff94042ddb8 (__DATA_CONST,__const) non-external ___block_descriptor_tmp.10.2559
+00007ff94042e698 (__DATA_CONST,__const) non-external ___block_descriptor_tmp.101
+00007ff94042e6b8 (__DATA_CONST,__const) non-external ___block_descriptor_tmp.102
+00007ff94042d460 (__DATA_CONST,__const) non-external ___block_descriptor_tmp.103
+00007ff94042e6d8 (__DATA_CONST,__const) non-external ___block_descriptor_tmp.103.3238
+00007ff94042e6f8 (__DATA_CONST,__const) non-external ___block_descriptor_tmp.106
+00007ff94042e718 (__DATA_CONST,__const) non-external ___block_descriptor_tmp.109
+00007ff94042ded8 (__DATA_CONST,__const) non-external ___block_descriptor_tmp.11
+00007ff94042d698 (__DATA_CONST,__const) non-external ___block_descriptor_tmp.1108
+00007ff94042e738 (__DATA_CONST,__const) non-external ___block_descriptor_tmp.112
+00007ff94042e758 (__DATA_CONST,__const) non-external ___block_descriptor_tmp.114
+00007ff94042e778 (__DATA_CONST,__const) non-external ___block_descriptor_tmp.115
+00007ff94042e7b8 (__DATA_CONST,__const) non-external ___block_descriptor_tmp.117
+00007ff94042e7d8 (__DATA_CONST,__const) non-external ___block_descriptor_tmp.118
+00007ff94042d718 (__DATA_CONST,__const) non-external ___block_descriptor_tmp.1180
+00007ff94042ddd8 (__DATA_CONST,__const) non-external ___block_descriptor_tmp.12
+00007ff94042e7f8 (__DATA_CONST,__const) non-external ___block_descriptor_tmp.122
+00007ff94042e818 (__DATA_CONST,__const) non-external ___block_descriptor_tmp.123
+00007ff94042e838 (__DATA_CONST,__const) non-external ___block_descriptor_tmp.124
+00007ff94042e868 (__DATA_CONST,__const) non-external ___block_descriptor_tmp.125
+00007ff94042e898 (__DATA_CONST,__const) non-external ___block_descriptor_tmp.126
+00007ff94042d778 (__DATA_CONST,__const) non-external ___block_descriptor_tmp.1280
+00007ff94042b000 (__DATA_CONST,__const) non-external ___block_descriptor_tmp.13
+00007ff94042e028 (__DATA_CONST,__const) non-external ___block_descriptor_tmp.13.3112
+00007ff94042b030 (__DATA_CONST,__const) non-external ___block_descriptor_tmp.136
+00007ff94042d7b8 (__DATA_CONST,__const) non-external ___block_descriptor_tmp.1374
+00007ff94042e048 (__DATA_CONST,__const) non-external ___block_descriptor_tmp.14
+00007ff94042e068 (__DATA_CONST,__const) non-external ___block_descriptor_tmp.15
+00007ff94042d7f8 (__DATA_CONST,__const) non-external ___block_descriptor_tmp.1503
+00007ff94042d480 (__DATA_CONST,__const) non-external ___block_descriptor_tmp.153
+00007ff94042d4a0 (__DATA_CONST,__const) non-external ___block_descriptor_tmp.155
+00007ff94042d4c0 (__DATA_CONST,__const) non-external ___block_descriptor_tmp.157
+00007ff94042e8b8 (__DATA_CONST,__const) non-external ___block_descriptor_tmp.158
+00007ff94042ecc0 (__DATA_CONST,__const) non-external ___block_descriptor_tmp.16
+00007ff94042d4e0 (__DATA_CONST,__const) non-external ___block_descriptor_tmp.160
+00007ff94042d500 (__DATA_CONST,__const) non-external ___block_descriptor_tmp.161
+00007ff94042e8d8 (__DATA_CONST,__const) non-external ___block_descriptor_tmp.161.3014
+00007ff94042e8f8 (__DATA_CONST,__const) non-external ___block_descriptor_tmp.163
+00007ff94042d520 (__DATA_CONST,__const) non-external ___block_descriptor_tmp.164
+00007ff94042d838 (__DATA_CONST,__const) non-external ___block_descriptor_tmp.1642
+00007ff94042d550 (__DATA_CONST,__const) non-external ___block_descriptor_tmp.165
+00007ff94042def8 (__DATA_CONST,__const) non-external ___block_descriptor_tmp.17
+00007ff94042e918 (__DATA_CONST,__const) non-external ___block_descriptor_tmp.174
+00007ff94042e948 (__DATA_CONST,__const) non-external ___block_descriptor_tmp.175
+00007ff94042e978 (__DATA_CONST,__const) non-external ___block_descriptor_tmp.176
+00007ff94042e998 (__DATA_CONST,__const) non-external ___block_descriptor_tmp.177
+00007ff94042e9b8 (__DATA_CONST,__const) non-external ___block_descriptor_tmp.180
+00007ff94042e9d8 (__DATA_CONST,__const) non-external ___block_descriptor_tmp.181
+00007ff94042d878 (__DATA_CONST,__const) non-external ___block_descriptor_tmp.1811
+00007ff94042e9f8 (__DATA_CONST,__const) non-external ___block_descriptor_tmp.182
+00007ff94042ea38 (__DATA_CONST,__const) non-external ___block_descriptor_tmp.186
+00007ff94042ea58 (__DATA_CONST,__const) non-external ___block_descriptor_tmp.187
+00007ff94042ea78 (__DATA_CONST,__const) non-external ___block_descriptor_tmp.189
+00007ff94042d8b8 (__DATA_CONST,__const) non-external ___block_descriptor_tmp.1894
+00007ff94042ddf8 (__DATA_CONST,__const) non-external ___block_descriptor_tmp.19
+00007ff94042e088 (__DATA_CONST,__const) non-external ___block_descriptor_tmp.19.3109
+00007ff94042eaa8 (__DATA_CONST,__const) non-external ___block_descriptor_tmp.190
+00007ff94042eac8 (__DATA_CONST,__const) non-external ___block_descriptor_tmp.193
+00007ff94042eaf8 (__DATA_CONST,__const) non-external ___block_descriptor_tmp.194
+00007ff94042eb28 (__DATA_CONST,__const) non-external ___block_descriptor_tmp.195
+00007ff94042b150 (__DATA_CONST,__const) non-external ___block_descriptor_tmp.2
+00007ff94042d8d8 (__DATA_CONST,__const) non-external ___block_descriptor_tmp.2.1892
+00007ff94042df68 (__DATA_CONST,__const) non-external ___block_descriptor_tmp.2.2967
+00007ff94042de18 (__DATA_CONST,__const) non-external ___block_descriptor_tmp.20
+00007ff94042e0a8 (__DATA_CONST,__const) non-external ___block_descriptor_tmp.20.3108
+00007ff94042eb58 (__DATA_CONST,__const) non-external ___block_descriptor_tmp.206
+00007ff94042eb98 (__DATA_CONST,__const) non-external ___block_descriptor_tmp.208
+00007ff94042e0c8 (__DATA_CONST,__const) non-external ___block_descriptor_tmp.21
+00007ff94042dc90 (__DATA_CONST,__const) non-external ___block_descriptor_tmp.2166
+00007ff94042dce8 (__DATA_CONST,__const) non-external ___block_descriptor_tmp.2294
+00007ff94042dd48 (__DATA_CONST,__const) non-external ___block_descriptor_tmp.2467
+00007ff94042e0e8 (__DATA_CONST,__const) non-external ___block_descriptor_tmp.25
+00007ff94042d978 (__DATA_CONST,__const) non-external ___block_descriptor_tmp.26
+00007ff94042e108 (__DATA_CONST,__const) non-external ___block_descriptor_tmp.26.3105
+00007ff94042de38 (__DATA_CONST,__const) non-external ___block_descriptor_tmp.2667
+00007ff94042b130 (__DATA_CONST,__const) non-external ___block_descriptor_tmp.267
+00007ff94042e128 (__DATA_CONST,__const) non-external ___block_descriptor_tmp.27
+00007ff94042d9a8 (__DATA_CONST,__const) non-external ___block_descriptor_tmp.28
+00007ff94042dd28 (__DATA_CONST,__const) non-external ___block_descriptor_tmp.3
+00007ff94042df88 (__DATA_CONST,__const) non-external ___block_descriptor_tmp.3.2965
+00007ff94042d748 (__DATA_CONST,__const) non-external ___block_descriptor_tmp.30
+00007ff94042d9c8 (__DATA_CONST,__const) non-external ___block_descriptor_tmp.31
+00007ff94042e148 (__DATA_CONST,__const) non-external ___block_descriptor_tmp.31.3102
+00007ff94042df28 (__DATA_CONST,__const) non-external ___block_descriptor_tmp.3118
+00007ff94042e168 (__DATA_CONST,__const) non-external ___block_descriptor_tmp.32
+00007ff94042d9e8 (__DATA_CONST,__const) non-external ___block_descriptor_tmp.33
+00007ff94042da08 (__DATA_CONST,__const) non-external ___block_descriptor_tmp.34
+00007ff94042e188 (__DATA_CONST,__const) non-external ___block_descriptor_tmp.35
+00007ff94042ebd8 (__DATA_CONST,__const) non-external ___block_descriptor_tmp.3584
+00007ff94042da28 (__DATA_CONST,__const) non-external ___block_descriptor_tmp.36
+00007ff94042e1a8 (__DATA_CONST,__const) non-external ___block_descriptor_tmp.36.3004
+00007ff94042ec30 (__DATA_CONST,__const) non-external ___block_descriptor_tmp.3685
+00007ff94042da48 (__DATA_CONST,__const) non-external ___block_descriptor_tmp.37
+00007ff94042da68 (__DATA_CONST,__const) non-external ___block_descriptor_tmp.38
+00007ff94042e1c8 (__DATA_CONST,__const) non-external ___block_descriptor_tmp.39
+00007ff94042d6d8 (__DATA_CONST,__const) non-external ___block_descriptor_tmp.4
+00007ff94042dfa8 (__DATA_CONST,__const) non-external ___block_descriptor_tmp.4.3152
+00007ff94042da88 (__DATA_CONST,__const) non-external ___block_descriptor_tmp.40
+00007ff94042e1e8 (__DATA_CONST,__const) non-external ___block_descriptor_tmp.40.3005
+00007ff94042daa8 (__DATA_CONST,__const) non-external ___block_descriptor_tmp.42
+00007ff94042e208 (__DATA_CONST,__const) non-external ___block_descriptor_tmp.42.3027
+00007ff94042d2d0 (__DATA_CONST,__const) non-external ___block_descriptor_tmp.44
+00007ff94042dac8 (__DATA_CONST,__const) non-external ___block_descriptor_tmp.44.1949
+00007ff94042e228 (__DATA_CONST,__const) non-external ___block_descriptor_tmp.44.3006
+00007ff94042d2f0 (__DATA_CONST,__const) non-external ___block_descriptor_tmp.46
+00007ff94042e248 (__DATA_CONST,__const) non-external ___block_descriptor_tmp.46.3007
+00007ff94042dae8 (__DATA_CONST,__const) non-external ___block_descriptor_tmp.48
+00007ff94042e268 (__DATA_CONST,__const) non-external ___block_descriptor_tmp.48.3008
+00007ff94042db08 (__DATA_CONST,__const) non-external ___block_descriptor_tmp.49
+00007ff94042b050 (__DATA_CONST,__const) non-external ___block_descriptor_tmp.5
+00007ff94042d8f8 (__DATA_CONST,__const) non-external ___block_descriptor_tmp.5.1954
+00007ff94042dcb0 (__DATA_CONST,__const) non-external ___block_descriptor_tmp.5.2270
+00007ff94042de58 (__DATA_CONST,__const) non-external ___block_descriptor_tmp.5.2698
+00007ff94042e288 (__DATA_CONST,__const) non-external ___block_descriptor_tmp.50
+00007ff94042d310 (__DATA_CONST,__const) non-external ___block_descriptor_tmp.51
+00007ff94042db38 (__DATA_CONST,__const) non-external ___block_descriptor_tmp.51.1906
+00007ff94042e2a8 (__DATA_CONST,__const) non-external ___block_descriptor_tmp.52
+00007ff94042db68 (__DATA_CONST,__const) non-external ___block_descriptor_tmp.53
+00007ff94042e2c8 (__DATA_CONST,__const) non-external ___block_descriptor_tmp.54
+00007ff94042ec70 (__DATA_CONST,__const) non-external ___block_descriptor_tmp.56
+00007ff94042e2e8 (__DATA_CONST,__const) non-external ___block_descriptor_tmp.57
+00007ff94042d330 (__DATA_CONST,__const) non-external ___block_descriptor_tmp.58
+00007ff94042d818 (__DATA_CONST,__const) non-external ___block_descriptor_tmp.6
+00007ff94042db88 (__DATA_CONST,__const) non-external ___block_descriptor_tmp.60
+00007ff94042e308 (__DATA_CONST,__const) non-external ___block_descriptor_tmp.60.3017
+00007ff94042e328 (__DATA_CONST,__const) non-external ___block_descriptor_tmp.62
+00007ff94042e348 (__DATA_CONST,__const) non-external ___block_descriptor_tmp.65
+00007ff94042dba8 (__DATA_CONST,__const) non-external ___block_descriptor_tmp.66
+00007ff94042dbd8 (__DATA_CONST,__const) non-external ___block_descriptor_tmp.67
+00007ff94042e378 (__DATA_CONST,__const) non-external ___block_descriptor_tmp.67.3009
+00007ff94042b090 (__DATA_CONST,__const) non-external ___block_descriptor_tmp.7
+00007ff94042d918 (__DATA_CONST,__const) non-external ___block_descriptor_tmp.7.1901
+00007ff94042dfe8 (__DATA_CONST,__const) non-external ___block_descriptor_tmp.7.3115
+00007ff94042e398 (__DATA_CONST,__const) non-external ___block_descriptor_tmp.70
+00007ff94042dbf8 (__DATA_CONST,__const) non-external ___block_descriptor_tmp.71
+00007ff94042dc18 (__DATA_CONST,__const) non-external ___block_descriptor_tmp.72
+00007ff94042e3b8 (__DATA_CONST,__const) non-external ___block_descriptor_tmp.72.3010
+00007ff94042dc38 (__DATA_CONST,__const) non-external ___block_descriptor_tmp.73
+00007ff94042e3d8 (__DATA_CONST,__const) non-external ___block_descriptor_tmp.75
+00007ff94042e3f8 (__DATA_CONST,__const) non-external ___block_descriptor_tmp.76
+00007ff94042e418 (__DATA_CONST,__const) non-external ___block_descriptor_tmp.77
+00007ff94042e448 (__DATA_CONST,__const) non-external ___block_descriptor_tmp.79
+00007ff94042b0b0 (__DATA_CONST,__const) non-external ___block_descriptor_tmp.8
+00007ff94042d938 (__DATA_CONST,__const) non-external ___block_descriptor_tmp.8.1903
+00007ff94042dd78 (__DATA_CONST,__const) non-external ___block_descriptor_tmp.8.2476
+00007ff94042de78 (__DATA_CONST,__const) non-external ___block_descriptor_tmp.8.2753
+00007ff94042d360 (__DATA_CONST,__const) non-external ___block_descriptor_tmp.80
+00007ff94042e478 (__DATA_CONST,__const) non-external ___block_descriptor_tmp.81
+00007ff94042d390 (__DATA_CONST,__const) non-external ___block_descriptor_tmp.82
+00007ff94042e4a8 (__DATA_CONST,__const) non-external ___block_descriptor_tmp.82.3168
+00007ff94042d3c0 (__DATA_CONST,__const) non-external ___block_descriptor_tmp.83
+00007ff94042e4d8 (__DATA_CONST,__const) non-external ___block_descriptor_tmp.83.2997
+00007ff94042d400 (__DATA_CONST,__const) non-external ___block_descriptor_tmp.84
+00007ff94042e508 (__DATA_CONST,__const) non-external ___block_descriptor_tmp.84.3094
+00007ff94042e548 (__DATA_CONST,__const) non-external ___block_descriptor_tmp.89
+00007ff94042d2b0 (__DATA_CONST,__const) non-external ___block_descriptor_tmp.891
+00007ff94042dd98 (__DATA_CONST,__const) non-external ___block_descriptor_tmp.9
+00007ff94042dea8 (__DATA_CONST,__const) non-external ___block_descriptor_tmp.9.2759
+00007ff94042e008 (__DATA_CONST,__const) non-external ___block_descriptor_tmp.9.3003
+00007ff94042d420 (__DATA_CONST,__const) non-external ___block_descriptor_tmp.91
+00007ff94042e578 (__DATA_CONST,__const) non-external ___block_descriptor_tmp.91.2985
+00007ff94042e598 (__DATA_CONST,__const) non-external ___block_descriptor_tmp.92
+00007ff94042d440 (__DATA_CONST,__const) non-external ___block_descriptor_tmp.93
+00007ff94042e5b8 (__DATA_CONST,__const) non-external ___block_descriptor_tmp.93.3234
+00007ff94042e5d8 (__DATA_CONST,__const) non-external ___block_descriptor_tmp.94
+00007ff94042e618 (__DATA_CONST,__const) non-external ___block_descriptor_tmp.97
+00007ff94042e638 (__DATA_CONST,__const) non-external ___block_descriptor_tmp.98
+00007ff94042e658 (__DATA_CONST,__const) non-external ___block_descriptor_tmp.99
+00007ff94042b070 (__DATA_CONST,__const) non-external ___block_literal_global
+00007ff94042e678 (__DATA_CONST,__const) non-external ___block_literal_global.100
+00007ff94042d6b8 (__DATA_CONST,__const) non-external ___block_literal_global.1107
+00007ff94042e798 (__DATA_CONST,__const) non-external ___block_literal_global.116
+00007ff94042d798 (__DATA_CONST,__const) non-external ___block_literal_global.1279
+00007ff94042d7d8 (__DATA_CONST,__const) non-external ___block_literal_global.1373
+00007ff94042d858 (__DATA_CONST,__const) non-external ___block_literal_global.1641
+00007ff94042d898 (__DATA_CONST,__const) non-external ___block_literal_global.1810
+00007ff94042ea18 (__DATA_CONST,__const) non-external ___block_literal_global.183
+00007ff94042eb78 (__DATA_CONST,__const) non-external ___block_literal_global.207
+00007ff94042b170 (__DATA_CONST,__const) non-external ___block_literal_global.261
+00007ff94042df48 (__DATA_CONST,__const) non-external ___block_literal_global.2964
+00007ff94042ec50 (__DATA_CONST,__const) non-external ___block_literal_global.3684
+00007ff94042d6f8 (__DATA_CONST,__const) non-external ___block_literal_global.5
+00007ff94042dfc8 (__DATA_CONST,__const) non-external ___block_literal_global.5.3151
+00007ff94042d3e0 (__DATA_CONST,__const) non-external ___block_literal_global.846
+00007ff94042e528 (__DATA_CONST,__const) non-external ___block_literal_global.85
+00007ff94042e5f8 (__DATA_CONST,__const) non-external ___block_literal_global.95
+                 (undefined) external ___bzero (from libSystem)
+00007ff904213580 (__TEXT,__text) non-external (was a private external) ___chkstk_darwin
+00007ff9042135a0 (__TEXT,__text) non-external (was a private external) ___chkstk_darwin_llvm_probe
+00007ff9041e0280 (__TEXT,__text) non-external (was a private external) ___copy_helper_block_8_32b
+00007ff9041a1cc0 (__TEXT,__text) non-external (was a private external) ___copy_helper_block_8_32r
+00007ff90417ca20 (__TEXT,__text) non-external (was a private external) ___copy_helper_block_8_32r40r
+00007ff9041a20b0 (__TEXT,__text) non-external (was a private external) ___copy_helper_block_8_32r40r48r
+00007ff9041ee950 (__TEXT,__text) non-external ___copy_helper_block_8_32r40r48r56r
+00007ff9041aa420 (__TEXT,__text) non-external ___copy_helper_block_e8_32s
+00007ff9041e02a0 (__TEXT,__text) non-external (was a private external) ___destroy_helper_block_8_32b
+00007ff9041a1ce0 (__TEXT,__text) non-external (was a private external) ___destroy_helper_block_8_32r
+00007ff90417ca60 (__TEXT,__text) non-external (was a private external) ___destroy_helper_block_8_32r40r
+00007ff9041a2100 (__TEXT,__text) non-external (was a private external) ___destroy_helper_block_8_32r40r48r
+00007ff9041ee9b0 (__TEXT,__text) non-external ___destroy_helper_block_8_32r40r48r56r
+00007ff9041aa430 (__TEXT,__text) non-external ___destroy_helper_block_e8_32s
+                 (undefined) external ___maskrune (from libSystem)
+                 (undefined) external ___memcpy_chk (from libSystem)
+                 (undefined) external ___nw_create_backtrace_string (from Network)
+                 (undefined) external ___nwlog_dump_to_fd (from Network)
+                 (undefined) external ___nwlog_err_simulate_crash (from Network)
+                 (undefined) external ___nwlog_is_datapath_logging_enabled (from Network)
+                 (undefined) external ___nwlog_level_enabled (from Network)
+                 (undefined) external ___nwlog_obj (from Network)
+                 (undefined) external ___nwlog_override_fd (from Network)
+                 (undefined) external ___nwlog_pack (from Network)
+00007ff90418a3b0 (__TEXT,__text) non-external ___os_log_helper_1_2_7_8_34_4_0_4_0_4_0_4_0_4_0_8_0
+00007ff9041d7ab0 (__TEXT,__text) non-external ___os_log_helper_1_2_7_8_34_8_0_8_0_4_0_8_0_4_0_4_0
+00007ff904176be0 (__TEXT,__text) non-external ___os_log_helper_1_2_7_8_34_8_34_8_0_8_0_8_0_8_0_8_0
+00007ff9041896f0 (__TEXT,__text) non-external ___os_log_helper_1_2_8_8_34_4_0_8_0_4_0_4_0_4_0_4_0_4_0
+00007ff904172840 (__TEXT,__text) non-external ___os_log_helper_1_2_8_8_34_8_34_8_0_8_0_8_0_8_0_8_0_8_0
+00007ff9041a28a0 (__TEXT,__text) non-external ___os_log_helper_1_2_8_8_34_8_34_8_34_8_34_8_0_8_0_8_0_4_0
+00007ff90420f540 (__TEXT,__text) non-external ___os_log_helper_1_2_8_8_34_8_34_8_34_8_34_8_34_4_0_8_32_8_0
+00007ff90418a410 (__TEXT,__text) non-external ___os_log_helper_1_2_9_8_34_4_0_8_0_4_0_4_0_4_0_4_0_4_0_8_0
+00007ff9041aad40 (__TEXT,__text) non-external ___qlog_init_block_invoke
+00007ff9041aadb0 (__TEXT,__text) non-external ___qlog_init_block_invoke_2
+00007ff9041d11d0 (__TEXT,__text) non-external ___quic_ack_bitstring_block_invoke
+00007ff9041cdf50 (__TEXT,__text) non-external ___quic_ack_create_block_invoke
+00007ff9041b0dc0 (__TEXT,__text) non-external ___quic_cc_cubic_identifier_block_invoke
+00007ff9041b3df0 (__TEXT,__text) non-external ___quic_cc_ledbat_identifier_block_invoke
+00007ff9041c19f0 (__TEXT,__text) non-external ___quic_cc_new_reno_identifier_block_invoke
+00007ff9041bc780 (__TEXT,__text) non-external ___quic_cc_prague_identifier_block_invoke
+00007ff9041f0730 (__TEXT,__text) non-external ___quic_conn_close_block_invoke
+00007ff904205b80 (__TEXT,__text) non-external ___quic_conn_copy_data_transfer_snapshot_block_invoke
+00007ff904205a80 (__TEXT,__text) non-external ___quic_conn_copy_establishment_report_block_invoke
+00007ff9041f3740 (__TEXT,__text) non-external ___quic_conn_copy_metadata_block_invoke
+00007ff9041f3770 (__TEXT,__text) non-external ___quic_conn_copy_metadata_block_invoke.78
+00007ff9041f3790 (__TEXT,__text) non-external ___quic_conn_copy_metadata_block_invoke.80
+00007ff9041f3810 (__TEXT,__text) non-external ___quic_conn_copy_metadata_block_invoke_2
+00007ff9041f3130 (__TEXT,__text) non-external ___quic_conn_destroy_block_invoke
+00007ff904206840 (__TEXT,__text) non-external ___quic_conn_drain_connection_async_block_invoke
+00007ff904206870 (__TEXT,__text) non-external ___quic_conn_drain_connection_async_block_invoke_2
+00007ff904205e90 (__TEXT,__text) non-external ___quic_conn_handle_error_block_invoke
+00007ff9041ff540 (__TEXT,__text) non-external ___quic_conn_handle_inbound_block_invoke
+00007ff9041ff5e0 (__TEXT,__text) non-external ___quic_conn_handle_inbound_block_invoke_2
+00007ff9041f54a0 (__TEXT,__text) non-external ___quic_conn_handle_outbound_block_invoke
+00007ff9041f5520 (__TEXT,__text) non-external ___quic_conn_handle_outbound_block_invoke_2
+00007ff904200710 (__TEXT,__text) non-external ___quic_conn_handle_start_block_invoke
+00007ff904201520 (__TEXT,__text) non-external ___quic_conn_handle_start_inner_block_invoke
+00007ff9041f6480 (__TEXT,__text) non-external ___quic_conn_handle_stop_block_invoke
+00007ff9041f6d20 (__TEXT,__text) non-external ___quic_conn_handle_stop_inner_block_invoke
+00007ff9041f7130 (__TEXT,__text) non-external ___quic_conn_handle_stop_read_block_invoke
+00007ff9041f6f10 (__TEXT,__text) non-external ___quic_conn_handle_stop_write_block_invoke
+00007ff9042018a0 (__TEXT,__text) non-external ___quic_conn_idle_timeout_configure_block_invoke
+00007ff9041f7390 (__TEXT,__text) non-external ___quic_conn_inbound_starting_block_invoke
+00007ff9041ff730 (__TEXT,__text) non-external ___quic_conn_inbound_stopping_block_invoke
+00007ff9041ffbe0 (__TEXT,__text) non-external ___quic_conn_inbound_stopping_block_invoke_2
+00007ff9041f26f0 (__TEXT,__text) non-external ___quic_conn_initialize_block_invoke
+00007ff9041e7d50 (__TEXT,__text) non-external ___quic_conn_initialize_block_invoke_2
+00007ff9041e7dc0 (__TEXT,__text) non-external ___quic_conn_initialize_block_invoke_3
+00007ff9041e9470 (__TEXT,__text) non-external ___quic_conn_initialize_inner_block_invoke
+00007ff9041ea9b0 (__TEXT,__text) non-external ___quic_conn_inject_packet_block_invoke
+00007ff9041eaa40 (__TEXT,__text) non-external ___quic_conn_inject_packet_block_invoke_2
+00007ff9041eb3f0 (__TEXT,__text) non-external ___quic_conn_keepalive_configure_block_invoke
+00007ff9042052a0 (__TEXT,__text) non-external ___quic_conn_link_advisory_block_invoke
+00007ff9042058e0 (__TEXT,__text) non-external ___quic_conn_link_advisory_block_invoke.121
+00007ff904204cf0 (__TEXT,__text) non-external ___quic_conn_max_message_size_block_invoke
+00007ff904204e10 (__TEXT,__text) non-external ___quic_conn_max_message_size_block_invoke_2
+00007ff904204e40 (__TEXT,__text) non-external ___quic_conn_max_message_size_block_invoke_3
+00007ff9041fefd0 (__TEXT,__text) non-external ___quic_conn_process_retry_block_invoke
+00007ff9041e9c70 (__TEXT,__text) non-external ___quic_conn_restore_token_block_invoke
+00007ff9041edc40 (__TEXT,__text) non-external ___quic_conn_send_frames_for_key_state_block_invoke
+00007ff9041eea00 (__TEXT,__text) non-external ___quic_conn_send_frames_for_key_state_block_invoke.173
+00007ff9041ff260 (__TEXT,__text) non-external ___quic_conn_send_retry_block_invoke
+00007ff9041ff2d0 (__TEXT,__text) non-external ___quic_conn_send_retry_block_invoke_2
+00007ff9041feff0 (__TEXT,__text) non-external ___quic_conn_send_vn_block_invoke
+00007ff9041ff340 (__TEXT,__text) non-external ___quic_conn_send_vn_block_invoke_2
+00007ff9041ea0c0 (__TEXT,__text) non-external ___quic_conn_set_metadata_handlers_block_invoke
+00007ff9041ea110 (__TEXT,__text) non-external ___quic_conn_set_metadata_handlers_block_invoke.10
+00007ff9041ea160 (__TEXT,__text) non-external ___quic_conn_set_metadata_handlers_block_invoke.16
+00007ff9041ea1b0 (__TEXT,__text) non-external ___quic_conn_set_metadata_handlers_block_invoke.22
+00007ff9041ea200 (__TEXT,__text) non-external ___quic_conn_set_metadata_handlers_block_invoke.28
+00007ff9041ea250 (__TEXT,__text) non-external ___quic_conn_set_metadata_handlers_block_invoke.33
+00007ff9041ea2a0 (__TEXT,__text) non-external ___quic_conn_set_metadata_handlers_block_invoke.37
+00007ff9041ea430 (__TEXT,__text) non-external ___quic_conn_set_metadata_handlers_block_invoke.47
+00007ff9041ea520 (__TEXT,__text) non-external ___quic_conn_set_metadata_handlers_block_invoke.49
+00007ff9041ea610 (__TEXT,__text) non-external ___quic_conn_set_metadata_handlers_block_invoke.51
+00007ff9041ea700 (__TEXT,__text) non-external ___quic_conn_set_metadata_handlers_block_invoke.53
+00007ff9041ea7b0 (__TEXT,__text) non-external ___quic_conn_set_metadata_handlers_block_invoke.63
+00007ff9041ea800 (__TEXT,__text) non-external ___quic_conn_set_metadata_handlers_block_invoke.68
+00007ff9041f24d0 (__TEXT,__text) non-external ___quic_conn_set_metadata_handlers_block_invoke_2
+00007ff9041f21d0 (__TEXT,__text) non-external ___quic_conn_set_metadata_handlers_block_invoke_2.11
+00007ff9041f1e90 (__TEXT,__text) non-external ___quic_conn_set_metadata_handlers_block_invoke_2.17
+00007ff9041f1b50 (__TEXT,__text) non-external ___quic_conn_set_metadata_handlers_block_invoke_2.23
+00007ff9041f1610 (__TEXT,__text) non-external ___quic_conn_set_metadata_handlers_block_invoke_2.29
+00007ff9041f10d0 (__TEXT,__text) non-external ___quic_conn_set_metadata_handlers_block_invoke_2.34
+00007ff9041f10a0 (__TEXT,__text) non-external ___quic_conn_set_metadata_handlers_block_invoke_2.38
+00007ff9041ea730 (__TEXT,__text) non-external ___quic_conn_set_metadata_handlers_block_invoke_2.55
+00007ff9041eabf0 (__TEXT,__text) non-external ___quic_conn_set_metadata_handlers_block_invoke_2.64
+00007ff9041ea910 (__TEXT,__text) non-external ___quic_conn_set_metadata_handlers_block_invoke_2.69
+00007ff9041f2370 (__TEXT,__text) non-external ___quic_conn_set_metadata_handlers_block_invoke_3
+00007ff9041f2030 (__TEXT,__text) non-external ___quic_conn_set_metadata_handlers_block_invoke_3.18
+00007ff9041f1cf0 (__TEXT,__text) non-external ___quic_conn_set_metadata_handlers_block_invoke_3.24
+00007ff9041ea2f0 (__TEXT,__text) non-external ___quic_conn_set_metadata_handlers_block_invoke_3.41
+00007ff9041ea760 (__TEXT,__text) non-external ___quic_conn_set_metadata_handlers_block_invoke_3.58
+00007ff9041ea8a0 (__TEXT,__text) non-external ___quic_conn_set_metadata_handlers_block_invoke_3.73
+00007ff9041ead50 (__TEXT,__text) non-external ___quic_conn_set_metadata_handlers_block_invoke_4
+00007ff9041eac40 (__TEXT,__text) non-external ___quic_conn_set_metadata_handlers_block_invoke_4.59
+00007ff9041ea8f0 (__TEXT,__text) non-external ___quic_conn_set_metadata_handlers_block_invoke_4.74
+00007ff9041ea340 (__TEXT,__text) non-external ___quic_conn_set_metadata_handlers_block_invoke_5
+00007ff9041ea080 (__TEXT,__text) non-external ___quic_conn_set_mss_block_invoke
+00007ff904200210 (__TEXT,__text) non-external ___quic_conn_stream_dequeue_block_invoke
+00007ff904200530 (__TEXT,__text) non-external ___quic_conn_stream_dequeue_block_invoke_2
+00007ff904200280 (__TEXT,__text) non-external ___quic_conn_stream_dequeue_block_invoke_3
+00007ff904201f40 (__TEXT,__text) non-external ___quic_conn_traffic_mgmt_block_invoke
+00007ff9041f1080 (__TEXT,__text) non-external ___quic_conn_write_quiclog_block_invoke
+00007ff9041f0f00 (__TEXT,__text) non-external ___quic_conn_write_quiclog_block_invoke_2
+00007ff9041c9030 (__TEXT,__text) non-external ___quic_crypto_encryption_secret_update_block_invoke
+00007ff9041c9e20 (__TEXT,__text) non-external ___quic_crypto_finalize_output_frames_block_invoke
+00007ff9041ca040 (__TEXT,__text) non-external ___quic_crypto_finalize_output_frames_block_invoke.69
+00007ff9041c9ed0 (__TEXT,__text) non-external ___quic_crypto_finalize_output_frames_block_invoke_2
+00007ff9041ca940 (__TEXT,__text) non-external ___quic_crypto_get_input_frames_block_invoke
+00007ff9041ca930 (__TEXT,__text) non-external ___quic_crypto_get_output_frames_block_invoke
+00007ff9041c47a0 (__TEXT,__text) non-external ___quic_crypto_new_flow_block_invoke
+00007ff9041c48b0 (__TEXT,__text) non-external ___quic_crypto_new_flow_block_invoke_2
+00007ff9041c4950 (__TEXT,__text) non-external ___quic_crypto_new_flow_block_invoke_3
+00007ff9041c38c0 (__TEXT,__text) non-external ___quic_crypto_queue_ready_block_invoke
+00007ff9041c3920 (__TEXT,__text) non-external ___quic_crypto_queue_ready_block_invoke_2
+00007ff9041c7480 (__TEXT,__text) non-external ___quic_crypto_setup_flow_control_block_invoke
+00007ff9041c74a0 (__TEXT,__text) non-external ___quic_crypto_setup_sec_options_block_invoke
+00007ff9041c7530 (__TEXT,__text) non-external ___quic_crypto_setup_sec_options_block_invoke.29
+00007ff9041c9060 (__TEXT,__text) non-external ___quic_crypto_setup_sec_options_block_invoke_2
+00007ff9041c8a10 (__TEXT,__text) non-external ___quic_crypto_setup_sec_options_block_invoke_2.30
+00007ff9041c7580 (__TEXT,__text) non-external ___quic_crypto_setup_sec_options_block_invoke_3
+00007ff9041c88b0 (__TEXT,__text) non-external ___quic_crypto_setup_sec_options_block_invoke_4
+00007ff9041c75d0 (__TEXT,__text) non-external ___quic_crypto_setup_sec_options_block_invoke_5
+00007ff9041c75f0 (__TEXT,__text) non-external ___quic_crypto_setup_sec_options_block_invoke_6
+00007ff9041c7a10 (__TEXT,__text) non-external ___quic_crypto_setup_sec_options_block_invoke_7
+00007ff9041c4fe0 (__TEXT,__text) non-external ___quic_crypto_tls_ready_block_invoke
+00007ff9041c6c80 (__TEXT,__text) non-external ___quic_crypto_tls_ready_inner_block_invoke
+00007ff9041c3c40 (__TEXT,__text) non-external ___quic_crypto_tls_start_block_invoke
+00007ff9041c7640 (__TEXT,__text) non-external ___quic_crypto_tls_start_block_invoke_2
+00007ff9041c4020 (__TEXT,__text) non-external ___quic_crypto_tls_start_block_invoke_3
+00007ff9041c4080 (__TEXT,__text) non-external ___quic_crypto_tls_start_block_invoke_4
+00007ff9041dfc70 (__TEXT,__text) non-external ___quic_dealloc_stream_block_invoke
+00007ff904210890 (__TEXT,__text) non-external ___quic_dispatch_data_copyout_block_invoke
+00007ff9041e0260 (__TEXT,__text) non-external ___quic_enumerate_data_streams_block_invoke
+00007ff9041e02c0 (__TEXT,__text) non-external ___quic_enumerate_open_data_streams_block_invoke
+00007ff9041d82c0 (__TEXT,__text) non-external ___quic_fc_continue_sending_block_invoke
+00007ff9041d8340 (__TEXT,__text) non-external ___quic_fc_continue_sending_block_invoke_2
+00007ff9041dd6d0 (__TEXT,__text) non-external ___quic_fc_setup_streams_block_invoke
+00007ff9041a3e80 (__TEXT,__text) non-external ___quic_frame_acknowledged_ACK_block_invoke
+00007ff9041a25d0 (__TEXT,__text) non-external ___quic_frame_acknowledged_MAX_STREAM_DATA_block_invoke
+00007ff9041a3330 (__TEXT,__text) non-external ___quic_frame_acknowledged_RESET_STREAM_block_invoke
+00007ff9041a2750 (__TEXT,__text) non-external ___quic_frame_acknowledged_STREAM_block_invoke
+00007ff9041a1c50 (__TEXT,__text) non-external ___quic_frame_free_DATAGRAM_block_invoke
+00007ff9041a2710 (__TEXT,__text) non-external ___quic_frame_free_STREAM_block_invoke
+00007ff9041a2910 (__TEXT,__text) non-external ___quic_frame_process_CRYPTO_block_invoke
+00007ff9041a2140 (__TEXT,__text) non-external ___quic_frame_process_DATAGRAM_block_invoke
+00007ff9041a22c0 (__TEXT,__text) non-external ___quic_frame_process_DATAGRAM_block_invoke.154
+00007ff9041a2450 (__TEXT,__text) non-external ___quic_frame_process_DATAGRAM_block_invoke.158
+00007ff9041a23e0 (__TEXT,__text) non-external ___quic_frame_process_DATAGRAM_block_invoke_2
+00007ff9041a2480 (__TEXT,__text) non-external ___quic_frame_process_DATAGRAM_block_invoke_3
+00007ff9041a26f0 (__TEXT,__text) non-external ___quic_frame_process_MAX_STREAM_DATA_block_invoke
+00007ff9041a3630 (__TEXT,__text) non-external ___quic_frame_process_RESET_STREAM_block_invoke
+00007ff9041a3010 (__TEXT,__text) non-external ___quic_frame_process_STOP_SENDING_block_invoke
+00007ff9041a25b0 (__TEXT,__text) non-external ___quic_frame_process_STREAM_DATA_BLOCKED_block_invoke
+00007ff9041a1c90 (__TEXT,__text) non-external ___quic_frame_write_DATAGRAM_block_invoke
+00007ff9041a2870 (__TEXT,__text) non-external ___quic_frame_write_STREAM_block_invoke
+00007ff9041a1ff0 (__TEXT,__text) non-external ___quic_frame_write_data_frame_block_invoke
+00007ff90420fd00 (__TEXT,__text) non-external ___quic_init_block_invoke
+00007ff90417dea0 (__TEXT,__text) non-external ___quic_migration_create_block_invoke
+00007ff9041839a0 (__TEXT,__text) non-external ___quic_migration_fallback_event_block_invoke
+00007ff904182bd0 (__TEXT,__text) non-external ___quic_migration_path_event_block_invoke
+00007ff904182700 (__TEXT,__text) non-external ___quic_migration_path_event_block_invoke.6
+00007ff9041d2170 (__TEXT,__text) non-external ___quic_pacer_continue_sending_block_invoke
+00007ff9041d2ad0 (__TEXT,__text) non-external ___quic_pacer_send_packet_block_invoke
+00007ff9041d2020 (__TEXT,__text) non-external ___quic_pacer_service_queue_block_invoke
+00007ff90420b410 (__TEXT,__text) non-external ___quic_packet_builder_split_frame_inner_block_invoke
+00007ff9041b80e0 (__TEXT,__text) non-external ___quic_pmtud_create_block_invoke
+00007ff9041ba600 (__TEXT,__text) non-external ___quic_pmtud_message_size_handler_block_invoke
+00007ff9041da470 (__TEXT,__text) non-external ___quic_process_max_streams_bidi_block_invoke
+00007ff9041daa00 (__TEXT,__text) non-external ___quic_process_max_streams_uni_block_invoke
+00007ff90417bf50 (__TEXT,__text) non-external ___quic_recovery_find_newly_acked_packets_block_invoke
+00007ff904174890 (__TEXT,__text) non-external ___quic_recovery_set_timer_block_invoke
+00007ff9041d7b10 (__TEXT,__text) non-external ___quic_service_pending_send_data_block_invoke
+00007ff9041d7c70 (__TEXT,__text) non-external ___quic_service_pending_send_data_block_invoke.6
+00007ff904212c70 (__TEXT,__text) non-external ___quic_shorthand_process_packet_block_invoke
+00007ff9041e1ac0 (__TEXT,__text) non-external ___quic_stream_add_new_flow_block_invoke
+00007ff9041e4680 (__TEXT,__text) non-external ___quic_stream_process_block_invoke
+00007ff9041de220 (__TEXT,__text) non-external ___quic_stream_setup_metadata_handlers_block_invoke
+00007ff904183bd0 (__TEXT,__text) non-external ___quic_timer_create_block_invoke
+00007ff9041aca40 (__TEXT,__text) non-external ___quic_tp_serialize_internal_block_invoke
+00007ff9041acc50 (__TEXT,__text) non-external ___quic_tp_serialize_internal_block_invoke.29
+                 (undefined) external ___stack_chk_fail (from libSystem)
+                 (undefined) external ___stack_chk_guard (from libSystem)
+                 (undefined) external ___stderrp (from libSystem)
+00007ff904183a40 (__TEXT,__text) non-external ___timebase_info_block_invoke
+                 (undefined) external __dispatch_queue_attr_concurrent (from libSystem)
+                 (undefined) external __nw_protocol_default_flow (from Network)
+                 (undefined) external __nw_protocol_default_path (from Network)
+                 (undefined) external __nw_protocol_invalid_flow (from Network)
+                 (undefined) external __nw_protocol_shared_flow (from Network)
+                 (undefined) external __objc_empty_cache (from libobjc)
+                 (undefined) external __os_log_pack_fill (from libSystem)
+                 (undefined) external __os_log_pack_size (from libSystem)
+00007ff9041aaf60 (__TEXT,__text) non-external __qlog_debug
+00007ff94270d3d8 (__DATA,__bss) non-external __qlog_debug.qlog_start_time
+00007ff9041d09f0 (__TEXT,__text) non-external __quic_ack_bitstring_destroy
+00007ff9041ce240 (__TEXT,__text) non-external __quic_ack_destroy
+00007ff9041c3540 (__TEXT,__text) non-external __quic_crypto_queue_destroy
+00007ff90417eb40 (__TEXT,__text) non-external __quic_migration_destroy
+00007ff9041d31a0 (__TEXT,__text) non-external __quic_pacer_destroy
+00007ff904209510 (__TEXT,__text) non-external __quic_packet_builder_assemble
+00007ff904207c80 (__TEXT,__text) non-external __quic_packet_builder_calculate_size
+00007ff9041b0b10 (__TEXT,__text) non-external __quic_packet_destroy
+00007ff904187000 (__TEXT,__text) non-external __quic_protector_destroy
+00007ff9041bc5a0 (__TEXT,__text) non-external __quic_reassq_destroy
+00007ff9041bc3b0 (__TEXT,__text) non-external __quic_reassq_free_dequeue_item
+00007ff9041782b0 (__TEXT,__text) non-external __quic_recovery_destroy
+00007ff904210be0 (__TEXT,__text) non-external __quic_rtt_destroy
+00007ff90417c890 (__TEXT,__text) non-external __quic_sent_packet_defer_destroy
+00007ff9041c7290 (__TEXT,__text) non-external __quic_signpost
+                 (undefined) external _arc4random (from libSystem)
+                 (undefined) external _arc4random_buf (from libSystem)
+                 (undefined) external _arc4random_uniform (from libSystem)
+                 (undefined) external _backtrace (from libSystem)
+                 (undefined) external _backtrace_symbols (from libSystem)
+                 (undefined) external _calloc (from libSystem)
+                 (undefined) external _cbrt (from libSystem)
+                 (undefined) external _cc_clear (from libSystem)
+00007ff9041b1420 (__TEXT,__text) non-external _cubic_ack_begin
+00007ff9041b15a0 (__TEXT,__text) non-external _cubic_ack_end
+00007ff9041b2cb0 (__TEXT,__text) non-external _cubic_can_send_packet
+00007ff9041b3b20 (__TEXT,__text) non-external _cubic_cong_event
+00007ff9041b3710 (__TEXT,__text) non-external _cubic_create
+00007ff9041b3a20 (__TEXT,__text) non-external _cubic_destroy
+00007ff9041b32d0 (__TEXT,__text) non-external _cubic_fillout_data_transfer_snapshot
+00007ff9041b2fc0 (__TEXT,__text) non-external _cubic_get_allowed_cwnd
+00007ff9041b3150 (__TEXT,__text) non-external _cubic_get_bytes_in_flight
+00007ff9041b2e40 (__TEXT,__text) non-external _cubic_get_cwnd
+00007ff9041b2a40 (__TEXT,__text) non-external _cubic_idle_timeout
+00007ff9041b34e0 (__TEXT,__text) non-external _cubic_init
+00007ff9041b23d0 (__TEXT,__text) non-external _cubic_link_flow_controlled
+00007ff9041b0f10 (__TEXT,__text) non-external _cubic_mss_changed
+00007ff9041b1bb0 (__TEXT,__text) non-external _cubic_packet_acked
+00007ff9041b1270 (__TEXT,__text) non-external _cubic_packet_discarded
+00007ff9041b10c0 (__TEXT,__text) non-external _cubic_packet_sent
+00007ff9041b1df0 (__TEXT,__text) non-external _cubic_packets_lost
+00007ff9041b2840 (__TEXT,__text) non-external _cubic_persistent_congestion
+00007ff9041b1fe0 (__TEXT,__text) non-external _cubic_process_ecn
+00007ff9041b2560 (__TEXT,__text) non-external _cubic_spurious_rxmt
+00007ff9041b37c0 (__TEXT,__text) non-external _cubic_switch
+                 (undefined) external _dispatch_async (from libSystem)
+                 (undefined) external _dispatch_data_apply (from libSystem)
+                 (undefined) external _dispatch_data_create (from libSystem)
+                 (undefined) external _dispatch_data_create_map (from libSystem)
+                 (undefined) external _dispatch_data_get_size (from libSystem)
+                 (undefined) external _dispatch_once (from libSystem)
+                 (undefined) external _dispatch_queue_create (from libSystem)
+                 (undefined) external _dispatch_release (from libSystem)
+                 (undefined) external _dispatch_semaphore_create (from libSystem)
+                 (undefined) external _dispatch_semaphore_signal (from libSystem)
+                 (undefined) external _dispatch_semaphore_wait (from libSystem)
+                 (undefined) external _dispatch_time (from libSystem)
+                 (undefined) external _fprintf (from libSystem)
+                 (undefined) external _fputc (from libSystem)
+                 (undefined) external _free (from libSystem)
+                 (undefined) external _fwrite (from libSystem)
+00007ff94270d328 (__DATA,__crash_info) non-external (was a private external) _gCRAnnotations
+00007ff94270d680 (__DATA,__bss) non-external _g_new_reno_identifier
+00007ff94270d800 (__DATA,__bss) non-external _g_quic_stats
+                 (undefined) external _getenv (from libSystem)
+                 (undefined) external _getpid (from libSystem)
+                 (undefined) external _getprogname (from libSystem)
+                 (undefined) external _index (from libSystem)
+                 (undefined) external _inet_ntop (from libSystem)
+                 (undefined) external _isatty (from libSystem)
+                 (undefined) external _kCFAllocatorDefault (from CoreFoundation)
+                 (undefined) external _kdebug_is_enabled (from libSystem)
+                 (undefined) external _kdebug_trace (from libSystem)
+00007ff9041b4460 (__TEXT,__text) non-external _ledbat_ack_begin
+00007ff9041b45e0 (__TEXT,__text) non-external _ledbat_ack_end
+00007ff9041b6010 (__TEXT,__text) non-external _ledbat_can_send_packet
+00007ff9041b6a40 (__TEXT,__text) non-external _ledbat_create
+00007ff9041b6ca0 (__TEXT,__text) non-external _ledbat_destroy
+00007ff9041b6630 (__TEXT,__text) non-external _ledbat_fillout_data_transfer_snapshot
+00007ff9041b6320 (__TEXT,__text) non-external _ledbat_get_allowed_cwnd
+00007ff9041b64b0 (__TEXT,__text) non-external _ledbat_get_bytes_in_flight
+00007ff9041b61a0 (__TEXT,__text) non-external _ledbat_get_cwnd
+00007ff9041b5db0 (__TEXT,__text) non-external _ledbat_idle_timeout
+00007ff9041b6840 (__TEXT,__text) non-external _ledbat_init
+00007ff9041b5600 (__TEXT,__text) non-external _ledbat_link_flow_controlled
+00007ff9041b3f50 (__TEXT,__text) non-external _ledbat_mss_changed
+00007ff9041b4c00 (__TEXT,__text) non-external _ledbat_packet_acked
+00007ff9041b42b0 (__TEXT,__text) non-external _ledbat_packet_discarded
+00007ff9041b4100 (__TEXT,__text) non-external _ledbat_packet_sent
+00007ff9041b4e40 (__TEXT,__text) non-external _ledbat_packets_lost
+00007ff9041b5bb0 (__TEXT,__text) non-external _ledbat_persistent_congestion
+00007ff9041b5130 (__TEXT,__text) non-external _ledbat_process_ecn
+00007ff9041b58d0 (__TEXT,__text) non-external _ledbat_spurious_rxmt
+00007ff9041b6ab0 (__TEXT,__text) non-external _ledbat_switch
+                 (undefined) external _log2 (from libSystem)
+                 (undefined) external _mach_absolute_time (from libSystem)
+                 (undefined) external _mach_continuous_time (from libSystem)
+                 (undefined) external _mach_get_times (from libSystem)
+                 (undefined) external _mach_timebase_info (from libSystem)
+                 (undefined) external _mach_wait_until (from libSystem)
+                 (undefined) external _malloc (from libSystem)
+                 (undefined) external _memcpy (from libSystem)
+                 (undefined) external _memset (from libSystem)
+                 (undefined) external _memset_pattern16 (from libSystem)
+                 (undefined) external _network_config_get_l4s_enabled (from Network)
+                 (undefined) external _nw_connection_cancel (from Network)
+                 (undefined) external _nw_connection_copy_protocol_metadata_on_queue (from Network)
+                 (undefined) external _nw_connection_force_cancel (from Network)
+                 (undefined) external _nw_connection_get_id (from Network)
+                 (undefined) external _nw_connection_set_queue (from Network)
+                 (undefined) external _nw_connection_set_state_changed_handler (from Network)
+                 (undefined) external _nw_connection_start (from Network)
+                 (undefined) external _nw_connection_state_to_string (from Network)
+                 (undefined) external _nw_endpoint_create_address (from Network)
+                 (undefined) external _nw_endpoint_get_address (from Network)
+                 (undefined) external _nw_endpoint_get_description (from Network)
+                 (undefined) external _nw_endpoint_get_type (from Network)
+                 (undefined) external _nw_error_create_posix_error (from Network)
+                 (undefined) external _nw_error_get_error_code (from Network)
+                 (undefined) external _nw_error_get_error_domain (from Network)
+                 (undefined) external _nw_frame_array_append (from Network)
+                 (undefined) external _nw_frame_array_append_array (from Network)
+                 (undefined) external _nw_frame_array_first (from Network)
+                 (undefined) external _nw_frame_array_foreach (from Network)
+                 (undefined) external _nw_frame_array_init (from Network)
+                 (undefined) external _nw_frame_array_is_empty (from Network)
+                 (undefined) external _nw_frame_array_prepend (from Network)
+                 (undefined) external _nw_frame_array_remove (from Network)
+                 (undefined) external _nw_frame_check_validity (from Network)
+                 (undefined) external _nw_frame_claim (from Network)
+                 (undefined) external _nw_frame_create (from Network)
+                 (undefined) external _nw_frame_finalize (from Network)
+                 (undefined) external _nw_frame_get_buffer (from Network)
+                 (undefined) external _nw_frame_get_external_data (from Network)
+                 (undefined) external _nw_frame_reset (from Network)
+                 (undefined) external _nw_frame_set_external_data (from Network)
+                 (undefined) external _nw_frame_unclaimed_bytes (from Network)
+                 (undefined) external _nw_frame_uses_external_data (from Network)
+                 (undefined) external _nw_interface_get_index (from Network)
+                 (undefined) external _nw_interface_get_name (from Network)
+                 (undefined) external _nw_interface_get_type (from Network)
+                 (undefined) external _nw_log_delta_to_ms (from Network)
+                 (undefined) external _nw_log_ms_to_delta (from Network)
+                 (undefined) external _nw_log_ring_append (from Network)
+                 (undefined) external _nw_log_ring_copyout (from Network)
+                 (undefined) external _nw_parameters_copy_context (from Network)
+                 (undefined) external _nw_parameters_copy_default_protocol_stack (from Network)
+                 (undefined) external _nw_parameters_set_server_mode (from Network)
+                 (undefined) external _nw_path_copy_endpoint (from Network)
+                 (undefined) external _nw_path_get_mtu (from Network)
+                 (undefined) external _nw_path_get_rtt_values (from Network)
+                 (undefined) external _nw_path_is_direct (from Network)
+                 (undefined) external _nw_path_uses_interface_type (from Network)
+                 (undefined) external _nw_protocol_copy_quic_connection_definition (from Network)
+                 (undefined) external _nw_protocol_copy_quic_stream_definition (from Network)
+                 (undefined) external _nw_protocol_copy_swift_tls_definition (from Network)
+                 (undefined) external _nw_protocol_copy_tls_definition (from Network)
+                 (undefined) external _nw_protocol_create_inbound_data (from Network)
+                 (undefined) external _nw_protocol_data_access_buffer (from Network)
+                 (undefined) external _nw_protocol_data_copy_outbound_subdata (from Network)
+                 (undefined) external _nw_protocol_data_get_ecn_flag (from Network)
+                 (undefined) external _nw_protocol_data_get_size (from Network)
+                 (undefined) external _nw_protocol_data_set_compression_generation_count (from Network)
+                 (undefined) external _nw_protocol_data_set_ecn_flag (from Network)
+                 (undefined) external _nw_protocol_data_trim (from Network)
+                 (undefined) external _nw_protocol_definition_set_copy_data_transfer_snapshot (from Network)
+                 (undefined) external _nw_protocol_definition_set_copy_establishment_report (from Network)
+                 (undefined) external _nw_protocol_definition_set_copy_metadata (from Network)
+                 (undefined) external _nw_protocol_definition_set_custom_flow_map_key_size (from Network)
+                 (undefined) external _nw_protocol_definition_set_destroy (from Network)
+                 (undefined) external _nw_protocol_definition_set_fallback_changed_handler (from Network)
+                 (undefined) external _nw_protocol_definition_set_flow_state_allocator (from Network)
+                 (undefined) external _nw_protocol_definition_set_globals_allocator (from Network)
+                 (undefined) external _nw_protocol_definition_set_handle_error (from Network)
+                 (undefined) external _nw_protocol_definition_set_handle_inbound (from Network)
+                 (undefined) external _nw_protocol_definition_set_handle_outbound (from Network)
+                 (undefined) external _nw_protocol_definition_set_inbound_events (from Network)
+                 (undefined) external _nw_protocol_definition_set_initialize (from Network)
+                 (undefined) external _nw_protocol_definition_set_instance_state_allocator (from Network)
+                 (undefined) external _nw_protocol_definition_set_link_state_update (from Network)
+                 (undefined) external _nw_protocol_definition_set_maximum_message_size_update (from Network)
+                 (undefined) external _nw_protocol_definition_set_message_size_handler (from Network)
+                 (undefined) external _nw_protocol_definition_set_multipath (from Network)
+                 (undefined) external _nw_protocol_definition_set_path_changed_handler (from Network)
+                 (undefined) external _nw_protocol_definition_set_start (from Network)
+                 (undefined) external _nw_protocol_definition_set_stop (from Network)
+                 (undefined) external _nw_protocol_definition_set_supports_discontiguous_data (from Network)
+                 (undefined) external _nw_protocol_definition_set_traffic_mgmt_update (from Network)
+                 (undefined) external _nw_protocol_establishment_report_create (from Network)
+                 (undefined) external _nw_protocol_implementation_finalize_pending_frames (from Network)
+                 (undefined) external _nw_protocol_instance_access_flow_state (from Network)
+                 (undefined) external _nw_protocol_instance_access_globals (from Network)
+                 (undefined) external _nw_protocol_instance_access_state (from Network)
+                 (undefined) external _nw_protocol_instance_add_inbound (from Network)
+                 (undefined) external _nw_protocol_instance_add_new_flow (from Network)
+                 (undefined) external _nw_protocol_instance_add_outbound (from Network)
+                 (undefined) external _nw_protocol_instance_assert_fallback_agent (from Network)
+                 (undefined) external _nw_protocol_instance_async (from Network)
+                 (undefined) external _nw_protocol_instance_async_if_needed (from Network)
+                 (undefined) external _nw_protocol_instance_clear_flow_for_key (from Network)
+                 (undefined) external _nw_protocol_instance_copy_association (from Network)
+                 (undefined) external _nw_protocol_instance_copy_endpoint (from Network)
+                 (undefined) external _nw_protocol_instance_copy_interface_for_path (from Network)
+                 (undefined) external _nw_protocol_instance_copy_options (from Network)
+                 (undefined) external _nw_protocol_instance_copy_path (from Network)
+                 (undefined) external _nw_protocol_instance_enumerate_flows (from Network)
+                 (undefined) external _nw_protocol_instance_establish_path (from Network)
+                 (undefined) external _nw_protocol_instance_flush_batched_input (from Network)
+                 (undefined) external _nw_protocol_instance_get_flow_for_key (from Network)
+                 (undefined) external _nw_protocol_instance_get_level (from Network)
+                 (undefined) external _nw_protocol_instance_get_logging_disabled (from Network)
+                 (undefined) external _nw_protocol_instance_get_maximum_message_size (from Network)
+                 (undefined) external _nw_protocol_instance_get_multipath_service (from Network)
+                 (undefined) external _nw_protocol_instance_get_sensitive_redacted (from Network)
+                 (undefined) external _nw_protocol_instance_get_stats (from Network)
+                 (undefined) external _nw_protocol_instance_get_stats_region (from Network)
+                 (undefined) external _nw_protocol_instance_ignore_future_path_changes (from Network)
+                 (undefined) external _nw_protocol_instance_notify_connection_id_changed (from Network)
+                 (undefined) external _nw_protocol_instance_notify_updated_message_properties (from Network)
+                 (undefined) external _nw_protocol_instance_process_external_input (from Network)
+                 (undefined) external _nw_protocol_instance_report_done (from Network)
+                 (undefined) external _nw_protocol_instance_report_ready (from Network)
+                 (undefined) external _nw_protocol_instance_reset_after_early_data (from Network)
+                 (undefined) external _nw_protocol_instance_schedule_wakeup (from Network)
+                 (undefined) external _nw_protocol_instance_set_flow_for_key (from Network)
+                 (undefined) external _nw_protocol_instance_set_flow_is_datagram (from Network)
+                 (undefined) external _nw_protocol_instance_set_is_datagram (from Network)
+                 (undefined) external _nw_protocol_instance_set_limit_outbound_data (from Network)
+                 (undefined) external _nw_protocol_instance_set_link_flow_controlled (from Network)
+                 (undefined) external _nw_protocol_instance_set_wakeup_handler (from Network)
+                 (undefined) external _nw_protocol_instance_tear_down_path (from Network)
+                 (undefined) external _nw_protocol_instance_unassert_fallback_agent (from Network)
+                 (undefined) external _nw_protocol_instance_update_outbound_data_limit (from Network)
+                 (undefined) external _nw_protocol_instance_wait_for_early_data (from Network)
+                 (undefined) external _nw_protocol_metadata_copy_original (from Network)
+                 (undefined) external _nw_protocol_metadata_create_reply (from Network)
+                 (undefined) external _nw_protocol_metadata_create_singleton (from Network)
+                 (undefined) external _nw_protocol_metadata_is_quic_connection (from Network)
+                 (undefined) external _nw_protocol_metadata_is_quic_stream (from Network)
+                 (undefined) external _nw_protocol_metadata_supports_replies (from Network)
+                 (undefined) external _nw_protocol_options_copy (from Network)
+                 (undefined) external _nw_protocol_options_get_log_id_num (from Network)
+                 (undefined) external _nw_protocol_options_get_log_id_str (from Network)
+                 (undefined) external _nw_protocol_options_is_quic_stream (from Network)
+                 (undefined) external _nw_protocol_request_outbound_data (from Network)
+                 (undefined) external _nw_protocol_stack_clear_application_protocols (from Network)
+                 (undefined) external _nw_protocol_stack_prepend_application_protocol (from Network)
+                 (undefined) external _nw_protocol_stack_set_original_proxied_transport_protocol (from Network)
+                 (undefined) external _nw_protocol_stack_set_transport_protocol (from Network)
+                 (undefined) external _nw_queue_context_target_dispatch_queue (from Network)
+                 (undefined) external _nw_quic_access_application_result_on_queue (from Network)
+                 (undefined) external _nw_quic_access_token_on_queue (from Network)
+                 (undefined) external _nw_quic_connection_copy_sec_protocol_options (from Network)
+                 (undefined) external _nw_quic_connection_copy_stream_metadata (from Network)
+                 (undefined) external _nw_quic_connection_execute_locked (from Network)
+                 (undefined) external _nw_quic_connection_execute_max_streams_update_block (from Network)
+                 (undefined) external _nw_quic_connection_execute_session_state_update_block (from Network)
+                 (undefined) external _nw_quic_connection_get_ack_delay_size (from Network)
+                 (undefined) external _nw_quic_connection_get_application_result_handler (from Network)
+                 (undefined) external _nw_quic_connection_get_datagram_context_id (from Network)
+                 (undefined) external _nw_quic_connection_get_datagram_quarter_stream_id (from Network)
+                 (undefined) external _nw_quic_connection_get_datagram_variant_flow_id_enabled (from Network)
+                 (undefined) external _nw_quic_connection_get_disable_ecn (from Network)
+                 (undefined) external _nw_quic_connection_get_disable_ecn_echo (from Network)
+                 (undefined) external _nw_quic_connection_get_disable_spin_bit (from Network)
+                 (undefined) external _nw_quic_connection_get_enable_l4s (from Network)
+                 (undefined) external _nw_quic_connection_get_force_version_negotiation (from Network)
+                 (undefined) external _nw_quic_connection_get_idle_timeout (from Network)
+                 (undefined) external _nw_quic_connection_get_initial_max_data (from Network)
+                 (undefined) external _nw_quic_connection_get_initial_max_stream_data_bidirectional_local (from Network)
+                 (undefined) external _nw_quic_connection_get_initial_max_stream_data_bidirectional_remote (from Network)
+                 (undefined) external _nw_quic_connection_get_initial_max_stream_data_unidirectional (from Network)
+                 (undefined) external _nw_quic_connection_get_initial_max_streams_bidirectional (from Network)
+                 (undefined) external _nw_quic_connection_get_initial_max_streams_unidirectional (from Network)
+                 (undefined) external _nw_quic_connection_get_initial_packet_size (from Network)
+                 (undefined) external _nw_quic_connection_get_keepalive_count (from Network)
+                 (undefined) external _nw_quic_connection_get_keepalive_handler (from Network)
+                 (undefined) external _nw_quic_connection_get_local_max_streams_bidirectional_handler (from Network)
+                 (undefined) external _nw_quic_connection_get_local_max_streams_unidirectional_handler (from Network)
+                 (undefined) external _nw_quic_connection_get_max_datagram_frame_size (from Network)
+                 (undefined) external _nw_quic_connection_get_max_udp_payload_size (from Network)
+                 (undefined) external _nw_quic_connection_get_migration_for_non_transport (from Network)
+                 (undefined) external _nw_quic_connection_get_peer_idle_timeout_handler (from Network)
+                 (undefined) external _nw_quic_connection_get_pmtud (from Network)
+                 (undefined) external _nw_quic_connection_get_pmtud_for_non_transport (from Network)
+                 (undefined) external _nw_quic_connection_get_pmtud_ignore_cost (from Network)
+                 (undefined) external _nw_quic_connection_get_remote_max_streams_bidirectional_handler (from Network)
+                 (undefined) external _nw_quic_connection_get_remote_max_streams_unidirectional_handler (from Network)
+                 (undefined) external _nw_quic_connection_get_retry (from Network)
+                 (undefined) external _nw_quic_connection_get_session_state (from Network)
+                 (undefined) external _nw_quic_connection_get_source_connection_id_length (from Network)
+                 (undefined) external _nw_quic_connection_get_use_swift_tls (from Network)
+                 (undefined) external _nw_quic_connection_inject_packet_handler (from Network)
+                 (undefined) external _nw_quic_connection_set_application_error_internal (from Network)
+                 (undefined) external _nw_quic_connection_set_application_error_reason (from Network)
+                 (undefined) external _nw_quic_connection_set_application_result_handler (from Network)
+                 (undefined) external _nw_quic_connection_set_close_with_error_handler (from Network)
+                 (undefined) external _nw_quic_connection_set_is_early_data_accepted (from Network)
+                 (undefined) external _nw_quic_connection_set_keepalive_handler (from Network)
+                 (undefined) external _nw_quic_connection_set_link_flow_controlled_handler (from Network)
+                 (undefined) external _nw_quic_connection_set_local_max_streams_bidirectional_handler (from Network)
+                 (undefined) external _nw_quic_connection_set_local_max_streams_unidirectional_handler (from Network)
+                 (undefined) external _nw_quic_connection_set_max_data_handler (from Network)
+                 (undefined) external _nw_quic_connection_set_max_stream_data_bidirectional_local_handler (from Network)
+                 (undefined) external _nw_quic_connection_set_max_stream_data_bidirectional_remote_handler (from Network)
+                 (undefined) external _nw_quic_connection_set_max_stream_data_unidirectional_handler (from Network)
+                 (undefined) external _nw_quic_connection_set_sec_protocol_metadata (from Network)
+                 (undefined) external _nw_quic_connection_set_stream_metadata (from Network)
+                 (undefined) external _nw_quic_create_connection_metadata (from Network)
+                 (undefined) external _nw_quic_create_stream_metadata (from Network)
+                 (undefined) external _nw_quic_get_remote_transport_parameters (from Network)
+                 (undefined) external _nw_quic_report_application_result_on_queue (from Network)
+                 (undefined) external _nw_quic_save_token_on_queue (from Network)
+                 (undefined) external _nw_quic_stream_copy_shared_connection_options (from Network)
+                 (undefined) external _nw_quic_stream_get_associated_stream_id (from Network)
+                 (undefined) external _nw_quic_stream_get_is_datagram (from Network)
+                 (undefined) external _nw_quic_stream_get_is_unidirectional (from Network)
+                 (undefined) external _nw_quic_stream_set_application_error_handler (from Network)
+                 (undefined) external _nw_quic_stream_set_application_error_internal (from Network)
+                 (undefined) external _nw_quic_stream_set_connection_metadata (from Network)
+                 (undefined) external _nw_quic_stream_set_datagram_variant_flow_id (from Network)
+                 (undefined) external _nw_quic_stream_set_has_datagram_variant_flow_id (from Network)
+                 (undefined) external _nw_quic_stream_set_id (from Network)
+                 (undefined) external _nw_quic_stream_set_type (from Network)
+                 (undefined) external _nw_quic_stream_set_usable_datagram_frame_size (from Network)
+                 (undefined) external _nw_release (from Network)
+                 (undefined) external _nw_retain (from Network)
+                 (undefined) external _nw_settings_register_quic_log_debug_updates (from Network)
+                 (undefined) external _nw_swift_tls_create_options (from Network)
+                 (undefined) external _nw_tls_copy_sec_protocol_metadata (from Network)
+                 (undefined) external _nw_tls_copy_sec_protocol_options (from Network)
+                 (undefined) external _nw_tls_create_options (from Network)
+                 (undefined) external _objc_alloc (from libobjc)
+                 (undefined) external _objc_alloc_init (from libobjc)
+                 (undefined) external _objc_autoreleaseReturnValue (from libobjc)
+                 (undefined) external _objc_msgSend (from libobjc)
+                 (undefined) external _objc_msgSendSuper2 (from libobjc)
+                 (undefined) external _objc_release (from libobjc)
+                 (undefined) external _objc_retain (from libobjc)
+                 (undefined) external _objc_retainAutoreleasedReturnValue (from libobjc)
+                 (undefined) external _objc_storeStrong (from libobjc)
+                 (undefined) external _os_log_create (from libSystem)
+                 (undefined) external _os_log_pack_compose (from libSystem)
+                 (undefined) external _os_log_pack_send (from libSystem)
+                 (undefined) external _os_log_pack_send_and_compose (from libSystem)
+                 (undefined) external _os_log_type_enabled (from libSystem)
+                 (undefined) external _os_release (from libSystem)
+                 (undefined) external _os_retain (from libSystem)
+                 (undefined) external _os_variant_has_internal_diagnostics (from libSystem)
+00007ff9041d2970 (__TEXT,__text) non-external _paced_packet_create
+00007ff9041bcdf0 (__TEXT,__text) non-external _prague_ack_begin
+00007ff9041bcf70 (__TEXT,__text) non-external _prague_ack_end
+00007ff9041beb60 (__TEXT,__text) non-external _prague_can_send_packet
+00007ff9041bf9f0 (__TEXT,__text) non-external _prague_cong_event
+00007ff9041bf5d0 (__TEXT,__text) non-external _prague_create
+00007ff9041bf8f0 (__TEXT,__text) non-external _prague_destroy
+00007ff9041bf180 (__TEXT,__text) non-external _prague_fillout_data_transfer_snapshot
+00007ff9041bee70 (__TEXT,__text) non-external _prague_get_allowed_cwnd
+00007ff9041bf000 (__TEXT,__text) non-external _prague_get_bytes_in_flight
+00007ff9041becf0 (__TEXT,__text) non-external _prague_get_cwnd
+00007ff9041be8f0 (__TEXT,__text) non-external _prague_idle_timeout
+00007ff9041bf390 (__TEXT,__text) non-external _prague_init
+00007ff9041be280 (__TEXT,__text) non-external _prague_link_flow_controlled
+00007ff9041bc8e0 (__TEXT,__text) non-external _prague_mss_changed
+00007ff9041bd6b0 (__TEXT,__text) non-external _prague_packet_acked
+00007ff9041bcc40 (__TEXT,__text) non-external _prague_packet_discarded
+00007ff9041bca90 (__TEXT,__text) non-external _prague_packet_sent
+00007ff9041bd8f0 (__TEXT,__text) non-external _prague_packets_lost
+00007ff9041be6f0 (__TEXT,__text) non-external _prague_persistent_congestion
+00007ff9041bdb30 (__TEXT,__text) non-external _prague_process_ecn
+00007ff9041be410 (__TEXT,__text) non-external _prague_spurious_rxmt
+00007ff9041bf680 (__TEXT,__text) non-external _prague_switch
+00007ff9041bfcd0 (__TEXT,__text) non-external _prague_update_ewma
+00007ff9041ab4a0 (__TEXT,__text) non-external _qlog_abort_internal
+00007ff94270ded8 (__DATA,__bss) non-external _qlog_datapath_enabled
+00007ff94270dedb (__DATA,__bss) non-external _qlog_debug_enabled
+00007ff9041ab5f0 (__TEXT,__text) non-external _qlog_dump_buffer
+00007ff904217690 (__TEXT,__cstring) non-external _qlog_dump_buffer.hexChars
+00007ff94270d3d0 (__DATA,__bss) non-external _qlog_init.once
+00007ff9041aadc0 (__TEXT,__text) non-external _qlog_internal
+00007ff94270dee0 (__DATA,__bss) non-external _qlog_log
+00007ff94270dedc (__DATA,__bss) non-external _qlog_nwlog_enabled
+00007ff9041cec00 (__TEXT,__text) non-external _quic_ack_acknowledged
+00007ff9041cf800 (__TEXT,__text) non-external _quic_ack_aggressively
+00007ff9041ce4c0 (__TEXT,__text) non-external _quic_ack_append
+00007ff9041cd950 (__TEXT,__text) non-external _quic_ack_assemble_for_pn_space
+00007ff9041d1200 (__TEXT,__text) non-external _quic_ack_bitstring_nset
+00007ff9041d0de0 (__TEXT,__text) non-external _quic_ack_bitstring_validate
+00007ff9041d0fe0 (__TEXT,__text) non-external _quic_ack_bitstring_validate_initial
+00007ff9041d0b00 (__TEXT,__text) non-external _quic_ack_bitstring_xor
+00007ff94270d3ac (__DATA,__data) non-external _quic_ack_compression_enabled
+00007ff9041cdba0 (__TEXT,__text) non-external _quic_ack_create
+00007ff94270d3a8 (__DATA,__data) non-external _quic_ack_default_packet_threshold
+00007ff9041d1620 (__TEXT,__text) non-external _quic_ack_delay_get_size
+00007ff9041d1540 (__TEXT,__text) non-external _quic_ack_delay_set_size
+00007ff9041ceae0 (__TEXT,__text) non-external _quic_ack_evaluate_compression
+00007ff9041cfbc0 (__TEXT,__text) non-external _quic_ack_flush_for_pn_space
+00007ff9041ccc10 (__TEXT,__text) non-external _quic_ack_for_pn_space
+00007ff9041cfeb0 (__TEXT,__text) non-external _quic_ack_frequency_calculate
+00007ff9041d1420 (__TEXT,__text) non-external _quic_ack_get_generation_count
+00007ff9041cf8e0 (__TEXT,__text) non-external _quic_ack_immediately
+00007ff9041cf9d0 (__TEXT,__text) non-external _quic_ack_increment_unacked_packet_count
+00007ff9041cd710 (__TEXT,__text) non-external _quic_ack_packets_missing_between
+00007ff9041cee50 (__TEXT,__text) non-external _quic_ack_process_blocks
+00007ff9041d04a0 (__TEXT,__text) non-external _quic_ack_process_frequency
+00007ff9041cf270 (__TEXT,__text) non-external _quic_ack_process_pending_acks
+00007ff9041cf6c0 (__TEXT,__text) non-external _quic_ack_schedule_delayed_ack
+00007ff9041ce0d0 (__TEXT,__text) non-external _quic_ack_send_pending_acks
+00007ff9041cdaa0 (__TEXT,__text) non-external _quic_ack_sent
+00007ff9041d0900 (__TEXT,__text) non-external _quic_ack_should_ignore_order
+00007ff9041cf0f0 (__TEXT,__text) non-external _quic_ack_should_transmit
+00007ff9041cfdd0 (__TEXT,__text) non-external _quic_ack_supports_ack_frequency
+00007ff94270d3a1 (__DATA,__data) non-external _quic_adaptive_packet_thresh
+00007ff94270d3a0 (__DATA,__data) non-external _quic_adaptive_time_thresh
+00007ff9041de3d0 (__TEXT,__text) non-external _quic_alloc_stream
+00007ff90418ca00 (__TEXT,__text) non-external _quic_cc_ack_begin
+00007ff90418cbe0 (__TEXT,__text) non-external _quic_cc_ack_end
+00007ff90418e890 (__TEXT,__text) non-external _quic_cc_can_send
+00007ff90418dae0 (__TEXT,__text) non-external _quic_cc_can_send_packet
+00007ff90418bc60 (__TEXT,__text) non-external _quic_cc_create
+00007ff94270d408 (__DATA,__bss) non-external _quic_cc_cubic_identifier.cubic
+00007ff94270d4d0 (__DATA,__bss) non-external _quic_cc_cubic_identifier.onceToken
+00007ff90418eb90 (__TEXT,__text) non-external _quic_cc_cwnd_validated
+00007ff90418e670 (__TEXT,__text) non-external _quic_cc_dec_bytes_in_flight
+00007ff90418c280 (__TEXT,__text) non-external _quic_cc_destroy
+00007ff90418e260 (__TEXT,__text) non-external _quic_cc_fillout_data_transfer_snapshot
+00007ff90418dea0 (__TEXT,__text) non-external _quic_cc_get_allowed_cwnd
+00007ff90418e080 (__TEXT,__text) non-external _quic_cc_get_bytes_in_flight
+00007ff90418dcc0 (__TEXT,__text) non-external _quic_cc_get_cwnd
+00007ff90418d900 (__TEXT,__text) non-external _quic_cc_idle_timeout
+00007ff90418e440 (__TEXT,__text) non-external _quic_cc_inc_bytes_in_flight
+00007ff90418ed90 (__TEXT,__text) non-external _quic_cc_is_validated
+00007ff94270d4d8 (__DATA,__bss) non-external _quic_cc_ledbat_identifier.ledbat
+00007ff94270d5a0 (__DATA,__bss) non-external _quic_cc_ledbat_identifier.onceToken
+00007ff90418d360 (__TEXT,__text) non-external _quic_cc_link_flow_controlled
+00007ff90418f1c0 (__TEXT,__text) non-external _quic_cc_log_state
+00007ff90418f000 (__TEXT,__text) non-external _quic_cc_log_update
+00007ff90418c460 (__TEXT,__text) non-external _quic_cc_mss_changed
+00007ff9041c1d50 (__TEXT,__text) non-external _quic_cc_new_reno_ack_begin
+00007ff9041c1ea0 (__TEXT,__text) non-external _quic_cc_new_reno_ack_end
+00007ff9041c26e0 (__TEXT,__text) non-external _quic_cc_new_reno_can_send_packet
+00007ff9041bff10 (__TEXT,__text) non-external _quic_cc_new_reno_create
+00007ff9041c0320 (__TEXT,__text) non-external _quic_cc_new_reno_destroy
+00007ff9041c2b20 (__TEXT,__text) non-external _quic_cc_new_reno_fillout_data_transfer_snapshot
+00007ff9041c2850 (__TEXT,__text) non-external _quic_cc_new_reno_get_allowed_cwnd
+00007ff9041c29c0 (__TEXT,__text) non-external _quic_cc_new_reno_get_bytes_in_flight
+00007ff94270d678 (__DATA,__bss) non-external _quic_cc_new_reno_identifier.onceToken
+00007ff9041c1800 (__TEXT,__text) non-external _quic_cc_new_reno_idle_timeout
+00007ff9041c2330 (__TEXT,__text) non-external _quic_cc_new_reno_link_flow_controlled
+00007ff9041c0510 (__TEXT,__text) non-external _quic_cc_new_reno_mss_changed
+00007ff9041c09c0 (__TEXT,__text) non-external _quic_cc_new_reno_packet_acked
+00007ff9041c0830 (__TEXT,__text) non-external _quic_cc_new_reno_packet_discarded
+00007ff9041c06a0 (__TEXT,__text) non-external _quic_cc_new_reno_packet_sent
+00007ff9041c1270 (__TEXT,__text) non-external _quic_cc_new_reno_packets_lost
+00007ff9041c2540 (__TEXT,__text) non-external _quic_cc_new_reno_persistent_congestion
+00007ff9041c0bc0 (__TEXT,__text) non-external _quic_cc_new_reno_process_ecn
+00007ff9041c0150 (__TEXT,__text) non-external _quic_cc_new_reno_reset
+00007ff9041c1540 (__TEXT,__text) non-external _quic_cc_new_reno_spurious_rxmt
+00007ff9041c1b50 (__TEXT,__text) non-external _quic_cc_new_reno_switch
+00007ff90418cdc0 (__TEXT,__text) non-external _quic_cc_packet_acked
+00007ff90418c820 (__TEXT,__text) non-external _quic_cc_packet_discarded
+00007ff90418c640 (__TEXT,__text) non-external _quic_cc_packet_sent
+00007ff90418cfa0 (__TEXT,__text) non-external _quic_cc_packets_lost
+00007ff90418d720 (__TEXT,__text) non-external _quic_cc_persistent_congestion
+00007ff94270d670 (__DATA,__bss) non-external _quic_cc_prague_identifier.onceToken
+00007ff94270d5a8 (__DATA,__bss) non-external _quic_cc_prague_identifier.prague
+00007ff90418d180 (__TEXT,__text) non-external _quic_cc_process_ecn
+00007ff90418c0a0 (__TEXT,__text) non-external _quic_cc_reset
+00007ff90418eed0 (__TEXT,__text) non-external _quic_cc_set_pipeack_sample
+00007ff90418d540 (__TEXT,__text) non-external _quic_cc_spurious_rxmt
+00007ff90418bec0 (__TEXT,__text) non-external _quic_cc_switch_cc
+00007ff9041cbd20 (__TEXT,__text) non-external _quic_cid_array_destroy
+00007ff9041cc590 (__TEXT,__text) non-external _quic_cid_array_find_by_cid
+00007ff9041cc960 (__TEXT,__text) non-external _quic_cid_array_find_by_seq_num
+00007ff9041cca60 (__TEXT,__text) non-external _quic_cid_array_find_by_srt
+00007ff9041cc810 (__TEXT,__text) non-external _quic_cid_array_find_next_cid
+00007ff9041cbe30 (__TEXT,__text) non-external _quic_cid_array_insert
+00007ff904214440 (__TEXT,__const) non-external _quic_cid_array_insert.zero_token
+00007ff9041cc470 (__TEXT,__text) non-external _quic_cid_array_remove_by_seq_num
+00007ff9041cb8f0 (__TEXT,__text) non-external _quic_cid_copy
+00007ff9041cafb0 (__TEXT,__text) non-external _quic_cid_create
+00007ff9041cb170 (__TEXT,__text) non-external _quic_cid_describe
+00007ff94270d750 (__DATA,__bss) non-external _quic_cid_describe.cid_buf1
+00007ff94270d780 (__DATA,__bss) non-external _quic_cid_describe.cid_buf2
+00007ff94270d7b0 (__DATA,__bss) non-external _quic_cid_describe.cid_buf3
+00007ff94270d7dc (__DATA,__bss) non-external _quic_cid_describe.state
+00007ff9041cc370 (__TEXT,__text) non-external _quic_cid_entry_erase
+00007ff9041cbb60 (__TEXT,__text) non-external _quic_cid_equal
+00007ff9041cba70 (__TEXT,__text) non-external _quic_cid_len
+00007ff9041cb320 (__TEXT,__text) non-external _quic_cid_read
+00007ff9041cb560 (__TEXT,__text) non-external _quic_cid_write
+00007ff904214364 (__TEXT,__const) non-external _quic_client_initial_label
+00007ff904210160 (__TEXT,__text) non-external _quic_close_code_describe
+00007ff94270dec0 (__DATA,__bss) non-external _quic_close_code_describe.buffer
+00007ff9041d4c90 (__TEXT,__text) non-external _quic_compute_rcvhiwat_inc
+00007ff9041e0110 (__TEXT,__text) non-external _quic_compute_remote_max_stream_data
+00007ff9041f3190 (__TEXT,__text) non-external _quic_conn_alloc_globals
+00007ff9041e73b0 (__TEXT,__text) non-external _quic_conn_allocate
+00007ff904203c50 (__TEXT,__text) non-external _quic_conn_allocate_path_dcid
+00007ff9041fe620 (__TEXT,__text) non-external _quic_conn_annouce_new_cids
+00007ff9041ee060 (__TEXT,__text) non-external _quic_conn_assemble_and_encrypt
+00007ff9041ec820 (__TEXT,__text) non-external _quic_conn_can_send_frames
+00007ff9041ebeb0 (__TEXT,__text) non-external _quic_conn_close
+00007ff904204230 (__TEXT,__text) non-external _quic_conn_confirm_handshake
+00007ff904205af0 (__TEXT,__text) non-external _quic_conn_copy_data_transfer_snapshot
+00007ff904205900 (__TEXT,__text) non-external _quic_conn_copy_establishment_report
+00007ff9041f32e0 (__TEXT,__text) non-external _quic_conn_copy_metadata
+00007ff9041d5370 (__TEXT,__text) non-external _quic_conn_data_blocked
+00007ff9041f3200 (__TEXT,__text) non-external _quic_conn_dealloc_globals
+00007ff9041e7670 (__TEXT,__text) non-external _quic_conn_deallocate
+00007ff9041f2fb0 (__TEXT,__text) non-external _quic_conn_destroy
+00007ff9041ed8f0 (__TEXT,__text) non-external _quic_conn_discard_initial_keys
+00007ff9041eda70 (__TEXT,__text) non-external _quic_conn_discard_keys
+00007ff9041efe40 (__TEXT,__text) non-external _quic_conn_drain
+00007ff9041f9c40 (__TEXT,__text) non-external _quic_conn_failed_decryption
+00007ff904214450 (__TEXT,__const) non-external _quic_conn_failed_decryption.zero_token
+00007ff9041fea40 (__TEXT,__text) non-external _quic_conn_generate_dcid
+00007ff9042016c0 (__TEXT,__text) non-external _quic_conn_get_l4s_cc
+00007ff9041f3830 (__TEXT,__text) non-external _quic_conn_get_mss
+00007ff904205ce0 (__TEXT,__text) non-external _quic_conn_handle_error
+00007ff904205eb0 (__TEXT,__text) non-external _quic_conn_handle_error_inner
+00007ff9041ff390 (__TEXT,__text) non-external _quic_conn_handle_inbound
+00007ff9041f5120 (__TEXT,__text) non-external _quic_conn_handle_outbound
+00007ff9041f5560 (__TEXT,__text) non-external _quic_conn_handle_outbound_inner
+00007ff904200550 (__TEXT,__text) non-external _quic_conn_handle_start
+00007ff904200730 (__TEXT,__text) non-external _quic_conn_handle_start_inner
+00007ff904201ea0 (__TEXT,__text) non-external _quic_conn_handle_stop
+00007ff9041f64a0 (__TEXT,__text) non-external _quic_conn_handle_stop_inner
+00007ff9041f6910 (__TEXT,__text) non-external _quic_conn_handle_stop_read
+00007ff9041f6b10 (__TEXT,__text) non-external _quic_conn_handle_stop_write
+00007ff904201560 (__TEXT,__text) non-external _quic_conn_idle_timeout_configure
+00007ff9042018b0 (__TEXT,__text) non-external _quic_conn_idle_timeout_fired
+00007ff9041f7290 (__TEXT,__text) non-external _quic_conn_inbound_starting
+00007ff9041ff630 (__TEXT,__text) non-external _quic_conn_inbound_stopping
+00007ff9041ffc00 (__TEXT,__text) non-external _quic_conn_inbound_stopping_service_stream
+00007ff9041d3ed0 (__TEXT,__text) non-external _quic_conn_init_hiwat
+00007ff9041e7be0 (__TEXT,__text) non-external _quic_conn_initialize
+00007ff94270de78 (__DATA,__bss) non-external _quic_conn_initialize.once_token
+00007ff9041e7de0 (__TEXT,__text) non-external _quic_conn_initialize_inner
+00007ff94270de98 (__DATA,__bss) non-external _quic_conn_initialize_inner.onceToken
+00007ff9041ef800 (__TEXT,__text) non-external _quic_conn_is_pacing
+00007ff904203e10 (__TEXT,__text) non-external _quic_conn_keepalive_acked
+00007ff9041ead70 (__TEXT,__text) non-external _quic_conn_keepalive_configure
+00007ff9041eb400 (__TEXT,__text) non-external _quic_conn_keepalive_handler
+00007ff9042050c0 (__TEXT,__text) non-external _quic_conn_link_advisory
+00007ff9041f0740 (__TEXT,__text) non-external _quic_conn_log_summary
+00007ff904204ca0 (__TEXT,__text) non-external _quic_conn_max_message_size
+00007ff9042044b0 (__TEXT,__text) non-external _quic_conn_migrate_to_path
+00007ff904202890 (__TEXT,__text) non-external _quic_conn_new_dcid
+00007ff904202a70 (__TEXT,__text) non-external _quic_conn_new_scid
+00007ff9041efbe0 (__TEXT,__text) non-external _quic_conn_packet_dispatched
+00007ff9041ef650 (__TEXT,__text) non-external _quic_conn_packet_sent
+00007ff9041f8410 (__TEXT,__text) non-external _quic_conn_pre_decryption
+00007ff9041fcbf0 (__TEXT,__text) non-external _quic_conn_process_frame
+00007ff9041f7560 (__TEXT,__text) non-external _quic_conn_process_inbound
+00007ff9041fb650 (__TEXT,__text) non-external _quic_conn_process_lh
+00007ff9041f5bf0 (__TEXT,__text) non-external _quic_conn_process_outbound
+00007ff9041fd2f0 (__TEXT,__text) non-external _quic_conn_process_reordering
+00007ff9041fa050 (__TEXT,__text) non-external _quic_conn_process_retry
+00007ff9041fb120 (__TEXT,__text) non-external _quic_conn_process_sh
+00007ff9041f8930 (__TEXT,__text) non-external _quic_conn_process_vn
+00007ff9041d4a90 (__TEXT,__text) non-external _quic_conn_rcvwnd
+00007ff9041f2700 (__TEXT,__text) non-external _quic_conn_read_preferences
+00007ff9041f3a30 (__TEXT,__text) non-external _quic_conn_recompute_mss
+00007ff9041e9a10 (__TEXT,__text) non-external _quic_conn_restore_token
+00007ff904203010 (__TEXT,__text) non-external _quic_conn_retire_dcid
+00007ff904202c50 (__TEXT,__text) non-external _quic_conn_retire_dcid_by_seq
+00007ff904203340 (__TEXT,__text) non-external _quic_conn_retire_scid_by_seq
+00007ff9041f4b60 (__TEXT,__text) non-external _quic_conn_save_token
+00007ff904206880 (__TEXT,__text) non-external _quic_conn_send_fc_credit
+00007ff9041ecb00 (__TEXT,__text) non-external _quic_conn_send_frames_for_key_state
+00007ff9041ec5c0 (__TEXT,__text) non-external _quic_conn_send_internal
+00007ff9041ef8f0 (__TEXT,__text) non-external _quic_conn_send_packet
+00007ff9041ff060 (__TEXT,__text) non-external _quic_conn_send_retry
+00007ff9041f3920 (__TEXT,__text) non-external _quic_conn_set_application_error
+00007ff904202700 (__TEXT,__text) non-external _quic_conn_set_dcid
+00007ff9041e94c0 (__TEXT,__text) non-external _quic_conn_set_mss
+00007ff9041f5010 (__TEXT,__text) non-external _quic_conn_set_posix_error
+00007ff904202440 (__TEXT,__text) non-external _quic_conn_set_priority
+00007ff9041fe490 (__TEXT,__text) non-external _quic_conn_set_scid
+00007ff9041f3f50 (__TEXT,__text) non-external _quic_conn_setup_pmtud
+00007ff9041ffe50 (__TEXT,__text) non-external _quic_conn_stream_dequeue
+00007ff904201ef0 (__TEXT,__text) non-external _quic_conn_traffic_mgmt
+00007ff904214200 (__TEXT,__const) non-external _quic_conn_transitions
+00007ff9041fd5d0 (__TEXT,__text) non-external _quic_conn_unknown_dcid
+00007ff94270de88 (__DATA,__bss) non-external _quic_conn_write_quiclog.once_token
+00007ff94270de80 (__DATA,__bss) non-external _quic_conn_write_quiclog.quiclog_queue
+00007ff9041cab00 (__TEXT,__text) non-external _quic_crypto_build_pseudo_retry
+00007ff944149000 (__DATA_DIRTY,__data) non-external _quic_crypto_callbacks
+00007ff9041c4990 (__TEXT,__text) non-external _quic_crypto_connection_state_handler
+00007ff9041c88d0 (__TEXT,__text) non-external _quic_crypto_encryption_level_update
+00007ff9041c8a30 (__TEXT,__text) non-external _quic_crypto_encryption_secret_update
+00007ff9041c9570 (__TEXT,__text) non-external _quic_crypto_error
+00007ff9041c9c50 (__TEXT,__text) non-external _quic_crypto_finalize_output_frames
+00007ff9041c9420 (__TEXT,__text) non-external _quic_crypto_frame_finalizer
+00007ff9041c9660 (__TEXT,__text) non-external _quic_crypto_get_input_frames
+00007ff9041c9900 (__TEXT,__text) non-external _quic_crypto_get_output_frames
+00007ff94270d368 (__DATA,__data) non-external _quic_crypto_identifier
+00007ff9041c3950 (__TEXT,__text) non-external _quic_crypto_intercept_alpn
+00007ff9041c40b0 (__TEXT,__text) non-external _quic_crypto_new_flow
+00007ff9041c9090 (__TEXT,__text) non-external _quic_crypto_output_handler
+00007ff9041c9270 (__TEXT,__text) non-external _quic_crypto_process_reassq
+00007ff9041c2d10 (__TEXT,__text) non-external _quic_crypto_queue_append
+00007ff9041c72e0 (__TEXT,__text) non-external _quic_crypto_queue_empty
+00007ff9041c31d0 (__TEXT,__text) non-external _quic_crypto_queue_process
+00007ff9041c3790 (__TEXT,__text) non-external _quic_crypto_queue_ready
+00007ff9041ca0b0 (__TEXT,__text) non-external _quic_crypto_send
+00007ff9041c8260 (__TEXT,__text) non-external _quic_crypto_session_state_deserialize
+00007ff9041c7c80 (__TEXT,__text) non-external _quic_crypto_session_state_serialize
+00007ff9041c7a30 (__TEXT,__text) non-external _quic_crypto_session_update
+00007ff9041c6ca0 (__TEXT,__text) non-external _quic_crypto_setup_flow_control
+00007ff9041c9e10 (__TEXT,__text) non-external _quic_crypto_supports_external_data
+00007ff9041c4e30 (__TEXT,__text) non-external _quic_crypto_tls_ready
+00007ff9041c5000 (__TEXT,__text) non-external _quic_crypto_tls_ready_inner
+00007ff9041c7680 (__TEXT,__text) non-external _quic_crypto_tls_setup
+00007ff9041c3a50 (__TEXT,__text) non-external _quic_crypto_tls_start
+00007ff9041de5d0 (__TEXT,__text) non-external _quic_dealloc_stream
+00007ff94270ded9 (__DATA,__bss) non-external _quic_disable_cached_rtt
+00007ff94270de90 (__DATA,__bss) non-external _quic_disable_cubic
+00007ff904210660 (__TEXT,__text) non-external _quic_dispatch_data_copyout
+00007ff9041717d0 (__TEXT,__text) non-external _quic_ecn_create
+00007ff904172680 (__TEXT,__text) non-external _quic_ecn_fsm_change
+00007ff904172e80 (__TEXT,__text) non-external _quic_ecn_get_count
+00007ff904172d90 (__TEXT,__text) non-external _quic_ecn_get_received_ip_ecn_counter
+00007ff904172f80 (__TEXT,__text) non-external _quic_ecn_get_state
+00007ff9041728b0 (__TEXT,__text) non-external _quic_ecn_outgoing_ip_codepoint
+00007ff904171950 (__TEXT,__text) non-external _quic_ecn_reset
+00007ff904171b60 (__TEXT,__text) non-external _quic_ecn_validate_ack
+00007ff904172c50 (__TEXT,__text) non-external _quic_ecn_validation_pkt_lost
+00007ff94270de70 (__DATA,__bss) non-external _quic_enable_ack_freq
+00007ff94270de93 (__DATA,__bss) non-external _quic_enable_l4s
+00007ff9041aad20 (__TEXT,__text) external _quic_enable_nw_verbose_logging
+00007ff94270deda (__DATA,__bss) non-external _quic_enable_signposts
+00007ff9041aad10 (__TEXT,__text) external _quic_enable_verbose_logging
+00007ff9041da110 (__TEXT,__text) non-external _quic_fc_check_max_streams
+00007ff94270d390 (__DATA,__data) non-external _quic_fc_concurrent_streams_max
+00007ff94270d7e4 (__DATA,__bss) non-external _quic_fc_conn_rcv_hiwat_max
+00007ff94270d7e8 (__DATA,__bss) non-external _quic_fc_conn_snd_hiwat_max
+00007ff9041d3400 (__TEXT,__text) non-external _quic_fc_init
+00007ff94270d7f4 (__DATA,__bss) non-external _quic_fc_initial_conn_rcv_space
+00007ff94270d7f0 (__DATA,__bss) non-external _quic_fc_initial_conn_snd_space
+00007ff94270d7ec (__DATA,__bss) non-external _quic_fc_initial_max_data
+00007ff94270d398 (__DATA,__data) non-external _quic_fc_initial_max_stream_data_bidi_local
+00007ff94270d39c (__DATA,__data) non-external _quic_fc_initial_stream_rcv_space
+00007ff9041dc0e0 (__TEXT,__text) non-external _quic_fc_pre_connect
+00007ff9041d9350 (__TEXT,__text) non-external _quic_fc_process_data_blocked
+00007ff9041d9730 (__TEXT,__text) non-external _quic_fc_process_stream_data_blocked
+00007ff9041dd080 (__TEXT,__text) non-external _quic_fc_setup_stream
+00007ff9041dd570 (__TEXT,__text) non-external _quic_fc_setup_streams
+00007ff94270d394 (__DATA,__data) non-external _quic_fc_stream_rcv_hiwat_max
+00007ff94270d7e0 (__DATA,__bss) non-external _quic_fc_stream_snd_hiwat_max
+00007ff9041d5ae0 (__TEXT,__text) non-external _quic_fc_update_send_limit
+00007ff904184f40 (__TEXT,__text) external _quic_fillout_definition_callbacks
+00007ff94270de91 (__DATA,__bss) non-external _quic_force_ledbat
+00007ff9041a44d0 (__TEXT,__text) non-external _quic_frame_ack_eliciting
+00007ff9041a45e0 (__TEXT,__text) non-external _quic_frame_acknowledged
+00007ff904192db0 (__TEXT,__text) non-external _quic_frame_acknowledged_ACK
+00007ff904192ee0 (__TEXT,__text) non-external _quic_frame_acknowledged_ACK_ECN
+00007ff9041a1c40 (__TEXT,__text) non-external _quic_frame_acknowledged_ACK_FREQUENCY
+00007ff90419f170 (__TEXT,__text) non-external _quic_frame_acknowledged_APPLICATION_CLOSE
+00007ff90419f130 (__TEXT,__text) non-external _quic_frame_acknowledged_CONNECTION_CLOSE
+00007ff9041952b0 (__TEXT,__text) non-external _quic_frame_acknowledged_CRYPTO
+00007ff9041a0ad0 (__TEXT,__text) non-external _quic_frame_acknowledged_DATAGRAM
+00007ff904198d90 (__TEXT,__text) non-external _quic_frame_acknowledged_DATA_BLOCKED
+00007ff90419f450 (__TEXT,__text) non-external _quic_frame_acknowledged_HANDSHAKE_DONE
+00007ff9041a0e80 (__TEXT,__text) non-external _quic_frame_acknowledged_IMMEDIATE_ACK
+00007ff904197140 (__TEXT,__text) non-external _quic_frame_acknowledged_MAX_DATA
+00007ff9041984c0 (__TEXT,__text) non-external _quic_frame_acknowledged_MAX_STREAMS_BIDI
+00007ff904198900 (__TEXT,__text) non-external _quic_frame_acknowledged_MAX_STREAMS_UNI
+00007ff904197d90 (__TEXT,__text) non-external _quic_frame_acknowledged_MAX_STREAM_DATA
+00007ff90419c3e0 (__TEXT,__text) non-external _quic_frame_acknowledged_NEW_CONNECTION_ID
+00007ff9041959a0 (__TEXT,__text) non-external _quic_frame_acknowledged_NEW_TOKEN
+00007ff904190d70 (__TEXT,__text) non-external _quic_frame_acknowledged_PADDING
+00007ff90419d3a0 (__TEXT,__text) non-external _quic_frame_acknowledged_PATH_CHALLENGE
+00007ff90419d780 (__TEXT,__text) non-external _quic_frame_acknowledged_PATH_RESPONSE
+00007ff904191030 (__TEXT,__text) non-external _quic_frame_acknowledged_PING
+00007ff904193b30 (__TEXT,__text) non-external _quic_frame_acknowledged_RESET_STREAM
+00007ff90419cd40 (__TEXT,__text) non-external _quic_frame_acknowledged_RETIRE_CONNECTION_ID
+00007ff904194830 (__TEXT,__text) non-external _quic_frame_acknowledged_STOP_SENDING
+00007ff904196c40 (__TEXT,__text) non-external _quic_frame_acknowledged_STREAM
+00007ff904199c60 (__TEXT,__text) non-external _quic_frame_acknowledged_STREAMS_BLOCKED_BIDI
+00007ff90419a100 (__TEXT,__text) non-external _quic_frame_acknowledged_STREAMS_BLOCKED_UNI
+00007ff9041997c0 (__TEXT,__text) non-external _quic_frame_acknowledged_STREAM_DATA_BLOCKED
+00007ff90418f770 (__TEXT,__text) non-external _quic_frame_alloc_CONNECTION_CLOSE
+00007ff90418f8e0 (__TEXT,__text) non-external _quic_frame_alloc_MAX_DATA
+00007ff90418f9c0 (__TEXT,__text) non-external _quic_frame_alloc_MAX_STREAM_DATA
+00007ff90418f3d0 (__TEXT,__text) non-external _quic_frame_alloc_PADDING
+00007ff904190190 (__TEXT,__text) non-external _quic_frame_alloc_PATH_RESPONSE
+00007ff90418fb50 (__TEXT,__text) non-external _quic_frame_alloc_PING
+00007ff90418fbf0 (__TEXT,__text) non-external _quic_frame_alloc_ack_block
+00007ff9041a4810 (__TEXT,__text) non-external _quic_frame_copy_metadata
+00007ff90418f220 (__TEXT,__text) non-external _quic_frame_create
+00007ff904192e00 (__TEXT,__text) non-external _quic_frame_free_ACK
+00007ff904192f30 (__TEXT,__text) non-external _quic_frame_free_ACK_ECN
+00007ff9041952c0 (__TEXT,__text) non-external _quic_frame_free_CRYPTO
+00007ff9041a0ae0 (__TEXT,__text) non-external _quic_frame_free_DATAGRAM
+00007ff9041959b0 (__TEXT,__text) non-external _quic_frame_free_NEW_TOKEN
+00007ff904196c90 (__TEXT,__text) non-external _quic_frame_free_STREAM
+00007ff904190760 (__TEXT,__text) non-external _quic_frame_is_type_valid
+00007ff90418f5e0 (__TEXT,__text) non-external _quic_frame_list_append
+00007ff9041a4ba0 (__TEXT,__text) non-external _quic_frame_list_flush
+00007ff904190380 (__TEXT,__text) non-external _quic_frame_parse
+00007ff904191050 (__TEXT,__text) non-external _quic_frame_parse_ACK
+00007ff904192e30 (__TEXT,__text) non-external _quic_frame_parse_ACK_ECN
+00007ff9041a0e90 (__TEXT,__text) non-external _quic_frame_parse_ACK_FREQUENCY
+00007ff90419f140 (__TEXT,__text) non-external _quic_frame_parse_APPLICATION_CLOSE
+00007ff90419d790 (__TEXT,__text) non-external _quic_frame_parse_CONNECTION_CLOSE
+00007ff904194840 (__TEXT,__text) non-external _quic_frame_parse_CRYPTO
+00007ff90419f460 (__TEXT,__text) non-external _quic_frame_parse_DATAGRAM
+00007ff904198910 (__TEXT,__text) non-external _quic_frame_parse_DATA_BLOCKED
+00007ff90419f180 (__TEXT,__text) non-external _quic_frame_parse_HANDSHAKE_DONE
+00007ff9041a0b60 (__TEXT,__text) non-external _quic_frame_parse_IMMEDIATE_ACK
+00007ff904196d10 (__TEXT,__text) non-external _quic_frame_parse_MAX_DATA
+00007ff904198090 (__TEXT,__text) non-external _quic_frame_parse_MAX_STREAMS_BIDI
+00007ff9041984d0 (__TEXT,__text) non-external _quic_frame_parse_MAX_STREAMS_UNI
+00007ff904197150 (__TEXT,__text) non-external _quic_frame_parse_MAX_STREAM_DATA
+00007ff90419a110 (__TEXT,__text) non-external _quic_frame_parse_NEW_CONNECTION_ID
+00007ff904195300 (__TEXT,__text) non-external _quic_frame_parse_NEW_TOKEN
+00007ff904190a50 (__TEXT,__text) non-external _quic_frame_parse_PADDING
+00007ff90419cfd0 (__TEXT,__text) non-external _quic_frame_parse_PATH_CHALLENGE
+00007ff90419d3b0 (__TEXT,__text) non-external _quic_frame_parse_PATH_RESPONSE
+00007ff904190da0 (__TEXT,__text) non-external _quic_frame_parse_PING
+00007ff904192f60 (__TEXT,__text) non-external _quic_frame_parse_RESET_STREAM
+00007ff90419c3f0 (__TEXT,__text) non-external _quic_frame_parse_RETIRE_CONNECTION_ID
+00007ff904193ba0 (__TEXT,__text) non-external _quic_frame_parse_STOP_SENDING
+00007ff9041959f0 (__TEXT,__text) non-external _quic_frame_parse_STREAM
+00007ff9041997d0 (__TEXT,__text) non-external _quic_frame_parse_STREAMS_BLOCKED_BIDI
+00007ff904199c70 (__TEXT,__text) non-external _quic_frame_parse_STREAMS_BLOCKED_UNI
+00007ff904198da0 (__TEXT,__text) non-external _quic_frame_parse_STREAM_DATA_BLOCKED
+00007ff9041a3eb0 (__TEXT,__text) non-external _quic_frame_process
+00007ff9041921c0 (__TEXT,__text) non-external _quic_frame_process_ACK
+00007ff904192e40 (__TEXT,__text) non-external _quic_frame_process_ACK_ECN
+00007ff9041a15b0 (__TEXT,__text) non-external _quic_frame_process_ACK_FREQUENCY
+00007ff90419f150 (__TEXT,__text) non-external _quic_frame_process_APPLICATION_CLOSE
+00007ff90419dfd0 (__TEXT,__text) non-external _quic_frame_process_CONNECTION_CLOSE
+00007ff904194cb0 (__TEXT,__text) non-external _quic_frame_process_CRYPTO
+00007ff9041a0080 (__TEXT,__text) non-external _quic_frame_process_DATAGRAM
+00007ff904198b30 (__TEXT,__text) non-external _quic_frame_process_DATA_BLOCKED
+00007ff90419f290 (__TEXT,__text) non-external _quic_frame_process_HANDSHAKE_DONE
+00007ff9041a0c70 (__TEXT,__text) non-external _quic_frame_process_IMMEDIATE_ACK
+00007ff904196f10 (__TEXT,__text) non-external _quic_frame_process_MAX_DATA
+00007ff904198290 (__TEXT,__text) non-external _quic_frame_process_MAX_STREAMS_BIDI
+00007ff9041986d0 (__TEXT,__text) non-external _quic_frame_process_MAX_STREAMS_UNI
+00007ff904197430 (__TEXT,__text) non-external _quic_frame_process_MAX_STREAM_DATA
+00007ff90419ab20 (__TEXT,__text) non-external _quic_frame_process_NEW_CONNECTION_ID
+00007ff9041955d0 (__TEXT,__text) non-external _quic_frame_process_NEW_TOKEN
+00007ff904190ba0 (__TEXT,__text) non-external _quic_frame_process_PADDING
+00007ff90419d1e0 (__TEXT,__text) non-external _quic_frame_process_PATH_CHALLENGE
+00007ff90419d5c0 (__TEXT,__text) non-external _quic_frame_process_PATH_RESPONSE
+00007ff904190eb0 (__TEXT,__text) non-external _quic_frame_process_PING
+00007ff904193340 (__TEXT,__text) non-external _quic_frame_process_RESET_STREAM
+00007ff90419c5f0 (__TEXT,__text) non-external _quic_frame_process_RETIRE_CONNECTION_ID
+00007ff904193ea0 (__TEXT,__text) non-external _quic_frame_process_STOP_SENDING
+00007ff9041960e0 (__TEXT,__text) non-external _quic_frame_process_STREAM
+00007ff9041999f0 (__TEXT,__text) non-external _quic_frame_process_STREAMS_BLOCKED_BIDI
+00007ff904199e90 (__TEXT,__text) non-external _quic_frame_process_STREAMS_BLOCKED_UNI
+00007ff9041990a0 (__TEXT,__text) non-external _quic_frame_process_STREAM_DATA_BLOCKED
+00007ff904210290 (__TEXT,__text) non-external _quic_frame_type_describe
+00007ff9041a4120 (__TEXT,__text) non-external _quic_frame_write
+00007ff904192250 (__TEXT,__text) non-external _quic_frame_write_ACK
+00007ff904192ed0 (__TEXT,__text) non-external _quic_frame_write_ACK_ECN
+00007ff9041a1860 (__TEXT,__text) non-external _quic_frame_write_ACK_FREQUENCY
+00007ff90419f160 (__TEXT,__text) non-external _quic_frame_write_APPLICATION_CLOSE
+00007ff90419e5c0 (__TEXT,__text) non-external _quic_frame_write_CONNECTION_CLOSE
+00007ff904194f10 (__TEXT,__text) non-external _quic_frame_write_CRYPTO
+00007ff9041a05c0 (__TEXT,__text) non-external _quic_frame_write_DATAGRAM
+00007ff904198b60 (__TEXT,__text) non-external _quic_frame_write_DATA_BLOCKED
+00007ff90419f2e0 (__TEXT,__text) non-external _quic_frame_write_HANDSHAKE_DONE
+00007ff9041a0c90 (__TEXT,__text) non-external _quic_frame_write_IMMEDIATE_ACK
+00007ff904196f30 (__TEXT,__text) non-external _quic_frame_write_MAX_DATA
+00007ff9041982b0 (__TEXT,__text) non-external _quic_frame_write_MAX_STREAMS_BIDI
+00007ff9041986f0 (__TEXT,__text) non-external _quic_frame_write_MAX_STREAMS_UNI
+00007ff904197ae0 (__TEXT,__text) non-external _quic_frame_write_MAX_STREAM_DATA
+00007ff90419bdc0 (__TEXT,__text) non-external _quic_frame_write_NEW_CONNECTION_ID
+00007ff904195770 (__TEXT,__text) non-external _quic_frame_write_NEW_TOKEN
+00007ff904190bb0 (__TEXT,__text) non-external _quic_frame_write_PADDING
+00007ff90419d210 (__TEXT,__text) non-external _quic_frame_write_PATH_CHALLENGE
+00007ff90419d5f0 (__TEXT,__text) non-external _quic_frame_write_PATH_RESPONSE
+00007ff904190ec0 (__TEXT,__text) non-external _quic_frame_write_PING
+00007ff9041937c0 (__TEXT,__text) non-external _quic_frame_write_RESET_STREAM
+00007ff90419cb30 (__TEXT,__text) non-external _quic_frame_write_RETIRE_CONNECTION_ID
+00007ff904194560 (__TEXT,__text) non-external _quic_frame_write_STOP_SENDING
+00007ff904196650 (__TEXT,__text) non-external _quic_frame_write_STREAM
+00007ff904199a30 (__TEXT,__text) non-external _quic_frame_write_STREAMS_BLOCKED_BIDI
+00007ff904199ed0 (__TEXT,__text) non-external _quic_frame_write_STREAMS_BLOCKED_UNI
+00007ff9041994f0 (__TEXT,__text) non-external _quic_frame_write_STREAM_DATA_BLOCKED
+00007ff9041a1d00 (__TEXT,__text) non-external _quic_frame_write_data_frame
+00007ff94042b1b0 (__DATA_CONST,__const) non-external _quic_frames
+00007ff904170ce0 (__TEXT,__text) non-external _quic_fsm_conn_change
+00007ff904170ec0 (__TEXT,__text) non-external _quic_fsm_conn_state_valid
+00007ff904171430 (__TEXT,__text) non-external _quic_fsm_recv_stream_change
+00007ff904171600 (__TEXT,__text) non-external _quic_fsm_recv_stream_valid
+00007ff904171090 (__TEXT,__text) non-external _quic_fsm_send_stream_change
+00007ff904171260 (__TEXT,__text) non-external _quic_fsm_send_stream_valid
+00007ff9041d4eb0 (__TEXT,__text) non-external _quic_grow_rcvhiwat
+00007ff904214389 (__TEXT,__const) non-external _quic_hp_key_label
+00007ff94270dea0 (__DATA,__bss) non-external _quic_init.onceToken
+00007ff904214381 (__TEXT,__const) non-external _quic_iv_label
+00007ff904214378 (__TEXT,__const) non-external _quic_key_label
+00007ff9042143bc (__TEXT,__const) non-external _quic_ku_label
+00007ff94270d3a4 (__DATA,__data) non-external _quic_max_packet_reorder_thresh
+00007ff904210900 (__TEXT,__text) non-external _quic_memory_size
+00007ff94270ded0 (__DATA,__bss) non-external _quic_memory_size.memsize
+00007ff90417d640 (__TEXT,__text) non-external _quic_migration_add_path
+00007ff90417eec0 (__TEXT,__text) non-external _quic_migration_add_preferred_address
+00007ff904181480 (__TEXT,__text) non-external _quic_migration_assign_path_cid
+00007ff904181050 (__TEXT,__text) non-external _quic_migration_connected
+00007ff90417dc70 (__TEXT,__text) non-external _quic_migration_create
+00007ff90417ecf0 (__TEXT,__text) non-external _quic_migration_disable
+00007ff90417fc10 (__TEXT,__text) non-external _quic_migration_evaluate
+00007ff904181a90 (__TEXT,__text) non-external _quic_migration_evaluate_primary
+00007ff904182e10 (__TEXT,__text) non-external _quic_migration_fallback
+00007ff904183950 (__TEXT,__text) non-external _quic_migration_fallback_event
+00007ff904180f30 (__TEXT,__text) non-external _quic_migration_has_alternate_path
+00007ff90417edd0 (__TEXT,__text) non-external _quic_migration_is_disabled
+00007ff90417d540 (__TEXT,__text) non-external _quic_migration_lookup_path
+00007ff904181160 (__TEXT,__text) non-external _quic_migration_loss_event
+00007ff904180320 (__TEXT,__text) non-external _quic_migration_migrate
+00007ff9041812d0 (__TEXT,__text) non-external _quic_migration_new_cid
+00007ff904181ce0 (__TEXT,__text) non-external _quic_migration_path_established
+00007ff9041823f0 (__TEXT,__text) non-external _quic_migration_path_event
+00007ff9041821e0 (__TEXT,__text) non-external _quic_migration_path_unavailable
+00007ff90417df50 (__TEXT,__text) non-external _quic_migration_probe_path
+00007ff90417f310 (__TEXT,__text) non-external _quic_migration_received_challenge
+00007ff904180440 (__TEXT,__text) non-external _quic_migration_received_response
+00007ff90417daa0 (__TEXT,__text) non-external _quic_migration_remove_path
+00007ff9041818b0 (__TEXT,__text) non-external _quic_migration_retire_cid
+00007ff94270d3b0 (__DATA,__data) non-external _quic_migration_version
+00007ff9041c0fd0 (__TEXT,__text) non-external _quic_new_reno_congestion_event
+00007ff9041839d0 (__TEXT,__text) non-external _quic_now
+00007ff94270de92 (__DATA,__bss) non-external _quic_pace_packets
+00007ff9041d2050 (__TEXT,__text) non-external _quic_pacer_continue_sending
+00007ff9041d2e10 (__TEXT,__text) non-external _quic_pacer_get_burst_gap
+00007ff9041d2b00 (__TEXT,__text) non-external _quic_pacer_packet_sent
+00007ff9041d30b0 (__TEXT,__text) non-external _quic_pacer_reset
+00007ff9041d1af0 (__TEXT,__text) non-external _quic_pacer_send_now
+00007ff9041d2420 (__TEXT,__text) non-external _quic_pacer_send_packet
+00007ff9041d1710 (__TEXT,__text) non-external _quic_pacer_service_queue
+00007ff9041d2d30 (__TEXT,__text) non-external _quic_pacer_set_burst_size
+00007ff9041d2ef0 (__TEXT,__text) non-external _quic_pacer_set_gap
+00007ff9041d2fd0 (__TEXT,__text) non-external _quic_pacer_set_initial_state
+00007ff9041d2c50 (__TEXT,__text) non-external _quic_pacer_set_rate
+00007ff9041d22b0 (__TEXT,__text) non-external _quic_pacer_wait_until_next_deadline
+00007ff904206e60 (__TEXT,__text) non-external _quic_packet_builder_append_for_pn_space
+00007ff904208c00 (__TEXT,__text) non-external _quic_packet_builder_assemble_retry
+00007ff904208450 (__TEXT,__text) non-external _quic_packet_builder_assemble_version_negotiation
+00007ff904207b70 (__TEXT,__text) non-external _quic_packet_builder_calculate_size
+00007ff904207190 (__TEXT,__text) non-external _quic_packet_builder_destroy
+00007ff904206ff0 (__TEXT,__text) non-external _quic_packet_builder_find_for_pn_space
+00007ff9042073b0 (__TEXT,__text) non-external _quic_packet_builder_flush_for_pn_space
+00007ff904206a40 (__TEXT,__text) non-external _quic_packet_builder_get_frame_pool
+00007ff9042079a0 (__TEXT,__text) non-external _quic_packet_builder_has_ack_eliciting_frame
+00007ff904207810 (__TEXT,__text) non-external _quic_packet_builder_has_frames
+00007ff90420b520 (__TEXT,__text) non-external _quic_packet_builder_insert_frame
+00007ff904206b30 (__TEXT,__text) non-external _quic_packet_builder_prepend_for_pn_space
+00007ff9042081c0 (__TEXT,__text) non-external _quic_packet_builder_remaining_length
+00007ff90420b750 (__TEXT,__text) non-external _quic_packet_builder_remove_frame
+00007ff9042076b0 (__TEXT,__text) non-external _quic_packet_builder_set_initial_token
+00007ff904207540 (__TEXT,__text) non-external _quic_packet_builder_set_version
+00007ff90420ad60 (__TEXT,__text) non-external _quic_packet_builder_split_frames
+00007ff90420b000 (__TEXT,__text) non-external _quic_packet_builder_split_stream_frame
+00007ff9041b0900 (__TEXT,__text) non-external _quic_packet_create
+00007ff90420b8f0 (__TEXT,__text) non-external _quic_packet_parser
+00007ff90420eaf0 (__TEXT,__text) non-external _quic_packet_parser_describe_header
+00007ff90420bb10 (__TEXT,__text) non-external _quic_packet_parser_inner
+00007ff90420f3f0 (__TEXT,__text) non-external _quic_packet_parser_open
+00007ff90420f0f0 (__TEXT,__text) non-external _quic_packet_parser_open_header
+00007ff90420f5b0 (__TEXT,__text) non-external _quic_packet_parser_prelude
+00007ff90417d230 (__TEXT,__text) non-external _quic_path_fsm_change
+00007ff904214310 (__TEXT,__const) non-external _quic_path_fsm_transitions
+00007ff90417d410 (__TEXT,__text) non-external _quic_path_fsm_valid_transition
+00007ff9041b7230 (__TEXT,__text) non-external _quic_pmtud_can_send_probe
+00007ff9041b8eb0 (__TEXT,__text) non-external _quic_pmtud_conn_set_mss
+00007ff9041b7f00 (__TEXT,__text) non-external _quic_pmtud_create
+00007ff9041b88f0 (__TEXT,__text) non-external _quic_pmtud_destroy
+00007ff9041b9450 (__TEXT,__text) non-external _quic_pmtud_detect_blackhole
+00007ff9041b95f0 (__TEXT,__text) non-external _quic_pmtud_enter_blackhole_detection
+00007ff904214420 (__TEXT,__const) non-external _quic_pmtud_find_next_mtu.mtu_table
+00007ff9041ba7f0 (__TEXT,__text) non-external _quic_pmtud_increment_data_frame_split_count
+00007ff9041ba4f0 (__TEXT,__text) non-external _quic_pmtud_message_size_handler
+00007ff9041b8b40 (__TEXT,__text) non-external _quic_pmtud_probe_acked
+00007ff9041ba1b0 (__TEXT,__text) non-external _quic_pmtud_probe_lost
+00007ff9041b7cb0 (__TEXT,__text) non-external _quic_pmtud_probe_sent
+00007ff9041b9a20 (__TEXT,__text) non-external _quic_pmtud_ptb_received
+00007ff9041b81d0 (__TEXT,__text) non-external _quic_pmtud_restart
+00007ff9041b9050 (__TEXT,__text) non-external _quic_pmtud_search_complete
+00007ff9041b6da0 (__TEXT,__text) non-external _quic_pmtud_send_probe
+00007ff9041b7e30 (__TEXT,__text) non-external _quic_pmtud_should_probe
+00007ff9041ba6f0 (__TEXT,__text) non-external _quic_pmtud_stop
+00007ff9041b8750 (__TEXT,__text) non-external _quic_pmtud_timer_reschedule
+00007ff9041b7850 (__TEXT,__text) non-external _quic_pmtud_update_probe_size
+00007ff9041daa20 (__TEXT,__text) non-external _quic_prepare_max_data
+00007ff9041dad20 (__TEXT,__text) non-external _quic_prepare_max_stream_data
+00007ff9041d89b0 (__TEXT,__text) non-external _quic_process_max_data
+00007ff9041d8e10 (__TEXT,__text) non-external _quic_process_max_stream_data
+00007ff9041d9bb0 (__TEXT,__text) non-external _quic_process_max_streams_bidi
+00007ff9041da490 (__TEXT,__text) non-external _quic_process_max_streams_uni
+00007ff904186fa0 (__TEXT,__text) non-external _quic_protector_create_server
+00007ff904185950 (__TEXT,__text) non-external _quic_protector_derive
+00007ff9041853a0 (__TEXT,__text) non-external _quic_protector_derive_initial_secrets
+00007ff90418b070 (__TEXT,__text) non-external _quic_protector_drop_key_state
+00007ff9041850d0 (__TEXT,__text) non-external _quic_protector_encode_label
+00007ff904187680 (__TEXT,__text) non-external _quic_protector_key_update
+00007ff904188050 (__TEXT,__text) non-external _quic_protector_keys_ready
+00007ff904189760 (__TEXT,__text) non-external _quic_protector_open
+00007ff90418a480 (__TEXT,__text) non-external _quic_protector_open_header
+00007ff904187ec0 (__TEXT,__text) non-external _quic_protector_open_key_ready
+00007ff90418b970 (__TEXT,__text) non-external _quic_protector_open_retry
+00007ff904188150 (__TEXT,__text) non-external _quic_protector_seal
+00007ff904187dc0 (__TEXT,__text) non-external _quic_protector_seal_key_ready
+00007ff90418b680 (__TEXT,__text) non-external _quic_protector_seal_retry
+00007ff904186960 (__TEXT,__text) non-external _quic_protector_swap_framers
+00007ff90418b320 (__TEXT,__text) non-external _quic_protector_traffic_update
+00007ff90418b350 (__TEXT,__text) non-external _quic_protector_traffic_update_internal
+00007ff9041ba8e0 (__TEXT,__text) non-external _quic_reassq_append
+00007ff9041bbd90 (__TEXT,__text) non-external _quic_reassq_available
+00007ff9041bbe80 (__TEXT,__text) non-external _quic_reassq_dequeue
+00007ff9041bb470 (__TEXT,__text) non-external _quic_reassq_duplicate
+00007ff9041bbac0 (__TEXT,__text) non-external _quic_reassq_fin_offset
+00007ff9041bbbb0 (__TEXT,__text) non-external _quic_reassq_has_fin
+00007ff9041bb9d0 (__TEXT,__text) non-external _quic_reassq_inorder_offset
+00007ff9041bb8e0 (__TEXT,__text) non-external _quic_reassq_last_offset
+00007ff9041bb600 (__TEXT,__text) non-external _quic_reassq_recalculate_size
+00007ff9041bbca0 (__TEXT,__text) non-external _quic_reassq_size
+00007ff90417ca90 (__TEXT,__text) non-external _quic_recovery_batch_begin
+00007ff90417cc90 (__TEXT,__text) non-external _quic_recovery_batch_end
+00007ff9041779e0 (__TEXT,__text) non-external _quic_recovery_create
+00007ff904176c40 (__TEXT,__text) non-external _quic_recovery_declare_packets_lost
+00007ff904173ad0 (__TEXT,__text) non-external _quic_recovery_decrement_ack_eliciting_packets_in_flight
+00007ff904177790 (__TEXT,__text) non-external _quic_recovery_destroy_deferred
+00007ff90417ce40 (__TEXT,__text) non-external _quic_recovery_destroy_pn_space
+00007ff904174ad0 (__TEXT,__text) non-external _quic_recovery_find_lost_packets
+00007ff90417aca0 (__TEXT,__text) non-external _quic_recovery_find_newly_acked_packets
+00007ff90417a8f0 (__TEXT,__text) non-external _quic_recovery_find_sent_packet
+00007ff9041788e0 (__TEXT,__text) non-external _quic_recovery_get_largest_acked_pn
+00007ff904178b00 (__TEXT,__text) non-external _quic_recovery_get_largest_acked_sent_time
+00007ff904178e10 (__TEXT,__text) non-external _quic_recovery_get_pto_count
+00007ff904178d20 (__TEXT,__text) non-external _quic_recovery_get_pto_period
+00007ff904179cd0 (__TEXT,__text) non-external _quic_recovery_increment_ack_eliciting_packets_in_flight
+00007ff904177c50 (__TEXT,__text) non-external _quic_recovery_init
+00007ff90417c320 (__TEXT,__text) non-external _quic_recovery_packet_acked
+00007ff904176740 (__TEXT,__text) non-external _quic_recovery_prepare_rxmit
+00007ff9041757b0 (__TEXT,__text) non-external _quic_recovery_pto
+00007ff904179f20 (__TEXT,__text) non-external _quic_recovery_received_ack
+00007ff904179600 (__TEXT,__text) non-external _quic_recovery_remove_stale_packets
+00007ff904177450 (__TEXT,__text) non-external _quic_recovery_reset
+00007ff904173070 (__TEXT,__text) non-external _quic_recovery_reset_pn_space
+00007ff90417bd40 (__TEXT,__text) non-external _quic_recovery_reset_pto_count
+00007ff904173d10 (__TEXT,__text) non-external _quic_recovery_reset_timer
+00007ff904178f00 (__TEXT,__text) non-external _quic_recovery_sent_packet
+00007ff9041744c0 (__TEXT,__text) non-external _quic_recovery_set_timer
+00007ff9041781d0 (__TEXT,__text) non-external _quic_recovery_switch_cc
+00007ff9041748a0 (__TEXT,__text) non-external _quic_recovery_timer_fired
+00007ff90417b530 (__TEXT,__text) non-external _quic_remove_lost_packets
+00007ff9041dfcb0 (__TEXT,__text) non-external _quic_replace_stream_flow
+00007ff9042143a0 (__TEXT,__const) non-external _quic_retry_key_v1
+00007ff9042143b0 (__TEXT,__const) non-external _quic_retry_nonce_v1
+00007ff9042124b0 (__TEXT,__text) non-external _quic_rtt_get_initial_rtt
+00007ff9042123c0 (__TEXT,__text) non-external _quic_rtt_get_latest_rtt
+00007ff9042121f0 (__TEXT,__text) non-external _quic_rtt_get_min_rtt
+00007ff904211f20 (__TEXT,__text) non-external _quic_rtt_get_remote_max_ack_delay
+00007ff904212100 (__TEXT,__text) non-external _quic_rtt_get_rtt_variance
+00007ff904212010 (__TEXT,__text) non-external _quic_rtt_get_smoothed_rtt
+00007ff904212800 (__TEXT,__text) non-external _quic_rtt_has_initial_measurement
+00007ff904210a20 (__TEXT,__text) non-external _quic_rtt_init
+00007ff904211160 (__TEXT,__text) non-external _quic_rtt_process_new_sample
+00007ff904210d60 (__TEXT,__text) non-external _quic_rtt_reset
+00007ff9042122e0 (__TEXT,__text) non-external _quic_rtt_set_min_rtt
+00007ff904211d70 (__TEXT,__text) non-external _quic_rtt_set_remote_max_ack_delay
+00007ff904210f40 (__TEXT,__text) non-external _quic_rtt_setup_cached_rtt
+00007ff9041a4d50 (__TEXT,__text) non-external _quic_safe_append
+00007ff9041d8050 (__TEXT,__text) non-external _quic_send_data_blocked
+00007ff9041db190 (__TEXT,__text) non-external _quic_send_max_streams_bidi
+00007ff9041db530 (__TEXT,__text) non-external _quic_send_max_streams_uni
+00007ff9041d85f0 (__TEXT,__text) non-external _quic_send_stream_data
+00007ff9041d7cd0 (__TEXT,__text) non-external _quic_send_stream_data_blocked
+00007ff9041d5e50 (__TEXT,__text) non-external _quic_send_stream_fin
+00007ff9041db8d0 (__TEXT,__text) non-external _quic_send_streams_blocked
+00007ff9041799e0 (__TEXT,__text) non-external _quic_sent_packet_insert
+00007ff904173790 (__TEXT,__text) non-external _quic_sent_packet_remove
+00007ff90421436e (__TEXT,__const) non-external _quic_server_initial_label
+00007ff9041d6590 (__TEXT,__text) non-external _quic_service_pending_send_data
+00007ff904212ca0 (__TEXT,__text) external _quic_shorthand_describe_entry
+00007ff9042128f0 (__TEXT,__text) non-external _quic_shorthand_process_packet
+00007ff90417c010 (__TEXT,__text) non-external _quic_spurious_loss
+00007ff9041e16d0 (__TEXT,__text) non-external _quic_stream_add_new_flow
+00007ff9041dd730 (__TEXT,__text) non-external _quic_stream_alloc_new_id
+00007ff9041e6e30 (__TEXT,__text) non-external _quic_stream_app_read
+00007ff9041e6280 (__TEXT,__text) non-external _quic_stream_close
+00007ff9041e1d00 (__TEXT,__text) non-external _quic_stream_closed_already
+00007ff9041e3720 (__TEXT,__text) non-external _quic_stream_compute_datagram_usable_frame_size
+00007ff9041e0500 (__TEXT,__text) non-external _quic_stream_create_inbound
+00007ff904190210 (__TEXT,__text) non-external _quic_stream_create_stream_frame
+00007ff9041d5850 (__TEXT,__text) non-external _quic_stream_data_blocked
+00007ff9041d7840 (__TEXT,__text) non-external _quic_stream_get_available_space
+00007ff9041e3b30 (__TEXT,__text) non-external _quic_stream_id_is_available
+00007ff9041de100 (__TEXT,__text) non-external _quic_stream_id_to_type
+00007ff9041d4190 (__TEXT,__text) non-external _quic_stream_init_hiwat
+00007ff9041d48e0 (__TEXT,__text) non-external _quic_stream_inorder_unread
+00007ff9041e0310 (__TEXT,__text) non-external _quic_stream_is_open
+00007ff9041e0410 (__TEXT,__text) non-external _quic_stream_lookup
+00007ff9041e43d0 (__TEXT,__text) non-external _quic_stream_process
+00007ff9041e48e0 (__TEXT,__text) non-external _quic_stream_process_inner
+00007ff9041d4b90 (__TEXT,__text) non-external _quic_stream_rcvwnd
+00007ff9041e2770 (__TEXT,__text) non-external _quic_stream_ready
+00007ff9041d7430 (__TEXT,__text) non-external _quic_stream_remote_rcv_win
+00007ff9041e6430 (__TEXT,__text) non-external _quic_stream_reset_id
+00007ff9041ddca0 (__TEXT,__text) non-external _quic_stream_reset_metadata_handlers
+00007ff9041e2bf0 (__TEXT,__text) non-external _quic_stream_send_create
+00007ff9041e4140 (__TEXT,__text) non-external _quic_stream_send_fc_credit
+00007ff9041df4b0 (__TEXT,__text) non-external _quic_stream_send_reset_stream
+00007ff9041df2d0 (__TEXT,__text) non-external _quic_stream_send_stop_sending
+00007ff9041de240 (__TEXT,__text) non-external _quic_stream_set_application_error
+00007ff9041dddf0 (__TEXT,__text) non-external _quic_stream_setup_metadata_handlers
+00007ff9041df950 (__TEXT,__text) non-external _quic_stream_unmark_pending
+00007ff9041e3e40 (__TEXT,__text) non-external _quic_stream_update_fc_credit
+00007ff9041e51a0 (__TEXT,__text) non-external _quic_stream_update_last_offset
+00007ff9041e6640 (__TEXT,__text) non-external _quic_stream_zombie_final_size
+00007ff904184e30 (__TEXT,__text) non-external _quic_time_delta
+00007ff904183a60 (__TEXT,__text) non-external _quic_timer_create
+00007ff904184c70 (__TEXT,__text) non-external _quic_timer_destroy
+00007ff9041845d0 (__TEXT,__text) non-external _quic_timer_insert
+00007ff904183fe0 (__TEXT,__text) non-external _quic_timer_recalculate
+00007ff904184af0 (__TEXT,__text) non-external _quic_timer_remove
+00007ff9041848f0 (__TEXT,__text) non-external _quic_timer_reschedule
+00007ff904183be0 (__TEXT,__text) non-external _quic_timer_run
+00007ff904184430 (__TEXT,__text) non-external _quic_timer_stop
+00007ff9041adfd0 (__TEXT,__text) non-external _quic_tp_deserialize
+00007ff9041ae660 (__TEXT,__text) non-external _quic_tp_deserialize_buffer
+00007ff9041af3b0 (__TEXT,__text) non-external _quic_tp_deserialize_iscid
+00007ff9041af120 (__TEXT,__text) non-external _quic_tp_deserialize_odcid
+00007ff9041afb60 (__TEXT,__text) non-external _quic_tp_deserialize_pa
+00007ff9041af640 (__TEXT,__text) non-external _quic_tp_deserialize_rscid
+00007ff9041af8d0 (__TEXT,__text) non-external _quic_tp_deserialize_srt
+00007ff9041abb10 (__TEXT,__text) non-external _quic_tp_get
+00007ff9041adcd0 (__TEXT,__text) non-external _quic_tp_get_initial_scid
+00007ff9041adbd0 (__TEXT,__text) non-external _quic_tp_get_original_dcid
+00007ff9041aded0 (__TEXT,__text) non-external _quic_tp_get_preferred_address
+00007ff9041addd0 (__TEXT,__text) non-external _quic_tp_get_retry_scid
+00007ff9041b0800 (__TEXT,__text) non-external _quic_tp_get_stateless_reset_token
+00007ff9041ab950 (__TEXT,__text) non-external _quic_tp_has
+00007ff9041ad880 (__TEXT,__text) non-external _quic_tp_serialize_cid
+00007ff9041ac390 (__TEXT,__text) non-external _quic_tp_serialize_internal
+00007ff9041ad9c0 (__TEXT,__text) non-external _quic_tp_serialize_pa
+00007ff9041acde0 (__TEXT,__text) non-external _quic_tp_serialize_parameter
+00007ff9041abd30 (__TEXT,__text) non-external _quic_tp_set
+00007ff9041b0360 (__TEXT,__text) non-external _quic_tp_set_initial_scid
+00007ff9041b01e0 (__TEXT,__text) non-external _quic_tp_set_original_dcid
+00007ff9041b04f0 (__TEXT,__text) non-external _quic_tp_set_retry_scid
+00007ff9041b0680 (__TEXT,__text) non-external _quic_tp_set_stateless_reset_token
+00007ff94270d3e0 (__DATA,__bss) non-external _quic_tp_srt_describe.token_str
+00007ff9041ac230 (__TEXT,__text) non-external _quic_tp_type_to_string
+00007ff9041d43b0 (__TEXT,__text) non-external _quic_update_sndhiwat
+00007ff904214350 (__TEXT,__const) non-external _quic_version_1_salt
+00007ff94270deb0 (__DATA,__bss) non-external _quic_version_describe.buffer
+00007ff90420fd30 (__TEXT,__text) non-external _quic_vle_decode
+00007ff94270da70 (__DATA,__bss) non-external _quiclog_directory
+00007ff9041aaaa0 (__TEXT,__text) non-external _quiclog_dump_to_file
+00007ff9041aa670 (__TEXT,__text) non-external _quiclog_parameters_set
+00007ff9041aa8f0 (__TEXT,__text) non-external _quiclog_rtt_updated
+                 (undefined) external _reallocf (from libSystem)
+00007ff9042142d0 (__TEXT,__const) non-external _recv_stream_transitions
+00007ff904186b20 (__TEXT,__text) non-external _sec_framer_debug
+00007ff904185d20 (__TEXT,__text) non-external _sec_framer_init
+00007ff904189b90 (__TEXT,__text) non-external _sec_framer_open_aesgcm
+00007ff904189fc0 (__TEXT,__text) non-external _sec_framer_open_chacha20poly1305
+00007ff90418a760 (__TEXT,__text) non-external _sec_framer_open_header_aesgcm
+00007ff90418abf0 (__TEXT,__text) non-external _sec_framer_open_header_chacha20poly1305
+00007ff9041894a0 (__TEXT,__text) non-external _sec_framer_process_header_protection
+00007ff904188780 (__TEXT,__text) non-external _sec_framer_seal_aesgcm
+00007ff904188e30 (__TEXT,__text) non-external _sec_framer_seal_chacha20poly1305
+00007ff904186600 (__TEXT,__text) non-external _sec_framer_set_hp_key
+00007ff904185f10 (__TEXT,__text) non-external _sec_framer_set_iv
+00007ff9041861a0 (__TEXT,__text) non-external _sec_framer_set_key
+                 (undefined) external _sec_protocol_metadata_copy_quic_transport_parameters (from Security)
+                 (undefined) external _sec_protocol_metadata_copy_serialized_session (from Security)
+                 (undefined) external _sec_protocol_metadata_get_early_data_accepted (from Security)
+                 (undefined) external _sec_protocol_metadata_get_negotiated_tls_ciphersuite (from Security)
+                 (undefined) external _sec_protocol_options_copy_transport_specific_application_protocol (from Security)
+                 (undefined) external _sec_protocol_options_set_allow_unknown_alpn_protos (from Security)
+                 (undefined) external _sec_protocol_options_set_min_tls_protocol_version (from Security)
+                 (undefined) external _sec_protocol_options_set_output_handler_access_block (from Security)
+                 (undefined) external _sec_protocol_options_set_quic_transport_parameters (from Security)
+                 (undefined) external _sec_protocol_options_set_quic_use_legacy_codepoint (from Security)
+                 (undefined) external _sec_protocol_options_set_session_state (from Security)
+                 (undefined) external _sec_protocol_options_set_session_update_block (from Security)
+                 (undefined) external _sec_protocol_options_set_tls_certificate_compression_enabled (from Security)
+                 (undefined) external _sec_protocol_options_set_tls_encryption_level_update_block (from Security)
+                 (undefined) external _sec_protocol_options_set_tls_encryption_secret_update_block (from Security)
+                 (undefined) external _sec_release (from Security)
+00007ff9041d60b0 (__TEXT,__text) non-external _send_stream_data
+00007ff904214290 (__TEXT,__const) non-external _send_stream_transitions
+                 (undefined) external _snprintf (from libSystem)
+                 (undefined) external _strcmp (from libSystem)
+                 (undefined) external _strerror (from libSystem)
+                 (undefined) external _strlen (from libSystem)
+                 (undefined) external _sysctlbyname (from libSystem)
+00007ff94270d3c8 (__DATA,__bss) non-external _timebase_info.info
+00007ff94270d3c0 (__DATA,__bss) non-external _timebase_info.once
+00007ff904211b60 (__TEXT,__text) non-external _update_base_rtt
+                 (undefined) external _vsnprintf (from libSystem)
+                 (undefined) external _xpc_release (from libSystem)
