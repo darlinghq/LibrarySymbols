@@ -1,0 +1,987 @@
+
+/System/Library/PrivateFrameworks/DesktopServicesPriv.framework/Versions/Current/XPCServices/ArchiveService.xpc/Contents/MacOS/ArchiveService (for architecture x86_64):
+                 (undefined) external _AAArchiveStreamClose (from libAppleArchive)
+                 (undefined) external _AAArchiveStreamProcess (from libAppleArchive)
+                 (undefined) external _AAArchiveStreamReadHeader (from libAppleArchive)
+                 (undefined) external _AAArchiveStreamWritePathList (from libAppleArchive)
+                 (undefined) external _AAByteStreamCancel (from libAppleArchive)
+                 (undefined) external _AAByteStreamClose (from libAppleArchive)
+                 (undefined) external _AAByteStreamPRead (from libAppleArchive)
+                 (undefined) external _AAByteStreamRead (from libAppleArchive)
+                 (undefined) external _AAByteStreamWrite (from libAppleArchive)
+                 (undefined) external _AACompressionOutputStreamOpen (from libAppleArchive)
+                 (undefined) external _AACustomByteStreamOpen (from libAppleArchive)
+                 (undefined) external _AACustomByteStreamSetCancelProc (from libAppleArchive)
+                 (undefined) external _AACustomByteStreamSetCloseProc (from libAppleArchive)
+                 (undefined) external _AACustomByteStreamSetData (from libAppleArchive)
+                 (undefined) external _AACustomByteStreamSetPReadProc (from libAppleArchive)
+                 (undefined) external _AACustomByteStreamSetReadProc (from libAppleArchive)
+                 (undefined) external _AACustomByteStreamSetWriteProc (from libAppleArchive)
+                 (undefined) external _AADecodeArchiveInputStreamOpen (from libAppleArchive)
+                 (undefined) external _AADecompressionInputStreamOpen (from libAppleArchive)
+                 (undefined) external _AAEncodeArchiveOutputStreamOpen (from libAppleArchive)
+                 (undefined) external _AAExtractArchiveOutputStreamOpen (from libAppleArchive)
+                 (undefined) external _AAFieldKeySetCreateWithString (from libAppleArchive)
+                 (undefined) external _AAFieldKeySetDestroy (from libAppleArchive)
+                 (undefined) external _AAFileStreamOpenWithPath (from libAppleArchive)
+                 (undefined) external _AAHeaderGetFieldBlob (from libAppleArchive)
+                 (undefined) external _AAHeaderGetFieldString (from libAppleArchive)
+                 (undefined) external _AAHeaderGetFieldUInt (from libAppleArchive)
+                 (undefined) external _AAHeaderGetKeyIndex (from libAppleArchive)
+                 (undefined) external _AAPathListCreate (from libAppleArchive)
+                 (undefined) external _AAPathListCreateWithDirectoryContents (from libAppleArchive)
+                 (undefined) external _AAPathListCreateWithPath (from libAppleArchive)
+                 (undefined) external _AAPathListDestroy (from libAppleArchive)
+                 (undefined) external _AAPathListMerge (from libAppleArchive)
+                 (undefined) external _AAThreadErrorContextEnter (from libAppleArchive)
+                 (undefined) external _AAThreadErrorContextLeave (from libAppleArchive)
+                 (undefined) external _AEAContextCreateWithEncryptedStream (from libAppleArchive)
+                 (undefined) external _AEAContextCreateWithProfile (from libAppleArchive)
+                 (undefined) external _AEAContextDestroy (from libAppleArchive)
+                 (undefined) external _AEAContextGetFieldBlob (from libAppleArchive)
+                 (undefined) external _AEAContextGetFieldUInt (from libAppleArchive)
+                 (undefined) external _AEAContextSetFieldBlob (from libAppleArchive)
+                 (undefined) external _AEAContextSetFieldUInt (from libAppleArchive)
+                 (undefined) external _AEADecryptionInputStreamOpen (from libAppleArchive)
+                 (undefined) external _AEAEncryptionOutputStreamCloseAndUpdateContext (from libAppleArchive)
+                 (undefined) external _AEAEncryptionOutputStreamOpen (from libAppleArchive)
+                 (undefined) external _AEAKeychainLoadItem (from libAppleArchive)
+                 (undefined) external _AEAKeychainStoreItem (from libAppleArchive)
+                 (undefined) external _APFSVolumeRole (from APFS)
+000000010001f988 (__TEXT,__const) external _ArchiveServiceVersionNumber
+000000010001f950 (__TEXT,__const) external _ArchiveServiceVersionString
+                 (undefined) external _CFArrayAppendValue (from CoreFoundation)
+                 (undefined) external _CFArrayCreateMutableCopy (from CoreFoundation)
+                 (undefined) external _CFAutorelease (from CoreFoundation)
+                 (undefined) external _CFBooleanGetTypeID (from CoreFoundation)
+                 (undefined) external _CFBundleCopyLocalizedString (from CoreFoundation)
+                 (undefined) external _CFBundleCreate (from CoreFoundation)
+                 (undefined) external _CFBundleGetBundleWithIdentifier (from CoreFoundation)
+                 (undefined) external _CFBundleGetMainBundle (from CoreFoundation)
+                 (undefined) external _CFBundleGetValueForInfoDictionaryKey (from CoreFoundation)
+                 (undefined) external _CFDataAppendBytes (from CoreFoundation)
+                 (undefined) external _CFDataCreateMutable (from CoreFoundation)
+                 (undefined) external _CFDateCreate (from CoreFoundation)
+                 (undefined) external _CFDictionaryAddValue (from CoreFoundation)
+                 (undefined) external _CFDictionaryCreateMutable (from CoreFoundation)
+                 (undefined) external _CFDictionaryGetValue (from CoreFoundation)
+                 (undefined) external _CFEqual (from CoreFoundation)
+                 (undefined) external _CFErrorCopyUserInfo (from CoreFoundation)
+                 (undefined) external _CFErrorGetCode (from CoreFoundation)
+                 (undefined) external _CFErrorGetDomain (from CoreFoundation)
+                 (undefined) external _CFFileSecurityClearProperties (from CoreFoundation)
+                 (undefined) external _CFFileSecurityCreate (from CoreFoundation)
+                 (undefined) external _CFFileSecurityCreateCopy (from CoreFoundation)
+                 (undefined) external _CFFileSecurityGetMode (from CoreFoundation)
+                 (undefined) external _CFFileSecuritySetGroup (from CoreFoundation)
+                 (undefined) external _CFFileSecuritySetMode (from CoreFoundation)
+                 (undefined) external _CFFileSecuritySetOwner (from CoreFoundation)
+                 (undefined) external _CFGetTypeID (from CoreFoundation)
+                 (undefined) external _CFNullGetTypeID (from CoreFoundation)
+                 (undefined) external _CFNumberGetTypeID (from CoreFoundation)
+                 (undefined) external _CFNumberGetValue (from CoreFoundation)
+                 (undefined) external _CFPreferencesCopyAppValue (from CoreFoundation)
+                 (undefined) external _CFRelease (from CoreFoundation)
+                 (undefined) external _CFRetain (from CoreFoundation)
+                 (undefined) external _CFStringAppend (from CoreFoundation)
+                 (undefined) external _CFStringCompare (from CoreFoundation)
+                 (undefined) external _CFStringCompareWithOptions (from CoreFoundation)
+                 (undefined) external _CFStringCreateCopy (from CoreFoundation)
+                 (undefined) external _CFStringCreateMutableCopy (from CoreFoundation)
+                 (undefined) external _CFStringCreateWithBytes (from CoreFoundation)
+                 (undefined) external _CFStringCreateWithCString (from CoreFoundation)
+                 (undefined) external _CFStringCreateWithCharacters (from CoreFoundation)
+                 (undefined) external _CFStringCreateWithFormat (from CoreFoundation)
+                 (undefined) external _CFStringCreateWithSubstring (from CoreFoundation)
+                 (undefined) external _CFStringGetCString (from CoreFoundation)
+                 (undefined) external _CFStringGetCharacterAtIndex (from CoreFoundation)
+                 (undefined) external _CFStringGetCharacters (from CoreFoundation)
+                 (undefined) external _CFStringGetLength (from CoreFoundation)
+                 (undefined) external _CFStringGetTypeID (from CoreFoundation)
+                 (undefined) external _CFStringHasPrefix (from CoreFoundation)
+                 (undefined) external _CFURLCopyLastPathComponent (from CoreFoundation)
+                 (undefined) external _CFURLCopyResourcePropertiesForKeys (from CoreFoundation)
+                 (undefined) external _CFURLCopyResourcePropertyForKey (from CoreFoundation)
+                 (undefined) external _CFURLCreateFilePathURL (from CoreFoundation)
+                 (undefined) external _CFURLCreateFromFileSystemRepresentation (from CoreFoundation)
+                 (undefined) external _CFURLGetFileSystemRepresentation (from CoreFoundation)
+                 (undefined) external _CFURLGetTypeID (from CoreFoundation)
+                 (undefined) external _CFURLSetResourcePropertiesForKeys (from CoreFoundation)
+0000000100028c30 (__DATA_CONST,__const) external _DSArchiveServiceErrorDomain
+000000010000555c (__TEXT,__text) external _DSArchiveServiceStreamingXPCInterface
+00000001000052d9 (__TEXT,__text) external _DSArchiveServiceXPCInterface
+                 (undefined) external _FSGetVolumeInfo (from CoreServices)
+                 (undefined) external _IORegistryEntryCreateCFProperty (from IOKit)
+                 (undefined) external _IOServiceGetMatchingService (from IOKit)
+                 (undefined) external _IOServiceMatching (from IOKit)
+                 (undefined) external _NSCocoaErrorDomain (from Foundation)
+                 (undefined) external _NSDebugDescriptionErrorKey (from Foundation)
+                 (undefined) external _NSHomeDirectory (from Foundation)
+                 (undefined) external _NSLocalizedDescriptionKey (from Foundation)
+                 (undefined) external _NSLocalizedRecoverySuggestionErrorKey (from Foundation)
+                 (undefined) external _NSOSStatusErrorDomain (from Foundation)
+                 (undefined) external _NSPOSIXErrorDomain (from Foundation)
+                 (undefined) external _NSProgressFileOperationKindArchiving (from Foundation)
+                 (undefined) external _NSProgressFileOperationKindUnarchiving (from Foundation)
+                 (undefined) external _NSProgressKindFile (from Foundation)
+                 (undefined) external _NSStringEncodingDetectionAllowLossyKey (from Foundation)
+                 (undefined) external _NSStringEncodingDetectionSuggestedEncodingsKey (from Foundation)
+                 (undefined) external _NSTemporaryDirectory (from Foundation)
+                 (undefined) external _NSURLErrorDomain (from Foundation)
+                 (undefined) external _NSURLErrorKey (from Foundation)
+                 (undefined) external _NSURLFileContentIdentifierKey (from CoreFoundation)
+                 (undefined) external _NSURLFileProtectionKey (from CoreFoundation)
+                 (undefined) external _NSURLFileSizeKey (from CoreFoundation)
+                 (undefined) external _NSURLIsDirectoryKey (from CoreFoundation)
+                 (undefined) external _NSURLIsSparseKey (from CoreFoundation)
+                 (undefined) external _NSURLMayHaveExtendedAttributesKey (from CoreFoundation)
+                 (undefined) external _NSURLMayShareFileContentKey (from CoreFoundation)
+                 (undefined) external _NSURLNameKey (from CoreFoundation)
+000000010002db00 (__DATA,__objc_data) external _OBJC_CLASS_$_DSArchiveExportedService
+000000010002da88 (__DATA,__objc_data) external _OBJC_CLASS_$_DSArchiveService
+000000010002dad8 (__DATA,__objc_data) external _OBJC_CLASS_$_DSArchiveServiceDelegate
+000000010002da10 (__DATA,__objc_data) external _OBJC_CLASS_$_DSArchivedItemDescriptor
+                 (undefined) external _OBJC_CLASS_$_LSClaimBinding (from CoreServices)
+                 (undefined) external _OBJC_CLASS_$_NSArray (from CoreFoundation)
+                 (undefined) external _OBJC_CLASS_$_NSCharacterSet (from Foundation)
+                 (undefined) external _OBJC_CLASS_$_NSConstantIntegerNumber (from Foundation)
+                 (undefined) external _OBJC_CLASS_$_NSData (from CoreFoundation)
+                 (undefined) external _OBJC_CLASS_$_NSDictionary (from CoreFoundation)
+                 (undefined) external _OBJC_CLASS_$_NSError (from Foundation)
+                 (undefined) external _OBJC_CLASS_$_NSFileAccessIntent (from Foundation)
+                 (undefined) external _OBJC_CLASS_$_NSFileCoordinator (from Foundation)
+                 (undefined) external _OBJC_CLASS_$_NSFileManager (from Foundation)
+                 (undefined) external _OBJC_CLASS_$_NSMutableArray (from CoreFoundation)
+                 (undefined) external _OBJC_CLASS_$_NSMutableDictionary (from CoreFoundation)
+                 (undefined) external _OBJC_CLASS_$_NSMutableSet (from CoreFoundation)
+                 (undefined) external _OBJC_CLASS_$_NSNull (from CoreFoundation)
+                 (undefined) external _OBJC_CLASS_$_NSNumber (from Foundation)
+                 (undefined) external _OBJC_CLASS_$_NSObject (from libobjc)
+                 (undefined) external _OBJC_CLASS_$_NSOperationQueue (from Foundation)
+                 (undefined) external _OBJC_CLASS_$_NSProgress (from Foundation)
+                 (undefined) external _OBJC_CLASS_$_NSSecurityScopedURLWrapper (from Foundation)
+                 (undefined) external _OBJC_CLASS_$_NSSet (from CoreFoundation)
+                 (undefined) external _OBJC_CLASS_$_NSString (from Foundation)
+                 (undefined) external _OBJC_CLASS_$_NSThread (from Foundation)
+                 (undefined) external _OBJC_CLASS_$_NSURL (from CoreFoundation)
+                 (undefined) external _OBJC_CLASS_$_NSUUID (from Foundation)
+                 (undefined) external _OBJC_CLASS_$_NSXPCConnection (from Foundation)
+                 (undefined) external _OBJC_CLASS_$_NSXPCInterface (from Foundation)
+                 (undefined) external _OBJC_CLASS_$_NSXPCListener (from Foundation)
+                 (undefined) external _OBJC_CLASS_$_UTType (from UniformTypeIdentifiers)
+000000010002db28 (__DATA,__objc_data) external _OBJC_METACLASS_$_DSArchiveExportedService
+000000010002da60 (__DATA,__objc_data) external _OBJC_METACLASS_$_DSArchiveService
+000000010002dab0 (__DATA,__objc_data) external _OBJC_METACLASS_$_DSArchiveServiceDelegate
+000000010002da38 (__DATA,__objc_data) external _OBJC_METACLASS_$_DSArchivedItemDescriptor
+                 (undefined) external _OBJC_METACLASS_$_NSObject (from libobjc)
+                 (undefined) external _UTTypeAppleArchive (from UniformTypeIdentifiers)
+                 (undefined) external _UTTypeFolder (from UniformTypeIdentifiers)
+                 (undefined) external _UTTypeItem (from UniformTypeIdentifiers)
+                 (undefined) external _UTTypeZIP (from UniformTypeIdentifiers)
+                 (undefined) external __Block_object_assign (from libSystem)
+                 (undefined) external __Block_object_dispose (from libSystem)
+                 (undefined) external __CFFileSecurityGetFilesec (from CoreFoundation)
+                 (undefined) external __CFURLCopyResourcePropertyValuesAndFlags (from CoreFoundation)
+                 (undefined) external __CFURLGetResourcePropertyFlags (from CoreFoundation)
+                 (undefined) external __CFURLGetVolumePropertyFlags (from CoreFoundation)
+                 (undefined) external __CFURLIsFileURL (from CoreFoundation)
+                 (undefined) external __CFURLIsPromiseName (from CoreFoundation)
+                 (undefined) external __MDItemSetAttributesWithURL (from CoreServices)
+                 (undefined) external __NSConcreteGlobalBlock (from libSystem)
+                 (undefined) external __NSConcreteStackBlock (from libSystem)
+                 (undefined) external __UTTypeAppleEncryptedArchive (from UniformTypeIdentifiers)
+                 (undefined) external __Unwind_Resume (from libSystem)
+0000000100005eb2 (__TEXT,__text) external __Z10FileSuffixRK7TString
+00000001000099ef (__TEXT,__text) external __Z10HardwareIDv
+0000000100006447 (__TEXT,__text) external __Z11RedactedStrRK7TString
+0000000100007281 (__TEXT,__text) external __Z12SanitizedURLP5NSURL
+0000000100006e41 (__TEXT,__text) external __Z13SanitizedPathRK7TString
+0000000100006068 (__TEXT,__text) external __Z15FileSuffixChain7TString
+0000000100005d72 (__TEXT,__text) external __Z15SlashesToColonsRK7TString
+000000010000993e (__TEXT,__text) external __Z16BRContainerClassv
+0000000100009954 (__TEXT,__text) external __Z17IsRunningInFinderv
+000000010001f26e (__TEXT,__text) external __Z18IsRedactionEnabledv
+000000010000fb88 (__TEXT,__text) external __Z19LogWithOSLogEnabledv
+000000010000f6ef (__TEXT,__text) external __Z22ICloudDriveFPFSEnabledv
+000000010000f7ad (__TEXT,__text) external __Z23FileProviderErrorDomainv
+000000010000a799 (__TEXT,__text) external __Z24UseFileProviderFrameworkv
+000000010000fb4e (__TEXT,__text) external __Z6LogObj12TLogCategory
+000000010000e8e0 (__TEXT,__text) external __Z9PrefsBoolPK10__CFStringbb
+000000010000d864 (__TEXT,__text) external __ZN10TCFURLInfo10CreateFileERK7TStringS2_P16__CFFileSecuritybRS0_
+000000010000bd9a (__TEXT,__text) external __ZN10TCFURLInfo10GetVRefNumEPK7__CFURL
+000000010000ad0a (__TEXT,__text) external __ZN10TCFURLInfo10InitializeEPK7__CFURLbb
+000000010000ae04 (__TEXT,__text) external __ZN10TCFURLInfo10InitializeEPKc
+0000000100009b24 (__TEXT,__text) external __ZN10TCFURLInfo11GetgidToUseEv
+0000000100009b08 (__TEXT,__text) external __ZN10TCFURLInfo11GetuidToUseEv
+000000010000ac3a (__TEXT,__text) external __ZN10TCFURLInfo14ForceNameFetchEv
+000000010000b9de (__TEXT,__text) external __ZN10TCFURLInfo14StringPropertyEPK7__CFURLPK10__CFString
+000000010000dc82 (__TEXT,__text) external __ZN10TCFURLInfo15CreateDirectoryERK7TStringS2_P16__CFFileSecuritybRS0_
+0000000100009ea4 (__TEXT,__text) external __ZN10TCFURLInfo15FetchPropertiesEb
+000000010000a862 (__TEXT,__text) external __ZN10TCFURLInfo16TranslateCFErrorEP9__CFError
+000000010002e439 (__DATA,__common) external __ZN10TCFURLInfo16gDSHelperRunningE
+0000000100009c56 (__TEXT,__text) external __ZN10TCFURLInfo18CopyPropertyValuesEPK7__CFURLyRyP24_CFURLFilePropertyValues
+000000010000bd20 (__TEXT,__text) external __ZN10TCFURLInfo18GetBooleanPropertyEPK7__CFURLPK10__CFString
+000000010000c2d0 (__TEXT,__text) external __ZN10TCFURLInfo19GetVolumeInfoRecordEPK7__CFURLR16VolumeInfoRecord
+000000010000ba72 (__TEXT,__text) external __ZN10TCFURLInfo19TranslatePOSIXErrorEiPKc
+000000010000bbd8 (__TEXT,__text) external __ZN10TCFURLInfo20GetNumericalPropertyEPK7__CFURLPK10__CFString
+000000010000ce7e (__TEXT,__text) external __ZN10TCFURLInfo21DesktopServicesBundleEv
+000000010000ea10 (__TEXT,__text) external __ZN10TCFURLInfo21EnableResumableCopiesEv
+000000010000c158 (__TEXT,__text) external __ZN10TCFURLInfo21SetResourcePropertiesEPK14__CFDictionary
+000000010000d35c (__TEXT,__text) external __ZN10TCFURLInfo22LocalizedStringWithKeyEPK10__CFString
+000000010000cbda (__TEXT,__text) external __ZN10TCFURLInfo22TranslateRawPOSIXErrorEiPKc
+000000010000c080 (__TEXT,__text) external __ZN10TCFURLInfo24FileSystemRepresentationEPK7__CFURLb
+000000010000aee2 (__TEXT,__text) external __ZN10TCFURLInfo24GetBasicInfoPropertyKeysEv
+000000010000cfac (__TEXT,__text) external __ZN10TCFURLInfo25LocalizedCopyErrorMessageEiRK7TString
+000000010000e360 (__TEXT,__text) external __ZN10TCFURLInfo25PhysicalURLFromLogicalURLEP5NSURL
+000000010000c674 (__TEXT,__text) external __ZN10TCFURLInfo26OSStatusFromCFErrorShallowEP9__CFError
+000000010000c646 (__TEXT,__text) external __ZN10TCFURLInfo26TranslateFileProviderErrorEP9__CFError
+000000010000c03a (__TEXT,__text) external __ZN10TCFURLInfo27GetFileSystemRepresentationEPK7__CFURLbPhl
+000000010000d250 (__TEXT,__text) external __ZN10TCFURLInfo27LocalizedStringWithFileNameEPK10__CFStringPK7__CFURL
+000000010000a72c (__TEXT,__text) external __ZN10TCFURLInfo32GetCopyItemRequestedPropertyKeysEv
+000000010002e440 (__DATA,__common) external __ZN10TCFURLInfo9ggidToUseE
+000000010002e43c (__DATA,__common) external __ZN10TCFURLInfo9guidToUseE
+0000000100009c48 (__TEXT,__text) external __ZN10TCFURLInfoC1Ev
+0000000100009b90 (__TEXT,__text) external __ZN10TCFURLInfoC2Ev
+0000000100007dd6 (__TEXT,__text) external __ZN12TUniqueNamer14NextUniqueNameER7TString
+0000000100007d36 (__TEXT,__text) external __ZN12TUniqueNamer7SetSeedERK7TStringS2_
+000000010000d426 (__TEXT,__text) external __ZN15TFileDescriptor4OpenEPKc9OpenFlagsP16__CFFileSecuritybbb
+000000010000d3dc (__TEXT,__text) external __ZN15TFileDescriptor5CloseEv
+000000010000e8c2 (__TEXT,__text) external __ZN15TFileDescriptorD2Ev
+0000000100008728 (__TEXT,__text) external __ZN7TString10MutableRefEv
+0000000100008d88 (__TEXT,__text) external __ZN7TString11SetFromUTF8EPKcm
+0000000100008794 (__TEXT,__text) external __ZN7TString15SetFromUniCharsEPKtl
+0000000100008e80 (__TEXT,__text) external __ZN7TString23SetStringRefAsImmutableEPK10__CFString
+0000000100008b3c (__TEXT,__text) external __ZN7TString6AppendERKS_
+0000000100008bb8 (__TEXT,__text) external __ZN7TString9IsMutableEPK10__CFString
+00000001000087ca (__TEXT,__text) external __ZN7TString9SetLengthEl
+0000000100008e0c (__TEXT,__text) external __ZN7TStringC1EPKc
+0000000100008e76 (__TEXT,__text) external __ZN7TStringC1EPKcm
+000000010000871c (__TEXT,__text) external __ZN7TStringC1ERK12HFSUniStr255
+0000000100008d22 (__TEXT,__text) external __ZN7TStringC2EPKc
+0000000100008e16 (__TEXT,__text) external __ZN7TStringC2EPKcm
+00000001000086b2 (__TEXT,__text) external __ZN7TStringC2ERK12HFSUniStr255
+000000010000d67e (__TEXT,__text) external __ZNK10TCFURLInfo10CreateFileERK7TStringP12TUniqueNamerP16__CFFileSecuritybRNSt3__110shared_ptrIS_EE
+0000000100009cc6 (__TEXT,__text) external __ZNK10TCFURLInfo10PathAsCStrEv
+000000010000e50c (__TEXT,__text) external __ZNK10TCFURLInfo14CreateLockFileERKNSt3__110shared_ptrIS_EEPK7TStringP16__CFFileSecuritybRS2_b
+000000010000da7e (__TEXT,__text) external __ZNK10TCFURLInfo15CreateDirectoryERK7TStringP12TUniqueNamerP16__CFFileSecuritybRNSt3__110shared_ptrIS_EE
+000000010000deee (__TEXT,__text) external __ZNK10TCFURLInfo19CreateLockDirectoryERKNSt3__110shared_ptrIS_EEPK7TStringP16__CFFileSecuritybRS2_bb
+000000010000c0fc (__TEXT,__text) external __ZNK10TCFURLInfo19GetVolumeInfoRecordER16VolumeInfoRecord
+000000010000b978 (__TEXT,__text) external __ZNK10TCFURLInfo4NameEv
+0000000100009e5e (__TEXT,__text) external __ZNK10TCFURLInfo4PathEv
+0000000100008c3e (__TEXT,__text) external __ZNK7TString10BeginsWithERKS_
+00000001000088b4 (__TEXT,__text) external __ZNK7TString13SubStringFromEl
+0000000100008a66 (__TEXT,__text) external __ZNK7TString18CopyToHFSUniStr255EP12HFSUniStr255
+0000000100008c96 (__TEXT,__text) external __ZNK7TString3StrEv
+0000000100008cfc (__TEXT,__text) external __ZNK7TString5c_strEv
+0000000100008ef0 (__TEXT,__text) external __ZNK7TString8EndsWithERKS_
+0000000100008b1a (__TEXT,__text) external __ZNK7TString9SubStringERK8_NSRange
+00000001000088fc (__TEXT,__text) external __ZNK7TString9SubStringEll
+                 (undefined) external __ZNKSt3__119__shared_weak_count13__get_deleterERKSt9type_info (from libc++)
+                 (undefined) external __ZNSt11logic_errorC2EPKc (from libc++)
+                 (undefined) external __ZNSt12length_errorD1Ev (from libc++)
+                 (undefined) external __ZNSt12out_of_rangeD1Ev (from libc++)
+                 (undefined) external __ZNSt20bad_array_new_lengthC1Ev (from libc++)
+                 (undefined) external __ZNSt20bad_array_new_lengthD1Ev (from libc++)
+                 (undefined) external __ZNSt3__112__next_primeEm (from libc++)
+                 (undefined) external __ZNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEE6appendEPKcm (from libc++)
+                 (undefined) external __ZNSt3__119__shared_weak_count14__release_weakEv (from libc++)
+                 (undefined) external __ZNSt3__119__shared_weak_countD2Ev (from libc++)
+                 (undefined) external __ZNSt3__19to_stringEi (from libc++)
+                 (undefined) external __ZSt9terminatev (from libc++)
+                 (undefined) external __ZTINSt3__119__shared_weak_countE (from libc++)
+0000000100028c68 (__DATA_CONST,__const) weak external __ZTINSt3__120__shared_ptr_emplaceI10TCFURLInfoNS_9allocatorIS1_EEEE
+                 (undefined) weak external __ZTISt12length_error (from libc++)
+                 (undefined) weak external __ZTISt12out_of_range (from libc++)
+                 (undefined) external __ZTISt20bad_array_new_length (from libc++)
+000000010001f990 (__TEXT,__const) weak external __ZTSNSt3__120__shared_ptr_emplaceI10TCFURLInfoNS_9allocatorIS1_EEEE
+                 (undefined) external __ZTVN10__cxxabiv120__si_class_type_infoE (from libc++)
+                 (undefined) external __ZTVSt12length_error (from libc++)
+                 (undefined) external __ZTVSt12out_of_range (from libc++)
+                 (undefined) weak external __ZdlPv (from libc++)
+                 (undefined) weak external __Znwm (from libc++)
+                 (undefined) external ___CFConstantStringClassReference (from CoreFoundation)
+                 (undefined) external ___CFStringIsMutable (from CoreFoundation)
+                 (undefined) weak external ____chkstk_darwin (from libSystem)
+                 (undefined) external ___bzero (from libSystem)
+                 (undefined) external ___cxa_allocate_exception (from libc++)
+                 (undefined) external ___cxa_begin_catch (from libc++)
+                 (undefined) external ___cxa_free_exception (from libc++)
+                 (undefined) external ___cxa_guard_abort (from libc++)
+                 (undefined) external ___cxa_guard_acquire (from libc++)
+                 (undefined) external ___cxa_guard_release (from libc++)
+                 (undefined) external ___cxa_throw (from libc++)
+                 (undefined) external ___error (from libSystem)
+                 (undefined) external ___gxx_personality_v0 (from libc++)
+                 (undefined) external ___kCFBooleanTrue (from CoreFoundation)
+                 (undefined) external ___stack_chk_fail (from libSystem)
+                 (undefined) external ___stack_chk_guard (from libSystem)
+                 (undefined) external __kCFURLCloudDocsPlaceholderDictionaryKey (from CoreFoundation)
+                 (undefined) external __kCFURLDeviceRefNumKey (from CoreFoundation)
+                 (undefined) external __kCFURLFileAllocatedSizeOfResourceForkKey (from CoreFoundation)
+                 (undefined) external __kCFURLFileFlagsKey (from CoreFoundation)
+                 (undefined) external __kCFURLFileIDKey (from CoreFoundation)
+                 (undefined) external __kCFURLFileSizeOfResourceForkKey (from CoreFoundation)
+                 (undefined) external __kCFURLFinderInfoKey (from CoreFoundation)
+                 (undefined) external __kCFURLIsCompressedKey (from CoreFoundation)
+                 (undefined) external __kCFURLIsRestrictedKey (from CoreFoundation)
+                 (undefined) external __kCFURLIsSystemAppendKey (from CoreFoundation)
+                 (undefined) external __kCFURLIsSystemNoUnlinkKey (from CoreFoundation)
+                 (undefined) external __kCFURLIsUserAppendKey (from CoreFoundation)
+                 (undefined) external __kCFURLVolumeIsQuarantinedKey (from CoreFoundation)
+                 (undefined) external __kCFURLVolumeRefNumKey (from CoreFoundation)
+0000000100000000 (__TEXT,__text) [referenced dynamically] external __mh_execute_header
+                 (undefined) external __objc_empty_cache (from libobjc)
+                 (undefined) external __os_log_impl (from libSystem)
+                 (undefined) external __set_user_dir_suffix (from libSystem)
+                 (undefined) external _abort (from libSystem)
+                 (undefined) external _archive_entry_clear (from libarchive)
+                 (undefined) external _archive_entry_copy_stat (from libarchive)
+                 (undefined) external _archive_entry_filetype (from libarchive)
+                 (undefined) external _archive_entry_free (from libarchive)
+                 (undefined) external _archive_entry_hardlink (from libarchive)
+                 (undefined) external _archive_entry_new (from libarchive)
+                 (undefined) external _archive_entry_pathname (from libarchive)
+                 (undefined) external _archive_entry_set_hardlink (from libarchive)
+                 (undefined) external _archive_entry_set_pathname (from libarchive)
+                 (undefined) external _archive_entry_set_symlink (from libarchive)
+                 (undefined) external _archive_entry_size (from libarchive)
+                 (undefined) external _archive_entry_size_is_set (from libarchive)
+                 (undefined) external _archive_errno (from libarchive)
+                 (undefined) external _archive_error_string (from libarchive)
+                 (undefined) external _archive_filter_bytes (from libarchive)
+                 (undefined) external _archive_read_add_passphrase (from libarchive)
+                 (undefined) external _archive_read_close (from libarchive)
+                 (undefined) external _archive_read_data_block (from libarchive)
+                 (undefined) external _archive_read_extract (from libarchive)
+                 (undefined) external _archive_read_extract_set_progress_callback (from libarchive)
+                 (undefined) external _archive_read_free (from libarchive)
+                 (undefined) external _archive_read_has_encrypted_entries (from libarchive)
+                 (undefined) external _archive_read_new (from libarchive)
+                 (undefined) external _archive_read_next_header2 (from libarchive)
+                 (undefined) external _archive_read_open_filename (from libarchive)
+                 (undefined) external _archive_read_support_filter_all (from libarchive)
+                 (undefined) external _archive_read_support_format_all (from libarchive)
+                 (undefined) external _archive_read_support_format_tar (from libarchive)
+                 (undefined) external _archive_read_support_format_zip (from libarchive)
+                 (undefined) external _archive_write_add_filter_gzip (from libarchive)
+                 (undefined) external _archive_write_close (from libarchive)
+                 (undefined) external _archive_write_data (from libarchive)
+                 (undefined) external _archive_write_free (from libarchive)
+                 (undefined) external _archive_write_header (from libarchive)
+                 (undefined) external _archive_write_new (from libarchive)
+                 (undefined) external _archive_write_open_fd (from libarchive)
+                 (undefined) external _archive_write_set_format_cpio (from libarchive)
+                 (undefined) external _archive_write_set_format_gnutar (from libarchive)
+                 (undefined) external _archive_write_set_format_zip (from libarchive)
+                 (undefined) external _calloc (from libSystem)
+                 (undefined) external _close (from libSystem)
+                 (undefined) external _closedir (from libSystem)
+                 (undefined) external _confstr (from libSystem)
+                 (undefined) external _copyfile (from libSystem)
+                 (undefined) external _dispatch_async (from libSystem)
+                 (undefined) external _dispatch_block_cancel (from libSystem)
+                 (undefined) external _dispatch_block_create (from libSystem)
+                 (undefined) external _dispatch_block_testcancel (from libSystem)
+                 (undefined) external _dispatch_get_global_queue (from libSystem)
+                 (undefined) external _dispatch_group_create (from libSystem)
+                 (undefined) external _dispatch_group_notify (from libSystem)
+                 (undefined) external _dispatch_once (from libSystem)
+                 (undefined) external _dispatch_queue_attr_make_with_autorelease_frequency (from libSystem)
+                 (undefined) external _dispatch_queue_create (from libSystem)
+                 (undefined) external _dlopen (from libSystem)
+                 (undefined) external _dlsym (from libSystem)
+                 (undefined) external _exit (from libSystem)
+                 (undefined) external _fchmod (from libSystem)
+                 (undefined) external _fcntl (from libSystem)
+                 (undefined) external _free (from libSystem)
+                 (undefined) external _getenv (from libSystem)
+                 (undefined) external _getgid (from libSystem)
+                 (undefined) external _getppid (from libSystem)
+                 (undefined) external _getpwuid (from libSystem)
+                 (undefined) external _getuid (from libSystem)
+                 (undefined) external _kCFAllocatorDefault (from CoreFoundation)
+                 (undefined) external _kCFBooleanTrue (from CoreFoundation)
+                 (undefined) external _kCFErrorDescriptionKey (from CoreFoundation)
+                 (undefined) external _kCFErrorDomainCocoa (from CoreFoundation)
+                 (undefined) external _kCFErrorDomainOSStatus (from CoreFoundation)
+                 (undefined) external _kCFErrorDomainPOSIX (from CoreFoundation)
+                 (undefined) external _kCFErrorUnderlyingErrorKey (from CoreFoundation)
+                 (undefined) external _kCFTypeDictionaryKeyCallBacks (from CoreFoundation)
+                 (undefined) external _kCFTypeDictionaryValueCallBacks (from CoreFoundation)
+                 (undefined) external _kCFURLAddedToDirectoryDateKey (from CoreFoundation)
+                 (undefined) external _kCFURLAttributeModificationDateKey (from CoreFoundation)
+                 (undefined) external _kCFURLContentModificationDateKey (from CoreFoundation)
+                 (undefined) external _kCFURLCreationDateKey (from CoreFoundation)
+                 (undefined) external _kCFURLFileAllocatedSizeKey (from CoreFoundation)
+                 (undefined) external _kCFURLFileSecurityKey (from CoreFoundation)
+                 (undefined) external _kCFURLFileSizeKey (from CoreFoundation)
+                 (undefined) external _kCFURLHasHiddenExtensionKey (from CoreFoundation)
+                 (undefined) external _kCFURLIsAliasFileKey (from CoreFoundation)
+                 (undefined) external _kCFURLIsApplicationKey (from CoreFoundation)
+                 (undefined) external _kCFURLIsDirectoryKey (from CoreFoundation)
+                 (undefined) external _kCFURLIsExecutableKey (from CoreFoundation)
+                 (undefined) external _kCFURLIsHiddenKey (from CoreFoundation)
+                 (undefined) external _kCFURLIsMountTriggerKey (from CoreFoundation)
+                 (undefined) external _kCFURLIsPackageKey (from CoreFoundation)
+                 (undefined) external _kCFURLIsReadableKey (from CoreFoundation)
+                 (undefined) external _kCFURLIsRegularFileKey (from CoreFoundation)
+                 (undefined) external _kCFURLIsSymbolicLinkKey (from CoreFoundation)
+                 (undefined) external _kCFURLIsSystemImmutableKey (from CoreFoundation)
+                 (undefined) external _kCFURLIsUserImmutableKey (from CoreFoundation)
+                 (undefined) external _kCFURLIsVolumeKey (from CoreFoundation)
+                 (undefined) external _kCFURLIsWritableKey (from CoreFoundation)
+                 (undefined) external _kCFURLLabelNumberKey (from CoreFoundation)
+                 (undefined) external _kCFURLLinkCountKey (from CoreFoundation)
+                 (undefined) external _kCFURLLocalizedNameKey (from CoreFoundation)
+                 (undefined) external _kCFURLNameKey (from CoreFoundation)
+                 (undefined) external _kCFURLVolumeAvailableCapacityKey (from CoreFoundation)
+                 (undefined) external _lstat$INODE64 (from libSystem)
+000000010000fe9a (__TEXT,__text) external _main
+                 (undefined) external _memcmp (from libSystem)
+                 (undefined) external _memmove (from libSystem)
+                 (undefined) external _mkdir (from libSystem)
+                 (undefined) external _mkdirx_np (from libSystem)
+                 (undefined) external _mkdtemp (from libSystem)
+                 (undefined) external _mkstemp (from libSystem)
+                 (undefined) external _objc_alloc (from libobjc)
+                 (undefined) external _objc_autorelease (from libobjc)
+                 (undefined) external _objc_autoreleasePoolPop (from libobjc)
+                 (undefined) external _objc_autoreleasePoolPush (from libobjc)
+                 (undefined) external _objc_autoreleaseReturnValue (from libobjc)
+                 (undefined) external _objc_copyWeak (from libobjc)
+                 (undefined) external _objc_destroyWeak (from libobjc)
+                 (undefined) external _objc_enumerationMutation (from libobjc)
+                 (undefined) external _objc_getClass (from libobjc)
+                 (undefined) external _objc_initWeak (from libobjc)
+                 (undefined) external _objc_loadWeakRetained (from libobjc)
+                 (undefined) external _objc_moveWeak (from libobjc)
+                 (undefined) external _objc_msgSend (from libobjc)
+                 (undefined) external _objc_msgSendSuper2 (from libobjc)
+                 (undefined) external _objc_opt_class (from libobjc)
+                 (undefined) external _objc_opt_isKindOfClass (from libobjc)
+                 (undefined) external _objc_opt_new (from libobjc)
+                 (undefined) external _objc_opt_respondsToSelector (from libobjc)
+                 (undefined) external _objc_release (from libobjc)
+                 (undefined) external _objc_retain (from libobjc)
+                 (undefined) external _objc_retainAutorelease (from libobjc)
+                 (undefined) external _objc_retainAutoreleaseReturnValue (from libobjc)
+                 (undefined) external _objc_retainAutoreleasedReturnValue (from libobjc)
+                 (undefined) external _objc_setProperty_nonatomic_copy (from libobjc)
+                 (undefined) external _objc_storeStrong (from libobjc)
+                 (undefined) external _objc_storeWeak (from libobjc)
+                 (undefined) external _objc_sync_enter (from libobjc)
+                 (undefined) external _objc_sync_exit (from libobjc)
+                 (undefined) external _object_getClassName (from libobjc)
+                 (undefined) external _open (from libSystem)
+                 (undefined) external _opendir$INODE64 (from libSystem)
+                 (undefined) external _openx_np (from libSystem)
+                 (undefined) external _os_log_create (from libSystem)
+                 (undefined) external _os_log_type_enabled (from libSystem)
+                 (undefined) external _os_unfair_lock_lock (from libSystem)
+                 (undefined) external _os_unfair_lock_unlock (from libSystem)
+                 (undefined) external _os_variant_has_internal_ui (from libSystem)
+                 (undefined) external _read (from libSystem)
+                 (undefined) external _readdir$INODE64 (from libSystem)
+                 (undefined) external _readlink (from libSystem)
+                 (undefined) external _realpath$DARWIN_EXTSN (from libSystem)
+                 (undefined) external _sandbox_init_with_parameters (from libSystem)
+                 (undefined) external _statfs$INODE64 (from libSystem)
+                 (undefined) external _strcmp (from libSystem)
+                 (undefined) external _strdup (from libSystem)
+                 (undefined) external _strerror (from libSystem)
+                 (undefined) external _strlen (from libSystem)
+                 (undefined) external _unlink (from libSystem)
+                 (undefined) external _unsetenv (from libSystem)
+
+/System/Library/PrivateFrameworks/DesktopServicesPriv.framework/Versions/Current/XPCServices/ArchiveService.xpc/Contents/MacOS/ArchiveService (for architecture arm64e):
+                 (undefined) external _AAArchiveStreamClose (from libAppleArchive)
+                 (undefined) external _AAArchiveStreamProcess (from libAppleArchive)
+                 (undefined) external _AAArchiveStreamReadHeader (from libAppleArchive)
+                 (undefined) external _AAArchiveStreamWritePathList (from libAppleArchive)
+                 (undefined) external _AAByteStreamCancel (from libAppleArchive)
+                 (undefined) external _AAByteStreamClose (from libAppleArchive)
+                 (undefined) external _AAByteStreamPRead (from libAppleArchive)
+                 (undefined) external _AAByteStreamRead (from libAppleArchive)
+                 (undefined) external _AAByteStreamWrite (from libAppleArchive)
+                 (undefined) external _AACompressionOutputStreamOpen (from libAppleArchive)
+                 (undefined) external _AACustomByteStreamOpen (from libAppleArchive)
+                 (undefined) external _AACustomByteStreamSetCancelProc (from libAppleArchive)
+                 (undefined) external _AACustomByteStreamSetCloseProc (from libAppleArchive)
+                 (undefined) external _AACustomByteStreamSetData (from libAppleArchive)
+                 (undefined) external _AACustomByteStreamSetPReadProc (from libAppleArchive)
+                 (undefined) external _AACustomByteStreamSetReadProc (from libAppleArchive)
+                 (undefined) external _AACustomByteStreamSetWriteProc (from libAppleArchive)
+                 (undefined) external _AADecodeArchiveInputStreamOpen (from libAppleArchive)
+                 (undefined) external _AADecompressionInputStreamOpen (from libAppleArchive)
+                 (undefined) external _AAEncodeArchiveOutputStreamOpen (from libAppleArchive)
+                 (undefined) external _AAExtractArchiveOutputStreamOpen (from libAppleArchive)
+                 (undefined) external _AAFieldKeySetCreateWithString (from libAppleArchive)
+                 (undefined) external _AAFieldKeySetDestroy (from libAppleArchive)
+                 (undefined) external _AAFileStreamOpenWithPath (from libAppleArchive)
+                 (undefined) external _AAHeaderGetFieldBlob (from libAppleArchive)
+                 (undefined) external _AAHeaderGetFieldString (from libAppleArchive)
+                 (undefined) external _AAHeaderGetFieldUInt (from libAppleArchive)
+                 (undefined) external _AAHeaderGetKeyIndex (from libAppleArchive)
+                 (undefined) external _AAPathListCreate (from libAppleArchive)
+                 (undefined) external _AAPathListCreateWithDirectoryContents (from libAppleArchive)
+                 (undefined) external _AAPathListCreateWithPath (from libAppleArchive)
+                 (undefined) external _AAPathListDestroy (from libAppleArchive)
+                 (undefined) external _AAPathListMerge (from libAppleArchive)
+                 (undefined) external _AAThreadErrorContextEnter (from libAppleArchive)
+                 (undefined) external _AAThreadErrorContextLeave (from libAppleArchive)
+                 (undefined) external _AEAContextCreateWithEncryptedStream (from libAppleArchive)
+                 (undefined) external _AEAContextCreateWithProfile (from libAppleArchive)
+                 (undefined) external _AEAContextDestroy (from libAppleArchive)
+                 (undefined) external _AEAContextGetFieldBlob (from libAppleArchive)
+                 (undefined) external _AEAContextGetFieldUInt (from libAppleArchive)
+                 (undefined) external _AEAContextSetFieldBlob (from libAppleArchive)
+                 (undefined) external _AEAContextSetFieldUInt (from libAppleArchive)
+                 (undefined) external _AEADecryptionInputStreamOpen (from libAppleArchive)
+                 (undefined) external _AEAEncryptionOutputStreamCloseAndUpdateContext (from libAppleArchive)
+                 (undefined) external _AEAEncryptionOutputStreamOpen (from libAppleArchive)
+                 (undefined) external _AEAKeychainLoadItem (from libAppleArchive)
+                 (undefined) external _AEAKeychainStoreItem (from libAppleArchive)
+                 (undefined) external _APFSVolumeRole (from APFS)
+0000000100024038 (__TEXT,__const) external _ArchiveServiceVersionNumber
+0000000100024000 (__TEXT,__const) external _ArchiveServiceVersionString
+                 (undefined) external _CFArrayAppendValue (from CoreFoundation)
+                 (undefined) external _CFArrayCreateMutableCopy (from CoreFoundation)
+                 (undefined) external _CFAutorelease (from CoreFoundation)
+                 (undefined) external _CFBooleanGetTypeID (from CoreFoundation)
+                 (undefined) external _CFBundleCopyLocalizedString (from CoreFoundation)
+                 (undefined) external _CFBundleCreate (from CoreFoundation)
+                 (undefined) external _CFBundleGetBundleWithIdentifier (from CoreFoundation)
+                 (undefined) external _CFBundleGetMainBundle (from CoreFoundation)
+                 (undefined) external _CFBundleGetValueForInfoDictionaryKey (from CoreFoundation)
+                 (undefined) external _CFDataAppendBytes (from CoreFoundation)
+                 (undefined) external _CFDataCreateMutable (from CoreFoundation)
+                 (undefined) external _CFDateCreate (from CoreFoundation)
+                 (undefined) external _CFDictionaryAddValue (from CoreFoundation)
+                 (undefined) external _CFDictionaryCreateMutable (from CoreFoundation)
+                 (undefined) external _CFDictionaryGetValue (from CoreFoundation)
+                 (undefined) external _CFEqual (from CoreFoundation)
+                 (undefined) external _CFErrorCopyUserInfo (from CoreFoundation)
+                 (undefined) external _CFErrorGetCode (from CoreFoundation)
+                 (undefined) external _CFErrorGetDomain (from CoreFoundation)
+                 (undefined) external _CFFileSecurityClearProperties (from CoreFoundation)
+                 (undefined) external _CFFileSecurityCreate (from CoreFoundation)
+                 (undefined) external _CFFileSecurityCreateCopy (from CoreFoundation)
+                 (undefined) external _CFFileSecurityGetMode (from CoreFoundation)
+                 (undefined) external _CFFileSecuritySetGroup (from CoreFoundation)
+                 (undefined) external _CFFileSecuritySetMode (from CoreFoundation)
+                 (undefined) external _CFFileSecuritySetOwner (from CoreFoundation)
+                 (undefined) external _CFGetTypeID (from CoreFoundation)
+                 (undefined) external _CFNullGetTypeID (from CoreFoundation)
+                 (undefined) external _CFNumberGetTypeID (from CoreFoundation)
+                 (undefined) external _CFNumberGetValue (from CoreFoundation)
+                 (undefined) external _CFPreferencesCopyAppValue (from CoreFoundation)
+                 (undefined) external _CFRelease (from CoreFoundation)
+                 (undefined) external _CFRetain (from CoreFoundation)
+                 (undefined) external _CFStringAppend (from CoreFoundation)
+                 (undefined) external _CFStringCompare (from CoreFoundation)
+                 (undefined) external _CFStringCompareWithOptions (from CoreFoundation)
+                 (undefined) external _CFStringCreateCopy (from CoreFoundation)
+                 (undefined) external _CFStringCreateMutableCopy (from CoreFoundation)
+                 (undefined) external _CFStringCreateWithBytes (from CoreFoundation)
+                 (undefined) external _CFStringCreateWithCString (from CoreFoundation)
+                 (undefined) external _CFStringCreateWithCharacters (from CoreFoundation)
+                 (undefined) external _CFStringCreateWithFormat (from CoreFoundation)
+                 (undefined) external _CFStringCreateWithSubstring (from CoreFoundation)
+                 (undefined) external _CFStringGetCString (from CoreFoundation)
+                 (undefined) external _CFStringGetCharacterAtIndex (from CoreFoundation)
+                 (undefined) external _CFStringGetCharacters (from CoreFoundation)
+                 (undefined) external _CFStringGetLength (from CoreFoundation)
+                 (undefined) external _CFStringGetTypeID (from CoreFoundation)
+                 (undefined) external _CFStringHasPrefix (from CoreFoundation)
+                 (undefined) external _CFURLCopyLastPathComponent (from CoreFoundation)
+                 (undefined) external _CFURLCopyResourcePropertiesForKeys (from CoreFoundation)
+                 (undefined) external _CFURLCopyResourcePropertyForKey (from CoreFoundation)
+                 (undefined) external _CFURLCreateFilePathURL (from CoreFoundation)
+                 (undefined) external _CFURLCreateFromFileSystemRepresentation (from CoreFoundation)
+                 (undefined) external _CFURLGetFileSystemRepresentation (from CoreFoundation)
+                 (undefined) external _CFURLGetTypeID (from CoreFoundation)
+                 (undefined) external _CFURLSetResourcePropertiesForKeys (from CoreFoundation)
+000000010002cc50 (__DATA_CONST,__const) external _DSArchiveServiceErrorDomain
+0000000100008524 (__TEXT,__text) external _DSArchiveServiceStreamingXPCInterface
+00000001000082c4 (__TEXT,__text) external _DSArchiveServiceXPCInterface
+                 (undefined) external _FSGetVolumeInfo (from CoreServices)
+                 (undefined) external _IORegistryEntryCreateCFProperty (from IOKit)
+                 (undefined) external _IOServiceGetMatchingService (from IOKit)
+                 (undefined) external _IOServiceMatching (from IOKit)
+                 (undefined) external _NSCocoaErrorDomain (from Foundation)
+                 (undefined) external _NSDebugDescriptionErrorKey (from Foundation)
+                 (undefined) external _NSHomeDirectory (from Foundation)
+                 (undefined) external _NSLocalizedDescriptionKey (from Foundation)
+                 (undefined) external _NSLocalizedRecoverySuggestionErrorKey (from Foundation)
+                 (undefined) external _NSOSStatusErrorDomain (from Foundation)
+                 (undefined) external _NSPOSIXErrorDomain (from Foundation)
+                 (undefined) external _NSProgressFileOperationKindArchiving (from Foundation)
+                 (undefined) external _NSProgressFileOperationKindUnarchiving (from Foundation)
+                 (undefined) external _NSProgressKindFile (from Foundation)
+                 (undefined) external _NSStringEncodingDetectionAllowLossyKey (from Foundation)
+                 (undefined) external _NSStringEncodingDetectionSuggestedEncodingsKey (from Foundation)
+                 (undefined) external _NSTemporaryDirectory (from Foundation)
+                 (undefined) external _NSURLErrorDomain (from Foundation)
+                 (undefined) external _NSURLErrorKey (from Foundation)
+                 (undefined) external _NSURLFileContentIdentifierKey (from CoreFoundation)
+                 (undefined) external _NSURLFileProtectionKey (from CoreFoundation)
+                 (undefined) external _NSURLFileSizeKey (from CoreFoundation)
+                 (undefined) external _NSURLIsDirectoryKey (from CoreFoundation)
+                 (undefined) external _NSURLIsSparseKey (from CoreFoundation)
+                 (undefined) external _NSURLMayHaveExtendedAttributesKey (from CoreFoundation)
+                 (undefined) external _NSURLMayShareFileContentKey (from CoreFoundation)
+                 (undefined) external _NSURLNameKey (from CoreFoundation)
+0000000100031320 (__DATA,__objc_data) external _OBJC_CLASS_$_DSArchiveExportedService
+00000001000312a8 (__DATA,__objc_data) external _OBJC_CLASS_$_DSArchiveService
+00000001000312f8 (__DATA,__objc_data) external _OBJC_CLASS_$_DSArchiveServiceDelegate
+0000000100031230 (__DATA,__objc_data) external _OBJC_CLASS_$_DSArchivedItemDescriptor
+                 (undefined) external _OBJC_CLASS_$_LSClaimBinding (from CoreServices)
+                 (undefined) external _OBJC_CLASS_$_NSArray (from CoreFoundation)
+                 (undefined) external _OBJC_CLASS_$_NSCharacterSet (from Foundation)
+                 (undefined) external _OBJC_CLASS_$_NSConstantIntegerNumber (from Foundation)
+                 (undefined) external _OBJC_CLASS_$_NSData (from CoreFoundation)
+                 (undefined) external _OBJC_CLASS_$_NSDictionary (from CoreFoundation)
+                 (undefined) external _OBJC_CLASS_$_NSError (from Foundation)
+                 (undefined) external _OBJC_CLASS_$_NSFileAccessIntent (from Foundation)
+                 (undefined) external _OBJC_CLASS_$_NSFileCoordinator (from Foundation)
+                 (undefined) external _OBJC_CLASS_$_NSFileManager (from Foundation)
+                 (undefined) external _OBJC_CLASS_$_NSMutableArray (from CoreFoundation)
+                 (undefined) external _OBJC_CLASS_$_NSMutableDictionary (from CoreFoundation)
+                 (undefined) external _OBJC_CLASS_$_NSMutableSet (from CoreFoundation)
+                 (undefined) external _OBJC_CLASS_$_NSNull (from CoreFoundation)
+                 (undefined) external _OBJC_CLASS_$_NSNumber (from Foundation)
+                 (undefined) external _OBJC_CLASS_$_NSObject (from libobjc)
+                 (undefined) external _OBJC_CLASS_$_NSOperationQueue (from Foundation)
+                 (undefined) external _OBJC_CLASS_$_NSProgress (from Foundation)
+                 (undefined) external _OBJC_CLASS_$_NSSecurityScopedURLWrapper (from Foundation)
+                 (undefined) external _OBJC_CLASS_$_NSSet (from CoreFoundation)
+                 (undefined) external _OBJC_CLASS_$_NSString (from Foundation)
+                 (undefined) external _OBJC_CLASS_$_NSThread (from Foundation)
+                 (undefined) external _OBJC_CLASS_$_NSURL (from CoreFoundation)
+                 (undefined) external _OBJC_CLASS_$_NSUUID (from Foundation)
+                 (undefined) external _OBJC_CLASS_$_NSXPCConnection (from Foundation)
+                 (undefined) external _OBJC_CLASS_$_NSXPCInterface (from Foundation)
+                 (undefined) external _OBJC_CLASS_$_NSXPCListener (from Foundation)
+                 (undefined) external _OBJC_CLASS_$_UTType (from UniformTypeIdentifiers)
+0000000100031348 (__DATA,__objc_data) external _OBJC_METACLASS_$_DSArchiveExportedService
+0000000100031280 (__DATA,__objc_data) external _OBJC_METACLASS_$_DSArchiveService
+00000001000312d0 (__DATA,__objc_data) external _OBJC_METACLASS_$_DSArchiveServiceDelegate
+0000000100031258 (__DATA,__objc_data) external _OBJC_METACLASS_$_DSArchivedItemDescriptor
+                 (undefined) external _OBJC_METACLASS_$_NSObject (from libobjc)
+                 (undefined) external _UTTypeAppleArchive (from UniformTypeIdentifiers)
+                 (undefined) external _UTTypeFolder (from UniformTypeIdentifiers)
+                 (undefined) external _UTTypeItem (from UniformTypeIdentifiers)
+                 (undefined) external _UTTypeZIP (from UniformTypeIdentifiers)
+                 (undefined) external __Block_object_assign (from libSystem)
+                 (undefined) external __Block_object_dispose (from libSystem)
+                 (undefined) external __CFFileSecurityGetFilesec (from CoreFoundation)
+                 (undefined) external __CFURLCopyResourcePropertyValuesAndFlags (from CoreFoundation)
+                 (undefined) external __CFURLGetResourcePropertyFlags (from CoreFoundation)
+                 (undefined) external __CFURLGetVolumePropertyFlags (from CoreFoundation)
+                 (undefined) external __CFURLIsFileURL (from CoreFoundation)
+                 (undefined) external __CFURLIsPromiseName (from CoreFoundation)
+                 (undefined) external __MDItemSetAttributesWithURL (from CoreServices)
+                 (undefined) external __NSConcreteGlobalBlock (from libSystem)
+                 (undefined) external __NSConcreteStackBlock (from libSystem)
+                 (undefined) external __UTTypeAppleEncryptedArchive (from UniformTypeIdentifiers)
+                 (undefined) external __Unwind_Resume (from libSystem)
+000000010000943c (__TEXT,__text) external __Z10FileSuffixRK7TString
+000000010000d064 (__TEXT,__text) external __Z10HardwareIDv
+0000000100009970 (__TEXT,__text) external __Z11RedactedStrRK7TString
+000000010000a698 (__TEXT,__text) external __Z12SanitizedURLP5NSURL
+000000010000a330 (__TEXT,__text) external __Z13SanitizedPathRK7TString
+00000001000095f8 (__TEXT,__text) external __Z15FileSuffixChain7TString
+00000001000092e0 (__TEXT,__text) external __Z15SlashesToColonsRK7TString
+000000010000cfac (__TEXT,__text) external __Z16BRContainerClassv
+000000010000cfb8 (__TEXT,__text) external __Z17IsRunningInFinderv
+00000001000213c8 (__TEXT,__text) external __Z18IsRedactionEnabledv
+0000000100013298 (__TEXT,__text) external __Z19LogWithOSLogEnabledv
+0000000100012c7c (__TEXT,__text) external __Z22ICloudDriveFPFSEnabledv
+0000000100012d78 (__TEXT,__text) external __Z23FileProviderErrorDomainv
+000000010000dd00 (__TEXT,__text) external __Z24UseFileProviderFrameworkv
+0000000100013244 (__TEXT,__text) external __Z6LogObj12TLogCategory
+0000000100011e58 (__TEXT,__text) external __Z9PrefsBoolPK10__CFStringbb
+0000000100010d78 (__TEXT,__text) external __ZN10TCFURLInfo10CreateFileERK7TStringS2_P16__CFFileSecuritybRS0_
+000000010000f200 (__TEXT,__text) external __ZN10TCFURLInfo10GetVRefNumEPK7__CFURL
+000000010000e29c (__TEXT,__text) external __ZN10TCFURLInfo10InitializeEPK7__CFURLbb
+000000010000e3e4 (__TEXT,__text) external __ZN10TCFURLInfo10InitializeEPKc
+000000010000d1cc (__TEXT,__text) external __ZN10TCFURLInfo11GetgidToUseEv
+000000010000d1b0 (__TEXT,__text) external __ZN10TCFURLInfo11GetuidToUseEv
+000000010000e1c0 (__TEXT,__text) external __ZN10TCFURLInfo14ForceNameFetchEv
+000000010000edf8 (__TEXT,__text) external __ZN10TCFURLInfo14StringPropertyEPK7__CFURLPK10__CFString
+00000001000111b8 (__TEXT,__text) external __ZN10TCFURLInfo15CreateDirectoryERK7TStringS2_P16__CFFileSecuritybRS0_
+000000010000d57c (__TEXT,__text) external __ZN10TCFURLInfo15FetchPropertiesEb
+000000010000de0c (__TEXT,__text) external __ZN10TCFURLInfo16TranslateCFErrorEP9__CFError
+0000000100031c41 (__DATA,__common) external __ZN10TCFURLInfo16gDSHelperRunningE
+000000010000d31c (__TEXT,__text) external __ZN10TCFURLInfo18CopyPropertyValuesEPK7__CFURLyRyP24_CFURLFilePropertyValues
+000000010000f164 (__TEXT,__text) external __ZN10TCFURLInfo18GetBooleanPropertyEPK7__CFURLPK10__CFString
+000000010000f75c (__TEXT,__text) external __ZN10TCFURLInfo19GetVolumeInfoRecordEPK7__CFURLR16VolumeInfoRecord
+000000010000ee88 (__TEXT,__text) external __ZN10TCFURLInfo19TranslatePOSIXErrorEiPKc
+000000010000f028 (__TEXT,__text) external __ZN10TCFURLInfo20GetNumericalPropertyEPK7__CFURLPK10__CFString
+00000001000102d4 (__TEXT,__text) external __ZN10TCFURLInfo21DesktopServicesBundleEv
+0000000100011fa4 (__TEXT,__text) external __ZN10TCFURLInfo21EnableResumableCopiesEv
+000000010000f5dc (__TEXT,__text) external __ZN10TCFURLInfo21SetResourcePropertiesEPK14__CFDictionary
+0000000100010850 (__TEXT,__text) external __ZN10TCFURLInfo22LocalizedStringWithKeyEPK10__CFString
+000000010001000c (__TEXT,__text) external __ZN10TCFURLInfo22TranslateRawPOSIXErrorEiPKc
+000000010000f4e4 (__TEXT,__text) external __ZN10TCFURLInfo24FileSystemRepresentationEPK7__CFURLb
+000000010000e4dc (__TEXT,__text) external __ZN10TCFURLInfo24GetBasicInfoPropertyKeysEv
+0000000100010414 (__TEXT,__text) external __ZN10TCFURLInfo25LocalizedCopyErrorMessageEiRK7TString
+0000000100011900 (__TEXT,__text) external __ZN10TCFURLInfo25PhysicalURLFromLogicalURLEP5NSURL
+000000010000fab4 (__TEXT,__text) external __ZN10TCFURLInfo26OSStatusFromCFErrorShallowEP9__CFError
+000000010000fa7c (__TEXT,__text) external __ZN10TCFURLInfo26TranslateFileProviderErrorEP9__CFError
+000000010000f48c (__TEXT,__text) external __ZN10TCFURLInfo27GetFileSystemRepresentationEPK7__CFURLbPhl
+000000010001073c (__TEXT,__text) external __ZN10TCFURLInfo27LocalizedStringWithFileNameEPK10__CFStringPK7__CFURL
+000000010000dc8c (__TEXT,__text) external __ZN10TCFURLInfo32GetCopyItemRequestedPropertyKeysEv
+0000000100031c48 (__DATA,__common) external __ZN10TCFURLInfo9ggidToUseE
+0000000100031c44 (__DATA,__common) external __ZN10TCFURLInfo9guidToUseE
+000000010000d314 (__TEXT,__text) external __ZN10TCFURLInfoC1Ev
+000000010000d240 (__TEXT,__text) external __ZN10TCFURLInfoC2Ev
+000000010000b0fc (__TEXT,__text) external __ZN12TUniqueNamer14NextUniqueNameER7TString
+000000010000b04c (__TEXT,__text) external __ZN12TUniqueNamer7SetSeedERK7TStringS2_
+0000000100010930 (__TEXT,__text) external __ZN15TFileDescriptor4OpenEPKc9OpenFlagsP16__CFFileSecuritybbb
+00000001000108e0 (__TEXT,__text) external __ZN15TFileDescriptor5CloseEv
+000000010000d318 (__TEXT,__text) external __ZN15TFileDescriptorD1Ev
+0000000100011e1c (__TEXT,__text) external __ZN15TFileDescriptorD2Ev
+000000010000bc8c (__TEXT,__text) external __ZN7TString10MutableRefEv
+000000010000c3e0 (__TEXT,__text) external __ZN7TString11SetFromUTF8EPKcm
+000000010000bd14 (__TEXT,__text) external __ZN7TString15SetFromUniCharsEPKtl
+000000010000c51c (__TEXT,__text) external __ZN7TString23SetStringRefAsImmutableEPK10__CFString
+000000010000c140 (__TEXT,__text) external __ZN7TString6AppendERKS_
+000000010000c1d4 (__TEXT,__text) external __ZN7TString9IsMutableEPK10__CFString
+000000010000bd58 (__TEXT,__text) external __ZN7TString9SetLengthEl
+000000010000c498 (__TEXT,__text) external __ZN7TStringC1EPKc
+000000010000c518 (__TEXT,__text) external __ZN7TStringC1EPKcm
+000000010000bc88 (__TEXT,__text) external __ZN7TStringC1ERK12HFSUniStr255
+000000010000c360 (__TEXT,__text) external __ZN7TStringC2EPKc
+000000010000c49c (__TEXT,__text) external __ZN7TStringC2EPKcm
+000000010000bc10 (__TEXT,__text) external __ZN7TStringC2ERK12HFSUniStr255
+0000000100010b8c (__TEXT,__text) external __ZNK10TCFURLInfo10CreateFileERK7TStringP12TUniqueNamerP16__CFFileSecuritybRNSt3__110shared_ptrIS_EE
+000000010000d398 (__TEXT,__text) external __ZNK10TCFURLInfo10PathAsCStrEv
+0000000100011a90 (__TEXT,__text) external __ZNK10TCFURLInfo14CreateLockFileERKNSt3__110shared_ptrIS_EEPK7TStringP16__CFFileSecuritybRS2_b
+0000000100010fb4 (__TEXT,__text) external __ZNK10TCFURLInfo15CreateDirectoryERK7TStringP12TUniqueNamerP16__CFFileSecuritybRNSt3__110shared_ptrIS_EE
+000000010001148c (__TEXT,__text) external __ZNK10TCFURLInfo19CreateLockDirectoryERKNSt3__110shared_ptrIS_EEPK7TStringP16__CFFileSecuritybRS2_bb
+000000010000f568 (__TEXT,__text) external __ZNK10TCFURLInfo19GetVolumeInfoRecordER16VolumeInfoRecord
+000000010000ed88 (__TEXT,__text) external __ZNK10TCFURLInfo4NameEv
+000000010000d510 (__TEXT,__text) external __ZNK10TCFURLInfo4PathEv
+000000010000c25c (__TEXT,__text) external __ZNK7TString10BeginsWithERKS_
+000000010000be68 (__TEXT,__text) external __ZNK7TString13SubStringFromEl
+000000010000c050 (__TEXT,__text) external __ZNK7TString18CopyToHFSUniStr255EP12HFSUniStr255
+000000010000c2cc (__TEXT,__text) external __ZNK7TString3StrEv
+000000010000c33c (__TEXT,__text) external __ZNK7TString5c_strEv
+000000010000c5bc (__TEXT,__text) external __ZNK7TString8EndsWithERKS_
+000000010000c134 (__TEXT,__text) external __ZNK7TString9SubStringERK8_NSRange
+000000010000bec4 (__TEXT,__text) external __ZNK7TString9SubStringEll
+                 (undefined) external __ZNKSt3__119__shared_weak_count13__get_deleterERKSt9type_info (from libc++)
+                 (undefined) external __ZNSt11logic_errorC2EPKc (from libc++)
+                 (undefined) external __ZNSt12length_errorD1Ev (from libc++)
+                 (undefined) external __ZNSt12out_of_rangeD1Ev (from libc++)
+                 (undefined) external __ZNSt20bad_array_new_lengthC1Ev (from libc++)
+                 (undefined) external __ZNSt20bad_array_new_lengthD1Ev (from libc++)
+                 (undefined) external __ZNSt3__112__next_primeEm (from libc++)
+                 (undefined) external __ZNSt3__112basic_stringIcNS_11char_traitsIcEENS_9allocatorIcEEE6appendEPKcm (from libc++)
+                 (undefined) external __ZNSt3__119__shared_weak_count14__release_weakEv (from libc++)
+                 (undefined) external __ZNSt3__119__shared_weak_countD2Ev (from libc++)
+                 (undefined) external __ZNSt3__19to_stringEi (from libc++)
+                 (undefined) external __ZSt9terminatev (from libc++)
+                 (undefined) external __ZTINSt3__119__shared_weak_countE (from libc++)
+                 (undefined) weak external __ZTISt12length_error (from libc++)
+                 (undefined) weak external __ZTISt12out_of_range (from libc++)
+                 (undefined) external __ZTISt20bad_array_new_length (from libc++)
+                 (undefined) external __ZTVN10__cxxabiv120__si_class_type_infoE (from libc++)
+                 (undefined) external __ZTVSt12length_error (from libc++)
+                 (undefined) external __ZTVSt12out_of_range (from libc++)
+                 (undefined) weak external __ZdlPv (from libc++)
+                 (undefined) weak external __Znwm (from libc++)
+                 (undefined) external ___CFConstantStringClassReference (from CoreFoundation)
+                 (undefined) external ___CFStringIsMutable (from CoreFoundation)
+                 (undefined) external ___chkstk_darwin (from libSystem)
+                 (undefined) external ___cxa_allocate_exception (from libc++)
+                 (undefined) external ___cxa_begin_catch (from libc++)
+                 (undefined) external ___cxa_free_exception (from libc++)
+                 (undefined) external ___cxa_guard_abort (from libc++)
+                 (undefined) external ___cxa_guard_acquire (from libc++)
+                 (undefined) external ___cxa_guard_release (from libc++)
+                 (undefined) external ___cxa_throw (from libc++)
+                 (undefined) external ___error (from libSystem)
+                 (undefined) external ___gxx_personality_v0 (from libc++)
+                 (undefined) external ___kCFBooleanTrue (from CoreFoundation)
+                 (undefined) external ___stack_chk_fail (from libSystem)
+                 (undefined) external ___stack_chk_guard (from libSystem)
+                 (undefined) external __kCFURLCloudDocsPlaceholderDictionaryKey (from CoreFoundation)
+                 (undefined) external __kCFURLDeviceRefNumKey (from CoreFoundation)
+                 (undefined) external __kCFURLFileAllocatedSizeOfResourceForkKey (from CoreFoundation)
+                 (undefined) external __kCFURLFileFlagsKey (from CoreFoundation)
+                 (undefined) external __kCFURLFileIDKey (from CoreFoundation)
+                 (undefined) external __kCFURLFileSizeOfResourceForkKey (from CoreFoundation)
+                 (undefined) external __kCFURLFinderInfoKey (from CoreFoundation)
+                 (undefined) external __kCFURLIsCompressedKey (from CoreFoundation)
+                 (undefined) external __kCFURLIsRestrictedKey (from CoreFoundation)
+                 (undefined) external __kCFURLIsSystemAppendKey (from CoreFoundation)
+                 (undefined) external __kCFURLIsSystemNoUnlinkKey (from CoreFoundation)
+                 (undefined) external __kCFURLIsUserAppendKey (from CoreFoundation)
+                 (undefined) external __kCFURLVolumeIsQuarantinedKey (from CoreFoundation)
+                 (undefined) external __kCFURLVolumeRefNumKey (from CoreFoundation)
+0000000100000000 (__TEXT,__text) [referenced dynamically] external __mh_execute_header
+                 (undefined) external __objc_empty_cache (from libobjc)
+                 (undefined) external __os_log_impl (from libSystem)
+                 (undefined) external __set_user_dir_suffix (from libSystem)
+                 (undefined) external _abort (from libSystem)
+                 (undefined) external _archive_entry_clear (from libarchive)
+                 (undefined) external _archive_entry_copy_stat (from libarchive)
+                 (undefined) external _archive_entry_filetype (from libarchive)
+                 (undefined) external _archive_entry_free (from libarchive)
+                 (undefined) external _archive_entry_hardlink (from libarchive)
+                 (undefined) external _archive_entry_new (from libarchive)
+                 (undefined) external _archive_entry_pathname (from libarchive)
+                 (undefined) external _archive_entry_set_hardlink (from libarchive)
+                 (undefined) external _archive_entry_set_pathname (from libarchive)
+                 (undefined) external _archive_entry_set_symlink (from libarchive)
+                 (undefined) external _archive_entry_size (from libarchive)
+                 (undefined) external _archive_entry_size_is_set (from libarchive)
+                 (undefined) external _archive_errno (from libarchive)
+                 (undefined) external _archive_error_string (from libarchive)
+                 (undefined) external _archive_filter_bytes (from libarchive)
+                 (undefined) external _archive_read_add_passphrase (from libarchive)
+                 (undefined) external _archive_read_close (from libarchive)
+                 (undefined) external _archive_read_data_block (from libarchive)
+                 (undefined) external _archive_read_extract (from libarchive)
+                 (undefined) external _archive_read_extract_set_progress_callback (from libarchive)
+                 (undefined) external _archive_read_free (from libarchive)
+                 (undefined) external _archive_read_has_encrypted_entries (from libarchive)
+                 (undefined) external _archive_read_new (from libarchive)
+                 (undefined) external _archive_read_next_header2 (from libarchive)
+                 (undefined) external _archive_read_open_filename (from libarchive)
+                 (undefined) external _archive_read_support_filter_all (from libarchive)
+                 (undefined) external _archive_read_support_format_all (from libarchive)
+                 (undefined) external _archive_read_support_format_tar (from libarchive)
+                 (undefined) external _archive_read_support_format_zip (from libarchive)
+                 (undefined) external _archive_write_add_filter_gzip (from libarchive)
+                 (undefined) external _archive_write_close (from libarchive)
+                 (undefined) external _archive_write_data (from libarchive)
+                 (undefined) external _archive_write_free (from libarchive)
+                 (undefined) external _archive_write_header (from libarchive)
+                 (undefined) external _archive_write_new (from libarchive)
+                 (undefined) external _archive_write_open_fd (from libarchive)
+                 (undefined) external _archive_write_set_format_cpio (from libarchive)
+                 (undefined) external _archive_write_set_format_gnutar (from libarchive)
+                 (undefined) external _archive_write_set_format_zip (from libarchive)
+                 (undefined) external _bzero (from libSystem)
+                 (undefined) external _calloc (from libSystem)
+                 (undefined) external _close (from libSystem)
+                 (undefined) external _closedir (from libSystem)
+                 (undefined) external _confstr (from libSystem)
+                 (undefined) external _copyfile (from libSystem)
+                 (undefined) external _dispatch_async (from libSystem)
+                 (undefined) external _dispatch_block_cancel (from libSystem)
+                 (undefined) external _dispatch_block_create (from libSystem)
+                 (undefined) external _dispatch_block_testcancel (from libSystem)
+                 (undefined) external _dispatch_get_global_queue (from libSystem)
+                 (undefined) external _dispatch_group_create (from libSystem)
+                 (undefined) external _dispatch_group_notify (from libSystem)
+                 (undefined) external _dispatch_once (from libSystem)
+                 (undefined) external _dispatch_queue_attr_make_with_autorelease_frequency (from libSystem)
+                 (undefined) external _dispatch_queue_create (from libSystem)
+                 (undefined) external _dlopen (from libSystem)
+                 (undefined) external _dlsym (from libSystem)
+                 (undefined) external _exit (from libSystem)
+                 (undefined) external _fchmod (from libSystem)
+                 (undefined) external _fcntl (from libSystem)
+                 (undefined) external _free (from libSystem)
+                 (undefined) external _getenv (from libSystem)
+                 (undefined) external _getgid (from libSystem)
+                 (undefined) external _getppid (from libSystem)
+                 (undefined) external _getpwuid (from libSystem)
+                 (undefined) external _getuid (from libSystem)
+                 (undefined) external _kCFAllocatorDefault (from CoreFoundation)
+                 (undefined) external _kCFBooleanTrue (from CoreFoundation)
+                 (undefined) external _kCFErrorDescriptionKey (from CoreFoundation)
+                 (undefined) external _kCFErrorDomainCocoa (from CoreFoundation)
+                 (undefined) external _kCFErrorDomainOSStatus (from CoreFoundation)
+                 (undefined) external _kCFErrorDomainPOSIX (from CoreFoundation)
+                 (undefined) external _kCFErrorUnderlyingErrorKey (from CoreFoundation)
+                 (undefined) external _kCFTypeDictionaryKeyCallBacks (from CoreFoundation)
+                 (undefined) external _kCFTypeDictionaryValueCallBacks (from CoreFoundation)
+                 (undefined) external _kCFURLAddedToDirectoryDateKey (from CoreFoundation)
+                 (undefined) external _kCFURLAttributeModificationDateKey (from CoreFoundation)
+                 (undefined) external _kCFURLContentModificationDateKey (from CoreFoundation)
+                 (undefined) external _kCFURLCreationDateKey (from CoreFoundation)
+                 (undefined) external _kCFURLFileAllocatedSizeKey (from CoreFoundation)
+                 (undefined) external _kCFURLFileSecurityKey (from CoreFoundation)
+                 (undefined) external _kCFURLFileSizeKey (from CoreFoundation)
+                 (undefined) external _kCFURLHasHiddenExtensionKey (from CoreFoundation)
+                 (undefined) external _kCFURLIsAliasFileKey (from CoreFoundation)
+                 (undefined) external _kCFURLIsApplicationKey (from CoreFoundation)
+                 (undefined) external _kCFURLIsDirectoryKey (from CoreFoundation)
+                 (undefined) external _kCFURLIsExecutableKey (from CoreFoundation)
+                 (undefined) external _kCFURLIsHiddenKey (from CoreFoundation)
+                 (undefined) external _kCFURLIsMountTriggerKey (from CoreFoundation)
+                 (undefined) external _kCFURLIsPackageKey (from CoreFoundation)
+                 (undefined) external _kCFURLIsReadableKey (from CoreFoundation)
+                 (undefined) external _kCFURLIsRegularFileKey (from CoreFoundation)
+                 (undefined) external _kCFURLIsSymbolicLinkKey (from CoreFoundation)
+                 (undefined) external _kCFURLIsSystemImmutableKey (from CoreFoundation)
+                 (undefined) external _kCFURLIsUserImmutableKey (from CoreFoundation)
+                 (undefined) external _kCFURLIsVolumeKey (from CoreFoundation)
+                 (undefined) external _kCFURLIsWritableKey (from CoreFoundation)
+                 (undefined) external _kCFURLLabelNumberKey (from CoreFoundation)
+                 (undefined) external _kCFURLLinkCountKey (from CoreFoundation)
+                 (undefined) external _kCFURLLocalizedNameKey (from CoreFoundation)
+                 (undefined) external _kCFURLNameKey (from CoreFoundation)
+                 (undefined) external _kCFURLVolumeAvailableCapacityKey (from CoreFoundation)
+                 (undefined) external _lstat (from libSystem)
+00000001000135e0 (__TEXT,__text) external _main
+                 (undefined) external _memcmp (from libSystem)
+                 (undefined) external _memmove (from libSystem)
+                 (undefined) external _mkdir (from libSystem)
+                 (undefined) external _mkdirx_np (from libSystem)
+                 (undefined) external _mkdtemp (from libSystem)
+                 (undefined) external _mkstemp (from libSystem)
+                 (undefined) external _objc_alloc (from libobjc)
+                 (undefined) external _objc_autorelease (from libobjc)
+                 (undefined) external _objc_autoreleasePoolPop (from libobjc)
+                 (undefined) external _objc_autoreleasePoolPush (from libobjc)
+                 (undefined) external _objc_autoreleaseReturnValue (from libobjc)
+                 (undefined) external _objc_copyWeak (from libobjc)
+                 (undefined) external _objc_destroyWeak (from libobjc)
+                 (undefined) external _objc_enumerationMutation (from libobjc)
+                 (undefined) external _objc_getClass (from libobjc)
+                 (undefined) external _objc_initWeak (from libobjc)
+                 (undefined) external _objc_loadWeakRetained (from libobjc)
+                 (undefined) external _objc_moveWeak (from libobjc)
+                 (undefined) external _objc_msgSend (from libobjc)
+                 (undefined) external _objc_msgSendSuper2 (from libobjc)
+                 (undefined) external _objc_opt_class (from libobjc)
+                 (undefined) external _objc_opt_isKindOfClass (from libobjc)
+                 (undefined) external _objc_opt_new (from libobjc)
+                 (undefined) external _objc_opt_respondsToSelector (from libobjc)
+                 (undefined) external _objc_release (from libobjc)
+                 (undefined) external _objc_retain (from libobjc)
+                 (undefined) external _objc_retainAutorelease (from libobjc)
+                 (undefined) external _objc_retainAutoreleaseReturnValue (from libobjc)
+                 (undefined) external _objc_retainAutoreleasedReturnValue (from libobjc)
+                 (undefined) external _objc_setProperty_nonatomic_copy (from libobjc)
+                 (undefined) external _objc_storeStrong (from libobjc)
+                 (undefined) external _objc_storeWeak (from libobjc)
+                 (undefined) external _objc_sync_enter (from libobjc)
+                 (undefined) external _objc_sync_exit (from libobjc)
+                 (undefined) external _object_getClassName (from libobjc)
+                 (undefined) external _open (from libSystem)
+                 (undefined) external _opendir (from libSystem)
+                 (undefined) external _openx_np (from libSystem)
+                 (undefined) external _os_log_create (from libSystem)
+                 (undefined) external _os_log_type_enabled (from libSystem)
+                 (undefined) external _os_unfair_lock_lock (from libSystem)
+                 (undefined) external _os_unfair_lock_unlock (from libSystem)
+                 (undefined) external _os_variant_has_internal_ui (from libSystem)
+                 (undefined) external _read (from libSystem)
+                 (undefined) external _readdir (from libSystem)
+                 (undefined) external _readlink (from libSystem)
+                 (undefined) external _realpath$DARWIN_EXTSN (from libSystem)
+                 (undefined) external _sandbox_init_with_parameters (from libSystem)
+                 (undefined) external _statfs (from libSystem)
+                 (undefined) external _strcmp (from libSystem)
+                 (undefined) external _strdup (from libSystem)
+                 (undefined) external _strerror (from libSystem)
+                 (undefined) external _strlen (from libSystem)
+                 (undefined) external _unlink (from libSystem)
+                 (undefined) external _unsetenv (from libSystem)
