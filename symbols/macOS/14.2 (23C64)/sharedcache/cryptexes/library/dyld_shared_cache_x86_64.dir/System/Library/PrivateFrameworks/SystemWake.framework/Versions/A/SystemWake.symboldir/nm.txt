@@ -1,0 +1,545 @@
+00007ffc033044e0 (__TEXT,__text) non-external +[SWPreventSystemSleepAssertion sharedHighPriorityQueue]
+00007ffc033019b3 (__TEXT,__text) non-external +[SWSystemActivityProvider sharedProvider]
+00007ffc033037f1 (__TEXT,__text) non-external +[SWSystemSleepAssertionProvider sharedProvider]
+00007ffc032fb3cc (__TEXT,__text) non-external +[SWSystemSleepMonitor monitorUsingMainQueue]
+00007ffc033019a1 (__TEXT,__text) non-external -[SWDeclareSystemActivityResult assertionID]
+00007ffc033018bb (__TEXT,__text) non-external -[SWDeclareSystemActivityResult description]
+00007ffc03301869 (__TEXT,__text) non-external -[SWDeclareSystemActivityResult initWithReturnValue:assertionID:systemState:]
+00007ffc03301998 (__TEXT,__text) non-external -[SWDeclareSystemActivityResult returnValue]
+00007ffc033019aa (__TEXT,__text) non-external -[SWDeclareSystemActivityResult systemState]
+00007ffc033053d6 (__TEXT,__text) non-external -[SWPreventSystemSleepAssertion .cxx_destruct]
+00007ffc03304635 (__TEXT,__text) non-external -[SWPreventSystemSleepAssertion acquireWithTimeout:handler:]
+00007ffc033051c5 (__TEXT,__text) non-external -[SWPreventSystemSleepAssertion dealloc]
+00007ffc03304589 (__TEXT,__text) non-external -[SWPreventSystemSleepAssertion initWithIdentifier:]
+00007ffc03304cf7 (__TEXT,__text) non-external -[SWPreventSystemSleepAssertion invalidate]
+00007ffc03304c9b (__TEXT,__text) non-external -[SWPreventSystemSleepAssertion isActive]
+00007ffc03304322 (__TEXT,__text) non-external -[SWScheduledSystemWake .cxx_destruct]
+00007ffc033041f7 (__TEXT,__text) non-external -[SWScheduledSystemWake cancelWake]
+00007ffc03303a11 (__TEXT,__text) non-external -[SWScheduledSystemWake dealloc]
+00007ffc03303c1d (__TEXT,__text) non-external -[SWScheduledSystemWake description]
+00007ffc03304318 (__TEXT,__text) non-external -[SWScheduledSystemWake identifier]
+00007ffc0330398a (__TEXT,__text) non-external -[SWScheduledSystemWake initWithIdentifier:]
+00007ffc033042e2 (__TEXT,__text) non-external -[SWScheduledSystemWake invalidate]
+00007ffc03303d9e (__TEXT,__text) non-external -[SWScheduledSystemWake isScheduled]
+00007ffc03303e29 (__TEXT,__text) non-external -[SWScheduledSystemWake leeway]
+00007ffc03303e6f (__TEXT,__text) non-external -[SWScheduledSystemWake scheduleWake:leeway:]
+00007ffc03303dd9 (__TEXT,__text) non-external -[SWScheduledSystemWake wakeTime]
+00007ffc03301855 (__TEXT,__text) non-external -[SWSystemActivityAcquisitionDetails afterFailingToRevertPendingSleep]
+00007ffc0330184b (__TEXT,__text) non-external -[SWSystemActivityAcquisitionDetails afterPendingSleepWasAlreadyInitiated]
+00007ffc0330185f (__TEXT,__text) non-external -[SWSystemActivityAcquisitionDetails afterSleepOfNonZeroDuration]
+00007ffc0330176b (__TEXT,__text) non-external -[SWSystemActivityAcquisitionDetails description]
+00007ffc03301719 (__TEXT,__text) non-external -[SWSystemActivityAcquisitionDetails initWithAfterPendingSleepWasAlreadyInitiated:afterFailingToRevertPendingSleep:afterSleepOfNonZeroDuration:]
+00007ffc033016d0 (__TEXT,__text) non-external -[SWSystemActivityAssertion .cxx_destruct]
+00007ffc03301428 (__TEXT,__text) non-external -[SWSystemActivityAssertion _checkIfCompleteForAction:]
+00007ffc032ffc1d (__TEXT,__text) non-external -[SWSystemActivityAssertion _queue_declareSystemActivityWithRetryCount:]
+00007ffc032ff73c (__TEXT,__text) non-external -[SWSystemActivityAssertion acquireWithTimeout:handler:]
+00007ffc0330098e (__TEXT,__text) non-external -[SWSystemActivityAssertion callbackAcquisitionHandlerWithError:]
+00007ffc032ff3b1 (__TEXT,__text) non-external -[SWSystemActivityAssertion dealloc]
+00007ffc032ff5bd (__TEXT,__text) non-external -[SWSystemActivityAssertion description]
+00007ffc032ff1c4 (__TEXT,__text) non-external -[SWSystemActivityAssertion initWithIdentifier:]
+00007ffc032ff2a3 (__TEXT,__text) non-external -[SWSystemActivityAssertion initWithIdentifier:sleepMonitor:systemActivityProvider:]
+00007ffc03300d1a (__TEXT,__text) non-external -[SWSystemActivityAssertion invalidateWithReason:]
+00007ffc03300ce7 (__TEXT,__text) non-external -[SWSystemActivityAssertion invalidate]
+00007ffc032ff6c7 (__TEXT,__text) non-external -[SWSystemActivityAssertion isActive]
+00007ffc032ff702 (__TEXT,__text) non-external -[SWSystemActivityAssertion isPreventingSleep]
+00007ffc033016bf (__TEXT,__text) non-external -[SWSystemActivityAssertion systemSleepMonitorDidWakeFromSleep:]
+00007ffc03301417 (__TEXT,__text) non-external -[SWSystemActivityAssertion systemSleepMonitorSleepRequestAborted:]
+00007ffc03301ace (__TEXT,__text) non-external -[SWSystemActivityProvider createTimerWithIdentifier:]
+00007ffc03301a38 (__TEXT,__text) non-external -[SWSystemActivityProvider declareSystemActivityWithName:]
+00007ffc03301ac4 (__TEXT,__text) non-external -[SWSystemActivityProvider getMachContinuousKernelWakeTime]
+00007ffc03301ab8 (__TEXT,__text) non-external -[SWSystemActivityProvider releaseAssertionID:]
+00007ffc03303876 (__TEXT,__text) non-external -[SWSystemSleepAssertionProvider acquirePreventSystemSleepAssertionWithIdentifier:]
+00007ffc03303900 (__TEXT,__text) non-external -[SWSystemSleepAssertionProvider acquireSystemActivityAssertionWithIdentifier:]
+00007ffc032fe18f (__TEXT,__text) non-external -[SWSystemSleepMonitor .cxx_destruct]
+00007ffc032fdd81 (__TEXT,__text) non-external -[SWSystemSleepMonitor addObserver:]
+00007ffc032fb9ee (__TEXT,__text) non-external -[SWSystemSleepMonitor aggregateState]
+00007ffc032fb772 (__TEXT,__text) non-external -[SWSystemSleepMonitor description]
+00007ffc032fb978 (__TEXT,__text) non-external -[SWSystemSleepMonitor hasSleepBeenRequested]
+00007ffc032fb4e6 (__TEXT,__text) non-external -[SWSystemSleepMonitor initWithIdentifier:queue:]
+00007ffc032fb5f3 (__TEXT,__text) non-external -[SWSystemSleepMonitor initWithIdentifier:queue:allowsInvalidation:monitorProvider:sleepAssertionProvider:]
+00007ffc032fba47 (__TEXT,__text) non-external -[SWSystemSleepMonitor invalidate]
+00007ffc032fb9b3 (__TEXT,__text) non-external -[SWSystemSleepMonitor isSleepImminent]
+00007ffc032fcb9e (__TEXT,__text) non-external -[SWSystemSleepMonitor observersOfSelector:performObserverBlock:completion:]
+00007ffc032fd6c1 (__TEXT,__text) non-external -[SWSystemSleepMonitor observersRespondingToSelector:]
+00007ffc032fdf7c (__TEXT,__text) non-external -[SWSystemSleepMonitor removeObserver:]
+00007ffc032fbe73 (__TEXT,__text) non-external -[SWSystemSleepMonitor setSleepSlate:]
+00007ffc032fbc2a (__TEXT,__text) non-external -[SWSystemSleepMonitor setSleepSlate:powerManagementPhase:notificationID:]
+00007ffc032fbfc1 (__TEXT,__text) non-external -[SWSystemSleepMonitor systemPowerChanged:notificationID:]
+00007ffc032ff033 (__TEXT,__text) non-external -[SWSystemSleepMonitorAggregateState description]
+00007ffc032fefd5 (__TEXT,__text) non-external -[SWSystemSleepMonitorAggregateState initWithSleepMonitorState:stateTimestamp:powerManagementPhase:phaseTimestamp:]
+00007ffc032ff1ba (__TEXT,__text) non-external -[SWSystemSleepMonitorAggregateState powerManagementPhaseTimestamp]
+00007ffc032ff1b0 (__TEXT,__text) non-external -[SWSystemSleepMonitorAggregateState powerManagementPhase]
+00007ffc032ff1a6 (__TEXT,__text) non-external -[SWSystemSleepMonitorAggregateState sleepMonitorStateTimestamp]
+00007ffc032ff19c (__TEXT,__text) non-external -[SWSystemSleepMonitorAggregateState sleepMonitorState]
+00007ffc032fefad (__TEXT,__text) non-external -[SWSystemSleepMonitorProvider .cxx_destruct]
+00007ffc032fec0f (__TEXT,__text) non-external -[SWSystemSleepMonitorProvider allowPowerChange:]
+00007ffc032fedde (__TEXT,__text) non-external -[SWSystemSleepMonitorProvider cancelPowerChange:]
+00007ffc032fe787 (__TEXT,__text) non-external -[SWSystemSleepMonitorProvider dealloc]
+00007ffc032fe1d8 (__TEXT,__text) non-external -[SWSystemSleepMonitorProvider init]
+00007ffc032fea34 (__TEXT,__text) non-external -[SWSystemSleepMonitorProvider invalidate]
+00007ffc032fe213 (__TEXT,__text) non-external -[SWSystemSleepMonitorProvider registerForSystemPowerOnQueue:withDelegate:]
+00007ffc033036da (__TEXT,__text) non-external -[SWWakingTimer .cxx_destruct]
+00007ffc03303392 (__TEXT,__text) non-external -[SWWakingTimer _lock_cancel]
+00007ffc03302790 (__TEXT,__text) non-external -[SWWakingTimer _lock_setPreventSleepAssertion:]
+00007ffc0330357c (__TEXT,__text) non-external -[SWWakingTimer _setPreventSleepAssertion:]
+00007ffc0330289f (__TEXT,__text) non-external -[SWWakingTimer _timerFired:]
+00007ffc033032ff (__TEXT,__text) non-external -[SWWakingTimer _updateScheduledWakeAndAcquireSystemActivityAssertionIfNeeded]
+00007ffc03302a1c (__TEXT,__text) non-external -[SWWakingTimer _updateScheduledWakeAndCheckCanSleep]
+00007ffc03303368 (__TEXT,__text) non-external -[SWWakingTimer cancel]
+00007ffc03301d4d (__TEXT,__text) non-external -[SWWakingTimer dealloc]
+00007ffc0330204d (__TEXT,__text) non-external -[SWWakingTimer description]
+00007ffc033036d0 (__TEXT,__text) non-external -[SWWakingTimer identifier]
+00007ffc03301b2c (__TEXT,__text) non-external -[SWWakingTimer initWithIdentifier:]
+00007ffc03301c0b (__TEXT,__text) non-external -[SWWakingTimer initWithIdentifier:sleepMonitor:sleepAssertionProvider:]
+00007ffc03303482 (__TEXT,__text) non-external -[SWWakingTimer invalidate]
+00007ffc03301fb3 (__TEXT,__text) non-external -[SWWakingTimer isScheduled]
+00007ffc03302d59 (__TEXT,__text) non-external -[SWWakingTimer scheduleForDate:leewayInterval:queue:handler:]
+00007ffc03302129 (__TEXT,__text) non-external -[SWWakingTimer scheduleWithFireInterval:leewayInterval:queue:handler:]
+00007ffc0330368b (__TEXT,__text) non-external -[SWWakingTimer systemSleepMonitor:prepareForSleepWithCompletion:]
+00007ffc033034f2 (__TEXT,__text) non-external -[SWWakingTimer systemSleepMonitor:sleepRequestedWithResult:]
+00007ffc03301ff8 (__TEXT,__text) non-external -[SWWakingTimer timeRemaining]
+00007ffc03305ec0 (__TEXT,__gcc_except_tab) non-external GCC_except_table0
+00007ffc033061d0 (__TEXT,__gcc_except_tab) non-external GCC_except_table0
+00007ffc03306458 (__TEXT,__gcc_except_tab) non-external GCC_except_table0
+00007ffc03305a80 (__TEXT,__gcc_except_tab) non-external GCC_except_table1
+00007ffc03305edc (__TEXT,__gcc_except_tab) non-external GCC_except_table1
+00007ffc033061ec (__TEXT,__gcc_except_tab) non-external GCC_except_table1
+00007ffc03306468 (__TEXT,__gcc_except_tab) non-external GCC_except_table1
+00007ffc03305b18 (__TEXT,__gcc_except_tab) non-external GCC_except_table10
+00007ffc03306350 (__TEXT,__gcc_except_tab) non-external GCC_except_table11
+00007ffc033060d0 (__TEXT,__gcc_except_tab) non-external GCC_except_table12
+00007ffc033063d4 (__TEXT,__gcc_except_tab) non-external GCC_except_table12
+00007ffc03305b44 (__TEXT,__gcc_except_tab) non-external GCC_except_table13
+00007ffc033063e4 (__TEXT,__gcc_except_tab) non-external GCC_except_table13
+00007ffc03305bac (__TEXT,__gcc_except_tab) non-external GCC_except_table14
+00007ffc03305bc4 (__TEXT,__gcc_except_tab) non-external GCC_except_table15
+00007ffc033060e4 (__TEXT,__gcc_except_tab) non-external GCC_except_table16
+00007ffc033063f4 (__TEXT,__gcc_except_tab) non-external GCC_except_table17
+00007ffc0330640c (__TEXT,__gcc_except_tab) non-external GCC_except_table18
+00007ffc03306170 (__TEXT,__gcc_except_tab) non-external GCC_except_table19
+00007ffc03306420 (__TEXT,__gcc_except_tab) non-external GCC_except_table19
+00007ffc03305a9c (__TEXT,__gcc_except_tab) non-external GCC_except_table2
+00007ffc03305ef8 (__TEXT,__gcc_except_tab) non-external GCC_except_table2
+00007ffc03306214 (__TEXT,__gcc_except_tab) non-external GCC_except_table2
+00007ffc03306430 (__TEXT,__gcc_except_tab) non-external GCC_except_table2
+00007ffc033064ac (__TEXT,__gcc_except_tab) non-external GCC_except_table2
+00007ffc0330652c (__TEXT,__gcc_except_tab) non-external GCC_except_table2
+00007ffc03305be4 (__TEXT,__gcc_except_tab) non-external GCC_except_table21
+00007ffc03305c50 (__TEXT,__gcc_except_tab) non-external GCC_except_table22
+00007ffc03306188 (__TEXT,__gcc_except_tab) non-external GCC_except_table23
+00007ffc03305c68 (__TEXT,__gcc_except_tab) non-external GCC_except_table27
+00007ffc0330619c (__TEXT,__gcc_except_tab) non-external GCC_except_table28
+00007ffc03305abc (__TEXT,__gcc_except_tab) non-external GCC_except_table3
+00007ffc03305f3c (__TEXT,__gcc_except_tab) non-external GCC_except_table3
+00007ffc03306444 (__TEXT,__gcc_except_tab) non-external GCC_except_table3
+00007ffc03306540 (__TEXT,__gcc_except_tab) non-external GCC_except_table3
+00007ffc03305c80 (__TEXT,__gcc_except_tab) non-external GCC_except_table30
+00007ffc03305c9c (__TEXT,__gcc_except_tab) non-external GCC_except_table31
+00007ffc033061b0 (__TEXT,__gcc_except_tab) non-external GCC_except_table34
+00007ffc03305cc0 (__TEXT,__gcc_except_tab) non-external GCC_except_table35
+00007ffc033061c0 (__TEXT,__gcc_except_tab) non-external GCC_except_table37
+00007ffc03305cf8 (__TEXT,__gcc_except_tab) non-external GCC_except_table38
+00007ffc03305d34 (__TEXT,__gcc_except_tab) non-external GCC_except_table39
+00007ffc03305ae4 (__TEXT,__gcc_except_tab) non-external GCC_except_table4
+00007ffc0330657c (__TEXT,__gcc_except_tab) non-external GCC_except_table4
+00007ffc03305d70 (__TEXT,__gcc_except_tab) non-external GCC_except_table43
+00007ffc03305ddc (__TEXT,__gcc_except_tab) non-external GCC_except_table44
+00007ffc03305df0 (__TEXT,__gcc_except_tab) non-external GCC_except_table45
+00007ffc03305e34 (__TEXT,__gcc_except_tab) non-external GCC_except_table48
+00007ffc03305e60 (__TEXT,__gcc_except_tab) non-external GCC_except_table49
+00007ffc03306258 (__TEXT,__gcc_except_tab) non-external GCC_except_table5
+00007ffc03305e8c (__TEXT,__gcc_except_tab) non-external GCC_except_table52
+00007ffc03305f50 (__TEXT,__gcc_except_tab) non-external GCC_except_table6
+00007ffc0330626c (__TEXT,__gcc_except_tab) non-external GCC_except_table6
+00007ffc033064d4 (__TEXT,__gcc_except_tab) non-external GCC_except_table6
+00007ffc033065d0 (__TEXT,__gcc_except_tab) non-external GCC_except_table6
+00007ffc03305f64 (__TEXT,__gcc_except_tab) non-external GCC_except_table7
+00007ffc03306318 (__TEXT,__gcc_except_tab) non-external GCC_except_table7
+00007ffc03305fb4 (__TEXT,__gcc_except_tab) non-external GCC_except_table8
+00007ffc0330632c (__TEXT,__gcc_except_tab) non-external GCC_except_table8
+00007ffc033065fc (__TEXT,__gcc_except_tab) non-external GCC_except_table8
+00007ffc033060ac (__TEXT,__gcc_except_tab) non-external GCC_except_table9
+00007ffc0330633c (__TEXT,__gcc_except_tab) non-external GCC_except_table9
+00007ffc03306640 (__TEXT,__cstring) non-external (was a private external) _.str
+                 (undefined) external _BSContinuousMachTimeNow (from BaseBoard)
+                 (undefined) external _BSFloatGreaterThanOrEqualToFloat (from BaseBoard)
+                 (undefined) external _BSTimeDifferenceFromMachTimeToMachTime (from BaseBoard)
+                 (undefined) external _CFAbsoluteTimeGetCurrent (from CoreFoundation)
+                 (undefined) external _IOAllowPowerChange (from IOKit)
+                 (undefined) external _IOCancelPowerChange (from IOKit)
+                 (undefined) external _IODeregisterForSystemPower (from IOKit)
+                 (undefined) external _IONotificationPortDestroy (from IOKit)
+                 (undefined) external _IONotificationPortSetDispatchQueue (from IOKit)
+                 (undefined) external _IOPMAssertionCreateWithName (from IOKit)
+                 (undefined) external _IOPMAssertionCreateWithProperties (from IOKit)
+                 (undefined) external _IOPMAssertionDeclareSystemActivity (from IOKit)
+                 (undefined) external _IOPMAssertionRelease (from IOKit)
+                 (undefined) external _IORegisterForSystemPower (from IOKit)
+                 (undefined) external _IOServiceClose (from IOKit)
+                 (undefined) external _NSLocalizedDescriptionKey (from Foundation)
+00007ffc032fb923 (__TEXT,__text) external _NSStringForSWSystemSleepMonitorState
+00007ffc032fb947 (__TEXT,__text) external _NSStringForSWSystemSleepPowerManagementPhase
+                 (undefined) external _NSStringFromClass (from Foundation)
+                 (undefined) external _NSStringFromSelector (from Foundation)
+                 (undefined) external _OBJC_CLASS_$_BSAbsoluteMachTimer (from BaseBoard)
+                 (undefined) external _OBJC_CLASS_$_BSBlockSentinel (from BaseBoard)
+                 (undefined) external _OBJC_CLASS_$_BSContinuousMachTimer (from BaseBoard)
+                 (undefined) external _OBJC_CLASS_$_BSDateFormatterCache (from BaseBoard)
+                 (undefined) external _OBJC_CLASS_$_BSDescriptionBuilder (from BaseBoard)
+                 (undefined) external _OBJC_CLASS_$_BSSimpleAssertion (from BaseBoard)
+                 (undefined) external _OBJC_CLASS_$_BSWallclockTimer (from BaseBoard)
+                 (undefined) external _OBJC_CLASS_$_BSZeroingWeakReference (from BaseBoard)
+                 (undefined) external _OBJC_CLASS_$_NSDate (from CoreFoundation)
+                 (undefined) external _OBJC_CLASS_$_NSDictionary (from CoreFoundation)
+                 (undefined) external _OBJC_CLASS_$_NSError (from Foundation)
+                 (undefined) external _OBJC_CLASS_$_NSHashTable (from Foundation)
+                 (undefined) external _OBJC_CLASS_$_NSNumber (from Foundation)
+                 (undefined) external _OBJC_CLASS_$_NSObject (from libobjc)
+                 (undefined) external _OBJC_CLASS_$_NSString (from Foundation)
+                 (undefined) external _OBJC_CLASS_$_NSUUID (from Foundation)
+00007ffc40a3af30 (__DATA,__objc_data) external _OBJC_CLASS_$_SWDeclareSystemActivityResult
+00007ffc40a3b098 (__DATA,__objc_data) external _OBJC_CLASS_$_SWPreventSystemSleepAssertion
+00007ffc40a3b048 (__DATA,__objc_data) external _OBJC_CLASS_$_SWScheduledSystemWake
+00007ffc40a3aeb8 (__DATA,__objc_data) external _OBJC_CLASS_$_SWSystemActivityAcquisitionDetails
+00007ffc40a3ae90 (__DATA,__objc_data) external _OBJC_CLASS_$_SWSystemActivityAssertion
+00007ffc40a3ae68 (__DATA,__objc_data) external _OBJC_CLASS_$_SWSystemActivityProvider
+00007ffc40a3b020 (__DATA,__objc_data) external _OBJC_CLASS_$_SWSystemSleepAssertionProvider
+00007ffc40a3ad78 (__DATA,__objc_data) external _OBJC_CLASS_$_SWSystemSleepMonitor
+00007ffc40a3adc8 (__DATA,__objc_data) external _OBJC_CLASS_$_SWSystemSleepMonitorAggregateState
+00007ffc40a3ada0 (__DATA,__objc_data) external _OBJC_CLASS_$_SWSystemSleepMonitorProvider
+00007ffc40a3afa8 (__DATA,__objc_data) external _OBJC_CLASS_$_SWWakingTimer
+00007ffc40a3acb8 (__DATA,__objc_ivar) non-external _OBJC_IVAR_$_SWDeclareSystemActivityResult._assertionID
+00007ffc40a3acb0 (__DATA,__objc_ivar) non-external _OBJC_IVAR_$_SWDeclareSystemActivityResult._returnValue
+00007ffc40a3acc0 (__DATA,__objc_ivar) non-external _OBJC_IVAR_$_SWDeclareSystemActivityResult._systemState
+00007ffc40a3ad48 (__DATA,__objc_ivar) non-external _OBJC_IVAR_$_SWPreventSystemSleepAssertion._identifier
+00007ffc40a3ad70 (__DATA,__objc_ivar) non-external _OBJC_IVAR_$_SWPreventSystemSleepAssertion._invalidated
+00007ffc40a3ad58 (__DATA,__objc_ivar) non-external _OBJC_IVAR_$_SWPreventSystemSleepAssertion._lock
+00007ffc40a3ad50 (__DATA,__objc_ivar) non-external _OBJC_IVAR_$_SWPreventSystemSleepAssertion._lock_assertionID
+00007ffc40a3ad68 (__DATA,__objc_ivar) non-external _OBJC_IVAR_$_SWPreventSystemSleepAssertion._lock_state
+00007ffc40a3ad60 (__DATA,__objc_ivar) non-external _OBJC_IVAR_$_SWPreventSystemSleepAssertion._lock_timeoutTime
+00007ffc40a3ad40 (__DATA,__objc_ivar) non-external _OBJC_IVAR_$_SWScheduledSystemWake._identifier
+00007ffc40a3ad18 (__DATA,__objc_ivar) non-external _OBJC_IVAR_$_SWScheduledSystemWake._lock
+00007ffc40a3ad38 (__DATA,__objc_ivar) non-external _OBJC_IVAR_$_SWScheduledSystemWake._lock_invalidated
+00007ffc40a3ad30 (__DATA,__objc_ivar) non-external _OBJC_IVAR_$_SWScheduledSystemWake._lock_leeway
+00007ffc40a3ad20 (__DATA,__objc_ivar) non-external _OBJC_IVAR_$_SWScheduledSystemWake._lock_wakeDate
+00007ffc40a3ad28 (__DATA,__objc_ivar) non-external _OBJC_IVAR_$_SWScheduledSystemWake._lock_wakeIdentifier
+00007ffc40a3aca0 (__DATA,__objc_ivar) non-external _OBJC_IVAR_$_SWSystemActivityAcquisitionDetails._afterFailingToRevertPendingSleep
+00007ffc40a3ac98 (__DATA,__objc_ivar) non-external _OBJC_IVAR_$_SWSystemActivityAcquisitionDetails._afterPendingSleepWasAlreadyInitiated
+00007ffc40a3aca8 (__DATA,__objc_ivar) non-external _OBJC_IVAR_$_SWSystemActivityAcquisitionDetails._afterSleepOfNonZeroDuration
+00007ffc40a3ac30 (__DATA,__objc_ivar) non-external _OBJC_IVAR_$_SWSystemActivityAssertion._identifier
+00007ffc40a3ac58 (__DATA,__objc_ivar) non-external _OBJC_IVAR_$_SWSystemActivityAssertion._lock
+00007ffc40a3ac60 (__DATA,__objc_ivar) non-external _OBJC_IVAR_$_SWSystemActivityAssertion._lock_acquisitionHandler
+00007ffc40a3ac50 (__DATA,__objc_ivar) non-external _OBJC_IVAR_$_SWSystemActivityAssertion._lock_assertionID
+00007ffc40a3ac90 (__DATA,__objc_ivar) non-external _OBJC_IVAR_$_SWSystemActivityAssertion._lock_clientDidInvalidate
+00007ffc40a3ac88 (__DATA,__objc_ivar) non-external _OBJC_IVAR_$_SWSystemActivityAssertion._lock_didFailToRevertPendingSleep
+00007ffc40a3ac68 (__DATA,__objc_ivar) non-external _OBJC_IVAR_$_SWSystemActivityAssertion._lock_startKernelAPWakeTime
+00007ffc40a3ac70 (__DATA,__objc_ivar) non-external _OBJC_IVAR_$_SWSystemActivityAssertion._lock_state
+00007ffc40a3ac78 (__DATA,__objc_ivar) non-external _OBJC_IVAR_$_SWSystemActivityAssertion._lock_timeout
+00007ffc40a3ac38 (__DATA,__objc_ivar) non-external _OBJC_IVAR_$_SWSystemActivityAssertion._lock_timeoutTimer
+00007ffc40a3ac80 (__DATA,__objc_ivar) non-external _OBJC_IVAR_$_SWSystemActivityAssertion._lock_wasSleepImminent
+00007ffc40a3ac48 (__DATA,__objc_ivar) non-external _OBJC_IVAR_$_SWSystemActivityAssertion._provider
+00007ffc40a3ac40 (__DATA,__objc_ivar) non-external _OBJC_IVAR_$_SWSystemActivityAssertion._sleepMonitor
+00007ffc40a3abc8 (__DATA,__objc_ivar) non-external _OBJC_IVAR_$_SWSystemSleepMonitor._allowsInvalidation
+00007ffc40a3ab78 (__DATA,__objc_ivar) non-external _OBJC_IVAR_$_SWSystemSleepMonitor._identifier
+00007ffc40a3ab90 (__DATA,__objc_ivar) non-external _OBJC_IVAR_$_SWSystemSleepMonitor._lock
+00007ffc40a3aba0 (__DATA,__objc_ivar) non-external _OBJC_IVAR_$_SWSystemSleepMonitor._lock_messageID
+00007ffc40a3ab98 (__DATA,__objc_ivar) non-external _OBJC_IVAR_$_SWSystemSleepMonitor._lock_observers
+00007ffc40a3ab80 (__DATA,__objc_ivar) non-external _OBJC_IVAR_$_SWSystemSleepMonitor._monitorProvider
+00007ffc40a3abc0 (__DATA,__objc_ivar) non-external _OBJC_IVAR_$_SWSystemSleepMonitor._powerManagementPhase
+00007ffc40a3abb0 (__DATA,__objc_ivar) non-external _OBJC_IVAR_$_SWSystemSleepMonitor._powerManagementPhaseTimestamp
+00007ffc40a3ab70 (__DATA,__objc_ivar) non-external _OBJC_IVAR_$_SWSystemSleepMonitor._queue
+00007ffc40a3ab88 (__DATA,__objc_ivar) non-external _OBJC_IVAR_$_SWSystemSleepMonitor._sleepAssertionProvider
+00007ffc40a3abb8 (__DATA,__objc_ivar) non-external _OBJC_IVAR_$_SWSystemSleepMonitor._state
+00007ffc40a3aba8 (__DATA,__objc_ivar) non-external _OBJC_IVAR_$_SWSystemSleepMonitor._stateTimestamp
+00007ffc40a3ac20 (__DATA,__objc_ivar) non-external _OBJC_IVAR_$_SWSystemSleepMonitorAggregateState._powerManagementPhase
+00007ffc40a3ac28 (__DATA,__objc_ivar) non-external _OBJC_IVAR_$_SWSystemSleepMonitorAggregateState._powerManagementPhaseTimestamp
+00007ffc40a3ac10 (__DATA,__objc_ivar) non-external _OBJC_IVAR_$_SWSystemSleepMonitorAggregateState._sleepMonitorState
+00007ffc40a3ac18 (__DATA,__objc_ivar) non-external _OBJC_IVAR_$_SWSystemSleepMonitorAggregateState._sleepMonitorStateTimestamp
+00007ffc40a3abd0 (__DATA,__objc_ivar) non-external _OBJC_IVAR_$_SWSystemSleepMonitorProvider._lock
+00007ffc40a3ac08 (__DATA,__objc_ivar) non-external _OBJC_IVAR_$_SWSystemSleepMonitorProvider._lock_invalidated
+00007ffc40a3abd8 (__DATA,__objc_ivar) non-external _OBJC_IVAR_$_SWSystemSleepMonitorProvider._lock_queue
+00007ffc40a3ac00 (__DATA,__objc_ivar) non-external _OBJC_IVAR_$_SWSystemSleepMonitorProvider._lock_registered
+00007ffc40a3abe8 (__DATA,__objc_ivar) non-external _OBJC_IVAR_$_SWSystemSleepMonitorProvider._lock_systemPowerConnection
+00007ffc40a3abf8 (__DATA,__objc_ivar) non-external _OBJC_IVAR_$_SWSystemSleepMonitorProvider._lock_systemPowerNotifier
+00007ffc40a3abf0 (__DATA,__objc_ivar) non-external _OBJC_IVAR_$_SWSystemSleepMonitorProvider._lock_systemPowerPort
+00007ffc40a3abe0 (__DATA,__objc_ivar) non-external _OBJC_IVAR_$_SWSystemSleepMonitorProvider._lock_weakDelegateWrapper
+00007ffc40a3acc8 (__DATA,__objc_ivar) non-external _OBJC_IVAR_$_SWWakingTimer._identifier
+00007ffc40a3acf0 (__DATA,__objc_ivar) non-external _OBJC_IVAR_$_SWWakingTimer._lock
+00007ffc40a3ad00 (__DATA,__objc_ivar) non-external _OBJC_IVAR_$_SWWakingTimer._lock_handler
+00007ffc40a3ad10 (__DATA,__objc_ivar) non-external _OBJC_IVAR_$_SWWakingTimer._lock_invalidated
+00007ffc40a3ad08 (__DATA,__objc_ivar) non-external _OBJC_IVAR_$_SWWakingTimer._lock_leeway
+00007ffc40a3acf8 (__DATA,__objc_ivar) non-external _OBJC_IVAR_$_SWWakingTimer._lock_timer
+00007ffc40a3ace8 (__DATA,__objc_ivar) non-external _OBJC_IVAR_$_SWWakingTimer._preventSleepAssertion
+00007ffc40a3acd0 (__DATA,__objc_ivar) non-external _OBJC_IVAR_$_SWWakingTimer._scheduledWake
+00007ffc40a3ace0 (__DATA,__objc_ivar) non-external _OBJC_IVAR_$_SWWakingTimer._sleepAssertionProvider
+00007ffc40a3acd8 (__DATA,__objc_ivar) non-external _OBJC_IVAR_$_SWWakingTimer._sleepMonitor
+                 (undefined) external _OBJC_METACLASS_$_NSObject (from libobjc)
+00007ffc40a3af58 (__DATA,__objc_data) external _OBJC_METACLASS_$_SWDeclareSystemActivityResult
+00007ffc40a3b0c0 (__DATA,__objc_data) external _OBJC_METACLASS_$_SWPreventSystemSleepAssertion
+00007ffc40a3b070 (__DATA,__objc_data) external _OBJC_METACLASS_$_SWScheduledSystemWake
+00007ffc40a3af08 (__DATA,__objc_data) external _OBJC_METACLASS_$_SWSystemActivityAcquisitionDetails
+00007ffc40a3aee0 (__DATA,__objc_data) external _OBJC_METACLASS_$_SWSystemActivityAssertion
+00007ffc40a3af80 (__DATA,__objc_data) external _OBJC_METACLASS_$_SWSystemActivityProvider
+00007ffc40a3aff8 (__DATA,__objc_data) external _OBJC_METACLASS_$_SWSystemSleepAssertionProvider
+00007ffc40a3adf0 (__DATA,__objc_data) external _OBJC_METACLASS_$_SWSystemSleepMonitor
+00007ffc40a3ae40 (__DATA,__objc_data) external _OBJC_METACLASS_$_SWSystemSleepMonitorAggregateState
+00007ffc40a3ae18 (__DATA,__objc_data) external _OBJC_METACLASS_$_SWSystemSleepMonitorProvider
+00007ffc40a3afd0 (__DATA,__objc_data) external _OBJC_METACLASS_$_SWWakingTimer
+00007ffc03303739 (__TEXT,__text) external _SWLogPower
+00007ffc40a3b4f0 (__DATA,__common) non-external (was a private external) _SWLogPower.__logObj
+00007ffc40a3b4f8 (__DATA,__common) non-external (was a private external) _SWLogPower.onceToken
+00007ffc03303795 (__TEXT,__text) external _SWLogTimer
+00007ffc40a3b500 (__DATA,__common) non-external (was a private external) _SWLogTimer.__logObj
+00007ffc40a3b508 (__DATA,__common) non-external (was a private external) _SWLogTimer.onceToken
+00007ffc032fe670 (__TEXT,__text) non-external _SWSystemPowerCallback
+00007ffc03305a28 (__TEXT,__const) external _SWSystemWakeVersionNumber
+00007ffc033059f0 (__TEXT,__const) external _SWSystemWakeVersionString
+                 (undefined) external __Block_object_assign (from libSystem)
+                 (undefined) external __Block_object_dispose (from libSystem)
+                 (undefined) external __NSConcreteGlobalBlock (from libSystem)
+                 (undefined) external __NSConcreteStackBlock (from libSystem)
+00007ffc03305988 (__TEXT,__objc_methlist) non-external __OBJC_$_CLASS_METHODS_SWPreventSystemSleepAssertion
+00007ffc033056a0 (__TEXT,__objc_methlist) non-external __OBJC_$_CLASS_METHODS_SWSystemActivityProvider
+00007ffc033058c0 (__TEXT,__objc_methlist) non-external __OBJC_$_CLASS_METHODS_SWSystemSleepAssertionProvider
+00007ffc03305548 (__TEXT,__objc_methlist) non-external __OBJC_$_CLASS_METHODS_SWSystemSleepMonitor
+00007ffc033056b8 (__TEXT,__objc_methlist) non-external __OBJC_$_INSTANCE_METHODS_SWDeclareSystemActivityResult
+00007ffc033059a0 (__TEXT,__objc_methlist) non-external __OBJC_$_INSTANCE_METHODS_SWPreventSystemSleepAssertion
+00007ffc033058f8 (__TEXT,__objc_methlist) non-external __OBJC_$_INSTANCE_METHODS_SWScheduledSystemWake
+00007ffc03305700 (__TEXT,__objc_methlist) non-external __OBJC_$_INSTANCE_METHODS_SWSystemActivityAcquisitionDetails
+00007ffc03305748 (__TEXT,__objc_methlist) non-external __OBJC_$_INSTANCE_METHODS_SWSystemActivityAssertion
+00007ffc033057d8 (__TEXT,__objc_methlist) non-external __OBJC_$_INSTANCE_METHODS_SWSystemActivityProvider
+00007ffc033058d8 (__TEXT,__objc_methlist) non-external __OBJC_$_INSTANCE_METHODS_SWSystemSleepAssertionProvider
+00007ffc03305560 (__TEXT,__objc_methlist) non-external __OBJC_$_INSTANCE_METHODS_SWSystemSleepMonitor
+00007ffc033055f0 (__TEXT,__objc_methlist) non-external __OBJC_$_INSTANCE_METHODS_SWSystemSleepMonitorAggregateState
+00007ffc03305640 (__TEXT,__objc_methlist) non-external __OBJC_$_INSTANCE_METHODS_SWSystemSleepMonitorProvider
+00007ffc03305810 (__TEXT,__objc_methlist) non-external __OBJC_$_INSTANCE_METHODS_SWWakingTimer
+00007ffc40a39c28 (__DATA,__objc_const) non-external __OBJC_$_INSTANCE_VARIABLES_SWDeclareSystemActivityResult
+00007ffc40a3a5c0 (__DATA,__objc_const) non-external __OBJC_$_INSTANCE_VARIABLES_SWPreventSystemSleepAssertion
+00007ffc40a3a3c8 (__DATA,__objc_const) non-external __OBJC_$_INSTANCE_VARIABLES_SWScheduledSystemWake
+00007ffc40a39ab8 (__DATA,__objc_const) non-external __OBJC_$_INSTANCE_VARIABLES_SWSystemActivityAcquisitionDetails
+00007ffc40a39748 (__DATA,__objc_const) non-external __OBJC_$_INSTANCE_VARIABLES_SWSystemActivityAssertion
+00007ffc40a39000 (__DATA,__objc_const) non-external __OBJC_$_INSTANCE_VARIABLES_SWSystemSleepMonitor
+00007ffc40a39508 (__DATA,__objc_const) non-external __OBJC_$_INSTANCE_VARIABLES_SWSystemSleepMonitorAggregateState
+00007ffc40a39328 (__DATA,__objc_const) non-external __OBJC_$_INSTANCE_VARIABLES_SWSystemSleepMonitorProvider
+00007ffc40a3a010 (__DATA,__objc_const) non-external __OBJC_$_INSTANCE_VARIABLES_SWWakingTimer
+00007ffc40a39f08 (__DATA,__objc_const) non-external __OBJC_$_PROP_LIST_BSTimerScheduleQuerying
+00007ffc40a38e30 (__DATA,__objc_const) non-external __OBJC_$_PROP_LIST_NSObject
+00007ffc40a39c90 (__DATA,__objc_const) non-external __OBJC_$_PROP_LIST_SWDeclareSystemActivityResult
+00007ffc40a3a688 (__DATA,__objc_const) non-external __OBJC_$_PROP_LIST_SWPreventSystemSleepAssertion
+00007ffc40a3a490 (__DATA,__objc_const) non-external __OBJC_$_PROP_LIST_SWScheduledSystemWake
+00007ffc40a39a08 (__DATA,__objc_const) non-external __OBJC_$_PROP_LIST_SWSystemActivityAcquisitionDetails
+00007ffc40a39b20 (__DATA,__objc_const) non-external __OBJC_$_PROP_LIST_SWSystemActivityAcquisitionDetails.222
+00007ffc40a398f0 (__DATA,__objc_const) non-external __OBJC_$_PROP_LIST_SWSystemActivityAssertion
+00007ffc40a39e10 (__DATA,__objc_const) non-external __OBJC_$_PROP_LIST_SWSystemActivityProvider
+00007ffc40a3a2d8 (__DATA,__objc_const) non-external __OBJC_$_PROP_LIST_SWSystemSleepAssertionProvider
+00007ffc40a39188 (__DATA,__objc_const) non-external __OBJC_$_PROP_LIST_SWSystemSleepMonitor
+00007ffc40a39590 (__DATA,__objc_const) non-external __OBJC_$_PROP_LIST_SWSystemSleepMonitorAggregateState
+00007ffc40a39430 (__DATA,__objc_const) non-external __OBJC_$_PROP_LIST_SWSystemSleepMonitorProvider
+00007ffc40a3a158 (__DATA,__objc_const) non-external __OBJC_$_PROP_LIST_SWWakingTimer
+00007ffc40a39f70 (__DATA,__objc_const) non-external __OBJC_$_PROTOCOL_INSTANCE_METHODS_BSCancellable
+00007ffc40a38f70 (__DATA,__objc_const) non-external __OBJC_$_PROTOCOL_INSTANCE_METHODS_BSInvalidatable
+00007ffc40a39eb8 (__DATA,__objc_const) non-external __OBJC_$_PROTOCOL_INSTANCE_METHODS_BSTimerScheduleQuerying
+00007ffc40a38c40 (__DATA,__objc_const) non-external __OBJC_$_PROTOCOL_INSTANCE_METHODS_NSObject
+00007ffc40a38e10 (__DATA,__objc_const) non-external __OBJC_$_PROTOCOL_INSTANCE_METHODS_OPT_NSObject
+00007ffc40a39638 (__DATA,__objc_const) non-external __OBJC_$_PROTOCOL_INSTANCE_METHODS_OPT_SWSystemSleepObserver
+00007ffc40a399b8 (__DATA,__objc_const) non-external __OBJC_$_PROTOCOL_INSTANCE_METHODS_SWSystemActivityAcquisitionDetails
+00007ffc40a39d28 (__DATA,__objc_const) non-external __OBJC_$_PROTOCOL_INSTANCE_METHODS_SWSystemActivityProviding
+00007ffc40a3a230 (__DATA,__objc_const) non-external __OBJC_$_PROTOCOL_INSTANCE_METHODS_SWSystemSleepAssertionProviding
+00007ffc40a39260 (__DATA,__objc_const) non-external __OBJC_$_PROTOCOL_INSTANCE_METHODS_SWSystemSleepMonitorProviding
+00007ffc40a38f30 (__DATA,__objc_const) non-external __OBJC_$_PROTOCOL_INSTANCE_METHODS_SWSystemSleepMonitorProvidingDelegate
+00007ffc40a39f90 (__DATA,__objc_const) non-external __OBJC_$_PROTOCOL_METHOD_TYPES_BSCancellable
+00007ffc40a38f90 (__DATA,__objc_const) non-external __OBJC_$_PROTOCOL_METHOD_TYPES_BSInvalidatable
+00007ffc40a39f40 (__DATA,__objc_const) non-external __OBJC_$_PROTOCOL_METHOD_TYPES_BSTimerScheduleQuerying
+00007ffc40a38e78 (__DATA,__objc_const) non-external __OBJC_$_PROTOCOL_METHOD_TYPES_NSObject
+00007ffc40a39a40 (__DATA,__objc_const) non-external __OBJC_$_PROTOCOL_METHOD_TYPES_SWSystemActivityAcquisitionDetails
+00007ffc40a39d90 (__DATA,__objc_const) non-external __OBJC_$_PROTOCOL_METHOD_TYPES_SWSystemActivityProviding
+00007ffc40a3a268 (__DATA,__objc_const) non-external __OBJC_$_PROTOCOL_METHOD_TYPES_SWSystemSleepAssertionProviding
+00007ffc40a392b0 (__DATA,__objc_const) non-external __OBJC_$_PROTOCOL_METHOD_TYPES_SWSystemSleepMonitorProviding
+00007ffc40a38f50 (__DATA,__objc_const) non-external __OBJC_$_PROTOCOL_METHOD_TYPES_SWSystemSleepMonitorProvidingDelegate
+00007ffc40a396b8 (__DATA,__objc_const) non-external __OBJC_$_PROTOCOL_METHOD_TYPES_SWSystemSleepObserver
+00007ffc40a39f58 (__DATA,__objc_const) non-external __OBJC_$_PROTOCOL_REFS_BSCancellable
+00007ffc40a38f58 (__DATA,__objc_const) non-external __OBJC_$_PROTOCOL_REFS_BSInvalidatable
+00007ffc40a39ea0 (__DATA,__objc_const) non-external __OBJC_$_PROTOCOL_REFS_BSTimerScheduleQuerying
+00007ffc40a399a0 (__DATA,__objc_const) non-external __OBJC_$_PROTOCOL_REFS_SWSystemActivityAcquisitionDetails
+00007ffc40a39d10 (__DATA,__objc_const) non-external __OBJC_$_PROTOCOL_REFS_SWSystemActivityProviding
+00007ffc40a3a218 (__DATA,__objc_const) non-external __OBJC_$_PROTOCOL_REFS_SWSystemSleepAssertionProviding
+00007ffc40a39248 (__DATA,__objc_const) non-external __OBJC_$_PROTOCOL_REFS_SWSystemSleepMonitorProviding
+00007ffc40a38f18 (__DATA,__objc_const) non-external __OBJC_$_PROTOCOL_REFS_SWSystemSleepMonitorProvidingDelegate
+00007ffc40a39620 (__DATA,__objc_const) non-external __OBJC_$_PROTOCOL_REFS_SWSystemSleepObserver
+00007ffc40a3a560 (__DATA,__objc_const) non-external __OBJC_CLASS_PROTOCOLS_$_SWPreventSystemSleepAssertion
+00007ffc40a3a368 (__DATA,__objc_const) non-external __OBJC_CLASS_PROTOCOLS_$_SWScheduledSystemWake
+00007ffc40a39a58 (__DATA,__objc_const) non-external __OBJC_CLASS_PROTOCOLS_$_SWSystemActivityAcquisitionDetails
+00007ffc40a396e0 (__DATA,__objc_const) non-external __OBJC_CLASS_PROTOCOLS_$_SWSystemActivityAssertion
+00007ffc40a39db0 (__DATA,__objc_const) non-external __OBJC_CLASS_PROTOCOLS_$_SWSystemActivityProvider
+00007ffc40a3a278 (__DATA,__objc_const) non-external __OBJC_CLASS_PROTOCOLS_$_SWSystemSleepAssertionProvider
+00007ffc40a38f98 (__DATA,__objc_const) non-external __OBJC_CLASS_PROTOCOLS_$_SWSystemSleepMonitor
+00007ffc40a392c8 (__DATA,__objc_const) non-external __OBJC_CLASS_PROTOCOLS_$_SWSystemSleepMonitorProvider
+00007ffc40a39f98 (__DATA,__objc_const) non-external __OBJC_CLASS_PROTOCOLS_$_SWWakingTimer
+00007ffc40a39cc8 (__DATA,__objc_const) non-external __OBJC_CLASS_RO_$_SWDeclareSystemActivityResult
+00007ffc40a3a6e0 (__DATA,__objc_const) non-external __OBJC_CLASS_RO_$_SWPreventSystemSleepAssertion
+00007ffc40a3a518 (__DATA,__objc_const) non-external __OBJC_CLASS_RO_$_SWScheduledSystemWake
+00007ffc40a39b98 (__DATA,__objc_const) non-external __OBJC_CLASS_RO_$_SWSystemActivityAcquisitionDetails
+00007ffc40a39958 (__DATA,__objc_const) non-external __OBJC_CLASS_RO_$_SWSystemActivityAssertion
+00007ffc40a39e58 (__DATA,__objc_const) non-external __OBJC_CLASS_RO_$_SWSystemActivityProvider
+00007ffc40a3a320 (__DATA,__objc_const) non-external __OBJC_CLASS_RO_$_SWSystemSleepAssertionProvider
+00007ffc40a39200 (__DATA,__objc_const) non-external __OBJC_CLASS_RO_$_SWSystemSleepMonitor
+00007ffc40a395d8 (__DATA,__objc_const) non-external __OBJC_CLASS_RO_$_SWSystemSleepMonitorAggregateState
+00007ffc40a39478 (__DATA,__objc_const) non-external __OBJC_CLASS_RO_$_SWSystemSleepMonitorProvider
+00007ffc40a3a1d0 (__DATA,__objc_const) non-external __OBJC_CLASS_RO_$_SWWakingTimer
+00007ffc40a38c28 (__DATA,__objc_protolist) non-external (was a private external) __OBJC_LABEL_PROTOCOL_$_BSCancellable
+00007ffc40a38bf8 (__DATA,__objc_protolist) non-external (was a private external) __OBJC_LABEL_PROTOCOL_$_BSInvalidatable
+00007ffc40a38c20 (__DATA,__objc_protolist) non-external (was a private external) __OBJC_LABEL_PROTOCOL_$_BSTimerScheduleQuerying
+00007ffc40a38be8 (__DATA,__objc_protolist) non-external (was a private external) __OBJC_LABEL_PROTOCOL_$_NSObject
+00007ffc40a38c10 (__DATA,__objc_protolist) non-external (was a private external) __OBJC_LABEL_PROTOCOL_$_SWSystemActivityAcquisitionDetails
+00007ffc40a38c18 (__DATA,__objc_protolist) non-external (was a private external) __OBJC_LABEL_PROTOCOL_$_SWSystemActivityProviding
+00007ffc40a38c30 (__DATA,__objc_protolist) non-external (was a private external) __OBJC_LABEL_PROTOCOL_$_SWSystemSleepAssertionProviding
+00007ffc40a38c00 (__DATA,__objc_protolist) non-external (was a private external) __OBJC_LABEL_PROTOCOL_$_SWSystemSleepMonitorProviding
+00007ffc40a38bf0 (__DATA,__objc_protolist) non-external (was a private external) __OBJC_LABEL_PROTOCOL_$_SWSystemSleepMonitorProvidingDelegate
+00007ffc40a38c08 (__DATA,__objc_protolist) non-external (was a private external) __OBJC_LABEL_PROTOCOL_$_SWSystemSleepObserver
+00007ffc40a39be0 (__DATA,__objc_const) non-external __OBJC_METACLASS_RO_$_SWDeclareSystemActivityResult
+00007ffc40a3a578 (__DATA,__objc_const) non-external __OBJC_METACLASS_RO_$_SWPreventSystemSleepAssertion
+00007ffc40a3a380 (__DATA,__objc_const) non-external __OBJC_METACLASS_RO_$_SWScheduledSystemWake
+00007ffc40a39a70 (__DATA,__objc_const) non-external __OBJC_METACLASS_RO_$_SWSystemActivityAcquisitionDetails
+00007ffc40a39700 (__DATA,__objc_const) non-external __OBJC_METACLASS_RO_$_SWSystemActivityAssertion
+00007ffc40a39dc8 (__DATA,__objc_const) non-external __OBJC_METACLASS_RO_$_SWSystemActivityProvider
+00007ffc40a3a290 (__DATA,__objc_const) non-external __OBJC_METACLASS_RO_$_SWSystemSleepAssertionProvider
+00007ffc40a38fb8 (__DATA,__objc_const) non-external __OBJC_METACLASS_RO_$_SWSystemSleepMonitor
+00007ffc40a394c0 (__DATA,__objc_const) non-external __OBJC_METACLASS_RO_$_SWSystemSleepMonitorAggregateState
+00007ffc40a392e0 (__DATA,__objc_const) non-external __OBJC_METACLASS_RO_$_SWSystemSleepMonitorProvider
+00007ffc40a39fc8 (__DATA,__objc_const) non-external __OBJC_METACLASS_RO_$_SWWakingTimer
+00007ffc40a3b3e8 (__DATA,__data) non-external (was a private external) __OBJC_PROTOCOL_$_BSCancellable
+00007ffc40a3b1a8 (__DATA,__data) non-external (was a private external) __OBJC_PROTOCOL_$_BSInvalidatable
+00007ffc40a3b388 (__DATA,__data) non-external (was a private external) __OBJC_PROTOCOL_$_BSTimerScheduleQuerying
+00007ffc40a3b0e8 (__DATA,__data) non-external (was a private external) __OBJC_PROTOCOL_$_NSObject
+00007ffc40a3b2c8 (__DATA,__data) non-external (was a private external) __OBJC_PROTOCOL_$_SWSystemActivityAcquisitionDetails
+00007ffc40a3b328 (__DATA,__data) non-external (was a private external) __OBJC_PROTOCOL_$_SWSystemActivityProviding
+00007ffc40a3b448 (__DATA,__data) non-external (was a private external) __OBJC_PROTOCOL_$_SWSystemSleepAssertionProviding
+00007ffc40a3b208 (__DATA,__data) non-external (was a private external) __OBJC_PROTOCOL_$_SWSystemSleepMonitorProviding
+00007ffc40a3b148 (__DATA,__data) non-external (was a private external) __OBJC_PROTOCOL_$_SWSystemSleepMonitorProvidingDelegate
+00007ffc40a3b268 (__DATA,__data) non-external (was a private external) __OBJC_PROTOCOL_$_SWSystemSleepObserver
+                 (undefined) external __Unwind_Resume (from libSystem)
+00007ffc032fea15 (__TEXT,__text) non-external ___39-[SWSystemSleepMonitorProvider dealloc]_block_invoke
+00007ffc03301a16 (__TEXT,__text) non-external ___42+[SWSystemActivityProvider sharedProvider]_block_invoke
+00007ffc033051b8 (__TEXT,__text) non-external ___43-[SWPreventSystemSleepAssertion invalidate]_block_invoke
+00007ffc032fb3fc (__TEXT,__text) non-external ___45+[SWSystemSleepMonitor monitorUsingMainQueue]_block_invoke
+00007ffc03303854 (__TEXT,__text) non-external ___48+[SWSystemSleepAssertionProvider sharedProvider]_block_invoke
+00007ffc033013fb (__TEXT,__text) non-external ___50-[SWSystemActivityAssertion invalidateWithReason:]_block_invoke
+00007ffc032fe177 (__TEXT,__text) non-external ___54-[SWSystemSleepMonitor observersRespondingToSelector:]_block_invoke
+00007ffc03304510 (__TEXT,__text) non-external ___56+[SWPreventSystemSleepAssertion sharedHighPriorityQueue]_block_invoke
+00007ffc032ff818 (__TEXT,__text) non-external ___56-[SWSystemActivityAssertion acquireWithTimeout:handler:]_block_invoke
+00007ffc032fc674 (__TEXT,__text) non-external ___57-[SWSystemSleepMonitor sleepRequestedWithNotificationID:]_block_invoke
+00007ffc032fc81e (__TEXT,__text) non-external ___57-[SWSystemSleepMonitor sleepRequestedWithNotificationID:]_block_invoke.54
+00007ffc032fcaa4 (__TEXT,__text) non-external ___57-[SWSystemSleepMonitor sleepRequestedWithNotificationID:]_block_invoke.59
+00007ffc032fd1ac (__TEXT,__text) non-external ___58-[SWSystemSleepMonitor prepareForSleepWithNotificationID:]_block_invoke
+00007ffc032fd356 (__TEXT,__text) non-external ___58-[SWSystemSleepMonitor prepareForSleepWithNotificationID:]_block_invoke.67
+00007ffc032fd417 (__TEXT,__text) non-external ___58-[SWSystemSleepMonitor prepareForSleepWithNotificationID:]_block_invoke.68
+00007ffc033048ca (__TEXT,__text) non-external ___60-[SWPreventSystemSleepAssertion acquireWithTimeout:handler:]_block_invoke
+00007ffc03303290 (__TEXT,__text) non-external ___62-[SWWakingTimer scheduleForDate:leewayInterval:queue:handler:]_block_invoke
+00007ffc03302830 (__TEXT,__text) non-external ___71-[SWWakingTimer scheduleWithFireInterval:leewayInterval:queue:handler:]_block_invoke
+00007ffc03300b5c (__TEXT,__text) non-external ___72-[SWSystemActivityAssertion _queue_declareSystemActivityWithRetryCount:]_block_invoke
+00007ffc03300bf6 (__TEXT,__text) non-external ___72-[SWSystemActivityAssertion _queue_declareSystemActivityWithRetryCount:]_block_invoke.86
+00007ffc032fd516 (__TEXT,__text) non-external ___76-[SWSystemSleepMonitor observersOfSelector:performObserverBlock:completion:]_block_invoke
+00007ffc032fd7ba (__TEXT,__text) non-external ___76-[SWSystemSleepMonitor observersOfSelector:performObserverBlock:completion:]_block_invoke.72
+00007ffc032fd9f5 (__TEXT,__text) non-external ___76-[SWSystemSleepMonitor observersOfSelector:performObserverBlock:completion:]_block_invoke.87
+00007ffc032fd9fb (__TEXT,__text) non-external ___76-[SWSystemSleepMonitor observersOfSelector:performObserverBlock:completion:]_block_invoke_2
+00007ffc032fd4ea (__TEXT,__text) non-external ___Block_byref_object_copy_
+00007ffc032fd507 (__TEXT,__text) non-external ___Block_byref_object_dispose_
+                 (undefined) external ___CFConstantStringClassReference (from CoreFoundation)
+00007ffc03303769 (__TEXT,__text) non-external (was a private external) ___SWLogPower_block_invoke
+00007ffc033037c5 (__TEXT,__text) non-external (was a private external) ___SWLogTimer_block_invoke
+00007ffc40a37f68 (__DATA,__const) non-external (was a private external) ___block_descriptor_32_e27_v16?0"BSSimpleAssertion"8l
+00007ffc40a38028 (__DATA,__const) non-external (was a private external) ___block_descriptor_32_e5_v8?0l
+00007ffc40a382b0 (__DATA,__const) non-external (was a private external) ___block_descriptor_36_e5_v8?0l
+00007ffc40a37fd8 (__DATA,__const) non-external (was a private external) ___block_descriptor_40_e39_c32?0"<SWSystemSleepObserver>"8Q16*24l
+00007ffc40a381d0 (__DATA,__const) non-external (was a private external) ___block_descriptor_40_e5_v8?0l
+00007ffc40a37ff8 (__DATA,__const) non-external (was a private external) ___block_descriptor_40_ea8_32s_e5_v8?0l
+00007ffc40a38220 (__DATA,__const) non-external (was a private external) ___block_descriptor_40_ea8_32w_e26_v16?0"BSWallclockTimer"8l
+00007ffc40a38170 (__DATA,__const) non-external (was a private external) ___block_descriptor_40_ea8_32w_e29_v16?0"BSAbsoluteMachTimer"8l
+00007ffc40a381f0 (__DATA,__const) non-external (was a private external) ___block_descriptor_40_ea8_32w_e31_v16?0"BSContinuousMachTimer"8l
+00007ffc40a381a0 (__DATA,__const) non-external (was a private external) ___block_descriptor_44_ea8_32s_e5_v8?0l
+00007ffc40a37e78 (__DATA,__const) non-external (was a private external) ___block_descriptor_48_ea8_32s_e43_v24?0"<SWSystemSleepObserver>"8?<v?c>16l
+00007ffc40a37ea8 (__DATA,__const) non-external (was a private external) ___block_descriptor_48_ea8_32s_e8_v12?0c8l
+00007ffc40a38110 (__DATA,__const) non-external (was a private external) ___block_descriptor_56_ea8_32s40bs_e5_v8?0l
+00007ffc40a38140 (__DATA,__const) non-external (was a private external) ___block_descriptor_60_ea8_32s40s48s_e5_v8?0l
+00007ffc40a37f08 (__DATA,__const) non-external (was a private external) ___block_descriptor_64_ea8_32s40bs_e8_v12?0c8l
+00007ffc40a37f38 (__DATA,__const) non-external (was a private external) ___block_descriptor_64_ea8_32s40r_e40_v16?0"<BSBlockSentinelSignalContext>"8l
+00007ffc40a37e48 (__DATA,__const) non-external (was a private external) ___block_descriptor_64_ea8_32s40s48bs_e52_"SWPreventSystemSleepAssertion"20?0c8"NSString"12l
+00007ffc40a37ed8 (__DATA,__const) non-external (was a private external) ___block_descriptor_64_ea8_32s40s48bs_e5_v8?0l
+00007ffc40a37fa8 (__DATA,__const) non-external (was a private external) ___block_descriptor_96_ea8_32s40s48s56s64r_e8_v12?0c8l
+00007ffc40a37e28 (__DATA,__const) non-external ___block_literal_global
+00007ffc40a38250 (__DATA,__const) non-external (was a private external) ___block_literal_global
+00007ffc40a38290 (__DATA,__const) non-external ___block_literal_global
+00007ffc40a38270 (__DATA,__const) non-external (was a private external) ___block_literal_global.3
+00007ffc40a37f88 (__DATA,__const) non-external ___block_literal_global.89
+00007ffc032fca86 (__TEXT,__text) non-external (was a private external) ___copy_helper_block_ea8_32s
+00007ffc032fd66c (__TEXT,__text) non-external (was a private external) ___copy_helper_block_ea8_32s40b
+00007ffc032fd99e (__TEXT,__text) non-external ___copy_helper_block_ea8_32s40r
+00007ffc032fca16 (__TEXT,__text) non-external ___copy_helper_block_ea8_32s40s48b
+00007ffc03300bca (__TEXT,__text) non-external ___copy_helper_block_ea8_32s40s48s
+00007ffc032fdcee (__TEXT,__text) non-external ___copy_helper_block_ea8_32s40s48s56s64r
+00007ffc03300cc7 (__TEXT,__text) non-external (was a private external) ___copy_helper_block_ea8_32w
+00007ffc032fca95 (__TEXT,__text) non-external (was a private external) ___destroy_helper_block_ea8_32s
+00007ffc032fd9ce (__TEXT,__text) non-external ___destroy_helper_block_ea8_32s40r
+00007ffc032fd69c (__TEXT,__text) non-external (was a private external) ___destroy_helper_block_ea8_32s40s
+00007ffc032fca5a (__TEXT,__text) non-external (was a private external) ___destroy_helper_block_ea8_32s40s48s
+00007ffc032fdd40 (__TEXT,__text) non-external ___destroy_helper_block_ea8_32s40s48s56s64r
+00007ffc03300cd9 (__TEXT,__text) non-external (was a private external) ___destroy_helper_block_ea8_32w
+                 (undefined) external ___kCFBooleanTrue (from CoreFoundation)
+                 (undefined) external ___objc_personality_v0 (from libobjc)
+                 (undefined) external ___stack_chk_fail (from libSystem)
+                 (undefined) external ___stack_chk_guard (from libSystem)
+                 (undefined) external __bs_set_crash_log_message (from BaseBoard)
+                 (undefined) external __dispatch_main_q (from libSystem)
+                 (undefined) external __objc_empty_cache (from libobjc)
+                 (undefined) external __os_log_debug_impl (from libSystem)
+                 (undefined) external __os_log_default (from libSystem)
+                 (undefined) external __os_log_error_impl (from libSystem)
+                 (undefined) external __os_log_fault_impl (from libSystem)
+                 (undefined) external __os_log_impl (from libSystem)
+                 (undefined) external _dispatch_activate (from libSystem)
+                 (undefined) external _dispatch_after (from libSystem)
+                 (undefined) external _dispatch_async (from libSystem)
+                 (undefined) external _dispatch_once (from libSystem)
+                 (undefined) external _dispatch_queue_create_with_target$V2 (from libSystem)
+                 (undefined) external _dispatch_time (from libSystem)
+                 (undefined) external _dispatch_workloop_create_inactive (from libSystem)
+                 (undefined) external _dispatch_workloop_set_scheduler_priority (from libSystem)
+                 (undefined) external _mach_continuous_time (from libSystem)
+00007ffc40a3b4a8 (__DATA,__bss) non-external _monitorUsingMainQueue.monitorUsingMainQueue
+00007ffc40a3b4b0 (__DATA,__bss) non-external _monitorUsingMainQueue.onceToken
+                 (undefined) external _objc_alloc (from libobjc)
+                 (undefined) external _objc_alloc_init (from libobjc)
+                 (undefined) external _objc_autoreleaseReturnValue (from libobjc)
+                 (undefined) external _objc_copyWeak (from libobjc)
+                 (undefined) external _objc_destroyWeak (from libobjc)
+                 (undefined) external _objc_enumerationMutation (from libobjc)
+                 (undefined) external _objc_initWeak (from libobjc)
+                 (undefined) external _objc_loadWeakRetained (from libobjc)
+                 (undefined) external _objc_msgSend (from libobjc)
+                 (undefined) external _objc_msgSendSuper2 (from libobjc)
+                 (undefined) external _objc_opt_class (from libobjc)
+                 (undefined) external _objc_opt_respondsToSelector (from libobjc)
+                 (undefined) external _objc_release (from libobjc)
+                 (undefined) external _objc_retain (from libobjc)
+                 (undefined) external _objc_retainAutorelease (from libobjc)
+                 (undefined) external _objc_retainAutoreleaseReturnValue (from libobjc)
+                 (undefined) external _objc_retainAutoreleasedReturnValue (from libobjc)
+                 (undefined) external _objc_retainBlock (from libobjc)
+                 (undefined) external _objc_storeStrong (from libobjc)
+                 (undefined) external _objc_terminate (from libobjc)
+                 (undefined) external _objc_unsafeClaimAutoreleasedReturnValue (from libobjc)
+                 (undefined) external _os_log_create (from libSystem)
+                 (undefined) external _os_log_type_enabled (from libSystem)
+                 (undefined) external _os_unfair_lock_assert_not_owner (from libSystem)
+                 (undefined) external _os_unfair_lock_lock (from libSystem)
+                 (undefined) external _os_unfair_lock_unlock (from libSystem)
+00007ffc40a3b4e8 (__DATA,__bss) non-external _sharedHighPriorityQueue.onceToken
+00007ffc40a3b4d8 (__DATA,__bss) non-external _sharedHighPriorityQueue.rootWorkloop
+00007ffc40a3b4e0 (__DATA,__bss) non-external _sharedHighPriorityQueue.sharedQueue
+00007ffc40a3b4c0 (__DATA,__bss) non-external _sharedProvider.onceToken
+00007ffc40a3b4d0 (__DATA,__bss) non-external _sharedProvider.onceToken
+00007ffc40a3b4b8 (__DATA,__bss) non-external _sharedProvider.sharedProvider
+00007ffc40a3b4c8 (__DATA,__bss) non-external _sharedProvider.sharedProvider
+00007ffc03304355 (__TEXT,__text) external _sw_kernel_wake_mach_absolute_time
+00007ffc0330441a (__TEXT,__text) external _sw_kernel_wake_mach_continuous_time
+                 (undefined) external _sysctlbyname (from libSystem)
