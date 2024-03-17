@@ -1,0 +1,742 @@
+
+/System/Library/Frameworks/CoreGraphics.framework/Versions/Current/XPCServices/CGPDFService.xpc/Contents/MacOS/CGPDFService (for architecture x86_64):
+000000010000186b (__TEXT,__text) non-external -[CGPDFDocumentImpl .cxx_construct]
+0000000100001827 (__TEXT,__text) non-external -[CGPDFDocumentImpl .cxx_destruct]
+000000010000126d (__TEXT,__text) non-external -[CGPDFDocumentImpl getInfo:]
+000000010000153d (__TEXT,__text) non-external -[CGPDFDocumentImpl getIsEncrypted:]
+0000000100001459 (__TEXT,__text) non-external -[CGPDFDocumentImpl getIsUnlocked:]
+00000001000011a9 (__TEXT,__text) non-external -[CGPDFDocumentImpl getPageAtIndex:]
+0000000100001705 (__TEXT,__text) non-external -[CGPDFDocumentImpl getPageAtIndex:completion:]
+0000000100001621 (__TEXT,__text) non-external -[CGPDFDocumentImpl getPageCount:]
+000000010000135e (__TEXT,__text) non-external -[CGPDFDocumentImpl getVersion:]
+0000000100000fa0 (__TEXT,__text) non-external -[CGPDFDocumentImpl initWithData:requestQueue:]
+0000000100002842 (__TEXT,__text) non-external -[CGPDFPageImpl .cxx_destruct]
+0000000100001f53 (__TEXT,__text) non-external -[CGPDFPageImpl dealloc]
+0000000100002364 (__TEXT,__text) non-external -[CGPDFPageImpl drawWithBox:size:colorSpace:options:completion:]
+0000000100002248 (__TEXT,__text) non-external -[CGPDFPageImpl getBoxRect:completion:]
+0000000100002036 (__TEXT,__text) non-external -[CGPDFPageImpl getIdentifier:]
+0000000100002741 (__TEXT,__text) non-external -[CGPDFPageImpl getPageText:]
+000000010000215d (__TEXT,__text) non-external -[CGPDFPageImpl getRotation:]
+0000000100001e80 (__TEXT,__text) non-external -[CGPDFPageImpl initWithCGPDFPage:requestQueue:]
+0000000100002018 (__TEXT,__text) non-external -[CGPDFPageImpl rectForBox:]
+0000000100001fdb (__TEXT,__text) non-external -[CGPDFPageImpl rotation]
+0000000100002b8e (__TEXT,__text) non-external -[CGPDFService .cxx_destruct]
+000000010000299f (__TEXT,__text) non-external -[CGPDFService init]
+0000000100002a0b (__TEXT,__text) non-external -[CGPDFService newPDFDocumentWithData:withReply:]
+000000010000286a (__TEXT,__text) non-external -[ServiceDelegate listener:shouldAcceptNewConnection:]
+0000000100003058 (__TEXT,__gcc_except_tab) non-external GCC_except_table0
+000000010000316c (__TEXT,__gcc_except_tab) non-external GCC_except_table0
+0000000100003194 (__TEXT,__gcc_except_tab) non-external GCC_except_table1
+00000001000030e8 (__TEXT,__gcc_except_tab) non-external GCC_except_table10
+00000001000031d8 (__TEXT,__gcc_except_tab) non-external GCC_except_table11
+00000001000030fc (__TEXT,__gcc_except_tab) non-external GCC_except_table12
+00000001000031ec (__TEXT,__gcc_except_tab) non-external GCC_except_table13
+0000000100003110 (__TEXT,__gcc_except_tab) non-external GCC_except_table14
+0000000100003200 (__TEXT,__gcc_except_tab) non-external GCC_except_table14
+0000000100003250 (__TEXT,__gcc_except_tab) non-external GCC_except_table15
+0000000100003124 (__TEXT,__gcc_except_tab) non-external GCC_except_table16
+0000000100003260 (__TEXT,__gcc_except_tab) non-external GCC_except_table16
+0000000100003138 (__TEXT,__gcc_except_tab) non-external GCC_except_table17
+0000000100003148 (__TEXT,__gcc_except_tab) non-external GCC_except_table18
+0000000100003270 (__TEXT,__gcc_except_tab) non-external GCC_except_table19
+00000001000030b0 (__TEXT,__gcc_except_tab) non-external GCC_except_table2
+0000000100003284 (__TEXT,__gcc_except_tab) non-external GCC_except_table20
+000000010000315c (__TEXT,__gcc_except_tab) non-external GCC_except_table23
+00000001000030c0 (__TEXT,__gcc_except_tab) non-external GCC_except_table4
+00000001000031b0 (__TEXT,__gcc_except_tab) non-external GCC_except_table5
+00000001000030d4 (__TEXT,__gcc_except_tab) non-external GCC_except_table8
+00000001000031c4 (__TEXT,__gcc_except_tab) non-external GCC_except_table9
+                 (undefined) external _CFRelease (from CoreFoundation)
+                 (undefined) external _CGBitmapContextCreateWithShareableMappedData (from CoreGraphics)
+                 (undefined) external _CGBitmapContextGetData (from CoreGraphics)
+                 (undefined) external _CGColorSpaceCreateWithName (from CoreGraphics)
+                 (undefined) external _CGColorSpaceCreateWithPropertyList (from CoreGraphics)
+                 (undefined) external _CGContextClear (from CoreGraphics)
+                 (undefined) external _CGContextDrawPDFPageWithOptions (from CoreGraphics)
+                 (undefined) external _CGDataProviderCreateWithCFData (from CoreGraphics)
+                 (undefined) external _CGPDFDocumentCopyInfoDictionary (from CoreGraphics)
+                 (undefined) external _CGPDFDocumentCreateWithProvider (from CoreGraphics)
+                 (undefined) external _CGPDFDocumentGetNumberOfPages (from CoreGraphics)
+                 (undefined) external _CGPDFDocumentGetPage (from CoreGraphics)
+                 (undefined) external _CGPDFDocumentGetVersion (from CoreGraphics)
+                 (undefined) external _CGPDFDocumentIsEncrypted (from CoreGraphics)
+                 (undefined) external _CGPDFDocumentIsUnlocked (from CoreGraphics)
+                 (undefined) external _CGPDFPageCopyString (from CoreGraphics)
+                 (undefined) external _CGPDFPageGetBoxRect (from CoreGraphics)
+                 (undefined) external _CGPDFPageGetRotationAngle (from CoreGraphics)
+                 (undefined) external _CGPDFPageRelease (from CoreGraphics)
+                 (undefined) external _CGPDFPageRetain (from CoreGraphics)
+0000000100003048 (__TEXT,__const) non-external (was a private external) _CGPDFServiceVersionNumber
+0000000100003010 (__TEXT,__const) non-external (was a private external) _CGPDFServiceVersionString
+0000000100001bdc (__TEXT,__text) non-external (was a private external) _EnterSandbox
+0000000100002b9e (__TEXT,__text) non-external _EnterSandbox.cold.1
+0000000100002c04 (__TEXT,__text) non-external _EnterSandbox.cold.2
+0000000100002c6c (__TEXT,__text) non-external _EnterSandbox.cold.3
+0000000100002cd4 (__TEXT,__text) non-external _EnterSandbox.cold.4
+0000000100002d3c (__TEXT,__text) non-external _EnterSandbox.cold.5
+0000000100002da4 (__TEXT,__text) non-external _EnterSandbox.cold.6
+0000000100002e0c (__TEXT,__text) non-external _EnterSandbox.cold.7
+0000000100002e70 (__TEXT,__text) non-external _EnterSandbox.cold.8
+                 (undefined) external _NSLog (from Foundation)
+                 (undefined) external _OBJC_CLASS_$_CGBitmapFormat (from CoreGraphics)
+0000000100005ce0 (__DATA,__objc_data) non-external (was a private external) _OBJC_CLASS_$_CGPDFDocumentImpl
+0000000100005d30 (__DATA,__objc_data) non-external (was a private external) _OBJC_CLASS_$_CGPDFPageImpl
+0000000100005dd0 (__DATA,__objc_data) non-external (was a private external) _OBJC_CLASS_$_CGPDFService
+                 (undefined) external _OBJC_CLASS_$_CGRemotePDFServiceProxy (from CoreGraphics)
+                 (undefined) external _OBJC_CLASS_$_NSObject (from libobjc)
+                 (undefined) external _OBJC_CLASS_$_NSOperationQueue (from Foundation)
+                 (undefined) external _OBJC_CLASS_$_NSUUID (from Foundation)
+                 (undefined) external _OBJC_CLASS_$_NSXPCListener (from Foundation)
+0000000100005da8 (__DATA,__objc_data) non-external (was a private external) _OBJC_CLASS_$_ServiceDelegate
+0000000100005cb0 (__DATA,__objc_ivar) non-external (was a private external) _OBJC_IVAR_$_CGPDFDocumentImpl._cgDocument
+0000000100005cb8 (__DATA,__objc_ivar) non-external (was a private external) _OBJC_IVAR_$_CGPDFDocumentImpl._pages
+0000000100005ca8 (__DATA,__objc_ivar) non-external (was a private external) _OBJC_IVAR_$_CGPDFDocumentImpl._requestQueue
+0000000100005cd0 (__DATA,__objc_ivar) non-external (was a private external) _OBJC_IVAR_$_CGPDFPageImpl._cgPage
+0000000100005cc0 (__DATA,__objc_ivar) non-external (was a private external) _OBJC_IVAR_$_CGPDFPageImpl._requestQueue
+0000000100005cc8 (__DATA,__objc_ivar) non-external (was a private external) _OBJC_IVAR_$_CGPDFPageImpl._uuid
+0000000100005cd8 (__DATA,__objc_ivar) non-external (was a private external) _OBJC_IVAR_$_CGPDFService._requestQueue
+0000000100005d08 (__DATA,__objc_data) non-external (was a private external) _OBJC_METACLASS_$_CGPDFDocumentImpl
+0000000100005d58 (__DATA,__objc_data) non-external (was a private external) _OBJC_METACLASS_$_CGPDFPageImpl
+0000000100005df8 (__DATA,__objc_data) non-external (was a private external) _OBJC_METACLASS_$_CGPDFService
+                 (undefined) external _OBJC_METACLASS_$_NSObject (from libobjc)
+0000000100005d80 (__DATA,__objc_data) non-external (was a private external) _OBJC_METACLASS_$_ServiceDelegate
+                 (undefined) external __Block_object_assign (from libSystem)
+                 (undefined) external __CFPrefsSetDirectModeEnabled (from CoreFoundation)
+                 (undefined) external __CFPrefsSetReadOnly (from CoreFoundation)
+                 (undefined) external __NSConcreteStackBlock (from libSystem)
+0000000100005418 (__DATA,__objc_const) non-external __OBJC_$_INSTANCE_METHODS_CGPDFDocumentImpl
+0000000100005728 (__DATA,__objc_const) non-external __OBJC_$_INSTANCE_METHODS_CGPDFPageImpl
+0000000100005b18 (__DATA,__objc_const) non-external __OBJC_$_INSTANCE_METHODS_CGPDFService
+00000001000059c8 (__DATA,__objc_const) non-external __OBJC_$_INSTANCE_METHODS_ServiceDelegate
+0000000100005510 (__DATA,__objc_const) non-external __OBJC_$_INSTANCE_VARIABLES_CGPDFDocumentImpl
+0000000100005820 (__DATA,__objc_const) non-external __OBJC_$_INSTANCE_VARIABLES_CGPDFPageImpl
+0000000100005b68 (__DATA,__objc_const) non-external __OBJC_$_INSTANCE_VARIABLES_CGPDFService
+0000000100005578 (__DATA,__objc_const) non-external __OBJC_$_PROP_LIST_CGPDFDocumentImpl
+0000000100005888 (__DATA,__objc_const) non-external __OBJC_$_PROP_LIST_CGPDFPageImpl
+0000000100005b90 (__DATA,__objc_const) non-external __OBJC_$_PROP_LIST_CGPDFService
+00000001000051f0 (__DATA,__objc_const) non-external __OBJC_$_PROP_LIST_NSObject
+00000001000059e8 (__DATA,__objc_const) non-external __OBJC_$_PROP_LIST_ServiceDelegate
+00000001000052f0 (__DATA,__objc_const) non-external __OBJC_$_PROTOCOL_INSTANCE_METHODS_CGRemotePDFDocumentProtocol
+0000000100005620 (__DATA,__objc_const) non-external __OBJC_$_PROTOCOL_INSTANCE_METHODS_CGRemotePDFPageProtocol
+0000000100005a90 (__DATA,__objc_const) non-external __OBJC_$_PROTOCOL_INSTANCE_METHODS_CGRemotePDFServiceProtocol
+0000000100005000 (__DATA,__objc_const) non-external __OBJC_$_PROTOCOL_INSTANCE_METHODS_NSObject
+00000001000051d0 (__DATA,__objc_const) non-external __OBJC_$_PROTOCOL_INSTANCE_METHODS_OPT_NSObject
+0000000100005940 (__DATA,__objc_const) non-external __OBJC_$_PROTOCOL_INSTANCE_METHODS_OPT_NSXPCListenerDelegate
+0000000100005388 (__DATA,__objc_const) non-external __OBJC_$_PROTOCOL_METHOD_TYPES_CGRemotePDFDocumentProtocol
+00000001000056a0 (__DATA,__objc_const) non-external __OBJC_$_PROTOCOL_METHOD_TYPES_CGRemotePDFPageProtocol
+0000000100005ab0 (__DATA,__objc_const) non-external __OBJC_$_PROTOCOL_METHOD_TYPES_CGRemotePDFServiceProtocol
+0000000100005238 (__DATA,__objc_const) non-external __OBJC_$_PROTOCOL_METHOD_TYPES_NSObject
+0000000100005960 (__DATA,__objc_const) non-external __OBJC_$_PROTOCOL_METHOD_TYPES_NSXPCListenerDelegate
+00000001000052d8 (__DATA,__objc_const) non-external __OBJC_$_PROTOCOL_REFS_CGRemotePDFDocumentProtocol
+0000000100005608 (__DATA,__objc_const) non-external __OBJC_$_PROTOCOL_REFS_CGRemotePDFPageProtocol
+0000000100005a78 (__DATA,__objc_const) non-external __OBJC_$_PROTOCOL_REFS_CGRemotePDFServiceProtocol
+0000000100005928 (__DATA,__objc_const) non-external __OBJC_$_PROTOCOL_REFS_NSXPCListenerDelegate
+00000001000053b8 (__DATA,__objc_const) non-external __OBJC_CLASS_PROTOCOLS_$_CGPDFDocumentImpl
+00000001000056c8 (__DATA,__objc_const) non-external __OBJC_CLASS_PROTOCOLS_$_CGPDFPageImpl
+0000000100005ab8 (__DATA,__objc_const) non-external __OBJC_CLASS_PROTOCOLS_$_CGPDFService
+0000000100005968 (__DATA,__objc_const) non-external __OBJC_CLASS_PROTOCOLS_$_ServiceDelegate
+00000001000055c0 (__DATA,__objc_const) non-external __OBJC_CLASS_RO_$_CGPDFDocumentImpl
+00000001000058e0 (__DATA,__objc_const) non-external __OBJC_CLASS_RO_$_CGPDFPageImpl
+0000000100005bd8 (__DATA,__objc_const) non-external __OBJC_CLASS_RO_$_CGPDFService
+0000000100005a30 (__DATA,__objc_const) non-external __OBJC_CLASS_RO_$_ServiceDelegate
+00000001000043d8 (__DATA_CONST,__objc_protolist) non-external (was a private external) __OBJC_LABEL_PROTOCOL_$_CGRemotePDFDocumentProtocol
+00000001000043e0 (__DATA_CONST,__objc_protolist) non-external (was a private external) __OBJC_LABEL_PROTOCOL_$_CGRemotePDFPageProtocol
+00000001000043f0 (__DATA_CONST,__objc_protolist) non-external (was a private external) __OBJC_LABEL_PROTOCOL_$_CGRemotePDFServiceProtocol
+00000001000043d0 (__DATA_CONST,__objc_protolist) non-external (was a private external) __OBJC_LABEL_PROTOCOL_$_NSObject
+00000001000043e8 (__DATA_CONST,__objc_protolist) non-external (was a private external) __OBJC_LABEL_PROTOCOL_$_NSXPCListenerDelegate
+00000001000053d0 (__DATA,__objc_const) non-external __OBJC_METACLASS_RO_$_CGPDFDocumentImpl
+00000001000056e0 (__DATA,__objc_const) non-external __OBJC_METACLASS_RO_$_CGPDFPageImpl
+0000000100005ad0 (__DATA,__objc_const) non-external __OBJC_METACLASS_RO_$_CGPDFService
+0000000100005980 (__DATA,__objc_const) non-external __OBJC_METACLASS_RO_$_ServiceDelegate
+0000000100005e80 (__DATA,__data) non-external (was a private external) __OBJC_PROTOCOL_$_CGRemotePDFDocumentProtocol
+0000000100005ee0 (__DATA,__data) non-external (was a private external) __OBJC_PROTOCOL_$_CGRemotePDFPageProtocol
+0000000100005fa0 (__DATA,__data) non-external (was a private external) __OBJC_PROTOCOL_$_CGRemotePDFServiceProtocol
+0000000100005e20 (__DATA,__data) non-external (was a private external) __OBJC_PROTOCOL_$_NSObject
+0000000100005f40 (__DATA,__data) non-external (was a private external) __OBJC_PROTOCOL_$_NSXPCListenerDelegate
+                 (undefined) external __Unwind_Resume (from libSystem)
+000000010000268c (__TEXT,__text) non-external (was a private external) __ZN10applesauce2CF9ObjectRefIP12CGColorSpaceED1Ev
+000000010000118e (__TEXT,__text) non-external (was a private external) __ZN10applesauce2CF9ObjectRefIP14CGDataProviderED1Ev
+00000001000026a8 (__TEXT,__text) non-external (was a private external) __ZN10applesauce2CF9ObjectRefIP9CGContextED1Ev
+0000000100001a24 (__TEXT,__text) non-external (was a private external) __ZNKSt3__16vectorIU8__strongP13CGPDFPageImplNS_9allocatorIS3_EEE20__throw_length_errorB8ue170006Ev
+                 (undefined) external __ZNSt11logic_errorC2EPKc (from libc++)
+0000000100001a96 (__TEXT,__text) non-external (was a private external) __ZNSt12length_errorC1B8ue170006EPKc
+                 (undefined) external __ZNSt12length_errorD1Ev (from libc++)
+                 (undefined) external __ZNSt20bad_array_new_lengthC1Ev (from libc++)
+                 (undefined) external __ZNSt20bad_array_new_lengthD1Ev (from libc++)
+0000000100001b18 (__TEXT,__text) non-external (was a private external) __ZNSt3__114__split_bufferIU8__strongP13CGPDFPageImplRNS_9allocatorIS3_EEED2Ev
+0000000100001ab9 (__TEXT,__text) non-external (was a private external) __ZNSt3__119__allocate_at_leastB8ue170006INS_9allocatorIU8__strongP13CGPDFPageImplEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS8_m
+0000000100001a4b (__TEXT,__text) non-external (was a private external) __ZNSt3__120__throw_length_errorB8ue170006EPKc
+0000000100001b70 (__TEXT,__text) non-external (was a private external) __ZNSt3__16vectorIU8__strongP13CGPDFPageImplNS_9allocatorIS3_EEE16__destroy_vectorclB8ue170006Ev
+0000000100001128 (__TEXT,__text) non-external (was a private external) __ZNSt3__16vectorIU8__strongP13CGPDFPageImplNS_9allocatorIS3_EEE6resizeEmRU8__strongKS2_
+0000000100001880 (__TEXT,__text) non-external (was a private external) __ZNSt3__16vectorIU8__strongP13CGPDFPageImplNS_9allocatorIS3_EEE8__appendEmRU8__strongKS2_
+0000000100001ae7 (__TEXT,__text) non-external (was a private external) __ZSt28__throw_bad_array_new_lengthB8ue170006v
+                 (undefined) external __ZSt9terminatev (from libc++)
+                 (undefined) weak external __ZTISt12length_error (from libc++)
+                 (undefined) external __ZTISt20bad_array_new_length (from libc++)
+                 (undefined) external __ZTVSt12length_error (from libc++)
+                 (undefined) weak external __ZdlPv (from libc++)
+                 (undefined) weak external __Znwm (from libc++)
+0000000100001328 (__TEXT,__text) non-external ___29-[CGPDFDocumentImpl getInfo:]_block_invoke
+00000001000027fc (__TEXT,__text) non-external ___29-[CGPDFPageImpl getPageText:]_block_invoke
+0000000100002218 (__TEXT,__text) non-external ___29-[CGPDFPageImpl getRotation:]_block_invoke
+00000001000020f1 (__TEXT,__text) non-external ___31-[CGPDFPageImpl getIdentifier:]_block_invoke
+0000000100001419 (__TEXT,__text) non-external ___32-[CGPDFDocumentImpl getVersion:]_block_invoke
+00000001000016dc (__TEXT,__text) non-external ___34-[CGPDFDocumentImpl getPageCount:]_block_invoke
+0000000100001514 (__TEXT,__text) non-external ___35-[CGPDFDocumentImpl getIsUnlocked:]_block_invoke
+00000001000015f8 (__TEXT,__text) non-external ___36-[CGPDFDocumentImpl getIsEncrypted:]_block_invoke
+0000000100002310 (__TEXT,__text) non-external ___39-[CGPDFPageImpl getBoxRect:completion:]_block_invoke
+00000001000017ce (__TEXT,__text) non-external ___47-[CGPDFDocumentImpl getPageAtIndex:completion:]_block_invoke
+0000000100002ad2 (__TEXT,__text) non-external ___49-[CGPDFService newPDFDocumentWithData:withReply:]_block_invoke
+00000001000024c2 (__TEXT,__text) non-external ___64-[CGPDFPageImpl drawWithBox:size:colorSpace:options:completion:]_block_invoke
+                 (undefined) external ___CFConstantStringClassReference (from CoreFoundation)
+0000000100004240 (__DATA_CONST,__const) non-external (was a private external) ___block_descriptor_48_ea8_32s40bs_e5_v8?0l
+00000001000042a0 (__DATA_CONST,__const) non-external (was a private external) ___block_descriptor_52_ea8_32s40bs_e5_v8?0l
+0000000100004300 (__DATA_CONST,__const) non-external (was a private external) ___block_descriptor_56_e8_32s40s48bs_e5_v8?0l
+0000000100004270 (__DATA_CONST,__const) non-external (was a private external) ___block_descriptor_56_ea8_32s40bs_e5_v8?0l
+00000001000042d0 (__DATA_CONST,__const) non-external (was a private external) ___block_descriptor_84_ea8_32s40s48s56bs_e5_v8?0l
+                 (undefined) external ___bzero (from libSystem)
+0000000100001a40 (__TEXT,__text) non-external (was a private external) ___clang_call_terminate
+0000000100002b1e (__TEXT,__text) non-external (was a private external) ___copy_helper_block_e8_32s40s48b
+0000000100002108 (__TEXT,__text) non-external (was a private external) ___copy_helper_block_ea8_32s40b
+00000001000026c3 (__TEXT,__text) non-external (was a private external) ___copy_helper_block_ea8_32s40s48s56b
+                 (undefined) external ___cxa_allocate_exception (from libc++)
+                 (undefined) external ___cxa_begin_catch (from libc++)
+                 (undefined) external ___cxa_free_exception (from libc++)
+                 (undefined) external ___cxa_throw (from libc++)
+0000000100002b62 (__TEXT,__text) non-external (was a private external) ___destroy_helper_block_e8_32s40s48s
+0000000100002138 (__TEXT,__text) non-external (was a private external) ___destroy_helper_block_ea8_32s40s
+000000010000270e (__TEXT,__text) non-external (was a private external) ___destroy_helper_block_ea8_32s40s48s56s
+                 (undefined) external ___error (from libSystem)
+                 (undefined) external ___gxx_personality_v0 (from libc++)
+                 (undefined) external ___stack_chk_fail (from libSystem)
+                 (undefined) external ___stack_chk_guard (from libSystem)
+                 (undefined) external __dispatch_data_destructor_munmap (from libSystem)
+0000000100000000 (__TEXT,__text) [referenced dynamically] external __mh_execute_header
+                 (undefined) external __objc_empty_cache (from libobjc)
+                 (undefined) external __os_log_debug_impl (from libSystem)
+                 (undefined) external __os_log_default (from libSystem)
+                 (undefined) external __os_log_error_impl (from libSystem)
+                 (undefined) external __set_user_dir_suffix (from libSystem)
+                 (undefined) external _confstr (from libSystem)
+                 (undefined) external _dispatch_data_create (from libSystem)
+                 (undefined) external _exit (from libSystem)
+                 (undefined) external _free (from libSystem)
+                 (undefined) external _getenv (from libSystem)
+                 (undefined) external _getpwuid (from libSystem)
+                 (undefined) external _getuid (from libSystem)
+                 (undefined) external _kCGColorSpaceSRGB (from CoreGraphics)
+000000010000290d (__TEXT,__text) non-external (was a private external) _main
+                 (undefined) external _objc_alloc (from libobjc)
+                 (undefined) external _objc_alloc_init (from libobjc)
+                 (undefined) external _objc_autoreleaseReturnValue (from libobjc)
+                 (undefined) external _objc_msgSend (from libobjc)
+                 (undefined) external _objc_msgSendSuper2 (from libobjc)
+                 (undefined) external _objc_msgSend_stret (from libobjc)
+                 (undefined) external _objc_opt_new (from libobjc)
+                 (undefined) external _objc_release (from libobjc)
+                 (undefined) external _objc_retain (from libobjc)
+                 (undefined) external _objc_retainAutoreleasedReturnValue (from libobjc)
+                 (undefined) external _objc_storeStrong (from libobjc)
+                 (undefined) external _os_log_type_enabled (from libSystem)
+                 (undefined) external _realpath$DARWIN_EXTSN (from libSystem)
+                 (undefined) external _sandbox_init_with_parameters (from libSystem)
+
+/System/Library/Frameworks/CoreGraphics.framework/Versions/Current/XPCServices/CGPDFService.xpc/Contents/MacOS/CGPDFService (for architecture x86_64h):
+000000010000187b (__TEXT,__text) non-external -[CGPDFDocumentImpl .cxx_construct]
+0000000100001837 (__TEXT,__text) non-external -[CGPDFDocumentImpl .cxx_destruct]
+000000010000127d (__TEXT,__text) non-external -[CGPDFDocumentImpl getInfo:]
+000000010000154d (__TEXT,__text) non-external -[CGPDFDocumentImpl getIsEncrypted:]
+0000000100001469 (__TEXT,__text) non-external -[CGPDFDocumentImpl getIsUnlocked:]
+00000001000011b9 (__TEXT,__text) non-external -[CGPDFDocumentImpl getPageAtIndex:]
+0000000100001715 (__TEXT,__text) non-external -[CGPDFDocumentImpl getPageAtIndex:completion:]
+0000000100001631 (__TEXT,__text) non-external -[CGPDFDocumentImpl getPageCount:]
+000000010000136e (__TEXT,__text) non-external -[CGPDFDocumentImpl getVersion:]
+0000000100000fb0 (__TEXT,__text) non-external -[CGPDFDocumentImpl initWithData:requestQueue:]
+000000010000284e (__TEXT,__text) non-external -[CGPDFPageImpl .cxx_destruct]
+0000000100001f63 (__TEXT,__text) non-external -[CGPDFPageImpl dealloc]
+0000000100002375 (__TEXT,__text) non-external -[CGPDFPageImpl drawWithBox:size:colorSpace:options:completion:]
+0000000100002258 (__TEXT,__text) non-external -[CGPDFPageImpl getBoxRect:completion:]
+0000000100002046 (__TEXT,__text) non-external -[CGPDFPageImpl getIdentifier:]
+000000010000274d (__TEXT,__text) non-external -[CGPDFPageImpl getPageText:]
+000000010000216d (__TEXT,__text) non-external -[CGPDFPageImpl getRotation:]
+0000000100001e90 (__TEXT,__text) non-external -[CGPDFPageImpl initWithCGPDFPage:requestQueue:]
+0000000100002028 (__TEXT,__text) non-external -[CGPDFPageImpl rectForBox:]
+0000000100001feb (__TEXT,__text) non-external -[CGPDFPageImpl rotation]
+0000000100002b9a (__TEXT,__text) non-external -[CGPDFService .cxx_destruct]
+00000001000029ab (__TEXT,__text) non-external -[CGPDFService init]
+0000000100002a17 (__TEXT,__text) non-external -[CGPDFService newPDFDocumentWithData:withReply:]
+0000000100002876 (__TEXT,__text) non-external -[ServiceDelegate listener:shouldAcceptNewConnection:]
+0000000100003058 (__TEXT,__gcc_except_tab) non-external GCC_except_table0
+000000010000316c (__TEXT,__gcc_except_tab) non-external GCC_except_table0
+0000000100003194 (__TEXT,__gcc_except_tab) non-external GCC_except_table1
+00000001000030e8 (__TEXT,__gcc_except_tab) non-external GCC_except_table10
+00000001000031d8 (__TEXT,__gcc_except_tab) non-external GCC_except_table11
+00000001000030fc (__TEXT,__gcc_except_tab) non-external GCC_except_table12
+00000001000031ec (__TEXT,__gcc_except_tab) non-external GCC_except_table13
+0000000100003110 (__TEXT,__gcc_except_tab) non-external GCC_except_table14
+0000000100003200 (__TEXT,__gcc_except_tab) non-external GCC_except_table14
+0000000100003250 (__TEXT,__gcc_except_tab) non-external GCC_except_table15
+0000000100003124 (__TEXT,__gcc_except_tab) non-external GCC_except_table16
+0000000100003260 (__TEXT,__gcc_except_tab) non-external GCC_except_table16
+0000000100003138 (__TEXT,__gcc_except_tab) non-external GCC_except_table17
+0000000100003148 (__TEXT,__gcc_except_tab) non-external GCC_except_table18
+0000000100003270 (__TEXT,__gcc_except_tab) non-external GCC_except_table19
+00000001000030b0 (__TEXT,__gcc_except_tab) non-external GCC_except_table2
+0000000100003284 (__TEXT,__gcc_except_tab) non-external GCC_except_table20
+000000010000315c (__TEXT,__gcc_except_tab) non-external GCC_except_table23
+00000001000030c0 (__TEXT,__gcc_except_tab) non-external GCC_except_table4
+00000001000031b0 (__TEXT,__gcc_except_tab) non-external GCC_except_table5
+00000001000030d4 (__TEXT,__gcc_except_tab) non-external GCC_except_table8
+00000001000031c4 (__TEXT,__gcc_except_tab) non-external GCC_except_table9
+                 (undefined) external _CFRelease (from CoreFoundation)
+                 (undefined) external _CGBitmapContextCreateWithShareableMappedData (from CoreGraphics)
+                 (undefined) external _CGBitmapContextGetData (from CoreGraphics)
+                 (undefined) external _CGColorSpaceCreateWithName (from CoreGraphics)
+                 (undefined) external _CGColorSpaceCreateWithPropertyList (from CoreGraphics)
+                 (undefined) external _CGContextClear (from CoreGraphics)
+                 (undefined) external _CGContextDrawPDFPageWithOptions (from CoreGraphics)
+                 (undefined) external _CGDataProviderCreateWithCFData (from CoreGraphics)
+                 (undefined) external _CGPDFDocumentCopyInfoDictionary (from CoreGraphics)
+                 (undefined) external _CGPDFDocumentCreateWithProvider (from CoreGraphics)
+                 (undefined) external _CGPDFDocumentGetNumberOfPages (from CoreGraphics)
+                 (undefined) external _CGPDFDocumentGetPage (from CoreGraphics)
+                 (undefined) external _CGPDFDocumentGetVersion (from CoreGraphics)
+                 (undefined) external _CGPDFDocumentIsEncrypted (from CoreGraphics)
+                 (undefined) external _CGPDFDocumentIsUnlocked (from CoreGraphics)
+                 (undefined) external _CGPDFPageCopyString (from CoreGraphics)
+                 (undefined) external _CGPDFPageGetBoxRect (from CoreGraphics)
+                 (undefined) external _CGPDFPageGetRotationAngle (from CoreGraphics)
+                 (undefined) external _CGPDFPageRelease (from CoreGraphics)
+                 (undefined) external _CGPDFPageRetain (from CoreGraphics)
+0000000100003048 (__TEXT,__const) non-external (was a private external) _CGPDFServiceVersionNumber
+0000000100003010 (__TEXT,__const) non-external (was a private external) _CGPDFServiceVersionString
+0000000100001bec (__TEXT,__text) non-external (was a private external) _EnterSandbox
+0000000100002baa (__TEXT,__text) non-external _EnterSandbox.cold.1
+0000000100002c10 (__TEXT,__text) non-external _EnterSandbox.cold.2
+0000000100002c78 (__TEXT,__text) non-external _EnterSandbox.cold.3
+0000000100002ce0 (__TEXT,__text) non-external _EnterSandbox.cold.4
+0000000100002d48 (__TEXT,__text) non-external _EnterSandbox.cold.5
+0000000100002db0 (__TEXT,__text) non-external _EnterSandbox.cold.6
+0000000100002e18 (__TEXT,__text) non-external _EnterSandbox.cold.7
+0000000100002e7c (__TEXT,__text) non-external _EnterSandbox.cold.8
+                 (undefined) external _NSLog (from Foundation)
+                 (undefined) external _OBJC_CLASS_$_CGBitmapFormat (from CoreGraphics)
+0000000100005ce0 (__DATA,__objc_data) non-external (was a private external) _OBJC_CLASS_$_CGPDFDocumentImpl
+0000000100005d30 (__DATA,__objc_data) non-external (was a private external) _OBJC_CLASS_$_CGPDFPageImpl
+0000000100005dd0 (__DATA,__objc_data) non-external (was a private external) _OBJC_CLASS_$_CGPDFService
+                 (undefined) external _OBJC_CLASS_$_CGRemotePDFServiceProxy (from CoreGraphics)
+                 (undefined) external _OBJC_CLASS_$_NSObject (from libobjc)
+                 (undefined) external _OBJC_CLASS_$_NSOperationQueue (from Foundation)
+                 (undefined) external _OBJC_CLASS_$_NSUUID (from Foundation)
+                 (undefined) external _OBJC_CLASS_$_NSXPCListener (from Foundation)
+0000000100005da8 (__DATA,__objc_data) non-external (was a private external) _OBJC_CLASS_$_ServiceDelegate
+0000000100005cb0 (__DATA,__objc_ivar) non-external (was a private external) _OBJC_IVAR_$_CGPDFDocumentImpl._cgDocument
+0000000100005cb8 (__DATA,__objc_ivar) non-external (was a private external) _OBJC_IVAR_$_CGPDFDocumentImpl._pages
+0000000100005ca8 (__DATA,__objc_ivar) non-external (was a private external) _OBJC_IVAR_$_CGPDFDocumentImpl._requestQueue
+0000000100005cd0 (__DATA,__objc_ivar) non-external (was a private external) _OBJC_IVAR_$_CGPDFPageImpl._cgPage
+0000000100005cc0 (__DATA,__objc_ivar) non-external (was a private external) _OBJC_IVAR_$_CGPDFPageImpl._requestQueue
+0000000100005cc8 (__DATA,__objc_ivar) non-external (was a private external) _OBJC_IVAR_$_CGPDFPageImpl._uuid
+0000000100005cd8 (__DATA,__objc_ivar) non-external (was a private external) _OBJC_IVAR_$_CGPDFService._requestQueue
+0000000100005d08 (__DATA,__objc_data) non-external (was a private external) _OBJC_METACLASS_$_CGPDFDocumentImpl
+0000000100005d58 (__DATA,__objc_data) non-external (was a private external) _OBJC_METACLASS_$_CGPDFPageImpl
+0000000100005df8 (__DATA,__objc_data) non-external (was a private external) _OBJC_METACLASS_$_CGPDFService
+                 (undefined) external _OBJC_METACLASS_$_NSObject (from libobjc)
+0000000100005d80 (__DATA,__objc_data) non-external (was a private external) _OBJC_METACLASS_$_ServiceDelegate
+                 (undefined) external __Block_object_assign (from libSystem)
+                 (undefined) external __CFPrefsSetDirectModeEnabled (from CoreFoundation)
+                 (undefined) external __CFPrefsSetReadOnly (from CoreFoundation)
+                 (undefined) external __NSConcreteStackBlock (from libSystem)
+0000000100005418 (__DATA,__objc_const) non-external __OBJC_$_INSTANCE_METHODS_CGPDFDocumentImpl
+0000000100005728 (__DATA,__objc_const) non-external __OBJC_$_INSTANCE_METHODS_CGPDFPageImpl
+0000000100005b18 (__DATA,__objc_const) non-external __OBJC_$_INSTANCE_METHODS_CGPDFService
+00000001000059c8 (__DATA,__objc_const) non-external __OBJC_$_INSTANCE_METHODS_ServiceDelegate
+0000000100005510 (__DATA,__objc_const) non-external __OBJC_$_INSTANCE_VARIABLES_CGPDFDocumentImpl
+0000000100005820 (__DATA,__objc_const) non-external __OBJC_$_INSTANCE_VARIABLES_CGPDFPageImpl
+0000000100005b68 (__DATA,__objc_const) non-external __OBJC_$_INSTANCE_VARIABLES_CGPDFService
+0000000100005578 (__DATA,__objc_const) non-external __OBJC_$_PROP_LIST_CGPDFDocumentImpl
+0000000100005888 (__DATA,__objc_const) non-external __OBJC_$_PROP_LIST_CGPDFPageImpl
+0000000100005b90 (__DATA,__objc_const) non-external __OBJC_$_PROP_LIST_CGPDFService
+00000001000051f0 (__DATA,__objc_const) non-external __OBJC_$_PROP_LIST_NSObject
+00000001000059e8 (__DATA,__objc_const) non-external __OBJC_$_PROP_LIST_ServiceDelegate
+00000001000052f0 (__DATA,__objc_const) non-external __OBJC_$_PROTOCOL_INSTANCE_METHODS_CGRemotePDFDocumentProtocol
+0000000100005620 (__DATA,__objc_const) non-external __OBJC_$_PROTOCOL_INSTANCE_METHODS_CGRemotePDFPageProtocol
+0000000100005a90 (__DATA,__objc_const) non-external __OBJC_$_PROTOCOL_INSTANCE_METHODS_CGRemotePDFServiceProtocol
+0000000100005000 (__DATA,__objc_const) non-external __OBJC_$_PROTOCOL_INSTANCE_METHODS_NSObject
+00000001000051d0 (__DATA,__objc_const) non-external __OBJC_$_PROTOCOL_INSTANCE_METHODS_OPT_NSObject
+0000000100005940 (__DATA,__objc_const) non-external __OBJC_$_PROTOCOL_INSTANCE_METHODS_OPT_NSXPCListenerDelegate
+0000000100005388 (__DATA,__objc_const) non-external __OBJC_$_PROTOCOL_METHOD_TYPES_CGRemotePDFDocumentProtocol
+00000001000056a0 (__DATA,__objc_const) non-external __OBJC_$_PROTOCOL_METHOD_TYPES_CGRemotePDFPageProtocol
+0000000100005ab0 (__DATA,__objc_const) non-external __OBJC_$_PROTOCOL_METHOD_TYPES_CGRemotePDFServiceProtocol
+0000000100005238 (__DATA,__objc_const) non-external __OBJC_$_PROTOCOL_METHOD_TYPES_NSObject
+0000000100005960 (__DATA,__objc_const) non-external __OBJC_$_PROTOCOL_METHOD_TYPES_NSXPCListenerDelegate
+00000001000052d8 (__DATA,__objc_const) non-external __OBJC_$_PROTOCOL_REFS_CGRemotePDFDocumentProtocol
+0000000100005608 (__DATA,__objc_const) non-external __OBJC_$_PROTOCOL_REFS_CGRemotePDFPageProtocol
+0000000100005a78 (__DATA,__objc_const) non-external __OBJC_$_PROTOCOL_REFS_CGRemotePDFServiceProtocol
+0000000100005928 (__DATA,__objc_const) non-external __OBJC_$_PROTOCOL_REFS_NSXPCListenerDelegate
+00000001000053b8 (__DATA,__objc_const) non-external __OBJC_CLASS_PROTOCOLS_$_CGPDFDocumentImpl
+00000001000056c8 (__DATA,__objc_const) non-external __OBJC_CLASS_PROTOCOLS_$_CGPDFPageImpl
+0000000100005ab8 (__DATA,__objc_const) non-external __OBJC_CLASS_PROTOCOLS_$_CGPDFService
+0000000100005968 (__DATA,__objc_const) non-external __OBJC_CLASS_PROTOCOLS_$_ServiceDelegate
+00000001000055c0 (__DATA,__objc_const) non-external __OBJC_CLASS_RO_$_CGPDFDocumentImpl
+00000001000058e0 (__DATA,__objc_const) non-external __OBJC_CLASS_RO_$_CGPDFPageImpl
+0000000100005bd8 (__DATA,__objc_const) non-external __OBJC_CLASS_RO_$_CGPDFService
+0000000100005a30 (__DATA,__objc_const) non-external __OBJC_CLASS_RO_$_ServiceDelegate
+00000001000043d8 (__DATA_CONST,__objc_protolist) non-external (was a private external) __OBJC_LABEL_PROTOCOL_$_CGRemotePDFDocumentProtocol
+00000001000043e0 (__DATA_CONST,__objc_protolist) non-external (was a private external) __OBJC_LABEL_PROTOCOL_$_CGRemotePDFPageProtocol
+00000001000043f0 (__DATA_CONST,__objc_protolist) non-external (was a private external) __OBJC_LABEL_PROTOCOL_$_CGRemotePDFServiceProtocol
+00000001000043d0 (__DATA_CONST,__objc_protolist) non-external (was a private external) __OBJC_LABEL_PROTOCOL_$_NSObject
+00000001000043e8 (__DATA_CONST,__objc_protolist) non-external (was a private external) __OBJC_LABEL_PROTOCOL_$_NSXPCListenerDelegate
+00000001000053d0 (__DATA,__objc_const) non-external __OBJC_METACLASS_RO_$_CGPDFDocumentImpl
+00000001000056e0 (__DATA,__objc_const) non-external __OBJC_METACLASS_RO_$_CGPDFPageImpl
+0000000100005ad0 (__DATA,__objc_const) non-external __OBJC_METACLASS_RO_$_CGPDFService
+0000000100005980 (__DATA,__objc_const) non-external __OBJC_METACLASS_RO_$_ServiceDelegate
+0000000100005e80 (__DATA,__data) non-external (was a private external) __OBJC_PROTOCOL_$_CGRemotePDFDocumentProtocol
+0000000100005ee0 (__DATA,__data) non-external (was a private external) __OBJC_PROTOCOL_$_CGRemotePDFPageProtocol
+0000000100005fa0 (__DATA,__data) non-external (was a private external) __OBJC_PROTOCOL_$_CGRemotePDFServiceProtocol
+0000000100005e20 (__DATA,__data) non-external (was a private external) __OBJC_PROTOCOL_$_NSObject
+0000000100005f40 (__DATA,__data) non-external (was a private external) __OBJC_PROTOCOL_$_NSXPCListenerDelegate
+                 (undefined) external __Unwind_Resume (from libSystem)
+0000000100002698 (__TEXT,__text) non-external (was a private external) __ZN10applesauce2CF9ObjectRefIP12CGColorSpaceED1Ev
+000000010000119e (__TEXT,__text) non-external (was a private external) __ZN10applesauce2CF9ObjectRefIP14CGDataProviderED1Ev
+00000001000026b4 (__TEXT,__text) non-external (was a private external) __ZN10applesauce2CF9ObjectRefIP9CGContextED1Ev
+0000000100001a34 (__TEXT,__text) non-external (was a private external) __ZNKSt3__16vectorIU8__strongP13CGPDFPageImplNS_9allocatorIS3_EEE20__throw_length_errorB8ue170006Ev
+                 (undefined) external __ZNSt11logic_errorC2EPKc (from libc++)
+0000000100001aa6 (__TEXT,__text) non-external (was a private external) __ZNSt12length_errorC1B8ue170006EPKc
+                 (undefined) external __ZNSt12length_errorD1Ev (from libc++)
+                 (undefined) external __ZNSt20bad_array_new_lengthC1Ev (from libc++)
+                 (undefined) external __ZNSt20bad_array_new_lengthD1Ev (from libc++)
+0000000100001b28 (__TEXT,__text) non-external (was a private external) __ZNSt3__114__split_bufferIU8__strongP13CGPDFPageImplRNS_9allocatorIS3_EEED2Ev
+0000000100001ac9 (__TEXT,__text) non-external (was a private external) __ZNSt3__119__allocate_at_leastB8ue170006INS_9allocatorIU8__strongP13CGPDFPageImplEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS8_m
+0000000100001a5b (__TEXT,__text) non-external (was a private external) __ZNSt3__120__throw_length_errorB8ue170006EPKc
+0000000100001b80 (__TEXT,__text) non-external (was a private external) __ZNSt3__16vectorIU8__strongP13CGPDFPageImplNS_9allocatorIS3_EEE16__destroy_vectorclB8ue170006Ev
+0000000100001138 (__TEXT,__text) non-external (was a private external) __ZNSt3__16vectorIU8__strongP13CGPDFPageImplNS_9allocatorIS3_EEE6resizeEmRU8__strongKS2_
+0000000100001890 (__TEXT,__text) non-external (was a private external) __ZNSt3__16vectorIU8__strongP13CGPDFPageImplNS_9allocatorIS3_EEE8__appendEmRU8__strongKS2_
+0000000100001af7 (__TEXT,__text) non-external (was a private external) __ZSt28__throw_bad_array_new_lengthB8ue170006v
+                 (undefined) external __ZSt9terminatev (from libc++)
+                 (undefined) weak external __ZTISt12length_error (from libc++)
+                 (undefined) external __ZTISt20bad_array_new_length (from libc++)
+                 (undefined) external __ZTVSt12length_error (from libc++)
+                 (undefined) weak external __ZdlPv (from libc++)
+                 (undefined) weak external __Znwm (from libc++)
+0000000100001338 (__TEXT,__text) non-external ___29-[CGPDFDocumentImpl getInfo:]_block_invoke
+0000000100002808 (__TEXT,__text) non-external ___29-[CGPDFPageImpl getPageText:]_block_invoke
+0000000100002228 (__TEXT,__text) non-external ___29-[CGPDFPageImpl getRotation:]_block_invoke
+0000000100002101 (__TEXT,__text) non-external ___31-[CGPDFPageImpl getIdentifier:]_block_invoke
+0000000100001429 (__TEXT,__text) non-external ___32-[CGPDFDocumentImpl getVersion:]_block_invoke
+00000001000016ec (__TEXT,__text) non-external ___34-[CGPDFDocumentImpl getPageCount:]_block_invoke
+0000000100001524 (__TEXT,__text) non-external ___35-[CGPDFDocumentImpl getIsUnlocked:]_block_invoke
+0000000100001608 (__TEXT,__text) non-external ___36-[CGPDFDocumentImpl getIsEncrypted:]_block_invoke
+0000000100002320 (__TEXT,__text) non-external ___39-[CGPDFPageImpl getBoxRect:completion:]_block_invoke
+00000001000017de (__TEXT,__text) non-external ___47-[CGPDFDocumentImpl getPageAtIndex:completion:]_block_invoke
+0000000100002ade (__TEXT,__text) non-external ___49-[CGPDFService newPDFDocumentWithData:withReply:]_block_invoke
+00000001000024d3 (__TEXT,__text) non-external ___64-[CGPDFPageImpl drawWithBox:size:colorSpace:options:completion:]_block_invoke
+                 (undefined) external ___CFConstantStringClassReference (from CoreFoundation)
+0000000100004240 (__DATA_CONST,__const) non-external (was a private external) ___block_descriptor_48_ea8_32s40bs_e5_v8?0l
+00000001000042a0 (__DATA_CONST,__const) non-external (was a private external) ___block_descriptor_52_ea8_32s40bs_e5_v8?0l
+0000000100004300 (__DATA_CONST,__const) non-external (was a private external) ___block_descriptor_56_e8_32s40s48bs_e5_v8?0l
+0000000100004270 (__DATA_CONST,__const) non-external (was a private external) ___block_descriptor_56_ea8_32s40bs_e5_v8?0l
+00000001000042d0 (__DATA_CONST,__const) non-external (was a private external) ___block_descriptor_84_ea8_32s40s48s56bs_e5_v8?0l
+                 (undefined) external ___bzero (from libSystem)
+0000000100001a50 (__TEXT,__text) non-external (was a private external) ___clang_call_terminate
+0000000100002b2a (__TEXT,__text) non-external (was a private external) ___copy_helper_block_e8_32s40s48b
+0000000100002118 (__TEXT,__text) non-external (was a private external) ___copy_helper_block_ea8_32s40b
+00000001000026cf (__TEXT,__text) non-external (was a private external) ___copy_helper_block_ea8_32s40s48s56b
+                 (undefined) external ___cxa_allocate_exception (from libc++)
+                 (undefined) external ___cxa_begin_catch (from libc++)
+                 (undefined) external ___cxa_free_exception (from libc++)
+                 (undefined) external ___cxa_throw (from libc++)
+0000000100002b6e (__TEXT,__text) non-external (was a private external) ___destroy_helper_block_e8_32s40s48s
+0000000100002148 (__TEXT,__text) non-external (was a private external) ___destroy_helper_block_ea8_32s40s
+000000010000271a (__TEXT,__text) non-external (was a private external) ___destroy_helper_block_ea8_32s40s48s56s
+                 (undefined) external ___error (from libSystem)
+                 (undefined) external ___gxx_personality_v0 (from libc++)
+                 (undefined) external ___stack_chk_fail (from libSystem)
+                 (undefined) external ___stack_chk_guard (from libSystem)
+                 (undefined) external __dispatch_data_destructor_munmap (from libSystem)
+0000000100000000 (__TEXT,__text) [referenced dynamically] external __mh_execute_header
+                 (undefined) external __objc_empty_cache (from libobjc)
+                 (undefined) external __os_log_debug_impl (from libSystem)
+                 (undefined) external __os_log_default (from libSystem)
+                 (undefined) external __os_log_error_impl (from libSystem)
+                 (undefined) external __set_user_dir_suffix (from libSystem)
+                 (undefined) external _confstr (from libSystem)
+                 (undefined) external _dispatch_data_create (from libSystem)
+                 (undefined) external _exit (from libSystem)
+                 (undefined) external _free (from libSystem)
+                 (undefined) external _getenv (from libSystem)
+                 (undefined) external _getpwuid (from libSystem)
+                 (undefined) external _getuid (from libSystem)
+                 (undefined) external _kCGColorSpaceSRGB (from CoreGraphics)
+0000000100002919 (__TEXT,__text) non-external (was a private external) _main
+                 (undefined) external _objc_alloc (from libobjc)
+                 (undefined) external _objc_alloc_init (from libobjc)
+                 (undefined) external _objc_autoreleaseReturnValue (from libobjc)
+                 (undefined) external _objc_msgSend (from libobjc)
+                 (undefined) external _objc_msgSendSuper2 (from libobjc)
+                 (undefined) external _objc_msgSend_stret (from libobjc)
+                 (undefined) external _objc_opt_new (from libobjc)
+                 (undefined) external _objc_release (from libobjc)
+                 (undefined) external _objc_retain (from libobjc)
+                 (undefined) external _objc_retainAutoreleasedReturnValue (from libobjc)
+                 (undefined) external _objc_storeStrong (from libobjc)
+                 (undefined) external _os_log_type_enabled (from libSystem)
+                 (undefined) external _realpath$DARWIN_EXTSN (from libSystem)
+                 (undefined) external _sandbox_init_with_parameters (from libSystem)
+
+/System/Library/Frameworks/CoreGraphics.framework/Versions/Current/XPCServices/CGPDFService.xpc/Contents/MacOS/CGPDFService (for architecture arm64e):
+0000000100005290 (__TEXT,__text) non-external -[CGPDFDocumentImpl .cxx_construct]
+000000010000523c (__TEXT,__text) non-external -[CGPDFDocumentImpl .cxx_destruct]
+0000000100004b48 (__TEXT,__text) non-external -[CGPDFDocumentImpl getInfo:]
+0000000100004ef4 (__TEXT,__text) non-external -[CGPDFDocumentImpl getIsEncrypted:]
+0000000100004df0 (__TEXT,__text) non-external -[CGPDFDocumentImpl getIsUnlocked:]
+0000000100004a74 (__TEXT,__text) non-external -[CGPDFDocumentImpl getPageAtIndex:]
+00000001000050fc (__TEXT,__text) non-external -[CGPDFDocumentImpl getPageAtIndex:completion:]
+0000000100004ff8 (__TEXT,__text) non-external -[CGPDFDocumentImpl getPageCount:]
+0000000100004ce0 (__TEXT,__text) non-external -[CGPDFDocumentImpl getVersion:]
+000000010000482c (__TEXT,__text) non-external -[CGPDFDocumentImpl initWithData:requestQueue:]
+0000000100006234 (__TEXT,__text) non-external -[CGPDFPageImpl .cxx_destruct]
+000000010000593c (__TEXT,__text) non-external -[CGPDFPageImpl dealloc]
+0000000100005cf8 (__TEXT,__text) non-external -[CGPDFPageImpl drawWithBox:size:colorSpace:options:completion:]
+0000000100005be4 (__TEXT,__text) non-external -[CGPDFPageImpl getBoxRect:completion:]
+0000000100005a10 (__TEXT,__text) non-external -[CGPDFPageImpl getIdentifier:]
+0000000100006110 (__TEXT,__text) non-external -[CGPDFPageImpl getPageText:]
+0000000100005ae4 (__TEXT,__text) non-external -[CGPDFPageImpl getRotation:]
+000000010000585c (__TEXT,__text) non-external -[CGPDFPageImpl initWithCGPDFPage:requestQueue:]
+0000000100005a04 (__TEXT,__text) non-external -[CGPDFPageImpl rectForBox:]
+00000001000059b8 (__TEXT,__text) non-external -[CGPDFPageImpl rotation]
+00000001000065c8 (__TEXT,__text) non-external -[CGPDFService .cxx_destruct]
+0000000100006384 (__TEXT,__text) non-external -[CGPDFService init]
+00000001000063f8 (__TEXT,__text) non-external -[CGPDFService newPDFDocumentWithData:withReply:]
+0000000100006278 (__TEXT,__text) non-external -[ServiceDelegate listener:shouldAcceptNewConnection:]
+0000000100007050 (__TEXT,__gcc_except_tab) non-external GCC_except_table0
+0000000100007164 (__TEXT,__gcc_except_tab) non-external GCC_except_table0
+000000010000718c (__TEXT,__gcc_except_tab) non-external GCC_except_table1
+00000001000070e0 (__TEXT,__gcc_except_tab) non-external GCC_except_table10
+00000001000071d0 (__TEXT,__gcc_except_tab) non-external GCC_except_table11
+00000001000070f4 (__TEXT,__gcc_except_tab) non-external GCC_except_table12
+00000001000071e4 (__TEXT,__gcc_except_tab) non-external GCC_except_table13
+0000000100007108 (__TEXT,__gcc_except_tab) non-external GCC_except_table14
+00000001000071fc (__TEXT,__gcc_except_tab) non-external GCC_except_table14
+000000010000724c (__TEXT,__gcc_except_tab) non-external GCC_except_table15
+000000010000711c (__TEXT,__gcc_except_tab) non-external GCC_except_table16
+000000010000725c (__TEXT,__gcc_except_tab) non-external GCC_except_table16
+0000000100007130 (__TEXT,__gcc_except_tab) non-external GCC_except_table17
+0000000100007140 (__TEXT,__gcc_except_tab) non-external GCC_except_table18
+000000010000726c (__TEXT,__gcc_except_tab) non-external GCC_except_table19
+00000001000070a8 (__TEXT,__gcc_except_tab) non-external GCC_except_table2
+0000000100007280 (__TEXT,__gcc_except_tab) non-external GCC_except_table20
+0000000100007154 (__TEXT,__gcc_except_tab) non-external GCC_except_table23
+00000001000070b8 (__TEXT,__gcc_except_tab) non-external GCC_except_table4
+00000001000071a8 (__TEXT,__gcc_except_tab) non-external GCC_except_table5
+00000001000070cc (__TEXT,__gcc_except_tab) non-external GCC_except_table8
+00000001000071bc (__TEXT,__gcc_except_tab) non-external GCC_except_table9
+                 (undefined) external _CFRelease (from CoreFoundation)
+                 (undefined) external _CGBitmapContextCreateWithShareableMappedData (from CoreGraphics)
+                 (undefined) external _CGBitmapContextGetData (from CoreGraphics)
+                 (undefined) external _CGColorSpaceCreateWithName (from CoreGraphics)
+                 (undefined) external _CGColorSpaceCreateWithPropertyList (from CoreGraphics)
+                 (undefined) external _CGContextClear (from CoreGraphics)
+                 (undefined) external _CGContextDrawPDFPageWithOptions (from CoreGraphics)
+                 (undefined) external _CGDataProviderCreateWithCFData (from CoreGraphics)
+                 (undefined) external _CGPDFDocumentCopyInfoDictionary (from CoreGraphics)
+                 (undefined) external _CGPDFDocumentCreateWithProvider (from CoreGraphics)
+                 (undefined) external _CGPDFDocumentGetNumberOfPages (from CoreGraphics)
+                 (undefined) external _CGPDFDocumentGetPage (from CoreGraphics)
+                 (undefined) external _CGPDFDocumentGetVersion (from CoreGraphics)
+                 (undefined) external _CGPDFDocumentIsEncrypted (from CoreGraphics)
+                 (undefined) external _CGPDFDocumentIsUnlocked (from CoreGraphics)
+                 (undefined) external _CGPDFPageCopyString (from CoreGraphics)
+                 (undefined) external _CGPDFPageGetBoxRect (from CoreGraphics)
+                 (undefined) external _CGPDFPageGetRotationAngle (from CoreGraphics)
+                 (undefined) external _CGPDFPageRelease (from CoreGraphics)
+                 (undefined) external _CGPDFPageRetain (from CoreGraphics)
+0000000100007040 (__TEXT,__const) non-external (was a private external) _CGPDFServiceVersionNumber
+0000000100007008 (__TEXT,__const) non-external (was a private external) _CGPDFServiceVersionString
+00000001000055e8 (__TEXT,__text) non-external (was a private external) _EnterSandbox
+00000001000065d4 (__TEXT,__text) non-external _EnterSandbox.cold.1
+0000000100006648 (__TEXT,__text) non-external _EnterSandbox.cold.2
+00000001000066b4 (__TEXT,__text) non-external _EnterSandbox.cold.3
+0000000100006720 (__TEXT,__text) non-external _EnterSandbox.cold.4
+000000010000678c (__TEXT,__text) non-external _EnterSandbox.cold.5
+00000001000067f8 (__TEXT,__text) non-external _EnterSandbox.cold.6
+0000000100006864 (__TEXT,__text) non-external _EnterSandbox.cold.7
+00000001000068e8 (__TEXT,__text) non-external _EnterSandbox.cold.8
+                 (undefined) external _NSLog (from Foundation)
+                 (undefined) external _OBJC_CLASS_$_CGBitmapFormat (from CoreGraphics)
+000000010000cae0 (__DATA,__objc_data) non-external (was a private external) _OBJC_CLASS_$_CGPDFDocumentImpl
+000000010000cb30 (__DATA,__objc_data) non-external (was a private external) _OBJC_CLASS_$_CGPDFPageImpl
+000000010000cbd0 (__DATA,__objc_data) non-external (was a private external) _OBJC_CLASS_$_CGPDFService
+                 (undefined) external _OBJC_CLASS_$_CGRemotePDFServiceProxy (from CoreGraphics)
+                 (undefined) external _OBJC_CLASS_$_NSObject (from libobjc)
+                 (undefined) external _OBJC_CLASS_$_NSOperationQueue (from Foundation)
+                 (undefined) external _OBJC_CLASS_$_NSUUID (from Foundation)
+                 (undefined) external _OBJC_CLASS_$_NSXPCListener (from Foundation)
+000000010000cba8 (__DATA,__objc_data) non-external (was a private external) _OBJC_CLASS_$_ServiceDelegate
+000000010000cac4 (__DATA,__objc_ivar) non-external (was a private external) _OBJC_IVAR_$_CGPDFDocumentImpl._cgDocument
+000000010000cac8 (__DATA,__objc_ivar) non-external (was a private external) _OBJC_IVAR_$_CGPDFDocumentImpl._pages
+000000010000cac0 (__DATA,__objc_ivar) non-external (was a private external) _OBJC_IVAR_$_CGPDFDocumentImpl._requestQueue
+000000010000cad4 (__DATA,__objc_ivar) non-external (was a private external) _OBJC_IVAR_$_CGPDFPageImpl._cgPage
+000000010000cacc (__DATA,__objc_ivar) non-external (was a private external) _OBJC_IVAR_$_CGPDFPageImpl._requestQueue
+000000010000cad0 (__DATA,__objc_ivar) non-external (was a private external) _OBJC_IVAR_$_CGPDFPageImpl._uuid
+000000010000cad8 (__DATA,__objc_ivar) non-external (was a private external) _OBJC_IVAR_$_CGPDFService._requestQueue
+000000010000cb08 (__DATA,__objc_data) non-external (was a private external) _OBJC_METACLASS_$_CGPDFDocumentImpl
+000000010000cb58 (__DATA,__objc_data) non-external (was a private external) _OBJC_METACLASS_$_CGPDFPageImpl
+000000010000cbf8 (__DATA,__objc_data) non-external (was a private external) _OBJC_METACLASS_$_CGPDFService
+                 (undefined) external _OBJC_METACLASS_$_NSObject (from libobjc)
+000000010000cb80 (__DATA,__objc_data) non-external (was a private external) _OBJC_METACLASS_$_ServiceDelegate
+000000010000582c (__TEXT,__text) non-external _OUTLINED_FUNCTION_0
+0000000100005840 (__TEXT,__text) non-external _OUTLINED_FUNCTION_1
+                 (undefined) external __Block_object_assign (from libSystem)
+                 (undefined) external __CFPrefsSetDirectModeEnabled (from CoreFoundation)
+                 (undefined) external __CFPrefsSetReadOnly (from CoreFoundation)
+                 (undefined) external __NSConcreteStackBlock (from libSystem)
+0000000100006ec0 (__TEXT,__objc_methlist) non-external __OBJC_$_INSTANCE_METHODS_CGPDFDocumentImpl
+0000000100006f40 (__TEXT,__objc_methlist) non-external __OBJC_$_INSTANCE_METHODS_CGPDFPageImpl
+0000000100006fd8 (__TEXT,__objc_methlist) non-external __OBJC_$_INSTANCE_METHODS_CGPDFService
+0000000100006fc0 (__TEXT,__objc_methlist) non-external __OBJC_$_INSTANCE_METHODS_ServiceDelegate
+000000010000c418 (__DATA,__objc_const) non-external __OBJC_$_INSTANCE_VARIABLES_CGPDFDocumentImpl
+000000010000c630 (__DATA,__objc_const) non-external __OBJC_$_INSTANCE_VARIABLES_CGPDFPageImpl
+000000010000c908 (__DATA,__objc_const) non-external __OBJC_$_INSTANCE_VARIABLES_CGPDFService
+000000010000c480 (__DATA,__objc_const) non-external __OBJC_$_PROP_LIST_CGPDFDocumentImpl
+000000010000c698 (__DATA,__objc_const) non-external __OBJC_$_PROP_LIST_CGPDFPageImpl
+000000010000c930 (__DATA,__objc_const) non-external __OBJC_$_PROP_LIST_CGPDFService
+000000010000c1f0 (__DATA,__objc_const) non-external __OBJC_$_PROP_LIST_NSObject
+000000010000c7d8 (__DATA,__objc_const) non-external __OBJC_$_PROP_LIST_ServiceDelegate
+000000010000c2f0 (__DATA,__objc_const) non-external __OBJC_$_PROTOCOL_INSTANCE_METHODS_CGRemotePDFDocumentProtocol
+000000010000c528 (__DATA,__objc_const) non-external __OBJC_$_PROTOCOL_INSTANCE_METHODS_CGRemotePDFPageProtocol
+000000010000c880 (__DATA,__objc_const) non-external __OBJC_$_PROTOCOL_INSTANCE_METHODS_CGRemotePDFServiceProtocol
+000000010000c000 (__DATA,__objc_const) non-external __OBJC_$_PROTOCOL_INSTANCE_METHODS_NSObject
+000000010000c1d0 (__DATA,__objc_const) non-external __OBJC_$_PROTOCOL_INSTANCE_METHODS_OPT_NSObject
+000000010000c750 (__DATA,__objc_const) non-external __OBJC_$_PROTOCOL_INSTANCE_METHODS_OPT_NSXPCListenerDelegate
+000000010000c388 (__DATA,__objc_const) non-external __OBJC_$_PROTOCOL_METHOD_TYPES_CGRemotePDFDocumentProtocol
+000000010000c5a8 (__DATA,__objc_const) non-external __OBJC_$_PROTOCOL_METHOD_TYPES_CGRemotePDFPageProtocol
+000000010000c8a0 (__DATA,__objc_const) non-external __OBJC_$_PROTOCOL_METHOD_TYPES_CGRemotePDFServiceProtocol
+000000010000c238 (__DATA,__objc_const) non-external __OBJC_$_PROTOCOL_METHOD_TYPES_NSObject
+000000010000c770 (__DATA,__objc_const) non-external __OBJC_$_PROTOCOL_METHOD_TYPES_NSXPCListenerDelegate
+000000010000c2d8 (__DATA,__objc_const) non-external __OBJC_$_PROTOCOL_REFS_CGRemotePDFDocumentProtocol
+000000010000c510 (__DATA,__objc_const) non-external __OBJC_$_PROTOCOL_REFS_CGRemotePDFPageProtocol
+000000010000c868 (__DATA,__objc_const) non-external __OBJC_$_PROTOCOL_REFS_CGRemotePDFServiceProtocol
+000000010000c738 (__DATA,__objc_const) non-external __OBJC_$_PROTOCOL_REFS_NSXPCListenerDelegate
+000000010000c3b8 (__DATA,__objc_const) non-external __OBJC_CLASS_PROTOCOLS_$_CGPDFDocumentImpl
+000000010000c5d0 (__DATA,__objc_const) non-external __OBJC_CLASS_PROTOCOLS_$_CGPDFPageImpl
+000000010000c8a8 (__DATA,__objc_const) non-external __OBJC_CLASS_PROTOCOLS_$_CGPDFService
+000000010000c778 (__DATA,__objc_const) non-external __OBJC_CLASS_PROTOCOLS_$_ServiceDelegate
+000000010000c4c8 (__DATA,__objc_const) non-external __OBJC_CLASS_RO_$_CGPDFDocumentImpl
+000000010000c6f0 (__DATA,__objc_const) non-external __OBJC_CLASS_RO_$_CGPDFPageImpl
+000000010000c978 (__DATA,__objc_const) non-external __OBJC_CLASS_RO_$_CGPDFService
+000000010000c820 (__DATA,__objc_const) non-external __OBJC_CLASS_RO_$_ServiceDelegate
+00000001000083d0 (__DATA_CONST,__objc_protolist) non-external (was a private external) __OBJC_LABEL_PROTOCOL_$_CGRemotePDFDocumentProtocol
+00000001000083d8 (__DATA_CONST,__objc_protolist) non-external (was a private external) __OBJC_LABEL_PROTOCOL_$_CGRemotePDFPageProtocol
+00000001000083e8 (__DATA_CONST,__objc_protolist) non-external (was a private external) __OBJC_LABEL_PROTOCOL_$_CGRemotePDFServiceProtocol
+00000001000083c8 (__DATA_CONST,__objc_protolist) non-external (was a private external) __OBJC_LABEL_PROTOCOL_$_NSObject
+00000001000083e0 (__DATA_CONST,__objc_protolist) non-external (was a private external) __OBJC_LABEL_PROTOCOL_$_NSXPCListenerDelegate
+000000010000c3d0 (__DATA,__objc_const) non-external __OBJC_METACLASS_RO_$_CGPDFDocumentImpl
+000000010000c5e8 (__DATA,__objc_const) non-external __OBJC_METACLASS_RO_$_CGPDFPageImpl
+000000010000c8c0 (__DATA,__objc_const) non-external __OBJC_METACLASS_RO_$_CGPDFService
+000000010000c790 (__DATA,__objc_const) non-external __OBJC_METACLASS_RO_$_ServiceDelegate
+000000010000cc80 (__DATA,__data) non-external (was a private external) __OBJC_PROTOCOL_$_CGRemotePDFDocumentProtocol
+000000010000cce0 (__DATA,__data) non-external (was a private external) __OBJC_PROTOCOL_$_CGRemotePDFPageProtocol
+000000010000cda0 (__DATA,__data) non-external (was a private external) __OBJC_PROTOCOL_$_CGRemotePDFServiceProtocol
+000000010000cc20 (__DATA,__data) non-external (was a private external) __OBJC_PROTOCOL_$_NSObject
+000000010000cd40 (__DATA,__data) non-external (was a private external) __OBJC_PROTOCOL_$_NSXPCListenerDelegate
+                 (undefined) external __Unwind_Resume (from libSystem)
+0000000100006004 (__TEXT,__text) non-external (was a private external) __ZN10applesauce2CF9ObjectRefIP12CGColorSpaceED1Ev
+0000000100004a40 (__TEXT,__text) non-external (was a private external) __ZN10applesauce2CF9ObjectRefIP14CGDataProviderED1Ev
+0000000100006038 (__TEXT,__text) non-external (was a private external) __ZN10applesauce2CF9ObjectRefIP9CGContextED1Ev
+00000001000053f4 (__TEXT,__text) non-external (was a private external) __ZNKSt3__16vectorIU8__strongP13CGPDFPageImplNS_9allocatorIS3_EEE20__throw_length_errorB8ue170006Ev
+                 (undefined) external __ZNSt11logic_errorC2EPKc (from libc++)
+0000000100005474 (__TEXT,__text) non-external (was a private external) __ZNSt12length_errorC1B8ue170006EPKc
+                 (undefined) external __ZNSt12length_errorD1Ev (from libc++)
+                 (undefined) external __ZNSt20bad_array_new_lengthC1Ev (from libc++)
+                 (undefined) external __ZNSt20bad_array_new_lengthD1Ev (from libc++)
+0000000100005514 (__TEXT,__text) non-external (was a private external) __ZNSt3__114__split_bufferIU8__strongP13CGPDFPageImplRNS_9allocatorIS3_EEED2Ev
+00000001000054a8 (__TEXT,__text) non-external (was a private external) __ZNSt3__119__allocate_at_leastB8ue170006INS_9allocatorIU8__strongP13CGPDFPageImplEEEENS_19__allocation_resultINS_16allocator_traitsIT_E7pointerEEERS8_m
+0000000100005418 (__TEXT,__text) non-external (was a private external) __ZNSt3__120__throw_length_errorB8ue170006EPKc
+0000000100005568 (__TEXT,__text) non-external (was a private external) __ZNSt3__16vectorIU8__strongP13CGPDFPageImplNS_9allocatorIS3_EEE16__destroy_vectorclB8ue170006Ev
+00000001000049bc (__TEXT,__text) non-external (was a private external) __ZNSt3__16vectorIU8__strongP13CGPDFPageImplNS_9allocatorIS3_EEE6resizeEmRU8__strongKS2_
+000000010000529c (__TEXT,__text) non-external (was a private external) __ZNSt3__16vectorIU8__strongP13CGPDFPageImplNS_9allocatorIS3_EEE8__appendEmRU8__strongKS2_
+00000001000054e0 (__TEXT,__text) non-external (was a private external) __ZSt28__throw_bad_array_new_lengthB8ue170006v
+                 (undefined) external __ZSt9terminatev (from libc++)
+                 (undefined) weak external __ZTISt12length_error (from libc++)
+                 (undefined) external __ZTISt20bad_array_new_length (from libc++)
+                 (undefined) external __ZTVSt12length_error (from libc++)
+                 (undefined) weak external __ZdlPv (from libc++)
+                 (undefined) weak external __Znwm (from libc++)
+0000000100004c04 (__TEXT,__text) non-external ___29-[CGPDFDocumentImpl getInfo:]_block_invoke
+00000001000061cc (__TEXT,__text) non-external ___29-[CGPDFPageImpl getPageText:]_block_invoke
+0000000100005ba0 (__TEXT,__text) non-external ___29-[CGPDFPageImpl getRotation:]_block_invoke
+0000000100005acc (__TEXT,__text) non-external ___31-[CGPDFPageImpl getIdentifier:]_block_invoke
+0000000100004d9c (__TEXT,__text) non-external ___32-[CGPDFDocumentImpl getVersion:]_block_invoke
+00000001000050b4 (__TEXT,__text) non-external ___34-[CGPDFDocumentImpl getPageCount:]_block_invoke
+0000000100004eac (__TEXT,__text) non-external ___35-[CGPDFDocumentImpl getIsUnlocked:]_block_invoke
+0000000100004fb0 (__TEXT,__text) non-external ___36-[CGPDFDocumentImpl getIsEncrypted:]_block_invoke
+0000000100005cb0 (__TEXT,__text) non-external ___39-[CGPDFPageImpl getBoxRect:completion:]_block_invoke
+00000001000051c8 (__TEXT,__text) non-external ___47-[CGPDFDocumentImpl getPageAtIndex:completion:]_block_invoke
+00000001000064d0 (__TEXT,__text) non-external ___49-[CGPDFService newPDFDocumentWithData:withReply:]_block_invoke
+0000000100005e64 (__TEXT,__text) non-external ___64-[CGPDFPageImpl drawWithBox:size:colorSpace:options:completion:]_block_invoke
+                 (undefined) external ___CFConstantStringClassReference (from CoreFoundation)
+0000000100008238 (__DATA_CONST,__const) non-external (was a private external) ___block_descriptor_48_ea8_32s40bs_e5_v8?0l
+0000000100008298 (__DATA_CONST,__const) non-external (was a private external) ___block_descriptor_52_ea8_32s40bs_e5_v8?0l
+00000001000082f8 (__DATA_CONST,__const) non-external (was a private external) ___block_descriptor_56_e8_32s40s48bs_e5_v8?0l
+0000000100008268 (__DATA_CONST,__const) non-external (was a private external) ___block_descriptor_56_ea8_32s40bs_e5_v8?0l
+00000001000082c8 (__DATA_CONST,__const) non-external (was a private external) ___block_descriptor_84_ea8_32s40s48s56bs_e5_v8?0l
+000000010000540c (__TEXT,__text) non-external (was a private external) ___clang_call_terminate
+0000000100006534 (__TEXT,__text) non-external (was a private external) ___copy_helper_block_e8_32s40s48b
+0000000100004c5c (__TEXT,__text) non-external (was a private external) ___copy_helper_block_ea8_32s40b
+000000010000606c (__TEXT,__text) non-external (was a private external) ___copy_helper_block_ea8_32s40s48s56b
+                 (undefined) external ___cxa_allocate_exception (from libc++)
+                 (undefined) external ___cxa_begin_catch (from libc++)
+                 (undefined) external ___cxa_free_exception (from libc++)
+                 (undefined) external ___cxa_throw (from libc++)
+0000000100006584 (__TEXT,__text) non-external (was a private external) ___destroy_helper_block_e8_32s40s48s
+0000000100004ca4 (__TEXT,__text) non-external (was a private external) ___destroy_helper_block_ea8_32s40s
+00000001000060c4 (__TEXT,__text) non-external (was a private external) ___destroy_helper_block_ea8_32s40s48s56s
+                 (undefined) external ___error (from libSystem)
+                 (undefined) external ___gxx_personality_v0 (from libc++)
+                 (undefined) external ___stack_chk_fail (from libSystem)
+                 (undefined) external ___stack_chk_guard (from libSystem)
+                 (undefined) external __dispatch_data_destructor_munmap (from libSystem)
+0000000100000000 (__TEXT,__text) [referenced dynamically] external __mh_execute_header
+                 (undefined) external __objc_empty_cache (from libobjc)
+                 (undefined) external __os_log_debug_impl (from libSystem)
+                 (undefined) external __os_log_default (from libSystem)
+                 (undefined) external __os_log_error_impl (from libSystem)
+                 (undefined) external __set_user_dir_suffix (from libSystem)
+                 (undefined) external _bzero (from libSystem)
+                 (undefined) external _confstr (from libSystem)
+                 (undefined) external _dispatch_data_create (from libSystem)
+                 (undefined) external _exit (from libSystem)
+                 (undefined) external _free (from libSystem)
+                 (undefined) external _getenv (from libSystem)
+                 (undefined) external _getpwuid (from libSystem)
+                 (undefined) external _getuid (from libSystem)
+                 (undefined) external _kCGColorSpaceSRGB (from CoreGraphics)
+0000000100006308 (__TEXT,__text) non-external (was a private external) _main
+                 (undefined) external _objc_alloc (from libobjc)
+                 (undefined) external _objc_alloc_init (from libobjc)
+                 (undefined) external _objc_autoreleaseReturnValue (from libobjc)
+                 (undefined) external _objc_msgSend (from libobjc)
+0000000100006ce0 (__TEXT,__objc_stubs) non-external (was a private external) _objc_msgSend$UUID
+0000000100006d00 (__TEXT,__objc_stubs) non-external (was a private external) _objc_msgSend$addOperationWithBlock:
+0000000100006d20 (__TEXT,__objc_stubs) non-external (was a private external) _objc_msgSend$getPageAtIndex:
+0000000100006d40 (__TEXT,__objc_stubs) non-external (was a private external) _objc_msgSend$initWithBitmapContext:
+0000000100006d60 (__TEXT,__objc_stubs) non-external (was a private external) _objc_msgSend$initWithCGPDFPage:requestQueue:
+0000000100006d80 (__TEXT,__objc_stubs) non-external (was a private external) _objc_msgSend$initWithData:requestQueue:
+0000000100006da0 (__TEXT,__objc_stubs) non-external (was a private external) _objc_msgSend$interface
+0000000100006dc0 (__TEXT,__objc_stubs) non-external (was a private external) _objc_msgSend$rectForBox:
+0000000100006de0 (__TEXT,__objc_stubs) non-external (was a private external) _objc_msgSend$resume
+0000000100006e00 (__TEXT,__objc_stubs) non-external (was a private external) _objc_msgSend$rotation
+0000000100006e20 (__TEXT,__objc_stubs) non-external (was a private external) _objc_msgSend$serviceListener
+0000000100006e40 (__TEXT,__objc_stubs) non-external (was a private external) _objc_msgSend$setDelegate:
+0000000100006e60 (__TEXT,__objc_stubs) non-external (was a private external) _objc_msgSend$setExportedInterface:
+0000000100006e80 (__TEXT,__objc_stubs) non-external (was a private external) _objc_msgSend$setExportedObject:
+0000000100006ea0 (__TEXT,__objc_stubs) non-external (was a private external) _objc_msgSend$setMaxConcurrentOperationCount:
+                 (undefined) external _objc_msgSendSuper2 (from libobjc)
+                 (undefined) external _objc_opt_new (from libobjc)
+                 (undefined) external _objc_release (from libobjc)
+                 (undefined) external _objc_retain (from libobjc)
+                 (undefined) external _objc_retainAutoreleasedReturnValue (from libobjc)
+                 (undefined) external _objc_storeStrong (from libobjc)
+                 (undefined) external _os_log_type_enabled (from libSystem)
+                 (undefined) external _realpath$DARWIN_EXTSN (from libSystem)
+                 (undefined) external _sandbox_init_with_parameters (from libSystem)
