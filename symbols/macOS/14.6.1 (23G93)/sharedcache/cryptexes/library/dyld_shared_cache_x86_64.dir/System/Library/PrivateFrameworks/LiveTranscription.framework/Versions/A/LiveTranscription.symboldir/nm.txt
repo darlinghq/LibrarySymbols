@@ -1,0 +1,949 @@
+00007ffb191e7c29 (__TEXT,__text) non-external +[AXLTAudioOutManager isExcludedAppID:]
+00007ffb191e7bd4 (__TEXT,__text) non-external +[AXLTAudioOutManager sharedInstance]
+00007ffb191e4b7d (__TEXT,__text) non-external +[AXLTHistogramCalculator histogramForAudioPCMBuffer:]
+00007ffb191e4c73 (__TEXT,__text) non-external +[AXLTHistogramCalculator histogramForAudioQueueBuffer:packetCount:channelsCount:format:]
+00007ffb191e507e (__TEXT,__text) non-external +[AXLTHistogramCalculator histogramForFloat32MonoBuffer:samplesCount:]
+00007ffb191e4cb4 (__TEXT,__text) non-external +[AXLTHistogramCalculator histogramForInt16MonoBuffer:samplesCount:]
+00007ffb191df46e (__TEXT,__text) non-external +[AXLTLanguageAssetManager sharedInstance]
+00007ffb191e3b17 (__TEXT,__text) non-external +[AXLTLiveTranscription sharedInstance]
+00007ffb191dbe80 (__TEXT,__text) non-external +[AXLTPhoneCallListener sharedInstance]
+00007ffb191de771 (__TEXT,__text) non-external +[AXLTSegmentUtilities isPuncuation:]
+00007ffb191de3ee (__TEXT,__text) non-external +[AXLTSegmentUtilities mergeOldSegments:withNewSegments:]
+00007ffb191def7b (__TEXT,__text) non-external +[AXLTTranscribedData supportsSecureCoding]
+00007ffb191e1baa (__TEXT,__text) non-external +[AXLTTranscriber sharedInstance]
+00007ffb191e7522 (__TEXT,__text) non-external +[NSDate(AXLTTimeUtilities) dateToString:]
+00007ffb191e75a4 (__TEXT,__text) non-external +[NSDate(AXLTTimeUtilities) stringToDate:]
+00007ffb191e76f3 (__TEXT,__text) non-external +[NSDate(AXLTTimeUtilities) timeAgoSinceDate:currentDate:]
+00007ffb191e7626 (__TEXT,__text) non-external +[NSDate(AXLTTimeUtilities) timeAgoSinceDateString:]
+00007ffb191e77ba (__TEXT,__text) non-external +[NSDate(AXLTTimeUtilities) timeDifferenceDateStringOld:dateStringNew:]
+00007ffb191dc983 (__TEXT,__text) non-external -[AXLTAudioInfo .cxx_destruct]
+00007ffb191dc968 (__TEXT,__text) non-external -[AXLTAudioInfo audioHistogram]
+00007ffb191dc8c1 (__TEXT,__text) non-external -[AXLTAudioInfo initWithAudioInfo:requestType:pid:]
+00007ffb191dc956 (__TEXT,__text) non-external -[AXLTAudioInfo pid]
+00007ffb191dc942 (__TEXT,__text) non-external -[AXLTAudioInfo requestType]
+00007ffb191dc972 (__TEXT,__text) non-external -[AXLTAudioInfo setAudioHistogram:]
+00007ffb191dc95f (__TEXT,__text) non-external -[AXLTAudioInfo setPid:]
+00007ffb191dc94c (__TEXT,__text) non-external -[AXLTAudioInfo setRequestType:]
+00007ffb191e9523 (__TEXT,__text) non-external -[AXLTAudioOutManager .cxx_destruct]
+00007ffb191e90b5 (__TEXT,__text) non-external -[AXLTAudioOutManager _cleanupAllPids]
+00007ffb191e8f32 (__TEXT,__text) non-external -[AXLTAudioOutManager _cleanupForPID:]
+00007ffb191e8316 (__TEXT,__text) non-external -[AXLTAudioOutManager _reportErrorWithCode:debugErrorString:cleanupForPID:]
+00007ffb191ecbba (__TEXT,__text) non-external -[AXLTAudioOutManager _reportErrorWithCode:debugErrorString:cleanupForPID:].cold.1
+00007ffb191e8523 (__TEXT,__text) non-external -[AXLTAudioOutManager _startTranscriptionForPID:appID:appName:error:]
+00007ffb191e8548 (__TEXT,__text) non-external -[AXLTAudioOutManager _startTranscriptionForPID:appID:appName:excludingPIDs:error:]
+00007ffb191e84b9 (__TEXT,__text) non-external -[AXLTAudioOutManager _startTranscriptionForPID:appName:error:]
+00007ffb191e84ee (__TEXT,__text) non-external -[AXLTAudioOutManager _startTranscriptionForPID:appName:excludingPIDs:error:]
+00007ffb191e8444 (__TEXT,__text) non-external -[AXLTAudioOutManager _startTranscriptionForPID:error:]
+00007ffb191e8d0d (__TEXT,__text) non-external -[AXLTAudioOutManager _stopTranscriptionForPID:error:]
+00007ffb191ecc6e (__TEXT,__text) non-external -[AXLTAudioOutManager _stopTranscriptionForPID:error:].cold.1
+00007ffb191e93f1 (__TEXT,__text) non-external -[AXLTAudioOutManager _tapDescriptionForPID:tapFormat:excludePIDs:]
+00007ffb191e94f4 (__TEXT,__text) non-external -[AXLTAudioOutManager bufferQueue]
+00007ffb191e7d5c (__TEXT,__text) non-external -[AXLTAudioOutManager dealloc]
+00007ffb191e94cd (__TEXT,__text) non-external -[AXLTAudioOutManager delegate]
+00007ffb191e8d74 (__TEXT,__text) non-external -[AXLTAudioOutManager handleInputBufferWithContext:audioQueue:audioBuffer:timestamp:packetCount:packetDesc:]
+00007ffb191e7caa (__TEXT,__text) non-external -[AXLTAudioOutManager init]
+00007ffb191e8092 (__TEXT,__text) non-external -[AXLTAudioOutManager isTranscribingForPID:]
+00007ffb191e94ba (__TEXT,__text) non-external -[AXLTAudioOutManager isTranscribing]
+00007ffb191e950f (__TEXT,__text) non-external -[AXLTAudioOutManager processToTranscriberMap]
+00007ffb191e808c (__TEXT,__text) non-external -[AXLTAudioOutManager resetTranscription]
+00007ffb191e94fe (__TEXT,__text) non-external -[AXLTAudioOutManager setBufferQueue:]
+00007ffb191e94e3 (__TEXT,__text) non-external -[AXLTAudioOutManager setDelegate:]
+00007ffb191e94c4 (__TEXT,__text) non-external -[AXLTAudioOutManager setIsTranscribing:]
+00007ffb191e7dcf (__TEXT,__text) non-external -[AXLTAudioOutManager startTranscription:]
+00007ffb191e7f7e (__TEXT,__text) non-external -[AXLTAudioOutManager stopTranscription:]
+00007ffb191e1aff (__TEXT,__text) non-external -[AXLTAudioOutTranscriber .cxx_destruct]
+00007ffb191e0b03 (__TEXT,__text) non-external -[AXLTAudioOutTranscriber _appendBuffer:offsetInPackets:packetCount:]
+00007ffb191e0873 (__TEXT,__text) non-external -[AXLTAudioOutTranscriber _calcHistogramForBuffer:packetCount:isSilence:]
+00007ffb191e078b (__TEXT,__text) non-external -[AXLTAudioOutTranscriber _findSilencePacketOffset:packetCount:silentSamplesMin:zeroOffsetOnly:]
+00007ffb191e0801 (__TEXT,__text) non-external -[AXLTAudioOutTranscriber _isSilenceOnlyInBuffer:packetCount:]
+00007ffb191ebaed (__TEXT,__text) non-external -[AXLTAudioOutTranscriber _isSilenceOnlyInBuffer:packetCount:].cold.1
+00007ffb191e0713 (__TEXT,__text) non-external -[AXLTAudioOutTranscriber _pauseSpeechRecognition]
+00007ffb191e0f23 (__TEXT,__text) non-external -[AXLTAudioOutTranscriber _saveAudioBuffer:]
+00007ffb191e1355 (__TEXT,__text) non-external -[AXLTAudioOutTranscriber _saveTranscribedText:withTimeStamp:]
+00007ffb191e1907 (__TEXT,__text) non-external -[AXLTAudioOutTranscriber appID]
+00007ffb191e1922 (__TEXT,__text) non-external -[AXLTAudioOutTranscriber appName]
+00007ffb191e19be (__TEXT,__text) non-external -[AXLTAudioOutTranscriber audioBuffersAppendedCount]
+00007ffb191e19f8 (__TEXT,__text) non-external -[AXLTAudioOutTranscriber audioFile]
+00007ffb191e1960 (__TEXT,__text) non-external -[AXLTAudioOutTranscriber audioQueue]
+00007ffb191e1aa3 (__TEXT,__text) non-external -[AXLTAudioOutTranscriber bufferLogTime]
+00007ffb191e19e6 (__TEXT,__text) non-external -[AXLTAudioOutTranscriber bufferState]
+00007ffb191e00e9 (__TEXT,__text) non-external -[AXLTAudioOutTranscriber cleanup]
+00007ffb191eb8b1 (__TEXT,__text) non-external -[AXLTAudioOutTranscriber cleanup].cold.1
+00007ffb191eb90b (__TEXT,__text) non-external -[AXLTAudioOutTranscriber cleanup].cold.2
+00007ffb191eb965 (__TEXT,__text) non-external -[AXLTAudioOutTranscriber cleanup].cold.3
+00007ffb191e028f (__TEXT,__text) non-external -[AXLTAudioOutTranscriber createAudioBuffersWithBufferByteSize:error:]
+00007ffb191eb9bf (__TEXT,__text) non-external -[AXLTAudioOutTranscriber createAudioBuffersWithBufferByteSize:error:].cold.1
+00007ffb191eba19 (__TEXT,__text) non-external -[AXLTAudioOutTranscriber createAudioBuffersWithBufferByteSize:error:].cold.2
+00007ffb191e1997 (__TEXT,__text) non-external -[AXLTAudioOutTranscriber delegate]
+00007ffb191e1a49 (__TEXT,__text) non-external -[AXLTAudioOutTranscriber filePath]
+00007ffb191e04fa (__TEXT,__text) non-external -[AXLTAudioOutTranscriber handleAudioBuffer:audioQueue:timestamp:packetCount:packetDesc:]
+00007ffb191eba73 (__TEXT,__text) non-external -[AXLTAudioOutTranscriber handleAudioBuffer:audioQueue:timestamp:packetCount:packetDesc:].cold.1
+00007ffb191df853 (__TEXT,__text) non-external -[AXLTAudioOutTranscriber initWithPID:appID:appName:delegate:]
+00007ffb191e18f5 (__TEXT,__text) non-external -[AXLTAudioOutTranscriber pid]
+00007ffb191e1a82 (__TEXT,__text) non-external -[AXLTAudioOutTranscriber saveQueue]
+00007ffb191e1a64 (__TEXT,__text) non-external -[AXLTAudioOutTranscriber sessionStartTime]
+00007ffb191e1911 (__TEXT,__text) non-external -[AXLTAudioOutTranscriber setAppID:]
+00007ffb191e1936 (__TEXT,__text) non-external -[AXLTAudioOutTranscriber setAppName:]
+00007ffb191e19c8 (__TEXT,__text) non-external -[AXLTAudioOutTranscriber setAudioBuffersAppendedCount:]
+00007ffb191e1a02 (__TEXT,__text) non-external -[AXLTAudioOutTranscriber setAudioFile:]
+00007ffb191e196a (__TEXT,__text) non-external -[AXLTAudioOutTranscriber setAudioQueue:]
+00007ffb191e1ab0 (__TEXT,__text) non-external -[AXLTAudioOutTranscriber setBufferLogTime:]
+00007ffb191e19ef (__TEXT,__text) non-external -[AXLTAudioOutTranscriber setBufferState:]
+00007ffb191e19ad (__TEXT,__text) non-external -[AXLTAudioOutTranscriber setDelegate:]
+00007ffb191e1a53 (__TEXT,__text) non-external -[AXLTAudioOutTranscriber setFilePath:]
+00007ffb191e18fe (__TEXT,__text) non-external -[AXLTAudioOutTranscriber setPid:]
+00007ffb191e1a8f (__TEXT,__text) non-external -[AXLTAudioOutTranscriber setSaveQueue:]
+00007ffb191e1a71 (__TEXT,__text) non-external -[AXLTAudioOutTranscriber setSessionStartTime:]
+00007ffb191e1af2 (__TEXT,__text) non-external -[AXLTAudioOutTranscriber setSilentBuffersCount:]
+00007ffb191e19dc (__TEXT,__text) non-external -[AXLTAudioOutTranscriber setSilentSamplesTailCount:]
+00007ffb191e194f (__TEXT,__text) non-external -[AXLTAudioOutTranscriber setTapFormat:]
+00007ffb191e1a38 (__TEXT,__text) non-external -[AXLTAudioOutTranscriber setTextFile:]
+00007ffb191e1a1d (__TEXT,__text) non-external -[AXLTAudioOutTranscriber setTextFileName:]
+00007ffb191e1ad1 (__TEXT,__text) non-external -[AXLTAudioOutTranscriber setTextLogTime:]
+00007ffb191e1988 (__TEXT,__text) non-external -[AXLTAudioOutTranscriber setTranscriber:]
+00007ffb191dfa2d (__TEXT,__text) non-external -[AXLTAudioOutTranscriber setupTranscriberIfNeeded]
+00007ffb191e1ae5 (__TEXT,__text) non-external -[AXLTAudioOutTranscriber silentBuffersCount]
+00007ffb191e19d2 (__TEXT,__text) non-external -[AXLTAudioOutTranscriber silentSamplesTailCount]
+00007ffb191e1945 (__TEXT,__text) non-external -[AXLTAudioOutTranscriber tapFormat]
+00007ffb191e1a13 (__TEXT,__text) non-external -[AXLTAudioOutTranscriber textFileName]
+00007ffb191e1a2e (__TEXT,__text) non-external -[AXLTAudioOutTranscriber textFile]
+00007ffb191e1ac4 (__TEXT,__text) non-external -[AXLTAudioOutTranscriber textLogTime]
+00007ffb191e1974 (__TEXT,__text) non-external -[AXLTAudioOutTranscriber transcriber]
+00007ffb191e745a (__TEXT,__text) non-external -[AXLTClient .cxx_destruct]
+00007ffb191e743f (__TEXT,__text) non-external -[AXLTClient clientQueue]
+00007ffb191e7424 (__TEXT,__text) non-external -[AXLTClient dataReceivers]
+00007ffb191e544c (__TEXT,__text) non-external -[AXLTClient init]
+00007ffb191e54f5 (__TEXT,__text) non-external -[AXLTClient initializeServiceConnection]
+00007ffb191e6f17 (__TEXT,__text) non-external -[AXLTClient pingServiceWithHandler:]
+00007ffb191e5aca (__TEXT,__text) non-external -[AXLTClient registerForTranscriptionIfNecessary]
+00007ffb191e7409 (__TEXT,__text) non-external -[AXLTClient serviceConnection]
+00007ffb191e7449 (__TEXT,__text) non-external -[AXLTClient setClientQueue:]
+00007ffb191e742e (__TEXT,__text) non-external -[AXLTClient setDataReceivers:]
+00007ffb191e7413 (__TEXT,__text) non-external -[AXLTClient setServiceConnection:]
+00007ffb191e5f08 (__TEXT,__text) non-external -[AXLTClient startTranscribing:client:callbackBlock:error:]
+00007ffb191e5f38 (__TEXT,__text) non-external -[AXLTClient startTranscribing:targetPID:client:callbackBlock:error:]
+00007ffb191e6807 (__TEXT,__text) non-external -[AXLTClient stopTranscribing:client:error:]
+00007ffb191e6824 (__TEXT,__text) non-external -[AXLTClient stopTranscribing:targetPID:client:error:]
+00007ffb191e7126 (__TEXT,__text) non-external -[AXLTClient transcribedData:]
+00007ffb191df75b (__TEXT,__text) non-external -[AXLTLanguageAssetManager deleteSpeechAsset]
+00007ffb191eb87e (__TEXT,__text) non-external -[AXLTLanguageAssetManager deleteSpeechAsset].cold.1
+00007ffb191df566 (__TEXT,__text) non-external -[AXLTLanguageAssetManager downloadSpeechAsset:completion:]
+00007ffb191eb84b (__TEXT,__text) non-external -[AXLTLanguageAssetManager downloadSpeechAsset:completion:].cold.1
+00007ffb191df4c3 (__TEXT,__text) non-external -[AXLTLanguageAssetManager languageAssetAvaliable]
+00007ffb191df833 (__TEXT,__text) non-external -[AXLTLanguageAssetManager locale]
+00007ffb191e4b41 (__TEXT,__text) non-external -[AXLTLiveTranscription .cxx_destruct]
+00007ffb191e4a4a (__TEXT,__text) non-external -[AXLTLiveTranscription _receiverKeyForRequestType:targetPID:]
+00007ffb191e486e (__TEXT,__text) non-external -[AXLTLiveTranscription audioInfoData:]
+00007ffb191ec5ee (__TEXT,__text) non-external -[AXLTLiveTranscription audioInfoData:].cold.1
+00007ffb191e4b26 (__TEXT,__text) non-external -[AXLTLiveTranscription dataReceivers]
+00007ffb191e4aa2 (__TEXT,__text) non-external -[AXLTLiveTranscription delegate]
+00007ffb191e3b6c (__TEXT,__text) non-external -[AXLTLiveTranscription init]
+00007ffb191e4ac9 (__TEXT,__text) non-external -[AXLTLiveTranscription noPunctuation]
+00007ffb191e4695 (__TEXT,__text) non-external -[AXLTLiveTranscription resetTranscribing:]
+00007ffb191ec52a (__TEXT,__text) non-external -[AXLTLiveTranscription resetTranscribing:].cold.1
+00007ffb191e4b30 (__TEXT,__text) non-external -[AXLTLiveTranscription setDataReceivers:]
+00007ffb191e4ab8 (__TEXT,__text) non-external -[AXLTLiveTranscription setDelegate:]
+00007ffb191e4ad3 (__TEXT,__text) non-external -[AXLTLiveTranscription setNoPunctuation:]
+00007ffb191e4afa (__TEXT,__text) non-external -[AXLTLiveTranscription setSpeechTranscriber:]
+00007ffb191e4ae6 (__TEXT,__text) non-external -[AXLTLiveTranscription setTaskHint:]
+00007ffb191e4b15 (__TEXT,__text) non-external -[AXLTLiveTranscription setTestTranscriber:]
+00007ffb191e4af0 (__TEXT,__text) non-external -[AXLTLiveTranscription speechTranscriber]
+00007ffb191e3c5c (__TEXT,__text) non-external -[AXLTLiveTranscription startTranscribing:callbackBlock:error:]
+00007ffb191e3c79 (__TEXT,__text) non-external -[AXLTLiveTranscription startTranscribing:excludingPIDs:callbackBlock:error:]
+00007ffb191e3cca (__TEXT,__text) non-external -[AXLTLiveTranscription startTranscribing:targetPID:callbackBlock:audioInfoBlock:error:]
+00007ffb191e3ca4 (__TEXT,__text) non-external -[AXLTLiveTranscription startTranscribing:targetPID:callbackBlock:error:]
+00007ffb191e3cf1 (__TEXT,__text) non-external -[AXLTLiveTranscription startTranscribing:targetPID:excludingPIDs:callbackBlock:audioInfoBlock:error:]
+00007ffb191ec491 (__TEXT,__text) non-external -[AXLTLiveTranscription startTranscribing:targetPID:excludingPIDs:callbackBlock:audioInfoBlock:error:].cold.1
+00007ffb191ec4c4 (__TEXT,__text) non-external -[AXLTLiveTranscription startTranscribing:targetPID:excludingPIDs:callbackBlock:audioInfoBlock:error:].cold.2
+00007ffb191ec4f7 (__TEXT,__text) non-external -[AXLTLiveTranscription startTranscribing:targetPID:excludingPIDs:callbackBlock:audioInfoBlock:error:].cold.3
+00007ffb191e4336 (__TEXT,__text) non-external -[AXLTLiveTranscription stopTranscribing:error:]
+00007ffb191e4350 (__TEXT,__text) non-external -[AXLTLiveTranscription stopTranscribing:targetPID:error:]
+00007ffb191e4adc (__TEXT,__text) non-external -[AXLTLiveTranscription taskHint]
+00007ffb191e4b0b (__TEXT,__text) non-external -[AXLTLiveTranscription testTranscriber]
+00007ffb191e4733 (__TEXT,__text) non-external -[AXLTLiveTranscription transcriberOutputData:]
+00007ffb191ec584 (__TEXT,__text) non-external -[AXLTLiveTranscription transcriberOutputData:].cold.1
+00007ffb191e7bc6 (__TEXT,__text) non-external -[AXLTLockScreenObserver .cxx_destruct]
+00007ffb191e78ac (__TEXT,__text) non-external -[AXLTLockScreenObserver _registerScreenNotification]
+00007ffb191e79fa (__TEXT,__text) non-external -[AXLTLockScreenObserver _updateScreenLock:]
+00007ffb191e7b9f (__TEXT,__text) non-external -[AXLTLockScreenObserver delegate]
+00007ffb191e7860 (__TEXT,__text) non-external -[AXLTLockScreenObserver init]
+00007ffb191e7bb5 (__TEXT,__text) non-external -[AXLTLockScreenObserver setDelegate:]
+00007ffb191dc890 (__TEXT,__text) non-external -[AXLTPhoneCallListener .cxx_destruct]
+00007ffb191dc2e9 (__TEXT,__text) non-external -[AXLTPhoneCallListener _startObserving]
+00007ffb191dc875 (__TEXT,__text) non-external -[AXLTPhoneCallListener callCenter]
+00007ffb191dc364 (__TEXT,__text) non-external -[AXLTPhoneCallListener callObserver:callChanged:]
+00007ffb191dc85a (__TEXT,__text) non-external -[AXLTPhoneCallListener callObserver]
+00007ffb191dc58c (__TEXT,__text) non-external -[AXLTPhoneCallListener callStatusChanged:]
+00007ffb191dc829 (__TEXT,__text) non-external -[AXLTPhoneCallListener delegate]
+00007ffb191dbed5 (__TEXT,__text) non-external -[AXLTPhoneCallListener init]
+00007ffb191dc0aa (__TEXT,__text) non-external -[AXLTPhoneCallListener isCallActive]
+00007ffb191dc87f (__TEXT,__text) non-external -[AXLTPhoneCallListener setCallCenter:]
+00007ffb191dc864 (__TEXT,__text) non-external -[AXLTPhoneCallListener setCallObserver:]
+00007ffb191dc83f (__TEXT,__text) non-external -[AXLTPhoneCallListener setDelegate:]
+00007ffb191dbf21 (__TEXT,__text) non-external -[AXLTPhoneCallListener setUtilityType:]
+00007ffb191dc850 (__TEXT,__text) non-external -[AXLTPhoneCallListener utilityType]
+00007ffb191de03b (__TEXT,__text) non-external -[AXLTSpeechTranscriber .cxx_destruct]
+00007ffb191ddd48 (__TEXT,__text) non-external -[AXLTSpeechTranscriber audioEngineConfigurationDidChange:]
+00007ffb191ddfa2 (__TEXT,__text) non-external -[AXLTSpeechTranscriber audioEngine]
+00007ffb191ddfbd (__TEXT,__text) non-external -[AXLTSpeechTranscriber audioSession]
+00007ffb191de005 (__TEXT,__text) non-external -[AXLTSpeechTranscriber bufferLogTime]
+00007ffb191dd9f8 (__TEXT,__text) non-external -[AXLTSpeechTranscriber calcHistogramForBuffer:]
+00007ffb191ddd7f (__TEXT,__text) non-external -[AXLTSpeechTranscriber cleanUp]
+00007ffb191ddf7b (__TEXT,__text) non-external -[AXLTSpeechTranscriber delegate]
+00007ffb191dcaaf (__TEXT,__text) non-external -[AXLTSpeechTranscriber initWithDelegate:]
+00007ffb191dcdc4 (__TEXT,__text) non-external -[AXLTSpeechTranscriber initializeAudioTap]
+00007ffb191eb434 (__TEXT,__text) non-external -[AXLTSpeechTranscriber initializeAudioTap].cold.1
+00007ffb191ddf68 (__TEXT,__text) non-external -[AXLTSpeechTranscriber isTranscribing]
+00007ffb191dd445 (__TEXT,__text) non-external -[AXLTSpeechTranscriber mediaServicesWereReset:]
+00007ffb191eb5b1 (__TEXT,__text) non-external -[AXLTSpeechTranscriber mediaServicesWereReset:].cold.1
+00007ffb191ddff3 (__TEXT,__text) non-external -[AXLTSpeechTranscriber pid]
+00007ffb191ddc53 (__TEXT,__text) non-external -[AXLTSpeechTranscriber resetTranscription]
+00007ffb191eb698 (__TEXT,__text) non-external -[AXLTSpeechTranscriber resetTranscription].cold.1
+00007ffb191eb6f2 (__TEXT,__text) non-external -[AXLTSpeechTranscriber resetTranscription].cold.2
+00007ffb191ddfac (__TEXT,__text) non-external -[AXLTSpeechTranscriber setAudioEngine:]
+00007ffb191ddfc7 (__TEXT,__text) non-external -[AXLTSpeechTranscriber setAudioSession:]
+00007ffb191de00f (__TEXT,__text) non-external -[AXLTSpeechTranscriber setBufferLogTime:]
+00007ffb191ddf91 (__TEXT,__text) non-external -[AXLTSpeechTranscriber setDelegate:]
+00007ffb191ddf72 (__TEXT,__text) non-external -[AXLTSpeechTranscriber setIsTranscribing:]
+00007ffb191ddffc (__TEXT,__text) non-external -[AXLTSpeechTranscriber setPid:]
+00007ffb191de02a (__TEXT,__text) non-external -[AXLTSpeechTranscriber setTextLogTime:]
+00007ffb191ddfe2 (__TEXT,__text) non-external -[AXLTSpeechTranscriber setTranscriber:]
+00007ffb191dd2a8 (__TEXT,__text) non-external -[AXLTSpeechTranscriber setupAudioSession]
+00007ffb191eb4fd (__TEXT,__text) non-external -[AXLTSpeechTranscriber setupAudioSession].cold.1
+00007ffb191eb557 (__TEXT,__text) non-external -[AXLTSpeechTranscriber setupAudioSession].cold.2
+00007ffb191dd4a7 (__TEXT,__text) non-external -[AXLTSpeechTranscriber setupTranscriberIfNeeded]
+00007ffb191dcb78 (__TEXT,__text) non-external -[AXLTSpeechTranscriber startTranscription:]
+00007ffb191eb37a (__TEXT,__text) non-external -[AXLTSpeechTranscriber startTranscription:].cold.1
+00007ffb191eb401 (__TEXT,__text) non-external -[AXLTSpeechTranscriber startTranscription:].cold.2
+00007ffb191ddbd4 (__TEXT,__text) non-external -[AXLTSpeechTranscriber stopTranscription:]
+00007ffb191eb665 (__TEXT,__text) non-external -[AXLTSpeechTranscriber stopTranscription:].cold.1
+00007ffb191de020 (__TEXT,__text) non-external -[AXLTSpeechTranscriber textLogTime]
+00007ffb191ddfd8 (__TEXT,__text) non-external -[AXLTSpeechTranscriber transcriber]
+00007ffb191dec97 (__TEXT,__text) non-external -[AXLTTestTranscriber .cxx_destruct]
+00007ffb191dec55 (__TEXT,__text) non-external -[AXLTTestTranscriber delegate]
+00007ffb191dec7c (__TEXT,__text) non-external -[AXLTTestTranscriber dispatchSource]
+00007ffb191de825 (__TEXT,__text) non-external -[AXLTTestTranscriber initWithDelegate:]
+00007ffb191dec42 (__TEXT,__text) non-external -[AXLTTestTranscriber isTranscribing]
+00007ffb191dec3c (__TEXT,__text) non-external -[AXLTTestTranscriber resetTranscription]
+00007ffb191dec6b (__TEXT,__text) non-external -[AXLTTestTranscriber setDelegate:]
+00007ffb191dec86 (__TEXT,__text) non-external -[AXLTTestTranscriber setDispatchSource:]
+00007ffb191dec4c (__TEXT,__text) non-external -[AXLTTestTranscriber setIsTranscribing:]
+00007ffb191de88e (__TEXT,__text) non-external -[AXLTTestTranscriber startTranscription:]
+00007ffb191eb74c (__TEXT,__text) non-external -[AXLTTestTranscriber startTranscription:].cold.1
+00007ffb191eb77f (__TEXT,__text) non-external -[AXLTTestTranscriber startTranscription:].cold.2
+00007ffb191deb67 (__TEXT,__text) non-external -[AXLTTestTranscriber stopTranscription:]
+00007ffb191eb7e5 (__TEXT,__text) non-external -[AXLTTestTranscriber stopTranscription:].cold.1
+00007ffb191eb818 (__TEXT,__text) non-external -[AXLTTestTranscriber stopTranscription:].cold.2
+00007ffb191df41a (__TEXT,__text) non-external -[AXLTTranscribedData .cxx_destruct]
+00007ffb191df3bd (__TEXT,__text) non-external -[AXLTTranscribedData appID]
+00007ffb191df3d8 (__TEXT,__text) non-external -[AXLTTranscribedData appName]
+00007ffb191df3f3 (__TEXT,__text) non-external -[AXLTTranscribedData downloadProgress]
+00007ffb191def86 (__TEXT,__text) non-external -[AXLTTranscribedData encodeWithCoder:]
+00007ffb191df168 (__TEXT,__text) non-external -[AXLTTranscribedData initWithCoder:]
+00007ffb191dee62 (__TEXT,__text) non-external -[AXLTTranscribedData initWithTranscribedText:requestType:timestamp:pid:appID:appName:downloadProgress:silence:]
+00007ffb191decbd (__TEXT,__text) non-external -[AXLTTranscribedData initWithTranscription:requestType:timestamp:pid:appID:appName:downloadProgress:silence:]
+00007ffb191df407 (__TEXT,__text) non-external -[AXLTTranscribedData isSilence]
+00007ffb191df346 (__TEXT,__text) non-external -[AXLTTranscribedData nonUpdatingSegments]
+00007ffb191df3ab (__TEXT,__text) non-external -[AXLTTranscribedData pid]
+00007ffb191df37c (__TEXT,__text) non-external -[AXLTTranscribedData requestType]
+00007ffb191df3c7 (__TEXT,__text) non-external -[AXLTTranscribedData setAppID:]
+00007ffb191df3e2 (__TEXT,__text) non-external -[AXLTTranscribedData setAppName:]
+00007ffb191df3fd (__TEXT,__text) non-external -[AXLTTranscribedData setDownloadProgress:]
+00007ffb191df350 (__TEXT,__text) non-external -[AXLTTranscribedData setNonUpdatingSegments:]
+00007ffb191df3b4 (__TEXT,__text) non-external -[AXLTTranscribedData setPid:]
+00007ffb191df386 (__TEXT,__text) non-external -[AXLTTranscribedData setRequestType:]
+00007ffb191df411 (__TEXT,__text) non-external -[AXLTTranscribedData setSilence:]
+00007ffb191df39a (__TEXT,__text) non-external -[AXLTTranscribedData setTimestamp:]
+00007ffb191df36b (__TEXT,__text) non-external -[AXLTTranscribedData setTranscribedText:]
+00007ffb191df335 (__TEXT,__text) non-external -[AXLTTranscribedData setTranscription:]
+00007ffb191df390 (__TEXT,__text) non-external -[AXLTTranscribedData timestamp]
+00007ffb191df361 (__TEXT,__text) non-external -[AXLTTranscribedData transcribedText]
+00007ffb191df32b (__TEXT,__text) non-external -[AXLTTranscribedData transcription]
+00007ffb191dca87 (__TEXT,__text) non-external -[AXLTTranscribedDataReceiver .cxx_destruct]
+00007ffb191dca73 (__TEXT,__text) non-external -[AXLTTranscribedDataReceiver audioInfoBlock]
+00007ffb191dca5f (__TEXT,__text) non-external -[AXLTTranscribedDataReceiver callbackBlock]
+00007ffb191dc993 (__TEXT,__text) non-external -[AXLTTranscribedDataReceiver initWithRequestType:targetPID:handler:audioInfoBlock:]
+00007ffb191dca4c (__TEXT,__text) non-external -[AXLTTranscribedDataReceiver requestType]
+00007ffb191dca56 (__TEXT,__text) non-external -[AXLTTranscribedDataReceiver targetPID]
+00007ffb191e3aa2 (__TEXT,__text) non-external -[AXLTTranscriber .cxx_destruct]
+00007ffb191e388c (__TEXT,__text) non-external -[AXLTTranscriber _coalsecingTime]
+00007ffb191e2cde (__TEXT,__text) non-external -[AXLTTranscriber _downloadAndInstallSpeechRecognizer]
+00007ffb191ec265 (__TEXT,__text) non-external -[AXLTTranscriber _downloadAndInstallSpeechRecognizer].cold.1
+00007ffb191e323d (__TEXT,__text) non-external -[AXLTTranscriber _handleAssetDownloadError:]
+00007ffb191e2c2f (__TEXT,__text) non-external -[AXLTTranscriber _restartTranscription]
+00007ffb191e3a26 (__TEXT,__text) non-external -[AXLTTranscriber appName]
+00007ffb191e294f (__TEXT,__text) non-external -[AXLTTranscriber appendAudioPCMBuffer:forPID:]
+00007ffb191ec18e (__TEXT,__text) non-external -[AXLTTranscriber appendAudioPCMBuffer:forPID:].cold.1
+00007ffb191e3a7f (__TEXT,__text) non-external -[AXLTTranscriber audioBufferTimeoutTimer]
+00007ffb191e39f1 (__TEXT,__text) non-external -[AXLTTranscriber completionCallback]
+00007ffb191e39b3 (__TEXT,__text) non-external -[AXLTTranscriber currentTranscription]
+00007ffb191e1dfb (__TEXT,__text) non-external -[AXLTTranscriber dealloc]
+00007ffb191ebc81 (__TEXT,__text) non-external -[AXLTTranscriber dealloc].cold.1
+00007ffb191e1ec5 (__TEXT,__text) non-external -[AXLTTranscriber defaultTaskHint]
+00007ffb191e3927 (__TEXT,__text) non-external -[AXLTTranscriber downloadState]
+00007ffb191e1c2f (__TEXT,__text) non-external -[AXLTTranscriber init]
+00007ffb191e3a49 (__TEXT,__text) non-external -[AXLTTranscriber isInUse]
+00007ffb191e2911 (__TEXT,__text) non-external -[AXLTTranscriber isTranscribingForPID:]
+00007ffb191e3a5c (__TEXT,__text) non-external -[AXLTTranscriber languageAssetManager]
+00007ffb191e1e89 (__TEXT,__text) non-external -[AXLTTranscriber mapUserTaskHint]
+00007ffb191e393b (__TEXT,__text) non-external -[AXLTTranscriber noPunctuation]
+00007ffb191e3a14 (__TEXT,__text) non-external -[AXLTTranscriber pid]
+00007ffb191e397d (__TEXT,__text) non-external -[AXLTTranscriber recognitionRequest]
+00007ffb191e1e64 (__TEXT,__text) non-external -[AXLTTranscriber recognitionTaskHint]
+00007ffb191e3998 (__TEXT,__text) non-external -[AXLTTranscriber recognitionTask]
+00007ffb191e3962 (__TEXT,__text) non-external -[AXLTTranscriber recognizer]
+00007ffb191e241b (__TEXT,__text) non-external -[AXLTTranscriber resumeTranscriptionForPID:]
+00007ffb191ebf37 (__TEXT,__text) non-external -[AXLTTranscriber resumeTranscriptionForPID:].cold.1
+00007ffb191ebfc7 (__TEXT,__text) non-external -[AXLTTranscriber resumeTranscriptionForPID:].cold.2
+00007ffb191ec091 (__TEXT,__text) non-external -[AXLTTranscriber resumeTranscriptionForPID:].cold.3
+00007ffb191ec15b (__TEXT,__text) non-external -[AXLTTranscriber resumeTranscriptionForPID:].cold.4
+00007ffb191e3a3a (__TEXT,__text) non-external -[AXLTTranscriber setAppName:]
+00007ffb191e3a93 (__TEXT,__text) non-external -[AXLTTranscriber setAudioBufferTimeoutTimer:]
+00007ffb191e3a05 (__TEXT,__text) non-external -[AXLTTranscriber setCompletionCallback:]
+00007ffb191e39bd (__TEXT,__text) non-external -[AXLTTranscriber setCurrentTranscription:]
+00007ffb191e3931 (__TEXT,__text) non-external -[AXLTTranscriber setDownloadState:]
+00007ffb191e3a53 (__TEXT,__text) non-external -[AXLTTranscriber setIsInUse:]
+00007ffb191e3a70 (__TEXT,__text) non-external -[AXLTTranscriber setLanguageAssetManager:]
+00007ffb191e3945 (__TEXT,__text) non-external -[AXLTTranscriber setNoPunctuation:]
+00007ffb191e3a1d (__TEXT,__text) non-external -[AXLTTranscriber setPid:]
+00007ffb191e3987 (__TEXT,__text) non-external -[AXLTTranscriber setRecognitionRequest:]
+00007ffb191e39a2 (__TEXT,__text) non-external -[AXLTTranscriber setRecognitionTask:]
+00007ffb191e396c (__TEXT,__text) non-external -[AXLTTranscriber setRecognizer:]
+00007ffb191e3958 (__TEXT,__text) non-external -[AXLTTranscriber setTaskHint:]
+00007ffb191e39e2 (__TEXT,__text) non-external -[AXLTTranscriber setTranscriptionCallback:]
+00007ffb191e32a3 (__TEXT,__text) non-external -[AXLTTranscriber speechRecognitionDidDetectSpeech:]
+00007ffb191ec30b (__TEXT,__text) non-external -[AXLTTranscriber speechRecognitionDidDetectSpeech:].cold.1
+00007ffb191e3688 (__TEXT,__text) non-external -[AXLTTranscriber speechRecognitionTask:didFinishRecognition:]
+00007ffb191ec45e (__TEXT,__text) non-external -[AXLTTranscriber speechRecognitionTask:didFinishRecognition:].cold.1
+00007ffb191e3366 (__TEXT,__text) non-external -[AXLTTranscriber speechRecognitionTask:didFinishSuccessfully:]
+00007ffb191ec3a4 (__TEXT,__text) non-external -[AXLTTranscriber speechRecognitionTask:didFinishSuccessfully:].cold.1
+00007ffb191e34ce (__TEXT,__text) non-external -[AXLTTranscriber speechRecognitionTask:didHypothesizeTranscription:]
+00007ffb191ec3d7 (__TEXT,__text) non-external -[AXLTTranscriber speechRecognitionTask:didHypothesizeTranscription:].cold.1
+00007ffb191e32e4 (__TEXT,__text) non-external -[AXLTTranscriber speechRecognitionTaskFinishedReadingAudio:]
+00007ffb191ec33e (__TEXT,__text) non-external -[AXLTTranscriber speechRecognitionTaskFinishedReadingAudio:].cold.1
+00007ffb191e3325 (__TEXT,__text) non-external -[AXLTTranscriber speechRecognitionTaskWasCancelled:]
+00007ffb191ec371 (__TEXT,__text) non-external -[AXLTTranscriber speechRecognitionTaskWasCancelled:].cold.1
+00007ffb191e1ed0 (__TEXT,__text) non-external -[AXLTTranscriber startTranscriptionForPID:appName:callback:completionCallback:]
+00007ffb191ebcb4 (__TEXT,__text) non-external -[AXLTTranscriber startTranscriptionForPID:appName:callback:completionCallback:].cold.1
+00007ffb191ebd53 (__TEXT,__text) non-external -[AXLTTranscriber startTranscriptionForPID:appName:callback:completionCallback:].cold.2
+00007ffb191ebdad (__TEXT,__text) non-external -[AXLTTranscriber startTranscriptionForPID:appName:callback:completionCallback:].cold.3
+00007ffb191e218d (__TEXT,__text) non-external -[AXLTTranscriber stopTranscriptionForPID:]
+00007ffb191ebe07 (__TEXT,__text) non-external -[AXLTTranscriber stopTranscriptionForPID:].cold.1
+00007ffb191ebe3a (__TEXT,__text) non-external -[AXLTTranscriber stopTranscriptionForPID:].cold.2
+00007ffb191ebe6d (__TEXT,__text) non-external -[AXLTTranscriber stopTranscriptionForPID:].cold.3
+00007ffb191e394e (__TEXT,__text) non-external -[AXLTTranscriber taskHint]
+00007ffb191e39ce (__TEXT,__text) non-external -[AXLTTranscriber transcriptionCallback]
+00007ffb191de3bb (__TEXT,__text) non-external -[AXLTTranscription .cxx_destruct]
+00007ffb191de08d (__TEXT,__text) non-external -[AXLTTranscription _shouldUseNonUpdatingSegments]
+00007ffb191de27a (__TEXT,__text) non-external -[AXLTTranscription formattedString]
+00007ffb191de10e (__TEXT,__text) non-external -[AXLTTranscription initWithRecognitionTask:transcription:previousTranscription:]
+00007ffb191de385 (__TEXT,__text) non-external -[AXLTTranscription nonUpdatingSegments]
+00007ffb191de2ca (__TEXT,__text) non-external -[AXLTTranscription segments]
+00007ffb191de38f (__TEXT,__text) non-external -[AXLTTranscription setNonUpdatingSegments:]
+00007ffb191de374 (__TEXT,__text) non-external -[AXLTTranscription setTask:]
+00007ffb191de3aa (__TEXT,__text) non-external -[AXLTTranscription setTranscription:]
+00007ffb191de31a (__TEXT,__text) non-external -[AXLTTranscription taskIdentifier]
+00007ffb191de36a (__TEXT,__text) non-external -[AXLTTranscription task]
+00007ffb191de3a0 (__TEXT,__text) non-external -[AXLTTranscription transcription]
+00007ffb191ee784 (__TEXT,__gcc_except_tab) non-external GCC_except_table1
+00007ffb191ee804 (__TEXT,__gcc_except_tab) non-external GCC_except_table1
+00007ffb191ee73c (__TEXT,__gcc_except_tab) non-external GCC_except_table2
+00007ffb191ee7d8 (__TEXT,__gcc_except_tab) non-external GCC_except_table21
+00007ffb191ee7a4 (__TEXT,__gcc_except_tab) non-external GCC_except_table8
+00007ffb191ee824 (__TEXT,__gcc_except_tab) non-external GCC_except_table9
+                 (undefined) external _AVAudioEngineConfigurationChangeNotification (from AVFAudio)
+                 (undefined) external _AVAudioFileTypeKey (from AVFAudio)
+                 (undefined) external _AVAudioSessionCategoryPlayAndRecord (from AVFAudio)
+                 (undefined) external _AVAudioSessionMediaServicesWereResetNotification (from AVFAudio)
+00007ffb191e748d (__TEXT,__text) external _AXLCLocString
+00007ffb43e8ead8 (__DATA_CONST,__const) external _AXLTCallID
+00007ffb43e8ebf0 (__DATA_CONST,__const) external _AXLTCoalesceCaptionsTimePreferenceKey
+00007ffb43e8ebe8 (__DATA_CONST,__const) external _AXLTDoNotUpdatePastCaptionsPreferenceKey
+00007ffb43e8e970 (__DATA_CONST,__const) external _AXLTMicID
+00007ffb43e8ebe0 (__DATA_CONST,__const) external _AXLTPreferenceDomain
+00007ffb43e8ed78 (__DATA_CONST,__const) external _AXLTScreenLockedNotification
+00007ffb43e8ed80 (__DATA_CONST,__const) external _AXLTScreenUnlockedNotification
+00007ffb43e8ebf8 (__DATA_CONST,__const) external _AXLTSystemID
+00007ffb43e8ec00 (__DATA_CONST,__const) external _AXLTTypeToSpeakID
+                 (undefined) external _AXLogLiveTranscription (from AXCoreUtilities)
+                 (undefined) external _AudioQueueAllocateBuffer (from AudioToolbox)
+                 (undefined) external _AudioQueueDispose (from AudioToolbox)
+                 (undefined) external _AudioQueueEnqueueBuffer (from AudioToolbox)
+                 (undefined) external _AudioQueueFreeBuffer (from AudioToolbox)
+                 (undefined) external _AudioQueueGetProperty (from AudioToolbox)
+                 (undefined) external _AudioQueueNewInput (from AudioToolbox)
+                 (undefined) external _AudioQueueSetProperty (from AudioToolbox)
+                 (undefined) external _AudioQueueStart (from AudioToolbox)
+                 (undefined) external _AudioQueueStop (from AudioToolbox)
+00007ffb191ede08 (__TEXT,__const) non-external (was a private external) _LiveTranscriptionVersionNumber
+00007ffb191eddc0 (__TEXT,__const) non-external (was a private external) _LiveTranscriptionVersionString
+                 (undefined) external _NSDebugDescriptionErrorKey (from Foundation)
+                 (undefined) external _NSTemporaryDirectory (from Foundation)
+                 (undefined) external _OBJC_CLASS_$_ATAudioTap (from AudioToolbox)
+                 (undefined) external _OBJC_CLASS_$_ATAudioTapDescription (from AudioToolbox)
+                 (undefined) external _OBJC_CLASS_$_AVAudioEngine (from AVFAudio)
+                 (undefined) external _OBJC_CLASS_$_AVAudioFile (from AVFAudio)
+                 (undefined) external _OBJC_CLASS_$_AVAudioFormat (from AVFAudio)
+                 (undefined) external _OBJC_CLASS_$_AVAudioMixerNode (from AVFAudio)
+                 (undefined) external _OBJC_CLASS_$_AVAudioPCMBuffer (from AVFAudio)
+                 (undefined) external _OBJC_CLASS_$_AVAudioSession (from AVFAudio)
+00007ffb42803260 (__DATA,__objc_data) external _OBJC_CLASS_$_AXLTAudioInfo
+00007ffb428036c0 (__DATA,__objc_data) non-external (was a private external) _OBJC_CLASS_$_AXLTAudioOutManager
+00007ffb428034e0 (__DATA,__objc_data) non-external (was a private external) _OBJC_CLASS_$_AXLTAudioOutTranscriber
+00007ffb42803620 (__DATA,__objc_data) external _OBJC_CLASS_$_AXLTClient
+00007ffb428035f8 (__DATA,__objc_data) non-external (was a private external) _OBJC_CLASS_$_AXLTHistogramCalculator
+00007ffb42803490 (__DATA,__objc_data) external _OBJC_CLASS_$_AXLTLanguageAssetManager
+00007ffb42803580 (__DATA,__objc_data) external _OBJC_CLASS_$_AXLTLiveTranscription
+00007ffb42803670 (__DATA,__objc_data) external _OBJC_CLASS_$_AXLTLockScreenObserver
+00007ffb42803210 (__DATA,__objc_data) external _OBJC_CLASS_$_AXLTPhoneCallListener
+00007ffb428033c8 (__DATA,__objc_data) external _OBJC_CLASS_$_AXLTSegmentUtilities
+00007ffb42803300 (__DATA,__objc_data) non-external (was a private external) _OBJC_CLASS_$_AXLTSpeechTranscriber
+00007ffb428033f0 (__DATA,__objc_data) non-external (was a private external) _OBJC_CLASS_$_AXLTTestTranscriber
+00007ffb42803440 (__DATA,__objc_data) external _OBJC_CLASS_$_AXLTTranscribedData
+00007ffb428032b0 (__DATA,__objc_data) external _OBJC_CLASS_$_AXLTTranscribedDataReceiver
+00007ffb42803530 (__DATA,__objc_data) non-external (was a private external) _OBJC_CLASS_$_AXLTTranscriber
+00007ffb42803350 (__DATA,__objc_data) external _OBJC_CLASS_$_AXLTTranscription
+                 (undefined) external _OBJC_CLASS_$_CXCallObserver (from CallKit)
+                 (undefined) external _OBJC_CLASS_$_NSArray (from CoreFoundation)
+                 (undefined) external _OBJC_CLASS_$_NSBundle (from Foundation)
+                 (undefined) external _OBJC_CLASS_$_NSCharacterSet (from Foundation)
+                 (undefined) external _OBJC_CLASS_$_NSConstantDoubleNumber (from Foundation)
+                 (undefined) external _OBJC_CLASS_$_NSDate (from CoreFoundation)
+                 (undefined) external _OBJC_CLASS_$_NSDateFormatter (from Foundation)
+                 (undefined) external _OBJC_CLASS_$_NSDictionary (from CoreFoundation)
+                 (undefined) external _OBJC_CLASS_$_NSError (from Foundation)
+                 (undefined) external _OBJC_CLASS_$_NSFileHandle (from Foundation)
+                 (undefined) external _OBJC_CLASS_$_NSFileManager (from Foundation)
+                 (undefined) external _OBJC_CLASS_$_NSLocale (from CoreFoundation)
+                 (undefined) external _OBJC_CLASS_$_NSMapTable (from Foundation)
+                 (undefined) external _OBJC_CLASS_$_NSMutableArray (from CoreFoundation)
+                 (undefined) external _OBJC_CLASS_$_NSMutableDictionary (from CoreFoundation)
+                 (undefined) external _OBJC_CLASS_$_NSNotificationCenter (from Foundation)
+                 (undefined) external _OBJC_CLASS_$_NSNumber (from Foundation)
+                 (undefined) external _OBJC_CLASS_$_NSObject (from libobjc)
+                 (undefined) external _OBJC_CLASS_$_NSRelativeDateTimeFormatter (from Foundation)
+                 (undefined) external _OBJC_CLASS_$_NSSet (from CoreFoundation)
+                 (undefined) external _OBJC_CLASS_$_NSString (from Foundation)
+                 (undefined) external _OBJC_CLASS_$_NSTimer (from CoreFoundation)
+                 (undefined) external _OBJC_CLASS_$_NSURL (from CoreFoundation)
+                 (undefined) external _OBJC_CLASS_$_NSUUID (from Foundation)
+                 (undefined) external _OBJC_CLASS_$_NSUserDefaults (from CoreFoundation)
+                 (undefined) external _OBJC_CLASS_$_NSXPCConnection (from Foundation)
+                 (undefined) external _OBJC_CLASS_$_NSXPCInterface (from Foundation)
+                 (undefined) external _OBJC_CLASS_$_SFSpeechAssetManager (from Speech)
+                 (undefined) external _OBJC_CLASS_$_SFSpeechAudioBufferRecognitionRequest (from Speech)
+                 (undefined) external _OBJC_CLASS_$_SFSpeechRecognizer (from Speech)
+                 (undefined) external _OBJC_CLASS_$_SFTranscription (from Speech)
+                 (undefined) external _OBJC_CLASS_$_SFTranscriptionSegment (from Speech)
+                 (undefined) external _OBJC_CLASS_$_TUCall (from TelephonyUtilities)
+                 (undefined) external _OBJC_CLASS_$_TUCallCenter (from TelephonyUtilities)
+                 (undefined) external _OBJC_EHTYPE_$_NSException (from CoreFoundation)
+00007ffb42802f90 (__DATA,__objc_ivar) non-external (was a private external) _OBJC_IVAR_$_AXLTAudioInfo._audioHistogram
+00007ffb42802f80 (__DATA,__objc_ivar) non-external (was a private external) _OBJC_IVAR_$_AXLTAudioInfo._pid
+00007ffb42802f88 (__DATA,__objc_ivar) non-external (was a private external) _OBJC_IVAR_$_AXLTAudioInfo._requestType
+00007ffb42803200 (__DATA,__objc_ivar) non-external (was a private external) _OBJC_IVAR_$_AXLTAudioOutManager._bufferQueue
+00007ffb428031f8 (__DATA,__objc_ivar) non-external (was a private external) _OBJC_IVAR_$_AXLTAudioOutManager._delegate
+00007ffb428031f0 (__DATA,__objc_ivar) non-external (was a private external) _OBJC_IVAR_$_AXLTAudioOutManager._isTranscribing
+00007ffb42803208 (__DATA,__objc_ivar) non-external (was a private external) _OBJC_IVAR_$_AXLTAudioOutManager._processToTranscriberMap
+00007ffb42803098 (__DATA,__objc_ivar) non-external (was a private external) _OBJC_IVAR_$_AXLTAudioOutTranscriber._appID
+00007ffb428030a0 (__DATA,__objc_ivar) non-external (was a private external) _OBJC_IVAR_$_AXLTAudioOutTranscriber._appName
+00007ffb428030c8 (__DATA,__objc_ivar) non-external (was a private external) _OBJC_IVAR_$_AXLTAudioOutTranscriber._audioBuffersAppendedCount
+00007ffb428030d8 (__DATA,__objc_ivar) non-external (was a private external) _OBJC_IVAR_$_AXLTAudioOutTranscriber._audioFile
+00007ffb428030b0 (__DATA,__objc_ivar) non-external (was a private external) _OBJC_IVAR_$_AXLTAudioOutTranscriber._audioQueue
+00007ffb42803108 (__DATA,__objc_ivar) non-external (was a private external) _OBJC_IVAR_$_AXLTAudioOutTranscriber._bufferLogTime
+00007ffb42803090 (__DATA,__objc_ivar) non-external (was a private external) _OBJC_IVAR_$_AXLTAudioOutTranscriber._bufferState
+00007ffb428030c0 (__DATA,__objc_ivar) non-external (was a private external) _OBJC_IVAR_$_AXLTAudioOutTranscriber._delegate
+00007ffb42803080 (__DATA,__objc_ivar) non-external (was a private external) _OBJC_IVAR_$_AXLTAudioOutTranscriber._dumpTestData
+00007ffb428030f0 (__DATA,__objc_ivar) non-external (was a private external) _OBJC_IVAR_$_AXLTAudioOutTranscriber._filePath
+00007ffb42803078 (__DATA,__objc_ivar) non-external (was a private external) _OBJC_IVAR_$_AXLTAudioOutTranscriber._mBuffers
+00007ffb42803088 (__DATA,__objc_ivar) non-external (was a private external) _OBJC_IVAR_$_AXLTAudioOutTranscriber._pid
+00007ffb42803100 (__DATA,__objc_ivar) non-external (was a private external) _OBJC_IVAR_$_AXLTAudioOutTranscriber._saveQueue
+00007ffb428030f8 (__DATA,__objc_ivar) non-external (was a private external) _OBJC_IVAR_$_AXLTAudioOutTranscriber._sessionStartTime
+00007ffb42803118 (__DATA,__objc_ivar) non-external (was a private external) _OBJC_IVAR_$_AXLTAudioOutTranscriber._silentBuffersCount
+00007ffb428030d0 (__DATA,__objc_ivar) non-external (was a private external) _OBJC_IVAR_$_AXLTAudioOutTranscriber._silentSamplesTailCount
+00007ffb428030a8 (__DATA,__objc_ivar) non-external (was a private external) _OBJC_IVAR_$_AXLTAudioOutTranscriber._tapFormat
+00007ffb428030e8 (__DATA,__objc_ivar) non-external (was a private external) _OBJC_IVAR_$_AXLTAudioOutTranscriber._textFile
+00007ffb428030e0 (__DATA,__objc_ivar) non-external (was a private external) _OBJC_IVAR_$_AXLTAudioOutTranscriber._textFileName
+00007ffb42803110 (__DATA,__objc_ivar) non-external (was a private external) _OBJC_IVAR_$_AXLTAudioOutTranscriber._textLogTime
+00007ffb428030b8 (__DATA,__objc_ivar) non-external (was a private external) _OBJC_IVAR_$_AXLTAudioOutTranscriber._transcriber
+00007ffb428031d0 (__DATA,__objc_ivar) non-external (was a private external) _OBJC_IVAR_$_AXLTClient._clientQueue
+00007ffb428031c8 (__DATA,__objc_ivar) non-external (was a private external) _OBJC_IVAR_$_AXLTClient._dataReceivers
+00007ffb428031c0 (__DATA,__objc_ivar) non-external (was a private external) _OBJC_IVAR_$_AXLTClient._serviceConnection
+00007ffb428031b8 (__DATA,__objc_ivar) non-external (was a private external) _OBJC_IVAR_$_AXLTLiveTranscription._dataReceivers
+00007ffb42803198 (__DATA,__objc_ivar) non-external (was a private external) _OBJC_IVAR_$_AXLTLiveTranscription._delegate
+00007ffb42803190 (__DATA,__objc_ivar) non-external (was a private external) _OBJC_IVAR_$_AXLTLiveTranscription._noPunctuation
+00007ffb428031a8 (__DATA,__objc_ivar) non-external (was a private external) _OBJC_IVAR_$_AXLTLiveTranscription._speechTranscriber
+00007ffb428031a0 (__DATA,__objc_ivar) non-external (was a private external) _OBJC_IVAR_$_AXLTLiveTranscription._taskHint
+00007ffb428031b0 (__DATA,__objc_ivar) non-external (was a private external) _OBJC_IVAR_$_AXLTLiveTranscription._testTranscriber
+00007ffb428031e8 (__DATA,__objc_ivar) non-external (was a private external) _OBJC_IVAR_$_AXLTLockScreenObserver._delegate
+00007ffb428031e0 (__DATA,__objc_ivar) non-external (was a private external) _OBJC_IVAR_$_AXLTLockScreenObserver._isScreenLocked
+00007ffb428031d8 (__DATA,__objc_ivar) non-external (was a private external) _OBJC_IVAR_$_AXLTLockScreenObserver._notifyLockStateToken
+00007ffb42802f78 (__DATA,__objc_ivar) non-external (was a private external) _OBJC_IVAR_$_AXLTPhoneCallListener._callCenter
+00007ffb42802f70 (__DATA,__objc_ivar) non-external (was a private external) _OBJC_IVAR_$_AXLTPhoneCallListener._callObserver
+00007ffb42802f60 (__DATA,__objc_ivar) non-external (was a private external) _OBJC_IVAR_$_AXLTPhoneCallListener._delegate
+00007ffb42802f68 (__DATA,__objc_ivar) non-external (was a private external) _OBJC_IVAR_$_AXLTPhoneCallListener._utilityType
+00007ffb42802fd0 (__DATA,__objc_ivar) non-external (was a private external) _OBJC_IVAR_$_AXLTSpeechTranscriber._audioEngine
+00007ffb42802fd8 (__DATA,__objc_ivar) non-external (was a private external) _OBJC_IVAR_$_AXLTSpeechTranscriber._audioSession
+00007ffb42802fe8 (__DATA,__objc_ivar) non-external (was a private external) _OBJC_IVAR_$_AXLTSpeechTranscriber._bufferLogTime
+00007ffb42802fc8 (__DATA,__objc_ivar) non-external (was a private external) _OBJC_IVAR_$_AXLTSpeechTranscriber._delegate
+00007ffb42802fb8 (__DATA,__objc_ivar) non-external (was a private external) _OBJC_IVAR_$_AXLTSpeechTranscriber._isTranscribing
+00007ffb42802fc0 (__DATA,__objc_ivar) non-external (was a private external) _OBJC_IVAR_$_AXLTSpeechTranscriber._pid
+00007ffb42802ff0 (__DATA,__objc_ivar) non-external (was a private external) _OBJC_IVAR_$_AXLTSpeechTranscriber._textLogTime
+00007ffb42802fe0 (__DATA,__objc_ivar) non-external (was a private external) _OBJC_IVAR_$_AXLTSpeechTranscriber._transcriber
+00007ffb42803018 (__DATA,__objc_ivar) non-external (was a private external) _OBJC_IVAR_$_AXLTTestTranscriber._delegate
+00007ffb42803020 (__DATA,__objc_ivar) non-external (was a private external) _OBJC_IVAR_$_AXLTTestTranscriber._dispatchSource
+00007ffb42803010 (__DATA,__objc_ivar) non-external (was a private external) _OBJC_IVAR_$_AXLTTestTranscriber._isTranscribing
+00007ffb42803060 (__DATA,__objc_ivar) non-external (was a private external) _OBJC_IVAR_$_AXLTTranscribedData._appID
+00007ffb42803068 (__DATA,__objc_ivar) non-external (was a private external) _OBJC_IVAR_$_AXLTTranscribedData._appName
+00007ffb42803070 (__DATA,__objc_ivar) non-external (was a private external) _OBJC_IVAR_$_AXLTTranscribedData._downloadProgress
+00007ffb42803040 (__DATA,__objc_ivar) non-external (was a private external) _OBJC_IVAR_$_AXLTTranscribedData._nonUpdatingSegments
+00007ffb42803030 (__DATA,__objc_ivar) non-external (was a private external) _OBJC_IVAR_$_AXLTTranscribedData._pid
+00007ffb42803050 (__DATA,__objc_ivar) non-external (was a private external) _OBJC_IVAR_$_AXLTTranscribedData._requestType
+00007ffb42803028 (__DATA,__objc_ivar) non-external (was a private external) _OBJC_IVAR_$_AXLTTranscribedData._silence
+00007ffb42803058 (__DATA,__objc_ivar) non-external (was a private external) _OBJC_IVAR_$_AXLTTranscribedData._timestamp
+00007ffb42803048 (__DATA,__objc_ivar) non-external (was a private external) _OBJC_IVAR_$_AXLTTranscribedData._transcribedText
+00007ffb42803038 (__DATA,__objc_ivar) non-external (was a private external) _OBJC_IVAR_$_AXLTTranscribedData._transcription
+00007ffb42802fb0 (__DATA,__objc_ivar) non-external (was a private external) _OBJC_IVAR_$_AXLTTranscribedDataReceiver._audioInfoBlock
+00007ffb42802fa8 (__DATA,__objc_ivar) non-external (was a private external) _OBJC_IVAR_$_AXLTTranscribedDataReceiver._callbackBlock
+00007ffb42802fa0 (__DATA,__objc_ivar) non-external (was a private external) _OBJC_IVAR_$_AXLTTranscribedDataReceiver._requestType
+00007ffb42802f98 (__DATA,__objc_ivar) non-external (was a private external) _OBJC_IVAR_$_AXLTTranscribedDataReceiver._targetPID
+00007ffb42803178 (__DATA,__objc_ivar) non-external (was a private external) _OBJC_IVAR_$_AXLTTranscriber._appName
+00007ffb42803188 (__DATA,__objc_ivar) non-external (was a private external) _OBJC_IVAR_$_AXLTTranscriber._audioBufferTimeoutTimer
+00007ffb42803170 (__DATA,__objc_ivar) non-external (was a private external) _OBJC_IVAR_$_AXLTTranscriber._completionCallback
+00007ffb42803160 (__DATA,__objc_ivar) non-external (was a private external) _OBJC_IVAR_$_AXLTTranscriber._currentTranscription
+00007ffb42803138 (__DATA,__objc_ivar) non-external (was a private external) _OBJC_IVAR_$_AXLTTranscriber._downloadState
+00007ffb42803128 (__DATA,__objc_ivar) non-external (was a private external) _OBJC_IVAR_$_AXLTTranscriber._isInUse
+00007ffb42803180 (__DATA,__objc_ivar) non-external (was a private external) _OBJC_IVAR_$_AXLTTranscriber._languageAssetManager
+00007ffb42803120 (__DATA,__objc_ivar) non-external (was a private external) _OBJC_IVAR_$_AXLTTranscriber._noPunctuation
+00007ffb42803130 (__DATA,__objc_ivar) non-external (was a private external) _OBJC_IVAR_$_AXLTTranscriber._pid
+00007ffb42803150 (__DATA,__objc_ivar) non-external (was a private external) _OBJC_IVAR_$_AXLTTranscriber._recognitionRequest
+00007ffb42803158 (__DATA,__objc_ivar) non-external (was a private external) _OBJC_IVAR_$_AXLTTranscriber._recognitionTask
+00007ffb42803148 (__DATA,__objc_ivar) non-external (was a private external) _OBJC_IVAR_$_AXLTTranscriber._recognizer
+00007ffb42803140 (__DATA,__objc_ivar) non-external (was a private external) _OBJC_IVAR_$_AXLTTranscriber._taskHint
+00007ffb42803168 (__DATA,__objc_ivar) non-external (was a private external) _OBJC_IVAR_$_AXLTTranscriber._transcriptionCallback
+00007ffb42803000 (__DATA,__objc_ivar) non-external (was a private external) _OBJC_IVAR_$_AXLTTranscription._nonUpdatingSegments
+00007ffb42802ff8 (__DATA,__objc_ivar) non-external (was a private external) _OBJC_IVAR_$_AXLTTranscription._task
+00007ffb42803008 (__DATA,__objc_ivar) non-external (was a private external) _OBJC_IVAR_$_AXLTTranscription._transcription
+00007ffb42803288 (__DATA,__objc_data) external _OBJC_METACLASS_$_AXLTAudioInfo
+00007ffb428036e8 (__DATA,__objc_data) non-external (was a private external) _OBJC_METACLASS_$_AXLTAudioOutManager
+00007ffb42803508 (__DATA,__objc_data) non-external (was a private external) _OBJC_METACLASS_$_AXLTAudioOutTranscriber
+00007ffb42803648 (__DATA,__objc_data) external _OBJC_METACLASS_$_AXLTClient
+00007ffb428035d0 (__DATA,__objc_data) non-external (was a private external) _OBJC_METACLASS_$_AXLTHistogramCalculator
+00007ffb428034b8 (__DATA,__objc_data) external _OBJC_METACLASS_$_AXLTLanguageAssetManager
+00007ffb428035a8 (__DATA,__objc_data) external _OBJC_METACLASS_$_AXLTLiveTranscription
+00007ffb42803698 (__DATA,__objc_data) external _OBJC_METACLASS_$_AXLTLockScreenObserver
+00007ffb42803238 (__DATA,__objc_data) external _OBJC_METACLASS_$_AXLTPhoneCallListener
+00007ffb428033a0 (__DATA,__objc_data) external _OBJC_METACLASS_$_AXLTSegmentUtilities
+00007ffb42803328 (__DATA,__objc_data) non-external (was a private external) _OBJC_METACLASS_$_AXLTSpeechTranscriber
+00007ffb42803418 (__DATA,__objc_data) non-external (was a private external) _OBJC_METACLASS_$_AXLTTestTranscriber
+00007ffb42803468 (__DATA,__objc_data) external _OBJC_METACLASS_$_AXLTTranscribedData
+00007ffb428032d8 (__DATA,__objc_data) external _OBJC_METACLASS_$_AXLTTranscribedDataReceiver
+00007ffb42803558 (__DATA,__objc_data) non-external (was a private external) _OBJC_METACLASS_$_AXLTTranscriber
+00007ffb42803378 (__DATA,__objc_data) external _OBJC_METACLASS_$_AXLTTranscription
+                 (undefined) external _OBJC_METACLASS_$_NSObject (from libobjc)
+                 (undefined) external _TUCallCenterCallStatusChangedNotification (from TelephonyUtilities)
+                 (undefined) external _TUCallCenterVideoCallStatusChangedNotification (from TelephonyUtilities)
+                 (undefined) external __Block_object_assign (from libSystem)
+                 (undefined) external __Block_object_dispose (from libSystem)
+                 (undefined) external __NSConcreteGlobalBlock (from libSystem)
+                 (undefined) external __NSConcreteStackBlock (from libSystem)
+00007ffb43e91860 (__DATA_CONST,__objc_const) non-external __OBJC_$_CATEGORY_NSDate_$_AXLTTimeUtilities
+00007ffb191edc68 (__TEXT,__objc_methlist) non-external __OBJC_$_CLASS_METHODS_AXLTAudioOutManager
+00007ffb191edad0 (__TEXT,__objc_methlist) non-external __OBJC_$_CLASS_METHODS_AXLTHistogramCalculator
+00007ffb191ed450 (__TEXT,__objc_methlist) non-external __OBJC_$_CLASS_METHODS_AXLTLanguageAssetManager
+00007ffb191ed980 (__TEXT,__objc_methlist) non-external __OBJC_$_CLASS_METHODS_AXLTLiveTranscription
+00007ffb191ecee0 (__TEXT,__objc_methlist) non-external __OBJC_$_CLASS_METHODS_AXLTPhoneCallListener
+00007ffb191ed250 (__TEXT,__objc_methlist) non-external __OBJC_$_CLASS_METHODS_AXLTSegmentUtilities
+00007ffb191ed300 (__TEXT,__objc_methlist) non-external __OBJC_$_CLASS_METHODS_AXLTTranscribedData
+00007ffb191ed710 (__TEXT,__objc_methlist) non-external __OBJC_$_CLASS_METHODS_AXLTTranscriber
+00007ffb191edbd0 (__TEXT,__objc_methlist) non-external __OBJC_$_CLASS_METHODS_NSDate(AXLTTimeUtilities)
+00007ffb43e919c8 (__DATA_CONST,__objc_const) non-external __OBJC_$_CLASS_PROP_LIST_AXLTAudioOutManager
+00007ffb43e91380 (__DATA_CONST,__objc_const) non-external __OBJC_$_CLASS_PROP_LIST_AXLTLiveTranscription
+00007ffb43e907a8 (__DATA_CONST,__objc_const) non-external __OBJC_$_CLASS_PROP_LIST_AXLTTranscribedData
+00007ffb43e90778 (__DATA_CONST,__objc_const) non-external __OBJC_$_CLASS_PROP_LIST_NSSecureCoding
+00007ffb191ecfa8 (__TEXT,__objc_methlist) non-external __OBJC_$_INSTANCE_METHODS_AXLTAudioInfo
+00007ffb191edc88 (__TEXT,__objc_methlist) non-external __OBJC_$_INSTANCE_METHODS_AXLTAudioOutManager
+00007ffb191ed4a0 (__TEXT,__objc_methlist) non-external __OBJC_$_INSTANCE_METHODS_AXLTAudioOutTranscriber
+00007ffb191edb08 (__TEXT,__objc_methlist) non-external __OBJC_$_INSTANCE_METHODS_AXLTClient
+00007ffb191ed468 (__TEXT,__objc_methlist) non-external __OBJC_$_INSTANCE_METHODS_AXLTLanguageAssetManager
+00007ffb191ed998 (__TEXT,__objc_methlist) non-external __OBJC_$_INSTANCE_METHODS_AXLTLiveTranscription
+00007ffb191edc18 (__TEXT,__objc_methlist) non-external __OBJC_$_INSTANCE_METHODS_AXLTLockScreenObserver
+00007ffb191ecef8 (__TEXT,__objc_methlist) non-external __OBJC_$_INSTANCE_METHODS_AXLTPhoneCallListener
+00007ffb191ed060 (__TEXT,__objc_methlist) non-external __OBJC_$_INSTANCE_METHODS_AXLTSpeechTranscriber
+00007ffb191ed270 (__TEXT,__objc_methlist) non-external __OBJC_$_INSTANCE_METHODS_AXLTTestTranscriber
+00007ffb191ed318 (__TEXT,__objc_methlist) non-external __OBJC_$_INSTANCE_METHODS_AXLTTranscribedData
+00007ffb191ed010 (__TEXT,__objc_methlist) non-external __OBJC_$_INSTANCE_METHODS_AXLTTranscribedDataReceiver
+00007ffb191ed728 (__TEXT,__objc_methlist) non-external __OBJC_$_INSTANCE_METHODS_AXLTTranscriber
+00007ffb191ed1b8 (__TEXT,__objc_methlist) non-external __OBJC_$_INSTANCE_METHODS_AXLTTranscription
+00007ffb43e8fcb0 (__DATA_CONST,__objc_const) non-external __OBJC_$_INSTANCE_VARIABLES_AXLTAudioInfo
+00007ffb43e91a28 (__DATA_CONST,__objc_const) non-external __OBJC_$_INSTANCE_VARIABLES_AXLTAudioOutManager
+00007ffb43e90b40 (__DATA_CONST,__objc_const) non-external __OBJC_$_INSTANCE_VARIABLES_AXLTAudioOutTranscriber
+00007ffb43e91778 (__DATA_CONST,__objc_const) non-external __OBJC_$_INSTANCE_VARIABLES_AXLTClient
+00007ffb43e913e0 (__DATA_CONST,__objc_const) non-external __OBJC_$_INSTANCE_VARIABLES_AXLTLiveTranscription
+00007ffb43e918e8 (__DATA_CONST,__objc_const) non-external __OBJC_$_INSTANCE_VARIABLES_AXLTLockScreenObserver
+00007ffb43e8fb00 (__DATA_CONST,__objc_const) non-external __OBJC_$_INSTANCE_VARIABLES_AXLTPhoneCallListener
+00007ffb43e90160 (__DATA_CONST,__objc_const) non-external __OBJC_$_INSTANCE_VARIABLES_AXLTSpeechTranscriber
+00007ffb43e905c8 (__DATA_CONST,__objc_const) non-external __OBJC_$_INSTANCE_VARIABLES_AXLTTestTranscriber
+00007ffb43e90808 (__DATA_CONST,__objc_const) non-external __OBJC_$_INSTANCE_VARIABLES_AXLTTranscribedData
+00007ffb43e8fde0 (__DATA_CONST,__objc_const) non-external __OBJC_$_INSTANCE_VARIABLES_AXLTTranscribedDataReceiver
+00007ffb43e90fd0 (__DATA_CONST,__objc_const) non-external __OBJC_$_INSTANCE_VARIABLES_AXLTTranscriber
+00007ffb43e903c0 (__DATA_CONST,__objc_const) non-external __OBJC_$_INSTANCE_VARIABLES_AXLTTranscription
+00007ffb43e8fd18 (__DATA_CONST,__objc_const) non-external __OBJC_$_PROP_LIST_AXLTAudioInfo
+00007ffb43e91ab0 (__DATA_CONST,__objc_const) non-external __OBJC_$_PROP_LIST_AXLTAudioOutManager
+00007ffb43e90de8 (__DATA_CONST,__objc_const) non-external __OBJC_$_PROP_LIST_AXLTAudioOutTranscriber
+00007ffb43e917e0 (__DATA_CONST,__objc_const) non-external __OBJC_$_PROP_LIST_AXLTClient
+00007ffb43e90a88 (__DATA_CONST,__objc_const) non-external __OBJC_$_PROP_LIST_AXLTLanguageAssetManager
+00007ffb43e914a8 (__DATA_CONST,__objc_const) non-external __OBJC_$_PROP_LIST_AXLTLiveTranscription
+00007ffb43e91950 (__DATA_CONST,__objc_const) non-external __OBJC_$_PROP_LIST_AXLTLockScreenObserver
+00007ffb43e8fb88 (__DATA_CONST,__objc_const) non-external __OBJC_$_PROP_LIST_AXLTPhoneCallListener
+00007ffb43e90268 (__DATA_CONST,__objc_const) non-external __OBJC_$_PROP_LIST_AXLTSpeechTranscriber
+00007ffb43e90630 (__DATA_CONST,__objc_const) non-external __OBJC_$_PROP_LIST_AXLTTestTranscriber
+00007ffb43e90950 (__DATA_CONST,__objc_const) non-external __OBJC_$_PROP_LIST_AXLTTranscribedData
+00007ffb43e8fe68 (__DATA_CONST,__objc_const) non-external __OBJC_$_PROP_LIST_AXLTTranscribedDataReceiver
+00007ffb43e91198 (__DATA_CONST,__objc_const) non-external __OBJC_$_PROP_LIST_AXLTTranscriber
+00007ffb43e900b0 (__DATA_CONST,__objc_const) non-external __OBJC_$_PROP_LIST_AXLTTranscriberProtocol
+00007ffb43e90428 (__DATA_CONST,__objc_const) non-external __OBJC_$_PROP_LIST_AXLTTranscription
+00007ffb43e8f978 (__DATA_CONST,__objc_const) non-external __OBJC_$_PROP_LIST_NSObject
+00007ffb43e90750 (__DATA_CONST,__objc_const) non-external __OBJC_$_PROTOCOL_CLASS_METHODS_NSSecureCoding
+00007ffb43e91320 (__DATA_CONST,__objc_const) non-external __OBJC_$_PROTOCOL_INSTANCE_METHODS_AXLTTranscriberDelegateProtocol
+00007ffb43e90030 (__DATA_CONST,__objc_const) non-external __OBJC_$_PROTOCOL_INSTANCE_METHODS_AXLTTranscriberProtocol
+00007ffb43e916f0 (__DATA_CONST,__objc_const) non-external __OBJC_$_PROTOCOL_INSTANCE_METHODS_AXLTXPCClientProtocol
+00007ffb43e91628 (__DATA_CONST,__objc_const) non-external __OBJC_$_PROTOCOL_INSTANCE_METHODS_AXLTXPCServiceProtocol
+00007ffb43e8fa78 (__DATA_CONST,__objc_const) non-external __OBJC_$_PROTOCOL_INSTANCE_METHODS_CXCallObserverDelegate
+00007ffb43e906f0 (__DATA_CONST,__objc_const) non-external __OBJC_$_PROTOCOL_INSTANCE_METHODS_NSCoding
+00007ffb43e8f788 (__DATA_CONST,__objc_const) non-external __OBJC_$_PROTOCOL_INSTANCE_METHODS_NSObject
+00007ffb43e8f958 (__DATA_CONST,__objc_const) non-external __OBJC_$_PROTOCOL_INSTANCE_METHODS_OPT_NSObject
+00007ffb43e8ff50 (__DATA_CONST,__objc_const) non-external __OBJC_$_PROTOCOL_INSTANCE_METHODS_OPT_SFSpeechRecognitionTaskDelegate
+00007ffb43e8ff10 (__DATA_CONST,__objc_const) non-external __OBJC_$_PROTOCOL_INSTANCE_METHODS_OPT_SFSpeechRecognizerDelegate
+00007ffb43e91358 (__DATA_CONST,__objc_const) non-external __OBJC_$_PROTOCOL_METHOD_TYPES_AXLTTranscriberDelegateProtocol
+00007ffb43e900c8 (__DATA_CONST,__objc_const) non-external __OBJC_$_PROTOCOL_METHOD_TYPES_AXLTTranscriberProtocol
+00007ffb43e91710 (__DATA_CONST,__objc_const) non-external __OBJC_$_PROTOCOL_METHOD_TYPES_AXLTXPCClientProtocol
+00007ffb43e916c0 (__DATA_CONST,__objc_const) non-external __OBJC_$_PROTOCOL_METHOD_TYPES_AXLTXPCServiceProtocol
+00007ffb43e8fa98 (__DATA_CONST,__objc_const) non-external __OBJC_$_PROTOCOL_METHOD_TYPES_CXCallObserverDelegate
+00007ffb43e90728 (__DATA_CONST,__objc_const) non-external __OBJC_$_PROTOCOL_METHOD_TYPES_NSCoding
+00007ffb43e8f9c0 (__DATA_CONST,__objc_const) non-external __OBJC_$_PROTOCOL_METHOD_TYPES_NSObject
+00007ffb43e90770 (__DATA_CONST,__objc_const) non-external __OBJC_$_PROTOCOL_METHOD_TYPES_NSSecureCoding
+00007ffb43e8ffe8 (__DATA_CONST,__objc_const) non-external __OBJC_$_PROTOCOL_METHOD_TYPES_SFSpeechRecognitionTaskDelegate
+00007ffb43e8ff30 (__DATA_CONST,__objc_const) non-external __OBJC_$_PROTOCOL_METHOD_TYPES_SFSpeechRecognizerDelegate
+00007ffb43e91308 (__DATA_CONST,__objc_const) non-external __OBJC_$_PROTOCOL_REFS_AXLTTranscriberDelegateProtocol
+00007ffb43e90018 (__DATA_CONST,__objc_const) non-external __OBJC_$_PROTOCOL_REFS_AXLTTranscriberProtocol
+00007ffb43e8fa60 (__DATA_CONST,__objc_const) non-external __OBJC_$_PROTOCOL_REFS_CXCallObserverDelegate
+00007ffb43e90738 (__DATA_CONST,__objc_const) non-external __OBJC_$_PROTOCOL_REFS_NSSecureCoding
+00007ffb43e8ff38 (__DATA_CONST,__objc_const) non-external __OBJC_$_PROTOCOL_REFS_SFSpeechRecognitionTaskDelegate
+00007ffb43e8fef8 (__DATA_CONST,__objc_const) non-external __OBJC_$_PROTOCOL_REFS_SFSpeechRecognizerDelegate
+00007ffb43e919b0 (__DATA_CONST,__objc_const) non-external __OBJC_CLASS_PROTOCOLS_$_AXLTAudioOutManager
+00007ffb43e91718 (__DATA_CONST,__objc_const) non-external __OBJC_CLASS_PROTOCOLS_$_AXLTClient
+00007ffb43e91368 (__DATA_CONST,__objc_const) non-external __OBJC_CLASS_PROTOCOLS_$_AXLTLiveTranscription
+00007ffb43e8faa0 (__DATA_CONST,__objc_const) non-external __OBJC_CLASS_PROTOCOLS_$_AXLTPhoneCallListener
+00007ffb43e900f0 (__DATA_CONST,__objc_const) non-external __OBJC_CLASS_PROTOCOLS_$_AXLTSpeechTranscriber
+00007ffb43e90568 (__DATA_CONST,__objc_const) non-external __OBJC_CLASS_PROTOCOLS_$_AXLTTestTranscriber
+00007ffb43e90790 (__DATA_CONST,__objc_const) non-external __OBJC_CLASS_PROTOCOLS_$_AXLTTranscribedData
+00007ffb43e90f68 (__DATA_CONST,__objc_const) non-external __OBJC_CLASS_PROTOCOLS_$_AXLTTranscriber
+00007ffb43e8fd50 (__DATA_CONST,__objc_const) non-external __OBJC_CLASS_RO_$_AXLTAudioInfo
+00007ffb43e91b38 (__DATA_CONST,__objc_const) non-external __OBJC_CLASS_RO_$_AXLTAudioOutManager
+00007ffb43e90f20 (__DATA_CONST,__objc_const) non-external __OBJC_CLASS_RO_$_AXLTAudioOutTranscriber
+00007ffb43e91818 (__DATA_CONST,__objc_const) non-external __OBJC_CLASS_RO_$_AXLTClient
+00007ffb43e915e0 (__DATA_CONST,__objc_const) non-external __OBJC_CLASS_RO_$_AXLTHistogramCalculator
+00007ffb43e90ab0 (__DATA_CONST,__objc_const) non-external __OBJC_CLASS_RO_$_AXLTLanguageAssetManager
+00007ffb43e91550 (__DATA_CONST,__objc_const) non-external __OBJC_CLASS_RO_$_AXLTLiveTranscription
+00007ffb43e91968 (__DATA_CONST,__objc_const) non-external __OBJC_CLASS_RO_$_AXLTLockScreenObserver
+00007ffb43e8fc20 (__DATA_CONST,__objc_const) non-external __OBJC_CLASS_RO_$_AXLTPhoneCallListener
+00007ffb43e90520 (__DATA_CONST,__objc_const) non-external __OBJC_CLASS_RO_$_AXLTSegmentUtilities
+00007ffb43e90330 (__DATA_CONST,__objc_const) non-external __OBJC_CLASS_RO_$_AXLTSpeechTranscriber
+00007ffb43e906a8 (__DATA_CONST,__objc_const) non-external __OBJC_CLASS_RO_$_AXLTTestTranscriber
+00007ffb43e909f8 (__DATA_CONST,__objc_const) non-external __OBJC_CLASS_RO_$_AXLTTranscribedData
+00007ffb43e8feb0 (__DATA_CONST,__objc_const) non-external __OBJC_CLASS_RO_$_AXLTTranscribedDataReceiver
+00007ffb43e912c0 (__DATA_CONST,__objc_const) non-external __OBJC_CLASS_RO_$_AXLTTranscriber
+00007ffb43e90490 (__DATA_CONST,__objc_const) non-external __OBJC_CLASS_RO_$_AXLTTranscription
+00007ffb43e8f768 (__DATA_CONST,__objc_protolist) non-external (was a private external) __OBJC_LABEL_PROTOCOL_$_AXLTTranscriberDelegateProtocol
+00007ffb43e8f750 (__DATA_CONST,__objc_protolist) non-external (was a private external) __OBJC_LABEL_PROTOCOL_$_AXLTTranscriberProtocol
+00007ffb43e8f778 (__DATA_CONST,__objc_protolist) non-external (was a private external) __OBJC_LABEL_PROTOCOL_$_AXLTXPCClientProtocol
+00007ffb43e8f770 (__DATA_CONST,__objc_protolist) non-external (was a private external) __OBJC_LABEL_PROTOCOL_$_AXLTXPCServiceProtocol
+00007ffb43e8f738 (__DATA_CONST,__objc_protolist) non-external (was a private external) __OBJC_LABEL_PROTOCOL_$_CXCallObserverDelegate
+00007ffb43e8f758 (__DATA_CONST,__objc_protolist) non-external (was a private external) __OBJC_LABEL_PROTOCOL_$_NSCoding
+00007ffb43e8f730 (__DATA_CONST,__objc_protolist) non-external (was a private external) __OBJC_LABEL_PROTOCOL_$_NSObject
+00007ffb43e8f760 (__DATA_CONST,__objc_protolist) non-external (was a private external) __OBJC_LABEL_PROTOCOL_$_NSSecureCoding
+00007ffb43e8f748 (__DATA_CONST,__objc_protolist) non-external (was a private external) __OBJC_LABEL_PROTOCOL_$_SFSpeechRecognitionTaskDelegate
+00007ffb43e8f740 (__DATA_CONST,__objc_protolist) non-external (was a private external) __OBJC_LABEL_PROTOCOL_$_SFSpeechRecognizerDelegate
+00007ffb43e8fc68 (__DATA_CONST,__objc_const) non-external __OBJC_METACLASS_RO_$_AXLTAudioInfo
+00007ffb43e919e0 (__DATA_CONST,__objc_const) non-external __OBJC_METACLASS_RO_$_AXLTAudioOutManager
+00007ffb43e90af8 (__DATA_CONST,__objc_const) non-external __OBJC_METACLASS_RO_$_AXLTAudioOutTranscriber
+00007ffb43e91730 (__DATA_CONST,__objc_const) non-external __OBJC_METACLASS_RO_$_AXLTClient
+00007ffb43e91598 (__DATA_CONST,__objc_const) non-external __OBJC_METACLASS_RO_$_AXLTHistogramCalculator
+00007ffb43e90a40 (__DATA_CONST,__objc_const) non-external __OBJC_METACLASS_RO_$_AXLTLanguageAssetManager
+00007ffb43e91398 (__DATA_CONST,__objc_const) non-external __OBJC_METACLASS_RO_$_AXLTLiveTranscription
+00007ffb43e918a0 (__DATA_CONST,__objc_const) non-external __OBJC_METACLASS_RO_$_AXLTLockScreenObserver
+00007ffb43e8fab8 (__DATA_CONST,__objc_const) non-external __OBJC_METACLASS_RO_$_AXLTPhoneCallListener
+00007ffb43e904d8 (__DATA_CONST,__objc_const) non-external __OBJC_METACLASS_RO_$_AXLTSegmentUtilities
+00007ffb43e90118 (__DATA_CONST,__objc_const) non-external __OBJC_METACLASS_RO_$_AXLTSpeechTranscriber
+00007ffb43e90580 (__DATA_CONST,__objc_const) non-external __OBJC_METACLASS_RO_$_AXLTTestTranscriber
+00007ffb43e907c0 (__DATA_CONST,__objc_const) non-external __OBJC_METACLASS_RO_$_AXLTTranscribedData
+00007ffb43e8fd98 (__DATA_CONST,__objc_const) non-external __OBJC_METACLASS_RO_$_AXLTTranscribedDataReceiver
+00007ffb43e90f88 (__DATA_CONST,__objc_const) non-external __OBJC_METACLASS_RO_$_AXLTTranscriber
+00007ffb43e90378 (__DATA_CONST,__objc_const) non-external __OBJC_METACLASS_RO_$_AXLTTranscription
+00007ffb428039b0 (__DATA,__data) non-external (was a private external) __OBJC_PROTOCOL_$_AXLTTranscriberDelegateProtocol
+00007ffb42803890 (__DATA,__data) non-external (was a private external) __OBJC_PROTOCOL_$_AXLTTranscriberProtocol
+00007ffb42803a70 (__DATA,__data) non-external (was a private external) __OBJC_PROTOCOL_$_AXLTXPCClientProtocol
+00007ffb42803a10 (__DATA,__data) non-external (was a private external) __OBJC_PROTOCOL_$_AXLTXPCServiceProtocol
+00007ffb42803770 (__DATA,__data) non-external (was a private external) __OBJC_PROTOCOL_$_CXCallObserverDelegate
+00007ffb428038f0 (__DATA,__data) non-external (was a private external) __OBJC_PROTOCOL_$_NSCoding
+00007ffb42803710 (__DATA,__data) non-external (was a private external) __OBJC_PROTOCOL_$_NSObject
+00007ffb42803950 (__DATA,__data) non-external (was a private external) __OBJC_PROTOCOL_$_NSSecureCoding
+00007ffb42803830 (__DATA,__data) non-external (was a private external) __OBJC_PROTOCOL_$_SFSpeechRecognitionTaskDelegate
+00007ffb428037d0 (__DATA,__data) non-external (was a private external) __OBJC_PROTOCOL_$_SFSpeechRecognizerDelegate
+00007ffb43e92738 (__DATA_CONST,__objc_protorefs) non-external (was a private external) __OBJC_PROTOCOL_REFERENCE_$_AXLTXPCClientProtocol
+00007ffb43e92730 (__DATA_CONST,__objc_protorefs) non-external (was a private external) __OBJC_PROTOCOL_REFERENCE_$_AXLTXPCServiceProtocol
+                 (undefined) external __Unwind_Resume (from libSystem)
+00007ffb191e8e61 (__TEXT,__text) non-external ___108-[AXLTAudioOutManager handleInputBufferWithContext:audioQueue:audioBuffer:timestamp:packetCount:packetDesc:]_block_invoke
+00007ffb191e71de (__TEXT,__text) non-external ___30-[AXLTClient transcribedData:]_block_invoke
+00007ffb191ecb2f (__TEXT,__text) non-external ___30-[AXLTClient transcribedData:]_block_invoke.cold.1
+00007ffb191e1c0d (__TEXT,__text) non-external ___33+[AXLTTranscriber sharedInstance]_block_invoke
+00007ffb191e38e8 (__TEXT,__text) non-external ___34-[AXLTTranscriber _coalsecingTime]_block_invoke
+00007ffb191e7c04 (__TEXT,__text) non-external ___37+[AXLTAudioOutManager sharedInstance]_block_invoke
+00007ffb191e7049 (__TEXT,__text) non-external ___37-[AXLTClient pingServiceWithHandler:]_block_invoke
+00007ffb191e70b6 (__TEXT,__text) non-external ___37-[AXLTClient pingServiceWithHandler:]_block_invoke.273
+00007ffb191ecad5 (__TEXT,__text) non-external ___37-[AXLTClient pingServiceWithHandler:]_block_invoke.273.cold.1
+00007ffb191eca4e (__TEXT,__text) non-external ___37-[AXLTClient pingServiceWithHandler:]_block_invoke.cold.1
+00007ffb191e9280 (__TEXT,__text) non-external ___38-[AXLTAudioOutManager _cleanupAllPids]_block_invoke
+00007ffb191e903a (__TEXT,__text) non-external ___38-[AXLTAudioOutManager _cleanupForPID:]_block_invoke
+00007ffb191e7c8a (__TEXT,__text) non-external ___39+[AXLTAudioOutManager isExcludedAppID:]_block_invoke
+00007ffb191e3b47 (__TEXT,__text) non-external ___39+[AXLTLiveTranscription sharedInstance]_block_invoke
+00007ffb191dbeb0 (__TEXT,__text) non-external ___39+[AXLTPhoneCallListener sharedInstance]_block_invoke
+00007ffb191e59a1 (__TEXT,__text) non-external ___41-[AXLTClient initializeServiceConnection]_block_invoke
+00007ffb191e5a68 (__TEXT,__text) non-external ___41-[AXLTClient initializeServiceConnection]_block_invoke.214
+00007ffb191df49e (__TEXT,__text) non-external ___42+[AXLTLanguageAssetManager sharedInstance]_block_invoke
+00007ffb191dea61 (__TEXT,__text) non-external ___42-[AXLTTestTranscriber startTranscription:]_block_invoke
+00007ffb191eb7b2 (__TEXT,__text) non-external ___42-[AXLTTestTranscriber startTranscription:]_block_invoke.cold.1
+00007ffb191dd038 (__TEXT,__text) non-external ___43-[AXLTSpeechTranscriber initializeAudioTap]_block_invoke
+00007ffb191eb48e (__TEXT,__text) non-external ___43-[AXLTSpeechTranscriber initializeAudioTap]_block_invoke.cold.1
+00007ffb191e8169 (__TEXT,__text) non-external ___44-[AXLTAudioOutManager isTranscribingForPID:]_block_invoke
+00007ffb191e0fbf (__TEXT,__text) non-external ___44-[AXLTAudioOutTranscriber _saveAudioBuffer:]_block_invoke
+00007ffb191ebb4a (__TEXT,__text) non-external ___44-[AXLTAudioOutTranscriber _saveAudioBuffer:]_block_invoke.cold.1
+00007ffb191ebba4 (__TEXT,__text) non-external ___44-[AXLTAudioOutTranscriber _saveAudioBuffer:]_block_invoke.cold.2
+00007ffb191e2b91 (__TEXT,__text) non-external ___47-[AXLTTranscriber appendAudioPCMBuffer:forPID:]_block_invoke
+00007ffb191ddaff (__TEXT,__text) non-external ___48-[AXLTSpeechTranscriber calcHistogramForBuffer:]_block_invoke
+00007ffb191dd548 (__TEXT,__text) non-external ___49-[AXLTSpeechTranscriber setupTranscriberIfNeeded]_block_invoke
+00007ffb191dd90e (__TEXT,__text) non-external ___49-[AXLTSpeechTranscriber setupTranscriberIfNeeded]_block_invoke.264
+00007ffb191dd60a (__TEXT,__text) non-external ___49-[AXLTSpeechTranscriber setupTranscriberIfNeeded]_block_invoke_2
+00007ffb191eb60b (__TEXT,__text) non-external ___49-[AXLTSpeechTranscriber setupTranscriberIfNeeded]_block_invoke_2.cold.1
+00007ffb191de0cf (__TEXT,__text) non-external ___50-[AXLTTranscription _shouldUseNonUpdatingSegments]_block_invoke
+00007ffb191dface (__TEXT,__text) non-external ___51-[AXLTAudioOutTranscriber setupTranscriberIfNeeded]_block_invoke
+00007ffb191dff25 (__TEXT,__text) non-external ___51-[AXLTAudioOutTranscriber setupTranscriberIfNeeded]_block_invoke.208
+00007ffb191dfbbb (__TEXT,__text) non-external ___51-[AXLTAudioOutTranscriber setupTranscriberIfNeeded]_block_invoke_2
+00007ffb191e79a6 (__TEXT,__text) non-external ___53-[AXLTLockScreenObserver _registerScreenNotification]_block_invoke
+00007ffb191e6cb4 (__TEXT,__text) non-external ___54-[AXLTClient stopTranscribing:targetPID:client:error:]_block_invoke
+00007ffb191e6d05 (__TEXT,__text) non-external ___54-[AXLTClient stopTranscribing:targetPID:client:error:]_block_invoke.268
+00007ffb191ec853 (__TEXT,__text) non-external ___54-[AXLTClient stopTranscribing:targetPID:client:error:]_block_invoke.268.cold.1
+00007ffb191e6d97 (__TEXT,__text) non-external ___54-[AXLTClient stopTranscribing:targetPID:client:error:]_block_invoke.269
+00007ffb191ec8da (__TEXT,__text) non-external ___54-[AXLTClient stopTranscribing:targetPID:client:error:]_block_invoke.269.cold.1
+00007ffb191ec961 (__TEXT,__text) non-external ___54-[AXLTClient stopTranscribing:targetPID:client:error:]_block_invoke.269.cold.2
+00007ffb191e6e57 (__TEXT,__text) non-external ___54-[AXLTClient stopTranscribing:targetPID:client:error:]_block_invoke.270
+00007ffb191ec994 (__TEXT,__text) non-external ___54-[AXLTClient stopTranscribing:targetPID:client:error:]_block_invoke.270.cold.1
+00007ffb191eca1b (__TEXT,__text) non-external ___54-[AXLTClient stopTranscribing:targetPID:client:error:]_block_invoke.270.cold.2
+00007ffb191e2ec7 (__TEXT,__text) non-external ___54-[AXLTTranscriber _downloadAndInstallSpeechRecognizer]_block_invoke
+00007ffb191e3017 (__TEXT,__text) non-external ___54-[AXLTTranscriber _downloadAndInstallSpeechRecognizer]_block_invoke.277
+00007ffb191e2f1d (__TEXT,__text) non-external ___54-[AXLTTranscriber _downloadAndInstallSpeechRecognizer]_block_invoke_2
+00007ffb191e30a4 (__TEXT,__text) non-external ___54-[AXLTTranscriber _downloadAndInstallSpeechRecognizer]_block_invoke_2.278
+00007ffb191df715 (__TEXT,__text) non-external ___59-[AXLTLanguageAssetManager downloadSpeechAsset:completion:]_block_invoke
+00007ffb191df742 (__TEXT,__text) non-external ___59-[AXLTLanguageAssetManager downloadSpeechAsset:completion:]_block_invoke.168
+00007ffb191e1441 (__TEXT,__text) non-external ___62-[AXLTAudioOutTranscriber _saveTranscribedText:withTimeStamp:]_block_invoke
+00007ffb191ebbfe (__TEXT,__text) non-external ___62-[AXLTAudioOutTranscriber _saveTranscribedText:withTimeStamp:]_block_invoke.cold.1
+00007ffb191e6535 (__TEXT,__text) non-external ___69-[AXLTClient startTranscribing:targetPID:client:callbackBlock:error:]_block_invoke
+00007ffb191e662a (__TEXT,__text) non-external ___69-[AXLTClient startTranscribing:targetPID:client:callbackBlock:error:]_block_invoke.251
+00007ffb191ec6df (__TEXT,__text) non-external ___69-[AXLTClient startTranscribing:targetPID:client:callbackBlock:error:]_block_invoke.251.cold.1
+00007ffb191ec766 (__TEXT,__text) non-external ___69-[AXLTClient startTranscribing:targetPID:client:callbackBlock:error:]_block_invoke.251.cold.2
+00007ffb191e66ea (__TEXT,__text) non-external ___69-[AXLTClient startTranscribing:targetPID:client:callbackBlock:error:]_block_invoke.253
+00007ffb191ec799 (__TEXT,__text) non-external ___69-[AXLTClient startTranscribing:targetPID:client:callbackBlock:error:]_block_invoke.253.cold.1
+00007ffb191ec820 (__TEXT,__text) non-external ___69-[AXLTClient startTranscribing:targetPID:client:callbackBlock:error:]_block_invoke.253.cold.2
+00007ffb191e67aa (__TEXT,__text) non-external ___69-[AXLTClient startTranscribing:targetPID:client:callbackBlock:error:]_block_invoke.255
+00007ffb191ec658 (__TEXT,__text) non-external ___69-[AXLTClient startTranscribing:targetPID:client:callbackBlock:error:]_block_invoke.cold.1
+00007ffb191e67b0 (__TEXT,__text) non-external ___69-[AXLTClient startTranscribing:targetPID:client:callbackBlock:error:]_block_invoke_2
+00007ffb191e09c2 (__TEXT,__text) non-external ___73-[AXLTAudioOutTranscriber _calcHistogramForBuffer:packetCount:isSilence:]_block_invoke
+00007ffb191e8bd0 (__TEXT,__text) non-external ___83-[AXLTAudioOutManager _startTranscriptionForPID:appID:appName:excludingPIDs:error:]_block_invoke
+00007ffb191e6510 (__TEXT,__text) non-external ___Block_byref_object_copy_
+00007ffb191e6526 (__TEXT,__text) non-external ___Block_byref_object_dispose_
+                 (undefined) external ___CFConstantStringClassReference (from CoreFoundation)
+                 (undefined) external ___NSArray0__struct (from CoreFoundation)
+00007ffb43e8ecd8 (__DATA_CONST,__const) non-external (was a private external) ___block_descriptor_32_e23_v16?0"AXLTAudioInfo"8l
+00007ffb43e8e930 (__DATA_CONST,__const) non-external (was a private external) ___block_descriptor_32_e5_v8?0l
+00007ffb43e8eb10 (__DATA_CONST,__const) non-external (was a private external) ___block_descriptor_40_e5_v8?0l
+00007ffb43e8ed18 (__DATA_CONST,__const) non-external (was a private external) ___block_descriptor_40_e8_32bs_e17_v16?0"NSError"8l
+00007ffb43e8ed48 (__DATA_CONST,__const) non-external (was a private external) ___block_descriptor_40_e8_32bs_e18_v16?0"NSString"8l
+00007ffb43e8eaa8 (__DATA_CONST,__const) non-external (was a private external) ___block_descriptor_40_e8_32bs_e30_v24?0"NSString"8"NSError"16l
+00007ffb43e8ea78 (__DATA_CONST,__const) non-external (was a private external) ___block_descriptor_40_e8_32bs_e8_v16?0Q8l
+00007ffb43e8eb90 (__DATA_CONST,__const) non-external (was a private external) ___block_descriptor_40_e8_32s_e17_v16?0"NSError"8l
+00007ffb43e8e9a8 (__DATA_CONST,__const) non-external (was a private external) ___block_descriptor_40_e8_32s_e33_v28?0"AXLTTranscription"8q16c24l
+00007ffb43e8e978 (__DATA_CONST,__const) non-external (was a private external) ___block_descriptor_40_e8_32s_e42_v24?0"AVAudioPCMBuffer"8"AVAudioTime"16l
+00007ffb43e8e9d8 (__DATA_CONST,__const) non-external (was a private external) ___block_descriptor_40_e8_32s_e5_v8?0l
+00007ffb43e8eb60 (__DATA_CONST,__const) non-external (was a private external) ___block_descriptor_40_e8_32s_e8_v16?0Q8l
+00007ffb43e8ec28 (__DATA_CONST,__const) non-external (was a private external) ___block_descriptor_40_e8_32w_e5_v8?0l
+00007ffb43e8ed88 (__DATA_CONST,__const) non-external (was a private external) ___block_descriptor_40_e8_32w_e8_v12?0i8l
+00007ffb43e8ee88 (__DATA_CONST,__const) non-external (was a private external) ___block_descriptor_44_e8_32s_e5_v8?0l
+00007ffb43e8ec78 (__DATA_CONST,__const) non-external (was a private external) ___block_descriptor_48_e8_32r40r_e17_v16?0"NSError"8l
+00007ffb43e8eca8 (__DATA_CONST,__const) non-external (was a private external) ___block_descriptor_48_e8_32r40r_e20_v20?0c8"NSError"12l
+00007ffb43e8ea08 (__DATA_CONST,__const) non-external (was a private external) ___block_descriptor_48_e8_32s40s_e5_v8?0l
+00007ffb43e8eb30 (__DATA_CONST,__const) non-external (was a private external) ___block_descriptor_48_e8_32s_e5_v8?0l
+00007ffb43e8edf8 (__DATA_CONST,__const) non-external (was a private external) ___block_descriptor_52_e8_32s40r_e5_v8?0l
+00007ffb43e8ee28 (__DATA_CONST,__const) non-external (was a private external) ___block_descriptor_52_e8_32s40s_e5_v8?0l
+00007ffb43e8eae0 (__DATA_CONST,__const) non-external (was a private external) ___block_descriptor_56_e8_32s40s48s_e5_v8?0l
+00007ffb43e8ee58 (__DATA_CONST,__const) non-external (was a private external) ___block_descriptor_84_e8_32s40s_e5_v8?0l
+00007ffb43e8e950 (__DATA_CONST,__const) non-external ___block_literal_global
+00007ffb43e8ea38 (__DATA_CONST,__const) non-external ___block_literal_global
+00007ffb43e8ea58 (__DATA_CONST,__const) non-external ___block_literal_global
+00007ffb43e8ebc0 (__DATA_CONST,__const) non-external ___block_literal_global
+00007ffb43e8ec08 (__DATA_CONST,__const) non-external ___block_literal_global
+00007ffb43e8ec58 (__DATA_CONST,__const) non-external ___block_literal_global
+00007ffb43e8edb8 (__DATA_CONST,__const) non-external ___block_literal_global
+00007ffb43e8edd8 (__DATA_CONST,__const) non-external ___block_literal_global.160
+00007ffb43e8ecf8 (__DATA_CONST,__const) non-external ___block_literal_global.257
+00007ffb191df72b (__TEXT,__text) non-external (was a private external) ___copy_helper_block_e8_32b
+00007ffb191e65c7 (__TEXT,__text) non-external (was a private external) ___copy_helper_block_e8_32r40r
+00007ffb191dd28a (__TEXT,__text) non-external (was a private external) ___copy_helper_block_e8_32s
+00007ffb191e82bf (__TEXT,__text) non-external (was a private external) ___copy_helper_block_e8_32s40r
+00007ffb191ddb8a (__TEXT,__text) non-external (was a private external) ___copy_helper_block_e8_32s40s
+00007ffb191e189d (__TEXT,__text) non-external (was a private external) ___copy_helper_block_e8_32s40s48s
+00007ffb191e5a48 (__TEXT,__text) non-external (was a private external) ___copy_helper_block_e8_32w
+00007ffb191e65ff (__TEXT,__text) non-external (was a private external) ___destroy_helper_block_e8_32r40r
+00007ffb191dd299 (__TEXT,__text) non-external (was a private external) ___destroy_helper_block_e8_32s
+00007ffb191e82ef (__TEXT,__text) non-external (was a private external) ___destroy_helper_block_e8_32s40r
+00007ffb191ddbaf (__TEXT,__text) non-external (was a private external) ___destroy_helper_block_e8_32s40s
+00007ffb191e18c9 (__TEXT,__text) non-external (was a private external) ___destroy_helper_block_e8_32s40s48s
+00007ffb191e5a5a (__TEXT,__text) non-external (was a private external) ___destroy_helper_block_e8_32w
+                 (undefined) external ___objc_personality_v0 (from libobjc)
+                 (undefined) external ___stack_chk_fail (from libSystem)
+                 (undefined) external ___stack_chk_guard (from libSystem)
+00007ffb191ead20 (__TEXT,__text) non-external (was a private external) ___swift_instantiateConcreteTypeFromMangledName
+00007ffb191eada0 (__TEXT,__text) non-external (was a private external) ___swift_instantiateConcreteTypeFromMangledNameAbstract
+00007ffb191ea760 (__TEXT,__text) non-external (was a private external) ___swift_memcpy1_1
+00007ffb191eab40 (__TEXT,__text) non-external (was a private external) ___swift_memcpy97_8
+00007ffb191ea770 (__TEXT,__text) non-external (was a private external) ___swift_noop_void_return
+00007ffb191ee040 (__TEXT,__const) non-external (was a private external) ___swift_reflection_version
+00007ffb42803ba8 (__DATA,__bss) non-external __coalsecingTime.onceToken
+00007ffb42803ba0 (__DATA,__bss) non-external __coalsecingTime.s_userDefaults
+                 (undefined) external __dispatch_main_q (from libSystem)
+                 (undefined) external __dispatch_source_type_timer (from libSystem)
+                 (undefined) external __objc_empty_cache (from libobjc)
+                 (undefined) external __os_feature_enabled_impl (from libSystem)
+                 (undefined) external __os_log_debug_impl (from libSystem)
+                 (undefined) external __os_log_error_impl (from libSystem)
+                 (undefined) external __os_log_impl (from libSystem)
+00007ffb42803b78 (__DATA,__bss) non-external __shouldUseNonUpdatingSegments.onceToken
+00007ffb42803b70 (__DATA,__bss) non-external __shouldUseNonUpdatingSegments.s_userDefaults
+                 (undefined) weak external __swift_FORCE_LOAD_$_swiftAVFoundation (from libswiftAVFoundation)
+00007ffb43e8f028 (__DATA_CONST,__const) non-external (was a private external) __swift_FORCE_LOAD_$_swiftAVFoundation_$_LiveTranscription
+                 (undefined) weak external __swift_FORCE_LOAD_$_swiftCoreAudio (from libswiftCoreAudio)
+00007ffb43e8f040 (__DATA_CONST,__const) non-external (was a private external) __swift_FORCE_LOAD_$_swiftCoreAudio_$_LiveTranscription
+                 (undefined) weak external __swift_FORCE_LOAD_$_swiftCoreFoundation (from libswiftCoreFoundation)
+00007ffb43e8eff8 (__DATA_CONST,__const) non-external (was a private external) __swift_FORCE_LOAD_$_swiftCoreFoundation_$_LiveTranscription
+                 (undefined) weak external __swift_FORCE_LOAD_$_swiftCoreGraphics (from libswiftCoreFoundation)
+00007ffb43e8f018 (__DATA_CONST,__const) non-external (was a private external) __swift_FORCE_LOAD_$_swiftCoreGraphics_$_LiveTranscription
+                 (undefined) weak external __swift_FORCE_LOAD_$_swiftCoreMIDI (from libswiftCoreMIDI)
+00007ffb43e8f050 (__DATA_CONST,__const) non-external (was a private external) __swift_FORCE_LOAD_$_swiftCoreMIDI_$_LiveTranscription
+                 (undefined) weak external __swift_FORCE_LOAD_$_swiftCoreMedia (from libswiftCoreMedia)
+00007ffb43e8f030 (__DATA_CONST,__const) non-external (was a private external) __swift_FORCE_LOAD_$_swiftCoreMedia_$_LiveTranscription
+                 (undefined) weak external __swift_FORCE_LOAD_$_swiftDarwin (from libswiftDarwin)
+00007ffb43e8eff0 (__DATA_CONST,__const) non-external (was a private external) __swift_FORCE_LOAD_$_swiftDarwin_$_LiveTranscription
+                 (undefined) weak external __swift_FORCE_LOAD_$_swiftDispatch (from libswiftDispatch)
+00007ffb43e8f000 (__DATA_CONST,__const) non-external (was a private external) __swift_FORCE_LOAD_$_swiftDispatch_$_LiveTranscription
+                 (undefined) weak external automatically hidden __swift_FORCE_LOAD_$_swiftFoundation (from Foundation)
+00007ffb43e8efe0 (__DATA_CONST,__const) non-external (was a private external) __swift_FORCE_LOAD_$_swiftFoundation_$_LiveTranscription
+                 (undefined) weak external __swift_FORCE_LOAD_$_swiftIOKit (from libswiftIOKit)
+00007ffb43e8f010 (__DATA_CONST,__const) non-external (was a private external) __swift_FORCE_LOAD_$_swiftIOKit_$_LiveTranscription
+                 (undefined) weak external __swift_FORCE_LOAD_$_swiftMetal (from libswiftMetal)
+00007ffb43e8f038 (__DATA_CONST,__const) non-external (was a private external) __swift_FORCE_LOAD_$_swiftMetal_$_LiveTranscription
+                 (undefined) weak external __swift_FORCE_LOAD_$_swiftObjectiveC (from libswiftObjectiveC)
+00007ffb43e8efe8 (__DATA_CONST,__const) non-external (was a private external) __swift_FORCE_LOAD_$_swiftObjectiveC_$_LiveTranscription
+                 (undefined) weak external __swift_FORCE_LOAD_$_swiftQuartzCore (from libswiftQuartzCore)
+00007ffb43e8f048 (__DATA_CONST,__const) non-external (was a private external) __swift_FORCE_LOAD_$_swiftQuartzCore_$_LiveTranscription
+                 (undefined) weak external __swift_FORCE_LOAD_$_swiftUniformTypeIdentifiers (from libswiftUniformTypeIdentifiers)
+00007ffb43e8f058 (__DATA_CONST,__const) non-external (was a private external) __swift_FORCE_LOAD_$_swiftUniformTypeIdentifiers_$_LiveTranscription
+                 (undefined) weak external __swift_FORCE_LOAD_$_swiftXPC (from libswiftXPC)
+00007ffb43e8f008 (__DATA_CONST,__const) non-external (was a private external) __swift_FORCE_LOAD_$_swiftXPC_$_LiveTranscription
+                 (undefined) weak external __swift_FORCE_LOAD_$_swiftos (from libswiftos)
+00007ffb43e8f020 (__DATA_CONST,__const) non-external (was a private external) __swift_FORCE_LOAD_$_swiftos_$_LiveTranscription
+                 (undefined) weak external __swift_FORCE_LOAD_$_swiftsimd (from libswiftsimd)
+00007ffb43e8f060 (__DATA_CONST,__const) non-external (was a private external) __swift_FORCE_LOAD_$_swiftsimd_$_LiveTranscription
+00007ffb191efaec (__TEXT,__swift5_typeref) non-external (was a private external) _associated conformance 17LiveTranscription11AXLTCaptionVs12IdentifiableAA2IDsADP_SH
+00007ffb191efad4 (__TEXT,__swift5_typeref) non-external (was a private external) _associated conformance 17LiveTranscription22AXLTCaptionActionsTypeOSHAASQ
+                 (undefined) external _dispatch_async (from libSystem)
+                 (undefined) external _dispatch_get_global_queue (from libSystem)
+                 (undefined) external _dispatch_once (from libSystem)
+                 (undefined) external _dispatch_queue_attr_make_with_autorelease_frequency (from libSystem)
+                 (undefined) external _dispatch_queue_attr_make_with_qos_class (from libSystem)
+                 (undefined) external _dispatch_queue_create (from libSystem)
+                 (undefined) external _dispatch_resume (from libSystem)
+                 (undefined) external _dispatch_source_create (from libSystem)
+                 (undefined) external _dispatch_source_set_event_handler (from libSystem)
+                 (undefined) external _dispatch_source_set_timer (from libSystem)
+                 (undefined) external _dispatch_suspend (from libSystem)
+                 (undefined) external _dispatch_sync (from libSystem)
+                 (undefined) external _dispatch_time (from libSystem)
+                 (undefined) external _free (from libSystem)
+                 (undefined) external _getpid (from libSystem)
+00007ffb191e8c51 (__TEXT,__text) non-external _handleInputBuffer
+00007ffb191ecc14 (__TEXT,__text) non-external _handleInputBuffer.cold.1
+00007ffb42803bd0 (__DATA,__bss) non-external _isExcludedAppID:._excludedAppIDs
+00007ffb42803bd8 (__DATA,__bss) non-external _isExcludedAppID:.onceToken
+                 (undefined) external _malloc (from libSystem)
+                 (undefined) external _memcpy (from libSystem)
+                 (undefined) external _notify_get_state (from libSystem)
+                 (undefined) external _notify_register_dispatch (from libSystem)
+                 (undefined) external _objc_alloc (from libobjc)
+                 (undefined) external _objc_alloc_init (from libobjc)
+                 (undefined) external _objc_autorelease (from libobjc)
+                 (undefined) external _objc_autoreleaseReturnValue (from libobjc)
+                 (undefined) external _objc_begin_catch (from libobjc)
+                 (undefined) external _objc_copyWeak (from libobjc)
+                 (undefined) external _objc_destroyWeak (from libobjc)
+                 (undefined) external _objc_end_catch (from libobjc)
+                 (undefined) external _objc_enumerationMutation (from libobjc)
+                 (undefined) external _objc_getProperty (from libobjc)
+                 (undefined) external _objc_initWeak (from libobjc)
+                 (undefined) external _objc_loadWeakRetained (from libobjc)
+                 (undefined) external _objc_msgSend (from libobjc)
+                 (undefined) external _objc_msgSendSuper2 (from libobjc)
+                 (undefined) external _objc_opt_class (from libobjc)
+                 (undefined) external _objc_opt_isKindOfClass (from libobjc)
+                 (undefined) external _objc_opt_new (from libobjc)
+                 (undefined) external _objc_opt_respondsToSelector (from libobjc)
+                 (undefined) external _objc_opt_self (from libobjc)
+                 (undefined) external _objc_release (from libobjc)
+                 (undefined) external _objc_retain (from libobjc)
+                 (undefined) external _objc_retainAutorelease (from libobjc)
+                 (undefined) external _objc_retainAutoreleaseReturnValue (from libobjc)
+                 (undefined) external _objc_retainAutoreleasedReturnValue (from libobjc)
+                 (undefined) external _objc_retainBlock (from libobjc)
+                 (undefined) external _objc_setProperty_atomic (from libobjc)
+                 (undefined) external _objc_setProperty_atomic_copy (from libobjc)
+                 (undefined) external _objc_storeStrong (from libobjc)
+                 (undefined) external _objc_storeWeak (from libobjc)
+                 (undefined) external _os_log_type_enabled (from libSystem)
+00007ffb42803bb0 (__DATA,__bss) non-external _sharedInstance._shared
+00007ffb42803bc0 (__DATA,__bss) non-external _sharedInstance._shared
+00007ffb42803b80 (__DATA,__bss) non-external _sharedInstance.languageAssetManager
+00007ffb42803b90 (__DATA,__bss) non-external _sharedInstance.once
+00007ffb42803b68 (__DATA,__bss) non-external _sharedInstance.onceToken
+00007ffb42803b88 (__DATA,__bss) non-external _sharedInstance.onceToken
+00007ffb42803bb8 (__DATA,__bss) non-external _sharedInstance.onceToken
+00007ffb42803bc8 (__DATA,__bss) non-external _sharedInstance.onceToken
+00007ffb42803b60 (__DATA,__bss) non-external _sharedInstance.phoneCallObserver
+00007ffb42803b98 (__DATA,__bss) non-external _sharedInstance.sharedInstance
+                 (undefined) external _swift_arrayInitWithCopy (from libswiftCore)
+                 (undefined) external _swift_bridgeObjectRelease (from libswiftCore)
+                 (undefined) external _swift_bridgeObjectRetain (from libswiftCore)
+                 (undefined) external _swift_bridgeObjectRetain_n (from libswiftCore)
+                 (undefined) external _swift_getObjCClassMetadata (from libswiftCore)
+                 (undefined) external _swift_getTypeByMangledNameInContext2 (from libswiftCore)
+                 (undefined) external _swift_getTypeByMangledNameInContextInMetadataState2 (from libswiftCore)
+                 (undefined) external _swift_getWitnessTable (from libswiftCore)
+                 (undefined) external _swift_isUniquelyReferenced_nonNull_bridgeObject (from libswiftCore)
+                 (undefined) external _swift_once (from libswiftCore)
+                 (undefined) external _swift_retain (from libswiftCore)
+00007ffb191efae6 (__TEXT,__swift5_typeref) non-external (was a private external) _symbolic $sSY
+00007ffb191efafa (__TEXT,__swift5_typeref) non-external (was a private external) _symbolic $ss12IdentifiableP
+00007ffb191efb0e (__TEXT,__swift5_typeref) non-external (was a private external) _symbolic SS
+00007ffb191efb12 (__TEXT,__swift5_typeref) non-external (was a private external) _symbolic SaySo22SFTranscriptionSegmentCG
+00007ffb191efadc (__TEXT,__swift5_typeref) non-external (was a private external) _symbolic Si
+00007ffb191efaf4 (__TEXT,__swift5_typeref) non-external (was a private external) _symbolic _____ 17LiveTranscription11AXLTCaptionV
+00007ffb191efb32 (__TEXT,__swift5_typeref) non-external (was a private external) _symbolic _____ 17LiveTranscription13AXLTUtilitiesV
+00007ffb191efae0 (__TEXT,__swift5_typeref) non-external (was a private external) _symbolic _____ 17LiveTranscription22AXLTCaptionActionsTypeO

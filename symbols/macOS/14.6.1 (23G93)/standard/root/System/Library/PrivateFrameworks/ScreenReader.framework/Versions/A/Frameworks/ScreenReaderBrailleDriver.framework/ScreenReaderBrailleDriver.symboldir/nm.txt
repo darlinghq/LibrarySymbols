@@ -1,0 +1,898 @@
+
+/System/Library/PrivateFrameworks/ScreenReader.framework/Versions/A/Frameworks/ScreenReaderBrailleDriver.framework/ScreenReaderBrailleDriver (for architecture x86_64):
+000000000000cb90 (__TEXT,__text) non-external +[SCRDUSBDeviceCallbackManager sharedManager]
+000000000000617f (__TEXT,__text) non-external -[SCRDFileReader .cxx_destruct]
+0000000000005f16 (__TEXT,__text) non-external -[SCRDFileReader _readHandler:]
+0000000000005daf (__TEXT,__text) non-external -[SCRDFileReader dealloc]
+0000000000005e17 (__TEXT,__text) non-external -[SCRDFileReader hasStarted]
+0000000000005be8 (__TEXT,__text) non-external -[SCRDFileReader initWithDelegate:fileHandle:]
+0000000000005e3a (__TEXT,__text) non-external -[SCRDFileReader invalidateWithWait:]
+0000000000005e26 (__TEXT,__text) non-external -[SCRDFileReader invalidate]
+0000000000005ed5 (__TEXT,__text) non-external -[SCRDFileReader isValid]
+0000000000005df1 (__TEXT,__text) non-external -[SCRDFileReader start]
+000000000000d081 (__TEXT,__text) non-external -[SCRDKGSPacket .cxx_destruct]
+000000000000d040 (__TEXT,__text) non-external -[SCRDKGSPacket command]
+000000000000d066 (__TEXT,__text) non-external -[SCRDKGSPacket data]
+000000000000d04a (__TEXT,__text) non-external -[SCRDKGSPacket setCommand:]
+000000000000d070 (__TEXT,__text) non-external -[SCRDKGSPacket setData:]
+000000000000d05d (__TEXT,__text) non-external -[SCRDKGSPacket setSubCommand:]
+000000000000d053 (__TEXT,__text) non-external -[SCRDKGSPacket subCommand]
+000000000000cb80 (__TEXT,__text) non-external -[SCRDUSBDevice .cxx_destruct]
+000000000000c722 (__TEXT,__text) non-external -[SCRDUSBDevice _transferData:withSize:toPipe:withTimeout:withFunction:]
+000000000000cb2b (__TEXT,__text) non-external -[SCRDUSBDevice abortPipe:]
+000000000000cb4a (__TEXT,__text) non-external -[SCRDUSBDevice clearPipe:bothEnds:]
+000000000000be89 (__TEXT,__text) non-external -[SCRDUSBDevice close]
+000000000000bd91 (__TEXT,__text) non-external -[SCRDUSBDevice dealloc]
+000000000000c944 (__TEXT,__text) non-external -[SCRDUSBDevice getInformationForPipe:direction:number:transferType:maxPacketSize:interval:]
+000000000000bb70 (__TEXT,__text) non-external -[SCRDUSBDevice initWithIOObject:]
+000000000000bf00 (__TEXT,__text) non-external -[SCRDUSBDevice isConfigured]
+000000000000bef6 (__TEXT,__text) non-external -[SCRDUSBDevice isOpen]
+000000000000bf9d (__TEXT,__text) non-external -[SCRDUSBDevice numberOfConfigurations]
+000000000000be46 (__TEXT,__text) non-external -[SCRDUSBDevice openWithSeize:]
+000000000000be2f (__TEXT,__text) non-external -[SCRDUSBDevice open]
+000000000000bf41 (__TEXT,__text) non-external -[SCRDUSBDevice product]
+000000000000c6e6 (__TEXT,__text) non-external -[SCRDUSBDevice readData:withSize:fromBulkPipe:withNoDataTimeout:andCompletionTimeOut:]
+000000000000c6be (__TEXT,__text) non-external -[SCRDUSBDevice readData:withSize:fromPipe:]
+000000000000c69b (__TEXT,__text) non-external -[SCRDUSBDevice readData:withSize:fromPipe:withTimeout:]
+000000000000c9dd (__TEXT,__text) non-external -[SCRDUSBDevice registerForDisconnectNotifications:]
+000000000000bf78 (__TEXT,__text) non-external -[SCRDUSBDevice reset]
+000000000000c2bd (__TEXT,__text) non-external -[SCRDUSBDevice sendControlRequest:type:value:index:data:size:sizeTransferred:pipe:timeout:]
+000000000000c296 (__TEXT,__text) non-external -[SCRDUSBDevice setAlternateInterface:]
+000000000000bfde (__TEXT,__text) non-external -[SCRDUSBDevice setConfiguration:]
+000000000000c032 (__TEXT,__text) non-external -[SCRDUSBDevice setInterface:]
+000000000000bf0a (__TEXT,__text) non-external -[SCRDUSBDevice vendor]
+000000000000c611 (__TEXT,__text) non-external -[SCRDUSBDevice writeData:withSize:toBulkPipe:withNoDataTimeout:andCompletionTimeOut:]
+000000000000c581 (__TEXT,__text) non-external -[SCRDUSBDevice writeData:withSize:toPipe:withTimeout:]
+000000000000d00d (__TEXT,__text) non-external -[SCRDUSBDeviceCallbackManager .cxx_destruct]
+000000000000cc80 (__TEXT,__text) non-external -[SCRDUSBDeviceCallbackManager addCompletion:]
+000000000000ce32 (__TEXT,__text) non-external -[SCRDUSBDeviceCallbackManager completionWithReference:]
+000000000000cbe5 (__TEXT,__text) non-external -[SCRDUSBDeviceCallbackManager init]
+000000000000cd85 (__TEXT,__text) non-external -[SCRDUSBDeviceCallbackManager removeCompletion:]
+000000000000f0a4 (__TEXT,__gcc_except_tab) non-external GCC_except_table9
+                 (undefined) external _CFDataAppendBytes (from CoreFoundation)
+                 (undefined) external _CFDataCreate (from CoreFoundation)
+                 (undefined) external _CFDataCreateMutable (from CoreFoundation)
+                 (undefined) external _CFDataDeleteBytes (from CoreFoundation)
+                 (undefined) external _CFDataGetBytePtr (from CoreFoundation)
+                 (undefined) external _CFDataGetBytes (from CoreFoundation)
+                 (undefined) external _CFDataGetLength (from CoreFoundation)
+                 (undefined) external _CFDataGetMutableBytePtr (from CoreFoundation)
+                 (undefined) external _CFDataSetLength (from CoreFoundation)
+                 (undefined) external _CFDictionarySetValue (from CoreFoundation)
+                 (undefined) external _CFNumberGetValue (from CoreFoundation)
+                 (undefined) external _CFRelease (from CoreFoundation)
+                 (undefined) external _CFRunLoopAddSource (from CoreFoundation)
+                 (undefined) external _CFRunLoopGetCurrent (from CoreFoundation)
+                 (undefined) external _CFRunLoopRemoveSource (from CoreFoundation)
+                 (undefined) external _CFRunLoopRunInMode (from CoreFoundation)
+                 (undefined) external _CFRunLoopSourceInvalidate (from CoreFoundation)
+                 (undefined) external _CFUUIDGetConstantUUIDWithBytes (from CoreFoundation)
+                 (undefined) external _CFUUIDGetUUIDBytes (from CoreFoundation)
+                 (undefined) external _IOCreatePlugInInterfaceForService (from IOKit)
+                 (undefined) external _IOHIDDeviceGetReport (from IOKit)
+                 (undefined) external _IOHIDDeviceSetReport (from IOKit)
+                 (undefined) external _IOIteratorNext (from IOKit)
+                 (undefined) external _IOMainPort (from IOKit)
+                 (undefined) external _IONotificationPortCreate (from IOKit)
+                 (undefined) external _IONotificationPortDestroy (from IOKit)
+                 (undefined) external _IONotificationPortGetRunLoopSource (from IOKit)
+                 (undefined) external _IOObjectRelease (from IOKit)
+                 (undefined) external _IORegistryEntryCreateCFProperty (from IOKit)
+                 (undefined) external _IORegistryEntryGetParentEntry (from IOKit)
+                 (undefined) external _IORegistryEntrySearchCFProperty (from IOKit)
+                 (undefined) external _IOServiceAddInterestNotification (from IOKit)
+                 (undefined) external _IOServiceGetMatchingServices (from IOKit)
+                 (undefined) external _IOServiceMatching (from IOKit)
+                 (undefined) external _NSLog (from Foundation)
+                 (undefined) external _OBJC_CLASS_$_NSData (from CoreFoundation)
+                 (undefined) external _OBJC_CLASS_$_NSDictionary (from CoreFoundation)
+                 (undefined) external _OBJC_CLASS_$_NSMutableArray (from CoreFoundation)
+                 (undefined) external _OBJC_CLASS_$_NSMutableDictionary (from CoreFoundation)
+                 (undefined) external _OBJC_CLASS_$_NSNotificationCenter (from Foundation)
+                 (undefined) external _OBJC_CLASS_$_NSNumber (from Foundation)
+                 (undefined) external _OBJC_CLASS_$_NSObject (from libobjc)
+                 (undefined) external _OBJC_CLASS_$_NSString (from Foundation)
+                 (undefined) external _OBJC_CLASS_$_NSThread (from Foundation)
+                 (undefined) external _OBJC_CLASS_$_NSValue (from Foundation)
+0000000000012080 (__DATA,__objc_data) external _OBJC_CLASS_$_SCRDFileReader
+0000000000012198 (__DATA,__objc_data) non-external (was a private external) _OBJC_CLASS_$_SCRDKGSPacket
+00000000000120d0 (__DATA,__objc_data) external _OBJC_CLASS_$_SCRDUSBDevice
+0000000000012120 (__DATA,__objc_data) non-external (was a private external) _OBJC_CLASS_$_SCRDUSBDeviceCallbackManager
+0000000000012000 (__DATA,__objc_ivar) external _OBJC_IVAR_$_SCRDFileReader._delegate
+0000000000012010 (__DATA,__objc_ivar) external _OBJC_IVAR_$_SCRDFileReader._fileHandle
+0000000000012008 (__DATA,__objc_ivar) external _OBJC_IVAR_$_SCRDFileReader._readerThread
+0000000000012018 (__DATA,__objc_ivar) external _OBJC_IVAR_$_SCRDFileReader._threadStartCount
+0000000000012068 (__DATA,__objc_ivar) non-external (was a private external) _OBJC_IVAR_$_SCRDKGSPacket._command
+0000000000012078 (__DATA,__objc_ivar) non-external (was a private external) _OBJC_IVAR_$_SCRDKGSPacket._data
+0000000000012070 (__DATA,__objc_ivar) non-external (was a private external) _OBJC_IVAR_$_SCRDKGSPacket._subCommand
+0000000000012020 (__DATA,__objc_ivar) non-external (was a private external) _OBJC_IVAR_$_SCRDUSBDevice._device
+0000000000012028 (__DATA,__objc_ivar) non-external (was a private external) _OBJC_IVAR_$_SCRDUSBDevice._interface
+0000000000012038 (__DATA,__objc_ivar) non-external (was a private external) _OBJC_IVAR_$_SCRDUSBDevice._isConfigured
+0000000000012030 (__DATA,__objc_ivar) non-external (was a private external) _OBJC_IVAR_$_SCRDUSBDevice._isOpen
+0000000000012050 (__DATA,__objc_ivar) non-external (was a private external) _OBJC_IVAR_$_SCRDUSBDevice._notification
+0000000000012048 (__DATA,__objc_ivar) non-external (was a private external) _OBJC_IVAR_$_SCRDUSBDevice._notificationPort
+0000000000012040 (__DATA,__objc_ivar) non-external (was a private external) _OBJC_IVAR_$_SCRDUSBDevice._privateRunLoopMode
+0000000000012058 (__DATA,__objc_ivar) non-external (was a private external) _OBJC_IVAR_$_SCRDUSBDeviceCallbackManager._completions
+0000000000012060 (__DATA,__objc_ivar) non-external (was a private external) _OBJC_IVAR_$_SCRDUSBDeviceCallbackManager._queue
+                 (undefined) external _OBJC_METACLASS_$_NSObject (from libobjc)
+00000000000120a8 (__DATA,__objc_data) external _OBJC_METACLASS_$_SCRDFileReader
+0000000000012170 (__DATA,__objc_data) non-external (was a private external) _OBJC_METACLASS_$_SCRDKGSPacket
+00000000000120f8 (__DATA,__objc_data) external _OBJC_METACLASS_$_SCRDUSBDevice
+0000000000012148 (__DATA,__objc_data) non-external (was a private external) _OBJC_METACLASS_$_SCRDUSBDeviceCallbackManager
+0000000000003d21 (__TEXT,__text) external _SCRDAdvanceBufferToPacketStart
+0000000000001670 (__TEXT,__text) external _SCRDAlva6SeriesAppendKeyEvent
+0000000000003d80 (__TEXT,__text) external _SCRDAppendFullKeystrokeFromEvent
+0000000000002d18 (__TEXT,__text) external _SCRDBaum2SendDetectDevicesRequest
+0000000000002d88 (__TEXT,__text) external _SCRDBaum2SendDeviceArrivalAck
+0000000000002e09 (__TEXT,__text) external _SCRDBaum2SendDeviceResetRequest
+0000000000002802 (__TEXT,__text) external _SCRDBaumAppendEventsFromBrailleAndFrontPanelPacket
+000000000000264b (__TEXT,__text) external _SCRDBaumAppendEventsFromDirectionalPadPacket
+00000000000023fb (__TEXT,__text) external _SCRDBaumAppendEventsFromRoutingKeyGroupPacket
+000000000000221f (__TEXT,__text) external _SCRDBaumAppendEventsFromRoutingKeyPacket
+0000000000002023 (__TEXT,__text) external _SCRDBaumAppendEventsFromTopPanelPacket
+00000000000019db (__TEXT,__text) external _SCRDBaumCreateDisplayRequest
+0000000000001d00 (__TEXT,__text) external _SCRDBaumCreatePacketFromBuffer
+0000000000001fd8 (__TEXT,__text) external _SCRDBaumGetSizeFromDisplaySizePacket
+0000000000001b26 (__TEXT,__text) external _SCRDBaumInitializeDisplay
+0000000000001ae0 (__TEXT,__text) external _SCRDBaumSendInitializationRequest
+00000000000019a0 (__TEXT,__text) external _SCRDBaumSendRequest
+0000000000001a9a (__TEXT,__text) external _SCRDBaumSetBaumProtocol
+00000000000032d3 (__TEXT,__text) external _SCRDBrailleNoteCreateDescriptionPacketFromBuffer
+00000000000031d0 (__TEXT,__text) external _SCRDBrailleNoteCreateDisplayRequest
+0000000000002e90 (__TEXT,__text) external _SCRDBrailleNoteExtractEventsFromBuffer
+00000000000033d0 (__TEXT,__text) external _SCRDBrailleNoteGetDisplayInfoFromDescriptionPacket
+000000000000b482 (__TEXT,__text) external _SCRDClearExclusiveAccessForFileDescriptor
+00000000000034e0 (__TEXT,__text) external _SCRDCygnalCP2102ConfigureDevice
+000000000000349e (__TEXT,__text) external _SCRDCygnalCP2102EnableDevice
+0000000000003544 (__TEXT,__text) external _SCRDCygnalCP2102GetBaudRate
+000000000000368b (__TEXT,__text) external _SCRDCygnalCP2102GetPinState
+0000000000003460 (__TEXT,__text) external _SCRDCygnalCP2102InitializeDevice
+00000000000035ae (__TEXT,__text) external _SCRDCygnalCP2102SetBaudRate
+00000000000036f0 (__TEXT,__text) external _SCRDCygnalCP2102SetDTR
+000000000000378f (__TEXT,__text) external _SCRDCygnalCP2102SetDataFormat
+0000000000003603 (__TEXT,__text) external _SCRDCygnalCP2102SetFlowControlOff
+000000000000373c (__TEXT,__text) external _SCRDCygnalCP2102SetRTS
+000000000000384a (__TEXT,__text) external _SCRDCygnalCP2110EnableDevice
+00000000000038e6 (__TEXT,__text) external _SCRDCygnalCP2110GetPartNumber
+000000000000394c (__TEXT,__text) external _SCRDCygnalCP2110GetPinState
+0000000000003a40 (__TEXT,__text) external _SCRDCygnalCP2110GetUARTSettings
+00000000000039a6 (__TEXT,__text) external _SCRDCygnalCP2110SetPinState
+0000000000003b07 (__TEXT,__text) external _SCRDCygnalCP2110SetUARTSettings
+0000000000003bdf (__TEXT,__text) external _SCRDCygnalCP2110Write
+0000000000003f7c (__TEXT,__text) external _SCRDEasyLinkCreatePacketFromBuffer
+000000000000415c (__TEXT,__text) external _SCRDEasyLinkExtractEventsFromBuffer
+000000000000469b (__TEXT,__text) external _SCRDEasyLinkExtractKeyboardEventsFromBuffer
+0000000000004c54 (__TEXT,__text) external _SCRDEurobrailleExtractEventsFromBuffer
+0000000000004840 (__TEXT,__text) external _SCRDEurobrailleGetModelInfoFromBuffer
+000000000000566f (__TEXT,__text) external _SCRDFTDIConfigureSerialPort
+0000000000005b2a (__TEXT,__text) external _SCRDFTDIGetLatencyTimer
+0000000000005b8e (__TEXT,__text) external _SCRDFTDIGetModemStatus
+0000000000005a8b (__TEXT,__text) external _SCRDFTDIPurgeBuffers
+0000000000005a1d (__TEXT,__text) external _SCRDFTDIReallyResetDevice
+00000000000059e2 (__TEXT,__text) external _SCRDFTDIResetDevice
+000000000000583b (__TEXT,__text) external _SCRDFTDISetBaudRate
+0000000000005914 (__TEXT,__text) external _SCRDFTDISetDTR
+0000000000005960 (__TEXT,__text) external _SCRDFTDISetDataFormat
+00000000000059a4 (__TEXT,__text) external _SCRDFTDISetFlowControl
+00000000000057ed (__TEXT,__text) external _SCRDFTDISetLatencyTimer
+00000000000058c1 (__TEXT,__text) external _SCRDFTDISetRTS
+0000000000003c90 (__TEXT,__text) external _SCRDFillBuffer
+0000000000006239 (__TEXT,__text) external _SCRDFreedomScientificCreatePacketFromBuffer
+0000000000006e3d (__TEXT,__text) external _SCRDFreedomScientificCreateWriteRequestPacket
+0000000000006364 (__TEXT,__text) external _SCRDFreedomScientificDeviceIDForInfoEventPacket
+00000000000061d1 (__TEXT,__text) external _SCRDFreedomScientificDoesBufferContainACKPacket
+00000000000061b0 (__TEXT,__text) external _SCRDFreedomScientificDoesDeviceUseStandardCellOrder
+00000000000065be (__TEXT,__text) external _SCRDFreedomScientificExtractEventsFromBuffer
+0000000000007515 (__TEXT,__text) external _SCRDHIMSBrailleEDGEExtractEventsFromBuffer
+00000000000070e7 (__TEXT,__text) external _SCRDHIMSBrailleSenseExtractEventsFromBuffer
+0000000000006fab (__TEXT,__text) external _SCRDHIMSCreateRequest
+00000000000070b9 (__TEXT,__text) external _SCRDHIMSFillPacket
+0000000000006f2f (__TEXT,__text) external _SCRDHIMSIsPacketValid
+0000000000007471 (__TEXT,__text) external _SCRDHIMSSyncBrailleExtractEventsFromBuffer
+0000000000007e90 (__TEXT,__text) external _SCRDHandyTechCreateExtendedProtocolRequestPacket
+000000000000771a (__TEXT,__text) external _SCRDHandyTechDisplaySizeForDeviceID
+00000000000076e0 (__TEXT,__text) external _SCRDHandyTechDisplayUsesExtendedProtocol
+0000000000007814 (__TEXT,__text) external _SCRDHandyTechExtractEventsFromBuffer
+0000000000008224 (__TEXT,__text) external _SCRDHumanwareCreateInitializationPacketFromBuffer
+0000000000008375 (__TEXT,__text) external _SCRDHumanwareCreateInitializationRequestPacket
+00000000000082a2 (__TEXT,__text) external _SCRDHumanwareCreateWriteRequestPacket
+000000000000839c (__TEXT,__text) external _SCRDHumanwareDeviceIDForInitializationPacket
+0000000000008417 (__TEXT,__text) external _SCRDHumanwareDeviceNeedsResetStatusForInitializationPacket
+0000000000008279 (__TEXT,__text) external _SCRDHumanwareDisplaySizeForDeviceID
+0000000000008026 (__TEXT,__text) external _SCRDHumanwareExtractEventsFromBuffer
+0000000000008170 (__TEXT,__text) external _SCRDHumanwareIsDeviceIDValid
+000000000000e008 (__TEXT,__text) external _SCRDKGSConvertBrailleCellsToKGSOrder
+000000000000d091 (__TEXT,__text) external _SCRDKGSCreateCommandPacket
+000000000000d13a (__TEXT,__text) external _SCRDKGSExtractEventsFromBuffer
+00000000000084b9 (__TEXT,__text) external _SCRDMDVAppendKeyPressEvent
+0000000000008458 (__TEXT,__text) external _SCRDMDVConvertStandardCellToMDVCell
+0000000000008fe6 (__TEXT,__text) external _SCRDMDVHIDAppendRouterPressEvent
+0000000000008f3a (__TEXT,__text) external _SCRDMDVSerialAppendBrailleKeyPressEvent
+0000000000008e30 (__TEXT,__text) external _SCRDMDVSerialAppendRouterPressEvent
+0000000000008a75 (__TEXT,__text) external _SCRDMDVSerialCreatePacketsFromBuffer
+00000000000089c1 (__TEXT,__text) external _SCRDMDVSerialCreateRequest
+0000000000008bd4 (__TEXT,__text) external _SCRDMDVSerialExtractEventsFromBuffer
+000000000000941c (__TEXT,__text) external _SCRDNinepointSystemsCebraCreateWriteBuffer
+0000000000009080 (__TEXT,__text) external _SCRDNinepointSystemsCebraDisplaySizeForDeviceID
+00000000000091b0 (__TEXT,__text) external _SCRDNinepointSystemsCebraExtractKeyboardEventsFromBuffer
+00000000000090aa (__TEXT,__text) external _SCRDNinepointSystemsCebraExtractNewPacketFromBuffer
+000000000000971a (__TEXT,__text) external _SCRDNinepointSystemsNinepointCreateWriteBuffer
+0000000000009597 (__TEXT,__text) external _SCRDNinepointSystemsNinepointExtractKeyboardEventsFromBuffer
+00000000000094cc (__TEXT,__text) external _SCRDNinepointSystemsNinepointExtractNewPacketFromBuffer
+00000000000098c5 (__TEXT,__text) external _SCRDPapenmeierCreateBrailleBufferA
+0000000000009b3a (__TEXT,__text) external _SCRDPapenmeierCreateBrailleBufferB
+0000000000009c50 (__TEXT,__text) external _SCRDPapenmeierCreateIdentityRequestBuffer
+000000000000983f (__TEXT,__text) external _SCRDPapenmeierCreateKeyBuffer
+0000000000009cf5 (__TEXT,__text) external _SCRDPapenmeierCreatePacketFromBuffer
+0000000000009f8c (__TEXT,__text) external _SCRDPapenmeierExtractEventsFromBuffer
+0000000000009cc3 (__TEXT,__text) external _SCRDPapenmeierHorizontalCellsForDevice
+0000000000009c93 (__TEXT,__text) external _SCRDPapenmeierProtocolForDevice
+0000000000009814 (__TEXT,__text) external _SCRDPapenmeierReleasePacket
+0000000000009ce5 (__TEXT,__text) external _SCRDPapenmeierStatusCellsForDevice
+0000000000009cb0 (__TEXT,__text) external _SCRDPapenmeierVerticalCellsForDevice
+0000000000003e44 (__TEXT,__text) external _SCRDPostSleepNotification
+000000000000a91c (__TEXT,__text) external _SCRDSeikaCreateIdentityPacketFromBuffer
+000000000000a9c5 (__TEXT,__text) external _SCRDSeikaCreateWriteRequestPacket
+000000000000ab40 (__TEXT,__text) external _SCRDSeikaExtractEventsFromBuffer
+000000000000b1f5 (__TEXT,__text) external _SCRDSeikaNotetakerCreatePacketFromBuffer
+000000000000b424 (__TEXT,__text) external _SCRDSerialDeviceCalloutDevicePath
+000000000000b528 (__TEXT,__text) external _SCRDSerialDeviceGetModemForUSBDevice
+000000000000b958 (__TEXT,__text) external _SCRDSerialDeviceGetRS232ForUSBDevice
+000000000000b962 (__TEXT,__text) external _SCRDSerialDeviceGetSerialDeviceForUSBDevice
+000000000000b49a (__TEXT,__text) external _SCRDSerialDeviceOpenSerialPortForPath
+                 (undefined) external __Block_object_assign (from libSystem)
+                 (undefined) external __Block_object_dispose (from libSystem)
+                 (undefined) external __NSConcreteGlobalBlock (from libSystem)
+                 (undefined) external __NSConcreteStackBlock (from libSystem)
+000000000000e408 (__TEXT,__objc_methlist) non-external __OBJC_$_CLASS_METHODS_SCRDUSBDeviceCallbackManager
+000000000000e250 (__TEXT,__objc_methlist) non-external __OBJC_$_INSTANCE_METHODS_SCRDFileReader
+000000000000e468 (__TEXT,__objc_methlist) non-external __OBJC_$_INSTANCE_METHODS_SCRDKGSPacket
+000000000000e2c8 (__TEXT,__objc_methlist) non-external __OBJC_$_INSTANCE_METHODS_SCRDUSBDevice
+000000000000e420 (__TEXT,__objc_methlist) non-external __OBJC_$_INSTANCE_METHODS_SCRDUSBDeviceCallbackManager
+0000000000010d50 (__DATA_CONST,__objc_const) non-external __OBJC_$_INSTANCE_VARIABLES_SCRDFileReader
+00000000000110b8 (__DATA_CONST,__objc_const) non-external __OBJC_$_INSTANCE_VARIABLES_SCRDKGSPacket
+0000000000010e68 (__DATA_CONST,__objc_const) non-external __OBJC_$_INSTANCE_VARIABLES_SCRDUSBDevice
+0000000000010fe0 (__DATA_CONST,__objc_const) non-external __OBJC_$_INSTANCE_VARIABLES_SCRDUSBDeviceCallbackManager
+0000000000011120 (__DATA_CONST,__objc_const) non-external __OBJC_$_PROP_LIST_SCRDKGSPacket
+0000000000010dd8 (__DATA_CONST,__objc_const) non-external __OBJC_CLASS_RO_$_SCRDFileReader
+0000000000011158 (__DATA_CONST,__objc_const) non-external __OBJC_CLASS_RO_$_SCRDKGSPacket
+0000000000010f50 (__DATA_CONST,__objc_const) non-external __OBJC_CLASS_RO_$_SCRDUSBDevice
+0000000000011028 (__DATA_CONST,__objc_const) non-external __OBJC_CLASS_RO_$_SCRDUSBDeviceCallbackManager
+0000000000010d08 (__DATA_CONST,__objc_const) non-external __OBJC_METACLASS_RO_$_SCRDFileReader
+0000000000011070 (__DATA_CONST,__objc_const) non-external __OBJC_METACLASS_RO_$_SCRDKGSPacket
+0000000000010e20 (__DATA_CONST,__objc_const) non-external __OBJC_METACLASS_RO_$_SCRDUSBDevice
+0000000000010f98 (__DATA_CONST,__objc_const) non-external __OBJC_METACLASS_RO_$_SCRDUSBDeviceCallbackManager
+0000000000008180 (__TEXT,__text) non-external __SCRDEventForKeyID
+0000000000007528 (__TEXT,__text) non-external __SCRDHIMSBrailleEDGEAppendEventsFromKeyPacket
+000000000000729c (__TEXT,__text) non-external __SCRDHIMSBrailleSenseAppendEventsFromKeyPacket
+00000000000070fa (__TEXT,__text) non-external __SCRDHIMSExtractEventsFromBuffer
+0000000000007484 (__TEXT,__text) non-external __SCRDHIMSSyncBrailleAppendEventsFromKeyPacket
+0000000000007fb0 (__TEXT,__text) non-external (was a private external) __SCRDHumanwareCreatePacketFromBuffer
+0000000000009b54 (__TEXT,__text) non-external (was a private external) __SCRDPapenmeierCreateWriteBuffer
+000000000000af3e (__TEXT,__text) non-external (was a private external) __SCRDSeikaNotetakerExtractEventsFromBuffer
+                 (undefined) external __SCROD_LOG (from ScreenReaderOutput)
+                 (undefined) external __Unwind_Resume (from libSystem)
+000000000000cbc0 (__TEXT,__text) non-external ___45+[SCRDUSBDeviceCallbackManager sharedManager]_block_invoke
+000000000000cccf (__TEXT,__text) non-external ___46-[SCRDUSBDeviceCallbackManager addCompletion:]_block_invoke
+000000000000cdd4 (__TEXT,__text) non-external ___49-[SCRDUSBDeviceCallbackManager removeCompletion:]_block_invoke
+000000000000cf39 (__TEXT,__text) non-external ___56-[SCRDUSBDeviceCallbackManager completionWithReference:]_block_invoke
+000000000000cf14 (__TEXT,__text) non-external ___Block_byref_object_copy_
+000000000000cf2a (__TEXT,__text) non-external ___Block_byref_object_dispose_
+                 (undefined) external ___CFConstantStringClassReference (from CoreFoundation)
+00000000000076b2 (__TEXT,__text) non-external ____SCRDHIMSBrailleSenseAppendEventsFromKeyPacket_block_invoke
+                 (undefined) weak external ____chkstk_darwin (from libSystem)
+00000000000102a0 (__DATA_CONST,__const) non-external (was a private external) ___block_descriptor_32_e24_c32?0"NSNumber"8Q16*24l
+00000000000102e0 (__DATA_CONST,__const) non-external (was a private external) ___block_descriptor_32_e5_v8?0l
+0000000000010320 (__DATA_CONST,__const) non-external (was a private external) ___block_descriptor_48_e8_32s_e5_v8?0l
+0000000000010350 (__DATA_CONST,__const) non-external (was a private external) ___block_descriptor_56_e8_32s40r_e5_v8?0l
+00000000000102c0 (__DATA_CONST,__const) non-external ___block_literal_global
+0000000000010300 (__DATA_CONST,__const) non-external ___block_literal_global
+                 (undefined) external ___bzero (from libSystem)
+0000000000003f30 (__TEXT,__text) non-external (was a private external) ___chkstk_darwin
+0000000000003f50 (__TEXT,__text) non-external (was a private external) ___chkstk_darwin_llvm_probe
+000000000000cd67 (__TEXT,__text) non-external (was a private external) ___copy_helper_block_e8_32s
+000000000000cfb6 (__TEXT,__text) non-external (was a private external) ___copy_helper_block_e8_32s40r
+                 (undefined) external ___darwin_check_fd_set_overflow (from libSystem)
+000000000000cd76 (__TEXT,__text) non-external (was a private external) ___destroy_helper_block_e8_32s
+000000000000cfe6 (__TEXT,__text) non-external (was a private external) ___destroy_helper_block_e8_32s40r
+                 (undefined) external ___memcpy_chk (from libSystem)
+                 (undefined) external ___objc_personality_v0 (from libobjc)
+                 (undefined) external ___stack_chk_fail (from libSystem)
+                 (undefined) external ___stack_chk_guard (from libSystem)
+0000000000004f2d (__TEXT,__text) non-external __appendBrailleKeyboardEvent
+0000000000007a32 (__TEXT,__text) non-external __appendEventForKeyCode
+0000000000005577 (__TEXT,__text) non-external __appendFunctionKeyboardEvent
+0000000000005014 (__TEXT,__text) non-external __appendInteractiveKeyboardEvent
+00000000000053ff (__TEXT,__text) non-external __appendJoystickCommandKeyboardEvent
+000000000000a787 (__TEXT,__text) non-external __appendProtocolBFrontAndRearEvents
+000000000000893c (__TEXT,__text) non-external __appendShiftKeyEvent
+000000000000509c (__TEXT,__text) non-external __appendSwitchKeyboardEvent
+0000000000004616 (__TEXT,__text) non-external (was a private external) __createKeyboardPacketFromBuffer
+000000000000e4d0 (__TEXT,__const) non-external __getFrontKeyEventForCode.frontKeyMap
+000000000000b532 (__TEXT,__text) non-external __getSerialDeviceForUSBDevice
+000000000000b2dd (__TEXT,__text) non-external __notetakerAppendButtonEventFromBuffer
+000000000000cabe (__TEXT,__text) non-external __notificationHandler
+                 (undefined) external __objc_empty_cache (from libobjc)
+                 (undefined) external __os_log_impl (from libSystem)
+000000000000c510 (__TEXT,__text) non-external __readWriteAsyncCallback
+000000000000b96c (__TEXT,__text) non-external __retrieveModemIteratorForDevicePropertyKey
+                 (undefined) external _calloc (from libSystem)
+                 (undefined) external _close (from libSystem)
+                 (undefined) external _dispatch_once (from libSystem)
+                 (undefined) external _dispatch_queue_attr_make_with_qos_class (from libSystem)
+                 (undefined) external _dispatch_queue_create (from libSystem)
+                 (undefined) external _dispatch_sync (from libSystem)
+                 (undefined) external _fcntl (from libSystem)
+                 (undefined) external _free (from libSystem)
+                 (undefined) external _ioctl (from libSystem)
+                 (undefined) external _kCFAllocatorDefault (from CoreFoundation)
+                 (undefined) external _kCFRunLoopDefaultMode (from CoreFoundation)
+                 (undefined) external _kIOMainPortDefault (from IOKit)
+00000000000121f0 (__DATA,__data) external _kSCRDBaumBrailleConnect12DeviceIdentifier
+00000000000121f8 (__DATA,__data) external _kSCRDBaumBrailleConnect24DeviceIdentifier
+0000000000012200 (__DATA,__data) external _kSCRDBaumBrailleConnect32DeviceIdentifier
+0000000000012208 (__DATA,__data) external _kSCRDBaumBrailleConnect40DeviceIdentifier
+0000000000012210 (__DATA,__data) external _kSCRDBaumBrailliant14DeviceIdentifier
+0000000000012218 (__DATA,__data) external _kSCRDBaumBrailliant24DeviceIdentifier
+0000000000012220 (__DATA,__data) external _kSCRDBaumBrailliant32DeviceIdentifier
+0000000000012228 (__DATA,__data) external _kSCRDBaumBrailliant40DeviceIdentifier
+0000000000012230 (__DATA,__data) external _kSCRDBaumBrailliant64DeviceIdentifier
+0000000000012238 (__DATA,__data) external _kSCRDBaumBrailliant80DeviceIdentifier
+00000000000121c8 (__DATA,__data) external _kSCRDBaumConnyDeviceIdentifier
+0000000000012268 (__DATA,__data) external _kSCRDBaumPDIBrailliant14DeviceIdentifier
+0000000000012270 (__DATA,__data) external _kSCRDBaumPDIBrailliant24DeviceIdentifier
+0000000000012278 (__DATA,__data) external _kSCRDBaumPDIBrailliant32DeviceIdentifier
+0000000000012280 (__DATA,__data) external _kSCRDBaumPDIBrailliant40DeviceIdentifier
+0000000000012288 (__DATA,__data) external _kSCRDBaumPDIBrailliant64DeviceIdentifier
+0000000000012290 (__DATA,__data) external _kSCRDBaumPDIBrailliant80DeviceIdentifier
+0000000000012240 (__DATA,__data) external _kSCRDBaumPocketVario24DeviceIdentifier
+0000000000012298 (__DATA,__data) external _kSCRDBaumPronto18DeviceIdentifier
+00000000000122a0 (__DATA,__data) external _kSCRDBaumPronto40DeviceIdentifier
+00000000000121c0 (__DATA,__data) external _kSCRDBaumRefreshabraille18DeviceIdentifier
+0000000000012248 (__DATA,__data) external _kSCRDBaumSuperVario32DeviceIdentifier
+0000000000012250 (__DATA,__data) external _kSCRDBaumSuperVario40DeviceIdentifier
+0000000000012258 (__DATA,__data) external _kSCRDBaumSuperVario64DeviceIdentifier
+0000000000012260 (__DATA,__data) external _kSCRDBaumSuperVario80DeviceIdentifier
+00000000000121d0 (__DATA,__data) external _kSCRDBaumVarioConnect12DeviceIdentifier
+00000000000121d8 (__DATA,__data) external _kSCRDBaumVarioConnect24DeviceIdentifier
+00000000000121e0 (__DATA,__data) external _kSCRDBaumVarioConnect32DeviceIdentifier
+00000000000121e8 (__DATA,__data) external _kSCRDBaumVarioConnect40DeviceIdentifier
+00000000000122a8 (__DATA,__data) external _kSCRDBaumVarioUltra20DeviceIdentifier
+00000000000122b0 (__DATA,__data) external _kSCRDBaumVarioUltra32DeviceIdentifier
+00000000000122b8 (__DATA,__data) external _kSCRDBaumVarioUltra40DeviceIdentifier
+0000000000012310 (__DATA,__data) external _kSCRDBaumVarioUltraBluetoothSerialPort1ServiceName
+0000000000012318 (__DATA,__data) external _kSCRDBaumVarioUltraBluetoothSerialPort2ServiceName
+0000000000012320 (__DATA,__data) external _kSCRDBaumVarioUltraBluetoothSerialPort3ServiceName
+0000000000012328 (__DATA,__data) external _kSCRDBaumVarioUltraBluetoothSerialPort4ServiceName
+0000000000012340 (__DATA,__data) external _kSCRDBraillePenPrefix
+0000000000012338 (__DATA,__data) external _kSCRDEasyLinkBluetoothNameBraillePen
+0000000000012330 (__DATA,__data) external _kSCRDEasyLinkBluetoothNameEasyLink
+0000000000012348 (__DATA,__data) non-external (was a private external) _kSCRDFreedomScientificFocus14ModelName
+0000000000012350 (__DATA,__data) external _kSCRDFreedomScientificFocus40ModelName
+0000000000012358 (__DATA,__data) external _kSCRDFreedomScientificFocus44ModelName
+0000000000012360 (__DATA,__data) external _kSCRDFreedomScientificFocus70ModelName
+0000000000012368 (__DATA,__data) external _kSCRDFreedomScientificFocus80ModelName
+0000000000012370 (__DATA,__data) external _kSCRDFreedomScientificFocus84ModelName
+0000000000012378 (__DATA,__data) external _kSCRDFreedomScientificPacMate20ModelName
+0000000000012380 (__DATA,__data) external _kSCRDFreedomScientificPacMate40ModelName
+0000000000012390 (__DATA,__data) external _kSCRDHandyTechBluetoothConfigServiceName
+0000000000012388 (__DATA,__data) external _kSCRDHandyTechBluetoothHardwareServiceName
+0000000000012398 (__DATA,__data) external _kSCRDHumanwareBrailliantBluetoothName
+0000000000012300 (__DATA,__data) external _kSCRDNLSEReaderZoomaxDeviceIdentifier
+0000000000012308 (__DATA,__data) external _kSCRDNPHB2GDeviceIdentifier
+00000000000123a0 (__DATA,__data) external _kSCRDNinepointSystemsNinepointBluetoothName
+00000000000122f0 (__DATA,__data) external _kSCRDOrbitReader20DeviceIdentifier
+00000000000122f8 (__DATA,__data) external _kSCRDOrbitReader40DeviceIdentifier
+00000000000123a8 (__DATA,__data) external _kSCRDSeikaNotetakerBluetoothNameRegExPattern
+00000000000123b0 (__DATA,__data) external _kSCRDUSBDeviceDisconnectNotification
+00000000000122c0 (__DATA,__data) external _kSCRODBaumVario340DeviceIdentifier
+00000000000122e0 (__DATA,__data) external _kSCRODBaumVario424DeviceIdentifier
+00000000000122e8 (__DATA,__data) external _kSCRODBaumVario432DeviceIdentifier
+00000000000122c8 (__DATA,__data) external _kSCRODBaumVario440DeviceIdentifier
+00000000000122d0 (__DATA,__data) external _kSCRODBaumVario464DeviceIdentifier
+00000000000122d8 (__DATA,__data) external _kSCRODBaumVario480DeviceIdentifier
+                 (undefined) external _malloc (from libSystem)
+                 (undefined) external _memcmp (from libSystem)
+                 (undefined) external _memcpy (from libSystem)
+                 (undefined) external _memset (from libSystem)
+                 (undefined) external _objc_alloc (from libobjc)
+                 (undefined) external _objc_alloc_init (from libobjc)
+                 (undefined) external _objc_autoreleaseReturnValue (from libobjc)
+                 (undefined) external _objc_destroyWeak (from libobjc)
+                 (undefined) external _objc_enumerationMutation (from libobjc)
+                 (undefined) external _objc_msgSend (from libobjc)
+                 (undefined) external _objc_msgSendSuper2 (from libobjc)
+                 (undefined) external _objc_opt_class (from libobjc)
+                 (undefined) external _objc_opt_isKindOfClass (from libobjc)
+                 (undefined) external _objc_release (from libobjc)
+                 (undefined) external _objc_retain (from libobjc)
+                 (undefined) external _objc_retainAutorelease (from libobjc)
+                 (undefined) external _objc_retainAutoreleaseReturnValue (from libobjc)
+                 (undefined) external _objc_retainAutoreleasedReturnValue (from libobjc)
+                 (undefined) external _objc_storeStrong (from libobjc)
+                 (undefined) external _objc_storeWeak (from libobjc)
+                 (undefined) external _open (from libSystem)
+                 (undefined) external _os_log_type_enabled (from libSystem)
+                 (undefined) external _read (from libSystem)
+                 (undefined) external _select$1050 (from libSystem)
+00000000000123c0 (__DATA,__bss) non-external _sharedManager.manager
+00000000000123b8 (__DATA,__bss) non-external _sharedManager.onceToken
+
+/System/Library/PrivateFrameworks/ScreenReader.framework/Versions/A/Frameworks/ScreenReaderBrailleDriver.framework/ScreenReaderBrailleDriver (for architecture arm64e):
+0000000000010488 (__TEXT,__text) non-external +[SCRDUSBDeviceCallbackManager sharedManager]
+00000000000097bc (__TEXT,__text) non-external -[SCRDFileReader .cxx_destruct]
+00000000000095dc (__TEXT,__text) non-external -[SCRDFileReader _readHandler:]
+0000000000009480 (__TEXT,__text) non-external -[SCRDFileReader dealloc]
+00000000000094f0 (__TEXT,__text) non-external -[SCRDFileReader hasStarted]
+00000000000092e8 (__TEXT,__text) non-external -[SCRDFileReader initWithDelegate:fileHandle:]
+0000000000009508 (__TEXT,__text) non-external -[SCRDFileReader invalidateWithWait:]
+0000000000009500 (__TEXT,__text) non-external -[SCRDFileReader invalidate]
+000000000000959c (__TEXT,__text) non-external -[SCRDFileReader isValid]
+00000000000094cc (__TEXT,__text) non-external -[SCRDFileReader start]
+0000000000010a68 (__TEXT,__text) non-external -[SCRDKGSPacket .cxx_destruct]
+0000000000010a34 (__TEXT,__text) non-external -[SCRDKGSPacket command]
+0000000000010a54 (__TEXT,__text) non-external -[SCRDKGSPacket data]
+0000000000010a3c (__TEXT,__text) non-external -[SCRDKGSPacket setCommand:]
+0000000000010a5c (__TEXT,__text) non-external -[SCRDKGSPacket setData:]
+0000000000010a4c (__TEXT,__text) non-external -[SCRDKGSPacket setSubCommand:]
+0000000000010a44 (__TEXT,__text) non-external -[SCRDKGSPacket subCommand]
+000000000001047c (__TEXT,__text) non-external -[SCRDUSBDevice .cxx_destruct]
+0000000000010004 (__TEXT,__text) non-external -[SCRDUSBDevice _transferData:withSize:toPipe:withTimeout:withFunction:]
+000000000001041c (__TEXT,__text) non-external -[SCRDUSBDevice abortPipe:]
+0000000000010438 (__TEXT,__text) non-external -[SCRDUSBDevice clearPipe:bothEnds:]
+000000000000f6c4 (__TEXT,__text) non-external -[SCRDUSBDevice close]
+000000000000f598 (__TEXT,__text) non-external -[SCRDUSBDevice dealloc]
+00000000000101f4 (__TEXT,__text) non-external -[SCRDUSBDevice getInformationForPipe:direction:number:transferType:maxPacketSize:interval:]
+000000000000f3ac (__TEXT,__text) non-external -[SCRDUSBDevice initWithIOObject:]
+000000000000f758 (__TEXT,__text) non-external -[SCRDUSBDevice isConfigured]
+000000000000f750 (__TEXT,__text) non-external -[SCRDUSBDevice isOpen]
+000000000000f834 (__TEXT,__text) non-external -[SCRDUSBDevice numberOfConfigurations]
+000000000000f660 (__TEXT,__text) non-external -[SCRDUSBDevice openWithSeize:]
+000000000000f658 (__TEXT,__text) non-external -[SCRDUSBDevice open]
+000000000000f7ac (__TEXT,__text) non-external -[SCRDUSBDevice product]
+000000000000ffbc (__TEXT,__text) non-external -[SCRDUSBDevice readData:withSize:fromBulkPipe:withNoDataTimeout:andCompletionTimeOut:]
+000000000000ff88 (__TEXT,__text) non-external -[SCRDUSBDevice readData:withSize:fromPipe:]
+000000000000ff78 (__TEXT,__text) non-external -[SCRDUSBDevice readData:withSize:fromPipe:withTimeout:]
+00000000000102c0 (__TEXT,__text) non-external -[SCRDUSBDevice registerForDisconnectNotifications:]
+000000000000f7f8 (__TEXT,__text) non-external -[SCRDUSBDevice reset]
+000000000000fb90 (__TEXT,__text) non-external -[SCRDUSBDevice sendControlRequest:type:value:index:data:size:sizeTransferred:pipe:timeout:]
+000000000000fb5c (__TEXT,__text) non-external -[SCRDUSBDevice setAlternateInterface:]
+000000000000f884 (__TEXT,__text) non-external -[SCRDUSBDevice setConfiguration:]
+000000000000f900 (__TEXT,__text) non-external -[SCRDUSBDevice setInterface:]
+000000000000f760 (__TEXT,__text) non-external -[SCRDUSBDevice vendor]
+000000000000fecc (__TEXT,__text) non-external -[SCRDUSBDevice writeData:withSize:toBulkPipe:withNoDataTimeout:andCompletionTimeOut:]
+000000000000fe28 (__TEXT,__text) non-external -[SCRDUSBDevice writeData:withSize:toPipe:withTimeout:]
+00000000000109f0 (__TEXT,__text) non-external -[SCRDUSBDeviceCallbackManager .cxx_destruct]
+00000000000105c8 (__TEXT,__text) non-external -[SCRDUSBDeviceCallbackManager addCompletion:]
+00000000000107bc (__TEXT,__text) non-external -[SCRDUSBDeviceCallbackManager completionWithReference:]
+000000000001051c (__TEXT,__text) non-external -[SCRDUSBDeviceCallbackManager init]
+00000000000106e4 (__TEXT,__text) non-external -[SCRDUSBDeviceCallbackManager removeCompletion:]
+0000000000012aac (__TEXT,__gcc_except_tab) non-external GCC_except_table9
+                 (undefined) external _CFDataAppendBytes (from CoreFoundation)
+                 (undefined) external _CFDataCreate (from CoreFoundation)
+                 (undefined) external _CFDataCreateMutable (from CoreFoundation)
+                 (undefined) external _CFDataDeleteBytes (from CoreFoundation)
+                 (undefined) external _CFDataGetBytePtr (from CoreFoundation)
+                 (undefined) external _CFDataGetBytes (from CoreFoundation)
+                 (undefined) external _CFDataGetLength (from CoreFoundation)
+                 (undefined) external _CFDataGetMutableBytePtr (from CoreFoundation)
+                 (undefined) external _CFDataSetLength (from CoreFoundation)
+                 (undefined) external _CFDictionarySetValue (from CoreFoundation)
+                 (undefined) external _CFNumberGetValue (from CoreFoundation)
+                 (undefined) external _CFRelease (from CoreFoundation)
+                 (undefined) external _CFRunLoopAddSource (from CoreFoundation)
+                 (undefined) external _CFRunLoopGetCurrent (from CoreFoundation)
+                 (undefined) external _CFRunLoopRemoveSource (from CoreFoundation)
+                 (undefined) external _CFRunLoopRunInMode (from CoreFoundation)
+                 (undefined) external _CFRunLoopSourceInvalidate (from CoreFoundation)
+                 (undefined) external _CFUUIDGetConstantUUIDWithBytes (from CoreFoundation)
+                 (undefined) external _CFUUIDGetUUIDBytes (from CoreFoundation)
+                 (undefined) external _IOCreatePlugInInterfaceForService (from IOKit)
+                 (undefined) external _IOHIDDeviceGetReport (from IOKit)
+                 (undefined) external _IOHIDDeviceSetReport (from IOKit)
+                 (undefined) external _IOIteratorNext (from IOKit)
+                 (undefined) external _IOMainPort (from IOKit)
+                 (undefined) external _IONotificationPortCreate (from IOKit)
+                 (undefined) external _IONotificationPortDestroy (from IOKit)
+                 (undefined) external _IONotificationPortGetRunLoopSource (from IOKit)
+                 (undefined) external _IOObjectRelease (from IOKit)
+                 (undefined) external _IORegistryEntryCreateCFProperty (from IOKit)
+                 (undefined) external _IORegistryEntryGetParentEntry (from IOKit)
+                 (undefined) external _IORegistryEntrySearchCFProperty (from IOKit)
+                 (undefined) external _IOServiceAddInterestNotification (from IOKit)
+                 (undefined) external _IOServiceGetMatchingServices (from IOKit)
+                 (undefined) external _IOServiceMatching (from IOKit)
+                 (undefined) external _NSLog (from Foundation)
+                 (undefined) external _OBJC_CLASS_$_NSData (from CoreFoundation)
+                 (undefined) external _OBJC_CLASS_$_NSDictionary (from CoreFoundation)
+                 (undefined) external _OBJC_CLASS_$_NSMutableArray (from CoreFoundation)
+                 (undefined) external _OBJC_CLASS_$_NSMutableDictionary (from CoreFoundation)
+                 (undefined) external _OBJC_CLASS_$_NSNotificationCenter (from Foundation)
+                 (undefined) external _OBJC_CLASS_$_NSNumber (from Foundation)
+                 (undefined) external _OBJC_CLASS_$_NSObject (from libobjc)
+                 (undefined) external _OBJC_CLASS_$_NSString (from Foundation)
+                 (undefined) external _OBJC_CLASS_$_NSThread (from Foundation)
+                 (undefined) external _OBJC_CLASS_$_NSValue (from Foundation)
+000000000001c000 (__AUTH,__objc_data) external _OBJC_CLASS_$_SCRDFileReader
+000000000001c118 (__AUTH,__objc_data) non-external (was a private external) _OBJC_CLASS_$_SCRDKGSPacket
+000000000001c050 (__AUTH,__objc_data) external _OBJC_CLASS_$_SCRDUSBDevice
+000000000001c0a0 (__AUTH,__objc_data) non-external (was a private external) _OBJC_CLASS_$_SCRDUSBDeviceCallbackManager
+0000000000020000 (__DATA,__objc_ivar) external _OBJC_IVAR_$_SCRDFileReader._delegate
+0000000000020008 (__DATA,__objc_ivar) external _OBJC_IVAR_$_SCRDFileReader._fileHandle
+0000000000020004 (__DATA,__objc_ivar) external _OBJC_IVAR_$_SCRDFileReader._readerThread
+000000000002000c (__DATA,__objc_ivar) external _OBJC_IVAR_$_SCRDFileReader._threadStartCount
+0000000000020034 (__DATA,__objc_ivar) non-external (was a private external) _OBJC_IVAR_$_SCRDKGSPacket._command
+000000000002003c (__DATA,__objc_ivar) non-external (was a private external) _OBJC_IVAR_$_SCRDKGSPacket._data
+0000000000020038 (__DATA,__objc_ivar) non-external (was a private external) _OBJC_IVAR_$_SCRDKGSPacket._subCommand
+0000000000020010 (__DATA,__objc_ivar) non-external (was a private external) _OBJC_IVAR_$_SCRDUSBDevice._device
+0000000000020014 (__DATA,__objc_ivar) non-external (was a private external) _OBJC_IVAR_$_SCRDUSBDevice._interface
+000000000002001c (__DATA,__objc_ivar) non-external (was a private external) _OBJC_IVAR_$_SCRDUSBDevice._isConfigured
+0000000000020018 (__DATA,__objc_ivar) non-external (was a private external) _OBJC_IVAR_$_SCRDUSBDevice._isOpen
+0000000000020028 (__DATA,__objc_ivar) non-external (was a private external) _OBJC_IVAR_$_SCRDUSBDevice._notification
+0000000000020024 (__DATA,__objc_ivar) non-external (was a private external) _OBJC_IVAR_$_SCRDUSBDevice._notificationPort
+0000000000020020 (__DATA,__objc_ivar) non-external (was a private external) _OBJC_IVAR_$_SCRDUSBDevice._privateRunLoopMode
+000000000002002c (__DATA,__objc_ivar) non-external (was a private external) _OBJC_IVAR_$_SCRDUSBDeviceCallbackManager._completions
+0000000000020030 (__DATA,__objc_ivar) non-external (was a private external) _OBJC_IVAR_$_SCRDUSBDeviceCallbackManager._queue
+                 (undefined) external _OBJC_METACLASS_$_NSObject (from libobjc)
+000000000001c028 (__AUTH,__objc_data) external _OBJC_METACLASS_$_SCRDFileReader
+000000000001c0f0 (__AUTH,__objc_data) non-external (was a private external) _OBJC_METACLASS_$_SCRDKGSPacket
+000000000001c078 (__AUTH,__objc_data) external _OBJC_METACLASS_$_SCRDUSBDevice
+000000000001c0c8 (__AUTH,__objc_data) non-external (was a private external) _OBJC_METACLASS_$_SCRDUSBDeviceCallbackManager
+0000000000007570 (__TEXT,__text) external _SCRDAdvanceBufferToPacketStart
+0000000000004f00 (__TEXT,__text) external _SCRDAlva6SeriesAppendKeyEvent
+0000000000007608 (__TEXT,__text) external _SCRDAppendFullKeystrokeFromEvent
+0000000000006340 (__TEXT,__text) external _SCRDBaum2SendDetectDevicesRequest
+00000000000063b8 (__TEXT,__text) external _SCRDBaum2SendDeviceArrivalAck
+0000000000006450 (__TEXT,__text) external _SCRDBaum2SendDeviceResetRequest
+0000000000005f08 (__TEXT,__text) external _SCRDBaumAppendEventsFromBrailleAndFrontPanelPacket
+0000000000005d98 (__TEXT,__text) external _SCRDBaumAppendEventsFromDirectionalPadPacket
+0000000000005bb4 (__TEXT,__text) external _SCRDBaumAppendEventsFromRoutingKeyGroupPacket
+0000000000005a40 (__TEXT,__text) external _SCRDBaumAppendEventsFromRoutingKeyPacket
+0000000000005880 (__TEXT,__text) external _SCRDBaumAppendEventsFromTopPanelPacket
+00000000000051c8 (__TEXT,__text) external _SCRDBaumCreateDisplayRequest
+0000000000005510 (__TEXT,__text) external _SCRDBaumCreatePacketFromBuffer
+0000000000005818 (__TEXT,__text) external _SCRDBaumGetSizeFromDisplaySizePacket
+0000000000005354 (__TEXT,__text) external _SCRDBaumInitializeDisplay
+000000000000530c (__TEXT,__text) external _SCRDBaumSendInitializationRequest
+0000000000005188 (__TEXT,__text) external _SCRDBaumSendRequest
+00000000000052c0 (__TEXT,__text) external _SCRDBaumSetBaumProtocol
+0000000000006918 (__TEXT,__text) external _SCRDBrailleNoteCreateDescriptionPacketFromBuffer
+00000000000067f8 (__TEXT,__text) external _SCRDBrailleNoteCreateDisplayRequest
+00000000000064ec (__TEXT,__text) external _SCRDBrailleNoteExtractEventsFromBuffer
+0000000000006a58 (__TEXT,__text) external _SCRDBrailleNoteGetDisplayInfoFromDescriptionPacket
+000000000000ec98 (__TEXT,__text) external _SCRDClearExclusiveAccessForFileDescriptor
+0000000000006ba8 (__TEXT,__text) external _SCRDCygnalCP2102ConfigureDevice
+0000000000006b60 (__TEXT,__text) external _SCRDCygnalCP2102EnableDevice
+0000000000006c10 (__TEXT,__text) external _SCRDCygnalCP2102GetBaudRate
+0000000000006d9c (__TEXT,__text) external _SCRDCygnalCP2102GetPinState
+0000000000006b18 (__TEXT,__text) external _SCRDCygnalCP2102InitializeDevice
+0000000000006c98 (__TEXT,__text) external _SCRDCygnalCP2102SetBaudRate
+0000000000006e14 (__TEXT,__text) external _SCRDCygnalCP2102SetDTR
+0000000000006eb8 (__TEXT,__text) external _SCRDCygnalCP2102SetDataFormat
+0000000000006cf8 (__TEXT,__text) external _SCRDCygnalCP2102SetFlowControlOff
+0000000000006e64 (__TEXT,__text) external _SCRDCygnalCP2102SetRTS
+0000000000006f94 (__TEXT,__text) external _SCRDCygnalCP2110EnableDevice
+0000000000007040 (__TEXT,__text) external _SCRDCygnalCP2110GetPartNumber
+00000000000070c4 (__TEXT,__text) external _SCRDCygnalCP2110GetPinState
+00000000000071f4 (__TEXT,__text) external _SCRDCygnalCP2110GetUARTSettings
+0000000000007140 (__TEXT,__text) external _SCRDCygnalCP2110SetPinState
+00000000000072ec (__TEXT,__text) external _SCRDCygnalCP2110SetUARTSettings
+00000000000073e8 (__TEXT,__text) external _SCRDCygnalCP2110Write
+000000000000779c (__TEXT,__text) external _SCRDEasyLinkCreatePacketFromBuffer
+00000000000079a4 (__TEXT,__text) external _SCRDEasyLinkExtractEventsFromBuffer
+0000000000007e20 (__TEXT,__text) external _SCRDEasyLinkExtractKeyboardEventsFromBuffer
+0000000000008394 (__TEXT,__text) external _SCRDEurobrailleExtractEventsFromBuffer
+0000000000007fa4 (__TEXT,__text) external _SCRDEurobrailleGetModelInfoFromBuffer
+0000000000008cd8 (__TEXT,__text) external _SCRDFTDIConfigureSerialPort
+0000000000009228 (__TEXT,__text) external _SCRDFTDIGetLatencyTimer
+000000000000928c (__TEXT,__text) external _SCRDFTDIGetModemStatus
+0000000000009180 (__TEXT,__text) external _SCRDFTDIPurgeBuffers
+0000000000009108 (__TEXT,__text) external _SCRDFTDIReallyResetDevice
+00000000000090c0 (__TEXT,__text) external _SCRDFTDIResetDevice
+0000000000008ef0 (__TEXT,__text) external _SCRDFTDISetBaudRate
+0000000000008fdc (__TEXT,__text) external _SCRDFTDISetDTR
+000000000000902c (__TEXT,__text) external _SCRDFTDISetDataFormat
+0000000000009078 (__TEXT,__text) external _SCRDFTDISetFlowControl
+0000000000008e98 (__TEXT,__text) external _SCRDFTDISetLatencyTimer
+0000000000008f88 (__TEXT,__text) external _SCRDFTDISetRTS
+00000000000074a0 (__TEXT,__text) external _SCRDFillBuffer
+00000000000098c8 (__TEXT,__text) external _SCRDFreedomScientificCreatePacketFromBuffer
+000000000000a334 (__TEXT,__text) external _SCRDFreedomScientificCreateWriteRequestPacket
+0000000000009a30 (__TEXT,__text) external _SCRDFreedomScientificDeviceIDForInfoEventPacket
+0000000000009820 (__TEXT,__text) external _SCRDFreedomScientificDoesBufferContainACKPacket
+0000000000009808 (__TEXT,__text) external _SCRDFreedomScientificDoesDeviceUseStandardCellOrder
+0000000000009c38 (__TEXT,__text) external _SCRDFreedomScientificExtractEventsFromBuffer
+000000000000aa2c (__TEXT,__text) external _SCRDHIMSBrailleEDGEExtractEventsFromBuffer
+000000000000a60c (__TEXT,__text) external _SCRDHIMSBrailleSenseExtractEventsFromBuffer
+000000000000a4bc (__TEXT,__text) external _SCRDHIMSCreateRequest
+000000000000a5d0 (__TEXT,__text) external _SCRDHIMSFillPacket
+000000000000a450 (__TEXT,__text) external _SCRDHIMSIsPacketValid
+000000000000a980 (__TEXT,__text) external _SCRDHIMSSyncBrailleExtractEventsFromBuffer
+000000000000b4e4 (__TEXT,__text) external _SCRDHandyTechCreateExtendedProtocolRequestPacket
+000000000000ac5c (__TEXT,__text) external _SCRDHandyTechDisplaySizeForDeviceID
+000000000000ac04 (__TEXT,__text) external _SCRDHandyTechDisplayUsesExtendedProtocol
+000000000000ada8 (__TEXT,__text) external _SCRDHandyTechExtractEventsFromBuffer
+000000000000b910 (__TEXT,__text) external _SCRDHumanwareCreateInitializationPacketFromBuffer
+000000000000ba80 (__TEXT,__text) external _SCRDHumanwareCreateInitializationRequestPacket
+000000000000b9a0 (__TEXT,__text) external _SCRDHumanwareCreateWriteRequestPacket
+000000000000bab8 (__TEXT,__text) external _SCRDHumanwareDeviceIDForInitializationPacket
+000000000000bb58 (__TEXT,__text) external _SCRDHumanwareDeviceNeedsResetStatusForInitializationPacket
+000000000000b974 (__TEXT,__text) external _SCRDHumanwareDisplaySizeForDeviceID
+000000000000b6c4 (__TEXT,__text) external _SCRDHumanwareExtractEventsFromBuffer
+000000000000b81c (__TEXT,__text) external _SCRDHumanwareIsDeviceIDValid
+00000000000117a4 (__TEXT,__text) external _SCRDKGSConvertBrailleCellsToKGSOrder
+0000000000010a74 (__TEXT,__text) external _SCRDKGSCreateCommandPacket
+0000000000010b5c (__TEXT,__text) external _SCRDKGSExtractEventsFromBuffer
+000000000000bbfc (__TEXT,__text) external _SCRDMDVAppendKeyPressEvent
+000000000000bbb8 (__TEXT,__text) external _SCRDMDVConvertStandardCellToMDVCell
+000000000000c788 (__TEXT,__text) external _SCRDMDVHIDAppendRouterPressEvent
+000000000000c6c8 (__TEXT,__text) external _SCRDMDVSerialAppendBrailleKeyPressEvent
+000000000000c5ac (__TEXT,__text) external _SCRDMDVSerialAppendRouterPressEvent
+000000000000c1ec (__TEXT,__text) external _SCRDMDVSerialCreatePacketsFromBuffer
+000000000000c114 (__TEXT,__text) external _SCRDMDVSerialCreateRequest
+000000000000c374 (__TEXT,__text) external _SCRDMDVSerialExtractEventsFromBuffer
+000000000000cc4c (__TEXT,__text) external _SCRDNinepointSystemsCebraCreateWriteBuffer
+000000000000c81c (__TEXT,__text) external _SCRDNinepointSystemsCebraDisplaySizeForDeviceID
+000000000000c9e4 (__TEXT,__text) external _SCRDNinepointSystemsCebraExtractKeyboardEventsFromBuffer
+000000000000c844 (__TEXT,__text) external _SCRDNinepointSystemsCebraExtractNewPacketFromBuffer
+000000000000cfcc (__TEXT,__text) external _SCRDNinepointSystemsNinepointCreateWriteBuffer
+000000000000ce5c (__TEXT,__text) external _SCRDNinepointSystemsNinepointExtractKeyboardEventsFromBuffer
+000000000000cd24 (__TEXT,__text) external _SCRDNinepointSystemsNinepointExtractNewPacketFromBuffer
+000000000000d1d4 (__TEXT,__text) external _SCRDPapenmeierCreateBrailleBufferA
+000000000000d3bc (__TEXT,__text) external _SCRDPapenmeierCreateBrailleBufferB
+000000000000d4ec (__TEXT,__text) external _SCRDPapenmeierCreateIdentityRequestBuffer
+000000000000d128 (__TEXT,__text) external _SCRDPapenmeierCreateKeyBuffer
+000000000000d5b0 (__TEXT,__text) external _SCRDPapenmeierCreatePacketFromBuffer
+000000000000d888 (__TEXT,__text) external _SCRDPapenmeierExtractEventsFromBuffer
+000000000000d57c (__TEXT,__text) external _SCRDPapenmeierHorizontalCellsForDevice
+000000000000d548 (__TEXT,__text) external _SCRDPapenmeierProtocolForDevice
+000000000000d0e0 (__TEXT,__text) external _SCRDPapenmeierReleasePacket
+000000000000d5a0 (__TEXT,__text) external _SCRDPapenmeierStatusCellsForDevice
+000000000000d56c (__TEXT,__text) external _SCRDPapenmeierVerticalCellsForDevice
+00000000000076c0 (__TEXT,__text) external _SCRDPostSleepNotification
+000000000000e0a0 (__TEXT,__text) external _SCRDSeikaCreateIdentityPacketFromBuffer
+000000000000e178 (__TEXT,__text) external _SCRDSeikaCreateWriteRequestPacket
+000000000000e344 (__TEXT,__text) external _SCRDSeikaExtractEventsFromBuffer
+000000000000e9a0 (__TEXT,__text) external _SCRDSeikaNotetakerCreatePacketFromBuffer
+000000000000ec18 (__TEXT,__text) external _SCRDSerialDeviceCalloutDevicePath
+000000000000ed50 (__TEXT,__text) external _SCRDSerialDeviceGetModemForUSBDevice
+000000000000f178 (__TEXT,__text) external _SCRDSerialDeviceGetRS232ForUSBDevice
+000000000000f17c (__TEXT,__text) external _SCRDSerialDeviceGetSerialDeviceForUSBDevice
+000000000000ecb0 (__TEXT,__text) external _SCRDSerialDeviceOpenSerialPortForPath
+                 (undefined) external __Block_object_assign (from libSystem)
+                 (undefined) external __Block_object_dispose (from libSystem)
+                 (undefined) external __NSConcreteGlobalBlock (from libSystem)
+                 (undefined) external __NSConcreteStackBlock (from libSystem)
+0000000000011e70 (__TEXT,__objc_methlist) non-external __OBJC_$_CLASS_METHODS_SCRDUSBDeviceCallbackManager
+0000000000011cb8 (__TEXT,__objc_methlist) non-external __OBJC_$_INSTANCE_METHODS_SCRDFileReader
+0000000000011ed0 (__TEXT,__objc_methlist) non-external __OBJC_$_INSTANCE_METHODS_SCRDKGSPacket
+0000000000011d30 (__TEXT,__objc_methlist) non-external __OBJC_$_INSTANCE_METHODS_SCRDUSBDevice
+0000000000011e88 (__TEXT,__objc_methlist) non-external __OBJC_$_INSTANCE_METHODS_SCRDUSBDeviceCallbackManager
+00000000000140d8 (__DATA_CONST,__objc_const) non-external __OBJC_$_INSTANCE_VARIABLES_SCRDFileReader
+0000000000014320 (__DATA_CONST,__objc_const) non-external __OBJC_$_INSTANCE_VARIABLES_SCRDKGSPacket
+00000000000141a8 (__DATA_CONST,__objc_const) non-external __OBJC_$_INSTANCE_VARIABLES_SCRDUSBDevice
+0000000000014290 (__DATA_CONST,__objc_const) non-external __OBJC_$_INSTANCE_VARIABLES_SCRDUSBDeviceCallbackManager
+0000000000014388 (__DATA_CONST,__objc_const) non-external __OBJC_$_PROP_LIST_SCRDKGSPacket
+0000000000018978 (__AUTH_CONST,__objc_const) non-external __OBJC_CLASS_RO_$_SCRDFileReader
+0000000000018a98 (__AUTH_CONST,__objc_const) non-external __OBJC_CLASS_RO_$_SCRDKGSPacket
+00000000000189c0 (__AUTH_CONST,__objc_const) non-external __OBJC_CLASS_RO_$_SCRDUSBDevice
+0000000000018a50 (__AUTH_CONST,__objc_const) non-external __OBJC_CLASS_RO_$_SCRDUSBDeviceCallbackManager
+0000000000014090 (__DATA_CONST,__objc_const) non-external __OBJC_METACLASS_RO_$_SCRDFileReader
+00000000000142d8 (__DATA_CONST,__objc_const) non-external __OBJC_METACLASS_RO_$_SCRDKGSPacket
+0000000000014160 (__DATA_CONST,__objc_const) non-external __OBJC_METACLASS_RO_$_SCRDUSBDevice
+0000000000018a08 (__AUTH_CONST,__objc_const) non-external __OBJC_METACLASS_RO_$_SCRDUSBDeviceCallbackManager
+000000000000b82c (__TEXT,__text) non-external __SCRDEventForKeyID
+000000000000aa44 (__TEXT,__text) non-external __SCRDHIMSBrailleEDGEAppendEventsFromKeyPacket
+000000000000a7c8 (__TEXT,__text) non-external __SCRDHIMSBrailleSenseAppendEventsFromKeyPacket
+000000000000a624 (__TEXT,__text) non-external __SCRDHIMSExtractEventsFromBuffer
+000000000000a998 (__TEXT,__text) non-external __SCRDHIMSSyncBrailleAppendEventsFromKeyPacket
+000000000000b638 (__TEXT,__text) non-external (was a private external) __SCRDHumanwareCreatePacketFromBuffer
+000000000000d3e8 (__TEXT,__text) non-external (was a private external) __SCRDPapenmeierCreateWriteBuffer
+000000000000e728 (__TEXT,__text) non-external (was a private external) __SCRDSeikaNotetakerExtractEventsFromBuffer
+                 (undefined) external __SCROD_LOG (from ScreenReaderOutput)
+                 (undefined) external __Unwind_Resume (from libSystem)
+00000000000104dc (__TEXT,__text) non-external ___45+[SCRDUSBDeviceCallbackManager sharedManager]_block_invoke
+000000000001063c (__TEXT,__text) non-external ___46-[SCRDUSBDeviceCallbackManager addCompletion:]_block_invoke
+0000000000010758 (__TEXT,__text) non-external ___49-[SCRDUSBDeviceCallbackManager removeCompletion:]_block_invoke
+00000000000108dc (__TEXT,__text) non-external ___56-[SCRDUSBDeviceCallbackManager completionWithReference:]_block_invoke
+00000000000108c4 (__TEXT,__text) non-external ___Block_byref_object_copy_
+00000000000108d4 (__TEXT,__text) non-external ___Block_byref_object_dispose_
+                 (undefined) external ___CFConstantStringClassReference (from CoreFoundation)
+000000000000abdc (__TEXT,__text) non-external ____SCRDHIMSBrailleSenseAppendEventsFromKeyPacket_block_invoke
+0000000000014028 (__DATA_CONST,__const) non-external (was a private external) ___block_descriptor_32_e25_B32?0"NSNumber"8Q16^B24l
+0000000000014048 (__DATA_CONST,__const) non-external (was a private external) ___block_descriptor_32_e5_v8?0l
+0000000000018b20 (__AUTH_CONST,__const) non-external (was a private external) ___block_descriptor_48_e8_32s_e5_v8?0l
+0000000000018b50 (__AUTH_CONST,__const) non-external (was a private external) ___block_descriptor_56_e8_32s40r_e5_v8?0l
+0000000000018ae0 (__AUTH_CONST,__const) non-external ___block_literal_global
+0000000000018b00 (__AUTH_CONST,__const) non-external ___block_literal_global
+                 (undefined) external ___chkstk_darwin (from libSystem)
+00000000000106d4 (__TEXT,__text) non-external (was a private external) ___copy_helper_block_e8_32s
+0000000000010968 (__TEXT,__text) non-external (was a private external) ___copy_helper_block_e8_32s40r
+                 (undefined) external ___darwin_check_fd_set_overflow (from libSystem)
+00000000000106dc (__TEXT,__text) non-external (was a private external) ___destroy_helper_block_e8_32s
+00000000000109b0 (__TEXT,__text) non-external (was a private external) ___destroy_helper_block_e8_32s40r
+                 (undefined) external ___memcpy_chk (from libSystem)
+                 (undefined) external ___objc_personality_v0 (from libobjc)
+                 (undefined) external ___stack_chk_fail (from libSystem)
+                 (undefined) external ___stack_chk_guard (from libSystem)
+000000000000865c (__TEXT,__text) non-external __appendBrailleKeyboardEvent
+000000000000affc (__TEXT,__text) non-external __appendEventForKeyCode
+0000000000008bf4 (__TEXT,__text) non-external __appendFunctionKeyboardEvent
+0000000000008744 (__TEXT,__text) non-external __appendInteractiveKeyboardEvent
+0000000000008ab8 (__TEXT,__text) non-external __appendJoystickCommandKeyboardEvent
+000000000000df08 (__TEXT,__text) non-external __appendProtocolBFrontAndRearEvents
+000000000000c08c (__TEXT,__text) non-external __appendShiftKeyEvent
+00000000000087dc (__TEXT,__text) non-external __appendSwitchKeyboardEvent
+0000000000007d6c (__TEXT,__text) non-external (was a private external) __createKeyboardPacketFromBuffer
+0000000000011f30 (__TEXT,__const) non-external __getFrontKeyEventForCode.frontKeyMap
+000000000000ed54 (__TEXT,__text) non-external __getSerialDeviceForUSBDevice
+000000000000eab0 (__TEXT,__text) non-external __notetakerAppendButtonEventFromBuffer
+00000000000103ac (__TEXT,__text) non-external __notificationHandler
+                 (undefined) external __objc_empty_cache (from libobjc)
+                 (undefined) external __os_log_impl (from libSystem)
+000000000000fdc0 (__TEXT,__text) non-external __readWriteAsyncCallback
+000000000000f180 (__TEXT,__text) non-external __retrieveModemIteratorForDevicePropertyKey
+                 (undefined) external _bzero (from libSystem)
+                 (undefined) external _calloc (from libSystem)
+                 (undefined) external _close (from libSystem)
+                 (undefined) external _dispatch_once (from libSystem)
+                 (undefined) external _dispatch_queue_attr_make_with_qos_class (from libSystem)
+                 (undefined) external _dispatch_queue_create (from libSystem)
+                 (undefined) external _dispatch_sync (from libSystem)
+                 (undefined) external _fcntl (from libSystem)
+                 (undefined) external _free (from libSystem)
+                 (undefined) external _ioctl (from libSystem)
+                 (undefined) external _kCFAllocatorDefault (from CoreFoundation)
+                 (undefined) external _kCFRunLoopDefaultMode (from CoreFoundation)
+                 (undefined) external _kIOMainPortDefault (from IOKit)
+0000000000020070 (__DATA,__data) external _kSCRDBaumBrailleConnect12DeviceIdentifier
+0000000000020078 (__DATA,__data) external _kSCRDBaumBrailleConnect24DeviceIdentifier
+0000000000020080 (__DATA,__data) external _kSCRDBaumBrailleConnect32DeviceIdentifier
+0000000000020088 (__DATA,__data) external _kSCRDBaumBrailleConnect40DeviceIdentifier
+0000000000020090 (__DATA,__data) external _kSCRDBaumBrailliant14DeviceIdentifier
+0000000000020098 (__DATA,__data) external _kSCRDBaumBrailliant24DeviceIdentifier
+00000000000200a0 (__DATA,__data) external _kSCRDBaumBrailliant32DeviceIdentifier
+00000000000200a8 (__DATA,__data) external _kSCRDBaumBrailliant40DeviceIdentifier
+00000000000200b0 (__DATA,__data) external _kSCRDBaumBrailliant64DeviceIdentifier
+00000000000200b8 (__DATA,__data) external _kSCRDBaumBrailliant80DeviceIdentifier
+0000000000020048 (__DATA,__data) external _kSCRDBaumConnyDeviceIdentifier
+00000000000200e8 (__DATA,__data) external _kSCRDBaumPDIBrailliant14DeviceIdentifier
+00000000000200f0 (__DATA,__data) external _kSCRDBaumPDIBrailliant24DeviceIdentifier
+00000000000200f8 (__DATA,__data) external _kSCRDBaumPDIBrailliant32DeviceIdentifier
+0000000000020100 (__DATA,__data) external _kSCRDBaumPDIBrailliant40DeviceIdentifier
+0000000000020108 (__DATA,__data) external _kSCRDBaumPDIBrailliant64DeviceIdentifier
+0000000000020110 (__DATA,__data) external _kSCRDBaumPDIBrailliant80DeviceIdentifier
+00000000000200c0 (__DATA,__data) external _kSCRDBaumPocketVario24DeviceIdentifier
+0000000000020118 (__DATA,__data) external _kSCRDBaumPronto18DeviceIdentifier
+0000000000020120 (__DATA,__data) external _kSCRDBaumPronto40DeviceIdentifier
+0000000000020040 (__DATA,__data) external _kSCRDBaumRefreshabraille18DeviceIdentifier
+00000000000200c8 (__DATA,__data) external _kSCRDBaumSuperVario32DeviceIdentifier
+00000000000200d0 (__DATA,__data) external _kSCRDBaumSuperVario40DeviceIdentifier
+00000000000200d8 (__DATA,__data) external _kSCRDBaumSuperVario64DeviceIdentifier
+00000000000200e0 (__DATA,__data) external _kSCRDBaumSuperVario80DeviceIdentifier
+0000000000020050 (__DATA,__data) external _kSCRDBaumVarioConnect12DeviceIdentifier
+0000000000020058 (__DATA,__data) external _kSCRDBaumVarioConnect24DeviceIdentifier
+0000000000020060 (__DATA,__data) external _kSCRDBaumVarioConnect32DeviceIdentifier
+0000000000020068 (__DATA,__data) external _kSCRDBaumVarioConnect40DeviceIdentifier
+0000000000020128 (__DATA,__data) external _kSCRDBaumVarioUltra20DeviceIdentifier
+0000000000020130 (__DATA,__data) external _kSCRDBaumVarioUltra32DeviceIdentifier
+0000000000020138 (__DATA,__data) external _kSCRDBaumVarioUltra40DeviceIdentifier
+0000000000020190 (__DATA,__data) external _kSCRDBaumVarioUltraBluetoothSerialPort1ServiceName
+0000000000020198 (__DATA,__data) external _kSCRDBaumVarioUltraBluetoothSerialPort2ServiceName
+00000000000201a0 (__DATA,__data) external _kSCRDBaumVarioUltraBluetoothSerialPort3ServiceName
+00000000000201a8 (__DATA,__data) external _kSCRDBaumVarioUltraBluetoothSerialPort4ServiceName
+00000000000201c0 (__DATA,__data) external _kSCRDBraillePenPrefix
+00000000000201b8 (__DATA,__data) external _kSCRDEasyLinkBluetoothNameBraillePen
+00000000000201b0 (__DATA,__data) external _kSCRDEasyLinkBluetoothNameEasyLink
+00000000000201c8 (__DATA,__data) non-external (was a private external) _kSCRDFreedomScientificFocus14ModelName
+00000000000201d0 (__DATA,__data) external _kSCRDFreedomScientificFocus40ModelName
+00000000000201d8 (__DATA,__data) external _kSCRDFreedomScientificFocus44ModelName
+00000000000201e0 (__DATA,__data) external _kSCRDFreedomScientificFocus70ModelName
+00000000000201e8 (__DATA,__data) external _kSCRDFreedomScientificFocus80ModelName
+00000000000201f0 (__DATA,__data) external _kSCRDFreedomScientificFocus84ModelName
+00000000000201f8 (__DATA,__data) external _kSCRDFreedomScientificPacMate20ModelName
+0000000000020200 (__DATA,__data) external _kSCRDFreedomScientificPacMate40ModelName
+0000000000020210 (__DATA,__data) external _kSCRDHandyTechBluetoothConfigServiceName
+0000000000020208 (__DATA,__data) external _kSCRDHandyTechBluetoothHardwareServiceName
+0000000000020218 (__DATA,__data) external _kSCRDHumanwareBrailliantBluetoothName
+0000000000020180 (__DATA,__data) external _kSCRDNLSEReaderZoomaxDeviceIdentifier
+0000000000020188 (__DATA,__data) external _kSCRDNPHB2GDeviceIdentifier
+0000000000020220 (__DATA,__data) external _kSCRDNinepointSystemsNinepointBluetoothName
+0000000000020170 (__DATA,__data) external _kSCRDOrbitReader20DeviceIdentifier
+0000000000020178 (__DATA,__data) external _kSCRDOrbitReader40DeviceIdentifier
+0000000000020228 (__DATA,__data) external _kSCRDSeikaNotetakerBluetoothNameRegExPattern
+0000000000020230 (__DATA,__data) external _kSCRDUSBDeviceDisconnectNotification
+0000000000020140 (__DATA,__data) external _kSCRODBaumVario340DeviceIdentifier
+0000000000020160 (__DATA,__data) external _kSCRODBaumVario424DeviceIdentifier
+0000000000020168 (__DATA,__data) external _kSCRODBaumVario432DeviceIdentifier
+0000000000020148 (__DATA,__data) external _kSCRODBaumVario440DeviceIdentifier
+0000000000020150 (__DATA,__data) external _kSCRODBaumVario464DeviceIdentifier
+0000000000020158 (__DATA,__data) external _kSCRODBaumVario480DeviceIdentifier
+                 (undefined) external _malloc (from libSystem)
+                 (undefined) external _memcmp (from libSystem)
+                 (undefined) external _memcpy (from libSystem)
+                 (undefined) external _memset (from libSystem)
+                 (undefined) external _objc_alloc (from libobjc)
+                 (undefined) external _objc_alloc_init (from libobjc)
+                 (undefined) external _objc_autoreleaseReturnValue (from libobjc)
+                 (undefined) external _objc_destroyWeak (from libobjc)
+                 (undefined) external _objc_enumerationMutation (from libobjc)
+                 (undefined) external _objc_msgSend (from libobjc)
+0000000000013840 (__TEXT,__objc_stubs) non-external (was a private external) _objc_msgSend$_transferData:withSize:toPipe:withTimeout:withFunction:
+0000000000013860 (__TEXT,__objc_stubs) non-external (was a private external) _objc_msgSend$addCompletion:
+0000000000013880 (__TEXT,__objc_stubs) non-external (was a private external) _objc_msgSend$addObject:
+00000000000138a0 (__TEXT,__objc_stubs) non-external (was a private external) _objc_msgSend$array
+00000000000138c0 (__TEXT,__objc_stubs) non-external (was a private external) _objc_msgSend$bytes
+00000000000138e0 (__TEXT,__objc_stubs) non-external (was a private external) _objc_msgSend$cStringUsingEncoding:
+0000000000013900 (__TEXT,__objc_stubs) non-external (was a private external) _objc_msgSend$cancel
+0000000000013920 (__TEXT,__objc_stubs) non-external (was a private external) _objc_msgSend$command
+0000000000013940 (__TEXT,__objc_stubs) non-external (was a private external) _objc_msgSend$completionWithReference:
+0000000000013960 (__TEXT,__objc_stubs) non-external (was a private external) _objc_msgSend$count
+0000000000013980 (__TEXT,__objc_stubs) non-external (was a private external) _objc_msgSend$countByEnumeratingWithState:objects:count:
+00000000000139a0 (__TEXT,__objc_stubs) non-external (was a private external) _objc_msgSend$currentThread
+00000000000139c0 (__TEXT,__objc_stubs) non-external (was a private external) _objc_msgSend$data
+00000000000139e0 (__TEXT,__objc_stubs) non-external (was a private external) _objc_msgSend$defaultCenter
+0000000000013a00 (__TEXT,__objc_stubs) non-external (was a private external) _objc_msgSend$dictionaryWithObjects:forKeys:count:
+0000000000013a20 (__TEXT,__objc_stubs) non-external (was a private external) _objc_msgSend$fileDescriptor
+0000000000013a40 (__TEXT,__objc_stubs) non-external (was a private external) _objc_msgSend$fileReader:data:length:
+0000000000013a60 (__TEXT,__objc_stubs) non-external (was a private external) _objc_msgSend$floatValue
+0000000000013a80 (__TEXT,__objc_stubs) non-external (was a private external) _objc_msgSend$hasStarted
+0000000000013aa0 (__TEXT,__objc_stubs) non-external (was a private external) _objc_msgSend$indexesOfObjectsPassingTest:
+0000000000013ac0 (__TEXT,__objc_stubs) non-external (was a private external) _objc_msgSend$initWithBytes:length:
+0000000000013ae0 (__TEXT,__objc_stubs) non-external (was a private external) _objc_msgSend$initWithFormat:
+0000000000013b00 (__TEXT,__objc_stubs) non-external (was a private external) _objc_msgSend$initWithObjectsAndKeys:
+0000000000013b20 (__TEXT,__objc_stubs) non-external (was a private external) _objc_msgSend$initWithTarget:selector:object:
+0000000000013b40 (__TEXT,__objc_stubs) non-external (was a private external) _objc_msgSend$initWithUTF8String:
+0000000000013b60 (__TEXT,__objc_stubs) non-external (was a private external) _objc_msgSend$insertObject:atIndex:
+0000000000013b80 (__TEXT,__objc_stubs) non-external (was a private external) _objc_msgSend$intValue
+0000000000013ba0 (__TEXT,__objc_stubs) non-external (was a private external) _objc_msgSend$invalidateWithWait:
+0000000000013bc0 (__TEXT,__objc_stubs) non-external (was a private external) _objc_msgSend$isCancelled
+0000000000013be0 (__TEXT,__objc_stubs) non-external (was a private external) _objc_msgSend$isEqualToString:
+0000000000013c00 (__TEXT,__objc_stubs) non-external (was a private external) _objc_msgSend$isExecuting
+0000000000013c20 (__TEXT,__objc_stubs) non-external (was a private external) _objc_msgSend$isFinished
+0000000000013c40 (__TEXT,__objc_stubs) non-external (was a private external) _objc_msgSend$length
+0000000000013c60 (__TEXT,__objc_stubs) non-external (was a private external) _objc_msgSend$numberWithBool:
+0000000000013c80 (__TEXT,__objc_stubs) non-external (was a private external) _objc_msgSend$numberWithInt:
+0000000000013ca0 (__TEXT,__objc_stubs) non-external (was a private external) _objc_msgSend$numberWithLong:
+0000000000013cc0 (__TEXT,__objc_stubs) non-external (was a private external) _objc_msgSend$numberWithUnsignedChar:
+0000000000013ce0 (__TEXT,__objc_stubs) non-external (was a private external) _objc_msgSend$numberWithUnsignedInt:
+0000000000013d00 (__TEXT,__objc_stubs) non-external (was a private external) _objc_msgSend$numberWithUnsignedLong:
+0000000000013d20 (__TEXT,__objc_stubs) non-external (was a private external) _objc_msgSend$numberWithUnsignedShort:
+0000000000013d40 (__TEXT,__objc_stubs) non-external (was a private external) _objc_msgSend$objectForKey:
+0000000000013d60 (__TEXT,__objc_stubs) non-external (was a private external) _objc_msgSend$openWithSeize:
+0000000000013d80 (__TEXT,__objc_stubs) non-external (was a private external) _objc_msgSend$pointerValue
+0000000000013da0 (__TEXT,__objc_stubs) non-external (was a private external) _objc_msgSend$postNotificationName:object:
+0000000000013dc0 (__TEXT,__objc_stubs) non-external (was a private external) _objc_msgSend$postNotificationName:object:userInfo:
+0000000000013de0 (__TEXT,__objc_stubs) non-external (was a private external) _objc_msgSend$readData:withSize:fromPipe:withTimeout:
+0000000000013e00 (__TEXT,__objc_stubs) non-external (was a private external) _objc_msgSend$registerForDisconnectNotifications:
+0000000000013e20 (__TEXT,__objc_stubs) non-external (was a private external) _objc_msgSend$removeCompletion:
+0000000000013e40 (__TEXT,__objc_stubs) non-external (was a private external) _objc_msgSend$removeObjectForKey:
+0000000000013e60 (__TEXT,__objc_stubs) non-external (was a private external) _objc_msgSend$removeObjectsAtIndexes:
+0000000000013e80 (__TEXT,__objc_stubs) non-external (was a private external) _objc_msgSend$sendControlRequest:type:value:index:data:size:sizeTransferred:pipe:timeout:
+0000000000013ea0 (__TEXT,__objc_stubs) non-external (was a private external) _objc_msgSend$setCommand:
+0000000000013ec0 (__TEXT,__objc_stubs) non-external (was a private external) _objc_msgSend$setData:
+0000000000013ee0 (__TEXT,__objc_stubs) non-external (was a private external) _objc_msgSend$setObject:forKey:
+0000000000013f00 (__TEXT,__objc_stubs) non-external (was a private external) _objc_msgSend$setSubCommand:
+0000000000013f20 (__TEXT,__objc_stubs) non-external (was a private external) _objc_msgSend$sharedManager
+0000000000013f40 (__TEXT,__objc_stubs) non-external (was a private external) _objc_msgSend$sleepForTimeInterval:
+0000000000013f60 (__TEXT,__objc_stubs) non-external (was a private external) _objc_msgSend$start
+0000000000013f80 (__TEXT,__objc_stubs) non-external (was a private external) _objc_msgSend$subCommand
+0000000000013fa0 (__TEXT,__objc_stubs) non-external (was a private external) _objc_msgSend$unsignedIntValue
+0000000000013fc0 (__TEXT,__objc_stubs) non-external (was a private external) _objc_msgSend$valueWithPointer:
+0000000000013fe0 (__TEXT,__objc_stubs) non-external (was a private external) _objc_msgSend$writeData:withSize:toPipe:withTimeout:
+                 (undefined) external _objc_msgSendSuper2 (from libobjc)
+                 (undefined) external _objc_opt_class (from libobjc)
+                 (undefined) external _objc_opt_isKindOfClass (from libobjc)
+                 (undefined) external _objc_release (from libobjc)
+                 (undefined) external _objc_retain (from libobjc)
+                 (undefined) external _objc_retainAutorelease (from libobjc)
+                 (undefined) external _objc_retainAutoreleaseReturnValue (from libobjc)
+                 (undefined) external _objc_retainAutoreleasedReturnValue (from libobjc)
+                 (undefined) external _objc_storeStrong (from libobjc)
+                 (undefined) external _objc_storeWeak (from libobjc)
+                 (undefined) external _open (from libSystem)
+                 (undefined) external _os_log_type_enabled (from libSystem)
+                 (undefined) external _read (from libSystem)
+                 (undefined) external _select (from libSystem)
+0000000000020240 (__DATA,__bss) non-external _sharedManager.manager
+0000000000020238 (__DATA,__bss) non-external _sharedManager.onceToken

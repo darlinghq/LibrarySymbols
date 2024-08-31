@@ -1,0 +1,841 @@
+00007ffa04512971 (__TEXT,__text) non-external +[DRClientLog sandboxExtensionForLog:transferOwnership:]
+00007ffa04519a0b (__TEXT,__text) non-external +[DRConfig supportsSecureCoding]
+00007ffa04516d15 (__TEXT,__text) non-external +[DRSubscriptionManager sharedInstance]
+00007ffa0451b391 (__TEXT,__text) non-external +[_DRCConnectionState sharedConnectionState]
+00007ffa0450f747 (__TEXT,__text) non-external +[_DRCTaskingConnectionState sharedConnectionState]
+00007ffa04512dda (__TEXT,__text) non-external -[DRClientLog .cxx_destruct]
+00007ffa04512569 (__TEXT,__text) non-external -[DRClientLog _checkPath]
+00007ffa04512d59 (__TEXT,__text) non-external -[DRClientLog description]
+00007ffa04512ac5 (__TEXT,__text) non-external -[DRClientLog initWithPath:transferOwnership:errorOut:]
+00007ffa04512dbc (__TEXT,__text) non-external -[DRClientLog path]
+00007ffa04512dd0 (__TEXT,__text) non-external -[DRClientLog sandboxExtension]
+00007ffa04512dc6 (__TEXT,__text) non-external -[DRClientLog transferOwnership]
+00007ffa0451b2f9 (__TEXT,__text) non-external -[DRConfig .cxx_destruct]
+00007ffa0451b284 (__TEXT,__text) non-external -[DRConfig build]
+00007ffa0451b29f (__TEXT,__text) non-external -[DRConfig configDescription]
+00007ffa0451b2a9 (__TEXT,__text) non-external -[DRConfig configUUID]
+00007ffa04519a16 (__TEXT,__text) non-external -[DRConfig encodeWithCoder:]
+00007ffa0451b2c7 (__TEXT,__text) non-external -[DRConfig endDate]
+00007ffa04519e8e (__TEXT,__text) non-external -[DRConfig initWithBuild:teamID:configDescription:configUUID:receivedDate:startDate:endDate:payload:payloadIsJSON:skipHysteresis:]
+00007ffa04519c45 (__TEXT,__text) non-external -[DRConfig initWithCoder:]
+00007ffa0451a837 (__TEXT,__text) non-external -[DRConfig initWithJSONDict:receivedDate:]
+00007ffa0451a3be (__TEXT,__text) non-external -[DRConfig isEqual:]
+00007ffa0451a421 (__TEXT,__text) non-external -[DRConfig isEqualToConfig:]
+00007ffa0451aeb8 (__TEXT,__text) non-external -[DRConfig jsonDictRepresentation]
+00007ffa0451b2db (__TEXT,__text) non-external -[DRConfig payloadDictionaryRepresentation]
+00007ffa0451b2ef (__TEXT,__text) non-external -[DRConfig payloadIsJSON]
+00007ffa0451b2d1 (__TEXT,__text) non-external -[DRConfig payload]
+00007ffa0451b2b3 (__TEXT,__text) non-external -[DRConfig receivedDate]
+00007ffa0451b28e (__TEXT,__text) non-external -[DRConfig setBuild:]
+00007ffa0451b2e5 (__TEXT,__text) non-external -[DRConfig skippedHysteresis]
+00007ffa0451b2bd (__TEXT,__text) non-external -[DRConfig startDate]
+00007ffa0451b27a (__TEXT,__text) non-external -[DRConfig teamID]
+00007ffa045199c2 (__TEXT,__text) non-external -[DRConfigMonitor .cxx_destruct]
+00007ffa04518fc1 (__TEXT,__text) non-external -[DRConfigMonitor _handleCurrentConfig:error:forceBroadcast:]
+00007ffa045195af (__TEXT,__text) non-external -[DRConfigMonitor _markConfigUUID:isRejected:errorOut:]
+00007ffa04518e80 (__TEXT,__text) non-external -[DRConfigMonitor _notifyClientOfConfig:error:]
+00007ffa045199b8 (__TEXT,__text) non-external -[DRConfigMonitor accessQueue]
+00007ffa04519821 (__TEXT,__text) non-external -[DRConfigMonitor currentConfigSnapshotWithErrorOut:]
+00007ffa04519989 (__TEXT,__text) non-external -[DRConfigMonitor currentConfig]
+00007ffa04518e42 (__TEXT,__text) non-external -[DRConfigMonitor dealloc]
+00007ffa04518c71 (__TEXT,__text) non-external -[DRConfigMonitor initWithTeamID:targetQueue:configProcessingBlock:]
+00007ffa045197f0 (__TEXT,__text) non-external -[DRConfigMonitor markCompletedConfigUUID:errorOut:]
+00007ffa045199a4 (__TEXT,__text) non-external -[DRConfigMonitor processingBlock]
+00007ffa04519807 (__TEXT,__text) non-external -[DRConfigMonitor rejectConfigUUID:errorOut:]
+00007ffa04519993 (__TEXT,__text) non-external -[DRConfigMonitor setCurrentConfig:]
+00007ffa04518d9c (__TEXT,__text) non-external -[DRConfigMonitor startMonitoring]
+00007ffa04518def (__TEXT,__text) non-external -[DRConfigMonitor stopMonitoring]
+00007ffa045199ae (__TEXT,__text) non-external -[DRConfigMonitor targetQueue]
+00007ffa0451997f (__TEXT,__text) non-external -[DRConfigMonitor teamID]
+00007ffa04518c33 (__TEXT,__text) non-external -[DRSubscriptionManager .cxx_destruct]
+00007ffa045178b0 (__TEXT,__text) non-external -[DRSubscriptionManager _broadcastErrorForTeamID:error:]
+00007ffa04517e69 (__TEXT,__text) non-external -[DRSubscriptionManager _completeSubscriptionRequestForTeamID:config:event:]
+00007ffa04516dd0 (__TEXT,__text) non-external -[DRSubscriptionManager _configFromEvent:teamIdOut:]
+00007ffa04518148 (__TEXT,__text) non-external -[DRSubscriptionManager _hasInitializedSubscriptionForTeamID:cachedConfigOut:errorOut:]
+00007ffa04517272 (__TEXT,__text) non-external -[DRSubscriptionManager _processNewEvent:]
+00007ffa04517a50 (__TEXT,__text) non-external -[DRSubscriptionManager _requestSubscriptionToTeamIDStream:]
+00007ffa045186aa (__TEXT,__text) non-external -[DRSubscriptionManager _unsubscribeFromStreamWithTeamID:]
+00007ffa04518c0b (__TEXT,__text) non-external -[DRSubscriptionManager accessQueue]
+00007ffa0451825a (__TEXT,__text) non-external -[DRSubscriptionManager addMonitor:]
+00007ffa04518c29 (__TEXT,__text) non-external -[DRSubscriptionManager inFlightSubscriptionRequests]
+00007ffa045176a6 (__TEXT,__text) non-external -[DRSubscriptionManager init]
+00007ffa04518c1f (__TEXT,__text) non-external -[DRSubscriptionManager perTeamIdConfigState]
+00007ffa04518c15 (__TEXT,__text) non-external -[DRSubscriptionManager perTeamIdMonitors]
+00007ffa0451882f (__TEXT,__text) non-external -[DRSubscriptionManager removeMonitor:]
+00007ffa0451bc58 (__TEXT,__text) non-external -[_DRCConnectionState .cxx_destruct]
+00007ffa0451bc4e (__TEXT,__text) non-external -[_DRCConnectionState connectionQueue]
+00007ffa0451bc33 (__TEXT,__text) non-external -[_DRCConnectionState connection]
+00007ffa0451b3e6 (__TEXT,__text) non-external -[_DRCConnectionState hasConnection]
+00007ffa0451b41b (__TEXT,__text) non-external -[_DRCConnectionState init]
+00007ffa0451b93c (__TEXT,__text) non-external -[_DRCConnectionState sendMessage:]
+00007ffa0451baa7 (__TEXT,__text) non-external -[_DRCConnectionState sendMessageWithReplySync:]
+00007ffa0451bc3d (__TEXT,__text) non-external -[_DRCConnectionState setConnection:]
+00007ffa0451008d (__TEXT,__text) non-external -[_DRCTaskingConnectionState .cxx_destruct]
+00007ffa0450f79c (__TEXT,__text) non-external -[_DRCTaskingConnectionState cleanupState]
+00007ffa04510083 (__TEXT,__text) non-external -[_DRCTaskingConnectionState connectionQueue]
+00007ffa04510079 (__TEXT,__text) non-external -[_DRCTaskingConnectionState connection]
+00007ffa0450f814 (__TEXT,__text) non-external -[_DRCTaskingConnectionState init]
+00007ffa0451006f (__TEXT,__text) non-external -[_DRCTaskingConnectionState isClosed]
+00007ffa0450fc7e (__TEXT,__text) non-external -[_DRCTaskingConnectionState sendMessage:]
+00007ffa0450fe60 (__TEXT,__text) non-external -[_DRCTaskingConnectionState sendMessageWithReplySync:]
+00007ffa04521614 (__TEXT,__gcc_except_tab) non-external GCC_except_table12
+00007ffa04521690 (__TEXT,__gcc_except_tab) non-external GCC_except_table12
+00007ffa04521658 (__TEXT,__gcc_except_tab) non-external GCC_except_table34
+00007ffa04521638 (__TEXT,__gcc_except_tab) non-external GCC_except_table4
+00007ffa0452166c (__TEXT,__gcc_except_tab) non-external GCC_except_table40
+00007ffa04521600 (__TEXT,__gcc_except_tab) non-external GCC_except_table8
+00007ffa0452167c (__TEXT,__gcc_except_tab) non-external GCC_except_table8
+00007ffa04512fe5 (__TEXT,__text) non-external (was a private external) _DPLogHandle_AdminError
+00007ffa41d52ab0 (__DATA,__bss) non-external _DPLogHandle_AdminError.handle
+00007ffa41d52ab8 (__DATA,__bss) non-external _DPLogHandle_AdminError.onceToken
+00007ffa0451339b (__TEXT,__text) non-external (was a private external) _DPLogHandle_CKCFUpload
+00007ffa41d52b50 (__DATA,__bss) non-external _DPLogHandle_CKCFUpload.handle
+00007ffa41d52b58 (__DATA,__bss) non-external _DPLogHandle_CKCFUpload.onceToken
+00007ffa045133fa (__TEXT,__text) non-external (was a private external) _DPLogHandle_CKCFUploadError
+00007ffa41d52b60 (__DATA,__bss) non-external _DPLogHandle_CKCFUploadError.handle
+00007ffa41d52b68 (__DATA,__bss) non-external _DPLogHandle_CKCFUploadError.onceToken
+00007ffa045145ca (__TEXT,__text) non-external (was a private external) _DPLogHandle_CKConfig
+00007ffa41d52e60 (__DATA,__bss) non-external _DPLogHandle_CKConfig.handle
+00007ffa41d52e68 (__DATA,__bss) non-external _DPLogHandle_CKConfig.onceToken
+00007ffa04514629 (__TEXT,__text) non-external (was a private external) _DPLogHandle_CKConfigError
+00007ffa41d52e70 (__DATA,__bss) non-external _DPLogHandle_CKConfigError.handle
+00007ffa41d52e78 (__DATA,__bss) non-external _DPLogHandle_CKConfigError.onceToken
+00007ffa045132dd (__TEXT,__text) non-external (was a private external) _DPLogHandle_CKInverness
+00007ffa41d52b30 (__DATA,__bss) non-external _DPLogHandle_CKInverness.handle
+00007ffa41d52b38 (__DATA,__bss) non-external _DPLogHandle_CKInverness.onceToken
+00007ffa0451333c (__TEXT,__text) non-external (was a private external) _DPLogHandle_CKInvernessError
+00007ffa41d52b40 (__DATA,__bss) non-external _DPLogHandle_CKInvernessError.handle
+00007ffa41d52b48 (__DATA,__bss) non-external _DPLogHandle_CKInvernessError.onceToken
+00007ffa0451321f (__TEXT,__text) non-external (was a private external) _DPLogHandle_CKRecord
+00007ffa41d52b10 (__DATA,__bss) non-external _DPLogHandle_CKRecord.handle
+00007ffa41d52b18 (__DATA,__bss) non-external _DPLogHandle_CKRecord.onceToken
+00007ffa045131c0 (__TEXT,__text) non-external (was a private external) _DPLogHandle_CKRecordError
+00007ffa41d52b00 (__DATA,__bss) non-external _DPLogHandle_CKRecordError.handle
+00007ffa41d52b08 (__DATA,__bss) non-external _DPLogHandle_CKRecordError.onceToken
+00007ffa0451327e (__TEXT,__text) non-external (was a private external) _DPLogHandle_CKRecordUpload
+00007ffa41d52b20 (__DATA,__bss) non-external _DPLogHandle_CKRecordUpload.handle
+00007ffa41d52b28 (__DATA,__bss) non-external _DPLogHandle_CKRecordUpload.onceToken
+00007ffa04513102 (__TEXT,__text) non-external (was a private external) _DPLogHandle_ClientAPI
+00007ffa41d52ae0 (__DATA,__bss) non-external _DPLogHandle_ClientAPI.handle
+00007ffa41d52ae8 (__DATA,__bss) non-external _DPLogHandle_ClientAPI.onceToken
+00007ffa04513161 (__TEXT,__text) non-external (was a private external) _DPLogHandle_ClientAPIError
+00007ffa41d52af0 (__DATA,__bss) non-external _DPLogHandle_ClientAPIError.handle
+00007ffa41d52af8 (__DATA,__bss) non-external _DPLogHandle_ClientAPIError.onceToken
+00007ffa04512f86 (__TEXT,__text) non-external (was a private external) _DPLogHandle_ClientError
+00007ffa41d52aa0 (__DATA,__bss) non-external _DPLogHandle_ClientError.handle
+00007ffa41d52aa8 (__DATA,__bss) non-external _DPLogHandle_ClientError.onceToken
+00007ffa04514156 (__TEXT,__text) non-external (was a private external) _DPLogHandle_ClientTaskingXPC
+00007ffa41d52da0 (__DATA,__bss) non-external _DPLogHandle_ClientTaskingXPC.handle
+00007ffa41d52da8 (__DATA,__bss) non-external _DPLogHandle_ClientTaskingXPC.onceToken
+00007ffa045141b5 (__TEXT,__text) non-external (was a private external) _DPLogHandle_ClientTaskingXPCError
+00007ffa41d52db0 (__DATA,__bss) non-external _DPLogHandle_ClientTaskingXPCError.handle
+00007ffa41d52db8 (__DATA,__bss) non-external _DPLogHandle_ClientTaskingXPCError.onceToken
+00007ffa045130a3 (__TEXT,__text) non-external (was a private external) _DPLogHandle_ClientXPC
+00007ffa41d52ad0 (__DATA,__bss) non-external _DPLogHandle_ClientXPC.handle
+00007ffa41d52ad8 (__DATA,__bss) non-external _DPLogHandle_ClientXPC.onceToken
+00007ffa04513044 (__TEXT,__text) non-external (was a private external) _DPLogHandle_ClientXPCError
+00007ffa41d52ac0 (__DATA,__bss) non-external _DPLogHandle_ClientXPCError.handle
+00007ffa41d52ac8 (__DATA,__bss) non-external _DPLogHandle_ClientXPCError.onceToken
+00007ffa04514214 (__TEXT,__text) non-external (was a private external) _DPLogHandle_ConfigMonitor
+00007ffa41d52dc0 (__DATA,__bss) non-external _DPLogHandle_ConfigMonitor.handle
+00007ffa41d52dc8 (__DATA,__bss) non-external _DPLogHandle_ConfigMonitor.onceToken
+00007ffa04514273 (__TEXT,__text) non-external (was a private external) _DPLogHandle_ConfigMonitorError
+00007ffa41d52dd0 (__DATA,__bss) non-external _DPLogHandle_ConfigMonitorError.handle
+00007ffa41d52dd8 (__DATA,__bss) non-external _DPLogHandle_ConfigMonitorError.onceToken
+00007ffa04513f1c (__TEXT,__text) non-external (was a private external) _DPLogHandle_ConfigPersistedStore
+00007ffa41d52d40 (__DATA,__bss) non-external _DPLogHandle_ConfigPersistedStore.handle
+00007ffa41d52d48 (__DATA,__bss) non-external _DPLogHandle_ConfigPersistedStore.onceToken
+00007ffa04513f7b (__TEXT,__text) non-external (was a private external) _DPLogHandle_ConfigPersistedStoreError
+00007ffa41d52d50 (__DATA,__bss) non-external _DPLogHandle_ConfigPersistedStoreError.handle
+00007ffa41d52d58 (__DATA,__bss) non-external _DPLogHandle_ConfigPersistedStoreError.onceToken
+00007ffa04513bc5 (__TEXT,__text) non-external (was a private external) _DPLogHandle_CoreData
+00007ffa41d52cb0 (__DATA,__bss) non-external _DPLogHandle_CoreData.handle
+00007ffa41d52cb8 (__DATA,__bss) non-external _DPLogHandle_CoreData.onceToken
+00007ffa04513b66 (__TEXT,__text) non-external (was a private external) _DPLogHandle_CoreDataError
+00007ffa41d52ca0 (__DATA,__bss) non-external _DPLogHandle_CoreDataError.handle
+00007ffa41d52ca8 (__DATA,__bss) non-external _DPLogHandle_CoreDataError.onceToken
+00007ffa045136f2 (__TEXT,__text) non-external (was a private external) _DPLogHandle_DAReporting
+00007ffa41d52be0 (__DATA,__bss) non-external _DPLogHandle_DAReporting.handle
+00007ffa41d52be8 (__DATA,__bss) non-external _DPLogHandle_DAReporting.onceToken
+00007ffa04513751 (__TEXT,__text) non-external (was a private external) _DPLogHandle_DAReportingError
+00007ffa41d52bf0 (__DATA,__bss) non-external _DPLogHandle_DAReportingError.handle
+00007ffa41d52bf8 (__DATA,__bss) non-external _DPLogHandle_DAReportingError.onceToken
+00007ffa04513ce2 (__TEXT,__text) non-external (was a private external) _DPLogHandle_DampeningManager
+00007ffa41d52ce0 (__DATA,__bss) non-external _DPLogHandle_DampeningManager.handle
+00007ffa41d52ce8 (__DATA,__bss) non-external _DPLogHandle_DampeningManager.onceToken
+00007ffa04513d41 (__TEXT,__text) non-external (was a private external) _DPLogHandle_DampeningManagerError
+00007ffa41d52cf0 (__DATA,__bss) non-external _DPLogHandle_DampeningManagerError.handle
+00007ffa41d52cf8 (__DATA,__bss) non-external _DPLogHandle_DampeningManagerError.onceToken
+00007ffa04513b07 (__TEXT,__text) non-external (was a private external) _DPLogHandle_EnableDataGatheringQuery
+00007ffa41d52c90 (__DATA,__bss) non-external _DPLogHandle_EnableDataGatheringQuery.handle
+00007ffa41d52c98 (__DATA,__bss) non-external _DPLogHandle_EnableDataGatheringQuery.onceToken
+00007ffa04513aa8 (__TEXT,__text) non-external (was a private external) _DPLogHandle_EnableDataGatheringQueryError
+00007ffa41d52c80 (__DATA,__bss) non-external _DPLogHandle_EnableDataGatheringQueryError.handle
+00007ffa41d52c88 (__DATA,__bss) non-external _DPLogHandle_EnableDataGatheringQueryError.onceToken
+00007ffa04513634 (__TEXT,__text) non-external (was a private external) _DPLogHandle_LogManagement
+00007ffa41d52bc0 (__DATA,__bss) non-external _DPLogHandle_LogManagement.handle
+00007ffa41d52bc8 (__DATA,__bss) non-external _DPLogHandle_LogManagement.onceToken
+00007ffa04513693 (__TEXT,__text) non-external (was a private external) _DPLogHandle_LogManagementError
+00007ffa41d52bd0 (__DATA,__bss) non-external _DPLogHandle_LogManagementError.handle
+00007ffa41d52bd8 (__DATA,__bss) non-external _DPLogHandle_LogManagementError.onceToken
+00007ffa045135d5 (__TEXT,__text) non-external (was a private external) _DPLogHandle_PermissiveUploadActivity
+00007ffa41d52bb0 (__DATA,__bss) non-external _DPLogHandle_PermissiveUploadActivity.handle
+00007ffa41d52bb8 (__DATA,__bss) non-external _DPLogHandle_PermissiveUploadActivity.onceToken
+00007ffa0451380f (__TEXT,__text) non-external (was a private external) _DPLogHandle_Request
+00007ffa41d52c10 (__DATA,__bss) non-external _DPLogHandle_Request.handle
+00007ffa41d52c18 (__DATA,__bss) non-external _DPLogHandle_Request.onceToken
+00007ffa045137b0 (__TEXT,__text) non-external (was a private external) _DPLogHandle_RequestError
+00007ffa41d52c00 (__DATA,__bss) non-external _DPLogHandle_RequestError.handle
+00007ffa41d52c08 (__DATA,__bss) non-external _DPLogHandle_RequestError.onceToken
+00007ffa0451444e (__TEXT,__text) non-external (was a private external) _DPLogHandle_ServiceEventPublisher
+00007ffa41d52e20 (__DATA,__bss) non-external _DPLogHandle_ServiceEventPublisher.handle
+00007ffa41d52e28 (__DATA,__bss) non-external _DPLogHandle_ServiceEventPublisher.onceToken
+00007ffa045144ad (__TEXT,__text) non-external (was a private external) _DPLogHandle_ServiceEventPublisherError
+00007ffa41d52e30 (__DATA,__bss) non-external _DPLogHandle_ServiceEventPublisherError.handle
+00007ffa41d52e38 (__DATA,__bss) non-external _DPLogHandle_ServiceEventPublisherError.onceToken
+00007ffa04513517 (__TEXT,__text) non-external (was a private external) _DPLogHandle_ServiceLifecycle
+00007ffa41d52b90 (__DATA,__bss) non-external _DPLogHandle_ServiceLifecycle.handle
+00007ffa41d52b98 (__DATA,__bss) non-external _DPLogHandle_ServiceLifecycle.onceToken
+00007ffa04513576 (__TEXT,__text) non-external (was a private external) _DPLogHandle_ServiceLifecycleError
+00007ffa41d52ba0 (__DATA,__bss) non-external _DPLogHandle_ServiceLifecycleError.handle
+00007ffa41d52ba8 (__DATA,__bss) non-external _DPLogHandle_ServiceLifecycleError.onceToken
+00007ffa045142d2 (__TEXT,__text) non-external (was a private external) _DPLogHandle_ServiceTasking
+00007ffa41d52de0 (__DATA,__bss) non-external _DPLogHandle_ServiceTasking.handle
+00007ffa41d52de8 (__DATA,__bss) non-external _DPLogHandle_ServiceTasking.onceToken
+00007ffa04514331 (__TEXT,__text) non-external (was a private external) _DPLogHandle_ServiceTaskingError
+00007ffa41d52df0 (__DATA,__bss) non-external _DPLogHandle_ServiceTaskingError.handle
+00007ffa41d52df8 (__DATA,__bss) non-external _DPLogHandle_ServiceTaskingError.onceToken
+00007ffa04514390 (__TEXT,__text) non-external (was a private external) _DPLogHandle_ServiceTaskingXPC
+00007ffa41d52e00 (__DATA,__bss) non-external _DPLogHandle_ServiceTaskingXPC.handle
+00007ffa41d52e08 (__DATA,__bss) non-external _DPLogHandle_ServiceTaskingXPC.onceToken
+00007ffa045143ef (__TEXT,__text) non-external (was a private external) _DPLogHandle_ServiceTaskingXPCError
+00007ffa41d52e10 (__DATA,__bss) non-external _DPLogHandle_ServiceTaskingXPCError.handle
+00007ffa41d52e18 (__DATA,__bss) non-external _DPLogHandle_ServiceTaskingXPCError.onceToken
+00007ffa045134b8 (__TEXT,__text) non-external (was a private external) _DPLogHandle_ServiceXPC
+00007ffa41d52b80 (__DATA,__bss) non-external _DPLogHandle_ServiceXPC.handle
+00007ffa41d52b88 (__DATA,__bss) non-external _DPLogHandle_ServiceXPC.onceToken
+00007ffa04513459 (__TEXT,__text) non-external (was a private external) _DPLogHandle_ServiceXPCError
+00007ffa41d52b70 (__DATA,__bss) non-external _DPLogHandle_ServiceXPCError.handle
+00007ffa41d52b78 (__DATA,__bss) non-external _DPLogHandle_ServiceXPCError.onceToken
+00007ffa0451398b (__TEXT,__text) non-external (was a private external) _DPLogHandle_SubmitLog
+00007ffa41d52c50 (__DATA,__bss) non-external _DPLogHandle_SubmitLog.handle
+00007ffa41d52c58 (__DATA,__bss) non-external _DPLogHandle_SubmitLog.onceToken
+00007ffa0451392c (__TEXT,__text) non-external (was a private external) _DPLogHandle_SubmitLogError
+00007ffa41d52c40 (__DATA,__bss) non-external _DPLogHandle_SubmitLogError.handle
+00007ffa41d52c48 (__DATA,__bss) non-external _DPLogHandle_SubmitLogError.onceToken
+00007ffa04513a49 (__TEXT,__text) non-external (was a private external) _DPLogHandle_SubmitLogToCKContainer
+00007ffa41d52c70 (__DATA,__bss) non-external _DPLogHandle_SubmitLogToCKContainer.handle
+00007ffa41d52c78 (__DATA,__bss) non-external _DPLogHandle_SubmitLogToCKContainer.onceToken
+00007ffa045139ea (__TEXT,__text) non-external (was a private external) _DPLogHandle_SubmitLogToCKContainerError
+00007ffa41d52c60 (__DATA,__bss) non-external _DPLogHandle_SubmitLogToCKContainerError.handle
+00007ffa41d52c68 (__DATA,__bss) non-external _DPLogHandle_SubmitLogToCKContainerError.onceToken
+00007ffa04513c83 (__TEXT,__text) non-external (was a private external) _DPLogHandle_SystemProfile
+00007ffa41d52cd0 (__DATA,__bss) non-external _DPLogHandle_SystemProfile.handle
+00007ffa41d52cd8 (__DATA,__bss) non-external _DPLogHandle_SystemProfile.onceToken
+00007ffa04513c24 (__TEXT,__text) non-external (was a private external) _DPLogHandle_SystemProfileError
+00007ffa41d52cc0 (__DATA,__bss) non-external _DPLogHandle_SystemProfileError.handle
+00007ffa41d52cc8 (__DATA,__bss) non-external _DPLogHandle_SystemProfileError.onceToken
+00007ffa045138cd (__TEXT,__text) non-external (was a private external) _DPLogHandle_Tailspin
+00007ffa41d52c30 (__DATA,__bss) non-external _DPLogHandle_Tailspin.handle
+00007ffa41d52c38 (__DATA,__bss) non-external _DPLogHandle_Tailspin.onceToken
+00007ffa0451386e (__TEXT,__text) non-external (was a private external) _DPLogHandle_TailspinError
+00007ffa41d52c20 (__DATA,__bss) non-external _DPLogHandle_TailspinError.handle
+00007ffa41d52c28 (__DATA,__bss) non-external _DPLogHandle_TailspinError.onceToken
+00007ffa0451456b (__TEXT,__text) non-external (was a private external) _DPLogHandle_TaskingDSTelemetry
+00007ffa41d52e50 (__DATA,__bss) non-external _DPLogHandle_TaskingDSTelemetry.handle
+00007ffa41d52e58 (__DATA,__bss) non-external _DPLogHandle_TaskingDSTelemetry.onceToken
+00007ffa04513e5e (__TEXT,__text) non-external (was a private external) _DPLogHandle_TaskingDecisionMaker
+00007ffa41d52d20 (__DATA,__bss) non-external _DPLogHandle_TaskingDecisionMaker.handle
+00007ffa41d52d28 (__DATA,__bss) non-external _DPLogHandle_TaskingDecisionMaker.onceToken
+00007ffa04513ebd (__TEXT,__text) non-external (was a private external) _DPLogHandle_TaskingDecisionMakerError
+00007ffa41d52d30 (__DATA,__bss) non-external _DPLogHandle_TaskingDecisionMakerError.handle
+00007ffa41d52d38 (__DATA,__bss) non-external _DPLogHandle_TaskingDecisionMakerError.onceToken
+00007ffa04513fda (__TEXT,__text) non-external (was a private external) _DPLogHandle_TaskingManager
+00007ffa41d52d60 (__DATA,__bss) non-external _DPLogHandle_TaskingManager.handle
+00007ffa41d52d68 (__DATA,__bss) non-external _DPLogHandle_TaskingManager.onceToken
+00007ffa04514039 (__TEXT,__text) non-external (was a private external) _DPLogHandle_TaskingManagerError
+00007ffa41d52d70 (__DATA,__bss) non-external _DPLogHandle_TaskingManagerError.handle
+00007ffa41d52d78 (__DATA,__bss) non-external _DPLogHandle_TaskingManagerError.onceToken
+00007ffa04513da0 (__TEXT,__text) non-external (was a private external) _DPLogHandle_TaskingMessage
+00007ffa41d52d00 (__DATA,__bss) non-external _DPLogHandle_TaskingMessage.handle
+00007ffa41d52d08 (__DATA,__bss) non-external _DPLogHandle_TaskingMessage.onceToken
+00007ffa04514098 (__TEXT,__text) non-external (was a private external) _DPLogHandle_TaskingMessageChannel
+00007ffa41d52d80 (__DATA,__bss) non-external _DPLogHandle_TaskingMessageChannel.handle
+00007ffa41d52d88 (__DATA,__bss) non-external _DPLogHandle_TaskingMessageChannel.onceToken
+00007ffa045140f7 (__TEXT,__text) non-external (was a private external) _DPLogHandle_TaskingMessageChannelError
+00007ffa41d52d90 (__DATA,__bss) non-external _DPLogHandle_TaskingMessageChannelError.handle
+00007ffa41d52d98 (__DATA,__bss) non-external _DPLogHandle_TaskingMessageChannelError.onceToken
+00007ffa04513dff (__TEXT,__text) non-external (was a private external) _DPLogHandle_TaskingMessageError
+00007ffa41d52d10 (__DATA,__bss) non-external _DPLogHandle_TaskingMessageError.handle
+00007ffa41d52d18 (__DATA,__bss) non-external _DPLogHandle_TaskingMessageError.onceToken
+00007ffa0451450c (__TEXT,__text) non-external (was a private external) _DPLogHandle_Telemetry
+00007ffa41d52e40 (__DATA,__bss) non-external _DPLogHandle_Telemetry.handle
+00007ffa41d52e48 (__DATA,__bss) non-external _DPLogHandle_Telemetry.onceToken
+00007ffa04514688 (__TEXT,__text) non-external (was a private external) _DPLogHandle_UploadSessionDate
+00007ffa41d52e80 (__DATA,__bss) non-external _DPLogHandle_UploadSessionDate.handle
+00007ffa41d52e88 (__DATA,__bss) non-external _DPLogHandle_UploadSessionDate.onceToken
+00007ffa045146e7 (__TEXT,__text) non-external (was a private external) _DPLogHandle_UploadSessionDateError
+00007ffa41d52e90 (__DATA,__bss) non-external _DPLogHandle_UploadSessionDateError.handle
+00007ffa41d52e98 (__DATA,__bss) non-external _DPLogHandle_UploadSessionDateError.onceToken
+00007ffa04516670 (__TEXT,__text) external _DRCheckRapidLogSize
+00007ffa0451b36e (__TEXT,__text) external _DRConfigStringForState
+00007ffa045163bf (__TEXT,__text) external _DRGetAllLogFileURLs
+00007ffa045169ed (__TEXT,__text) external _DRRequestPassesTimeHysteresis
+00007ffa04515cda (__TEXT,__text) external _DRShouldEnableLogGathering
+00007ffa04515ccf (__TEXT,__text) external _DRShouldGatherLog
+00007ffa045153d5 (__TEXT,__text) external _DRSubmitLog
+00007ffa045156dc (__TEXT,__text) external _DRSubmitLogToCKContainer
+00007ffa0451556f (__TEXT,__text) external _DRSubmitLogs
+00007ffa04515b35 (__TEXT,__text) external _DRSubmitRapidLog
+00007ffa04514d08 (__TEXT,__text) external _DRTailspinRequest
+00007ffa04514e1f (__TEXT,__text) external _DRTailspinRequestWithLogs
+00007ffa0450f044 (__TEXT,__text) non-external (was a private external) _DRValidateCKRecordDictionary
+00007ffa04520210 (__TEXT,__const) non-external (was a private external) _DiagnosticRequestVersionNumber
+00007ffa045201d0 (__TEXT,__const) non-external (was a private external) _DiagnosticRequestVersionString
+                 (undefined) external _NSLocalizedDescriptionKey (from Foundation)
+                 (undefined) external _NSStringFromClass (from Foundation)
+00007ffa41d52828 (__DATA,__objc_data) external _OBJC_CLASS_$_DRClientLog
+00007ffa41d528a0 (__DATA,__objc_data) external _OBJC_CLASS_$_DRConfig
+00007ffa41d528f0 (__DATA,__objc_data) external _OBJC_CLASS_$_DRConfigMonitor
+00007ffa41d52878 (__DATA,__objc_data) external _OBJC_CLASS_$_DRSubscriptionManager
+                 (undefined) external _OBJC_CLASS_$_NSArray (from CoreFoundation)
+                 (undefined) external _OBJC_CLASS_$_NSData (from CoreFoundation)
+                 (undefined) external _OBJC_CLASS_$_NSDate (from CoreFoundation)
+                 (undefined) external _OBJC_CLASS_$_NSDictionary (from CoreFoundation)
+                 (undefined) external _OBJC_CLASS_$_NSError (from Foundation)
+                 (undefined) external _OBJC_CLASS_$_NSFileManager (from Foundation)
+                 (undefined) external _OBJC_CLASS_$_NSHashTable (from Foundation)
+                 (undefined) external _OBJC_CLASS_$_NSJSONSerialization (from Foundation)
+                 (undefined) external _OBJC_CLASS_$_NSKeyedUnarchiver (from Foundation)
+                 (undefined) external _OBJC_CLASS_$_NSMutableArray (from CoreFoundation)
+                 (undefined) external _OBJC_CLASS_$_NSMutableDictionary (from CoreFoundation)
+                 (undefined) external _OBJC_CLASS_$_NSMutableSet (from CoreFoundation)
+                 (undefined) external _OBJC_CLASS_$_NSNull (from CoreFoundation)
+                 (undefined) external _OBJC_CLASS_$_NSNumber (from Foundation)
+                 (undefined) external _OBJC_CLASS_$_NSObject (from libobjc)
+                 (undefined) external _OBJC_CLASS_$_NSPropertyListSerialization (from Foundation)
+                 (undefined) external _OBJC_CLASS_$_NSString (from Foundation)
+                 (undefined) external _OBJC_CLASS_$_NSURL (from CoreFoundation)
+                 (undefined) external _OBJC_CLASS_$_NSUUID (from Foundation)
+00007ffa41d52968 (__DATA,__objc_data) non-external (was a private external) _OBJC_CLASS_$__DRCConnectionState
+00007ffa41d527d8 (__DATA,__objc_data) non-external (was a private external) _OBJC_CLASS_$__DRCTaskingConnectionState
+00007ffa41d52718 (__DATA,__objc_ivar) non-external (was a private external) _OBJC_IVAR_$_DRClientLog._path
+00007ffa41d52720 (__DATA,__objc_ivar) non-external (was a private external) _OBJC_IVAR_$_DRClientLog._sandboxExtension
+00007ffa41d52710 (__DATA,__objc_ivar) non-external (was a private external) _OBJC_IVAR_$_DRClientLog._transferOwnership
+00007ffa41d52788 (__DATA,__objc_ivar) non-external (was a private external) _OBJC_IVAR_$_DRConfig._build
+00007ffa41d52790 (__DATA,__objc_ivar) non-external (was a private external) _OBJC_IVAR_$_DRConfig._configDescription
+00007ffa41d52798 (__DATA,__objc_ivar) non-external (was a private external) _OBJC_IVAR_$_DRConfig._configUUID
+00007ffa41d527b0 (__DATA,__objc_ivar) non-external (was a private external) _OBJC_IVAR_$_DRConfig._endDate
+00007ffa41d527b8 (__DATA,__objc_ivar) non-external (was a private external) _OBJC_IVAR_$_DRConfig._payload
+00007ffa41d527c0 (__DATA,__objc_ivar) non-external (was a private external) _OBJC_IVAR_$_DRConfig._payloadDictionaryRepresentation
+00007ffa41d52778 (__DATA,__objc_ivar) non-external (was a private external) _OBJC_IVAR_$_DRConfig._payloadIsJSON
+00007ffa41d527a0 (__DATA,__objc_ivar) non-external (was a private external) _OBJC_IVAR_$_DRConfig._receivedDate
+00007ffa41d52770 (__DATA,__objc_ivar) non-external (was a private external) _OBJC_IVAR_$_DRConfig._skippedHysteresis
+00007ffa41d527a8 (__DATA,__objc_ivar) non-external (was a private external) _OBJC_IVAR_$_DRConfig._startDate
+00007ffa41d52780 (__DATA,__objc_ivar) non-external (was a private external) _OBJC_IVAR_$_DRConfig._teamID
+00007ffa41d52768 (__DATA,__objc_ivar) non-external (was a private external) _OBJC_IVAR_$_DRConfigMonitor._accessQueue
+00007ffa41d52750 (__DATA,__objc_ivar) non-external (was a private external) _OBJC_IVAR_$_DRConfigMonitor._currentConfig
+00007ffa41d52758 (__DATA,__objc_ivar) non-external (was a private external) _OBJC_IVAR_$_DRConfigMonitor._processingBlock
+00007ffa41d52760 (__DATA,__objc_ivar) non-external (was a private external) _OBJC_IVAR_$_DRConfigMonitor._targetQueue
+00007ffa41d52748 (__DATA,__objc_ivar) non-external (was a private external) _OBJC_IVAR_$_DRConfigMonitor._teamID
+00007ffa41d52728 (__DATA,__objc_ivar) non-external (was a private external) _OBJC_IVAR_$_DRSubscriptionManager._accessQueue
+00007ffa41d52740 (__DATA,__objc_ivar) non-external (was a private external) _OBJC_IVAR_$_DRSubscriptionManager._inFlightSubscriptionRequests
+00007ffa41d52738 (__DATA,__objc_ivar) non-external (was a private external) _OBJC_IVAR_$_DRSubscriptionManager._perTeamIdConfigState
+00007ffa41d52730 (__DATA,__objc_ivar) non-external (was a private external) _OBJC_IVAR_$_DRSubscriptionManager._perTeamIdMonitors
+00007ffa41d527c8 (__DATA,__objc_ivar) non-external (was a private external) _OBJC_IVAR_$__DRCConnectionState._connection
+00007ffa41d527d0 (__DATA,__objc_ivar) non-external (was a private external) _OBJC_IVAR_$__DRCConnectionState._connectionQueue
+00007ffa41d52700 (__DATA,__objc_ivar) non-external (was a private external) _OBJC_IVAR_$__DRCTaskingConnectionState._connection
+00007ffa41d52708 (__DATA,__objc_ivar) non-external (was a private external) _OBJC_IVAR_$__DRCTaskingConnectionState._connectionQueue
+00007ffa41d526f8 (__DATA,__objc_ivar) non-external (was a private external) _OBJC_IVAR_$__DRCTaskingConnectionState._isClosed
+00007ffa41d52850 (__DATA,__objc_data) external _OBJC_METACLASS_$_DRClientLog
+00007ffa41d52940 (__DATA,__objc_data) external _OBJC_METACLASS_$_DRConfig
+00007ffa41d52918 (__DATA,__objc_data) external _OBJC_METACLASS_$_DRConfigMonitor
+00007ffa41d528c8 (__DATA,__objc_data) external _OBJC_METACLASS_$_DRSubscriptionManager
+                 (undefined) external _OBJC_METACLASS_$_NSObject (from libobjc)
+00007ffa41d52990 (__DATA,__objc_data) non-external (was a private external) _OBJC_METACLASS_$__DRCConnectionState
+00007ffa41d52800 (__DATA,__objc_data) non-external (was a private external) _OBJC_METACLASS_$__DRCTaskingConnectionState
+                 (undefined) external _SANDBOX_EXTENSION_DEFAULT (from libSystem)
+                 (undefined) external __Block_object_assign (from libSystem)
+                 (undefined) external __Block_object_dispose (from libSystem)
+00007ffa0451fa6b (__TEXT,__text) external __DPCCancelPermissiveExpeditedUploadActivity
+00007ffa0451d903 (__TEXT,__text) non-external __DPCConvertDictionaryToPlistData
+00007ffa0451dd80 (__TEXT,__text) external __DPCEnableLogGatheringQueryMessage
+00007ffa0451e622 (__TEXT,__text) non-external (was a private external) __DPCEnableLogGatheringQueryResultInjectionMessage
+00007ffa0451f842 (__TEXT,__text) external __DPCGetCKConfig
+00007ffa04511795 (__TEXT,__text) external __DPCGetCloudChannelConfig
+00007ffa04510671 (__TEXT,__text) external __DPCGetConfigStateForUUID
+00007ffa0451ef82 (__TEXT,__text) external __DPCInjectEnableLogGatheringQueryResult
+00007ffa04510e42 (__TEXT,__text) external __DPCMarkConfigUUIDCompletedOrRejected
+00007ffa0451edbb (__TEXT,__text) external __DPCRefreshDampeningConfiguration
+00007ffa0451139a (__TEXT,__text) external __DPCRequestTeamIDBroadcast
+00007ffa0451f827 (__TEXT,__text) external __DPCResetCKConfig
+00007ffa045121b6 (__TEXT,__text) external __DPCResetToDefaultCloudChannelConfig
+00007ffa0451f920 (__TEXT,__text) external __DPCSchedulePermissiveExpeditedUploadActivity
+00007ffa04510a9b (__TEXT,__text) external __DPCSendClearTaskingStateMessage
+00007ffa045100b5 (__TEXT,__text) external __DPCSendTaskingSystemJSONDataMessage
+00007ffa0451f85a (__TEXT,__text) external __DPCSetCKConfig
+00007ffa04511d35 (__TEXT,__text) external __DPCSetCloudChannelConfig
+00007ffa0451ca7a (__TEXT,__text) external __DPCSubmitLogRequestMessage
+00007ffa0451cf9d (__TEXT,__text) external __DPCSubmitLogToCKContainerRequestMessage
+00007ffa0451cd4d (__TEXT,__text) external __DPCSubmitLogsRequestMessage
+00007ffa0451dd1b (__TEXT,__text) external __DPCSubmitRapidLogRequestMessage
+00007ffa0451bf93 (__TEXT,__text) external __DPCTailspinRequestMessage
+00007ffa0451f139 (__TEXT,__text) external __DPCTriggerRequestClean
+00007ffa0451dddb (__TEXT,__text) non-external __DPClientBaseMessage
+00007ffa0451c22f (__TEXT,__text) non-external __DPClientLogRequestBaseMessage
+00007ffa0451bc80 (__TEXT,__text) external __DPClientXPCSendMessage
+00007ffa0451bcf0 (__TEXT,__text) external __DPClientXPCSendMessageWithReplySync
+00007ffa0451b8fb (__TEXT,__text) non-external __DRCConnectionStateFinalizer
+00007ffa0451fbd2 (__TEXT,__text) non-external __DRCConnectionStateFinalizer.cold.1
+00007ffa0451e9f1 (__TEXT,__text) external __DRCResetDampeningConfigurationToDefault
+00007ffa0451ea51 (__TEXT,__text) external __DRCSetDampeningConfigurationDefaults
+00007ffa0451e69d (__TEXT,__text) external __DRCSetDampeningIsEnabled
+00007ffa0450fc26 (__TEXT,__text) non-external __DRCTaskingConnectionStateFinalizer
+00007ffa0451fb9e (__TEXT,__text) non-external __DRCTaskingConnectionStateFinalizer.cold.1
+00007ffa0451eee0 (__TEXT,__text) external __DRCTriggerCloudKitWork
+00007ffa045147bb (__TEXT,__text) external __DRRequestPassesTailspinHysteresis
+00007ffa04516954 (__TEXT,__text) external __DRRequestResetHysteresisDict
+00007ffa04514746 (__TEXT,__text) external __DRRequestResetTailspinHysteresis
+                 (undefined) external __NSConcreteGlobalBlock (from libSystem)
+                 (undefined) external __NSConcreteStackBlock (from libSystem)
+00007ffa0451fe18 (__TEXT,__objc_methlist) non-external __OBJC_$_CLASS_METHODS_DRClientLog
+00007ffa0451fe90 (__TEXT,__objc_methlist) non-external __OBJC_$_CLASS_METHODS_DRConfig
+00007ffa0451fea8 (__TEXT,__objc_methlist) non-external __OBJC_$_CLASS_METHODS_DRSubscriptionManager
+00007ffa04520150 (__TEXT,__objc_methlist) non-external __OBJC_$_CLASS_METHODS__DRCConnectionState
+00007ffa0451fd98 (__TEXT,__objc_methlist) non-external __OBJC_$_CLASS_METHODS__DRCTaskingConnectionState
+00007ffa403bbef8 (__DATA_CONST,__objc_const) non-external __OBJC_$_CLASS_PROP_LIST_DRConfig
+00007ffa403bbec8 (__DATA_CONST,__objc_const) non-external __OBJC_$_CLASS_PROP_LIST_NSSecureCoding
+00007ffa0451fe30 (__TEXT,__objc_methlist) non-external __OBJC_$_INSTANCE_METHODS_DRClientLog
+00007ffa0451fec0 (__TEXT,__objc_methlist) non-external __OBJC_$_INSTANCE_METHODS_DRConfig
+00007ffa0451ffb8 (__TEXT,__objc_methlist) non-external __OBJC_$_INSTANCE_METHODS_DRConfigMonitor
+00007ffa04520090 (__TEXT,__objc_methlist) non-external __OBJC_$_INSTANCE_METHODS_DRSubscriptionManager
+00007ffa04520168 (__TEXT,__objc_methlist) non-external __OBJC_$_INSTANCE_METHODS__DRCConnectionState
+00007ffa0451fdb0 (__TEXT,__objc_methlist) non-external __OBJC_$_INSTANCE_METHODS__DRCTaskingConnectionState
+00007ffa403bba68 (__DATA_CONST,__objc_const) non-external __OBJC_$_INSTANCE_VARIABLES_DRClientLog
+00007ffa403bbf58 (__DATA_CONST,__objc_const) non-external __OBJC_$_INSTANCE_VARIABLES_DRConfig
+00007ffa403bbcf8 (__DATA_CONST,__objc_const) non-external __OBJC_$_INSTANCE_VARIABLES_DRConfigMonitor
+00007ffa403bbb98 (__DATA_CONST,__objc_const) non-external __OBJC_$_INSTANCE_VARIABLES_DRSubscriptionManager
+00007ffa403bc208 (__DATA_CONST,__objc_const) non-external __OBJC_$_INSTANCE_VARIABLES__DRCConnectionState
+00007ffa403bb938 (__DATA_CONST,__objc_const) non-external __OBJC_$_INSTANCE_VARIABLES__DRCTaskingConnectionState
+00007ffa403bbad0 (__DATA_CONST,__objc_const) non-external __OBJC_$_PROP_LIST_DRClientLog
+00007ffa403bc0c0 (__DATA_CONST,__objc_const) non-external __OBJC_$_PROP_LIST_DRConfig
+00007ffa403bbda0 (__DATA_CONST,__objc_const) non-external __OBJC_$_PROP_LIST_DRConfigMonitor
+00007ffa403bbc20 (__DATA_CONST,__objc_const) non-external __OBJC_$_PROP_LIST_DRSubscriptionManager
+00007ffa403bc250 (__DATA_CONST,__objc_const) non-external __OBJC_$_PROP_LIST__DRCConnectionState
+00007ffa403bb9a0 (__DATA_CONST,__objc_const) non-external __OBJC_$_PROP_LIST__DRCTaskingConnectionState
+00007ffa403bbea0 (__DATA_CONST,__objc_const) non-external __OBJC_$_PROTOCOL_CLASS_METHODS_NSSecureCoding
+00007ffa403bbe40 (__DATA_CONST,__objc_const) non-external __OBJC_$_PROTOCOL_INSTANCE_METHODS_NSCoding
+00007ffa403bbe78 (__DATA_CONST,__objc_const) non-external __OBJC_$_PROTOCOL_METHOD_TYPES_NSCoding
+00007ffa403bbec0 (__DATA_CONST,__objc_const) non-external __OBJC_$_PROTOCOL_METHOD_TYPES_NSSecureCoding
+00007ffa403bbe88 (__DATA_CONST,__objc_const) non-external __OBJC_$_PROTOCOL_REFS_NSSecureCoding
+00007ffa403bbee0 (__DATA_CONST,__objc_const) non-external __OBJC_CLASS_PROTOCOLS_$_DRConfig
+00007ffa403bbb08 (__DATA_CONST,__objc_const) non-external __OBJC_CLASS_RO_$_DRClientLog
+00007ffa403bc178 (__DATA_CONST,__objc_const) non-external __OBJC_CLASS_RO_$_DRConfig
+00007ffa403bbdf8 (__DATA_CONST,__objc_const) non-external __OBJC_CLASS_RO_$_DRConfigMonitor
+00007ffa403bbc68 (__DATA_CONST,__objc_const) non-external __OBJC_CLASS_RO_$_DRSubscriptionManager
+00007ffa403bc288 (__DATA_CONST,__objc_const) non-external __OBJC_CLASS_RO_$__DRCConnectionState
+00007ffa403bb9d8 (__DATA_CONST,__objc_const) non-external __OBJC_CLASS_RO_$__DRCTaskingConnectionState
+00007ffa403bb8d8 (__DATA_CONST,__objc_protolist) non-external (was a private external) __OBJC_LABEL_PROTOCOL_$_NSCoding
+00007ffa403bb8e0 (__DATA_CONST,__objc_protolist) non-external (was a private external) __OBJC_LABEL_PROTOCOL_$_NSSecureCoding
+00007ffa403bba20 (__DATA_CONST,__objc_const) non-external __OBJC_METACLASS_RO_$_DRClientLog
+00007ffa403bbf10 (__DATA_CONST,__objc_const) non-external __OBJC_METACLASS_RO_$_DRConfig
+00007ffa403bbcb0 (__DATA_CONST,__objc_const) non-external __OBJC_METACLASS_RO_$_DRConfigMonitor
+00007ffa403bbb50 (__DATA_CONST,__objc_const) non-external __OBJC_METACLASS_RO_$_DRSubscriptionManager
+00007ffa403bc1c0 (__DATA_CONST,__objc_const) non-external __OBJC_METACLASS_RO_$__DRCConnectionState
+00007ffa403bb8f0 (__DATA_CONST,__objc_const) non-external __OBJC_METACLASS_RO_$__DRCTaskingConnectionState
+00007ffa41d529d0 (__DATA,__data) non-external (was a private external) __OBJC_PROTOCOL_$_NSCoding
+00007ffa41d52a30 (__DATA,__data) non-external (was a private external) __OBJC_PROTOCOL_$_NSSecureCoding
+                 (undefined) external __Unwind_Resume (from libSystem)
+00007ffa0451b5fc (__TEXT,__text) non-external ___27-[_DRCConnectionState init]_block_invoke
+00007ffa04517836 (__TEXT,__text) non-external ___29-[DRSubscriptionManager init]_block_invoke
+00007ffa0450f9f9 (__TEXT,__text) non-external ___34-[_DRCTaskingConnectionState init]_block_invoke
+00007ffa0451ba42 (__TEXT,__text) non-external ___35-[_DRCConnectionState sendMessage:]_block_invoke
+00007ffa04518313 (__TEXT,__text) non-external ___36-[DRSubscriptionManager addMonitor:]_block_invoke
+00007ffa04516d45 (__TEXT,__text) non-external ___39+[DRSubscriptionManager sharedInstance]_block_invoke
+00007ffa045188e8 (__TEXT,__text) non-external ___39-[DRSubscriptionManager removeMonitor:]_block_invoke
+00007ffa0450fd84 (__TEXT,__text) non-external ___42-[_DRCTaskingConnectionState sendMessage:]_block_invoke
+00007ffa0451b3c1 (__TEXT,__text) non-external ___44+[_DRCConnectionState sharedConnectionState]_block_invoke
+00007ffa04518f4f (__TEXT,__text) non-external ___47-[DRConfigMonitor _notifyClientOfConfig:error:]_block_invoke
+00007ffa0451bbf5 (__TEXT,__text) non-external ___48-[_DRCConnectionState sendMessageWithReplySync:]_block_invoke
+00007ffa0450f777 (__TEXT,__text) non-external ___51+[_DRCTaskingConnectionState sharedConnectionState]_block_invoke
+00007ffa04519941 (__TEXT,__text) non-external ___53-[DRConfigMonitor currentConfigSnapshotWithErrorOut:]_block_invoke
+00007ffa045196cb (__TEXT,__text) non-external ___55-[DRConfigMonitor _markConfigUUID:isRejected:errorOut:]_block_invoke
+00007ffa0450ffec (__TEXT,__text) non-external ___55-[_DRCTaskingConnectionState sendMessageWithReplySync:]_block_invoke
+00007ffa045190aa (__TEXT,__text) non-external ___61-[DRConfigMonitor _handleCurrentConfig:error:forceBroadcast:]_block_invoke
+00007ffa0451991c (__TEXT,__text) non-external ___Block_byref_object_copy_
+00007ffa0451bbd0 (__TEXT,__text) non-external ___Block_byref_object_copy_
+00007ffa04519932 (__TEXT,__text) non-external ___Block_byref_object_dispose_
+00007ffa0451bbe6 (__TEXT,__text) non-external ___Block_byref_object_dispose_
+                 (undefined) external ___CFConstantStringClassReference (from CoreFoundation)
+00007ffa04513015 (__TEXT,__text) non-external ___DPLogHandle_AdminError_block_invoke
+00007ffa0451342a (__TEXT,__text) non-external ___DPLogHandle_CKCFUploadError_block_invoke
+00007ffa045133cb (__TEXT,__text) non-external ___DPLogHandle_CKCFUpload_block_invoke
+00007ffa04514659 (__TEXT,__text) non-external ___DPLogHandle_CKConfigError_block_invoke
+00007ffa045145fa (__TEXT,__text) non-external ___DPLogHandle_CKConfig_block_invoke
+00007ffa0451336c (__TEXT,__text) non-external ___DPLogHandle_CKInvernessError_block_invoke
+00007ffa0451330d (__TEXT,__text) non-external ___DPLogHandle_CKInverness_block_invoke
+00007ffa045131f0 (__TEXT,__text) non-external ___DPLogHandle_CKRecordError_block_invoke
+00007ffa045132ae (__TEXT,__text) non-external ___DPLogHandle_CKRecordUpload_block_invoke
+00007ffa0451324f (__TEXT,__text) non-external ___DPLogHandle_CKRecord_block_invoke
+00007ffa04513191 (__TEXT,__text) non-external ___DPLogHandle_ClientAPIError_block_invoke
+00007ffa04513132 (__TEXT,__text) non-external ___DPLogHandle_ClientAPI_block_invoke
+00007ffa04512fb6 (__TEXT,__text) non-external ___DPLogHandle_ClientError_block_invoke
+00007ffa045141e5 (__TEXT,__text) non-external ___DPLogHandle_ClientTaskingXPCError_block_invoke
+00007ffa04514186 (__TEXT,__text) non-external ___DPLogHandle_ClientTaskingXPC_block_invoke
+00007ffa04513074 (__TEXT,__text) non-external ___DPLogHandle_ClientXPCError_block_invoke
+00007ffa045130d3 (__TEXT,__text) non-external ___DPLogHandle_ClientXPC_block_invoke
+00007ffa045142a3 (__TEXT,__text) non-external ___DPLogHandle_ConfigMonitorError_block_invoke
+00007ffa04514244 (__TEXT,__text) non-external ___DPLogHandle_ConfigMonitor_block_invoke
+00007ffa04513fab (__TEXT,__text) non-external ___DPLogHandle_ConfigPersistedStoreError_block_invoke
+00007ffa04513f4c (__TEXT,__text) non-external ___DPLogHandle_ConfigPersistedStore_block_invoke
+00007ffa04513b96 (__TEXT,__text) non-external ___DPLogHandle_CoreDataError_block_invoke
+00007ffa04513bf5 (__TEXT,__text) non-external ___DPLogHandle_CoreData_block_invoke
+00007ffa04513781 (__TEXT,__text) non-external ___DPLogHandle_DAReportingError_block_invoke
+00007ffa04513722 (__TEXT,__text) non-external ___DPLogHandle_DAReporting_block_invoke
+00007ffa04513d71 (__TEXT,__text) non-external ___DPLogHandle_DampeningManagerError_block_invoke
+00007ffa04513d12 (__TEXT,__text) non-external ___DPLogHandle_DampeningManager_block_invoke
+00007ffa04513ad8 (__TEXT,__text) non-external ___DPLogHandle_EnableDataGatheringQueryError_block_invoke
+00007ffa04513b37 (__TEXT,__text) non-external ___DPLogHandle_EnableDataGatheringQuery_block_invoke
+00007ffa045136c3 (__TEXT,__text) non-external ___DPLogHandle_LogManagementError_block_invoke
+00007ffa04513664 (__TEXT,__text) non-external ___DPLogHandle_LogManagement_block_invoke
+00007ffa04513605 (__TEXT,__text) non-external ___DPLogHandle_PermissiveUploadActivity_block_invoke
+00007ffa045137e0 (__TEXT,__text) non-external ___DPLogHandle_RequestError_block_invoke
+00007ffa0451383f (__TEXT,__text) non-external ___DPLogHandle_Request_block_invoke
+00007ffa045144dd (__TEXT,__text) non-external ___DPLogHandle_ServiceEventPublisherError_block_invoke
+00007ffa0451447e (__TEXT,__text) non-external ___DPLogHandle_ServiceEventPublisher_block_invoke
+00007ffa045135a6 (__TEXT,__text) non-external ___DPLogHandle_ServiceLifecycleError_block_invoke
+00007ffa04513547 (__TEXT,__text) non-external ___DPLogHandle_ServiceLifecycle_block_invoke
+00007ffa04514361 (__TEXT,__text) non-external ___DPLogHandle_ServiceTaskingError_block_invoke
+00007ffa0451441f (__TEXT,__text) non-external ___DPLogHandle_ServiceTaskingXPCError_block_invoke
+00007ffa045143c0 (__TEXT,__text) non-external ___DPLogHandle_ServiceTaskingXPC_block_invoke
+00007ffa04514302 (__TEXT,__text) non-external ___DPLogHandle_ServiceTasking_block_invoke
+00007ffa04513489 (__TEXT,__text) non-external ___DPLogHandle_ServiceXPCError_block_invoke
+00007ffa045134e8 (__TEXT,__text) non-external ___DPLogHandle_ServiceXPC_block_invoke
+00007ffa0451395c (__TEXT,__text) non-external ___DPLogHandle_SubmitLogError_block_invoke
+00007ffa04513a1a (__TEXT,__text) non-external ___DPLogHandle_SubmitLogToCKContainerError_block_invoke
+00007ffa04513a79 (__TEXT,__text) non-external ___DPLogHandle_SubmitLogToCKContainer_block_invoke
+00007ffa045139bb (__TEXT,__text) non-external ___DPLogHandle_SubmitLog_block_invoke
+00007ffa04513c54 (__TEXT,__text) non-external ___DPLogHandle_SystemProfileError_block_invoke
+00007ffa04513cb3 (__TEXT,__text) non-external ___DPLogHandle_SystemProfile_block_invoke
+00007ffa0451389e (__TEXT,__text) non-external ___DPLogHandle_TailspinError_block_invoke
+00007ffa045138fd (__TEXT,__text) non-external ___DPLogHandle_Tailspin_block_invoke
+00007ffa0451459b (__TEXT,__text) non-external ___DPLogHandle_TaskingDSTelemetry_block_invoke
+00007ffa04513eed (__TEXT,__text) non-external ___DPLogHandle_TaskingDecisionMakerError_block_invoke
+00007ffa04513e8e (__TEXT,__text) non-external ___DPLogHandle_TaskingDecisionMaker_block_invoke
+00007ffa04514069 (__TEXT,__text) non-external ___DPLogHandle_TaskingManagerError_block_invoke
+00007ffa0451400a (__TEXT,__text) non-external ___DPLogHandle_TaskingManager_block_invoke
+00007ffa04514127 (__TEXT,__text) non-external ___DPLogHandle_TaskingMessageChannelError_block_invoke
+00007ffa045140c8 (__TEXT,__text) non-external ___DPLogHandle_TaskingMessageChannel_block_invoke
+00007ffa04513e2f (__TEXT,__text) non-external ___DPLogHandle_TaskingMessageError_block_invoke
+00007ffa04513dd0 (__TEXT,__text) non-external ___DPLogHandle_TaskingMessage_block_invoke
+00007ffa0451453c (__TEXT,__text) non-external ___DPLogHandle_Telemetry_block_invoke
+00007ffa04514717 (__TEXT,__text) non-external ___DPLogHandle_UploadSessionDateError_block_invoke
+00007ffa045146b8 (__TEXT,__text) non-external ___DPLogHandle_UploadSessionDate_block_invoke
+00007ffa04516b38 (__TEXT,__text) non-external ___DRRequestPassesTimeHysteresis_block_invoke
+00007ffa0451486a (__TEXT,__text) non-external ____DRRequestPassesTailspinHysteresis_block_invoke
+00007ffa04516988 (__TEXT,__text) non-external ____DRRequestResetHysteresisDict_block_invoke
+00007ffa045147aa (__TEXT,__text) non-external ____DRRequestResetTailspinHysteresis_block_invoke
+00007ffa04516c97 (__TEXT,__text) non-external ____doesPassHysteresis_block_invoke
+00007ffa04516cd9 (__TEXT,__text) non-external ____hysteresisDict_block_invoke
+00007ffa04516c70 (__TEXT,__text) non-external ____hysteresisQueue_block_invoke
+00007ffa403ba308 (__DATA_CONST,__const) non-external (was a private external) ___block_descriptor_32_e5_v8?0l
+00007ffa403ba348 (__DATA_CONST,__const) non-external (was a private external) ___block_descriptor_40_e8_32s_e33_v16?0"NSObject<OS_xpc_object>"8l
+00007ffa403badc8 (__DATA_CONST,__const) non-external (was a private external) ___block_descriptor_40_e8_32w_e33_v16?0"NSObject<OS_xpc_object>"8l
+00007ffa403bacc8 (__DATA_CONST,__const) non-external (was a private external) ___block_descriptor_48_e8_32r_e5_v8?0l
+00007ffa403ba3a8 (__DATA_CONST,__const) non-external (was a private external) ___block_descriptor_48_e8_32s40r_e5_v8?0l
+00007ffa403badf8 (__DATA_CONST,__const) non-external (was a private external) ___block_descriptor_48_e8_32s40s_e5_v8?0l
+00007ffa403ba378 (__DATA_CONST,__const) non-external (was a private external) ___block_descriptor_56_e8_32s40s48r_e5_v8?0l
+00007ffa403bae28 (__DATA_CONST,__const) non-external (was a private external) ___block_descriptor_57_e8_32s40s48s_e5_v8?0l
+00007ffa403bad18 (__DATA_CONST,__const) non-external (was a private external) ___block_descriptor_64_e8_32s40s48r_e5_v8?0l
+00007ffa403bae58 (__DATA_CONST,__const) non-external (was a private external) ___block_descriptor_65_e8_32s40s48r_e5_v8?0l
+00007ffa403ba328 (__DATA_CONST,__const) non-external ___block_literal_global
+00007ffa403ba4a8 (__DATA_CONST,__const) non-external ___block_literal_global
+00007ffa403baca8 (__DATA_CONST,__const) non-external ___block_literal_global
+00007ffa403bada8 (__DATA_CONST,__const) non-external ___block_literal_global
+00007ffa403baea8 (__DATA_CONST,__const) non-external ___block_literal_global
+00007ffa403ba548 (__DATA_CONST,__const) non-external ___block_literal_global.10
+00007ffa403baae8 (__DATA_CONST,__const) non-external ___block_literal_global.100
+00007ffa403bab08 (__DATA_CONST,__const) non-external ___block_literal_global.102
+00007ffa403bab28 (__DATA_CONST,__const) non-external ___block_literal_global.104
+00007ffa403bab48 (__DATA_CONST,__const) non-external ___block_literal_global.106
+00007ffa403bab68 (__DATA_CONST,__const) non-external ___block_literal_global.108
+00007ffa403bab88 (__DATA_CONST,__const) non-external ___block_literal_global.110
+00007ffa403baba8 (__DATA_CONST,__const) non-external ___block_literal_global.112
+00007ffa403babc8 (__DATA_CONST,__const) non-external ___block_literal_global.114
+00007ffa403babe8 (__DATA_CONST,__const) non-external ___block_literal_global.116
+00007ffa403bac08 (__DATA_CONST,__const) non-external ___block_literal_global.118
+00007ffa403ba568 (__DATA_CONST,__const) non-external ___block_literal_global.12
+00007ffa403bac28 (__DATA_CONST,__const) non-external ___block_literal_global.120
+00007ffa403bac48 (__DATA_CONST,__const) non-external ___block_literal_global.122
+00007ffa403bac68 (__DATA_CONST,__const) non-external ___block_literal_global.124
+00007ffa403bac88 (__DATA_CONST,__const) non-external ___block_literal_global.126
+00007ffa403ba588 (__DATA_CONST,__const) non-external ___block_literal_global.14
+00007ffa403ba5a8 (__DATA_CONST,__const) non-external ___block_literal_global.16
+00007ffa403ba5c8 (__DATA_CONST,__const) non-external ___block_literal_global.18
+00007ffa403ba4c8 (__DATA_CONST,__const) non-external ___block_literal_global.2
+00007ffa403ba5e8 (__DATA_CONST,__const) non-external ___block_literal_global.20
+00007ffa403ba608 (__DATA_CONST,__const) non-external ___block_literal_global.22
+00007ffa403ba628 (__DATA_CONST,__const) non-external ___block_literal_global.24
+00007ffa403ba648 (__DATA_CONST,__const) non-external ___block_literal_global.26
+00007ffa403ba668 (__DATA_CONST,__const) non-external ___block_literal_global.28
+00007ffa403ba688 (__DATA_CONST,__const) non-external ___block_literal_global.30
+00007ffa403ba6a8 (__DATA_CONST,__const) non-external ___block_literal_global.32
+00007ffa403ba6c8 (__DATA_CONST,__const) non-external ___block_literal_global.34
+00007ffa403ba6e8 (__DATA_CONST,__const) non-external ___block_literal_global.36
+00007ffa403ba708 (__DATA_CONST,__const) non-external ___block_literal_global.38
+00007ffa403ba4e8 (__DATA_CONST,__const) non-external ___block_literal_global.4
+00007ffa403ba728 (__DATA_CONST,__const) non-external ___block_literal_global.40
+00007ffa403ba748 (__DATA_CONST,__const) non-external ___block_literal_global.42
+00007ffa403ba768 (__DATA_CONST,__const) non-external ___block_literal_global.44
+00007ffa403ba788 (__DATA_CONST,__const) non-external ___block_literal_global.46
+00007ffa403ba7a8 (__DATA_CONST,__const) non-external ___block_literal_global.48
+00007ffa403ba7c8 (__DATA_CONST,__const) non-external ___block_literal_global.50
+00007ffa403ba7e8 (__DATA_CONST,__const) non-external ___block_literal_global.52
+00007ffa403ba808 (__DATA_CONST,__const) non-external ___block_literal_global.54
+00007ffa403bacf8 (__DATA_CONST,__const) non-external ___block_literal_global.54
+00007ffa403ba828 (__DATA_CONST,__const) non-external ___block_literal_global.56
+00007ffa403ba848 (__DATA_CONST,__const) non-external ___block_literal_global.58
+00007ffa403ba508 (__DATA_CONST,__const) non-external ___block_literal_global.6
+00007ffa403ba868 (__DATA_CONST,__const) non-external ___block_literal_global.60
+00007ffa403ba888 (__DATA_CONST,__const) non-external ___block_literal_global.62
+00007ffa403ba8a8 (__DATA_CONST,__const) non-external ___block_literal_global.64
+00007ffa403ba8c8 (__DATA_CONST,__const) non-external ___block_literal_global.66
+00007ffa403ba8e8 (__DATA_CONST,__const) non-external ___block_literal_global.68
+00007ffa403bad48 (__DATA_CONST,__const) non-external ___block_literal_global.68
+00007ffa403ba908 (__DATA_CONST,__const) non-external ___block_literal_global.70
+00007ffa403bad68 (__DATA_CONST,__const) non-external ___block_literal_global.70
+00007ffa403ba928 (__DATA_CONST,__const) non-external ___block_literal_global.72
+00007ffa403ba948 (__DATA_CONST,__const) non-external ___block_literal_global.74
+00007ffa403bad88 (__DATA_CONST,__const) non-external ___block_literal_global.75
+00007ffa403ba968 (__DATA_CONST,__const) non-external ___block_literal_global.76
+00007ffa403ba988 (__DATA_CONST,__const) non-external ___block_literal_global.78
+00007ffa403ba528 (__DATA_CONST,__const) non-external ___block_literal_global.8
+00007ffa403ba9a8 (__DATA_CONST,__const) non-external ___block_literal_global.80
+00007ffa403ba9c8 (__DATA_CONST,__const) non-external ___block_literal_global.82
+00007ffa403ba9e8 (__DATA_CONST,__const) non-external ___block_literal_global.84
+00007ffa403baa08 (__DATA_CONST,__const) non-external ___block_literal_global.86
+00007ffa403baa28 (__DATA_CONST,__const) non-external ___block_literal_global.88
+00007ffa403baa48 (__DATA_CONST,__const) non-external ___block_literal_global.90
+00007ffa403baa68 (__DATA_CONST,__const) non-external ___block_literal_global.92
+00007ffa403baa88 (__DATA_CONST,__const) non-external ___block_literal_global.94
+00007ffa403baaa8 (__DATA_CONST,__const) non-external ___block_literal_global.96
+00007ffa403baac8 (__DATA_CONST,__const) non-external ___block_literal_global.98
+00007ffa04514930 (__TEXT,__text) non-external (was a private external) ___copy_helper_block_e8_32r
+00007ffa0450fc08 (__TEXT,__text) non-external (was a private external) ___copy_helper_block_e8_32s
+00007ffa04510018 (__TEXT,__text) non-external (was a private external) ___copy_helper_block_e8_32s40r
+00007ffa04518660 (__TEXT,__text) non-external (was a private external) ___copy_helper_block_e8_32s40s
+00007ffa0450fde9 (__TEXT,__text) non-external (was a private external) ___copy_helper_block_e8_32s40s48r
+00007ffa04519557 (__TEXT,__text) non-external (was a private external) ___copy_helper_block_e8_32s40s48s
+00007ffa04517890 (__TEXT,__text) non-external (was a private external) ___copy_helper_block_e8_32w
+00007ffa04514947 (__TEXT,__text) non-external (was a private external) ___destroy_helper_block_e8_32r
+00007ffa0450fc17 (__TEXT,__text) non-external (was a private external) ___destroy_helper_block_e8_32s
+00007ffa04510048 (__TEXT,__text) non-external (was a private external) ___destroy_helper_block_e8_32s40r
+00007ffa04518685 (__TEXT,__text) non-external (was a private external) ___destroy_helper_block_e8_32s40s
+00007ffa0450fe2d (__TEXT,__text) non-external (was a private external) ___destroy_helper_block_e8_32s40s48r
+00007ffa04519583 (__TEXT,__text) non-external (was a private external) ___destroy_helper_block_e8_32s40s48s
+00007ffa045178a2 (__TEXT,__text) non-external (was a private external) ___destroy_helper_block_e8_32w
+                 (undefined) external ___kCFBooleanFalse (from CoreFoundation)
+                 (undefined) external ___objc_personality_v0 (from libobjc)
+                 (undefined) external ___stack_chk_fail (from libSystem)
+                 (undefined) external ___stack_chk_guard (from libSystem)
+00007ffa0451a315 (__TEXT,__text) non-external __argIsNonNil
+00007ffa04515004 (__TEXT,__text) non-external __clientError
+00007ffa04512e02 (__TEXT,__text) non-external (was a private external) __dateFromJSONDict
+00007ffa045148ae (__TEXT,__text) non-external __doesPassHysteresis
+00007ffa41d52ec0 (__DATA,__bss) non-external __doesPassHysteresis.onceToken
+00007ffa41d52eb8 (__DATA,__bss) non-external __doesPassHysteresis.timebaseRatio
+00007ffa0451f1f2 (__TEXT,__text) non-external (was a private external) __getCKConfig
+00007ffa045169bd (__TEXT,__text) non-external __hysteresisDict
+00007ffa41d52ec8 (__DATA,__bss) non-external __hysteresisDict.hysteresisDict
+00007ffa41d52ed0 (__DATA,__bss) non-external __hysteresisDict.onceToken
+00007ffa0451477a (__TEXT,__text) non-external __hysteresisQueue
+00007ffa41d52ea8 (__DATA,__bss) non-external __hysteresisQueue.hysteresisQueue
+00007ffa41d52eb0 (__DATA,__bss) non-external __hysteresisQueue.onceToken
+00007ffa0450f6b4 (__TEXT,__text) non-external __isSupportedRecordDictionaryValueType
+                 (undefined) external __objc_empty_cache (from libobjc)
+00007ffa04516cfe (__TEXT,__text) non-external (was a private external) __oneIsNil
+                 (undefined) external __os_log_error_impl (from libSystem)
+                 (undefined) external __os_signpost_emit_unreliably_with_name_impl (from libSystem)
+                 (undefined) external __os_signpost_emit_with_name_impl (from libSystem)
+00007ffa0451048e (__TEXT,__text) non-external __replyObjectForRequestMessage
+00007ffa0451e719 (__TEXT,__text) non-external __sendAdminRequestMessage_WaitForReply
+00007ffa0451f270 (__TEXT,__text) non-external __sendCKConfigMessageAndHandleReply
+00007ffa045150e7 (__TEXT,__text) non-external (was a private external) __sendSubmitLogMessageAndHandleReply
+00007ffa0451495a (__TEXT,__text) non-external (was a private external) __tailspinRequestShared
+00007ffa045162fa (__TEXT,__text) non-external __unexpectedReplyError
+00007ffa0451be01 (__TEXT,__text) non-external (was a private external) __xpcArrayForStringArray
+                 (undefined) external __xpc_error_connection_interrupted (from libSystem)
+                 (undefined) external __xpc_error_connection_invalid (from libSystem)
+                 (undefined) external __xpc_event_key_name (from libSystem)
+                 (undefined) external __xpc_type_dictionary (from libSystem)
+                 (undefined) external _dispatch_async (from libSystem)
+                 (undefined) external _dispatch_once (from libSystem)
+                 (undefined) external _dispatch_queue_create (from libSystem)
+                 (undefined) external _dispatch_sync (from libSystem)
+                 (undefined) external _free (from libSystem)
+00007ffa41d52ea0 (__DATA,__bss) non-external _gPreviousAcceptedTailspinRequestMCT
+                 (undefined) external _kCFURLNameKey (from CoreFoundation)
+00007ffa403ba1c8 (__DATA_CONST,__const) non-external (was a private external) _kDRAdminRequest_RejectionReason
+00007ffa403ba1c0 (__DATA_CONST,__const) non-external (was a private external) _kDRAdminRequest_RequestReply
+00007ffa04520218 (__TEXT,__const) non-external (was a private external) _kDRCNoMachAbsTime
+00007ffa403ba100 (__DATA_CONST,__const) non-external (was a private external) _kDRClientMessageKey_type
+00007ffa403ba218 (__DATA_CONST,__const) non-external (was a private external) _kDRDampeningConfigDictKey_defaultSignatureAcceptanceRate
+00007ffa403ba230 (__DATA_CONST,__const) non-external (was a private external) _kDRDampeningConfigDictKey_defaultSignatureCap
+00007ffa403ba228 (__DATA_CONST,__const) non-external (was a private external) _kDRDampeningConfigDictKey_defaultSignatureHysteresis
+00007ffa403ba1e8 (__DATA_CONST,__const) non-external (was a private external) _kDRDampeningConfigDictKey_enforcesResourceCap
+00007ffa403ba1f0 (__DATA_CONST,__const) non-external (was a private external) _kDRDampeningConfigDictKey_enforcesResourceDownsampling
+00007ffa403ba1e0 (__DATA_CONST,__const) non-external (was a private external) _kDRDampeningConfigDictKey_enforcesResourceHysteresis
+00007ffa403ba200 (__DATA_CONST,__const) non-external (was a private external) _kDRDampeningConfigDictKey_enforcesSignatureCap
+00007ffa403ba208 (__DATA_CONST,__const) non-external (was a private external) _kDRDampeningConfigDictKey_enforcesSignatureDownsampling
+00007ffa403ba1f8 (__DATA_CONST,__const) non-external (was a private external) _kDRDampeningConfigDictKey_enforcesSignatureHysteresis
+00007ffa403ba210 (__DATA_CONST,__const) non-external (was a private external) _kDRDampeningConfigDictKey_enforcesTotalCap
+00007ffa403ba220 (__DATA_CONST,__const) non-external (was a private external) _kDRDampeningConfigDictKey_tailspinHysteresis
+00007ffa403ba238 (__DATA_CONST,__const) non-external (was a private external) _kDRDampeningConfigDictKey_totalCap
+00007ffa403ba1d0 (__DATA_CONST,__const) non-external (was a private external) _kDRDampeningConfigurationEnablementMessageKey_DampeningEnabled
+00007ffa403ba1d8 (__DATA_CONST,__const) non-external (was a private external) _kDRDampeningConfigurationUpdateDefaultsMessageKey_ConfigurationDictionary
+00007ffa403ba1b0 (__DATA_CONST,__const) non-external (was a private external) _kDREnableLogGatheringQueryMessageKey_Reply
+00007ffa403ba1b8 (__DATA_CONST,__const) non-external (was a private external) _kDRInjectEnableLogGatheringQueryResultMessageKey_InjectedResponse
+00007ffa403ba2a0 (__DATA_CONST,__const) non-external (was a private external) _kDRLogType_MultipleLogs
+00007ffa403ba298 (__DATA_CONST,__const) non-external (was a private external) _kDRLogType_Tailspin
+00007ffa403ba0e8 (__DATA_CONST,__const) non-external (was a private external) _kDRMachServiceName
+00007ffa403ba120 (__DATA_CONST,__const) non-external (was a private external) _kDRMessageKey_contextDictionaryData
+00007ffa403ba110 (__DATA_CONST,__const) non-external (was a private external) _kDRMessageKey_issueCategory
+00007ffa403ba118 (__DATA_CONST,__const) non-external (was a private external) _kDRMessageKey_issueDescription
+00007ffa403ba138 (__DATA_CONST,__const) non-external (was a private external) _kDRMessageKey_logArray
+00007ffa403ba130 (__DATA_CONST,__const) non-external (was a private external) _kDRMessageKey_logType
+00007ffa403ba128 (__DATA_CONST,__const) non-external (was a private external) _kDRMessageKey_requestMCT
+00007ffa403ba140 (__DATA_CONST,__const) non-external (was a private external) _kDRMessageKey_sandboxExtensions
+00007ffa403ba108 (__DATA_CONST,__const) non-external (was a private external) _kDRMessageKey_teamID
+00007ffa403ba148 (__DATA_CONST,__const) non-external (was a private external) _kDRMessageKey_transferOwnerships
+00007ffa04520228 (__TEXT,__const) non-external (was a private external) _kDRPermissiveUploadDelayCapSec
+00007ffa403ba1a8 (__DATA_CONST,__const) non-external (was a private external) _kDRPermissiveUpload_delaySeconds
+00007ffa04520220 (__TEXT,__const) non-external (was a private external) _kDRRapidLogSizeCap
+00007ffa41d529c0 (__DATA,__data) external _kDRRequestClientError
+00007ffa41d529c8 (__DATA,__data) external _kDRRequestOversizedContextDictErrorString
+00007ffa403ba2b0 (__DATA_CONST,__const) non-external (was a private external) _kDRRequestType_SubmitLog
+00007ffa403ba2b8 (__DATA_CONST,__const) non-external (was a private external) _kDRRequestType_SubmitLogToCKContainer
+00007ffa403ba2c0 (__DATA_CONST,__const) non-external (was a private external) _kDRRequestType_SubmitRapidLog
+00007ffa403ba2a8 (__DATA_CONST,__const) non-external (was a private external) _kDRRequestType_Tailspin
+00007ffa403ba458 (__DATA_CONST,__const) non-external (was a private external) _kDRSBroadcastRequestKey_teamID
+00007ffa403ba278 (__DATA_CONST,__const) non-external (was a private external) _kDRSCKConfigUpdateKey_ContainerIsProd
+00007ffa403ba288 (__DATA_CONST,__const) non-external (was a private external) _kDRSCKConfigUpdateKey_OverridesDefault
+00007ffa403ba280 (__DATA_CONST,__const) non-external (was a private external) _kDRSCKConfigUpdateKey_RapidIsProd
+00007ffa403ba460 (__DATA_CONST,__const) non-external (was a private external) _kDRSCloudChannelGetKey_description
+00007ffa403ba470 (__DATA_CONST,__const) non-external (was a private external) _kDRSCloudChannelKey_channelType
+00007ffa403ba4a0 (__DATA_CONST,__const) non-external (was a private external) _kDRSCloudChannelKey_dropsMessages
+00007ffa403ba478 (__DATA_CONST,__const) non-external (was a private external) _kDRSCloudChannelKey_environment
+00007ffa403ba498 (__DATA_CONST,__const) non-external (was a private external) _kDRSCloudChannelKey_hasConfig
+00007ffa403ba490 (__DATA_CONST,__const) non-external (was a private external) _kDRSCloudChannelKey_noSubscription
+00007ffa403ba488 (__DATA_CONST,__const) non-external (was a private external) _kDRSCloudChannelKey_overridesDeviceDefault
+00007ffa403ba468 (__DATA_CONST,__const) non-external (was a private external) _kDRSCloudChannelKey_platform
+00007ffa403ba480 (__DATA_CONST,__const) non-external (was a private external) _kDRSCloudChannelKey_populationSliceNumber
+00007ffa403ba440 (__DATA_CONST,__const) non-external (was a private external) _kDRSConfigCompletionKey_UUID
+00007ffa403ba450 (__DATA_CONST,__const) non-external (was a private external) _kDRSConfigCompletionKey_isRejected
+00007ffa403ba448 (__DATA_CONST,__const) non-external (was a private external) _kDRSConfigCompletionKey_teamID
+00007ffa403ba420 (__DATA_CONST,__const) non-external (was a private external) _kDRSConfigStateKey_CompletionType
+00007ffa403ba418 (__DATA_CONST,__const) non-external (was a private external) _kDRSConfigStateKey_State
+00007ffa04520230 (__TEXT,__const) non-external (was a private external) _kDRSDMDefaultTailspinHysteresis
+00007ffa403ba3f0 (__DATA_CONST,__const) non-external (was a private external) _kDRSGetConfigStateKey_TeamID
+00007ffa403ba3f8 (__DATA_CONST,__const) non-external (was a private external) _kDRSGetConfigStateKey_configUUID
+00007ffa403ba400 (__DATA_CONST,__const) non-external (was a private external) _kDRSJSONTaskingSystemMessageKey_EmitCATelemetry
+00007ffa403ba3e8 (__DATA_CONST,__const) non-external (was a private external) _kDRSJSONTaskingSystemMessageKey_JSONData
+00007ffa403ba0f0 (__DATA_CONST,__const) non-external (was a private external) _kDRSMessageTypeKey
+00007ffa403ba0f8 (__DATA_CONST,__const) non-external (was a private external) _kDRSRejectionReasonKey
+00007ffa403ba270 (__DATA_CONST,__const) non-external (was a private external) _kDRSRequestCleanKey_KeepRequestLogs
+00007ffa403ba268 (__DATA_CONST,__const) non-external (was a private external) _kDRSRequestCleanKey_KeepRequestRecords
+00007ffa403ba2d8 (__DATA_CONST,__const) non-external (was a private external) _kDRSService_ConfigurationDirectory
+00007ffa403ba2c8 (__DATA_CONST,__const) non-external (was a private external) _kDRSService_DBDirectory
+00007ffa403ba2d0 (__DATA_CONST,__const) non-external (was a private external) _kDRSService_LogDirectory
+00007ffa403ba2e8 (__DATA_CONST,__const) non-external (was a private external) _kDRSService_TeamConfigurationDirectoryName_Carrier
+00007ffa403ba300 (__DATA_CONST,__const) non-external (was a private external) _kDRSService_TeamConfigurationDirectoryName_Customer
+00007ffa403ba2f0 (__DATA_CONST,__const) non-external (was a private external) _kDRSService_TeamConfigurationDirectoryName_Internal
+00007ffa403ba2f8 (__DATA_CONST,__const) non-external (was a private external) _kDRSService_TeamConfigurationDirectoryName_Seed
+00007ffa403ba2e0 (__DATA_CONST,__const) non-external (was a private external) _kDRSService_TeamConfigurationRootDirectory
+00007ffa403ba438 (__DATA_CONST,__const) non-external (was a private external) _kDRSTaskingEventKey_configData
+00007ffa403ba430 (__DATA_CONST,__const) non-external (was a private external) _kDRSTaskingEventKey_teamID
+00007ffa403ba428 (__DATA_CONST,__const) non-external (was a private external) _kDRSTaskingEventName
+00007ffa403ba3d8 (__DATA_CONST,__const) non-external (was a private external) _kDRSTaskingMachServiceName
+00007ffa403ba410 (__DATA_CONST,__const) non-external (was a private external) _kDRSTaskingReply_RejectionReason
+00007ffa403ba408 (__DATA_CONST,__const) non-external (was a private external) _kDRSTaskingServiceKey_ReplyType
+00007ffa403ba168 (__DATA_CONST,__const) non-external (was a private external) _kDRSubmitLogReplyMessageKey_didSucceed
+00007ffa403ba170 (__DATA_CONST,__const) non-external (was a private external) _kDRSubmitLogReplyMessageKey_failureReason
+00007ffa403ba178 (__DATA_CONST,__const) non-external (was a private external) _kDRSubmitLogToCKContainerRequestMessageKey_containerName
+00007ffa403ba188 (__DATA_CONST,__const) non-external (was a private external) _kDRSubmitLogToCKContainerRequestMessageKey_fileAssetField
+00007ffa403ba190 (__DATA_CONST,__const) non-external (was a private external) _kDRSubmitLogToCKContainerRequestMessageKey_recordDictionaryData
+00007ffa403ba180 (__DATA_CONST,__const) non-external (was a private external) _kDRSubmitLogToCKContainerRequestMessageKey_recordType
+00007ffa403ba290 (__DATA_CONST,__const) non-external (was a private external) _kDRSubsystem
+00007ffa403ba158 (__DATA_CONST,__const) non-external (was a private external) _kDRTailspinRequestMessageKey_includeOsLog
+00007ffa403ba150 (__DATA_CONST,__const) non-external (was a private external) _kDRTailspinRequestMessageKey_includeOsSignpost
+00007ffa403ba160 (__DATA_CONST,__const) non-external (was a private external) _kDRTailspinRequestMessageKey_minMAT
+00007ffa41d529b8 (__DATA,__data) non-external (was a private external) _kDRTaskingClientError
+00007ffa403ba3e0 (__DATA_CONST,__const) non-external (was a private external) _kDRTaskingClientMessageKey_type
+00007ffa403ba258 (__DATA_CONST,__const) non-external (was a private external) _kDRTeamDampeningConfigDictKey_acceptanceRate
+00007ffa403ba260 (__DATA_CONST,__const) non-external (was a private external) _kDRTeamDampeningConfigDictKey_countCap
+00007ffa403ba250 (__DATA_CONST,__const) non-external (was a private external) _kDRTeamDampeningConfigDictKey_hysteresisSec
+00007ffa403ba248 (__DATA_CONST,__const) non-external (was a private external) _kDRTeamDampeningConfigDictKey_issueCategory
+00007ffa403ba240 (__DATA_CONST,__const) non-external (was a private external) _kDRTeamDampeningConfigDictKey_teamId
+00007ffa403ba1a0 (__DATA_CONST,__const) non-external (was a private external) _kDRTriggerUpload_isAsync
+00007ffa403ba198 (__DATA_CONST,__const) non-external (was a private external) _kDRTriggerUpload_isExpedited
+                 (undefined) external _mach_absolute_time (from libSystem)
+                 (undefined) external _mach_continuous_time (from libSystem)
+                 (undefined) external _mach_timebase_info (from libSystem)
+                 (undefined) external _objc_alloc (from libobjc)
+                 (undefined) external _objc_alloc_init (from libobjc)
+                 (undefined) external _objc_autorelease (from libobjc)
+                 (undefined) external _objc_autoreleasePoolPop (from libobjc)
+                 (undefined) external _objc_autoreleasePoolPush (from libobjc)
+                 (undefined) external _objc_autoreleaseReturnValue (from libobjc)
+                 (undefined) external _objc_copyWeak (from libobjc)
+                 (undefined) external _objc_destroyWeak (from libobjc)
+                 (undefined) external _objc_enumerationMutation (from libobjc)
+                 (undefined) external _objc_initWeak (from libobjc)
+                 (undefined) external _objc_loadWeakRetained (from libobjc)
+                 (undefined) external _objc_msgSend (from libobjc)
+                 (undefined) external _objc_msgSendSuper2 (from libobjc)
+                 (undefined) external _objc_opt_class (from libobjc)
+                 (undefined) external _objc_opt_isKindOfClass (from libobjc)
+                 (undefined) external _objc_release (from libobjc)
+                 (undefined) external _objc_retain (from libobjc)
+                 (undefined) external _objc_retainAutorelease (from libobjc)
+                 (undefined) external _objc_retainAutoreleaseReturnValue (from libobjc)
+                 (undefined) external _objc_retainAutoreleasedReturnValue (from libobjc)
+                 (undefined) external _objc_retainBlock (from libobjc)
+                 (undefined) external _objc_storeStrong (from libobjc)
+                 (undefined) external _os_log_create (from libSystem)
+                 (undefined) external _os_log_type_enabled (from libSystem)
+                 (undefined) external _os_signpost_enabled (from libSystem)
+                 (undefined) external _sandbox_extension_issue_file (from libSystem)
+00007ffa41d52a90 (__DATA,__bss) non-external _sharedConnectionState.connectionState
+00007ffa41d52ee8 (__DATA,__bss) non-external _sharedConnectionState.connectionState
+00007ffa41d52a98 (__DATA,__bss) non-external _sharedConnectionState.onceToken
+00007ffa41d52ef0 (__DATA,__bss) non-external _sharedConnectionState.onceToken
+00007ffa41d52ed8 (__DATA,__bss) non-external _sharedInstance.manager
+00007ffa41d52ee0 (__DATA,__bss) non-external _sharedInstance.onceToken
+                 (undefined) external _xpc_array_create_empty (from libSystem)
+                 (undefined) external _xpc_array_set_bool (from libSystem)
+                 (undefined) external _xpc_array_set_string (from libSystem)
+                 (undefined) external _xpc_connection_activate (from libSystem)
+                 (undefined) external _xpc_connection_cancel (from libSystem)
+                 (undefined) external _xpc_connection_create_mach_service (from libSystem)
+                 (undefined) external _xpc_connection_send_message (from libSystem)
+                 (undefined) external _xpc_connection_send_message_with_reply_sync (from libSystem)
+                 (undefined) external _xpc_connection_set_context (from libSystem)
+                 (undefined) external _xpc_connection_set_event_handler (from libSystem)
+                 (undefined) external _xpc_connection_set_finalizer_f (from libSystem)
+                 (undefined) external _xpc_copy_description (from libSystem)
+                 (undefined) external _xpc_copy_event (from libSystem)
+                 (undefined) external _xpc_dictionary_create (from libSystem)
+                 (undefined) external _xpc_dictionary_get_bool (from libSystem)
+                 (undefined) external _xpc_dictionary_get_data (from libSystem)
+                 (undefined) external _xpc_dictionary_get_string (from libSystem)
+                 (undefined) external _xpc_dictionary_get_uint64 (from libSystem)
+                 (undefined) external _xpc_dictionary_get_value (from libSystem)
+                 (undefined) external _xpc_dictionary_set_bool (from libSystem)
+                 (undefined) external _xpc_dictionary_set_data (from libSystem)
+                 (undefined) external _xpc_dictionary_set_double (from libSystem)
+                 (undefined) external _xpc_dictionary_set_string (from libSystem)
+                 (undefined) external _xpc_dictionary_set_uint64 (from libSystem)
+                 (undefined) external _xpc_dictionary_set_value (from libSystem)
+                 (undefined) external _xpc_get_type (from libSystem)
+                 (undefined) external _xpc_set_event (from libSystem)
+                 (undefined) external _xpc_set_event_stream_handler (from libSystem)
