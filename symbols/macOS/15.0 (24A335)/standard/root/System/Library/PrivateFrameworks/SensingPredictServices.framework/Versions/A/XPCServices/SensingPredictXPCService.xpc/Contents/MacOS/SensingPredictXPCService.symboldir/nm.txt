@@ -1,0 +1,698 @@
+
+/System/Library/PrivateFrameworks/SensingPredictServices.framework/Versions/A/XPCServices/SensingPredictXPCService.xpc/Contents/MacOS/SensingPredictXPCService (for architecture x86_64):
+00400000000017aa (__TEXT,__text) non-external +[SPSoundSensor sharedSoundSensorModule]
+0020000000004465 (__TEXT,__text) non-external +[SPXPCService sharedInstance]
+0020000000001782 (__TEXT,__text) non-external -[NoiseLevelSubscriber .cxx_destruct]
+0010000000001769 (__TEXT,__text) non-external -[NoiseLevelSubscriber callback]
+001000000000174e (__TEXT,__text) non-external -[NoiseLevelSubscriber client]
+0010000000001773 (__TEXT,__text) non-external -[NoiseLevelSubscriber setCallback:]
+0010000000001758 (__TEXT,__text) non-external -[NoiseLevelSubscriber setClient:]
+0020000000004432 (__TEXT,__text) non-external -[SPContextEngine .cxx_destruct]
+001000000000414b (__TEXT,__text) non-external -[SPContextEngine _activate]
+001000000000416f (__TEXT,__text) non-external -[SPContextEngine _ensureLocationMonitoringStarted]
+0010000000004272 (__TEXT,__text) non-external -[SPContextEngine _ensureLocationMonitoringStopped]
+001000000000428f (__TEXT,__text) non-external -[SPContextEngine _ensureSoundSensorModuleStarted]
+0010000000004351 (__TEXT,__text) non-external -[SPContextEngine _ensureSoundSensorModuleStopped]
+00100000000043f2 (__TEXT,__text) non-external -[SPContextEngine _invalidate]
+00100000000040ea (__TEXT,__text) non-external -[SPContextEngine activate]
+0010000000004060 (__TEXT,__text) non-external -[SPContextEngine initWithQueue:]
+0010000000004391 (__TEXT,__text) non-external -[SPContextEngine invalidate]
+00100000000040cb (__TEXT,__text) non-external -[SPContextEngine processContextChangeFlags:]
+0020000000003e9c (__TEXT,__text) non-external -[SPLocationManager .cxx_destruct]
+0010000000002ab7 (__TEXT,__text) non-external -[SPLocationManager _getLocationCategoryFromGEOPOI:]
+0010000000002a2a (__TEXT,__text) non-external -[SPLocationManager _getLocationCategoryFromRTLocationOfInterestType:]
+0010000000002f58 (__TEXT,__text) non-external -[SPLocationManager _requestPlaceInference]
+001000000000318c (__TEXT,__text) non-external -[SPLocationManager _startMonitoringVisits]
+0010000000003205 (__TEXT,__text) non-external -[SPLocationManager _startPollingForLocationCategory]
+00100000000037a6 (__TEXT,__text) non-external -[SPLocationManager _stopMonitoringVisits]
+0010000000003819 (__TEXT,__text) non-external -[SPLocationManager _stopPollingForLocationCategory]
+00100000000038f3 (__TEXT,__text) non-external -[SPLocationManager _updateLocationCategory:]
+0010000000003914 (__TEXT,__text) non-external -[SPLocationManager _updateLocationCategoryWithBestPlaceInferenceIdentifier:]
+00100000000027ab (__TEXT,__text) non-external -[SPLocationManager initWithQueue:]
+0010000000003e83 (__TEXT,__text) non-external -[SPLocationManager locationCategoryChangedHandler]
+0010000000003be4 (__TEXT,__text) non-external -[SPLocationManager locationManager:didFailWithError:]
+0010000000003cd0 (__TEXT,__text) non-external -[SPLocationManager locationManager:didVisit:]
+0010000000003b53 (__TEXT,__text) non-external -[SPLocationManager locationManagerDidChangeAuthorization:]
+0010000000003e8d (__TEXT,__text) non-external -[SPLocationManager setLocationCategoryChangedHandler:]
+0010000000002816 (__TEXT,__text) non-external -[SPLocationManager start]
+0010000000002950 (__TEXT,__text) non-external -[SPLocationManager stop]
+0020000000005ca8 (__TEXT,__text) non-external -[SPServicesXPCConnection .cxx_destruct]
+00100000000052d1 (__TEXT,__text) non-external -[SPServicesXPCConnection _entitledAndReturnError:]
+0010000000005408 (__TEXT,__text) non-external -[SPServicesXPCConnection contextMonitorActivate:completion:]
+00100000000059e6 (__TEXT,__text) non-external -[SPServicesXPCConnection contextMonitorReportContextSignalUpdated:contextFusedState:]
+0010000000005b13 (__TEXT,__text) non-external -[SPServicesXPCConnection contextMonitorReportLocationChanged:]
+0010000000005715 (__TEXT,__text) non-external -[SPServicesXPCConnection contextMonitorUpdate:]
+0010000000005c29 (__TEXT,__text) non-external -[SPServicesXPCConnection contextMonitor]
+0010000000005c0e (__TEXT,__text) non-external -[SPServicesXPCConnection context]
+0010000000005c44 (__TEXT,__text) non-external -[SPServicesXPCConnection dispatchQueue]
+0010000000005c5f (__TEXT,__text) non-external -[SPServicesXPCConnection entitled]
+0010000000005c18 (__TEXT,__text) non-external -[SPServicesXPCConnection setContext:]
+0010000000005c33 (__TEXT,__text) non-external -[SPServicesXPCConnection setContextMonitor:]
+0010000000005c4e (__TEXT,__text) non-external -[SPServicesXPCConnection setDispatchQueue:]
+0010000000005c69 (__TEXT,__text) non-external -[SPServicesXPCConnection setEntitled:]
+0010000000005c7c (__TEXT,__text) non-external -[SPServicesXPCConnection setXpcCnx:]
+0010000000005c97 (__TEXT,__text) non-external -[SPServicesXPCConnection setXpcService:]
+0010000000005c72 (__TEXT,__text) non-external -[SPServicesXPCConnection xpcCnx]
+0010000000005402 (__TEXT,__text) non-external -[SPServicesXPCConnection xpcConnectionInvalidated]
+0010000000005c8d (__TEXT,__text) non-external -[SPServicesXPCConnection xpcService]
+002000000000276d (__TEXT,__text) non-external -[SPSoundSensor .cxx_destruct]
+0010000000001a03 (__TEXT,__text) non-external -[SPSoundSensor _activate]
+0010000000001abb (__TEXT,__text) non-external -[SPSoundSensor _invalidate]
+0010000000001984 (__TEXT,__text) non-external -[SPSoundSensor activate]
+0010000000002764 (__TEXT,__text) non-external -[SPSoundSensor currentNoiseLevel]
+0010000000002074 (__TEXT,__text) non-external -[SPSoundSensor getCurrentSoundSensorState:]
+001000000000182f (__TEXT,__text) non-external -[SPSoundSensor init]
+0010000000001a5a (__TEXT,__text) non-external -[SPSoundSensor invalidate]
+0010000000001e6b (__TEXT,__text) non-external -[SPSoundSensor setNoiseLevel:]
+0010000000001b0c (__TEXT,__text) non-external -[SPSoundSensor setSoundProbability:value:]
+00100000000021b6 (__TEXT,__text) non-external -[SPSoundSensor subscribeToNoiseLevelForClient:callback:]
+0010000000002080 (__TEXT,__text) non-external -[SPSoundSensor subscribeToSoundForClient:soundType:callback:]
+001000000000250b (__TEXT,__text) non-external -[SPSoundSensor unsubscribeFromNoiseLevel:]
+00100000000022b2 (__TEXT,__text) non-external -[SPSoundSensor unsubscribeFromSound:]
+002000000000527d (__TEXT,__text) non-external -[SPXPCService .cxx_destruct]
+0010000000004c34 (__TEXT,__text) non-external -[SPXPCService _contextEngineEnsureStarted]
+0010000000004cb4 (__TEXT,__text) non-external -[SPXPCService _contextEngineEnsureStopped]
+0010000000004ba9 (__TEXT,__text) non-external -[SPXPCService _contextEngineShouldRun]
+0010000000004889 (__TEXT,__text) non-external -[SPXPCService _prefsChanged]
+0010000000004d13 (__TEXT,__text) non-external -[SPXPCService _updateContextEventSignal]
+001000000000504a (__TEXT,__text) non-external -[SPXPCService _updateLocationCategory]
+0010000000004a8e (__TEXT,__text) non-external -[SPXPCService _update]
+0010000000004acc (__TEXT,__text) non-external -[SPXPCService _xpcConnectionInvalidated:]
+0010000000004f53 (__TEXT,__text) non-external -[SPXPCService contextEventUpdated:fusedState:]
+00100000000044ea (__TEXT,__text) non-external -[SPXPCService init]
+0010000000004666 (__TEXT,__text) non-external -[SPXPCService listener:shouldAcceptNewConnection:]
+0010000000004ce6 (__TEXT,__text) non-external -[SPXPCService locationCategoryChanged:]
+0010000000004fdf (__TEXT,__text) non-external -[SPXPCService scheduleLocationCategoryUpdate]
+0020000000001726 (__TEXT,__text) non-external -[SoundSubscriber .cxx_destruct]
+00100000000016fb (__TEXT,__text) non-external -[SoundSubscriber callback]
+00100000000016e0 (__TEXT,__text) non-external -[SoundSubscriber client]
+0010000000001705 (__TEXT,__text) non-external -[SoundSubscriber setCallback:]
+00100000000016ea (__TEXT,__text) non-external -[SoundSubscriber setClient:]
+001000000000171d (__TEXT,__text) non-external -[SoundSubscriber setSoundType:]
+0010000000001714 (__TEXT,__text) non-external -[SoundSubscriber soundType]
+00000001000016e0 (__TEXT,__text) non-external <redacted function 0>
+0000000100005408 (__TEXT,__text) non-external <redacted function 100>
+00000001000055f9 (__TEXT,__text) non-external <redacted function 101>
+000000010000560f (__TEXT,__text) non-external <redacted function 102>
+000000010000561e (__TEXT,__text) non-external <redacted function 103>
+00000001000056b6 (__TEXT,__text) non-external <redacted function 104>
+00000001000056ee (__TEXT,__text) non-external <redacted function 105>
+0000000100005715 (__TEXT,__text) non-external <redacted function 106>
+0000000100005941 (__TEXT,__text) non-external <redacted function 107>
+00000001000059bc (__TEXT,__text) non-external <redacted function 108>
+00000001000059d3 (__TEXT,__text) non-external <redacted function 109>
+0000000100001773 (__TEXT,__text) non-external <redacted function 10>
+00000001000059e6 (__TEXT,__text) non-external <redacted function 110>
+0000000100005b13 (__TEXT,__text) non-external <redacted function 111>
+0000000100005c0e (__TEXT,__text) non-external <redacted function 112>
+0000000100005c18 (__TEXT,__text) non-external <redacted function 113>
+0000000100005c29 (__TEXT,__text) non-external <redacted function 114>
+0000000100005c33 (__TEXT,__text) non-external <redacted function 115>
+0000000100005c44 (__TEXT,__text) non-external <redacted function 116>
+0000000100005c4e (__TEXT,__text) non-external <redacted function 117>
+0000000100005c5f (__TEXT,__text) non-external <redacted function 118>
+0000000100005c69 (__TEXT,__text) non-external <redacted function 119>
+0000000100001782 (__TEXT,__text) non-external <redacted function 11>
+0000000100005c72 (__TEXT,__text) non-external <redacted function 120>
+0000000100005c7c (__TEXT,__text) non-external <redacted function 121>
+0000000100005c8d (__TEXT,__text) non-external <redacted function 122>
+0000000100005c97 (__TEXT,__text) non-external <redacted function 123>
+0000000100005ca8 (__TEXT,__text) non-external <redacted function 124>
+0000000100005d00 (__TEXT,__text) non-external <redacted function 125>
+0000000100005d10 (__TEXT,__text) non-external <redacted function 126>
+0000000100005d40 (__TEXT,__text) non-external <redacted function 127>
+0000000100005da0 (__TEXT,__text) non-external <redacted function 128>
+0000000100005dd0 (__TEXT,__text) non-external <redacted function 129>
+00000001000017aa (__TEXT,__text) non-external <redacted function 12>
+0000000100005df0 (__TEXT,__text) non-external <redacted function 130>
+0000000100005e50 (__TEXT,__text) non-external <redacted function 131>
+0000000100005e80 (__TEXT,__text) non-external <redacted function 132>
+0000000100005ea0 (__TEXT,__text) non-external <redacted function 133>
+0000000100005ed0 (__TEXT,__text) non-external <redacted function 134>
+0000000100005ee0 (__TEXT,__text) non-external <redacted function 135>
+0000000100005f0f (__TEXT,__text) non-external <redacted function 136>
+0000000100005f73 (__TEXT,__text) non-external <redacted function 137>
+000000010000180d (__TEXT,__text) non-external <redacted function 13>
+000000010000182f (__TEXT,__text) non-external <redacted function 14>
+0000000100001984 (__TEXT,__text) non-external <redacted function 15>
+00000001000019cf (__TEXT,__text) non-external <redacted function 16>
+00000001000019e5 (__TEXT,__text) non-external <redacted function 17>
+00000001000019f4 (__TEXT,__text) non-external <redacted function 18>
+0000000100001a03 (__TEXT,__text) non-external <redacted function 19>
+00000001000016ea (__TEXT,__text) non-external <redacted function 1>
+0000000100001a5a (__TEXT,__text) non-external <redacted function 20>
+0000000100001aa5 (__TEXT,__text) non-external <redacted function 21>
+0000000100001abb (__TEXT,__text) non-external <redacted function 22>
+0000000100001b0c (__TEXT,__text) non-external <redacted function 23>
+0000000100001e6b (__TEXT,__text) non-external <redacted function 24>
+0000000100002074 (__TEXT,__text) non-external <redacted function 25>
+0000000100002080 (__TEXT,__text) non-external <redacted function 26>
+00000001000021b6 (__TEXT,__text) non-external <redacted function 27>
+00000001000022b2 (__TEXT,__text) non-external <redacted function 28>
+000000010000250b (__TEXT,__text) non-external <redacted function 29>
+00000001000016fb (__TEXT,__text) non-external <redacted function 2>
+0000000100002764 (__TEXT,__text) non-external <redacted function 30>
+000000010000276d (__TEXT,__text) non-external <redacted function 31>
+00000001000027ab (__TEXT,__text) non-external <redacted function 32>
+0000000100002816 (__TEXT,__text) non-external <redacted function 33>
+0000000100002861 (__TEXT,__text) non-external <redacted function 34>
+0000000100002950 (__TEXT,__text) non-external <redacted function 35>
+000000010000299b (__TEXT,__text) non-external <redacted function 36>
+0000000100002a2a (__TEXT,__text) non-external <redacted function 37>
+0000000100002ab7 (__TEXT,__text) non-external <redacted function 38>
+0000000100002f58 (__TEXT,__text) non-external <redacted function 39>
+0000000100001705 (__TEXT,__text) non-external <redacted function 3>
+0000000100003063 (__TEXT,__text) non-external <redacted function 40>
+000000010000318c (__TEXT,__text) non-external <redacted function 41>
+0000000100003205 (__TEXT,__text) non-external <redacted function 42>
+00000001000033d4 (__TEXT,__text) non-external <redacted function 43>
+0000000100003466 (__TEXT,__text) non-external <redacted function 44>
+0000000100003538 (__TEXT,__text) non-external <redacted function 45>
+0000000100003647 (__TEXT,__text) non-external <redacted function 46>
+00000001000036d2 (__TEXT,__text) non-external <redacted function 47>
+000000010000375c (__TEXT,__text) non-external <redacted function 48>
+0000000100003781 (__TEXT,__text) non-external <redacted function 49>
+0000000100001714 (__TEXT,__text) non-external <redacted function 4>
+00000001000037a6 (__TEXT,__text) non-external <redacted function 50>
+0000000100003819 (__TEXT,__text) non-external <redacted function 51>
+00000001000038f3 (__TEXT,__text) non-external <redacted function 52>
+0000000100003914 (__TEXT,__text) non-external <redacted function 53>
+0000000100003a09 (__TEXT,__text) non-external <redacted function 54>
+0000000100003a94 (__TEXT,__text) non-external <redacted function 55>
+0000000100003b53 (__TEXT,__text) non-external <redacted function 56>
+0000000100003be4 (__TEXT,__text) non-external <redacted function 57>
+0000000100003cd0 (__TEXT,__text) non-external <redacted function 58>
+0000000100003e83 (__TEXT,__text) non-external <redacted function 59>
+000000010000171d (__TEXT,__text) non-external <redacted function 5>
+0000000100003e8d (__TEXT,__text) non-external <redacted function 60>
+0000000100003e9c (__TEXT,__text) non-external <redacted function 61>
+0000000100004060 (__TEXT,__text) non-external <redacted function 63>
+00000001000040cb (__TEXT,__text) non-external <redacted function 64>
+00000001000040ea (__TEXT,__text) non-external <redacted function 65>
+0000000100004135 (__TEXT,__text) non-external <redacted function 66>
+000000010000414b (__TEXT,__text) non-external <redacted function 67>
+000000010000416f (__TEXT,__text) non-external <redacted function 68>
+00000001000041d4 (__TEXT,__text) non-external <redacted function 69>
+0000000100001726 (__TEXT,__text) non-external <redacted function 6>
+0000000100004272 (__TEXT,__text) non-external <redacted function 70>
+000000010000428f (__TEXT,__text) non-external <redacted function 71>
+00000001000042f3 (__TEXT,__text) non-external <redacted function 72>
+0000000100004351 (__TEXT,__text) non-external <redacted function 73>
+0000000100004391 (__TEXT,__text) non-external <redacted function 74>
+00000001000043dc (__TEXT,__text) non-external <redacted function 75>
+00000001000043f2 (__TEXT,__text) non-external <redacted function 76>
+0000000100004432 (__TEXT,__text) non-external <redacted function 77>
+0000000100004465 (__TEXT,__text) non-external <redacted function 78>
+00000001000044c8 (__TEXT,__text) non-external <redacted function 79>
+000000010000174e (__TEXT,__text) non-external <redacted function 7>
+00000001000044ea (__TEXT,__text) non-external <redacted function 80>
+00000001000045fe (__TEXT,__text) non-external <redacted function 81>
+0000000100004666 (__TEXT,__text) non-external <redacted function 82>
+000000010000486c (__TEXT,__text) non-external <redacted function 83>
+0000000100004889 (__TEXT,__text) non-external <redacted function 84>
+0000000100004a8e (__TEXT,__text) non-external <redacted function 85>
+0000000100004acc (__TEXT,__text) non-external <redacted function 86>
+0000000100004ba9 (__TEXT,__text) non-external <redacted function 87>
+0000000100004c34 (__TEXT,__text) non-external <redacted function 88>
+0000000100004cb4 (__TEXT,__text) non-external <redacted function 89>
+0000000100001758 (__TEXT,__text) non-external <redacted function 8>
+0000000100004ce6 (__TEXT,__text) non-external <redacted function 90>
+0000000100004d13 (__TEXT,__text) non-external <redacted function 91>
+0000000100004f53 (__TEXT,__text) non-external <redacted function 92>
+0000000100004fc9 (__TEXT,__text) non-external <redacted function 93>
+0000000100004fdf (__TEXT,__text) non-external <redacted function 94>
+0000000100005034 (__TEXT,__text) non-external <redacted function 95>
+000000010000504a (__TEXT,__text) non-external <redacted function 96>
+000000010000527d (__TEXT,__text) non-external <redacted function 97>
+00000001000052d1 (__TEXT,__text) non-external <redacted function 98>
+0000000100005402 (__TEXT,__text) non-external <redacted function 99>
+0000000100001769 (__TEXT,__text) non-external <redacted function 9>
+                 (undefined) external _CFPrefs_GetInt64 (from CoreUtils)
+                 (undefined) external _GEOPOICategoryAirport (from GeoServices)
+                 (undefined) external _GEOPOICategoryFitnessCenter (from GeoServices)
+                 (undefined) external _GEOPOICategoryMovieTheater (from GeoServices)
+                 (undefined) external _GEOPOICategoryMusicVenue (from GeoServices)
+                 (undefined) external _GEOPOICategorySchool (from GeoServices)
+                 (undefined) external _GEOPOICategoryStadium (from GeoServices)
+                 (undefined) external _GEOPOICategoryTheater (from GeoServices)
+                 (undefined) external _LogPrintF (from CoreUtils)
+                 (undefined) external _NSErrorF (from CoreUtils)
+                 (undefined) external _NSOSStatusErrorDomain (from Foundation)
+                 (undefined) external _OBJC_CLASS_$_CLLocationManager (from CoreLocation)
+                 (undefined) external _OBJC_CLASS_$_GEOMapService (from GeoServices)
+                 (undefined) external _OBJC_CLASS_$_NSConstantFloatNumber (from Foundation)
+                 (undefined) external _OBJC_CLASS_$_NSConstantIntegerNumber (from Foundation)
+                 (undefined) external _OBJC_CLASS_$_NSDate (from CoreFoundation)
+                 (undefined) external _OBJC_CLASS_$_NSDictionary (from CoreFoundation)
+                 (undefined) external _OBJC_CLASS_$_NSMutableArray (from CoreFoundation)
+                 (undefined) external _OBJC_CLASS_$_NSMutableSet (from CoreFoundation)
+                 (undefined) external _OBJC_CLASS_$_NSNumber (from Foundation)
+                 (undefined) external _OBJC_CLASS_$_NSObject (from libobjc)
+                 (undefined) external _OBJC_CLASS_$_NSXPCInterface (from Foundation)
+                 (undefined) external _OBJC_CLASS_$_NSXPCListener (from Foundation)
+000000010000c288 (__DATA,__objc_data) external _OBJC_CLASS_$_NoiseLevelSubscriber
+                 (undefined) external _OBJC_CLASS_$_OS_os_log (from libSystem)
+                 (undefined) external _OBJC_CLASS_$_RTRoutineManager (from CoreRoutine)
+                 (undefined) external _OBJC_CLASS_$_SPContext (from SensingPredictServices)
+000000010000c350 (__DATA,__objc_data) external _OBJC_CLASS_$_SPContextEngine
+000000010000c300 (__DATA,__objc_data) external _OBJC_CLASS_$_SPLocationManager
+000000010000c3c8 (__DATA,__objc_data) external _OBJC_CLASS_$_SPServicesXPCConnection
+000000010000c2b0 (__DATA,__objc_data) external _OBJC_CLASS_$_SPSoundSensor
+000000010000c3a0 (__DATA,__objc_data) external _OBJC_CLASS_$_SPXPCService
+000000010000c238 (__DATA,__objc_data) external _OBJC_CLASS_$_SoundSubscriber
+001000000000c0c0 (__TEXT,__text) non-external _OBJC_IVAR_$_NoiseLevelSubscriber._callback
+001000000000c0b8 (__TEXT,__text) non-external _OBJC_IVAR_$_NoiseLevelSubscriber._client
+001000000000c150 (__TEXT,__text) non-external _OBJC_IVAR_$_SPContextEngine._dispatchQueue
+001000000000c158 (__TEXT,__text) non-external _OBJC_IVAR_$_SPContextEngine._runLocationMonitoring
+001000000000c160 (__TEXT,__text) non-external _OBJC_IVAR_$_SPContextEngine._runSoundSensorModule
+001000000000c168 (__TEXT,__text) non-external _OBJC_IVAR_$_SPContextEngine._spLocationManager
+001000000000c170 (__TEXT,__text) non-external _OBJC_IVAR_$_SPContextEngine._spSoundSensor
+001000000000c100 (__TEXT,__text) non-external _OBJC_IVAR_$_SPLocationManager._authorizationStatus
+001000000000c108 (__TEXT,__text) non-external _OBJC_IVAR_$_SPLocationManager._currentLocationCategory
+001000000000c110 (__TEXT,__text) non-external _OBJC_IVAR_$_SPLocationManager._dispatchQueue
+001000000000c118 (__TEXT,__text) non-external _OBJC_IVAR_$_SPLocationManager._geoMapService
+001000000000c148 (__TEXT,__text) non-external _OBJC_IVAR_$_SPLocationManager._locationCategoryChangedHandler
+001000000000c120 (__TEXT,__text) non-external _OBJC_IVAR_$_SPLocationManager._locationManager
+001000000000c130 (__TEXT,__text) non-external _OBJC_IVAR_$_SPLocationManager._locationQueryExitTimer
+001000000000c128 (__TEXT,__text) non-external _OBJC_IVAR_$_SPLocationManager._locationQueryTimer
+001000000000c138 (__TEXT,__text) non-external _OBJC_IVAR_$_SPLocationManager._monitoringVisits
+001000000000c140 (__TEXT,__text) non-external _OBJC_IVAR_$_SPLocationManager._pollingLocation
+001000000000c1e8 (__TEXT,__text) non-external _OBJC_IVAR_$_SPServicesXPCConnection._context
+001000000000c1f0 (__TEXT,__text) non-external _OBJC_IVAR_$_SPServicesXPCConnection._contextMonitor
+001000000000c1f8 (__TEXT,__text) non-external _OBJC_IVAR_$_SPServicesXPCConnection._dispatchQueue
+001000000000c1e0 (__TEXT,__text) non-external _OBJC_IVAR_$_SPServicesXPCConnection._entitled
+001000000000c200 (__TEXT,__text) non-external _OBJC_IVAR_$_SPServicesXPCConnection._xpcCnx
+001000000000c208 (__TEXT,__text) non-external _OBJC_IVAR_$_SPServicesXPCConnection._xpcService
+001000000000c0d0 (__TEXT,__text) non-external _OBJC_IVAR_$_SPSoundSensor._activateCalled
+001000000000c0f8 (__TEXT,__text) non-external _OBJC_IVAR_$_SPSoundSensor._currentNoiseLevel
+001000000000c0e8 (__TEXT,__text) non-external _OBJC_IVAR_$_SPSoundSensor._currentSoundState
+001000000000c0c8 (__TEXT,__text) non-external _OBJC_IVAR_$_SPSoundSensor._dispatchQueue
+001000000000c0e0 (__TEXT,__text) non-external _OBJC_IVAR_$_SPSoundSensor._noiseLevelSubscribers
+001000000000c0d8 (__TEXT,__text) non-external _OBJC_IVAR_$_SPSoundSensor._soundSubscribers
+001000000000c0f0 (__TEXT,__text) non-external _OBJC_IVAR_$_SPSoundSensor._soundTypeToThreshold
+001000000000c188 (__TEXT,__text) non-external _OBJC_IVAR_$_SPXPCService._conextEventSignalPending
+001000000000c180 (__TEXT,__text) non-external _OBJC_IVAR_$_SPXPCService._contextEngine
+001000000000c190 (__TEXT,__text) non-external _OBJC_IVAR_$_SPXPCService._contextMonitor
+001000000000c178 (__TEXT,__text) non-external _OBJC_IVAR_$_SPXPCService._currentContext
+001000000000c198 (__TEXT,__text) non-external _OBJC_IVAR_$_SPXPCService._dispatchQueue
+001000000000c1a0 (__TEXT,__text) non-external _OBJC_IVAR_$_SPXPCService._locationCategory
+001000000000c1a8 (__TEXT,__text) non-external _OBJC_IVAR_$_SPXPCService._locationUpdatePending
+001000000000c1b0 (__TEXT,__text) non-external _OBJC_IVAR_$_SPXPCService._prefsChangedNotifyToken
+001000000000c1c0 (__TEXT,__text) non-external _OBJC_IVAR_$_SPXPCService._prefsLocationCategory
+001000000000c1b8 (__TEXT,__text) non-external _OBJC_IVAR_$_SPXPCService._prefsOverrideLocationCategory
+001000000000c1c8 (__TEXT,__text) non-external _OBJC_IVAR_$_SPXPCService._spFusedState
+001000000000c1d8 (__TEXT,__text) non-external _OBJC_IVAR_$_SPXPCService._xpcConnections
+001000000000c1d0 (__TEXT,__text) non-external _OBJC_IVAR_$_SPXPCService._xpcListener
+001000000000c0b0 (__TEXT,__text) non-external _OBJC_IVAR_$_SoundSubscriber._callback
+001000000000c0a8 (__TEXT,__text) non-external _OBJC_IVAR_$_SoundSubscriber._client
+001000000000c0a0 (__TEXT,__text) non-external _OBJC_IVAR_$_SoundSubscriber._soundType
+                 (undefined) external _OBJC_METACLASS_$_NSObject (from libobjc)
+000000010000c260 (__DATA,__objc_data) external _OBJC_METACLASS_$_NoiseLevelSubscriber
+000000010000c378 (__DATA,__objc_data) external _OBJC_METACLASS_$_SPContextEngine
+000000010000c328 (__DATA,__objc_data) external _OBJC_METACLASS_$_SPLocationManager
+000000010000c418 (__DATA,__objc_data) external _OBJC_METACLASS_$_SPServicesXPCConnection
+000000010000c2d8 (__DATA,__objc_data) external _OBJC_METACLASS_$_SPSoundSensor
+000000010000c3f0 (__DATA,__objc_data) external _OBJC_METACLASS_$_SPXPCService
+000000010000c210 (__DATA,__objc_data) external _OBJC_METACLASS_$_SoundSubscriber
+                 (undefined) external __Block_object_assign (from libSystem)
+                 (undefined) external __Block_object_dispose (from libSystem)
+                 (undefined) external __LogCategory_Initialize (from CoreUtils)
+                 (undefined) external __NSConcreteGlobalBlock (from libSystem)
+                 (undefined) external __NSConcreteStackBlock (from libSystem)
+                 (undefined) external __Unwind_Resume (from libSystem)
+                 (undefined) external ___CFConstantStringClassReference (from CoreFoundation)
+                 (undefined) external ___kCFBooleanTrue (from CoreFoundation)
+                 (undefined) external ___objc_personality_v0 (from libobjc)
+                 (undefined) external ___stack_chk_fail (from libSystem)
+                 (undefined) external ___stack_chk_guard (from libSystem)
+                 (undefined) external __dispatch_source_type_timer (from libSystem)
+0000000100000000 (__TEXT,__text) [referenced dynamically] external __mh_execute_header
+                 (undefined) external __objc_empty_cache (from libobjc)
+                 (undefined) external __os_feature_enabled_impl (from libSystem)
+                 (undefined) external __os_log_default (from libSystem)
+                 (undefined) external __os_log_error_impl (from libSystem)
+                 (undefined) external __os_log_fault_impl (from libSystem)
+                 (undefined) weak external __swift_FORCE_LOAD_$_swiftCoreAudio (from libswiftCoreAudio)
+                 (undefined) weak external __swift_FORCE_LOAD_$_swiftCoreFoundation (from libswiftCoreFoundation)
+                 (undefined) weak external __swift_FORCE_LOAD_$_swiftDarwin (from libswiftDarwin)
+                 (undefined) weak external __swift_FORCE_LOAD_$_swiftDispatch (from libswiftDispatch)
+                 (undefined) weak external __swift_FORCE_LOAD_$_swiftFoundation (from Foundation)
+                 (undefined) weak external __swift_FORCE_LOAD_$_swiftIOKit (from libswiftIOKit)
+                 (undefined) weak external __swift_FORCE_LOAD_$_swiftOSLog (from libswiftOSLog)
+                 (undefined) weak external __swift_FORCE_LOAD_$_swiftObjectiveC (from libswiftObjectiveC)
+                 (undefined) weak external __swift_FORCE_LOAD_$_swiftUniformTypeIdentifiers (from libswiftUniformTypeIdentifiers)
+                 (undefined) weak external __swift_FORCE_LOAD_$_swiftXPC (from libswiftXPC)
+                 (undefined) weak external __swift_FORCE_LOAD_$_swift_Builtin_float (from libswift_Builtin_float)
+                 (undefined) weak external __swift_FORCE_LOAD_$_swift_errno (from libswift_errno)
+                 (undefined) weak external __swift_FORCE_LOAD_$_swift_math (from libswift_math)
+                 (undefined) weak external __swift_FORCE_LOAD_$_swift_signal (from libswift_signal)
+                 (undefined) weak external __swift_FORCE_LOAD_$_swift_stdio (from libswift_stdio)
+                 (undefined) weak external __swift_FORCE_LOAD_$_swift_time (from libswift_time)
+                 (undefined) weak external __swift_FORCE_LOAD_$_swiftos (from libswiftos)
+                 (undefined) weak external __swift_FORCE_LOAD_$_swiftsys_time (from libswiftsys_time)
+                 (undefined) weak external __swift_FORCE_LOAD_$_swiftunistd (from libswiftunistd)
+                 (undefined) external _dispatch_assert_queue$V2 (from libSystem)
+                 (undefined) external _dispatch_async (from libSystem)
+                 (undefined) external _dispatch_once (from libSystem)
+                 (undefined) external _dispatch_queue_attr_make_with_autorelease_frequency (from libSystem)
+                 (undefined) external _dispatch_queue_create (from libSystem)
+                 (undefined) external _dispatch_resume (from libSystem)
+                 (undefined) external _dispatch_source_cancel (from libSystem)
+                 (undefined) external _dispatch_source_create (from libSystem)
+                 (undefined) external _dispatch_source_set_event_handler (from libSystem)
+                 (undefined) external _dispatch_source_set_timer (from libSystem)
+                 (undefined) external _dispatch_time (from libSystem)
+                 (undefined) external _exit (from libSystem)
+                 (undefined) external _fcntl (from libSystem)
+                 (undefined) external _getenv (from libSystem)
+                 (undefined) external _kCLErrorDomain (from CoreLocation)
+0000000100003ef0 (__TEXT,__text) external _main
+                 (undefined) external _notify_register_dispatch (from libSystem)
+                 (undefined) external _objc_alloc (from libobjc)
+                 (undefined) external _objc_alloc_init (from libobjc)
+                 (undefined) external _objc_autorelease (from libobjc)
+                 (undefined) external _objc_autoreleasePoolPop (from libobjc)
+                 (undefined) external _objc_autoreleasePoolPush (from libobjc)
+                 (undefined) external _objc_enumerationMutation (from libobjc)
+                 (undefined) external _objc_msgSend (from libobjc)
+                 (undefined) external _objc_msgSendSuper2 (from libobjc)
+                 (undefined) external _objc_opt_new (from libobjc)
+                 (undefined) external _objc_opt_respondsToSelector (from libobjc)
+                 (undefined) external _objc_opt_self (from libobjc)
+                 (undefined) external _objc_release (from libobjc)
+                 (undefined) external _objc_retain (from libobjc)
+                 (undefined) external _objc_retainAutoreleaseReturnValue (from libobjc)
+                 (undefined) external _objc_retainAutoreleasedReturnValue (from libobjc)
+                 (undefined) external _objc_retainBlock (from libobjc)
+                 (undefined) external _objc_setProperty_nonatomic_copy (from libobjc)
+                 (undefined) external _objc_storeStrong (from libobjc)
+                 (undefined) external _objc_terminate (from libobjc)
+                 (undefined) external _open (from libSystem)
+                 (undefined) external _os_log_type_enabled (from libSystem)
+                 (undefined) external _sandbox_init_with_parameters (from libSystem)
+                 (undefined) external _swift_getObjCClassMetadata (from libswiftCore)
+                 (undefined) external _swift_once (from libswiftCore)
+
+/System/Library/PrivateFrameworks/SensingPredictServices.framework/Versions/A/XPCServices/SensingPredictXPCService.xpc/Contents/MacOS/SensingPredictXPCService (for architecture arm64e):
+00000001000030e4 (__TEXT,__text) non-external +[SPSoundSensor sharedSoundSensorModule]
+0000000100005f78 (__TEXT,__text) non-external +[SPXPCService sharedInstance]
+00000001000030a0 (__TEXT,__text) non-external -[NoiseLevelSubscriber .cxx_destruct]
+0000000100003090 (__TEXT,__text) non-external -[NoiseLevelSubscriber callback]
+000000010000307c (__TEXT,__text) non-external -[NoiseLevelSubscriber client]
+0000000100003098 (__TEXT,__text) non-external -[NoiseLevelSubscriber setCallback:]
+0000000100003084 (__TEXT,__text) non-external -[NoiseLevelSubscriber setClient:]
+0000000100005f28 (__TEXT,__text) non-external -[SPContextEngine .cxx_destruct]
+0000000100005c08 (__TEXT,__text) non-external -[SPContextEngine _activate]
+0000000100005c18 (__TEXT,__text) non-external -[SPContextEngine _ensureLocationMonitoringStarted]
+0000000100005d10 (__TEXT,__text) non-external -[SPContextEngine _ensureLocationMonitoringStopped]
+0000000100005d20 (__TEXT,__text) non-external -[SPContextEngine _ensureSoundSensorModuleStarted]
+0000000100005e0c (__TEXT,__text) non-external -[SPContextEngine _ensureSoundSensorModuleStopped]
+0000000100005ed8 (__TEXT,__text) non-external -[SPContextEngine _invalidate]
+0000000100005b8c (__TEXT,__text) non-external -[SPContextEngine activate]
+0000000100005afc (__TEXT,__text) non-external -[SPContextEngine initWithQueue:]
+0000000100005e5c (__TEXT,__text) non-external -[SPContextEngine invalidate]
+0000000100005b78 (__TEXT,__text) non-external -[SPContextEngine processContextChangeFlags:]
+0000000100005934 (__TEXT,__text) non-external -[SPLocationManager .cxx_destruct]
+00000001000043fc (__TEXT,__text) non-external -[SPLocationManager _getLocationCategoryFromGEOPOI:]
+000000010000434c (__TEXT,__text) non-external -[SPLocationManager _getLocationCategoryFromRTLocationOfInterestType:]
+00000001000048a8 (__TEXT,__text) non-external -[SPLocationManager _requestPlaceInference]
+0000000100004b08 (__TEXT,__text) non-external -[SPLocationManager _startMonitoringVisits]
+0000000100004ba8 (__TEXT,__text) non-external -[SPLocationManager _startPollingForLocationCategory]
+0000000100005230 (__TEXT,__text) non-external -[SPLocationManager _stopMonitoringVisits]
+00000001000052b4 (__TEXT,__text) non-external -[SPLocationManager _stopPollingForLocationCategory]
+0000000100005380 (__TEXT,__text) non-external -[SPLocationManager _updateLocationCategory:]
+00000001000053ac (__TEXT,__text) non-external -[SPLocationManager _updateLocationCategoryWithBestPlaceInferenceIdentifier:]
+0000000100004060 (__TEXT,__text) non-external -[SPLocationManager initWithQueue:]
+0000000100005924 (__TEXT,__text) non-external -[SPLocationManager locationCategoryChangedHandler]
+00000001000056b0 (__TEXT,__text) non-external -[SPLocationManager locationManager:didFailWithError:]
+00000001000057a4 (__TEXT,__text) non-external -[SPLocationManager locationManager:didVisit:]
+0000000100005600 (__TEXT,__text) non-external -[SPLocationManager locationManagerDidChangeAuthorization:]
+000000010000592c (__TEXT,__text) non-external -[SPLocationManager setLocationCategoryChangedHandler:]
+00000001000040dc (__TEXT,__text) non-external -[SPLocationManager start]
+000000010000423c (__TEXT,__text) non-external -[SPLocationManager stop]
+000000010000796c (__TEXT,__text) non-external -[SPServicesXPCConnection .cxx_destruct]
+0000000100006ecc (__TEXT,__text) non-external -[SPServicesXPCConnection _entitledAndReturnError:]
+0000000100007008 (__TEXT,__text) non-external -[SPServicesXPCConnection contextMonitorActivate:completion:]
+00000001000076b8 (__TEXT,__text) non-external -[SPServicesXPCConnection contextMonitorReportContextSignalUpdated:contextFusedState:]
+00000001000077ec (__TEXT,__text) non-external -[SPServicesXPCConnection contextMonitorReportLocationChanged:]
+00000001000073b8 (__TEXT,__text) non-external -[SPServicesXPCConnection contextMonitorUpdate:]
+000000010000790c (__TEXT,__text) non-external -[SPServicesXPCConnection contextMonitor]
+00000001000078f8 (__TEXT,__text) non-external -[SPServicesXPCConnection context]
+0000000100007920 (__TEXT,__text) non-external -[SPServicesXPCConnection dispatchQueue]
+0000000100007934 (__TEXT,__text) non-external -[SPServicesXPCConnection entitled]
+0000000100007900 (__TEXT,__text) non-external -[SPServicesXPCConnection setContext:]
+0000000100007914 (__TEXT,__text) non-external -[SPServicesXPCConnection setContextMonitor:]
+0000000100007928 (__TEXT,__text) non-external -[SPServicesXPCConnection setDispatchQueue:]
+000000010000793c (__TEXT,__text) non-external -[SPServicesXPCConnection setEntitled:]
+000000010000794c (__TEXT,__text) non-external -[SPServicesXPCConnection setXpcCnx:]
+0000000100007960 (__TEXT,__text) non-external -[SPServicesXPCConnection setXpcService:]
+0000000100007944 (__TEXT,__text) non-external -[SPServicesXPCConnection xpcCnx]
+0000000100007004 (__TEXT,__text) non-external -[SPServicesXPCConnection xpcConnectionInvalidated]
+0000000100007958 (__TEXT,__text) non-external -[SPServicesXPCConnection xpcService]
+0000000100004004 (__TEXT,__text) non-external -[SPSoundSensor .cxx_destruct]
+00000001000033a4 (__TEXT,__text) non-external -[SPSoundSensor _activate]
+00000001000034a4 (__TEXT,__text) non-external -[SPSoundSensor _invalidate]
+0000000100003318 (__TEXT,__text) non-external -[SPSoundSensor activate]
+0000000100003ffc (__TEXT,__text) non-external -[SPSoundSensor currentNoiseLevel]
+00000001000039bc (__TEXT,__text) non-external -[SPSoundSensor getCurrentSoundSensorState:]
+00000001000031c0 (__TEXT,__text) non-external -[SPSoundSensor init]
+0000000100003428 (__TEXT,__text) non-external -[SPSoundSensor invalidate]
+00000001000037d4 (__TEXT,__text) non-external -[SPSoundSensor setNoiseLevel:]
+000000010000351c (__TEXT,__text) non-external -[SPSoundSensor setSoundProbability:value:]
+0000000100003b0c (__TEXT,__text) non-external -[SPSoundSensor subscribeToNoiseLevelForClient:callback:]
+00000001000039c8 (__TEXT,__text) non-external -[SPSoundSensor subscribeToSoundForClient:soundType:callback:]
+0000000100003e04 (__TEXT,__text) non-external -[SPSoundSensor unsubscribeFromNoiseLevel:]
+0000000100003c0c (__TEXT,__text) non-external -[SPSoundSensor unsubscribeFromSound:]
+0000000100006e58 (__TEXT,__text) non-external -[SPXPCService .cxx_destruct]
+00000001000067fc (__TEXT,__text) non-external -[SPXPCService _contextEngineEnsureStarted]
+0000000100006874 (__TEXT,__text) non-external -[SPXPCService _contextEngineEnsureStopped]
+0000000100006768 (__TEXT,__text) non-external -[SPXPCService _contextEngineShouldRun]
+00000001000063f8 (__TEXT,__text) non-external -[SPXPCService _prefsChanged]
+00000001000068f8 (__TEXT,__text) non-external -[SPXPCService _updateContextEventSignal]
+0000000100006c58 (__TEXT,__text) non-external -[SPXPCService _updateLocationCategory]
+000000010000662c (__TEXT,__text) non-external -[SPXPCService _update]
+0000000100006688 (__TEXT,__text) non-external -[SPXPCService _xpcConnectionInvalidated:]
+0000000100006b18 (__TEXT,__text) non-external -[SPXPCService contextEventUpdated:fusedState:]
+0000000100006054 (__TEXT,__text) non-external -[SPXPCService init]
+0000000100006200 (__TEXT,__text) non-external -[SPXPCService listener:shouldAcceptNewConnection:]
+00000001000068b4 (__TEXT,__text) non-external -[SPXPCService locationCategoryChanged:]
+0000000100006bcc (__TEXT,__text) non-external -[SPXPCService scheduleLocationCategoryUpdate]
+0000000100003038 (__TEXT,__text) non-external -[SoundSubscriber .cxx_destruct]
+0000000100003018 (__TEXT,__text) non-external -[SoundSubscriber callback]
+0000000100003004 (__TEXT,__text) non-external -[SoundSubscriber client]
+0000000100003020 (__TEXT,__text) non-external -[SoundSubscriber setCallback:]
+000000010000300c (__TEXT,__text) non-external -[SoundSubscriber setClient:]
+0000000100003030 (__TEXT,__text) non-external -[SoundSubscriber setSoundType:]
+0000000100003028 (__TEXT,__text) non-external -[SoundSubscriber soundType]
+0000000100007238 (__TEXT,__text) non-external <redacted function 101>
+0000000100007248 (__TEXT,__text) non-external <redacted function 102>
+0000000100007250 (__TEXT,__text) non-external <redacted function 103>
+0000000100007328 (__TEXT,__text) non-external <redacted function 104>
+0000000100007378 (__TEXT,__text) non-external <redacted function 105>
+0000000100007600 (__TEXT,__text) non-external <redacted function 107>
+000000010000769c (__TEXT,__text) non-external <redacted function 108>
+00000001000076ac (__TEXT,__text) non-external <redacted function 109>
+00000001000079d4 (__TEXT,__text) non-external <redacted function 125>
+00000001000079e0 (__TEXT,__text) non-external <redacted function 126>
+00000001000079fc (__TEXT,__text) non-external <redacted function 127>
+0000000100007a50 (__TEXT,__text) non-external <redacted function 128>
+0000000100007a9c (__TEXT,__text) non-external <redacted function 129>
+0000000100007ac0 (__TEXT,__text) non-external <redacted function 130>
+0000000100007b28 (__TEXT,__text) non-external <redacted function 131>
+0000000100007b74 (__TEXT,__text) non-external <redacted function 132>
+0000000100007b98 (__TEXT,__text) non-external <redacted function 133>
+0000000100007be4 (__TEXT,__text) non-external <redacted function 134>
+0000000100007bf4 (__TEXT,__text) non-external <redacted function 135>
+0000000100007c34 (__TEXT,__text) non-external <redacted function 136>
+0000000100007cb8 (__TEXT,__text) non-external <redacted function 137>
+0000000100003184 (__TEXT,__text) non-external <redacted function 13>
+000000010000338c (__TEXT,__text) non-external <redacted function 16>
+0000000100003394 (__TEXT,__text) non-external <redacted function 17>
+000000010000339c (__TEXT,__text) non-external <redacted function 18>
+000000010000349c (__TEXT,__text) non-external <redacted function 21>
+0000000100004150 (__TEXT,__text) non-external <redacted function 34>
+00000001000042b0 (__TEXT,__text) non-external <redacted function 36>
+00000001000049f0 (__TEXT,__text) non-external <redacted function 40>
+0000000100004dd0 (__TEXT,__text) non-external <redacted function 43>
+0000000100004e80 (__TEXT,__text) non-external <redacted function 44>
+0000000100004f78 (__TEXT,__text) non-external <redacted function 45>
+000000010000508c (__TEXT,__text) non-external <redacted function 46>
+0000000100005130 (__TEXT,__text) non-external <redacted function 47>
+00000001000051b8 (__TEXT,__text) non-external <redacted function 48>
+00000001000051f4 (__TEXT,__text) non-external <redacted function 49>
+00000001000054bc (__TEXT,__text) non-external <redacted function 54>
+0000000100005560 (__TEXT,__text) non-external <redacted function 55>
+0000000100005c00 (__TEXT,__text) non-external <redacted function 66>
+0000000100005c80 (__TEXT,__text) non-external <redacted function 69>
+0000000100005d8c (__TEXT,__text) non-external <redacted function 72>
+0000000100005ed0 (__TEXT,__text) non-external <redacted function 75>
+0000000100006018 (__TEXT,__text) non-external <redacted function 79>
+000000010000617c (__TEXT,__text) non-external <redacted function 81>
+00000001000063ec (__TEXT,__text) non-external <redacted function 83>
+0000000100006bc4 (__TEXT,__text) non-external <redacted function 93>
+0000000100006c50 (__TEXT,__text) non-external <redacted function 95>
+                 (undefined) external _CFPrefs_GetInt64 (from CoreUtils)
+                 (undefined) external _GEOPOICategoryAirport (from GeoServices)
+                 (undefined) external _GEOPOICategoryFitnessCenter (from GeoServices)
+                 (undefined) external _GEOPOICategoryMovieTheater (from GeoServices)
+                 (undefined) external _GEOPOICategoryMusicVenue (from GeoServices)
+                 (undefined) external _GEOPOICategorySchool (from GeoServices)
+                 (undefined) external _GEOPOICategoryStadium (from GeoServices)
+                 (undefined) external _GEOPOICategoryTheater (from GeoServices)
+                 (undefined) external _LogPrintF (from CoreUtils)
+                 (undefined) external _NSErrorF (from CoreUtils)
+                 (undefined) external _NSOSStatusErrorDomain (from Foundation)
+                 (undefined) external _OBJC_CLASS_$_CLLocationManager (from CoreLocation)
+                 (undefined) external _OBJC_CLASS_$_GEOMapService (from GeoServices)
+                 (undefined) external _OBJC_CLASS_$_NSConstantFloatNumber (from Foundation)
+                 (undefined) external _OBJC_CLASS_$_NSConstantIntegerNumber (from Foundation)
+                 (undefined) external _OBJC_CLASS_$_NSDate (from CoreFoundation)
+                 (undefined) external _OBJC_CLASS_$_NSDictionary (from CoreFoundation)
+                 (undefined) external _OBJC_CLASS_$_NSMutableArray (from CoreFoundation)
+                 (undefined) external _OBJC_CLASS_$_NSMutableSet (from CoreFoundation)
+                 (undefined) external _OBJC_CLASS_$_NSNumber (from Foundation)
+                 (undefined) external _OBJC_CLASS_$_NSObject (from libobjc)
+                 (undefined) external _OBJC_CLASS_$_NSXPCInterface (from Foundation)
+                 (undefined) external _OBJC_CLASS_$_NSXPCListener (from Foundation)
+00000001000119d8 (__DATA,__objc_data) external _OBJC_CLASS_$_NoiseLevelSubscriber
+                 (undefined) external _OBJC_CLASS_$_OS_os_log (from libSystem)
+                 (undefined) external _OBJC_CLASS_$_RTRoutineManager (from CoreRoutine)
+                 (undefined) external _OBJC_CLASS_$_SPContext (from SensingPredictServices)
+0000000100011aa0 (__DATA,__objc_data) external _OBJC_CLASS_$_SPContextEngine
+0000000100011a50 (__DATA,__objc_data) external _OBJC_CLASS_$_SPLocationManager
+0000000100011b18 (__DATA,__objc_data) external _OBJC_CLASS_$_SPServicesXPCConnection
+0000000100011a00 (__DATA,__objc_data) external _OBJC_CLASS_$_SPSoundSensor
+0000000100011af0 (__DATA,__objc_data) external _OBJC_CLASS_$_SPXPCService
+0000000100011988 (__DATA,__objc_data) external _OBJC_CLASS_$_SoundSubscriber
+00080000000118b8 (__TEXT,__text) non-external _OBJC_IVAR_$_NoiseLevelSubscriber._callback
+00080000000118b4 (__TEXT,__text) non-external _OBJC_IVAR_$_NoiseLevelSubscriber._client
+0008000000011900 (__TEXT,__text) non-external _OBJC_IVAR_$_SPContextEngine._dispatchQueue
+0008000000011904 (__TEXT,__text) non-external _OBJC_IVAR_$_SPContextEngine._runLocationMonitoring
+0008000000011908 (__TEXT,__text) non-external _OBJC_IVAR_$_SPContextEngine._runSoundSensorModule
+000800000001190c (__TEXT,__text) non-external _OBJC_IVAR_$_SPContextEngine._spLocationManager
+0008000000011910 (__TEXT,__text) non-external _OBJC_IVAR_$_SPContextEngine._spSoundSensor
+00080000000118d8 (__TEXT,__text) non-external _OBJC_IVAR_$_SPLocationManager._authorizationStatus
+00080000000118dc (__TEXT,__text) non-external _OBJC_IVAR_$_SPLocationManager._currentLocationCategory
+00080000000118e0 (__TEXT,__text) non-external _OBJC_IVAR_$_SPLocationManager._dispatchQueue
+00080000000118e4 (__TEXT,__text) non-external _OBJC_IVAR_$_SPLocationManager._geoMapService
+00080000000118fc (__TEXT,__text) non-external _OBJC_IVAR_$_SPLocationManager._locationCategoryChangedHandler
+00080000000118e8 (__TEXT,__text) non-external _OBJC_IVAR_$_SPLocationManager._locationManager
+00080000000118f0 (__TEXT,__text) non-external _OBJC_IVAR_$_SPLocationManager._locationQueryExitTimer
+00080000000118ec (__TEXT,__text) non-external _OBJC_IVAR_$_SPLocationManager._locationQueryTimer
+00080000000118f4 (__TEXT,__text) non-external _OBJC_IVAR_$_SPLocationManager._monitoringVisits
+00080000000118f8 (__TEXT,__text) non-external _OBJC_IVAR_$_SPLocationManager._pollingLocation
+000800000001194c (__TEXT,__text) non-external _OBJC_IVAR_$_SPServicesXPCConnection._context
+0008000000011950 (__TEXT,__text) non-external _OBJC_IVAR_$_SPServicesXPCConnection._contextMonitor
+0008000000011954 (__TEXT,__text) non-external _OBJC_IVAR_$_SPServicesXPCConnection._dispatchQueue
+0008000000011948 (__TEXT,__text) non-external _OBJC_IVAR_$_SPServicesXPCConnection._entitled
+0008000000011958 (__TEXT,__text) non-external _OBJC_IVAR_$_SPServicesXPCConnection._xpcCnx
+000800000001195c (__TEXT,__text) non-external _OBJC_IVAR_$_SPServicesXPCConnection._xpcService
+00080000000118c0 (__TEXT,__text) non-external _OBJC_IVAR_$_SPSoundSensor._activateCalled
+00080000000118d4 (__TEXT,__text) non-external _OBJC_IVAR_$_SPSoundSensor._currentNoiseLevel
+00080000000118cc (__TEXT,__text) non-external _OBJC_IVAR_$_SPSoundSensor._currentSoundState
+00080000000118bc (__TEXT,__text) non-external _OBJC_IVAR_$_SPSoundSensor._dispatchQueue
+00080000000118c8 (__TEXT,__text) non-external _OBJC_IVAR_$_SPSoundSensor._noiseLevelSubscribers
+00080000000118c4 (__TEXT,__text) non-external _OBJC_IVAR_$_SPSoundSensor._soundSubscribers
+00080000000118d0 (__TEXT,__text) non-external _OBJC_IVAR_$_SPSoundSensor._soundTypeToThreshold
+000800000001191c (__TEXT,__text) non-external _OBJC_IVAR_$_SPXPCService._conextEventSignalPending
+0008000000011918 (__TEXT,__text) non-external _OBJC_IVAR_$_SPXPCService._contextEngine
+0008000000011920 (__TEXT,__text) non-external _OBJC_IVAR_$_SPXPCService._contextMonitor
+0008000000011914 (__TEXT,__text) non-external _OBJC_IVAR_$_SPXPCService._currentContext
+0008000000011924 (__TEXT,__text) non-external _OBJC_IVAR_$_SPXPCService._dispatchQueue
+0008000000011928 (__TEXT,__text) non-external _OBJC_IVAR_$_SPXPCService._locationCategory
+000800000001192c (__TEXT,__text) non-external _OBJC_IVAR_$_SPXPCService._locationUpdatePending
+0008000000011930 (__TEXT,__text) non-external _OBJC_IVAR_$_SPXPCService._prefsChangedNotifyToken
+0008000000011938 (__TEXT,__text) non-external _OBJC_IVAR_$_SPXPCService._prefsLocationCategory
+0008000000011934 (__TEXT,__text) non-external _OBJC_IVAR_$_SPXPCService._prefsOverrideLocationCategory
+000800000001193c (__TEXT,__text) non-external _OBJC_IVAR_$_SPXPCService._spFusedState
+0008000000011944 (__TEXT,__text) non-external _OBJC_IVAR_$_SPXPCService._xpcConnections
+0008000000011940 (__TEXT,__text) non-external _OBJC_IVAR_$_SPXPCService._xpcListener
+00080000000118b0 (__TEXT,__text) non-external _OBJC_IVAR_$_SoundSubscriber._callback
+00080000000118ac (__TEXT,__text) non-external _OBJC_IVAR_$_SoundSubscriber._client
+00080000000118a8 (__TEXT,__text) non-external _OBJC_IVAR_$_SoundSubscriber._soundType
+                 (undefined) external _OBJC_METACLASS_$_NSObject (from libobjc)
+00000001000119b0 (__DATA,__objc_data) external _OBJC_METACLASS_$_NoiseLevelSubscriber
+0000000100011ac8 (__DATA,__objc_data) external _OBJC_METACLASS_$_SPContextEngine
+0000000100011a78 (__DATA,__objc_data) external _OBJC_METACLASS_$_SPLocationManager
+0000000100011b68 (__DATA,__objc_data) external _OBJC_METACLASS_$_SPServicesXPCConnection
+0000000100011a28 (__DATA,__objc_data) external _OBJC_METACLASS_$_SPSoundSensor
+0000000100011b40 (__DATA,__objc_data) external _OBJC_METACLASS_$_SPXPCService
+0000000100011960 (__DATA,__objc_data) external _OBJC_METACLASS_$_SoundSubscriber
+                 (undefined) external __Block_object_assign (from libSystem)
+                 (undefined) external __Block_object_dispose (from libSystem)
+                 (undefined) external __LogCategory_Initialize (from CoreUtils)
+                 (undefined) external __NSConcreteGlobalBlock (from libSystem)
+                 (undefined) external __NSConcreteStackBlock (from libSystem)
+                 (undefined) external __Unwind_Resume (from libSystem)
+                 (undefined) external ___CFConstantStringClassReference (from CoreFoundation)
+                 (undefined) external ___kCFBooleanTrue (from CoreFoundation)
+                 (undefined) external ___objc_personality_v0 (from libobjc)
+                 (undefined) external ___stack_chk_fail (from libSystem)
+                 (undefined) external ___stack_chk_guard (from libSystem)
+                 (undefined) external __dispatch_source_type_timer (from libSystem)
+0000000100000000 (__TEXT,__text) [referenced dynamically] external __mh_execute_header
+                 (undefined) external __objc_empty_cache (from libobjc)
+                 (undefined) external __os_feature_enabled_impl (from libSystem)
+                 (undefined) external __os_log_default (from libSystem)
+                 (undefined) external __os_log_error_impl (from libSystem)
+                 (undefined) external __os_log_fault_impl (from libSystem)
+                 (undefined) weak external __swift_FORCE_LOAD_$_swiftCoreAudio (from libswiftCoreAudio)
+                 (undefined) weak external __swift_FORCE_LOAD_$_swiftCoreFoundation (from libswiftCoreFoundation)
+                 (undefined) weak external __swift_FORCE_LOAD_$_swiftDarwin (from libswiftDarwin)
+                 (undefined) weak external __swift_FORCE_LOAD_$_swiftDispatch (from libswiftDispatch)
+                 (undefined) weak external __swift_FORCE_LOAD_$_swiftFoundation (from Foundation)
+                 (undefined) weak external __swift_FORCE_LOAD_$_swiftIOKit (from libswiftIOKit)
+                 (undefined) weak external __swift_FORCE_LOAD_$_swiftOSLog (from libswiftOSLog)
+                 (undefined) weak external __swift_FORCE_LOAD_$_swiftObjectiveC (from libswiftObjectiveC)
+                 (undefined) weak external __swift_FORCE_LOAD_$_swiftUniformTypeIdentifiers (from libswiftUniformTypeIdentifiers)
+                 (undefined) weak external __swift_FORCE_LOAD_$_swiftXPC (from libswiftXPC)
+                 (undefined) weak external __swift_FORCE_LOAD_$_swift_Builtin_float (from libswift_Builtin_float)
+                 (undefined) weak external __swift_FORCE_LOAD_$_swift_errno (from libswift_errno)
+                 (undefined) weak external __swift_FORCE_LOAD_$_swift_math (from libswift_math)
+                 (undefined) weak external __swift_FORCE_LOAD_$_swift_signal (from libswift_signal)
+                 (undefined) weak external __swift_FORCE_LOAD_$_swift_stdio (from libswift_stdio)
+                 (undefined) weak external __swift_FORCE_LOAD_$_swift_time (from libswift_time)
+                 (undefined) weak external __swift_FORCE_LOAD_$_swiftos (from libswiftos)
+                 (undefined) weak external __swift_FORCE_LOAD_$_swiftsys_time (from libswiftsys_time)
+                 (undefined) weak external __swift_FORCE_LOAD_$_swiftunistd (from libswiftunistd)
+                 (undefined) external _dispatch_assert_queue$V2 (from libSystem)
+                 (undefined) external _dispatch_async (from libSystem)
+                 (undefined) external _dispatch_once (from libSystem)
+                 (undefined) external _dispatch_queue_attr_make_with_autorelease_frequency (from libSystem)
+                 (undefined) external _dispatch_queue_create (from libSystem)
+                 (undefined) external _dispatch_resume (from libSystem)
+                 (undefined) external _dispatch_source_cancel (from libSystem)
+                 (undefined) external _dispatch_source_create (from libSystem)
+                 (undefined) external _dispatch_source_set_event_handler (from libSystem)
+                 (undefined) external _dispatch_source_set_timer (from libSystem)
+                 (undefined) external _dispatch_time (from libSystem)
+                 (undefined) external _exit (from libSystem)
+                 (undefined) external _fcntl (from libSystem)
+                 (undefined) external _getenv (from libSystem)
+                 (undefined) external _kCLErrorDomain (from CoreLocation)
+00000001000059a8 (__TEXT,__text) external _main
+                 (undefined) external _notify_register_dispatch (from libSystem)
+                 (undefined) external _objc_alloc (from libobjc)
+                 (undefined) external _objc_alloc_init (from libobjc)
+                 (undefined) external _objc_autorelease (from libobjc)
+                 (undefined) external _objc_autoreleasePoolPop (from libobjc)
+                 (undefined) external _objc_autoreleasePoolPush (from libobjc)
+                 (undefined) external _objc_enumerationMutation (from libobjc)
+                 (undefined) external _objc_msgSend (from libobjc)
+                 (undefined) external _objc_msgSendSuper2 (from libobjc)
+                 (undefined) external _objc_opt_new (from libobjc)
+                 (undefined) external _objc_opt_respondsToSelector (from libobjc)
+                 (undefined) external _objc_opt_self (from libobjc)
+                 (undefined) external _objc_release (from libobjc)
+                 (undefined) external _objc_retain (from libobjc)
+                 (undefined) external _objc_retainAutoreleaseReturnValue (from libobjc)
+                 (undefined) external _objc_retainAutoreleasedReturnValue (from libobjc)
+                 (undefined) external _objc_retainBlock (from libobjc)
+                 (undefined) external _objc_setProperty_nonatomic_copy (from libobjc)
+                 (undefined) external _objc_storeStrong (from libobjc)
+                 (undefined) external _objc_terminate (from libobjc)
+                 (undefined) external _open (from libSystem)
+                 (undefined) external _os_log_type_enabled (from libSystem)
+                 (undefined) external _sandbox_init_with_parameters (from libSystem)
+                 (undefined) external _swift_getObjCClassMetadata (from libswiftCore)
+                 (undefined) external _swift_once (from libswiftCore)

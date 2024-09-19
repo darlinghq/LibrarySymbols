@@ -1,0 +1,760 @@
+0000000223085860 (__TEXT,__text) non-external +[TPCCallstackMatching calculateStatisticsAndDetermineMatching:inspectionSignatureObjectDict:boundaries:thirdPartyFrames:count:triggerFrame:]
+000000022308afdc (__TEXT,__text) non-external +[TPCCallstackMatching calculateStatisticsAndDetermineMatching:inspectionSignatureObjectDict:boundaries:thirdPartyFrames:count:triggerFrame:].cold.1
+000000022308b008 (__TEXT,__text) non-external +[TPCCallstackMatching calculateStatisticsAndDetermineMatching:inspectionSignatureObjectDict:boundaries:thirdPartyFrames:count:triggerFrame:].cold.2
+000000022308b040 (__TEXT,__text) non-external +[TPCCallstackMatching calculateStatisticsAndDetermineMatching:inspectionSignatureObjectDict:boundaries:thirdPartyFrames:count:triggerFrame:].cold.3
+00000002230876e4 (__TEXT,__text) non-external +[TPCCallstackMatching checkDirectFrameInvocation:inspectedSignatureObjectDict:store:]
+0000000223087158 (__TEXT,__text) non-external +[TPCCallstackMatching checkPresenceOfFrame:inspectedSignatureObjectDict:store:frameType:]
+00000002230878d8 (__TEXT,__text) non-external +[TPCCallstackMatching checkPresenceOfSpecialSQLiteFrames:inspectedSignatureObjectDict:store:]
+0000000223088cc8 (__TEXT,__text) non-external +[TPCCallstackMatching fillDiagnosticMessage:diagnostics:details:format:]
+00000002230850cc (__TEXT,__text) non-external +[TPCCallstackMatching findAncestorSignatureObjectForSameLog:object:levels:store:]
+000000022308af58 (__TEXT,__text) non-external +[TPCCallstackMatching findAncestorSignatureObjectForSameLog:object:levels:store:].cold.1
+000000022308af84 (__TEXT,__text) non-external +[TPCCallstackMatching findAncestorSignatureObjectForSameLog:object:levels:store:].cold.2
+0000000223084ea4 (__TEXT,__text) non-external +[TPCCallstackMatching findApproximateAncestorSignatureObjectForSameLog:object:levels:store:threshold:]
+000000022308af00 (__TEXT,__text) non-external +[TPCCallstackMatching findApproximateAncestorSignatureObjectForSameLog:object:levels:store:threshold:].cold.1
+000000022308af2c (__TEXT,__text) non-external +[TPCCallstackMatching findApproximateAncestorSignatureObjectForSameLog:object:levels:store:threshold:].cold.2
+0000000223085294 (__TEXT,__text) non-external +[TPCCallstackMatching findNextSignatureObjectForSameLog:object:levels:]
+000000022308afb0 (__TEXT,__text) non-external +[TPCCallstackMatching findNextSignatureObjectForSameLog:object:levels:].cold.1
+0000000223086ed0 (__TEXT,__text) non-external +[TPCCallstackMatching frameCountBeforeBoundaryInSignature:]
+00000002230873d8 (__TEXT,__text) non-external +[TPCCallstackMatching isAncestorThirdPartyFrame:object:]
+00000002230855b0 (__TEXT,__text) non-external +[TPCCallstackMatching isLastRegionSimilarToBacktrace:score:]
+0000000223087670 (__TEXT,__text) non-external +[TPCCallstackMatching isWALCheckpointFrame:]
+000000022308475c (__TEXT,__text) non-external +[TPCCallstackMatching shouldSuppress:thirdPartyFrameCount:]
+0000000223086d90 (__TEXT,__text) non-external +[TPCCallstackMatching signatureFrameIsBoundary:]
+000000022308485c (__TEXT,__text) non-external +[TPCCallstackMatching validateBacktrace:error:]
+0000000223084ce0 (__TEXT,__text) non-external +[TPCCallstackMatching validateUltimateAncestorIsRoot:store:]
+000000022308a4d0 (__TEXT,__text) non-external +[TPCSignatureObject isBlockInvokeFrame:]
+000000022308a958 (__TEXT,__text) non-external +[TPCSignatureObject isEqualToCleansedString:string2:]
+000000022308a5c4 (__TEXT,__text) non-external +[TPCSignatureObject isSwiftClosureFrame:]
+000000022308a6b8 (__TEXT,__text) non-external +[TPCSignatureObject retrieveModifiedFrame:frameType:]
+00000002230824f0 (__TEXT,__text) non-external +[TPCSignatureStore editDistance:backtraceString:]
+00000002230826f8 (__TEXT,__text) non-external +[TPCSignatureStore isApproximateMatch:backtraceString:threshold:distancePercentage:]
+0000000223082c48 (__TEXT,__text) non-external +[TPCSignatureStore isValidLogSchema:logFormat:error:]
+000000022308399c (__TEXT,__text) non-external +[TPCSignatureStore supportedFormatTypes]
+0000000223084700 (__TEXT,__text) non-external -[InspectedSignatureObject .cxx_destruct]
+00000002230846ec (__TEXT,__text) non-external -[InspectedSignatureObject currentRegion]
+0000000223084678 (__TEXT,__text) non-external -[InspectedSignatureObject direct_wal_checkpoint_invocation]
+0000000223084668 (__TEXT,__text) non-external -[InspectedSignatureObject has_trigger_frame]
+00000002230842c0 (__TEXT,__text) non-external -[InspectedSignatureObject init]
+00000002230846c8 (__TEXT,__text) non-external -[InspectedSignatureObject last3PFrame]
+00000002230846a8 (__TEXT,__text) non-external -[InspectedSignatureObject log_number]
+0000000223084658 (__TEXT,__text) non-external -[InspectedSignatureObject lowest_3P_frame_seen]
+00000002230846b8 (__TEXT,__text) non-external -[InspectedSignatureObject matchStartOffsetFromLast3PFrame]
+0000000223084604 (__TEXT,__text) non-external -[InspectedSignatureObject obj]
+00000002230846d8 (__TEXT,__text) non-external -[InspectedSignatureObject regionsArray]
+00000002230846f4 (__TEXT,__text) non-external -[InspectedSignatureObject setCurrentRegion:]
+0000000223084680 (__TEXT,__text) non-external -[InspectedSignatureObject setDirect_wal_checkpoint_invocation:]
+0000000223084670 (__TEXT,__text) non-external -[InspectedSignatureObject setHas_trigger_frame:]
+00000002230846d0 (__TEXT,__text) non-external -[InspectedSignatureObject setLast3PFrame:]
+00000002230846b0 (__TEXT,__text) non-external -[InspectedSignatureObject setLog_number:]
+0000000223084660 (__TEXT,__text) non-external -[InspectedSignatureObject setLowest_3P_frame_seen:]
+00000002230846c0 (__TEXT,__text) non-external -[InspectedSignatureObject setMatchStartOffsetFromLast3PFrame:]
+000000022308460c (__TEXT,__text) non-external -[InspectedSignatureObject setObj:]
+00000002230846e0 (__TEXT,__text) non-external -[InspectedSignatureObject setRegionsArray:]
+0000000223084690 (__TEXT,__text) non-external -[InspectedSignatureObject setSpecial_frame:]
+00000002230846a0 (__TEXT,__text) non-external -[InspectedSignatureObject setSqlite_usage:]
+0000000223084620 (__TEXT,__text) non-external -[InspectedSignatureObject setTotal_1P_to_3P_boundary_matches:]
+0000000223084640 (__TEXT,__text) non-external -[InspectedSignatureObject setTotal_3P_frame_matches:]
+0000000223084630 (__TEXT,__text) non-external -[InspectedSignatureObject setTotal_last_contiguous_1P_to_3P_boundary_matches:]
+0000000223084650 (__TEXT,__text) non-external -[InspectedSignatureObject setTotal_last_contiguous_3P_frame_matches:]
+0000000223084688 (__TEXT,__text) non-external -[InspectedSignatureObject special_frame]
+0000000223084698 (__TEXT,__text) non-external -[InspectedSignatureObject sqlite_usage]
+0000000223084618 (__TEXT,__text) non-external -[InspectedSignatureObject total_1P_to_3P_boundary_matches]
+0000000223084638 (__TEXT,__text) non-external -[InspectedSignatureObject total_3P_frame_matches]
+0000000223084628 (__TEXT,__text) non-external -[InspectedSignatureObject total_last_contiguous_1P_to_3P_boundary_matches]
+0000000223084648 (__TEXT,__text) non-external -[InspectedSignatureObject total_last_contiguous_3P_frame_matches]
+000000022308447c (__TEXT,__text) non-external -[InspectedSignatureObject updateRegionStats:distance:region:]
+00000002230843c0 (__TEXT,__text) non-external -[InspectedSignatureObject updateUnhandledFrameStats:]
+00000002230842b4 (__TEXT,__text) non-external -[RegionStats .cxx_destruct]
+00000002230842a4 (__TEXT,__text) non-external -[RegionStats determined_signature_boundary]
+00000002230841d8 (__TEXT,__text) non-external -[RegionStats init]
+0000000223084250 (__TEXT,__text) non-external -[RegionStats is_third_party_region]
+00000002230842ac (__TEXT,__text) non-external -[RegionStats setDetermined_signature_boundary:]
+0000000223084258 (__TEXT,__text) non-external -[RegionStats setIs_third_party_region:]
+0000000223084288 (__TEXT,__text) non-external -[RegionStats setTotal_approximate_matches:]
+0000000223084298 (__TEXT,__text) non-external -[RegionStats setTotal_distance_percentage_match_histogram:]
+0000000223084278 (__TEXT,__text) non-external -[RegionStats setTotal_exact_matches:]
+0000000223084268 (__TEXT,__text) non-external -[RegionStats setTotal_frames:]
+0000000223084280 (__TEXT,__text) non-external -[RegionStats total_approximate_matches]
+0000000223084290 (__TEXT,__text) non-external -[RegionStats total_distance_percentage_match_histogram]
+0000000223084270 (__TEXT,__text) non-external -[RegionStats total_exact_matches]
+0000000223084260 (__TEXT,__text) non-external -[RegionStats total_frames]
+000000022308a290 (__TEXT,__text) non-external -[TPCCallstackMatching diagnosticsDictionaryForDiagnostics:]
+0000000223087490 (__TEXT,__text) non-external -[TPCCallstackMatching isCallerThirdPartyFrame:level:backtrace:]
+000000022308ada8 (__TEXT,__text) non-external -[TPCCallstackMatching isCallerThirdPartyFrame:level:backtrace:].cold.1
+000000022308a1b4 (__TEXT,__text) non-external -[TPCCallstackMatching issueTypeFromDiagnostics:]
+000000022308993c (__TEXT,__text) non-external -[TPCCallstackMatching matchNThirdPartyFrames:store:percent:diagnostics:error:]
+00000002230890c4 (__TEXT,__text) non-external -[TPCCallstackMatching matchPartialLastNAPIBoundaries:store:count:diagnostics:error:]
+0000000223089550 (__TEXT,__text) non-external -[TPCCallstackMatching matchPartialLastNThirdPartyFrames:store:count:diagnostics:error:]
+0000000223089aac (__TEXT,__text) non-external -[TPCCallstackMatching matchWithSignatures:store:type:diagnostics:error:]
+0000000223087b60 (__TEXT,__text) non-external -[TPCCallstackMatching traverseAndMatchStore:store:count:triggerFrame:error:]
+000000022308add4 (__TEXT,__text) non-external -[TPCCallstackMatching traverseAndMatchStore:store:count:triggerFrame:error:].cold.1
+000000022308b06c (__TEXT,__text) non-external -[TPCCallstackMatching traverseAndMatchStore:store:count:triggerFrame:error:].cold.2
+000000022308b098 (__TEXT,__text) non-external -[TPCCallstackMatching traverseAndMatchStore:store:count:triggerFrame:error:].cold.3
+000000022308b0d0 (__TEXT,__text) non-external -[TPCCallstackMatching traverseAndMatchStore:store:count:triggerFrame:error:].cold.4
+000000022308b0fc (__TEXT,__text) non-external -[TPCCallstackMatching traverseAndMatchStore:store:count:triggerFrame:error:].cold.5
+000000022308ada8 (__TEXT,__text) non-external -[TPCCallstackMatching traverseAndMatchStore:store:count:triggerFrame:error:].cold.6
+000000022308ada8 (__TEXT,__text) non-external -[TPCCallstackMatching traverseAndMatchStore:store:count:triggerFrame:error:].cold.7
+000000022307f984 (__TEXT,__text) non-external -[TPCLogFormatTypeWrapper format]
+000000022307f98c (__TEXT,__text) non-external -[TPCLogFormatTypeWrapper setFormat:]
+00000002230840cc (__TEXT,__text) non-external -[TPCMatchDetails .cxx_destruct]
+0000000223083f70 (__TEXT,__text) non-external -[TPCMatchDetails additionalDiagnosticText]
+0000000223083fa0 (__TEXT,__text) non-external -[TPCMatchDetails antipatternTrigger]
+0000000223084038 (__TEXT,__text) non-external -[TPCMatchDetails category]
+0000000223083f60 (__TEXT,__text) non-external -[TPCMatchDetails fullMessage]
+0000000223084048 (__TEXT,__text) non-external -[TPCMatchDetails helpURL]
+0000000223083c4c (__TEXT,__text) non-external -[TPCMatchDetails init]
+0000000223083fb0 (__TEXT,__text) non-external -[TPCMatchDetails insightDescriptionForSignaturesWithCommon3PFrames]
+0000000223083fd0 (__TEXT,__text) non-external -[TPCMatchDetails insightDescriptionForSignaturesWithCommonLast3PFrames]
+0000000223083ff0 (__TEXT,__text) non-external -[TPCMatchDetails insightDescriptionForSignaturesWithSimilarLast3PRegion]
+0000000223083fc0 (__TEXT,__text) non-external -[TPCMatchDetails insightDescriptionForSignaturesWithTriggerFrameAndCommon3PFrames]
+0000000223083fe0 (__TEXT,__text) non-external -[TPCMatchDetails insightDescriptionForSignaturesWithTriggerFrameAndCommonLast3PFrames]
+0000000223084000 (__TEXT,__text) non-external -[TPCMatchDetails insightDescriptionForSignaturesWithTriggerFrameAndSimilarLast3PRegion]
+0000000223083f40 (__TEXT,__text) non-external -[TPCMatchDetails isApproximateMatch]
+0000000223083f30 (__TEXT,__text) non-external -[TPCMatchDetails isMatch]
+0000000223083f90 (__TEXT,__text) non-external -[TPCMatchDetails issueType]
+0000000223083f80 (__TEXT,__text) non-external -[TPCMatchDetails last3PFrame]
+0000000223083f10 (__TEXT,__text) non-external -[TPCMatchDetails matchStartOffsetFromLast3PFrame]
+0000000223084090 (__TEXT,__text) non-external -[TPCMatchDetails matchedSignaturesWithCommon3PFramesMetaData]
+00000002230840a4 (__TEXT,__text) non-external -[TPCMatchDetails matchedSignaturesWithCommonLast3PFramesMetaData]
+00000002230840b8 (__TEXT,__text) non-external -[TPCMatchDetails matchedSignaturesWithSimilarLast3PRegion]
+0000000223084058 (__TEXT,__text) non-external -[TPCMatchDetails recommendedMatchedSignatureMetaData]
+0000000223083f78 (__TEXT,__text) non-external -[TPCMatchDetails setAdditionalDiagnosticText:]
+0000000223083fa8 (__TEXT,__text) non-external -[TPCMatchDetails setAntipatternTrigger:]
+0000000223084040 (__TEXT,__text) non-external -[TPCMatchDetails setCategory:]
+0000000223083f68 (__TEXT,__text) non-external -[TPCMatchDetails setFullMessage:]
+0000000223084050 (__TEXT,__text) non-external -[TPCMatchDetails setHelpURL:]
+0000000223083fb8 (__TEXT,__text) non-external -[TPCMatchDetails setInsightDescriptionForSignaturesWithCommon3PFrames:]
+0000000223083fd8 (__TEXT,__text) non-external -[TPCMatchDetails setInsightDescriptionForSignaturesWithCommonLast3PFrames:]
+0000000223083ff8 (__TEXT,__text) non-external -[TPCMatchDetails setInsightDescriptionForSignaturesWithSimilarLast3PRegion:]
+0000000223083fc8 (__TEXT,__text) non-external -[TPCMatchDetails setInsightDescriptionForSignaturesWithTriggerFrameAndCommon3PFrames:]
+0000000223083fe8 (__TEXT,__text) non-external -[TPCMatchDetails setInsightDescriptionForSignaturesWithTriggerFrameAndCommonLast3PFrames:]
+0000000223084008 (__TEXT,__text) non-external -[TPCMatchDetails setInsightDescriptionForSignaturesWithTriggerFrameAndSimilarLast3PRegion:]
+0000000223083f48 (__TEXT,__text) non-external -[TPCMatchDetails setIsApproximateMatch:]
+0000000223083f38 (__TEXT,__text) non-external -[TPCMatchDetails setIsMatch:]
+0000000223083f98 (__TEXT,__text) non-external -[TPCMatchDetails setIssueType:]
+0000000223083f88 (__TEXT,__text) non-external -[TPCMatchDetails setLast3PFrame:]
+0000000223083f18 (__TEXT,__text) non-external -[TPCMatchDetails setMatchStartOffsetFromLast3PFrame:]
+0000000223084098 (__TEXT,__text) non-external -[TPCMatchDetails setMatchedSignaturesWithCommon3PFramesMetaData:]
+00000002230840ac (__TEXT,__text) non-external -[TPCMatchDetails setMatchedSignaturesWithCommonLast3PFramesMetaData:]
+00000002230840c0 (__TEXT,__text) non-external -[TPCMatchDetails setMatchedSignaturesWithSimilarLast3PRegion:]
+0000000223084084 (__TEXT,__text) non-external -[TPCMatchDetails setRecommendedMatchedSignatureMetaData:]
+0000000223083f58 (__TEXT,__text) non-external -[TPCMatchDetails setShouldSuppress:]
+0000000223084018 (__TEXT,__text) non-external -[TPCMatchDetails setSignatureVersionsWithCommonLast3PFrames:]
+000000022308402c (__TEXT,__text) non-external -[TPCMatchDetails setSignatureVersionsWithTriggerFrameAndCommonLast3PFrames:]
+0000000223083df8 (__TEXT,__text) non-external -[TPCMatchDetails setSignaturesWithAllCommon3PFrames:]
+0000000223083dd8 (__TEXT,__text) non-external -[TPCMatchDetails setSignaturesWithAllCommonAPIBoundaries:]
+0000000223083de8 (__TEXT,__text) non-external -[TPCMatchDetails setSignaturesWithCommon3PFrames:]
+0000000223083dc8 (__TEXT,__text) non-external -[TPCMatchDetails setSignaturesWithCommonAPIBoundaries:]
+0000000223083e28 (__TEXT,__text) non-external -[TPCMatchDetails setSignaturesWithCommonLast3PFrames:]
+0000000223083e18 (__TEXT,__text) non-external -[TPCMatchDetails setSignaturesWithCommonLastContiguous3PFrames:]
+0000000223083e08 (__TEXT,__text) non-external -[TPCMatchDetails setSignaturesWithCommonLastContiguousAPIBoundaries:]
+0000000223083e68 (__TEXT,__text) non-external -[TPCMatchDetails setSignaturesWithDirectWalCheckpointInvocationAndCommon3PFrames:]
+0000000223083e78 (__TEXT,__text) non-external -[TPCMatchDetails setSignaturesWithDirectWalCheckpointInvocationAndCommonLast3PFrame:]
+0000000223083e88 (__TEXT,__text) non-external -[TPCMatchDetails setSignaturesWithDirectWalCheckpointInvocationAndSimilarLast3PRegions:]
+0000000223083eb8 (__TEXT,__text) non-external -[TPCMatchDetails setSignaturesWithInsightAndCommon3PFrames:]
+0000000223083ec8 (__TEXT,__text) non-external -[TPCMatchDetails setSignaturesWithInsightAndCommonLast3PFrames:]
+0000000223083ed8 (__TEXT,__text) non-external -[TPCMatchDetails setSignaturesWithInsightAndSimilarLast3PRegions:]
+0000000223083e98 (__TEXT,__text) non-external -[TPCMatchDetails setSignaturesWithSimilarLast3PRegions:]
+0000000223083e48 (__TEXT,__text) non-external -[TPCMatchDetails setSignaturesWithTriggerFrameAndCommon3PFrames:]
+0000000223083e58 (__TEXT,__text) non-external -[TPCMatchDetails setSignaturesWithTriggerFrameAndCommonLast3PFrames:]
+0000000223083ea8 (__TEXT,__text) non-external -[TPCMatchDetails setSignaturesWithTriggerFrameAndSimilarLast3PRegions:]
+0000000223083ee8 (__TEXT,__text) non-external -[TPCMatchDetails setSignaturesWithTriggerFrameInsightAndCommon3PFrames:]
+0000000223083ef8 (__TEXT,__text) non-external -[TPCMatchDetails setSignaturesWithTriggerFrameInsightAndCommonLast3PFrames:]
+0000000223083f08 (__TEXT,__text) non-external -[TPCMatchDetails setSignaturesWithTriggerFrameInsightAndSimilarLast3PRegions:]
+0000000223083e38 (__TEXT,__text) non-external -[TPCMatchDetails setSignaturesWithTriggerFrames:]
+0000000223083f28 (__TEXT,__text) non-external -[TPCMatchDetails setValidMatchResult:]
+0000000223083f50 (__TEXT,__text) non-external -[TPCMatchDetails shouldSuppress]
+0000000223084010 (__TEXT,__text) non-external -[TPCMatchDetails signatureVersionsWithCommonLast3PFrames]
+0000000223084024 (__TEXT,__text) non-external -[TPCMatchDetails signatureVersionsWithTriggerFrameAndCommonLast3PFrames]
+0000000223083df0 (__TEXT,__text) non-external -[TPCMatchDetails signaturesWithAllCommon3PFrames]
+0000000223083dd0 (__TEXT,__text) non-external -[TPCMatchDetails signaturesWithAllCommonAPIBoundaries]
+0000000223083de0 (__TEXT,__text) non-external -[TPCMatchDetails signaturesWithCommon3PFrames]
+0000000223083dc0 (__TEXT,__text) non-external -[TPCMatchDetails signaturesWithCommonAPIBoundaries]
+0000000223083e20 (__TEXT,__text) non-external -[TPCMatchDetails signaturesWithCommonLast3PFrames]
+0000000223083e10 (__TEXT,__text) non-external -[TPCMatchDetails signaturesWithCommonLastContiguous3PFrames]
+0000000223083e00 (__TEXT,__text) non-external -[TPCMatchDetails signaturesWithCommonLastContiguousAPIBoundaries]
+0000000223083e60 (__TEXT,__text) non-external -[TPCMatchDetails signaturesWithDirectWalCheckpointInvocationAndCommon3PFrames]
+0000000223083e70 (__TEXT,__text) non-external -[TPCMatchDetails signaturesWithDirectWalCheckpointInvocationAndCommonLast3PFrame]
+0000000223083e80 (__TEXT,__text) non-external -[TPCMatchDetails signaturesWithDirectWalCheckpointInvocationAndSimilarLast3PRegions]
+0000000223083eb0 (__TEXT,__text) non-external -[TPCMatchDetails signaturesWithInsightAndCommon3PFrames]
+0000000223083ec0 (__TEXT,__text) non-external -[TPCMatchDetails signaturesWithInsightAndCommonLast3PFrames]
+0000000223083ed0 (__TEXT,__text) non-external -[TPCMatchDetails signaturesWithInsightAndSimilarLast3PRegions]
+0000000223083e90 (__TEXT,__text) non-external -[TPCMatchDetails signaturesWithSimilarLast3PRegions]
+0000000223083e40 (__TEXT,__text) non-external -[TPCMatchDetails signaturesWithTriggerFrameAndCommon3PFrames]
+0000000223083e50 (__TEXT,__text) non-external -[TPCMatchDetails signaturesWithTriggerFrameAndCommonLast3PFrames]
+0000000223083ea0 (__TEXT,__text) non-external -[TPCMatchDetails signaturesWithTriggerFrameAndSimilarLast3PRegions]
+0000000223083ee0 (__TEXT,__text) non-external -[TPCMatchDetails signaturesWithTriggerFrameInsightAndCommon3PFrames]
+0000000223083ef0 (__TEXT,__text) non-external -[TPCMatchDetails signaturesWithTriggerFrameInsightAndCommonLast3PFrames]
+0000000223083f00 (__TEXT,__text) non-external -[TPCMatchDetails signaturesWithTriggerFrameInsightAndSimilarLast3PRegions]
+0000000223083e30 (__TEXT,__text) non-external -[TPCMatchDetails signaturesWithTriggerFrames]
+0000000223083f20 (__TEXT,__text) non-external -[TPCMatchDetails validMatchResult]
+0000000223083be4 (__TEXT,__text) non-external -[TPCSignatureMetadata .cxx_destruct]
+0000000223083b94 (__TEXT,__text) non-external -[TPCSignatureMetadata build]
+0000000223083bc4 (__TEXT,__text) non-external -[TPCSignatureMetadata dataUUID]
+0000000223083b0c (__TEXT,__text) non-external -[TPCSignatureMetadata init]
+0000000223083b9c (__TEXT,__text) non-external -[TPCSignatureMetadata setBuild:]
+0000000223083bcc (__TEXT,__text) non-external -[TPCSignatureMetadata setDataUUID:]
+0000000223083bbc (__TEXT,__text) non-external -[TPCSignatureMetadata setSignatureID:]
+0000000223083bdc (__TEXT,__text) non-external -[TPCSignatureMetadata setUrl:]
+0000000223083bac (__TEXT,__text) non-external -[TPCSignatureMetadata setVersion:]
+0000000223083bb4 (__TEXT,__text) non-external -[TPCSignatureMetadata signatureID]
+0000000223083bd4 (__TEXT,__text) non-external -[TPCSignatureMetadata url]
+0000000223083ba4 (__TEXT,__text) non-external -[TPCSignatureMetadata version]
+000000022308ac88 (__TEXT,__text) non-external -[TPCSignatureObject .cxx_destruct]
+000000022308ab44 (__TEXT,__text) non-external -[TPCSignatureObject build]
+000000022308abf8 (__TEXT,__text) non-external -[TPCSignatureObject childrenCount]
+000000022308ac74 (__TEXT,__text) non-external -[TPCSignatureObject children]
+000000022308ab74 (__TEXT,__text) non-external -[TPCSignatureObject dataUUID]
+000000022308abd8 (__TEXT,__text) non-external -[TPCSignatureObject diskWritePercentage]
+000000022308ac28 (__TEXT,__text) non-external -[TPCSignatureObject frameType]
+000000022308ab54 (__TEXT,__text) non-external -[TPCSignatureObject function]
+000000022308abc8 (__TEXT,__text) non-external -[TPCSignatureObject hangTime]
+000000022308a3f4 (__TEXT,__text) non-external -[TPCSignatureObject init]
+000000022308aba4 (__TEXT,__text) non-external -[TPCSignatureObject insight]
+000000022308ac08 (__TEXT,__text) non-external -[TPCSignatureObject isSymbolicated]
+000000022308ac18 (__TEXT,__text) non-external -[TPCSignatureObject isThirdParty]
+000000022308abb8 (__TEXT,__text) non-external -[TPCSignatureObject logNumber]
+000000022308ac38 (__TEXT,__text) non-external -[TPCSignatureObject nextWithSameKey]
+000000022308abe8 (__TEXT,__text) non-external -[TPCSignatureObject occurrenceCount]
+000000022308ac60 (__TEXT,__text) non-external -[TPCSignatureObject parent]
+000000022308ab64 (__TEXT,__text) non-external -[TPCSignatureObject path]
+000000022308ac4c (__TEXT,__text) non-external -[TPCSignatureObject previousWithSameKey]
+000000022308ab4c (__TEXT,__text) non-external -[TPCSignatureObject setBuild:]
+000000022308ac7c (__TEXT,__text) non-external -[TPCSignatureObject setChildren:]
+000000022308ac00 (__TEXT,__text) non-external -[TPCSignatureObject setChildrenCount:]
+000000022308ab7c (__TEXT,__text) non-external -[TPCSignatureObject setDataUUID:]
+000000022308abe0 (__TEXT,__text) non-external -[TPCSignatureObject setDiskWritePercentage:]
+000000022308ac30 (__TEXT,__text) non-external -[TPCSignatureObject setFrameType:]
+000000022308ab5c (__TEXT,__text) non-external -[TPCSignatureObject setFunction:]
+000000022308abd0 (__TEXT,__text) non-external -[TPCSignatureObject setHangTime:]
+000000022308abac (__TEXT,__text) non-external -[TPCSignatureObject setInsight:]
+000000022308ac10 (__TEXT,__text) non-external -[TPCSignatureObject setIsSymbolicated:]
+000000022308ac20 (__TEXT,__text) non-external -[TPCSignatureObject setIsThirdParty:]
+000000022308abc0 (__TEXT,__text) non-external -[TPCSignatureObject setLogNumber:]
+000000022308ac40 (__TEXT,__text) non-external -[TPCSignatureObject setNextWithSameKey:]
+000000022308abf0 (__TEXT,__text) non-external -[TPCSignatureObject setOccurrenceCount:]
+000000022308ac68 (__TEXT,__text) non-external -[TPCSignatureObject setParent:]
+000000022308ab6c (__TEXT,__text) non-external -[TPCSignatureObject setPath:]
+000000022308ac54 (__TEXT,__text) non-external -[TPCSignatureObject setPreviousWithSameKey:]
+000000022308ab8c (__TEXT,__text) non-external -[TPCSignatureObject setSignatureID:]
+000000022308ab9c (__TEXT,__text) non-external -[TPCSignatureObject setUrl:]
+000000022308ab3c (__TEXT,__text) non-external -[TPCSignatureObject setVersion:]
+000000022308ab84 (__TEXT,__text) non-external -[TPCSignatureObject signatureID]
+000000022308ab94 (__TEXT,__text) non-external -[TPCSignatureObject url]
+000000022308ab34 (__TEXT,__text) non-external -[TPCSignatureObject version]
+0000000223083abc (__TEXT,__text) non-external -[TPCSignatureStore .cxx_destruct]
+00000002230800ac (__TEXT,__text) non-external -[TPCSignatureStore addFrameToSubstringMap:]
+0000000223080338 (__TEXT,__text) non-external -[TPCSignatureStore addObjectInSSForKey:object:]
+000000022308ad44 (__TEXT,__text) non-external -[TPCSignatureStore addObjectInSSForKey:object:].cold.1
+000000022308ad7c (__TEXT,__text) non-external -[TPCSignatureStore addObjectInSSForKey:object:].cold.2
+000000022308ada8 (__TEXT,__text) non-external -[TPCSignatureStore addObjectInSSForKey:object:].cold.3
+000000022308add4 (__TEXT,__text) non-external -[TPCSignatureStore addObjectInSSForKey:object:].cold.4
+000000022308ae00 (__TEXT,__text) non-external -[TPCSignatureStore addObjectInSSForKey:object:].cold.5
+000000022308ae2c (__TEXT,__text) non-external -[TPCSignatureStore addObjectInSSForKey:object:].cold.6
+000000022308ae64 (__TEXT,__text) non-external -[TPCSignatureStore addObjectInSSForKey:object:].cold.7
+0000000223082c38 (__TEXT,__text) non-external -[TPCSignatureStore getLogFormatType]
+0000000223082c40 (__TEXT,__text) non-external -[TPCSignatureStore getLogFormatVersion]
+0000000223082c30 (__TEXT,__text) non-external -[TPCSignatureStore getRoots]
+000000022307f9c0 (__TEXT,__text) non-external -[TPCSignatureStore initSignatureLogStore]
+000000022307f994 (__TEXT,__text) non-external -[TPCSignatureStore init]
+000000022307ff34 (__TEXT,__text) non-external -[TPCSignatureStore isSignatureStoreUsable:]
+000000022307fb34 (__TEXT,__text) non-external -[TPCSignatureStore isValidSignatureStoreInvariant]
+00000002230827f0 (__TEXT,__text) non-external -[TPCSignatureStore lookupApproximateFrameInSignatureStore:threshold:distancePercentage:]
+00000002230827a4 (__TEXT,__text) non-external -[TPCSignatureStore lookupFrameInSignatureStore:]
+0000000223080768 (__TEXT,__text) non-external -[TPCSignatureStore populateSignatureStore:logFormat:formatVersion:error:]
+000000022308bf4c (__TEXT,__gcc_except_tab) non-external GCC_except_table24
+000000022308bf74 (__TEXT,__gcc_except_tab) non-external GCC_except_table25
+000000022308bf8c (__TEXT,__gcc_except_tab) non-external GCC_except_table26
+000000022308bef0 (__TEXT,__gcc_except_tab) non-external GCC_except_table8
+000000022308bec0 (__TEXT,__const) non-external (was a private external) _CallstackAnalysisVersionNumber
+000000022308be70 (__TEXT,__const) non-external (was a private external) _CallstackAnalysisVersionString
+                 (undefined) external _NSLog (from Foundation)
+000000026fe1cac0 (__AUTH,__objc_data) non-external (was a private external) _OBJC_CLASS_$_InspectedSignatureObject
+                 (undefined) external _OBJC_CLASS_$_NSArray (from CoreFoundation)
+                 (undefined) external _OBJC_CLASS_$_NSBundle (from Foundation)
+                 (undefined) external _OBJC_CLASS_$_NSConstantArray (from CoreFoundation)
+                 (undefined) external _OBJC_CLASS_$_NSConstantDictionary (from CoreFoundation)
+                 (undefined) external _OBJC_CLASS_$_NSConstantIntegerNumber (from Foundation)
+                 (undefined) external _OBJC_CLASS_$_NSDictionary (from CoreFoundation)
+                 (undefined) external _OBJC_CLASS_$_NSError (from Foundation)
+                 (undefined) external _OBJC_CLASS_$_NSJSONSerialization (from Foundation)
+                 (undefined) external _OBJC_CLASS_$_NSMutableArray (from CoreFoundation)
+                 (undefined) external _OBJC_CLASS_$_NSMutableDictionary (from CoreFoundation)
+                 (undefined) external _OBJC_CLASS_$_NSNumber (from Foundation)
+                 (undefined) external _OBJC_CLASS_$_NSObject (from libobjc)
+                 (undefined) external _OBJC_CLASS_$_NSRegularExpression (from Foundation)
+                 (undefined) external _OBJC_CLASS_$_NSString (from Foundation)
+                 (undefined) external _OBJC_CLASS_$_NSUserDefaults (from CoreFoundation)
+000000026fe1ca70 (__AUTH,__objc_data) non-external (was a private external) _OBJC_CLASS_$_RegionStats
+000000026fe1cb10 (__AUTH,__objc_data) external _OBJC_CLASS_$_TPCCallstackMatching
+000000026fe1c958 (__AUTH,__objc_data) external _OBJC_CLASS_$_TPCLogFormatTypeWrapper
+000000026fe1ca20 (__AUTH,__objc_data) external _OBJC_CLASS_$_TPCMatchDetails
+000000026fe1c9d0 (__AUTH,__objc_data) external _OBJC_CLASS_$_TPCSignatureMetadata
+000000026fe1cb60 (__AUTH,__objc_data) non-external (was a private external) _OBJC_CLASS_$_TPCSignatureObject
+000000026fe1c980 (__AUTH,__objc_data) external _OBJC_CLASS_$_TPCSignatureStore
+000000026d3a0cbc (__DATA,__objc_ivar) non-external (was a private external) _OBJC_IVAR_$_InspectedSignatureObject._currentRegion
+000000026d3a0c8c (__DATA,__objc_ivar) non-external (was a private external) _OBJC_IVAR_$_InspectedSignatureObject._direct_wal_checkpoint_invocation
+000000026d3a0c88 (__DATA,__objc_ivar) non-external (was a private external) _OBJC_IVAR_$_InspectedSignatureObject._has_trigger_frame
+000000026d3a0cb4 (__DATA,__objc_ivar) non-external (was a private external) _OBJC_IVAR_$_InspectedSignatureObject._last3PFrame
+000000026d3a0cac (__DATA,__objc_ivar) non-external (was a private external) _OBJC_IVAR_$_InspectedSignatureObject._log_number
+000000026d3a0c84 (__DATA,__objc_ivar) non-external (was a private external) _OBJC_IVAR_$_InspectedSignatureObject._lowest_3P_frame_seen
+000000026d3a0cb0 (__DATA,__objc_ivar) non-external (was a private external) _OBJC_IVAR_$_InspectedSignatureObject._matchStartOffsetFromLast3PFrame
+000000026d3a0c94 (__DATA,__objc_ivar) non-external (was a private external) _OBJC_IVAR_$_InspectedSignatureObject._obj
+000000026d3a0cb8 (__DATA,__objc_ivar) non-external (was a private external) _OBJC_IVAR_$_InspectedSignatureObject._regionsArray
+000000026d3a0ca8 (__DATA,__objc_ivar) non-external (was a private external) _OBJC_IVAR_$_InspectedSignatureObject._special_frame
+000000026d3a0c90 (__DATA,__objc_ivar) non-external (was a private external) _OBJC_IVAR_$_InspectedSignatureObject._sqlite_usage
+000000026d3a0c98 (__DATA,__objc_ivar) non-external (was a private external) _OBJC_IVAR_$_InspectedSignatureObject._total_1P_to_3P_boundary_matches
+000000026d3a0ca0 (__DATA,__objc_ivar) non-external (was a private external) _OBJC_IVAR_$_InspectedSignatureObject._total_3P_frame_matches
+000000026d3a0c9c (__DATA,__objc_ivar) non-external (was a private external) _OBJC_IVAR_$_InspectedSignatureObject._total_last_contiguous_1P_to_3P_boundary_matches
+000000026d3a0ca4 (__DATA,__objc_ivar) non-external (was a private external) _OBJC_IVAR_$_InspectedSignatureObject._total_last_contiguous_3P_frame_matches
+000000026d3a0c70 (__DATA,__objc_ivar) non-external (was a private external) _OBJC_IVAR_$_RegionStats._determined_signature_boundary
+000000026d3a0c6c (__DATA,__objc_ivar) non-external (was a private external) _OBJC_IVAR_$_RegionStats._is_third_party_region
+000000026d3a0c7c (__DATA,__objc_ivar) non-external (was a private external) _OBJC_IVAR_$_RegionStats._total_approximate_matches
+000000026d3a0c80 (__DATA,__objc_ivar) non-external (was a private external) _OBJC_IVAR_$_RegionStats._total_distance_percentage_match_histogram
+000000026d3a0c78 (__DATA,__objc_ivar) non-external (was a private external) _OBJC_IVAR_$_RegionStats._total_exact_matches
+000000026d3a0c74 (__DATA,__objc_ivar) non-external (was a private external) _OBJC_IVAR_$_RegionStats._total_frames
+000000026d3a0b70 (__DATA,__objc_ivar) non-external (was a private external) _OBJC_IVAR_$_TPCLogFormatTypeWrapper._format
+000000026d3a0c24 (__DATA,__objc_ivar) non-external (was a private external) _OBJC_IVAR_$_TPCMatchDetails._additionalDiagnosticText
+000000026d3a0c30 (__DATA,__objc_ivar) non-external (was a private external) _OBJC_IVAR_$_TPCMatchDetails._antipatternTrigger
+000000026d3a0c54 (__DATA,__objc_ivar) non-external (was a private external) _OBJC_IVAR_$_TPCMatchDetails._category
+000000026d3a0c20 (__DATA,__objc_ivar) non-external (was a private external) _OBJC_IVAR_$_TPCMatchDetails._fullMessage
+000000026d3a0c58 (__DATA,__objc_ivar) non-external (was a private external) _OBJC_IVAR_$_TPCMatchDetails._helpURL
+000000026d3a0c34 (__DATA,__objc_ivar) non-external (was a private external) _OBJC_IVAR_$_TPCMatchDetails._insightDescriptionForSignaturesWithCommon3PFrames
+000000026d3a0c3c (__DATA,__objc_ivar) non-external (was a private external) _OBJC_IVAR_$_TPCMatchDetails._insightDescriptionForSignaturesWithCommonLast3PFrames
+000000026d3a0c44 (__DATA,__objc_ivar) non-external (was a private external) _OBJC_IVAR_$_TPCMatchDetails._insightDescriptionForSignaturesWithSimilarLast3PRegion
+000000026d3a0c38 (__DATA,__objc_ivar) non-external (was a private external) _OBJC_IVAR_$_TPCMatchDetails._insightDescriptionForSignaturesWithTriggerFrameAndCommon3PFrames
+000000026d3a0c40 (__DATA,__objc_ivar) non-external (was a private external) _OBJC_IVAR_$_TPCMatchDetails._insightDescriptionForSignaturesWithTriggerFrameAndCommonLast3PFrames
+000000026d3a0c48 (__DATA,__objc_ivar) non-external (was a private external) _OBJC_IVAR_$_TPCMatchDetails._insightDescriptionForSignaturesWithTriggerFrameAndSimilarLast3PRegion
+000000026d3a0bc0 (__DATA,__objc_ivar) non-external (was a private external) _OBJC_IVAR_$_TPCMatchDetails._isApproximateMatch
+000000026d3a0bbc (__DATA,__objc_ivar) non-external (was a private external) _OBJC_IVAR_$_TPCMatchDetails._isMatch
+000000026d3a0c2c (__DATA,__objc_ivar) non-external (was a private external) _OBJC_IVAR_$_TPCMatchDetails._issueType
+000000026d3a0c28 (__DATA,__objc_ivar) non-external (was a private external) _OBJC_IVAR_$_TPCMatchDetails._last3PFrame
+000000026d3a0c1c (__DATA,__objc_ivar) non-external (was a private external) _OBJC_IVAR_$_TPCMatchDetails._matchStartOffsetFromLast3PFrame
+000000026d3a0c60 (__DATA,__objc_ivar) non-external (was a private external) _OBJC_IVAR_$_TPCMatchDetails._matchedSignaturesWithCommon3PFramesMetaData
+000000026d3a0c64 (__DATA,__objc_ivar) non-external (was a private external) _OBJC_IVAR_$_TPCMatchDetails._matchedSignaturesWithCommonLast3PFramesMetaData
+000000026d3a0c68 (__DATA,__objc_ivar) non-external (was a private external) _OBJC_IVAR_$_TPCMatchDetails._matchedSignaturesWithSimilarLast3PRegion
+000000026d3a0c5c (__DATA,__objc_ivar) non-external (was a private external) _OBJC_IVAR_$_TPCMatchDetails._recommendedMatchedSignatureMetaData
+000000026d3a0bc4 (__DATA,__objc_ivar) non-external (was a private external) _OBJC_IVAR_$_TPCMatchDetails._shouldSuppress
+000000026d3a0c4c (__DATA,__objc_ivar) non-external (was a private external) _OBJC_IVAR_$_TPCMatchDetails._signatureVersionsWithCommonLast3PFrames
+000000026d3a0c50 (__DATA,__objc_ivar) non-external (was a private external) _OBJC_IVAR_$_TPCMatchDetails._signatureVersionsWithTriggerFrameAndCommonLast3PFrames
+000000026d3a0bd4 (__DATA,__objc_ivar) non-external (was a private external) _OBJC_IVAR_$_TPCMatchDetails._signaturesWithAllCommon3PFrames
+000000026d3a0bcc (__DATA,__objc_ivar) non-external (was a private external) _OBJC_IVAR_$_TPCMatchDetails._signaturesWithAllCommonAPIBoundaries
+000000026d3a0bd0 (__DATA,__objc_ivar) non-external (was a private external) _OBJC_IVAR_$_TPCMatchDetails._signaturesWithCommon3PFrames
+000000026d3a0bc8 (__DATA,__objc_ivar) non-external (was a private external) _OBJC_IVAR_$_TPCMatchDetails._signaturesWithCommonAPIBoundaries
+000000026d3a0be0 (__DATA,__objc_ivar) non-external (was a private external) _OBJC_IVAR_$_TPCMatchDetails._signaturesWithCommonLast3PFrames
+000000026d3a0bdc (__DATA,__objc_ivar) non-external (was a private external) _OBJC_IVAR_$_TPCMatchDetails._signaturesWithCommonLastContiguous3PFrames
+000000026d3a0bd8 (__DATA,__objc_ivar) non-external (was a private external) _OBJC_IVAR_$_TPCMatchDetails._signaturesWithCommonLastContiguousAPIBoundaries
+000000026d3a0bf0 (__DATA,__objc_ivar) non-external (was a private external) _OBJC_IVAR_$_TPCMatchDetails._signaturesWithDirectWalCheckpointInvocationAndCommon3PFrames
+000000026d3a0bf4 (__DATA,__objc_ivar) non-external (was a private external) _OBJC_IVAR_$_TPCMatchDetails._signaturesWithDirectWalCheckpointInvocationAndCommonLast3PFrame
+000000026d3a0bf8 (__DATA,__objc_ivar) non-external (was a private external) _OBJC_IVAR_$_TPCMatchDetails._signaturesWithDirectWalCheckpointInvocationAndSimilarLast3PRegions
+000000026d3a0c04 (__DATA,__objc_ivar) non-external (was a private external) _OBJC_IVAR_$_TPCMatchDetails._signaturesWithInsightAndCommon3PFrames
+000000026d3a0c08 (__DATA,__objc_ivar) non-external (was a private external) _OBJC_IVAR_$_TPCMatchDetails._signaturesWithInsightAndCommonLast3PFrames
+000000026d3a0c0c (__DATA,__objc_ivar) non-external (was a private external) _OBJC_IVAR_$_TPCMatchDetails._signaturesWithInsightAndSimilarLast3PRegions
+000000026d3a0bfc (__DATA,__objc_ivar) non-external (was a private external) _OBJC_IVAR_$_TPCMatchDetails._signaturesWithSimilarLast3PRegions
+000000026d3a0be8 (__DATA,__objc_ivar) non-external (was a private external) _OBJC_IVAR_$_TPCMatchDetails._signaturesWithTriggerFrameAndCommon3PFrames
+000000026d3a0bec (__DATA,__objc_ivar) non-external (was a private external) _OBJC_IVAR_$_TPCMatchDetails._signaturesWithTriggerFrameAndCommonLast3PFrames
+000000026d3a0c00 (__DATA,__objc_ivar) non-external (was a private external) _OBJC_IVAR_$_TPCMatchDetails._signaturesWithTriggerFrameAndSimilarLast3PRegions
+000000026d3a0c10 (__DATA,__objc_ivar) non-external (was a private external) _OBJC_IVAR_$_TPCMatchDetails._signaturesWithTriggerFrameInsightAndCommon3PFrames
+000000026d3a0c14 (__DATA,__objc_ivar) non-external (was a private external) _OBJC_IVAR_$_TPCMatchDetails._signaturesWithTriggerFrameInsightAndCommonLast3PFrames
+000000026d3a0c18 (__DATA,__objc_ivar) non-external (was a private external) _OBJC_IVAR_$_TPCMatchDetails._signaturesWithTriggerFrameInsightAndSimilarLast3PRegions
+000000026d3a0be4 (__DATA,__objc_ivar) non-external (was a private external) _OBJC_IVAR_$_TPCMatchDetails._signaturesWithTriggerFrames
+000000026d3a0bb8 (__DATA,__objc_ivar) non-external (was a private external) _OBJC_IVAR_$_TPCMatchDetails._validMatchResult
+000000026d3a0ba4 (__DATA,__objc_ivar) non-external (was a private external) _OBJC_IVAR_$_TPCSignatureMetadata._build
+000000026d3a0bb0 (__DATA,__objc_ivar) non-external (was a private external) _OBJC_IVAR_$_TPCSignatureMetadata._dataUUID
+000000026d3a0bac (__DATA,__objc_ivar) non-external (was a private external) _OBJC_IVAR_$_TPCSignatureMetadata._signatureID
+000000026d3a0bb4 (__DATA,__objc_ivar) non-external (was a private external) _OBJC_IVAR_$_TPCSignatureMetadata._url
+000000026d3a0ba8 (__DATA,__objc_ivar) non-external (was a private external) _OBJC_IVAR_$_TPCSignatureMetadata._version
+000000026d3a0ccc (__DATA,__objc_ivar) non-external (was a private external) _OBJC_IVAR_$_TPCSignatureObject._build
+000000026d3a0d0c (__DATA,__objc_ivar) non-external (was a private external) _OBJC_IVAR_$_TPCSignatureObject._children
+000000026d3a0cf8 (__DATA,__objc_ivar) non-external (was a private external) _OBJC_IVAR_$_TPCSignatureObject._childrenCount
+000000026d3a0cd8 (__DATA,__objc_ivar) non-external (was a private external) _OBJC_IVAR_$_TPCSignatureObject._dataUUID
+000000026d3a0cf0 (__DATA,__objc_ivar) non-external (was a private external) _OBJC_IVAR_$_TPCSignatureObject._diskWritePercentage
+000000026d3a0cfc (__DATA,__objc_ivar) non-external (was a private external) _OBJC_IVAR_$_TPCSignatureObject._frameType
+000000026d3a0cd0 (__DATA,__objc_ivar) non-external (was a private external) _OBJC_IVAR_$_TPCSignatureObject._function
+000000026d3a0cec (__DATA,__objc_ivar) non-external (was a private external) _OBJC_IVAR_$_TPCSignatureObject._hangTime
+000000026d3a0ce4 (__DATA,__objc_ivar) non-external (was a private external) _OBJC_IVAR_$_TPCSignatureObject._insight
+000000026d3a0cc0 (__DATA,__objc_ivar) non-external (was a private external) _OBJC_IVAR_$_TPCSignatureObject._isSymbolicated
+000000026d3a0cc4 (__DATA,__objc_ivar) non-external (was a private external) _OBJC_IVAR_$_TPCSignatureObject._isThirdParty
+000000026d3a0ce8 (__DATA,__objc_ivar) non-external (was a private external) _OBJC_IVAR_$_TPCSignatureObject._logNumber
+000000026d3a0d00 (__DATA,__objc_ivar) non-external (was a private external) _OBJC_IVAR_$_TPCSignatureObject._nextWithSameKey
+000000026d3a0cf4 (__DATA,__objc_ivar) non-external (was a private external) _OBJC_IVAR_$_TPCSignatureObject._occurrenceCount
+000000026d3a0d08 (__DATA,__objc_ivar) non-external (was a private external) _OBJC_IVAR_$_TPCSignatureObject._parent
+000000026d3a0cd4 (__DATA,__objc_ivar) non-external (was a private external) _OBJC_IVAR_$_TPCSignatureObject._path
+000000026d3a0d04 (__DATA,__objc_ivar) non-external (was a private external) _OBJC_IVAR_$_TPCSignatureObject._previousWithSameKey
+000000026d3a0cdc (__DATA,__objc_ivar) non-external (was a private external) _OBJC_IVAR_$_TPCSignatureObject._signatureID
+000000026d3a0ce0 (__DATA,__objc_ivar) non-external (was a private external) _OBJC_IVAR_$_TPCSignatureObject._url
+000000026d3a0cc8 (__DATA,__objc_ivar) non-external (was a private external) _OBJC_IVAR_$_TPCSignatureObject._version
+000000026d3a0b78 (__DATA,__objc_ivar) non-external (was a private external) _OBJC_IVAR_$_TPCSignatureStore.SignatureStoreDict
+000000026d3a0b80 (__DATA,__objc_ivar) non-external (was a private external) _OBJC_IVAR_$_TPCSignatureStore.log_format_type
+000000026d3a0b84 (__DATA,__objc_ivar) non-external (was a private external) _OBJC_IVAR_$_TPCSignatureStore.log_format_version
+000000026d3a0b74 (__DATA,__objc_ivar) non-external (was a private external) _OBJC_IVAR_$_TPCSignatureStore.roots
+000000026d3a0b7c (__DATA,__objc_ivar) non-external (was a private external) _OBJC_IVAR_$_TPCSignatureStore.substringToFrameDictArray
+000000026d3a0b90 (__DATA,__objc_ivar) non-external (was a private external) _OBJC_IVAR_$_TPCSignatureStore.total_3P_SO_objects
+000000026d3a0ba0 (__DATA,__objc_ivar) non-external (was a private external) _OBJC_IVAR_$_TPCSignatureStore.total_3P_symbolicated_logs
+000000026d3a0b8c (__DATA,__objc_ivar) non-external (was a private external) _OBJC_IVAR_$_TPCSignatureStore.total_SO_objects
+000000026d3a0b88 (__DATA,__objc_ivar) non-external (was a private external) _OBJC_IVAR_$_TPCSignatureStore.total_logs
+000000026d3a0b94 (__DATA,__objc_ivar) non-external (was a private external) _OBJC_IVAR_$_TPCSignatureStore.total_unique_frames
+000000026d3a0b9c (__DATA,__objc_ivar) non-external (was a private external) _OBJC_IVAR_$_TPCSignatureStore.total_unsymbolicated_3P_frames
+000000026d3a0b98 (__DATA,__objc_ivar) non-external (was a private external) _OBJC_IVAR_$_TPCSignatureStore.total_unsymbolicated_frames
+000000026fe1cae8 (__AUTH,__objc_data) non-external (was a private external) _OBJC_METACLASS_$_InspectedSignatureObject
+                 (undefined) external _OBJC_METACLASS_$_NSObject (from libobjc)
+000000026fe1ca98 (__AUTH,__objc_data) non-external (was a private external) _OBJC_METACLASS_$_RegionStats
+000000026fe1cb38 (__AUTH,__objc_data) external _OBJC_METACLASS_$_TPCCallstackMatching
+000000026fe1c930 (__AUTH,__objc_data) external _OBJC_METACLASS_$_TPCLogFormatTypeWrapper
+000000026fe1ca48 (__AUTH,__objc_data) external _OBJC_METACLASS_$_TPCMatchDetails
+000000026fe1c9f8 (__AUTH,__objc_data) external _OBJC_METACLASS_$_TPCSignatureMetadata
+000000026fe1cb88 (__AUTH,__objc_data) non-external (was a private external) _OBJC_METACLASS_$_TPCSignatureObject
+000000026fe1c9a8 (__AUTH,__objc_data) external _OBJC_METACLASS_$_TPCSignatureStore
+                 (undefined) external __Block_object_assign (from libSystem)
+                 (undefined) external __Block_object_dispose (from libSystem)
+                 (undefined) external __NSConcreteGlobalBlock (from libSystem)
+                 (undefined) external __NSConcreteStackBlock (from libSystem)
+000000022308b2c8 (__TEXT,__objc_methlist) non-external __OBJC_$_CLASS_METHODS_TPCCallstackMatching
+000000022308b390 (__TEXT,__objc_methlist) non-external __OBJC_$_CLASS_METHODS_TPCSignatureObject
+000000022308b3c8 (__TEXT,__objc_methlist) non-external __OBJC_$_CLASS_METHODS_TPCSignatureStore
+000000022308b400 (__TEXT,__objc_methlist) non-external __OBJC_$_INSTANCE_METHODS_InspectedSignatureObject
+000000022308b5a0 (__TEXT,__objc_methlist) non-external __OBJC_$_INSTANCE_METHODS_RegionStats
+000000022308b650 (__TEXT,__objc_methlist) non-external __OBJC_$_INSTANCE_METHODS_TPCCallstackMatching
+000000022308b6b8 (__TEXT,__objc_methlist) non-external __OBJC_$_INSTANCE_METHODS_TPCLogFormatTypeWrapper
+000000022308b6d8 (__TEXT,__objc_methlist) non-external __OBJC_$_INSTANCE_METHODS_TPCMatchDetails
+000000022308bb30 (__TEXT,__objc_methlist) non-external __OBJC_$_INSTANCE_METHODS_TPCSignatureMetadata
+000000022308bbc8 (__TEXT,__objc_methlist) non-external __OBJC_$_INSTANCE_METHODS_TPCSignatureObject
+000000022308bdc8 (__TEXT,__objc_methlist) non-external __OBJC_$_INSTANCE_METHODS_TPCSignatureStore
+0000000271444b50 (__AUTH_CONST,__objc_const) non-external __OBJC_$_INSTANCE_VARIABLES_InspectedSignatureObject
+0000000271444990 (__AUTH_CONST,__objc_const) non-external __OBJC_$_INSTANCE_VARIABLES_RegionStats
+0000000271443c08 (__AUTH_CONST,__objc_const) non-external __OBJC_$_INSTANCE_VARIABLES_TPCLogFormatTypeWrapper
+0000000271444080 (__AUTH_CONST,__objc_const) non-external __OBJC_$_INSTANCE_VARIABLES_TPCMatchDetails
+0000000271443ef0 (__AUTH_CONST,__objc_const) non-external __OBJC_$_INSTANCE_VARIABLES_TPCSignatureMetadata
+0000000271444f50 (__AUTH_CONST,__objc_const) non-external __OBJC_$_INSTANCE_VARIABLES_TPCSignatureObject
+0000000271443cd8 (__AUTH_CONST,__objc_const) non-external __OBJC_$_INSTANCE_VARIABLES_TPCSignatureStore
+0000000271444d38 (__AUTH_CONST,__objc_const) non-external __OBJC_$_PROP_LIST_InspectedSignatureObject
+0000000271444a58 (__AUTH_CONST,__objc_const) non-external __OBJC_$_PROP_LIST_RegionStats
+0000000271443c30 (__AUTH_CONST,__objc_const) non-external __OBJC_$_PROP_LIST_TPCLogFormatTypeWrapper
+0000000271444628 (__AUTH_CONST,__objc_const) non-external __OBJC_$_PROP_LIST_TPCMatchDetails
+0000000271443f98 (__AUTH_CONST,__objc_const) non-external __OBJC_$_PROP_LIST_TPCSignatureMetadata
+00000002714451d8 (__AUTH_CONST,__objc_const) non-external __OBJC_$_PROP_LIST_TPCSignatureObject
+0000000271444e30 (__AUTH_CONST,__objc_const) non-external __OBJC_CLASS_RO_$_InspectedSignatureObject
+0000000271444ac0 (__AUTH_CONST,__objc_const) non-external __OBJC_CLASS_RO_$_RegionStats
+0000000271444ec0 (__AUTH_CONST,__objc_const) non-external __OBJC_CLASS_RO_$_TPCCallstackMatching
+0000000271443c48 (__AUTH_CONST,__objc_const) non-external __OBJC_CLASS_RO_$_TPCLogFormatTypeWrapper
+0000000271444900 (__AUTH_CONST,__objc_const) non-external __OBJC_CLASS_RO_$_TPCMatchDetails
+0000000271443ff0 (__AUTH_CONST,__objc_const) non-external __OBJC_CLASS_RO_$_TPCSignatureMetadata
+0000000271445320 (__AUTH_CONST,__objc_const) non-external __OBJC_CLASS_RO_$_TPCSignatureObject
+0000000271443e60 (__AUTH_CONST,__objc_const) non-external __OBJC_CLASS_RO_$_TPCSignatureStore
+0000000271444b08 (__AUTH_CONST,__objc_const) non-external __OBJC_METACLASS_RO_$_InspectedSignatureObject
+0000000271444948 (__AUTH_CONST,__objc_const) non-external __OBJC_METACLASS_RO_$_RegionStats
+0000000271444e78 (__AUTH_CONST,__objc_const) non-external __OBJC_METACLASS_RO_$_TPCCallstackMatching
+0000000271443bc0 (__AUTH_CONST,__objc_const) non-external __OBJC_METACLASS_RO_$_TPCLogFormatTypeWrapper
+0000000271444038 (__AUTH_CONST,__objc_const) non-external __OBJC_METACLASS_RO_$_TPCMatchDetails
+0000000271443ea8 (__AUTH_CONST,__objc_const) non-external __OBJC_METACLASS_RO_$_TPCSignatureMetadata
+0000000271444f08 (__AUTH_CONST,__objc_const) non-external __OBJC_METACLASS_RO_$_TPCSignatureObject
+0000000271443c90 (__AUTH_CONST,__objc_const) non-external __OBJC_METACLASS_RO_$_TPCSignatureStore
+                 (undefined) external __Unwind_Resume (from libSystem)
+000000022308a56c (__TEXT,__text) non-external ___41+[TPCSignatureObject isBlockInvokeFrame:]_block_invoke
+00000002230839f0 (__TEXT,__text) non-external ___41+[TPCSignatureStore supportedFormatTypes]_block_invoke
+000000022308a660 (__TEXT,__text) non-external ___42+[TPCSignatureObject isSwiftClosureFrame:]_block_invoke
+000000022308a898 (__TEXT,__text) non-external ___54+[TPCSignatureObject retrieveModifiedFrame:frameType:]_block_invoke
+000000022308a900 (__TEXT,__text) non-external ___54+[TPCSignatureObject retrieveModifiedFrame:frameType:]_block_invoke.19
+0000000223082f28 (__TEXT,__text) non-external ___54+[TPCSignatureStore isValidLogSchema:logFormat:error:]_block_invoke
+0000000223083324 (__TEXT,__text) non-external ___54+[TPCSignatureStore isValidLogSchema:logFormat:error:]_block_invoke_2
+0000000223083704 (__TEXT,__text) non-external ___54+[TPCSignatureStore isValidLogSchema:logFormat:error:]_block_invoke_3
+0000000223089de0 (__TEXT,__text) non-external ___73-[TPCCallstackMatching matchWithSignatures:store:type:diagnostics:error:]_block_invoke
+0000000223080c4c (__TEXT,__text) non-external ___74-[TPCSignatureStore populateSignatureStore:logFormat:formatVersion:error:]_block_invoke
+0000000223080edc (__TEXT,__text) non-external ___74-[TPCSignatureStore populateSignatureStore:logFormat:formatVersion:error:]_block_invoke_2
+000000022308ae90 (__TEXT,__text) non-external ___74-[TPCSignatureStore populateSignatureStore:logFormat:formatVersion:error:]_block_invoke_2.cold.1
+000000022308aec8 (__TEXT,__text) non-external ___74-[TPCSignatureStore populateSignatureStore:logFormat:formatVersion:error:]_block_invoke_2.cold.2
+000000022308ada8 (__TEXT,__text) non-external ___74-[TPCSignatureStore populateSignatureStore:logFormat:formatVersion:error:]_block_invoke_2.cold.3
+000000022308add4 (__TEXT,__text) non-external ___74-[TPCSignatureStore populateSignatureStore:logFormat:formatVersion:error:]_block_invoke_2.cold.4
+0000000223080c34 (__TEXT,__text) non-external ___Block_byref_object_copy_
+0000000223080c44 (__TEXT,__text) non-external ___Block_byref_object_dispose_
+                 (undefined) external ___CFConstantStringClassReference (from CoreFoundation)
+                 (undefined) external ___assert_rtn (from libSystem)
+00000002697da130 (__DATA_CONST,__const) non-external (was a private external) ___block_descriptor_32_e5_v8?0l
+0000000271442790 (__AUTH_CONST,__const) non-external (was a private external) ___block_descriptor_40_e8_32s_e5_v8?0l
+00000002714426b0 (__AUTH_CONST,__const) non-external (was a private external) ___block_descriptor_48_e8_32r40r_e15_v32?08Q16^B24l
+00000002714426e0 (__AUTH_CONST,__const) non-external (was a private external) ___block_descriptor_56_e8_32r40r_e15_v32?08Q16^B24l
+0000000271442680 (__AUTH_CONST,__const) non-external (was a private external) ___block_descriptor_72_e8_32s40s48r56r_e15_v32?08Q16^B24l
+0000000271442650 (__AUTH_CONST,__const) non-external (was a private external) ___block_descriptor_88_e8_32s40s48s56s64r72r_e15_v32?08Q16^B24l
+0000000271442710 (__AUTH_CONST,__const) non-external ___block_literal_global
+0000000271442730 (__AUTH_CONST,__const) non-external ___block_literal_global
+0000000271442750 (__AUTH_CONST,__const) non-external ___block_literal_global
+00000002714427c0 (__AUTH_CONST,__const) non-external ___block_literal_global.21
+0000000271442770 (__AUTH_CONST,__const) non-external ___block_literal_global.9
+0000000223083908 (__TEXT,__text) non-external (was a private external) ___copy_helper_block_e8_32r40r
+000000022308a8f0 (__TEXT,__text) non-external (was a private external) ___copy_helper_block_e8_32s
+000000022308243c (__TEXT,__text) non-external (was a private external) ___copy_helper_block_e8_32s40s48r56r
+0000000223082368 (__TEXT,__text) non-external (was a private external) ___copy_helper_block_e8_32s40s48s56s64r72r
+0000000223083958 (__TEXT,__text) non-external (was a private external) ___destroy_helper_block_e8_32r40r
+000000022308a8f8 (__TEXT,__text) non-external (was a private external) ___destroy_helper_block_e8_32s
+000000022308249c (__TEXT,__text) non-external (was a private external) ___destroy_helper_block_e8_32s40s48r56r
+00000002230823d8 (__TEXT,__text) non-external (was a private external) ___destroy_helper_block_e8_32s40s48s56s64r72r
+                 (undefined) external ___kCFBooleanTrue (from CoreFoundation)
+                 (undefined) external ___objc_personality_v0 (from libobjc)
+                 (undefined) external ___stack_chk_fail (from libSystem)
+                 (undefined) external ___stack_chk_guard (from libSystem)
+                 (undefined) external __objc_empty_cache (from libobjc)
+                 (undefined) external _dispatch_once (from libSystem)
+000000026d3a0d42 (__DATA,__bss) non-external _envDiskwriteInsightMatchingCriterionDisabled
+000000026d3a0d41 (__DATA,__bss) non-external _envDiskwriteTriggerFrameMatchingCriterionDisabled
+000000026d3a0d40 (__DATA,__bss) non-external _envEnableApproximateRegionMatching
+000000026d3a0d28 (__DATA,__common) non-external (was a private external) _envEnableTPCDebugLoggging
+000000026d3a0d44 (__DATA,__bss) non-external _envOverrideAdditionalDiagnosticMessage
+000000026d3a0d43 (__DATA,__bss) non-external _envOverrideFullDiagnosticMessage
+                 (undefined) external _exp2 (from libSystem)
+000000026d3a0d60 (__DATA,__bss) non-external _isBlockInvokeFrame:.blockInvokeRegex
+000000026d3a0d68 (__DATA,__bss) non-external _isBlockInvokeFrame:.onceToken
+000000026d3a0d78 (__DATA,__bss) non-external _isSwiftClosureFrame:.onceToken
+000000026d3a0d70 (__DATA,__bss) non-external _isSwiftClosureFrame:.swiftClosureRegex
+000000026d3a0d58 (__DATA,__bss) non-external _matchWithSignatures:store:type:diagnostics:error:.finalType
+000000026d3a0d18 (__DATA,__data) non-external _matchWithSignatures:store:type:diagnostics:error:.lastNAPIBoundaryCount
+000000026d3a0d20 (__DATA,__data) non-external _matchWithSignatures:store:type:diagnostics:error:.lastNThirdPartyFramesCount
+000000026d3a0d48 (__DATA,__bss) non-external _matchWithSignatures:store:type:diagnostics:error:.onceToken
+000000026d3a0d50 (__DATA,__bss) non-external _matchWithSignatures:store:type:diagnostics:error:.overrideEnabled
+000000026d3a0d10 (__DATA,__data) non-external _matchWithSignatures:store:type:diagnostics:error:.percent
+                 (undefined) external _objc_alloc (from libobjc)
+                 (undefined) external _objc_alloc_init (from libobjc)
+                 (undefined) external _objc_autorelease (from libobjc)
+                 (undefined) external _objc_autoreleaseReturnValue (from libobjc)
+                 (undefined) external _objc_destroyWeak (from libobjc)
+                 (undefined) external _objc_enumerationMutation (from libobjc)
+                 (undefined) external _objc_loadWeakRetained (from libobjc)
+                 (undefined) external _objc_msgSend (from libobjc)
+0000000223091440 (__TEXT,__objc_stubs) non-external (was a private external) _objc_msgSend$JSONObjectWithData:options:error:
+0000000223091460 (__TEXT,__objc_stubs) non-external (was a private external) _objc_msgSend$addFrameToSubstringMap:
+0000000223091480 (__TEXT,__objc_stubs) non-external (was a private external) _objc_msgSend$addObject:
+00000002230914a0 (__TEXT,__objc_stubs) non-external (was a private external) _objc_msgSend$addObjectInSSForKey:object:
+00000002230914c0 (__TEXT,__objc_stubs) non-external (was a private external) _objc_msgSend$additionalDiagnosticText
+00000002230914e0 (__TEXT,__objc_stubs) non-external (was a private external) _objc_msgSend$antipatternTrigger
+0000000223091500 (__TEXT,__objc_stubs) non-external (was a private external) _objc_msgSend$boolForKey:
+0000000223091520 (__TEXT,__objc_stubs) non-external (was a private external) _objc_msgSend$boolValue
+0000000223091540 (__TEXT,__objc_stubs) non-external (was a private external) _objc_msgSend$build
+0000000223091560 (__TEXT,__objc_stubs) non-external (was a private external) _objc_msgSend$bundleIdentifier
+0000000223091580 (__TEXT,__objc_stubs) non-external (was a private external) _objc_msgSend$calculateStatisticsAndDetermineMatching:inspectionSignatureObjectDict:boundaries:thirdPartyFrames:count:triggerFrame:
+00000002230915a0 (__TEXT,__objc_stubs) non-external (was a private external) _objc_msgSend$characterAtIndex:
+00000002230915c0 (__TEXT,__objc_stubs) non-external (was a private external) _objc_msgSend$checkDirectFrameInvocation:inspectedSignatureObjectDict:store:
+00000002230915e0 (__TEXT,__objc_stubs) non-external (was a private external) _objc_msgSend$checkPresenceOfFrame:inspectedSignatureObjectDict:store:frameType:
+0000000223091600 (__TEXT,__objc_stubs) non-external (was a private external) _objc_msgSend$checkPresenceOfSpecialSQLiteFrames:inspectedSignatureObjectDict:store:
+0000000223091620 (__TEXT,__objc_stubs) non-external (was a private external) _objc_msgSend$children
+0000000223091640 (__TEXT,__objc_stubs) non-external (was a private external) _objc_msgSend$childrenCount
+0000000223091660 (__TEXT,__objc_stubs) non-external (was a private external) _objc_msgSend$containsString:
+0000000223091680 (__TEXT,__objc_stubs) non-external (was a private external) _objc_msgSend$count
+00000002230916a0 (__TEXT,__objc_stubs) non-external (was a private external) _objc_msgSend$countByEnumeratingWithState:objects:count:
+00000002230916c0 (__TEXT,__objc_stubs) non-external (was a private external) _objc_msgSend$currentRegion
+00000002230916e0 (__TEXT,__objc_stubs) non-external (was a private external) _objc_msgSend$dataUUID
+0000000223091700 (__TEXT,__objc_stubs) non-external (was a private external) _objc_msgSend$dataUsingEncoding:
+0000000223091720 (__TEXT,__objc_stubs) non-external (was a private external) _objc_msgSend$determined_signature_boundary
+0000000223091740 (__TEXT,__objc_stubs) non-external (was a private external) _objc_msgSend$diagnosticsDictionaryForDiagnostics:
+0000000223091760 (__TEXT,__objc_stubs) non-external (was a private external) _objc_msgSend$dictionaryWithObjects:forKeys:count:
+0000000223091780 (__TEXT,__objc_stubs) non-external (was a private external) _objc_msgSend$direct_wal_checkpoint_invocation
+00000002230917a0 (__TEXT,__objc_stubs) non-external (was a private external) _objc_msgSend$diskWritePercentage
+00000002230917c0 (__TEXT,__objc_stubs) non-external (was a private external) _objc_msgSend$editDistance:backtraceString:
+00000002230917e0 (__TEXT,__objc_stubs) non-external (was a private external) _objc_msgSend$enumerateObjectsUsingBlock:
+0000000223091800 (__TEXT,__objc_stubs) non-external (was a private external) _objc_msgSend$errorWithDomain:code:userInfo:
+0000000223091820 (__TEXT,__objc_stubs) non-external (was a private external) _objc_msgSend$fillDiagnosticMessage:diagnostics:details:format:
+0000000223091840 (__TEXT,__objc_stubs) non-external (was a private external) _objc_msgSend$findAncestorSignatureObjectForSameLog:object:levels:store:
+0000000223091860 (__TEXT,__objc_stubs) non-external (was a private external) _objc_msgSend$findApproximateAncestorSignatureObjectForSameLog:object:levels:store:threshold:
+0000000223091880 (__TEXT,__objc_stubs) non-external (was a private external) _objc_msgSend$firstMatchInString:options:range:
+00000002230918a0 (__TEXT,__objc_stubs) non-external (was a private external) _objc_msgSend$frameCountBeforeBoundaryInSignature:
+00000002230918c0 (__TEXT,__objc_stubs) non-external (was a private external) _objc_msgSend$frameType
+00000002230918e0 (__TEXT,__objc_stubs) non-external (was a private external) _objc_msgSend$function
+0000000223091900 (__TEXT,__objc_stubs) non-external (was a private external) _objc_msgSend$getLogFormatType
+0000000223091920 (__TEXT,__objc_stubs) non-external (was a private external) _objc_msgSend$getRoots
+0000000223091940 (__TEXT,__objc_stubs) non-external (was a private external) _objc_msgSend$hangTime
+0000000223091960 (__TEXT,__objc_stubs) non-external (was a private external) _objc_msgSend$hasPrefix:
+0000000223091980 (__TEXT,__objc_stubs) non-external (was a private external) _objc_msgSend$hasSuffix:
+00000002230919a0 (__TEXT,__objc_stubs) non-external (was a private external) _objc_msgSend$has_trigger_frame
+00000002230919c0 (__TEXT,__objc_stubs) non-external (was a private external) _objc_msgSend$initWithInteger:
+00000002230919e0 (__TEXT,__objc_stubs) non-external (was a private external) _objc_msgSend$insight
+0000000223091a00 (__TEXT,__objc_stubs) non-external (was a private external) _objc_msgSend$insightDescriptionForSignaturesWithCommon3PFrames
+0000000223091a20 (__TEXT,__objc_stubs) non-external (was a private external) _objc_msgSend$insightDescriptionForSignaturesWithCommonLast3PFrames
+0000000223091a40 (__TEXT,__objc_stubs) non-external (was a private external) _objc_msgSend$insightDescriptionForSignaturesWithSimilarLast3PRegion
+0000000223091a60 (__TEXT,__objc_stubs) non-external (was a private external) _objc_msgSend$insightDescriptionForSignaturesWithTriggerFrameAndCommon3PFrames
+0000000223091a80 (__TEXT,__objc_stubs) non-external (was a private external) _objc_msgSend$insightDescriptionForSignaturesWithTriggerFrameAndCommonLast3PFrames
+0000000223091aa0 (__TEXT,__objc_stubs) non-external (was a private external) _objc_msgSend$insightDescriptionForSignaturesWithTriggerFrameAndSimilarLast3PRegion
+0000000223091ac0 (__TEXT,__objc_stubs) non-external (was a private external) _objc_msgSend$integerForKey:
+0000000223091ae0 (__TEXT,__objc_stubs) non-external (was a private external) _objc_msgSend$integerValue
+0000000223091b00 (__TEXT,__objc_stubs) non-external (was a private external) _objc_msgSend$isAncestorThirdPartyFrame:object:
+0000000223091b20 (__TEXT,__objc_stubs) non-external (was a private external) _objc_msgSend$isApproximateMatch
+0000000223091b40 (__TEXT,__objc_stubs) non-external (was a private external) _objc_msgSend$isApproximateMatch:backtraceString:threshold:distancePercentage:
+0000000223091b60 (__TEXT,__objc_stubs) non-external (was a private external) _objc_msgSend$isBlockInvokeFrame:
+0000000223091b80 (__TEXT,__objc_stubs) non-external (was a private external) _objc_msgSend$isEqual:
+0000000223091ba0 (__TEXT,__objc_stubs) non-external (was a private external) _objc_msgSend$isEqualToString:
+0000000223091bc0 (__TEXT,__objc_stubs) non-external (was a private external) _objc_msgSend$isLastRegionSimilarToBacktrace:score:
+0000000223091be0 (__TEXT,__objc_stubs) non-external (was a private external) _objc_msgSend$isLessThanOrEqualTo:
+0000000223091c00 (__TEXT,__objc_stubs) non-external (was a private external) _objc_msgSend$isMatch
+0000000223091c20 (__TEXT,__objc_stubs) non-external (was a private external) _objc_msgSend$isSwiftClosureFrame:
+0000000223091c40 (__TEXT,__objc_stubs) non-external (was a private external) _objc_msgSend$isThirdParty
+0000000223091c60 (__TEXT,__objc_stubs) non-external (was a private external) _objc_msgSend$isValidLogSchema:logFormat:error:
+0000000223091c80 (__TEXT,__objc_stubs) non-external (was a private external) _objc_msgSend$isValidSignatureStoreInvariant
+0000000223091ca0 (__TEXT,__objc_stubs) non-external (was a private external) _objc_msgSend$isWALCheckpointFrame:
+0000000223091cc0 (__TEXT,__objc_stubs) non-external (was a private external) _objc_msgSend$issueTypeFromDiagnostics:
+0000000223091ce0 (__TEXT,__objc_stubs) non-external (was a private external) _objc_msgSend$last3PFrame
+0000000223091d00 (__TEXT,__objc_stubs) non-external (was a private external) _objc_msgSend$length
+0000000223091d20 (__TEXT,__objc_stubs) non-external (was a private external) _objc_msgSend$logNumber
+0000000223091d40 (__TEXT,__objc_stubs) non-external (was a private external) _objc_msgSend$lookupApproximateFrameInSignatureStore:threshold:distancePercentage:
+0000000223091d60 (__TEXT,__objc_stubs) non-external (was a private external) _objc_msgSend$lookupFrameInSignatureStore:
+0000000223091d80 (__TEXT,__objc_stubs) non-external (was a private external) _objc_msgSend$lowest_3P_frame_seen
+0000000223091da0 (__TEXT,__objc_stubs) non-external (was a private external) _objc_msgSend$mainBundle
+0000000223091dc0 (__TEXT,__objc_stubs) non-external (was a private external) _objc_msgSend$matchNThirdPartyFrames:store:percent:diagnostics:error:
+0000000223091de0 (__TEXT,__objc_stubs) non-external (was a private external) _objc_msgSend$matchPartialLastNAPIBoundaries:store:count:diagnostics:error:
+0000000223091e00 (__TEXT,__objc_stubs) non-external (was a private external) _objc_msgSend$matchPartialLastNThirdPartyFrames:store:count:diagnostics:error:
+0000000223091e20 (__TEXT,__objc_stubs) non-external (was a private external) _objc_msgSend$matchStartOffsetFromLast3PFrame
+0000000223091e40 (__TEXT,__objc_stubs) non-external (was a private external) _objc_msgSend$matchedSignaturesWithCommon3PFramesMetaData
+0000000223091e60 (__TEXT,__objc_stubs) non-external (was a private external) _objc_msgSend$matchedSignaturesWithCommonLast3PFramesMetaData
+0000000223091e80 (__TEXT,__objc_stubs) non-external (was a private external) _objc_msgSend$matchedSignaturesWithSimilarLast3PRegion
+0000000223091ea0 (__TEXT,__objc_stubs) non-external (was a private external) _objc_msgSend$nextWithSameKey
+0000000223091ec0 (__TEXT,__objc_stubs) non-external (was a private external) _objc_msgSend$numberWithInteger:
+0000000223091ee0 (__TEXT,__objc_stubs) non-external (was a private external) _objc_msgSend$obj
+0000000223091f00 (__TEXT,__objc_stubs) non-external (was a private external) _objc_msgSend$objectAtIndex:
+0000000223091f20 (__TEXT,__objc_stubs) non-external (was a private external) _objc_msgSend$objectAtIndexedSubscript:
+0000000223091f40 (__TEXT,__objc_stubs) non-external (was a private external) _objc_msgSend$objectForKey:
+0000000223091f60 (__TEXT,__objc_stubs) non-external (was a private external) _objc_msgSend$objectForKeyedSubscript:
+0000000223091f80 (__TEXT,__objc_stubs) non-external (was a private external) _objc_msgSend$parent
+0000000223091fa0 (__TEXT,__objc_stubs) non-external (was a private external) _objc_msgSend$path
+0000000223091fc0 (__TEXT,__objc_stubs) non-external (was a private external) _objc_msgSend$previousWithSameKey
+0000000223091fe0 (__TEXT,__objc_stubs) non-external (was a private external) _objc_msgSend$regionsArray
+0000000223092000 (__TEXT,__objc_stubs) non-external (was a private external) _objc_msgSend$regularExpressionWithPattern:options:error:
+0000000223092020 (__TEXT,__objc_stubs) non-external (was a private external) _objc_msgSend$removeObjectAtIndex:
+0000000223092040 (__TEXT,__objc_stubs) non-external (was a private external) _objc_msgSend$retrieveModifiedFrame:frameType:
+0000000223092060 (__TEXT,__objc_stubs) non-external (was a private external) _objc_msgSend$setAdditionalDiagnosticText:
+0000000223092080 (__TEXT,__objc_stubs) non-external (was a private external) _objc_msgSend$setAntipatternTrigger:
+00000002230920a0 (__TEXT,__objc_stubs) non-external (was a private external) _objc_msgSend$setBuild:
+00000002230920c0 (__TEXT,__objc_stubs) non-external (was a private external) _objc_msgSend$setCategory:
+00000002230920e0 (__TEXT,__objc_stubs) non-external (was a private external) _objc_msgSend$setChildren:
+0000000223092100 (__TEXT,__objc_stubs) non-external (was a private external) _objc_msgSend$setChildrenCount:
+0000000223092120 (__TEXT,__objc_stubs) non-external (was a private external) _objc_msgSend$setCurrentRegion:
+0000000223092140 (__TEXT,__objc_stubs) non-external (was a private external) _objc_msgSend$setDataUUID:
+0000000223092160 (__TEXT,__objc_stubs) non-external (was a private external) _objc_msgSend$setDetermined_signature_boundary:
+0000000223092180 (__TEXT,__objc_stubs) non-external (was a private external) _objc_msgSend$setDirect_wal_checkpoint_invocation:
+00000002230921a0 (__TEXT,__objc_stubs) non-external (was a private external) _objc_msgSend$setDiskWritePercentage:
+00000002230921c0 (__TEXT,__objc_stubs) non-external (was a private external) _objc_msgSend$setFormat:
+00000002230921e0 (__TEXT,__objc_stubs) non-external (was a private external) _objc_msgSend$setFrameType:
+0000000223092200 (__TEXT,__objc_stubs) non-external (was a private external) _objc_msgSend$setFullMessage:
+0000000223092220 (__TEXT,__objc_stubs) non-external (was a private external) _objc_msgSend$setFunction:
+0000000223092240 (__TEXT,__objc_stubs) non-external (was a private external) _objc_msgSend$setHangTime:
+0000000223092260 (__TEXT,__objc_stubs) non-external (was a private external) _objc_msgSend$setHas_trigger_frame:
+0000000223092280 (__TEXT,__objc_stubs) non-external (was a private external) _objc_msgSend$setHelpURL:
+00000002230922a0 (__TEXT,__objc_stubs) non-external (was a private external) _objc_msgSend$setInsight:
+00000002230922c0 (__TEXT,__objc_stubs) non-external (was a private external) _objc_msgSend$setInsightDescriptionForSignaturesWithCommon3PFrames:
+00000002230922e0 (__TEXT,__objc_stubs) non-external (was a private external) _objc_msgSend$setInsightDescriptionForSignaturesWithCommonLast3PFrames:
+0000000223092300 (__TEXT,__objc_stubs) non-external (was a private external) _objc_msgSend$setInsightDescriptionForSignaturesWithSimilarLast3PRegion:
+0000000223092320 (__TEXT,__objc_stubs) non-external (was a private external) _objc_msgSend$setInsightDescriptionForSignaturesWithTriggerFrameAndCommon3PFrames:
+0000000223092340 (__TEXT,__objc_stubs) non-external (was a private external) _objc_msgSend$setInsightDescriptionForSignaturesWithTriggerFrameAndCommonLast3PFrames:
+0000000223092360 (__TEXT,__objc_stubs) non-external (was a private external) _objc_msgSend$setInsightDescriptionForSignaturesWithTriggerFrameAndSimilarLast3PRegion:
+0000000223092380 (__TEXT,__objc_stubs) non-external (was a private external) _objc_msgSend$setIsApproximateMatch:
+00000002230923a0 (__TEXT,__objc_stubs) non-external (was a private external) _objc_msgSend$setIsMatch:
+00000002230923c0 (__TEXT,__objc_stubs) non-external (was a private external) _objc_msgSend$setIsSymbolicated:
+00000002230923e0 (__TEXT,__objc_stubs) non-external (was a private external) _objc_msgSend$setIsThirdParty:
+0000000223092400 (__TEXT,__objc_stubs) non-external (was a private external) _objc_msgSend$setIs_third_party_region:
+0000000223092420 (__TEXT,__objc_stubs) non-external (was a private external) _objc_msgSend$setIssueType:
+0000000223092440 (__TEXT,__objc_stubs) non-external (was a private external) _objc_msgSend$setLast3PFrame:
+0000000223092460 (__TEXT,__objc_stubs) non-external (was a private external) _objc_msgSend$setLogNumber:
+0000000223092480 (__TEXT,__objc_stubs) non-external (was a private external) _objc_msgSend$setLog_number:
+00000002230924a0 (__TEXT,__objc_stubs) non-external (was a private external) _objc_msgSend$setLowest_3P_frame_seen:
+00000002230924c0 (__TEXT,__objc_stubs) non-external (was a private external) _objc_msgSend$setMatchStartOffsetFromLast3PFrame:
+00000002230924e0 (__TEXT,__objc_stubs) non-external (was a private external) _objc_msgSend$setNextWithSameKey:
+0000000223092500 (__TEXT,__objc_stubs) non-external (was a private external) _objc_msgSend$setObj:
+0000000223092520 (__TEXT,__objc_stubs) non-external (was a private external) _objc_msgSend$setObject:forKey:
+0000000223092540 (__TEXT,__objc_stubs) non-external (was a private external) _objc_msgSend$setObject:forKeyedSubscript:
+0000000223092560 (__TEXT,__objc_stubs) non-external (was a private external) _objc_msgSend$setOccurrenceCount:
+0000000223092580 (__TEXT,__objc_stubs) non-external (was a private external) _objc_msgSend$setParent:
+00000002230925a0 (__TEXT,__objc_stubs) non-external (was a private external) _objc_msgSend$setPath:
+00000002230925c0 (__TEXT,__objc_stubs) non-external (was a private external) _objc_msgSend$setPreviousWithSameKey:
+00000002230925e0 (__TEXT,__objc_stubs) non-external (was a private external) _objc_msgSend$setRecommendedMatchedSignatureMetaData:
+0000000223092600 (__TEXT,__objc_stubs) non-external (was a private external) _objc_msgSend$setRegionsArray:
+0000000223092620 (__TEXT,__objc_stubs) non-external (was a private external) _objc_msgSend$setShouldSuppress:
+0000000223092640 (__TEXT,__objc_stubs) non-external (was a private external) _objc_msgSend$setSignatureID:
+0000000223092660 (__TEXT,__objc_stubs) non-external (was a private external) _objc_msgSend$setSignaturesWithAllCommon3PFrames:
+0000000223092680 (__TEXT,__objc_stubs) non-external (was a private external) _objc_msgSend$setSignaturesWithAllCommonAPIBoundaries:
+00000002230926a0 (__TEXT,__objc_stubs) non-external (was a private external) _objc_msgSend$setSignaturesWithCommon3PFrames:
+00000002230926c0 (__TEXT,__objc_stubs) non-external (was a private external) _objc_msgSend$setSignaturesWithCommonAPIBoundaries:
+00000002230926e0 (__TEXT,__objc_stubs) non-external (was a private external) _objc_msgSend$setSignaturesWithCommonLast3PFrames:
+0000000223092700 (__TEXT,__objc_stubs) non-external (was a private external) _objc_msgSend$setSignaturesWithCommonLastContiguous3PFrames:
+0000000223092720 (__TEXT,__objc_stubs) non-external (was a private external) _objc_msgSend$setSignaturesWithCommonLastContiguousAPIBoundaries:
+0000000223092740 (__TEXT,__objc_stubs) non-external (was a private external) _objc_msgSend$setSignaturesWithDirectWalCheckpointInvocationAndCommon3PFrames:
+0000000223092760 (__TEXT,__objc_stubs) non-external (was a private external) _objc_msgSend$setSignaturesWithDirectWalCheckpointInvocationAndCommonLast3PFrame:
+0000000223092780 (__TEXT,__objc_stubs) non-external (was a private external) _objc_msgSend$setSignaturesWithDirectWalCheckpointInvocationAndSimilarLast3PRegions:
+00000002230927a0 (__TEXT,__objc_stubs) non-external (was a private external) _objc_msgSend$setSignaturesWithInsightAndCommon3PFrames:
+00000002230927c0 (__TEXT,__objc_stubs) non-external (was a private external) _objc_msgSend$setSignaturesWithInsightAndCommonLast3PFrames:
+00000002230927e0 (__TEXT,__objc_stubs) non-external (was a private external) _objc_msgSend$setSignaturesWithInsightAndSimilarLast3PRegions:
+0000000223092800 (__TEXT,__objc_stubs) non-external (was a private external) _objc_msgSend$setSignaturesWithSimilarLast3PRegions:
+0000000223092820 (__TEXT,__objc_stubs) non-external (was a private external) _objc_msgSend$setSignaturesWithTriggerFrameAndCommonLast3PFrames:
+0000000223092840 (__TEXT,__objc_stubs) non-external (was a private external) _objc_msgSend$setSignaturesWithTriggerFrameAndSimilarLast3PRegions:
+0000000223092860 (__TEXT,__objc_stubs) non-external (was a private external) _objc_msgSend$setSignaturesWithTriggerFrameInsightAndCommon3PFrames:
+0000000223092880 (__TEXT,__objc_stubs) non-external (was a private external) _objc_msgSend$setSignaturesWithTriggerFrameInsightAndCommonLast3PFrames:
+00000002230928a0 (__TEXT,__objc_stubs) non-external (was a private external) _objc_msgSend$setSignaturesWithTriggerFrameInsightAndSimilarLast3PRegions:
+00000002230928c0 (__TEXT,__objc_stubs) non-external (was a private external) _objc_msgSend$setSignaturesWithTriggerFrames:
+00000002230928e0 (__TEXT,__objc_stubs) non-external (was a private external) _objc_msgSend$setSpecial_frame:
+0000000223092900 (__TEXT,__objc_stubs) non-external (was a private external) _objc_msgSend$setSqlite_usage:
+0000000223092920 (__TEXT,__objc_stubs) non-external (was a private external) _objc_msgSend$setTotal_1P_to_3P_boundary_matches:
+0000000223092940 (__TEXT,__objc_stubs) non-external (was a private external) _objc_msgSend$setTotal_3P_frame_matches:
+0000000223092960 (__TEXT,__objc_stubs) non-external (was a private external) _objc_msgSend$setTotal_approximate_matches:
+0000000223092980 (__TEXT,__objc_stubs) non-external (was a private external) _objc_msgSend$setTotal_exact_matches:
+00000002230929a0 (__TEXT,__objc_stubs) non-external (was a private external) _objc_msgSend$setTotal_frames:
+00000002230929c0 (__TEXT,__objc_stubs) non-external (was a private external) _objc_msgSend$setTotal_last_contiguous_1P_to_3P_boundary_matches:
+00000002230929e0 (__TEXT,__objc_stubs) non-external (was a private external) _objc_msgSend$setTotal_last_contiguous_3P_frame_matches:
+0000000223092a00 (__TEXT,__objc_stubs) non-external (was a private external) _objc_msgSend$setUrl:
+0000000223092a20 (__TEXT,__objc_stubs) non-external (was a private external) _objc_msgSend$setValidMatchResult:
+0000000223092a40 (__TEXT,__objc_stubs) non-external (was a private external) _objc_msgSend$setVersion:
+0000000223092a60 (__TEXT,__objc_stubs) non-external (was a private external) _objc_msgSend$shouldSuppress:thirdPartyFrameCount:
+0000000223092a80 (__TEXT,__objc_stubs) non-external (was a private external) _objc_msgSend$signatureFrameIsBoundary:
+0000000223092aa0 (__TEXT,__objc_stubs) non-external (was a private external) _objc_msgSend$signatureID
+0000000223092ac0 (__TEXT,__objc_stubs) non-external (was a private external) _objc_msgSend$signaturesWithAllCommon3PFrames
+0000000223092ae0 (__TEXT,__objc_stubs) non-external (was a private external) _objc_msgSend$signaturesWithAllCommonAPIBoundaries
+0000000223092b00 (__TEXT,__objc_stubs) non-external (was a private external) _objc_msgSend$signaturesWithCommon3PFrames
+0000000223092b20 (__TEXT,__objc_stubs) non-external (was a private external) _objc_msgSend$signaturesWithCommonAPIBoundaries
+0000000223092b40 (__TEXT,__objc_stubs) non-external (was a private external) _objc_msgSend$signaturesWithCommonLast3PFrames
+0000000223092b60 (__TEXT,__objc_stubs) non-external (was a private external) _objc_msgSend$signaturesWithCommonLastContiguous3PFrames
+0000000223092b80 (__TEXT,__objc_stubs) non-external (was a private external) _objc_msgSend$signaturesWithCommonLastContiguousAPIBoundaries
+0000000223092ba0 (__TEXT,__objc_stubs) non-external (was a private external) _objc_msgSend$signaturesWithDirectWalCheckpointInvocationAndCommon3PFrames
+0000000223092bc0 (__TEXT,__objc_stubs) non-external (was a private external) _objc_msgSend$signaturesWithDirectWalCheckpointInvocationAndCommonLast3PFrame
+0000000223092be0 (__TEXT,__objc_stubs) non-external (was a private external) _objc_msgSend$signaturesWithDirectWalCheckpointInvocationAndSimilarLast3PRegions
+0000000223092c00 (__TEXT,__objc_stubs) non-external (was a private external) _objc_msgSend$signaturesWithInsightAndCommon3PFrames
+0000000223092c20 (__TEXT,__objc_stubs) non-external (was a private external) _objc_msgSend$signaturesWithInsightAndCommonLast3PFrames
+0000000223092c40 (__TEXT,__objc_stubs) non-external (was a private external) _objc_msgSend$signaturesWithInsightAndSimilarLast3PRegions
+0000000223092c60 (__TEXT,__objc_stubs) non-external (was a private external) _objc_msgSend$signaturesWithSimilarLast3PRegions
+0000000223092c80 (__TEXT,__objc_stubs) non-external (was a private external) _objc_msgSend$signaturesWithTriggerFrameAndCommon3PFrames
+0000000223092ca0 (__TEXT,__objc_stubs) non-external (was a private external) _objc_msgSend$signaturesWithTriggerFrameAndCommonLast3PFrames
+0000000223092cc0 (__TEXT,__objc_stubs) non-external (was a private external) _objc_msgSend$signaturesWithTriggerFrameAndSimilarLast3PRegions
+0000000223092ce0 (__TEXT,__objc_stubs) non-external (was a private external) _objc_msgSend$signaturesWithTriggerFrameInsightAndCommon3PFrames
+0000000223092d00 (__TEXT,__objc_stubs) non-external (was a private external) _objc_msgSend$signaturesWithTriggerFrameInsightAndCommonLast3PFrames
+0000000223092d20 (__TEXT,__objc_stubs) non-external (was a private external) _objc_msgSend$signaturesWithTriggerFrameInsightAndSimilarLast3PRegions
+0000000223092d40 (__TEXT,__objc_stubs) non-external (was a private external) _objc_msgSend$signaturesWithTriggerFrames
+0000000223092d60 (__TEXT,__objc_stubs) non-external (was a private external) _objc_msgSend$standardUserDefaults
+0000000223092d80 (__TEXT,__objc_stubs) non-external (was a private external) _objc_msgSend$stringByReplacingMatchesInString:options:range:withTemplate:
+0000000223092da0 (__TEXT,__objc_stubs) non-external (was a private external) _objc_msgSend$stringForKey:
+0000000223092dc0 (__TEXT,__objc_stubs) non-external (was a private external) _objc_msgSend$stringWithFormat:
+0000000223092de0 (__TEXT,__objc_stubs) non-external (was a private external) _objc_msgSend$substringWithRange:
+0000000223092e00 (__TEXT,__objc_stubs) non-external (was a private external) _objc_msgSend$total_1P_to_3P_boundary_matches
+0000000223092e20 (__TEXT,__objc_stubs) non-external (was a private external) _objc_msgSend$total_3P_frame_matches
+0000000223092e40 (__TEXT,__objc_stubs) non-external (was a private external) _objc_msgSend$total_approximate_matches
+0000000223092e60 (__TEXT,__objc_stubs) non-external (was a private external) _objc_msgSend$total_distance_percentage_match_histogram
+0000000223092e80 (__TEXT,__objc_stubs) non-external (was a private external) _objc_msgSend$total_exact_matches
+0000000223092ea0 (__TEXT,__objc_stubs) non-external (was a private external) _objc_msgSend$total_frames
+0000000223092ec0 (__TEXT,__objc_stubs) non-external (was a private external) _objc_msgSend$total_last_contiguous_1P_to_3P_boundary_matches
+0000000223092ee0 (__TEXT,__objc_stubs) non-external (was a private external) _objc_msgSend$total_last_contiguous_3P_frame_matches
+0000000223092f00 (__TEXT,__objc_stubs) non-external (was a private external) _objc_msgSend$traverseAndMatchStore:store:count:triggerFrame:error:
+0000000223092f20 (__TEXT,__objc_stubs) non-external (was a private external) _objc_msgSend$unsignedIntegerValue
+0000000223092f40 (__TEXT,__objc_stubs) non-external (was a private external) _objc_msgSend$updateRegionStats:distance:region:
+0000000223092f60 (__TEXT,__objc_stubs) non-external (was a private external) _objc_msgSend$updateUnhandledFrameStats:
+0000000223092f80 (__TEXT,__objc_stubs) non-external (was a private external) _objc_msgSend$url
+0000000223092fa0 (__TEXT,__objc_stubs) non-external (was a private external) _objc_msgSend$validateBacktrace:error:
+0000000223092fc0 (__TEXT,__objc_stubs) non-external (was a private external) _objc_msgSend$validateUltimateAncestorIsRoot:store:
+0000000223092fe0 (__TEXT,__objc_stubs) non-external (was a private external) _objc_msgSend$version
+                 (undefined) external _objc_msgSendSuper2 (from libobjc)
+                 (undefined) external _objc_opt_class (from libobjc)
+                 (undefined) external _objc_opt_isKindOfClass (from libobjc)
+                 (undefined) external _objc_release (from libobjc)
+                 (undefined) external _objc_retain (from libobjc)
+                 (undefined) external _objc_retainAutorelease (from libobjc)
+                 (undefined) external _objc_retainAutoreleaseReturnValue (from libobjc)
+                 (undefined) external _objc_retainAutoreleasedReturnValue (from libobjc)
+                 (undefined) external _objc_setProperty_nonatomic_copy (from libobjc)
+                 (undefined) external _objc_storeStrong (from libobjc)
+                 (undefined) external _objc_storeWeak (from libobjc)
+000000026d3a0d90 (__DATA,__bss) non-external _retrieveModifiedFrame:frameType:.blockInvokeUnderscoreRegex
+000000026d3a0d80 (__DATA,__bss) non-external _retrieveModifiedFrame:frameType:.digitRegex
+000000026d3a0d98 (__DATA,__bss) non-external _retrieveModifiedFrame:frameType:.innerOnceToken
+000000026d3a0d88 (__DATA,__bss) non-external _retrieveModifiedFrame:frameType:.onceToken
+000000026d3a0d30 (__DATA,__bss) non-external _supportedFormatTypes.onceToken
+000000026d3a0d38 (__DATA,__bss) non-external _supportedFormatTypes.supportedFormatTypes

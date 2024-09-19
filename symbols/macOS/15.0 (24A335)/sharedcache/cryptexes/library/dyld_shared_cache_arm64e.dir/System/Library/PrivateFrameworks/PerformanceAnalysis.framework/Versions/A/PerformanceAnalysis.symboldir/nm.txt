@@ -1,0 +1,518 @@
+00000001895e9178 (__TEXT,__text) non-external +[PAPerfLoggingClientOperation existingOperationWithOperationCategory:operationName:]
+00000001895e92a4 (__TEXT,__text) non-external +[PAPerfLoggingCoreOperation keyForProcessName:operationCategory:andOperationName:]
+00000001895ea854 (__TEXT,__text) non-external +[PAPerfLoggingIntervalTransitionEvent stringForTransitionTimeline:withStartTimeInSec:andEndTimeInSec:]
+00000001895ea500 (__TEXT,__text) non-external +[PAPerfLoggingOperationCompletionNotification registerForCompletionNotificationsOnQueue:withHandler:]
+00000001895ea504 (__TEXT,__text) non-external +[PAPerfLoggingOperationCompletionNotification unregisterForCompletionNotifications]
+00000001895ed7cc (__TEXT,__text) non-external -[PAPerfLoggingClientOperation _ktraceMarkIntervalTransition:withTransitionType:]
+00000001895e9f18 (__TEXT,__text) non-external -[PAPerfLoggingClientOperation _ktraceMarkOperationEndWithType:]
+00000001895e97f4 (__TEXT,__text) non-external -[PAPerfLoggingClientOperation _ktraceMarkOperationStart]
+00000001895e9800 (__TEXT,__text) non-external -[PAPerfLoggingClientOperation _ktraceOperationEventWithID:]
+00000001895ed7f4 (__TEXT,__text) non-external -[PAPerfLoggingClientOperation _ktraceOperationEventWithID:andString:]
+00000001895ea120 (__TEXT,__text) non-external -[PAPerfLoggingClientOperation dealloc]
+00000001895e99dc (__TEXT,__text) non-external -[PAPerfLoggingClientOperation endWithType:truncateDurationInSeconds:]
+00000001895e92dc (__TEXT,__text) non-external -[PAPerfLoggingClientOperation initAndStartWithOperationCategory:andOperationName:andPid:shouldMonitorWSUpdates:]
+00000001895ed970 (__TEXT,__text) non-external -[PAPerfLoggingClientOperation markIntervalTransition:transitionType:atCGSTimestampInSec:withContext:isWSIntervalTransition:]
+00000001895e9634 (__TEXT,__text) non-external -[PAPerfLoggingClientOperation markOperationStart]
+00000001895ededc (__TEXT,__text) non-external -[PAPerfLoggingClientOperation markOperationStart].cold.1
+00000001895ecba4 (__TEXT,__text) non-external -[PAPerfLoggingCoreOperation _addResultsForIntervalsToResultsDict:]
+00000001895ecea4 (__TEXT,__text) non-external -[PAPerfLoggingCoreOperation _logNumSlowWSUpdates:]
+00000001895e9f80 (__TEXT,__text) non-external -[PAPerfLoggingCoreOperation _numWSUpdatesDuringOperation]
+00000001895ec6a8 (__TEXT,__text) non-external -[PAPerfLoggingCoreOperation _processIntervalEventStream:withContextProcessingConfiguration:]
+00000001895ea178 (__TEXT,__text) non-external -[PAPerfLoggingCoreOperation dealloc]
+00000001895ed598 (__TEXT,__text) non-external -[PAPerfLoggingCoreOperation endTimeInSec]
+00000001895ece0c (__TEXT,__text) non-external -[PAPerfLoggingCoreOperation getIntervalDataDictionary]
+00000001895ed5a8 (__TEXT,__text) non-external -[PAPerfLoggingCoreOperation hasSeenWSUpdate]
+00000001895e94cc (__TEXT,__text) non-external -[PAPerfLoggingCoreOperation initWithProcessName:andOperationCategory:andOperationName:andPid:]
+00000001895ecfe8 (__TEXT,__text) non-external -[PAPerfLoggingCoreOperation logIntervalData:]
+00000001895ed090 (__TEXT,__text) non-external -[PAPerfLoggingCoreOperation markIntervalTransition:transitionType:atCGSTimestampInSec:withContext:isWSIntervalTransition:]
+00000001895ea298 (__TEXT,__text) non-external -[PAPerfLoggingCoreOperation markOperationEndTruncatedByDuration:]
+00000001895e98ec (__TEXT,__text) non-external -[PAPerfLoggingCoreOperation markOperationStart]
+00000001895ed474 (__TEXT,__text) non-external -[PAPerfLoggingCoreOperation markSlowFrameFrame:withIntervalRange:]
+00000001895ed5a0 (__TEXT,__text) non-external -[PAPerfLoggingCoreOperation numSlowWSUpdates]
+00000001895e99bc (__TEXT,__text) non-external -[PAPerfLoggingCoreOperation operationCategory]
+00000001895ec690 (__TEXT,__text) non-external -[PAPerfLoggingCoreOperation operationDurationInMs]
+00000001895e95c8 (__TEXT,__text) non-external -[PAPerfLoggingCoreOperation operationKey]
+00000001895e99c4 (__TEXT,__text) non-external -[PAPerfLoggingCoreOperation operationName]
+00000001895ed590 (__TEXT,__text) non-external -[PAPerfLoggingCoreOperation pid]
+00000001895ed588 (__TEXT,__text) non-external -[PAPerfLoggingCoreOperation processName]
+00000001895e98e4 (__TEXT,__text) non-external -[PAPerfLoggingCoreOperation serialNumber]
+00000001895ed2e4 (__TEXT,__text) non-external -[PAPerfLoggingCoreOperation setContextProcessingConfiguration:forIntervalType:]
+00000001895e95b8 (__TEXT,__text) non-external -[PAPerfLoggingCoreOperation setOperationCategory:]
+00000001895e95b0 (__TEXT,__text) non-external -[PAPerfLoggingCoreOperation setOperationName:]
+00000001895e95c0 (__TEXT,__text) non-external -[PAPerfLoggingCoreOperation setProcessName:]
+00000001895ed580 (__TEXT,__text) non-external -[PAPerfLoggingCoreOperation slowWSUpdateInfoArray]
+00000001895ea318 (__TEXT,__text) non-external -[PAPerfLoggingCoreOperation startTimeInSec]
+00000001895ed258 (__TEXT,__text) non-external -[PAPerfLoggingCoreOperation stringForIntervalEventTimeline]
+00000001895eb2b8 (__TEXT,__text) non-external -[PAPerfLoggingIntervalData _initializeFieldsFromParentOperationInformation:]
+00000001895eb164 (__TEXT,__text) non-external -[PAPerfLoggingIntervalData _isWSFrameInterval]
+00000001895eb67c (__TEXT,__text) non-external -[PAPerfLoggingIntervalData _logPAPerfLoggingDataValue:uom:doLocalLogging:]
+00000001895ebe5c (__TEXT,__text) non-external -[PAPerfLoggingIntervalData averageIntervalDurationInMs]
+00000001895eb4e8 (__TEXT,__text) non-external -[PAPerfLoggingIntervalData dealloc]
+00000001895eb5d0 (__TEXT,__text) non-external -[PAPerfLoggingIntervalData description]
+00000001895ebef8 (__TEXT,__text) non-external -[PAPerfLoggingIntervalData endOfLastIntervalInSec]
+00000001895eb574 (__TEXT,__text) non-external -[PAPerfLoggingIntervalData finalize]
+00000001895eb33c (__TEXT,__text) non-external -[PAPerfLoggingIntervalData initWithIntervalType:andIntervalDurationInMSArray:andIntervalStartTimeInSecArray:ofLength:andNumUnpairedTransitions:andTimeOfFirstIntervalStartInSec:andTimeOfLastIntervalEndInSec:andProcessedMetaDataArray:andProcessedMetaDataUOMsArray:withPAPerfLoggingData:]
+00000001895eb280 (__TEXT,__text) non-external -[PAPerfLoggingIntervalData initialDelayDurationInMs]
+00000001895ebe74 (__TEXT,__text) non-external -[PAPerfLoggingIntervalData intervalCount]
+00000001895ebee0 (__TEXT,__text) non-external -[PAPerfLoggingIntervalData intervalDurationInMsArray]
+00000001895eb218 (__TEXT,__text) non-external -[PAPerfLoggingIntervalData intervalRateOverOperationIgnoringDelayInIntervalsPerSec]
+00000001895eb1d0 (__TEXT,__text) non-external -[PAPerfLoggingIntervalData intervalRateOverOperationInIntervalsPerSec]
+00000001895ebee8 (__TEXT,__text) non-external -[PAPerfLoggingIntervalData intervalStartTimeInSecArray]
+00000001895eb194 (__TEXT,__text) non-external -[PAPerfLoggingIntervalData intervalType]
+00000001895eb7b0 (__TEXT,__text) non-external -[PAPerfLoggingIntervalData logIntervalData:]
+00000001895ebe6c (__TEXT,__text) non-external -[PAPerfLoggingIntervalData normalizedStandardDeviation]
+00000001895ebe84 (__TEXT,__text) non-external -[PAPerfLoggingIntervalData numUnpairedIntervalEndsOrStarts]
+00000001895ebea8 (__TEXT,__text) non-external -[PAPerfLoggingIntervalData operationCategory]
+00000001895ebed8 (__TEXT,__text) non-external -[PAPerfLoggingIntervalData operationEndTimeInSec]
+00000001895ebebc (__TEXT,__text) non-external -[PAPerfLoggingIntervalData operationName]
+00000001895ebed0 (__TEXT,__text) non-external -[PAPerfLoggingIntervalData operationStartTimeInSec]
+00000001895eba38 (__TEXT,__text) non-external -[PAPerfLoggingIntervalData printTimelineToMutableData:]
+00000001895ebe94 (__TEXT,__text) non-external -[PAPerfLoggingIntervalData processName]
+00000001895ebf00 (__TEXT,__text) non-external -[PAPerfLoggingIntervalData processedContextDataArray]
+00000001895ebf08 (__TEXT,__text) non-external -[PAPerfLoggingIntervalData processedContextDataUOMsArray]
+00000001895ebe7c (__TEXT,__text) non-external -[PAPerfLoggingIntervalData setIntervalCount:]
+00000001895ebe54 (__TEXT,__text) non-external -[PAPerfLoggingIntervalData setIntervalType:]
+00000001895ebe8c (__TEXT,__text) non-external -[PAPerfLoggingIntervalData setNumUnpairedIntervalEndsOrStarts:]
+00000001895ebeb4 (__TEXT,__text) non-external -[PAPerfLoggingIntervalData setOperationCategory:]
+00000001895ebec8 (__TEXT,__text) non-external -[PAPerfLoggingIntervalData setOperationName:]
+00000001895ebea0 (__TEXT,__text) non-external -[PAPerfLoggingIntervalData setProcessName:]
+00000001895ebe64 (__TEXT,__text) non-external -[PAPerfLoggingIntervalData standardDeviationIntervalDurationInMs]
+00000001895ebef0 (__TEXT,__text) non-external -[PAPerfLoggingIntervalData startOfFirstIntervalInSec]
+00000001895eb27c (__TEXT,__text) non-external -[PAPerfLoggingIntervalData timeBetweenOperationStartAndFirstIntervalInMs]
+00000001895eb17c (__TEXT,__text) non-external -[PAPerfLoggingIntervalData totalOperationDurationInMs]
+00000001895eb29c (__TEXT,__text) non-external -[PAPerfLoggingIntervalData trailingDelayDurationInMs]
+00000001895ea71c (__TEXT,__text) non-external -[PAPerfLoggingIntervalTransitionEvent _stringForTransitionWithOperationStartTimeInSec:andPreviousEventTimeInSec:]
+00000001895ea7ec (__TEXT,__text) non-external -[PAPerfLoggingIntervalTransitionEvent compare:]
+00000001895eafe4 (__TEXT,__text) non-external -[PAPerfLoggingIntervalTransitionEvent context]
+00000001895ea6c8 (__TEXT,__text) non-external -[PAPerfLoggingIntervalTransitionEvent dealloc]
+00000001895ea63c (__TEXT,__text) non-external -[PAPerfLoggingIntervalTransitionEvent initWithTransitionType:ofIntervalType:atTimestamp:withContext:]
+00000001895eafd4 (__TEXT,__text) non-external -[PAPerfLoggingIntervalTransitionEvent transitionTimeInSec]
+00000001895ea5dc (__TEXT,__text) non-external -[PAPerfLoggingIntervalTransitionEvent transitionTypeString]
+00000001895eafdc (__TEXT,__text) non-external -[PAPerfLoggingIntervalTransitionEvent transitionType]
+00000001895ea618 (__TEXT,__text) non-external -[PAPerfLoggingIntervalTransitionEvent transitioningIntervalType]
+00000001895ea508 (__TEXT,__text) non-external -[PAPerfLoggingOperationCompletionNotification dealloc]
+00000001895ea4c0 (__TEXT,__text) non-external -[PAPerfLoggingOperationCompletionNotification detailedReportData]
+00000001895ea4f8 (__TEXT,__text) non-external -[PAPerfLoggingOperationCompletionNotification durationInMachAbsTime]
+00000001895ea4f0 (__TEXT,__text) non-external -[PAPerfLoggingOperationCompletionNotification durationInMs]
+00000001895ea558 (__TEXT,__text) non-external -[PAPerfLoggingOperationCompletionNotification endTimeInMachAbsTime]
+00000001895ea4e8 (__TEXT,__text) non-external -[PAPerfLoggingOperationCompletionNotification endTimeInMs]
+00000001895ea4c8 (__TEXT,__text) non-external -[PAPerfLoggingOperationCompletionNotification intervalTypeToIntervalDataDict]
+00000001895ea4d0 (__TEXT,__text) non-external -[PAPerfLoggingOperationCompletionNotification matchingCategoryRegex]
+00000001895ea4d8 (__TEXT,__text) non-external -[PAPerfLoggingOperationCompletionNotification matchingNameRegex]
+00000001895ea548 (__TEXT,__text) non-external -[PAPerfLoggingOperationCompletionNotification matchingProcessNameRegex]
+00000001895ea4b0 (__TEXT,__text) non-external -[PAPerfLoggingOperationCompletionNotification operationCategory]
+00000001895ea4b8 (__TEXT,__text) non-external -[PAPerfLoggingOperationCompletionNotification operationName]
+00000001895ea540 (__TEXT,__text) non-external -[PAPerfLoggingOperationCompletionNotification pid]
+00000001895ea4a8 (__TEXT,__text) non-external -[PAPerfLoggingOperationCompletionNotification processName]
+00000001895ea550 (__TEXT,__text) non-external -[PAPerfLoggingOperationCompletionNotification startTimeInMachAbsTime]
+00000001895ea4e0 (__TEXT,__text) non-external -[PAPerfLoggingOperationCompletionNotification startTimeInMs]
+00000001895ea488 (__TEXT,__text) non-external -[PAPerfLoggingOperationCompletionNotificationIntervalData averageDurationInMachAbsTime]
+00000001895ea448 (__TEXT,__text) non-external -[PAPerfLoggingOperationCompletionNotificationIntervalData averageDurationInMs]
+00000001895ea490 (__TEXT,__text) non-external -[PAPerfLoggingOperationCompletionNotificationIntervalData durationStandardDeviationInMachAbsTime]
+00000001895ea450 (__TEXT,__text) non-external -[PAPerfLoggingOperationCompletionNotificationIntervalData durationStandardDeviationInMs]
+00000001895ea498 (__TEXT,__text) non-external -[PAPerfLoggingOperationCompletionNotificationIntervalData initialDelayInMachAbsTime]
+00000001895ea458 (__TEXT,__text) non-external -[PAPerfLoggingOperationCompletionNotificationIntervalData initialDelayInMs]
+00000001895ea480 (__TEXT,__text) non-external -[PAPerfLoggingOperationCompletionNotificationIntervalData intervalCount]
+00000001895ea478 (__TEXT,__text) non-external -[PAPerfLoggingOperationCompletionNotificationIntervalData intervalRateIgnoringDelayInIntervalsPerSecond]
+00000001895ea470 (__TEXT,__text) non-external -[PAPerfLoggingOperationCompletionNotificationIntervalData intervalRateInIntervalsPerSecond]
+00000001895ea468 (__TEXT,__text) non-external -[PAPerfLoggingOperationCompletionNotificationIntervalData intervalType]
+00000001895ea4a0 (__TEXT,__text) non-external -[PAPerfLoggingOperationCompletionNotificationIntervalData trailingDelayInMachAbsTime]
+00000001895ea460 (__TEXT,__text) non-external -[PAPerfLoggingOperationCompletionNotificationIntervalData trailingDelayInMs]
+00000001895ef384 (__TEXT,__gcc_except_tab) non-external GCC_except_table10
+00000001895ef494 (__TEXT,__gcc_except_tab) non-external GCC_except_table10
+00000001895ef3c8 (__TEXT,__gcc_except_tab) non-external GCC_except_table11
+00000001895ef4a8 (__TEXT,__gcc_except_tab) non-external GCC_except_table12
+00000001895ef3e0 (__TEXT,__gcc_except_tab) non-external GCC_except_table13
+00000001895ef3f8 (__TEXT,__gcc_except_tab) non-external GCC_except_table15
+00000001895ef408 (__TEXT,__gcc_except_tab) non-external GCC_except_table16
+00000001895ef428 (__TEXT,__gcc_except_tab) non-external GCC_except_table18
+00000001895ef438 (__TEXT,__gcc_except_tab) non-external GCC_except_table19
+00000001895ef4f8 (__TEXT,__gcc_except_tab) non-external GCC_except_table19
+00000001895ef350 (__TEXT,__gcc_except_tab) non-external GCC_except_table2
+00000001895ef460 (__TEXT,__gcc_except_tab) non-external GCC_except_table20
+00000001895ef374 (__TEXT,__gcc_except_tab) non-external GCC_except_table5
+00000001895ef47c (__TEXT,__gcc_except_tab) non-external GCC_except_table6
+                 (undefined) external _CFBooleanGetValue (from CoreFoundation)
+                 (undefined) external _CFRelease (from CoreFoundation)
+                 (undefined) external _CFRetain (from CoreFoundation)
+                 (undefined) weak external _CGSRegisterUpdateInformationHandler (from CoreGraphics)
+                 (undefined) weak external _CGSUnregisterUpdateInformationHandler (from CoreGraphics)
+                 (undefined) external _OBJC_CLASS_$_NSArray (from CoreFoundation)
+                 (undefined) external _OBJC_CLASS_$_NSAutoreleasePool (from Foundation)
+                 (undefined) external _OBJC_CLASS_$_NSDictionary (from CoreFoundation)
+                 (undefined) external _OBJC_CLASS_$_NSMutableArray (from CoreFoundation)
+                 (undefined) external _OBJC_CLASS_$_NSMutableDictionary (from CoreFoundation)
+                 (undefined) external _OBJC_CLASS_$_NSMutableString (from Foundation)
+                 (undefined) external _OBJC_CLASS_$_NSNumber (from Foundation)
+                 (undefined) external _OBJC_CLASS_$_NSObject (from libobjc)
+                 (undefined) external _OBJC_CLASS_$_NSProcessInfo (from Foundation)
+                 (undefined) external _OBJC_CLASS_$_NSString (from Foundation)
+00000001e50a20d8 (__AUTH,__objc_data) non-external (was a private external) _OBJC_CLASS_$_PAPerfLoggingClientOperation
+00000001e50a2268 (__AUTH,__objc_data) non-external (was a private external) _OBJC_CLASS_$_PAPerfLoggingCoreOperation
+00000001e50a2100 (__AUTH,__objc_data) non-external (was a private external) _OBJC_CLASS_$_PAPerfLoggingIntervalData
+00000001e50a2128 (__AUTH,__objc_data) non-external (was a private external) _OBJC_CLASS_$_PAPerfLoggingIntervalTransitionEvent
+00000001e50a2150 (__AUTH,__objc_data) external _OBJC_CLASS_$_PAPerfLoggingOperationCompletionNotification
+00000001e50a2178 (__AUTH,__objc_data) external _OBJC_CLASS_$_PAPerfLoggingOperationCompletionNotificationIntervalData
+00000001e2c99f34 (__DATA,__objc_ivar) non-external (was a private external) _OBJC_IVAR_$_PAPerfLoggingClientOperation._ended
+00000001e2c99f2c (__DATA,__objc_ivar) non-external (was a private external) _OBJC_IVAR_$_PAPerfLoggingClientOperation._shouldLogResultsToSystemLog
+00000001e2c99f30 (__DATA,__objc_ivar) non-external (was a private external) _OBJC_IVAR_$_PAPerfLoggingClientOperation._shouldMonitorWSUpdates
+00000001e2c99f38 (__DATA,__objc_ivar) non-external (was a private external) _OBJC_IVAR_$_PAPerfLoggingClientOperation.timeoutTimerSource
+00000001e2c99f1c (__DATA,__objc_ivar) non-external (was a private external) _OBJC_IVAR_$_PAPerfLoggingCoreOperation._contextProcessingConfigurationsForAllIntervalTypes
+00000001e2c99f04 (__DATA,__objc_ivar) non-external (was a private external) _OBJC_IVAR_$_PAPerfLoggingCoreOperation._dictionaryOfIntervalTypesEventArrays
+00000001e2c99f10 (__DATA,__objc_ivar) non-external (was a private external) _OBJC_IVAR_$_PAPerfLoggingCoreOperation._endTimeInSec
+00000001e2c99f28 (__DATA,__objc_ivar) non-external (was a private external) _OBJC_IVAR_$_PAPerfLoggingCoreOperation._hasSeenWSUpdate
+00000001e2c99f18 (__DATA,__objc_ivar) non-external (was a private external) _OBJC_IVAR_$_PAPerfLoggingCoreOperation._intervalDataDictionary
+00000001e2c99f00 (__DATA,__objc_ivar) non-external (was a private external) _OBJC_IVAR_$_PAPerfLoggingCoreOperation._intervalList
+00000001e2c99f08 (__DATA,__objc_ivar) non-external (was a private external) _OBJC_IVAR_$_PAPerfLoggingCoreOperation._intervalTypesSeenOrder
+00000001e2c99ef0 (__DATA,__objc_ivar) non-external (was a private external) _OBJC_IVAR_$_PAPerfLoggingCoreOperation._matchingCategoryRegexString
+00000001e2c99ef4 (__DATA,__objc_ivar) non-external (was a private external) _OBJC_IVAR_$_PAPerfLoggingCoreOperation._matchingNameRegexString
+00000001e2c99ef8 (__DATA,__objc_ivar) non-external (was a private external) _OBJC_IVAR_$_PAPerfLoggingCoreOperation._matchingProcessNameRegexString
+00000001e2c99f24 (__DATA,__objc_ivar) non-external (was a private external) _OBJC_IVAR_$_PAPerfLoggingCoreOperation._numSlowWSUpdates
+00000001e2c99ee8 (__DATA,__objc_ivar) non-external (was a private external) _OBJC_IVAR_$_PAPerfLoggingCoreOperation._operationCategory
+00000001e2c99ee4 (__DATA,__objc_ivar) non-external (was a private external) _OBJC_IVAR_$_PAPerfLoggingCoreOperation._operationName
+00000001e2c99efc (__DATA,__objc_ivar) non-external (was a private external) _OBJC_IVAR_$_PAPerfLoggingCoreOperation._pid
+00000001e2c99eec (__DATA,__objc_ivar) non-external (was a private external) _OBJC_IVAR_$_PAPerfLoggingCoreOperation._processName
+00000001e2c99f14 (__DATA,__objc_ivar) non-external (was a private external) _OBJC_IVAR_$_PAPerfLoggingCoreOperation._serialNumber
+00000001e2c99f20 (__DATA,__objc_ivar) non-external (was a private external) _OBJC_IVAR_$_PAPerfLoggingCoreOperation._slowWSUpdateInfoArray
+00000001e2c99f0c (__DATA,__objc_ivar) non-external (was a private external) _OBJC_IVAR_$_PAPerfLoggingCoreOperation._startTimeInSec
+00000001e2c99ec0 (__DATA,__objc_ivar) non-external (was a private external) _OBJC_IVAR_$_PAPerfLoggingIntervalData._averageIntervalDurationInMs
+00000001e2c99ee0 (__DATA,__objc_ivar) non-external (was a private external) _OBJC_IVAR_$_PAPerfLoggingIntervalData._endOfLastIntervalInSec
+00000001e2c99edc (__DATA,__objc_ivar) non-external (was a private external) _OBJC_IVAR_$_PAPerfLoggingIntervalData._firstIntervalStartInSec
+00000001e2c99ecc (__DATA,__objc_ivar) non-external (was a private external) _OBJC_IVAR_$_PAPerfLoggingIntervalData._intervalCount
+00000001e2c99eb8 (__DATA,__objc_ivar) non-external (was a private external) _OBJC_IVAR_$_PAPerfLoggingIntervalData._intervalDurationInMsArray
+00000001e2c99ebc (__DATA,__objc_ivar) non-external (was a private external) _OBJC_IVAR_$_PAPerfLoggingIntervalData._intervalStartTimeInSecArray
+00000001e2c99ea0 (__DATA,__objc_ivar) non-external (was a private external) _OBJC_IVAR_$_PAPerfLoggingIntervalData._intervalType
+00000001e2c99ec8 (__DATA,__objc_ivar) non-external (was a private external) _OBJC_IVAR_$_PAPerfLoggingIntervalData._normalizedStandardDeviation
+00000001e2c99ed0 (__DATA,__objc_ivar) non-external (was a private external) _OBJC_IVAR_$_PAPerfLoggingIntervalData._numUnpairedTransitions
+00000001e2c99ea8 (__DATA,__objc_ivar) non-external (was a private external) _OBJC_IVAR_$_PAPerfLoggingIntervalData._operationCategory
+00000001e2c99ed8 (__DATA,__objc_ivar) non-external (was a private external) _OBJC_IVAR_$_PAPerfLoggingIntervalData._operationEndTimeInSec
+00000001e2c99eac (__DATA,__objc_ivar) non-external (was a private external) _OBJC_IVAR_$_PAPerfLoggingIntervalData._operationName
+00000001e2c99ed4 (__DATA,__objc_ivar) non-external (was a private external) _OBJC_IVAR_$_PAPerfLoggingIntervalData._operationStartTimeInSec
+00000001e2c99ea4 (__DATA,__objc_ivar) non-external (was a private external) _OBJC_IVAR_$_PAPerfLoggingIntervalData._processName
+00000001e2c99eb0 (__DATA,__objc_ivar) non-external (was a private external) _OBJC_IVAR_$_PAPerfLoggingIntervalData._processedContextDataArray
+00000001e2c99eb4 (__DATA,__objc_ivar) non-external (was a private external) _OBJC_IVAR_$_PAPerfLoggingIntervalData._processedContextDataUOMsArray
+00000001e2c99ec4 (__DATA,__objc_ivar) non-external (was a private external) _OBJC_IVAR_$_PAPerfLoggingIntervalData._standardDeviationIntervalDurationInMs
+00000001e2c99e9c (__DATA,__objc_ivar) non-external (was a private external) _OBJC_IVAR_$_PAPerfLoggingIntervalTransitionEvent._context
+00000001e2c99e94 (__DATA,__objc_ivar) non-external (was a private external) _OBJC_IVAR_$_PAPerfLoggingIntervalTransitionEvent._startTransitionCauseIntervalType
+00000001e2c99e90 (__DATA,__objc_ivar) non-external (was a private external) _OBJC_IVAR_$_PAPerfLoggingIntervalTransitionEvent._transitionTimeInSec
+00000001e2c99e98 (__DATA,__objc_ivar) non-external (was a private external) _OBJC_IVAR_$_PAPerfLoggingIntervalTransitionEvent._transitionType
+00000001e2c99e8c (__DATA,__objc_ivar) non-external (was a private external) _OBJC_IVAR_$_PAPerfLoggingOperationCompletionNotification._endTimeInMachAbsTime
+00000001e2c99e84 (__DATA,__objc_ivar) non-external (was a private external) _OBJC_IVAR_$_PAPerfLoggingOperationCompletionNotification._matchingProcessNameRegex
+00000001e2c99e80 (__DATA,__objc_ivar) non-external (was a private external) _OBJC_IVAR_$_PAPerfLoggingOperationCompletionNotification._pid
+00000001e2c99e88 (__DATA,__objc_ivar) non-external (was a private external) _OBJC_IVAR_$_PAPerfLoggingOperationCompletionNotification._startTimeInMachAbsTime
+00000001e2c99e70 (__DATA,__objc_ivar) non-external (was a private external) _OBJC_IVAR_$_PAPerfLoggingOperationCompletionNotificationIntervalData._averageDurationInMachAbsTime
+00000001e2c99e74 (__DATA,__objc_ivar) non-external (was a private external) _OBJC_IVAR_$_PAPerfLoggingOperationCompletionNotificationIntervalData._durationStandardDeviationInMachAbsTime
+00000001e2c99e78 (__DATA,__objc_ivar) non-external (was a private external) _OBJC_IVAR_$_PAPerfLoggingOperationCompletionNotificationIntervalData._initialDelayInMachAbsTime
+00000001e2c99e6c (__DATA,__objc_ivar) non-external (was a private external) _OBJC_IVAR_$_PAPerfLoggingOperationCompletionNotificationIntervalData._intervalCount
+00000001e2c99e68 (__DATA,__objc_ivar) non-external (was a private external) _OBJC_IVAR_$_PAPerfLoggingOperationCompletionNotificationIntervalData._intervalRateIgnoringDelayInIntervalsPerSecond
+00000001e2c99e64 (__DATA,__objc_ivar) non-external (was a private external) _OBJC_IVAR_$_PAPerfLoggingOperationCompletionNotificationIntervalData._intervalRateInIntervalsPerSecond
+00000001e2c99e60 (__DATA,__objc_ivar) non-external (was a private external) _OBJC_IVAR_$_PAPerfLoggingOperationCompletionNotificationIntervalData._intervalType
+00000001e2c99e7c (__DATA,__objc_ivar) non-external (was a private external) _OBJC_IVAR_$_PAPerfLoggingOperationCompletionNotificationIntervalData._trailingDelayInMachAbsTime
+                 (undefined) external _OBJC_METACLASS_$_NSObject (from libobjc)
+00000001e50a21a0 (__AUTH,__objc_data) non-external (was a private external) _OBJC_METACLASS_$_PAPerfLoggingClientOperation
+00000001e50a2290 (__AUTH,__objc_data) non-external (was a private external) _OBJC_METACLASS_$_PAPerfLoggingCoreOperation
+00000001e50a21c8 (__AUTH,__objc_data) non-external (was a private external) _OBJC_METACLASS_$_PAPerfLoggingIntervalData
+00000001e50a21f0 (__AUTH,__objc_data) non-external (was a private external) _OBJC_METACLASS_$_PAPerfLoggingIntervalTransitionEvent
+00000001e50a2218 (__AUTH,__objc_data) external _OBJC_METACLASS_$_PAPerfLoggingOperationCompletionNotification
+00000001e50a2240 (__AUTH,__objc_data) external _OBJC_METACLASS_$_PAPerfLoggingOperationCompletionNotificationIntervalData
+00000001895edc40 (__TEXT,__text) external _PACancelOperation
+00000001895e9914 (__TEXT,__text) non-external (was a private external) _PACurrentRealTimeInSeconds
+00000001895ea560 (__TEXT,__text) external _PADetailedPerfLoggingWhiteListAddEntry
+00000001895ea568 (__TEXT,__text) external _PADetailedPerfLoggingWhiteListClearList
+00000001895ea564 (__TEXT,__text) external _PADetailedPerfLoggingWhiteListRemoveEntry
+00000001895ea21c (__TEXT,__text) external _PAMarkOperationEnd
+00000001895edca8 (__TEXT,__text) external _PAMarkOperationEndAndGetIntervalStats
+00000001895ea224 (__TEXT,__text) external _PAMarkOperationEndAndTruncateByDurationInSec
+00000001895ea3d8 (__TEXT,__text) external _PAMarkOperationEndAndTruncateByDurationInSecAndGetIntervalStats
+00000001895edcbc (__TEXT,__text) external _PAMarkOperationEvent
+00000001895ea3bc (__TEXT,__text) external _PAMarkOperationIntervalEnd
+00000001895edcb0 (__TEXT,__text) external _PAMarkOperationIntervalEndAndStart
+00000001895ea320 (__TEXT,__text) external _PAMarkOperationIntervalStart
+00000001895e90bc (__TEXT,__text) external _PAMarkOperationStart
+00000001895ede1c (__TEXT,__text) external _PAMarkOperationStartAndSetContextProcessingConfiguration
+00000001895eafec (__TEXT,__text) non-external (was a private external) _PAPerfLoggingGetLogHandle
+00000001e2c9a028 (__DATA,__bss) non-external _PAPerfLoggingGetLogHandle.onceToken
+00000001e2c9a020 (__DATA,__bss) non-external _PAPerfLoggingGetLogHandle.perfLoggingLog
+00000001df384db8 (__DATA_CONST,__const) external _PAPerfLoggingIntervalData_WSUpdateCompositingIntervalType
+00000001df384dd0 (__DATA_CONST,__const) external _PAPerfLoggingIntervalData_WSUpdateFinalCAFlushEventType
+00000001df384da0 (__DATA_CONST,__const) non-external (was a private external) _PAPerfLoggingIntervalData_WSUpdateIntervalType
+00000001df384dc0 (__DATA_CONST,__const) external _PAPerfLoggingIntervalData_WSUpdateMagicMenuBarIntervalType
+00000001df384dc8 (__DATA_CONST,__const) external _PAPerfLoggingIntervalData_WSUpdateMagicMirrorIntervalType
+00000001df384db0 (__DATA_CONST,__const) external _PAPerfLoggingIntervalData_WSUpdatePreparationIntervalType
+00000001df384da8 (__DATA_CONST,__const) external _PAPerfLoggingIntervalData_WSUpdateWorkIntervalType
+00000001895eb060 (__TEXT,__text) non-external (was a private external) _PAPerfLoggingIntervalPrintHeader
+00000001895e9170 (__TEXT,__text) non-external (was a private external) _PAPerfLoggingIsEnabled
+00000001895ebf10 (__TEXT,__text) non-external (was a private external) _PAPerfLoggingProcessWSUpdateInfoDictionary
+00000001df384dd8 (__DATA_CONST,__const) external _PAPerfLoggingResult_FrameKey
+00000001895edc34 (__TEXT,__text) external _PAPerfLoggingSetDataGatheringEnabled
+00000001df384de0 (__DATA_CONST,__const) external _PAPerfLogging_ContextProcessingConfiguration_ContextProcessingBlock
+00000001df384de8 (__DATA_CONST,__const) external _PAPerfLogging_ContextProcessingConfiguration_HasDetailedSettings
+00000001df384df0 (__DATA_CONST,__const) external _PAPerfLogging_ContextProcessingConfiguration_UOMs
+00000001df384df8 (__DATA_CONST,__const) external _PAPerfLogging_ContextProcessingConfiguration_ValueRateCaps
+00000001df384e00 (__DATA_CONST,__const) external _PAPerfLogging_ProcessedContextData_Notes
+00000001df384e08 (__DATA_CONST,__const) external _PAPerfLogging_ProcessedContextData_Values
+00000001895edcc8 (__TEXT,__text) external _PASetContextProcessingConfigurationForOperation
+00000001895ede6c (__TEXT,__text) external _PASetContextProcessingConfigurationForOperationIntervalType
+00000001895ea574 (__TEXT,__text) external _PAXPCCancelOperation
+00000001895ea56c (__TEXT,__text) external _PAXPCMarkOperationEnd
+00000001895ea57c (__TEXT,__text) external _PAXPCMarkOperationEndAndTruncateByDurationInSec
+00000001895ea3d0 (__TEXT,__text) external _PAXPCMarkOperationEndAndTruncateByDurationInSecNoSysLogLogging
+00000001895ea584 (__TEXT,__text) external _PAXPCMarkOperationEndNoSysLogLogging
+00000001895ea5a4 (__TEXT,__text) external _PAXPCMarkOperationEvent
+00000001895ea594 (__TEXT,__text) external _PAXPCMarkOperationIntervalEnd
+00000001895ea59c (__TEXT,__text) external _PAXPCMarkOperationIntervalEndAndStart
+00000001895ea58c (__TEXT,__text) external _PAXPCMarkOperationIntervalStart
+00000001895ea3c8 (__TEXT,__text) external _PAXPCMarkOperationStart
+00000001895ea5ac (__TEXT,__text) external _PAXPCMarkOperationStartAndForceDetailedLogging
+00000001895ee8b8 (__TEXT,__const) non-external (was a private external) _PerformanceAnalysisVersionNumber
+00000001895ee870 (__TEXT,__const) non-external (was a private external) _PerformanceAnalysisVersionString
+                 (undefined) external __Block_object_assign (from libSystem)
+                 (undefined) external __Block_object_dispose (from libSystem)
+                 (undefined) external __NSConcreteGlobalBlock (from libSystem)
+                 (undefined) external __NSConcreteStackBlock (from libSystem)
+00000001895ee278 (__TEXT,__objc_methlist) non-external __OBJC_$_CLASS_METHODS_PAPerfLoggingClientOperation
+00000001895ee290 (__TEXT,__objc_methlist) non-external __OBJC_$_CLASS_METHODS_PAPerfLoggingCoreOperation
+00000001895ee2a8 (__TEXT,__objc_methlist) non-external __OBJC_$_CLASS_METHODS_PAPerfLoggingIntervalTransitionEvent
+00000001895ee2c0 (__TEXT,__objc_methlist) non-external __OBJC_$_CLASS_METHODS_PAPerfLoggingOperationCompletionNotification
+00000001895ee2e0 (__TEXT,__objc_methlist) non-external __OBJC_$_INSTANCE_METHODS_PAPerfLoggingClientOperation
+00000001895ee360 (__TEXT,__objc_methlist) non-external __OBJC_$_INSTANCE_METHODS_PAPerfLoggingCoreOperation
+00000001895ee4c8 (__TEXT,__objc_methlist) non-external __OBJC_$_INSTANCE_METHODS_PAPerfLoggingIntervalData
+00000001895ee698 (__TEXT,__objc_methlist) non-external __OBJC_$_INSTANCE_METHODS_PAPerfLoggingIntervalTransitionEvent
+00000001895ee710 (__TEXT,__objc_methlist) non-external __OBJC_$_INSTANCE_METHODS_PAPerfLoggingOperationCompletionNotification
+00000001895ee7d8 (__TEXT,__objc_methlist) non-external __OBJC_$_INSTANCE_METHODS_PAPerfLoggingOperationCompletionNotificationIntervalData
+00000001e65e3570 (__AUTH_CONST,__objc_const) non-external __OBJC_$_INSTANCE_VARIABLES_PAPerfLoggingClientOperation
+00000001e65e31f0 (__AUTH_CONST,__objc_const) non-external __OBJC_$_INSTANCE_VARIABLES_PAPerfLoggingCoreOperation
+00000001e65e2dc0 (__AUTH_CONST,__objc_const) non-external __OBJC_$_INSTANCE_VARIABLES_PAPerfLoggingIntervalData
+00000001e65e28c8 (__AUTH_CONST,__objc_const) non-external __OBJC_$_INSTANCE_VARIABLES_PAPerfLoggingIntervalTransitionEvent
+00000001e65e26b8 (__AUTH_CONST,__objc_const) non-external __OBJC_$_INSTANCE_VARIABLES_PAPerfLoggingOperationCompletionNotification
+00000001e65e2458 (__AUTH_CONST,__objc_const) non-external __OBJC_$_INSTANCE_VARIABLES_PAPerfLoggingOperationCompletionNotificationIntervalData
+00000001e65e3438 (__AUTH_CONST,__objc_const) non-external __OBJC_$_PROP_LIST_PAPerfLoggingCoreOperation
+00000001e65e2fe8 (__AUTH_CONST,__objc_const) non-external __OBJC_$_PROP_LIST_PAPerfLoggingIntervalData
+00000001e65e2950 (__AUTH_CONST,__objc_const) non-external __OBJC_$_PROP_LIST_PAPerfLoggingIntervalTransitionEvent
+00000001e65e2740 (__AUTH_CONST,__objc_const) non-external __OBJC_$_PROP_LIST_PAPerfLoggingOperationCompletionNotification
+00000001e65e2560 (__AUTH_CONST,__objc_const) non-external __OBJC_$_PROP_LIST_PAPerfLoggingOperationCompletionNotificationIntervalData
+00000001e65e2ba8 (__AUTH_CONST,__objc_const) non-external __OBJC_$_PROP_LIST_PAPerfLoggingResult
+00000001e65e29f0 (__AUTH_CONST,__objc_const) non-external __OBJC_$_PROTOCOL_INSTANCE_METHODS_PAPerfLoggingResult
+00000001e65e2cd0 (__AUTH_CONST,__objc_const) non-external __OBJC_$_PROTOCOL_METHOD_TYPES_PAPerfLoggingResult
+00000001e65e2d60 (__AUTH_CONST,__objc_const) non-external __OBJC_CLASS_PROTOCOLS_$_PAPerfLoggingIntervalData
+00000001e65e35f8 (__AUTH_CONST,__objc_const) non-external __OBJC_CLASS_RO_$_PAPerfLoggingClientOperation
+00000001e65e34e0 (__AUTH_CONST,__objc_const) non-external __OBJC_CLASS_RO_$_PAPerfLoggingCoreOperation
+00000001e65e3160 (__AUTH_CONST,__objc_const) non-external __OBJC_CLASS_RO_$_PAPerfLoggingIntervalData
+00000001e65e29a8 (__AUTH_CONST,__objc_const) non-external __OBJC_CLASS_RO_$_PAPerfLoggingIntervalTransitionEvent
+00000001e65e2838 (__AUTH_CONST,__objc_const) non-external __OBJC_CLASS_RO_$_PAPerfLoggingOperationCompletionNotification
+00000001e65e2628 (__AUTH_CONST,__objc_const) non-external __OBJC_CLASS_RO_$_PAPerfLoggingOperationCompletionNotificationIntervalData
+00000001df384e80 (__DATA_CONST,__objc_protolist) non-external (was a private external) __OBJC_LABEL_PROTOCOL_$_PAPerfLoggingResult
+00000001e65e3528 (__AUTH_CONST,__objc_const) non-external __OBJC_METACLASS_RO_$_PAPerfLoggingClientOperation
+00000001e65e31a8 (__AUTH_CONST,__objc_const) non-external __OBJC_METACLASS_RO_$_PAPerfLoggingCoreOperation
+00000001e65e2d78 (__AUTH_CONST,__objc_const) non-external __OBJC_METACLASS_RO_$_PAPerfLoggingIntervalData
+00000001e65e2880 (__AUTH_CONST,__objc_const) non-external __OBJC_METACLASS_RO_$_PAPerfLoggingIntervalTransitionEvent
+00000001e65e2670 (__AUTH_CONST,__objc_const) non-external __OBJC_METACLASS_RO_$_PAPerfLoggingOperationCompletionNotification
+00000001e65e2410 (__AUTH_CONST,__objc_const) non-external __OBJC_METACLASS_RO_$_PAPerfLoggingOperationCompletionNotificationIntervalData
+00000001e2c99f88 (__DATA,__data) non-external (was a private external) __OBJC_PROTOCOL_$_PAPerfLoggingResult
+00000001895ea32c (__TEXT,__text) non-external __PAMarkOperationIntervalTransition
+00000001895ebdd8 (__TEXT,__text) non-external __PAPrintToMutableData
+                 (undefined) external __Unwind_Resume (from libSystem)
+00000001895e99cc (__TEXT,__text) non-external ___113-[PAPerfLoggingClientOperation initAndStartWithOperationCategory:andOperationName:andPid:shouldMonitorWSUpdates:]_block_invoke
+00000001895ed1ec (__TEXT,__text) non-external ___123-[PAPerfLoggingCoreOperation markIntervalTransition:transitionType:atCGSTimestampInSec:withContext:isWSIntervalTransition:]_block_invoke
+00000001895ed964 (__TEXT,__text) non-external ___70-[PAPerfLoggingClientOperation endWithType:truncateDurationInSeconds:]_block_invoke
+                 (undefined) external ___CFConstantStringClassReference (from CoreFoundation)
+00000001895eb030 (__TEXT,__text) non-external ___PAPerfLoggingGetLogHandle_block_invoke
+00000001895e924c (__TEXT,__text) non-external ____doGlobalStateInitializationIfNecessary_block_invoke
+00000001895ed640 (__TEXT,__text) non-external ____logWSCompositorIntervalData_block_invoke
+00000001895e9970 (__TEXT,__text) non-external ____machAbsoluteTimeToSeconds_block_invoke
+00000001895e98b4 (__TEXT,__text) non-external ____perfLoggingSignpostHandle_block_invoke
+00000001895edbe8 (__TEXT,__text) non-external ____secondsToMachAbsoluteTime_block_invoke
+                 (undefined) external ___assert_rtn (from libSystem)
+00000001df384d80 (__DATA_CONST,__const) non-external (was a private external) ___block_descriptor_32_e11_q24?0816l
+00000001df384e10 (__DATA_CONST,__const) non-external (was a private external) ___block_descriptor_32_e25_v16?0^{__CFDictionary=}8l
+00000001df384d60 (__DATA_CONST,__const) non-external (was a private external) ___block_descriptor_32_e5_v8?0l
+00000001df384e30 (__DATA_CONST,__const) non-external (was a private external) ___block_descriptor_40_e5_v8?0l
+00000001e65e1cc0 (__AUTH_CONST,__const) non-external (was a private external) ___block_descriptor_40_e8_32o_e5_v8?0l
+00000001e65e1c40 (__AUTH_CONST,__const) non-external ___block_literal_global
+00000001e65e1c60 (__AUTH_CONST,__const) non-external ___block_literal_global
+00000001e65e1cf0 (__AUTH_CONST,__const) non-external ___block_literal_global
+00000001e65e1c80 (__AUTH_CONST,__const) non-external ___block_literal_global.114
+00000001e65e1ca0 (__AUTH_CONST,__const) non-external ___block_literal_global.116
+00000001e65e1d10 (__AUTH_CONST,__const) non-external ___block_literal_global.36
+00000001e65e1d30 (__AUTH_CONST,__const) non-external ___block_literal_global.44
+00000001e65e1d50 (__AUTH_CONST,__const) non-external ___block_literal_global.47
+00000001895e9624 (__TEXT,__text) non-external (was a private external) ___copy_helper_block_e8_32o
+00000001895ea114 (__TEXT,__text) non-external (was a private external) ___destroy_helper_block_e8_32o
+                 (undefined) external ___objc_personality_v0 (from libobjc)
+                 (undefined) external ___stack_chk_fail (from libSystem)
+                 (undefined) external ___stack_chk_guard (from libSystem)
+                 (undefined) external __dispatch_source_type_timer (from libSystem)
+00000001e2c9a000 (__DATA,__bss) non-external __doGlobalStateInitializationIfNecessary.onceToken
+00000001895ecb14 (__TEXT,__text) non-external __handleProcessedContextDictionary
+00000001895ed68c (__TEXT,__text) non-external __intervalTimestampForNSNumberTimestamp
+00000001895ed6f4 (__TEXT,__text) non-external __intervalTypeForWSUpdateInfoKey
+00000001e2c9a030 (__DATA,__bss) non-external __machAbsoluteTimeToSeconds.predicate
+00000001e2c9a038 (__DATA,__bss) non-external __machAbsoluteTimeToSeconds.timestamp_scale
+                 (undefined) external __objc_empty_cache (from libobjc)
+                 (undefined) external __os_log_impl (from libSystem)
+                 (undefined) external __os_signpost_emit_with_name_impl (from libSystem)
+00000001e2c9a008 (__DATA,__bss) non-external __perfLoggingSignpostHandle.handle
+00000001e2c9a010 (__DATA,__bss) non-external __perfLoggingSignpostHandle.onceToken
+00000001e2c9a048 (__DATA,__bss) non-external __secondsToMachAbsoluteTime.predicate
+00000001e2c9a050 (__DATA,__bss) non-external __secondsToMachAbsoluteTime.timestamp_scale
+00000001895ed5b4 (__TEXT,__text) non-external __wsIntervalDictionaryValueForKeyIsSane
+                 (undefined) external _dispatch_async (from libSystem)
+                 (undefined) external _dispatch_once (from libSystem)
+                 (undefined) external _dispatch_queue_create (from libSystem)
+                 (undefined) external _dispatch_release (from libSystem)
+                 (undefined) external _dispatch_resume (from libSystem)
+                 (undefined) external _dispatch_source_cancel (from libSystem)
+                 (undefined) external _dispatch_source_create (from libSystem)
+                 (undefined) external _dispatch_source_set_event_handler (from libSystem)
+                 (undefined) external _dispatch_source_set_timer (from libSystem)
+                 (undefined) external _dispatch_time (from libSystem)
+                 (undefined) external _free (from libSystem)
+00000001e2c99fe8 (__DATA,__bss) non-external _gDataSets
+00000001e2c99ff0 (__DATA,__bss) non-external _gOperationTimeoutQueue
+00000001e2c9a058 (__DATA,__bss) non-external _gOverrideDefaultsAndEnableDataGathering
+00000001e2c99ff8 (__DATA,__bss) non-external _gResultsReportingQueue
+00000001895eda08 (__TEXT,__text) non-external _gWSUpdateHandler_block_invoke
+00000001895eda90 (__TEXT,__text) non-external _gWSUpdateHandler_block_invoke_2
+00000001e2c9a018 (__DATA,__bss) non-external _gWSUpdateHandlingQueue
+00000001e2c99f40 (__DATA,__data) non-external _gWSUpdateProcessingLock
+00000001e2c9a040 (__DATA,__bss) non-external _gWSUpdatesRegistrations
+                 (undefined) external _getpid (from libSystem)
+00000001e2c99f80 (__DATA,__data) non-external _initWithProcessName:andOperationCategory:andOperationName:andPid:.nextSerialNumber
+                 (undefined) weak external _kCGSUpdateCAFlushes (from CoreGraphics)
+                 (undefined) weak external _kCGSUpdateEvents (from CoreGraphics)
+                 (undefined) weak external _kCGSUpdateIntervals (from CoreGraphics)
+                 (undefined) weak external _kCGSUpdateMenuBarInterval (from CoreGraphics)
+                 (undefined) weak external _kCGSUpdateMirrorInterval (from CoreGraphics)
+                 (undefined) weak external _kCGSUpdatePreparationInterval (from CoreGraphics)
+                 (undefined) weak external _kCGSUpdateRenderInterval (from CoreGraphics)
+                 (undefined) external _kdebug_is_enabled (from libSystem)
+                 (undefined) external _kdebug_trace (from libSystem)
+                 (undefined) external _mach_absolute_time (from libSystem)
+                 (undefined) external _mach_continuous_time (from libSystem)
+                 (undefined) external _mach_timebase_info (from libSystem)
+                 (undefined) external _malloc_type_calloc (from libSystem)
+                 (undefined) external _memcpy (from libSystem)
+                 (undefined) external _objc_alloc (from libobjc)
+                 (undefined) external _objc_alloc_init (from libobjc)
+                 (undefined) external _objc_autorelease (from libobjc)
+                 (undefined) external _objc_autoreleasePoolPop (from libobjc)
+                 (undefined) external _objc_autoreleasePoolPush (from libobjc)
+                 (undefined) external _objc_enumerationMutation (from libobjc)
+                 (undefined) external _objc_getProperty (from libobjc)
+                 (undefined) external _objc_msgSend (from libobjc)
+00000001895f13c0 (__TEXT,__objc_stubs) non-external (was a private external) _objc_msgSend$UTF8String
+00000001895f13e0 (__TEXT,__objc_stubs) non-external (was a private external) _objc_msgSend$_addResultsForIntervalsToResultsDict:
+00000001895f1400 (__TEXT,__objc_stubs) non-external (was a private external) _objc_msgSend$_initializeFieldsFromParentOperationInformation:
+00000001895f1420 (__TEXT,__objc_stubs) non-external (was a private external) _objc_msgSend$_isWSFrameInterval
+00000001895f1440 (__TEXT,__objc_stubs) non-external (was a private external) _objc_msgSend$_ktraceMarkIntervalTransition:withTransitionType:
+00000001895f1460 (__TEXT,__objc_stubs) non-external (was a private external) _objc_msgSend$_ktraceMarkOperationEndWithType:
+00000001895f1480 (__TEXT,__objc_stubs) non-external (was a private external) _objc_msgSend$_ktraceMarkOperationStart
+00000001895f14a0 (__TEXT,__objc_stubs) non-external (was a private external) _objc_msgSend$_ktraceOperationEventWithID:
+00000001895f14c0 (__TEXT,__objc_stubs) non-external (was a private external) _objc_msgSend$_ktraceOperationEventWithID:andString:
+00000001895f14e0 (__TEXT,__objc_stubs) non-external (was a private external) _objc_msgSend$_logNumSlowWSUpdates:
+00000001895f1500 (__TEXT,__objc_stubs) non-external (was a private external) _objc_msgSend$_logPAPerfLoggingDataValue:uom:doLocalLogging:
+00000001895f1520 (__TEXT,__objc_stubs) non-external (was a private external) _objc_msgSend$_numWSUpdatesDuringOperation
+00000001895f1540 (__TEXT,__objc_stubs) non-external (was a private external) _objc_msgSend$_processIntervalEventStream:withContextProcessingConfiguration:
+00000001895f1560 (__TEXT,__objc_stubs) non-external (was a private external) _objc_msgSend$addObject:
+00000001895f1580 (__TEXT,__objc_stubs) non-external (was a private external) _objc_msgSend$allKeys
+00000001895f15a0 (__TEXT,__objc_stubs) non-external (was a private external) _objc_msgSend$allValues
+00000001895f15c0 (__TEXT,__objc_stubs) non-external (was a private external) _objc_msgSend$appendBytes:length:
+00000001895f15e0 (__TEXT,__objc_stubs) non-external (was a private external) _objc_msgSend$appendFormat:
+00000001895f1600 (__TEXT,__objc_stubs) non-external (was a private external) _objc_msgSend$appendString:
+00000001895f1620 (__TEXT,__objc_stubs) non-external (was a private external) _objc_msgSend$array
+00000001895f1640 (__TEXT,__objc_stubs) non-external (was a private external) _objc_msgSend$arrayWithObjects:count:
+00000001895f1660 (__TEXT,__objc_stubs) non-external (was a private external) _objc_msgSend$averageIntervalDurationInMs
+00000001895f1680 (__TEXT,__objc_stubs) non-external (was a private external) _objc_msgSend$boolValue
+00000001895f16a0 (__TEXT,__objc_stubs) non-external (was a private external) _objc_msgSend$compare:
+00000001895f16c0 (__TEXT,__objc_stubs) non-external (was a private external) _objc_msgSend$containsObject:
+00000001895f16e0 (__TEXT,__objc_stubs) non-external (was a private external) _objc_msgSend$context
+00000001895f1700 (__TEXT,__objc_stubs) non-external (was a private external) _objc_msgSend$copy
+00000001895f1720 (__TEXT,__objc_stubs) non-external (was a private external) _objc_msgSend$count
+00000001895f1740 (__TEXT,__objc_stubs) non-external (was a private external) _objc_msgSend$countByEnumeratingWithState:objects:count:
+00000001895f1760 (__TEXT,__objc_stubs) non-external (was a private external) _objc_msgSend$dictionary
+00000001895f1780 (__TEXT,__objc_stubs) non-external (was a private external) _objc_msgSend$drain
+00000001895f17a0 (__TEXT,__objc_stubs) non-external (was a private external) _objc_msgSend$endTimeInSec
+00000001895f17c0 (__TEXT,__objc_stubs) non-external (was a private external) _objc_msgSend$endWithType:truncateDurationInSeconds:
+00000001895f17e0 (__TEXT,__objc_stubs) non-external (was a private external) _objc_msgSend$existingOperationWithOperationCategory:operationName:
+00000001895f1800 (__TEXT,__objc_stubs) non-external (was a private external) _objc_msgSend$firstObject
+00000001895f1820 (__TEXT,__objc_stubs) non-external (was a private external) _objc_msgSend$getIntervalDataDictionary
+00000001895f1840 (__TEXT,__objc_stubs) non-external (was a private external) _objc_msgSend$hasSeenWSUpdate
+00000001895f1860 (__TEXT,__objc_stubs) non-external (was a private external) _objc_msgSend$indexOfObject:inSortedRange:options:usingComparator:
+00000001895f1880 (__TEXT,__objc_stubs) non-external (was a private external) _objc_msgSend$initAndStartWithOperationCategory:andOperationName:andPid:shouldMonitorWSUpdates:
+00000001895f18a0 (__TEXT,__objc_stubs) non-external (was a private external) _objc_msgSend$initWithDictionary:
+00000001895f18c0 (__TEXT,__objc_stubs) non-external (was a private external) _objc_msgSend$initWithFormat:
+00000001895f18e0 (__TEXT,__objc_stubs) non-external (was a private external) _objc_msgSend$initWithIntervalType:andIntervalDurationInMSArray:andIntervalStartTimeInSecArray:ofLength:andNumUnpairedTransitions:andTimeOfFirstIntervalStartInSec:andTimeOfLastIntervalEndInSec:andProcessedMetaDataArray:andProcessedMetaDataUOMsArray:withPAPerfLoggingData:
+00000001895f1900 (__TEXT,__objc_stubs) non-external (was a private external) _objc_msgSend$initWithTransitionType:ofIntervalType:atTimestamp:withContext:
+00000001895f1920 (__TEXT,__objc_stubs) non-external (was a private external) _objc_msgSend$initialDelayDurationInMs
+00000001895f1940 (__TEXT,__objc_stubs) non-external (was a private external) _objc_msgSend$insertObject:atIndex:
+00000001895f1960 (__TEXT,__objc_stubs) non-external (was a private external) _objc_msgSend$intervalCount
+00000001895f1980 (__TEXT,__objc_stubs) non-external (was a private external) _objc_msgSend$intervalRateOverOperationIgnoringDelayInIntervalsPerSec
+00000001895f19a0 (__TEXT,__objc_stubs) non-external (was a private external) _objc_msgSend$intervalRateOverOperationInIntervalsPerSec
+00000001895f19c0 (__TEXT,__objc_stubs) non-external (was a private external) _objc_msgSend$intervalType
+00000001895f19e0 (__TEXT,__objc_stubs) non-external (was a private external) _objc_msgSend$isEqualToString:
+00000001895f1a00 (__TEXT,__objc_stubs) non-external (was a private external) _objc_msgSend$keyForProcessName:operationCategory:andOperationName:
+00000001895f1a20 (__TEXT,__objc_stubs) non-external (was a private external) _objc_msgSend$keysSortedByValueUsingComparator:
+00000001895f1a40 (__TEXT,__objc_stubs) non-external (was a private external) _objc_msgSend$lastObject
+00000001895f1a60 (__TEXT,__objc_stubs) non-external (was a private external) _objc_msgSend$logIntervalData:
+00000001895f1a80 (__TEXT,__objc_stubs) non-external (was a private external) _objc_msgSend$markIntervalTransition:transitionType:atCGSTimestampInSec:withContext:isWSIntervalTransition:
+00000001895f1aa0 (__TEXT,__objc_stubs) non-external (was a private external) _objc_msgSend$markOperationEndTruncatedByDuration:
+00000001895f1ac0 (__TEXT,__objc_stubs) non-external (was a private external) _objc_msgSend$markOperationStart
+00000001895f1ae0 (__TEXT,__objc_stubs) non-external (was a private external) _objc_msgSend$markSlowFrameFrame:withIntervalRange:
+00000001895f1b00 (__TEXT,__objc_stubs) non-external (was a private external) _objc_msgSend$normalizedStandardDeviation
+00000001895f1b20 (__TEXT,__objc_stubs) non-external (was a private external) _objc_msgSend$numSlowWSUpdates
+00000001895f1b40 (__TEXT,__objc_stubs) non-external (was a private external) _objc_msgSend$numUnpairedIntervalEndsOrStarts
+00000001895f1b60 (__TEXT,__objc_stubs) non-external (was a private external) _objc_msgSend$numberWithBool:
+00000001895f1b80 (__TEXT,__objc_stubs) non-external (was a private external) _objc_msgSend$numberWithDouble:
+00000001895f1ba0 (__TEXT,__objc_stubs) non-external (was a private external) _objc_msgSend$objectAtIndex:
+00000001895f1bc0 (__TEXT,__objc_stubs) non-external (was a private external) _objc_msgSend$objectForKey:
+00000001895f1be0 (__TEXT,__objc_stubs) non-external (was a private external) _objc_msgSend$objectForKeyedSubscript:
+00000001895f1c00 (__TEXT,__objc_stubs) non-external (was a private external) _objc_msgSend$operationCategory
+00000001895f1c20 (__TEXT,__objc_stubs) non-external (was a private external) _objc_msgSend$operationEndTimeInSec
+00000001895f1c40 (__TEXT,__objc_stubs) non-external (was a private external) _objc_msgSend$operationKey
+00000001895f1c60 (__TEXT,__objc_stubs) non-external (was a private external) _objc_msgSend$operationName
+00000001895f1c80 (__TEXT,__objc_stubs) non-external (was a private external) _objc_msgSend$operationStartTimeInSec
+00000001895f1ca0 (__TEXT,__objc_stubs) non-external (was a private external) _objc_msgSend$processInfo
+00000001895f1cc0 (__TEXT,__objc_stubs) non-external (was a private external) _objc_msgSend$processName
+00000001895f1ce0 (__TEXT,__objc_stubs) non-external (was a private external) _objc_msgSend$removeObjectForKey:
+00000001895f1d00 (__TEXT,__objc_stubs) non-external (was a private external) _objc_msgSend$serialNumber
+00000001895f1d20 (__TEXT,__objc_stubs) non-external (was a private external) _objc_msgSend$setContextProcessingConfiguration:forIntervalType:
+00000001895f1d40 (__TEXT,__objc_stubs) non-external (was a private external) _objc_msgSend$setIntervalCount:
+00000001895f1d60 (__TEXT,__objc_stubs) non-external (was a private external) _objc_msgSend$setIntervalType:
+00000001895f1d80 (__TEXT,__objc_stubs) non-external (was a private external) _objc_msgSend$setNumUnpairedIntervalEndsOrStarts:
+00000001895f1da0 (__TEXT,__objc_stubs) non-external (was a private external) _objc_msgSend$setObject:forKey:
+00000001895f1dc0 (__TEXT,__objc_stubs) non-external (was a private external) _objc_msgSend$setOperationCategory:
+00000001895f1de0 (__TEXT,__objc_stubs) non-external (was a private external) _objc_msgSend$setOperationName:
+00000001895f1e00 (__TEXT,__objc_stubs) non-external (was a private external) _objc_msgSend$setProcessName:
+00000001895f1e20 (__TEXT,__objc_stubs) non-external (was a private external) _objc_msgSend$setValue:forKey:
+00000001895f1e40 (__TEXT,__objc_stubs) non-external (was a private external) _objc_msgSend$slowWSUpdateInfoArray
+00000001895f1e60 (__TEXT,__objc_stubs) non-external (was a private external) _objc_msgSend$sortedArrayUsingSelector:
+00000001895f1e80 (__TEXT,__objc_stubs) non-external (was a private external) _objc_msgSend$standardDeviationIntervalDurationInMs
+00000001895f1ea0 (__TEXT,__objc_stubs) non-external (was a private external) _objc_msgSend$startTimeInSec
+00000001895f1ec0 (__TEXT,__objc_stubs) non-external (was a private external) _objc_msgSend$stringForTransitionTimeline:withStartTimeInSec:andEndTimeInSec:
+00000001895f1ee0 (__TEXT,__objc_stubs) non-external (was a private external) _objc_msgSend$stringWithFormat:
+00000001895f1f00 (__TEXT,__objc_stubs) non-external (was a private external) _objc_msgSend$totalOperationDurationInMs
+00000001895f1f20 (__TEXT,__objc_stubs) non-external (was a private external) _objc_msgSend$trailingDelayDurationInMs
+00000001895f1f40 (__TEXT,__objc_stubs) non-external (was a private external) _objc_msgSend$transitionTimeInSec
+00000001895f1f60 (__TEXT,__objc_stubs) non-external (was a private external) _objc_msgSend$transitionType
+00000001895f1f80 (__TEXT,__objc_stubs) non-external (was a private external) _objc_msgSend$transitionTypeString
+00000001895f1fa0 (__TEXT,__objc_stubs) non-external (was a private external) _objc_msgSend$transitioningIntervalType
+00000001895f1fc0 (__TEXT,__objc_stubs) non-external (was a private external) _objc_msgSend$unsignedLongLongValue
+00000001895f1fe0 (__TEXT,__objc_stubs) non-external (was a private external) _objc_msgSend$valueForKey:
+                 (undefined) external _objc_msgSendSuper2 (from libobjc)
+                 (undefined) external _objc_opt_class (from libobjc)
+                 (undefined) external _objc_opt_isKindOfClass (from libobjc)
+                 (undefined) external _objc_release (from libobjc)
+                 (undefined) external _objc_retain (from libobjc)
+                 (undefined) external _objc_setProperty_atomic (from libobjc)
+                 (undefined) external _objc_setProperty_nonatomic (from libobjc)
+                 (undefined) external _objc_setProperty_nonatomic_copy (from libobjc)
+                 (undefined) external _objc_sync_enter (from libobjc)
+                 (undefined) external _objc_sync_exit (from libobjc)
+                 (undefined) external _os_log_create (from libSystem)
+                 (undefined) external _os_log_type_enabled (from libSystem)
+                 (undefined) external _os_signpost_enabled (from libSystem)
+                 (undefined) external _pthread_mutex_lock (from libSystem)
+                 (undefined) external _pthread_mutex_unlock (from libSystem)
+00000001895ea5b4 (__TEXT,__text) non-external (was a private external) _stringNameForPAInternalTransitionType
+                 (undefined) external _strlen (from libSystem)
+                 (undefined) external _vasprintf (from libSystem)
