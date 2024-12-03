@@ -7,7 +7,7 @@ const MACHO_64BIT_MH_CIGAM: u32 = 0xcffaedfe;
 const MACHO_FAT_MAGIC: u32 = 0xcafebabe;
 const MACHO_FAT_CIGAM: u32 = 0xbebafeca;
 
-pub(crate) fn is_file_macho<P: AsRef<Path>>(path: &P) -> bool {
+pub fn is_file_macho<P: AsRef<Path>>(path: &P) -> bool {
     let path = path.as_ref();
 
     if !path.is_file() {
@@ -39,8 +39,21 @@ pub(crate) fn is_file_macho<P: AsRef<Path>>(path: &P) -> bool {
     macho_32bit || macho_64bit || macho_fat
 }
 
-pub(crate) fn is_file_dyld_sharedcache(file_path: &Path) -> bool {
-    if file_path.is_file() {
+
+pub fn is_file_proper_dyld_sharedcache(file_path: &Path) -> bool {
+    
+    let Some(file_name) = file_path.file_name() else { return false };
+    let file_name = file_name.to_string_lossy();
+
+    // There is proabaly a better way do deal with this, but I want to ignore
+    // the following:
+    //   -->  dyld_shared_cache_x86_64h.01
+    //   -->  dyld_shared_cache_x86_64h.02
+    //   -->  dyld_shared_cache_x86_64h.03
+    //   -->  dyld_shared_cache_x86_64h.map
+    // But this should NOT be ignored
+    //   -->  dyld_shared_cache_x86_64h
+    if file_path.is_file() && !file_name.contains(".") {
         if let Ok(mut file) = File::open(file_path) {
             let mut magic: [u8; 5] = [0; 5];
             if let Ok(_) = file.read(&mut magic) {
