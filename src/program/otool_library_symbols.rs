@@ -20,7 +20,7 @@ impl OtoolLibrarySymbols {
         let Some(macho_str) = macho.to_str() else { return String::new() };
 
         let output = Command::new("otool")
-        .args(["-L", macho_str])
+        .args(["-L", macho_str, "-arch", "all"])
         .output()
         .expect("Unable to launch 'otool' application");
 

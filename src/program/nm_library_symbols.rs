@@ -20,7 +20,7 @@ impl NmLibrarySymbols {
         let Some(macho_str) = macho.to_str() else { return String::new() };
 
         let output = Command::new("nm")
-        .args(["-m", macho_str])
+        .args(["-m", macho_str, "-arch", "all"])
         .output()
         .expect("Unable to launch 'nm' application");
 
