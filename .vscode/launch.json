@@ -22,5 +22,33 @@
             "args": ["${workspaceFolder}/symbols"],
             "cwd": "${workspaceFolder}"
         },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "name": "Debug executable 'library_symbols' (Custom Root Directory)",
+            "cargo": {
+                "args": [
+                    "build",
+                    "--bin=library_symbols",
+                    "--package=library_symbols"
+                ],
+                "filter": {
+                    "name": "library_symbols",
+                    "kind": "bin"
+                }
+            },
+            "args": [
+                "--root-path", "${input:rootPathInput}",
+                "${workspaceFolder}/symbols"],
+            "cwd": "${workspaceFolder}"
+        },
+    ],
+    "inputs": [
+        {
+            "id": "rootPathInput",
+            "type": "promptString",
+            "description": "Provide root path to inspect",
+            "default": ""
+        },
     ]
 }
