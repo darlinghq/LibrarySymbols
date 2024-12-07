@@ -24,4 +24,8 @@ impl WhoAmIUserName {
 
         parse_stdout(output).first().expect("Unable to obtain value").to_string()
     }
+
+    pub fn mask_user_account(&self, value: &String) -> String {
+        value.replace(self.macos_users_dir.as_str(), "/Users/[Removed Username]")
+    }
 }

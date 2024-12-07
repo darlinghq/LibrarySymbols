@@ -66,8 +66,8 @@ fn gather_executables_and_save_output(output: &Path, common_symbol_locations: &C
             let Ok(relative_path) = macho_lib.strip_prefix(starting_path) else { continue };
             let output = output.join(relative_path);
 
-            let nm_output = NmLibrarySymbols::new(macho_lib);
-            let otool_output = OtoolLibrarySymbols::new(macho_lib, &whoami);
+            let nm_output = NmLibrarySymbols::new(macho_lib,whoami);
+            let otool_output = OtoolLibrarySymbols::new(macho_lib,whoami);
         
             save_output_to_file(&nm_output, &output.join("nm.txt"));
             save_output_to_file(&otool_output, &output.join("otool.txt"));

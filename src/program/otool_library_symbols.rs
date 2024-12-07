@@ -24,11 +24,8 @@ impl OtoolLibrarySymbols {
         .output()
         .expect("Unable to launch 'otool' application");
 
-        OtoolLibrarySymbols::mask_user_account(String::from_utf8(output.stdout).expect("Unable to save output"),whoami)
-    }
-
-    fn mask_user_account(value: String, whoami: &WhoAmIUserName) -> String {
-        value.replace(whoami.macos_users_dir.as_str(), "/Users/[Removed Username]")
+        let output = String::from_utf8(output.stdout).expect("Unable to save output");
+        whoami.mask_user_account(&output)
     }
 }
 
