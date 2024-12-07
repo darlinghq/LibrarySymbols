@@ -27,14 +27,15 @@ impl MachoExecutableLocation {
             for current_path in read_dir_ignore_errs(&path_to_inspect) {
                 let subpath= current_path.path();
                 
-                if subpath.is_file() && is_file_macho(&subpath) {
+                if subpath.is_symlink() {
+                    // Let's ignore symlinks (otherwise we will deal with duplicate entries...)
+                    println!("Ignoring symlink {}", subpath.to_string_lossy());
+                    continue;
+                } else if subpath.is_file() && is_file_macho(&subpath) {
                     self.macho_paths.push(subpath);
                 } else if subpath.is_dir() {
                     search_list.push(subpath);
-                } else if subpath.is_symlink() {
-                    // Let's ignore symlinks (otherwise we will deal with duplicate entries...)
-                    continue;
-                }
+                } 
             }
         }
     }
