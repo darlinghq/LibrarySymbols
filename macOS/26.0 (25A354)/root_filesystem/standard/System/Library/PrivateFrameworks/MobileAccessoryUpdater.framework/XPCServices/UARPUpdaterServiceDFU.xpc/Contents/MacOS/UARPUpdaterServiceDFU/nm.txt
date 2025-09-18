@@ -1,0 +1,954 @@
+
+/System/Library/PrivateFrameworks/MobileAccessoryUpdater.framework/XPCServices/UARPUpdaterServiceDFU.xpc/Contents/MacOS/UARPUpdaterServiceDFU (for architecture x86_64):
+                 (undefined) external _CC_SHA256_Final (from libSystem)
+                 (undefined) external _CC_SHA256_Init (from libSystem)
+                 (undefined) external _CC_SHA256_Update (from libSystem)
+                 (undefined) external _CC_SHA384_Final (from libSystem)
+                 (undefined) external _CC_SHA384_Init (from libSystem)
+                 (undefined) external _CC_SHA384_Update (from libSystem)
+                 (undefined) external _CC_SHA512_Final (from libSystem)
+                 (undefined) external _CC_SHA512_Init (from libSystem)
+                 (undefined) external _CC_SHA512_Update (from libSystem)
+                 (undefined) external _CFDictionaryGetValue (from CoreFoundation)
+                 (undefined) external _CFRelease (from CoreFoundation)
+                 (undefined) external _CFRunLoopAddSource (from CoreFoundation)
+                 (undefined) external _CFRunLoopGetCurrent (from CoreFoundation)
+                 (undefined) external _CFUUIDGetConstantUUIDWithBytes (from CoreFoundation)
+                 (undefined) external _CFUUIDGetUUIDBytes (from CoreFoundation)
+                 (undefined) external _IOCreatePlugInInterfaceForService (from IOKit)
+                 (undefined) external _IOHIDDeviceClose (from IOKit)
+                 (undefined) external _IOHIDDeviceCreate (from IOKit)
+                 (undefined) external _IOHIDDeviceOpen (from IOKit)
+                 (undefined) external _IOHIDDeviceSetReport (from IOKit)
+                 (undefined) external _IOIteratorIsValid (from IOKit)
+                 (undefined) external _IOIteratorNext (from IOKit)
+                 (undefined) external _IONotificationPortCreate (from IOKit)
+                 (undefined) external _IONotificationPortGetRunLoopSource (from IOKit)
+                 (undefined) external _IONotificationPortSetDispatchQueue (from IOKit)
+                 (undefined) external _IOObjectRelease (from IOKit)
+                 (undefined) external _IORegistryEntryCreateCFProperties (from IOKit)
+                 (undefined) external _IOServiceAddMatchingNotification (from IOKit)
+                 (undefined) external _IOServiceGetMatchingService (from IOKit)
+                 (undefined) external _IOServiceGetMatchingServices (from IOKit)
+                 (undefined) external _IOServiceMatching (from IOKit)
+                 (undefined) external _OBJC_CLASS_$_NSArray (from CoreFoundation)
+                 (undefined) external _OBJC_CLASS_$_NSCondition (from Foundation)
+                 (undefined) external _OBJC_CLASS_$_NSConstantArray (from CoreFoundation)
+                 (undefined) external _OBJC_CLASS_$_NSConstantIntegerNumber (from Foundation)
+                 (undefined) external _OBJC_CLASS_$_NSData (from CoreFoundation)
+                 (undefined) external _OBJC_CLASS_$_NSError (from Foundation)
+                 (undefined) external _OBJC_CLASS_$_NSMutableArray (from CoreFoundation)
+                 (undefined) external _OBJC_CLASS_$_NSMutableData (from CoreFoundation)
+                 (undefined) external _OBJC_CLASS_$_NSMutableDictionary (from CoreFoundation)
+                 (undefined) external _OBJC_CLASS_$_NSMutableSet (from CoreFoundation)
+                 (undefined) external _OBJC_CLASS_$_NSNumber (from Foundation)
+                 (undefined) external _OBJC_CLASS_$_NSObject (from libobjc)
+                 (undefined) external _OBJC_CLASS_$_NSSet (from CoreFoundation)
+                 (undefined) external _OBJC_CLASS_$_NSString (from Foundation)
+                 (undefined) external _OBJC_CLASS_$_NSValue (from Foundation)
+                 (undefined) external _OBJC_CLASS_$_NSXPCInterface (from Foundation)
+                 (undefined) external _OBJC_CLASS_$_NSXPCListener (from Foundation)
+0000000100026668 (__DATA,__objc_data) external _OBJC_CLASS_$_ServiceDelegate
+                 (undefined) external _OBJC_CLASS_$_UARPAccessory (from CoreUARP)
+                 (undefined) external _OBJC_CLASS_$_UARPAccessoryHardwareUSB (from CoreUARP)
+                 (undefined) external _OBJC_CLASS_$_UARPAssetID (from CoreUARP)
+                 (undefined) external _OBJC_CLASS_$_UARPController (from CoreUARP)
+00000001000266e0 (__DATA,__objc_data) external _OBJC_CLASS_$_UARPDFUUpdater
+                 (undefined) external _OBJC_CLASS_$_UARPSupportedAccessory (from CoreUARP)
+0000000100026730 (__DATA,__objc_data) external _OBJC_CLASS_$_UARPUSBDFUAccessory
+                 (undefined) external _OBJC_CLASS_$_UARPUpdaterServiceBase (from UARPUpdaterService)
+0000000100026690 (__DATA,__objc_data) external _OBJC_CLASS_$_UARPUpdaterServiceDFU
+0000000100026780 (__DATA,__objc_data) external _OBJC_CLASS_$_USBAudioAsset
+00000001000265f0 (__DATA,__objc_data) external _OBJC_CLASS_$_USBDFUUpdater
+                 (undefined) external _OBJC_METACLASS_$_NSObject (from libobjc)
+0000000100026640 (__DATA,__objc_data) external _OBJC_METACLASS_$_ServiceDelegate
+0000000100026708 (__DATA,__objc_data) external _OBJC_METACLASS_$_UARPDFUUpdater
+0000000100026758 (__DATA,__objc_data) external _OBJC_METACLASS_$_UARPUSBDFUAccessory
+                 (undefined) external _OBJC_METACLASS_$_UARPUpdaterServiceBase (from UARPUpdaterService)
+00000001000266b8 (__DATA,__objc_data) external _OBJC_METACLASS_$_UARPUpdaterServiceDFU
+00000001000267a8 (__DATA,__objc_data) external _OBJC_METACLASS_$_USBAudioAsset
+0000000100026618 (__DATA,__objc_data) external _OBJC_METACLASS_$_USBDFUUpdater
+                 (undefined) external _UARPAccessoryPropertyToString (from CoreUARP)
+                 (undefined) external _UARPFirmwareStagingCompletionStatusToString (from CoreUARP)
+000000010000c94b (__TEXT,__text) external _UARPLayer2ActiveFirmwareVersion2
+000000010000c9b9 (__TEXT,__text) external _UARPLayer2ActiveFirmwareVersionResponse
+000000010000c783 (__TEXT,__text) external _UARPLayer2ApplyStagedAssets
+000000010000c7a8 (__TEXT,__text) external _UARPLayer2ApplyStagedAssetsResponse
+000000010000d45e (__TEXT,__text) external _UARPLayer2AssetAllHeadersAndMetaDataComplete
+000000010000d123 (__TEXT,__text) external _UARPLayer2AssetCorrupt
+000000010000d1ef (__TEXT,__text) external _UARPLayer2AssetGetBytesAtOffset2
+000000010000cfc2 (__TEXT,__text) external _UARPLayer2AssetMetaDataComplete
+000000010000cfe2 (__TEXT,__text) external _UARPLayer2AssetMetaDataProcessingError
+000000010000cfa2 (__TEXT,__text) external _UARPLayer2AssetMetaDataTLV
+000000010000d31b (__TEXT,__text) external _UARPLayer2AssetOrphaned
+000000010000d406 (__TEXT,__text) external _UARPLayer2AssetPreProcessingNotification
+000000010000d432 (__TEXT,__text) external _UARPLayer2AssetPreProcessingNotificationAck
+000000010000d38b (__TEXT,__text) external _UARPLayer2AssetProcessingNotification2
+000000010000d3da (__TEXT,__text) external _UARPLayer2AssetProcessingNotificationAck
+000000010000cf82 (__TEXT,__text) external _UARPLayer2AssetReady
+000000010000d33e (__TEXT,__text) external _UARPLayer2AssetReleased2
+000000010000d2bb (__TEXT,__text) external _UARPLayer2AssetRescinded
+000000010000d2eb (__TEXT,__text) external _UARPLayer2AssetRescindedAck
+000000010000d258 (__TEXT,__text) external _UARPLayer2AssetSetBytesAtOffset2
+000000010000cacc (__TEXT,__text) external _UARPLayer2AssetSolicitation
+000000010000d485 (__TEXT,__text) external _UARPLayer2AssetStore
+000000010000cdf7 (__TEXT,__text) external _UARPLayer2CompressBuffer
+000000010000c6be (__TEXT,__text) external _UARPLayer2DataTransferPause
+000000010000c6e0 (__TEXT,__text) external _UARPLayer2DataTransferPauseAck
+000000010000c702 (__TEXT,__text) external _UARPLayer2DataTransferResume
+000000010000c724 (__TEXT,__text) external _UARPLayer2DataTransferResumeAck
+000000010000cdd0 (__TEXT,__text) external _UARPLayer2DecompressBuffer
+000000010000c763 (__TEXT,__text) external _UARPLayer2DynamicAssetOffered
+000000010000cd8a (__TEXT,__text) external _UARPLayer2EndpointBulkInformationQuery
+000000010000cdad (__TEXT,__text) external _UARPLayer2EndpointBulkInformationResponse
+000000010000cd64 (__TEXT,__text) external _UARPLayer2EndpointIDComponents
+000000010000cd41 (__TEXT,__text) external _UARPLayer2EndpointIDs
+000000010000cc02 (__TEXT,__text) external _UARPLayer2FriendlyName
+000000010000cc40 (__TEXT,__text) external _UARPLayer2FriendlyNameResponse
+000000010000c8ed (__TEXT,__text) external _UARPLayer2HardwareVersion
+000000010000c92b (__TEXT,__text) external _UARPLayer2HardwareVersionResponse
+000000010000ce7b (__TEXT,__text) external _UARPLayer2HashFinal
+000000010000ce1e (__TEXT,__text) external _UARPLayer2HashInfo
+000000010000ce41 (__TEXT,__text) external _UARPLayer2HashInit
+000000010000ce9b (__TEXT,__text) external _UARPLayer2HashLog
+000000010000ce5b (__TEXT,__text) external _UARPLayer2HashUpdate
+000000010000ca67 (__TEXT,__text) external _UARPLayer2LastError
+000000010000ca8c (__TEXT,__text) external _UARPLayer2LastErrorResponse
+000000010000ceb5 (__TEXT,__text) external _UARPLayer2LogPacket
+000000010000c7d3 (__TEXT,__text) external _UARPLayer2ManufacturerName
+000000010000c811 (__TEXT,__text) external _UARPLayer2ManufacturerNameResponse
+000000010000c831 (__TEXT,__text) external _UARPLayer2ModelName
+000000010000c86f (__TEXT,__text) external _UARPLayer2ModelNameResponse
+000000010000cbaf (__TEXT,__text) external _UARPLayer2MonotonicClockTime
+000000010000d169 (__TEXT,__text) external _UARPLayer2PayloadData
+000000010000d18c (__TEXT,__text) external _UARPLayer2PayloadDataComplete
+000000010000d1af (__TEXT,__text) external _UARPLayer2PayloadDataComplete2
+000000010000d095 (__TEXT,__text) external _UARPLayer2PayloadMetaDataComplete
+000000010000d146 (__TEXT,__text) external _UARPLayer2PayloadMetaDataProcessingError
+000000010000d022 (__TEXT,__text) external _UARPLayer2PayloadMetaDataTLV
+000000010000d002 (__TEXT,__text) external _UARPLayer2PayloadReady
+000000010000cbdf (__TEXT,__text) external _UARPLayer2ProtocolVersion
+000000010000c42f (__TEXT,__text) external _UARPLayer2RequestBuffer
+000000010000c542 (__TEXT,__text) external _UARPLayer2RequestTransmitMsgBuffer
+000000010000caf1 (__TEXT,__text) external _UARPLayer2RescindAllAssets
+000000010000cb2a (__TEXT,__text) external _UARPLayer2RescindAllAssetsAck
+000000010000c4e5 (__TEXT,__text) external _UARPLayer2ReturnBuffer
+000000010000c60e (__TEXT,__text) external _UARPLayer2ReturnTransmitMsgBuffer
+000000010000c678 (__TEXT,__text) external _UARPLayer2SendMessage
+000000010000c88f (__TEXT,__text) external _UARPLayer2SerialNumber
+000000010000c8cd (__TEXT,__text) external _UARPLayer2SerialNumberResponse
+000000010000c9d9 (__TEXT,__text) external _UARPLayer2StagedFirmwareVersion2
+000000010000ca47 (__TEXT,__text) external _UARPLayer2StagedFirmwareVersionResponse
+000000010000caac (__TEXT,__text) external _UARPLayer2StatisticsResponse
+000000010000c746 (__TEXT,__text) external _UARPLayer2SuperBinaryOffered
+000000010000cf0b (__TEXT,__text) external _UARPLayer2VendorSpecificCheckExpectedResponse
+000000010000cf37 (__TEXT,__text) external _UARPLayer2VendorSpecificCheckValidToSend
+000000010000cf5f (__TEXT,__text) external _UARPLayer2VendorSpecificExceededRetries
+000000010000ced5 (__TEXT,__text) external _UARPLayer2VendorSpecificRecvMessage
+000000010000cb86 (__TEXT,__text) external _UARPLayer2WatchdogCancel
+000000010000cb5a (__TEXT,__text) external _UARPLayer2WatchdogSet
+000000010000e539 (__TEXT,__text) external _UARPPlatformDownstreamEndpointByDelegate
+000000010000e4e2 (__TEXT,__text) external _UARPPlatformDownstreamEndpointByID
+0000000100012b0f (__TEXT,__text) external _UARPProtocolVersionRequiresDownstreamMessageACK
+0000000100012b1e (__TEXT,__text) external _UARPProtocolVersionResponseAdjustByProtocolVersion
+0000000100013c59 (__TEXT,__text) external _UARPSuperBinaryAddMetaData
+00000001000147ad (__TEXT,__text) external _UARPSuperBinaryAddPayload
+00000001000147cb (__TEXT,__text) external _UARPSuperBinaryAddPayload2
+0000000100014199 (__TEXT,__text) external _UARPSuperBinaryAddPayloadData
+0000000100014129 (__TEXT,__text) external _UARPSuperBinaryAddPayloadDataLarge
+0000000100013f25 (__TEXT,__text) external _UARPSuperBinaryAddPayloadMetaData
+0000000100014722 (__TEXT,__text) external _UARPSuperBinaryAddSuperBinaryMetaData
+00000001000148fe (__TEXT,__text) external _UARPSuperBinaryAppendPayloadMetaData
+00000001000149db (__TEXT,__text) external _UARPSuperBinaryAppendPayloadMetaDataBlob
+0000000100014ae2 (__TEXT,__text) external _UARPSuperBinaryBuildMetaData
+0000000100014b8c (__TEXT,__text) external _UARPSuperBinaryFinalizeDynamicAsset
+000000010001433e (__TEXT,__text) external _UARPSuperBinaryFinalizeHeader
+0000000100014f1e (__TEXT,__text) external _UARPSuperBinaryGetInternalPayloadMetaData
+0000000100014ea4 (__TEXT,__text) external _UARPSuperBinaryGetInternalSuperBinaryMetaData
+00000001000146c0 (__TEXT,__text) external _UARPSuperBinaryPrepareDynamicAsset
+0000000100013dda (__TEXT,__text) external _UARPSuperBinaryPreparePayload
+0000000100014663 (__TEXT,__text) external _UARPSuperBinaryQueryAssetLength
+0000000100013b49 (__TEXT,__text) external _UARPSuperBinarySetupHeader
+                 (undefined) external __Block_object_assign (from libSystem)
+                 (undefined) external __Block_object_dispose (from libSystem)
+                 (undefined) external __NSConcreteStackBlock (from libSystem)
+                 (undefined) external ___CFConstantStringClassReference (from CoreFoundation)
+                 (undefined) weak external ____chkstk_darwin (from libSystem)
+                 (undefined) external ___bzero (from libSystem)
+                 (undefined) external ___kCFBooleanTrue (from CoreFoundation)
+                 (undefined) external ___stack_chk_fail (from libSystem)
+                 (undefined) external ___stack_chk_guard (from libSystem)
+0000000100000000 (__TEXT,__text) [referenced dynamically] external __mh_execute_header
+                 (undefined) external __objc_empty_cache (from libobjc)
+                 (undefined) external __os_log_debug_impl (from libSystem)
+                 (undefined) external __os_log_default (from libSystem)
+                 (undefined) external __os_log_error_impl (from libSystem)
+                 (undefined) external __os_log_fault_impl (from libSystem)
+                 (undefined) external __os_log_impl (from libSystem)
+                 (undefined) external _calloc (from libSystem)
+                 (undefined) external _compression_decode_buffer (from libcompression)
+                 (undefined) external _createPowerAssertion (from CoreUARP)
+                 (undefined) external _dispatch_async (from libSystem)
+                 (undefined) external _dispatch_once (from libSystem)
+                 (undefined) external _dispatch_queue_create (from libSystem)
+                 (undefined) external _dispatch_sync (from libSystem)
+000000010000cc60 (__TEXT,__text) external _fUarpLayer3DownstreamEndpointDiscovery
+000000010000cc85 (__TEXT,__text) external _fUarpLayer3DownstreamEndpointReachable
+000000010000ccf8 (__TEXT,__text) external _fUarpLayer3DownstreamEndpointRecvMessage
+000000010000ccd5 (__TEXT,__text) external _fUarpLayer3DownstreamEndpointReleased
+000000010000ccad (__TEXT,__text) external _fUarpLayer3DownstreamEndpointUnreachable
+000000010000cd21 (__TEXT,__text) external _fUarpLayer3NoFirmwareUpdateAvailable
+                 (undefined) external _free (from libSystem)
+                 (undefined) external _kCFAllocatorDefault (from CoreFoundation)
+                 (undefined) external _kCFRunLoopDefaultMode (from CoreFoundation)
+                 (undefined) external _kIOMainPortDefault (from IOKit)
+                 (undefined) external _kUARPErrorDomain (from CoreUARP)
+0000000100001ffb (__TEXT,__text) external _main
+                 (undefined) external _malloc_type_calloc (from libSystem)
+                 (undefined) external _memcmp (from libSystem)
+                 (undefined) external _memcpy (from libSystem)
+                 (undefined) external _objc_alloc (from libobjc)
+                 (undefined) external _objc_alloc_init (from libobjc)
+                 (undefined) external _objc_autoreleaseReturnValue (from libobjc)
+                 (undefined) external _objc_copyStruct (from libobjc)
+                 (undefined) external _objc_enumerationMutation (from libobjc)
+                 (undefined) external _objc_getProperty (from libobjc)
+                 (undefined) external _objc_msgSend (from libobjc)
+                 (undefined) external _objc_msgSendSuper2 (from libobjc)
+                 (undefined) external _objc_opt_class (from libobjc)
+                 (undefined) external _objc_opt_isKindOfClass (from libobjc)
+                 (undefined) external _objc_opt_new (from libobjc)
+                 (undefined) external _objc_opt_respondsToSelector (from libobjc)
+                 (undefined) external _objc_release (from libobjc)
+                 (undefined) external _objc_retain (from libobjc)
+                 (undefined) external _objc_retainAutorelease (from libobjc)
+                 (undefined) external _objc_retainAutoreleaseReturnValue (from libobjc)
+                 (undefined) external _objc_retainAutoreleasedReturnValue (from libobjc)
+                 (undefined) external _objc_setProperty_atomic (from libobjc)
+                 (undefined) external _objc_storeStrong (from libobjc)
+                 (undefined) external _os_log_create (from libSystem)
+                 (undefined) external _os_log_type_enabled (from libSystem)
+                 (undefined) external _releasePowerAssertion (from CoreUARP)
+                 (undefined) external _sleep (from libSystem)
+                 (undefined) external _snprintf (from libSystem)
+000000010001220c (__TEXT,__text) external _uarp4ccCompare
+0000000100012bef (__TEXT,__text) external _uarpAllocPrepareTransmitBuffer2
+0000000100012b2f (__TEXT,__text) external _uarpAllocateTransmitBuffer2
+0000000100012cf0 (__TEXT,__text) external _uarpAllocateTransmitBuffers
+00000001000110a3 (__TEXT,__text) external _uarpApplePlatformEndpointRecvMessage
+0000000100011c14 (__TEXT,__text) external _uarpApplePlatformMessageCheckExpectedResponse
+0000000100011cb1 (__TEXT,__text) external _uarpApplePlatformMessageCheckValidToSend
+0000000100011d95 (__TEXT,__text) external _uarpApplePlatformMessageExceededRetries
+00000001000123c4 (__TEXT,__text) external _uarpApplyFlagsToString
+000000010001229f (__TEXT,__text) external _uarpAssetCompare
+000000010000e1a5 (__TEXT,__text) external _uarpAssetProcessingComplete
+0000000100016b6e (__TEXT,__text) external _uarpAssetQueryPayloadInfo
+0000000100016b24 (__TEXT,__text) external _uarpAssetQueryPayloadMetaData
+0000000100016afa (__TEXT,__text) external _uarpAssetQuerySuperBinaryMetaData
+000000010000e306 (__TEXT,__text) external _uarpAssetRescind
+0000000100012872 (__TEXT,__text) external _uarpAssetSuperBinaryVersionForProtocolVersion
+0000000100012151 (__TEXT,__text) external _uarpAssetTagChdr
+000000010001213d (__TEXT,__text) external _uarpAssetTagChdr4cc
+00000001000122f8 (__TEXT,__text) external _uarpAssetTagCompare
+0000000100012387 (__TEXT,__text) external _uarpAssetTagIsValid
+0000000100012169 (__TEXT,__text) external _uarpAssetTagStructChdr
+00000001000123ad (__TEXT,__text) external _uarpAssetTagStructSuperBinary
+000000010000dc93 (__TEXT,__text) external _uarpCallbackUpdateInformationTLV
+00000001000120f8 (__TEXT,__text) external _uarpCompressionHeaderEndianSwap
+0000000100012a32 (__TEXT,__text) external _uarpCopyDefaultInfoString
+0000000100012884 (__TEXT,__text) external _uarpDownstreamEndpointGetID
+00000001000124fc (__TEXT,__text) external _uarpEndpointRoleToString
+000000010001320b (__TEXT,__text) external _uarpFree
+0000000100013237 (__TEXT,__text) external _uarpHtonl
+000000010001321f (__TEXT,__text) external _uarpHtonll
+000000010001324b (__TEXT,__text) external _uarpHtons
+0000000100013525 (__TEXT,__text) external _uarpLogDebug
+00000001000133e7 (__TEXT,__text) external _uarpLogError
+0000000100013707 (__TEXT,__text) external _uarpLogFault
+00000001000135fd (__TEXT,__text) external _uarpLogInfo
+000000010001251d (__TEXT,__text) external _uarpLoggingCategoryToString
+0000000100012a4e (__TEXT,__text) external _uarpMessageAdjustedForEndpointID
+0000000100012ae1 (__TEXT,__text) external _uarpMessagePrintToBuffer
+0000000100012ae7 (__TEXT,__text) external _uarpMessageTypeToString
+0000000100013241 (__TEXT,__text) external _uarpNtohl
+000000010001322b (__TEXT,__text) external _uarpNtohll
+0000000100013258 (__TEXT,__text) external _uarpNtohs
+000000010000e247 (__TEXT,__text) external _uarpOfferAssetToRemoteEP
+000000010001107c (__TEXT,__text) external _uarpOuiAppleGenericFeatures
+0000000100012238 (__TEXT,__text) external _uarpOuiCompare
+0000000100014604 (__TEXT,__text) external _uarpPayloadHeader2EndianSwap
+0000000100014582 (__TEXT,__text) external _uarpPayloadHeaderEndianSwap
+000000010001218c (__TEXT,__text) external _uarpPayloadTagPack
+00000001000121c4 (__TEXT,__text) external _uarpPayloadTagStructPack
+00000001000121e0 (__TEXT,__text) external _uarpPayloadTagStructUnpack
+0000000100012194 (__TEXT,__text) external _uarpPayloadTagUnpack
+000000010000d705 (__TEXT,__text) external _uarpPlatformAssetCleanup
+000000010000e05a (__TEXT,__text) external _uarpPlatformAssetDataRequest
+0000000100015833 (__TEXT,__text) external _uarpPlatformAssetFindByAssetContext
+0000000100015f57 (__TEXT,__text) external _uarpPlatformAssetFindByAssetContextAndList
+000000010000d535 (__TEXT,__text) external _uarpPlatformAssetFindByAssetID
+000000010000d56f (__TEXT,__text) external _uarpPlatformAssetFindByTag
+000000010000d4fa (__TEXT,__text) external _uarpPlatformAssetFindFirmware
+000000010000d8f3 (__TEXT,__text) external _uarpPlatformAssetIsKnown
+000000010000d6c6 (__TEXT,__text) external _uarpPlatformAssetOrphan
+000000010000b766 (__TEXT,__text) external _uarpPlatformAssetPayloadHeaderProcess
+000000010000ba13 (__TEXT,__text) external _uarpPlatformAssetPayloadPullData
+000000010000b845 (__TEXT,__text) external _uarpPlatformAssetPayloadPullMetaData
+000000010000aee7 (__TEXT,__text) external _uarpPlatformAssetProcessingCompleteInternal
+000000010000c05e (__TEXT,__text) external _uarpPlatformAssetPullAllMetaData
+000000010000bdbf (__TEXT,__text) external _uarpPlatformAssetPullAllPayloadHeaders
+0000000100016c22 (__TEXT,__text) external _uarpPlatformAssetQueryAssetID
+0000000100016c46 (__TEXT,__text) external _uarpPlatformAssetQueryAssetVersion
+000000010000d6e5 (__TEXT,__text) external _uarpPlatformAssetRelease
+000000010000af9a (__TEXT,__text) external _uarpPlatformAssetRequestData
+000000010000dbbe (__TEXT,__text) external _uarpPlatformAssetRescind
+000000010000e131 (__TEXT,__text) external _uarpPlatformAssetRescinded
+000000010000b01e (__TEXT,__text) external _uarpPlatformAssetResponseData
+0000000100016a90 (__TEXT,__text) external _uarpPlatformAssetSelectedPayloadInfo
+000000010000b276 (__TEXT,__text) external _uarpPlatformAssetSuperBinaryPullHeader
+000000010000b457 (__TEXT,__text) external _uarpPlatformAssetSuperBinaryPullMetaData
+000000010000b60b (__TEXT,__text) external _uarpPlatformAssetSuperBinaryPullProposedPayloadHeader
+000000010000b1b7 (__TEXT,__text) external _uarpPlatformAssetUpdateMetaData
+000000010000dc8d (__TEXT,__text) external _uarpPlatformCancelPendingTxMessages
+000000010000dc87 (__TEXT,__text) external _uarpPlatformCancelRxDynamicAssets
+000000010000d8ab (__TEXT,__text) external _uarpPlatformCleanupAssets
+000000010000d5cb (__TEXT,__text) external _uarpPlatformCleanupAssetsForRemoteEndpoint
+000000010000e4b0 (__TEXT,__text) external _uarpPlatformCompareHash
+0000000100016d5c (__TEXT,__text) external _uarpPlatformConfigureEndpointIDs
+0000000100016e0b (__TEXT,__text) external _uarpPlatformConfigureEndpointTags
+000000010000e43f (__TEXT,__text) external _uarpPlatformCreateRxAsset
+00000001000132fc (__TEXT,__text) external _uarpPlatformDarwinCompressBuffer
+0000000100013265 (__TEXT,__text) external _uarpPlatformDarwinDecompressBuffer
+00000001000133a2 (__TEXT,__text) external _uarpPlatformDarwinHashFinal
+0000000100013307 (__TEXT,__text) external _uarpPlatformDarwinHashInfo
+0000000100013333 (__TEXT,__text) external _uarpPlatformDarwinHashInit
+00000001000133e1 (__TEXT,__text) external _uarpPlatformDarwinHashLog
+0000000100013363 (__TEXT,__text) external _uarpPlatformDarwinHashUpdate
+00000001000139ad (__TEXT,__text) external _uarpPlatformDarwinLogDebug
+00000001000137df (__TEXT,__text) external _uarpPlatformDarwinLogError
+0000000100013a7b (__TEXT,__text) external _uarpPlatformDarwinLogFault
+00000001000138ad (__TEXT,__text) external _uarpPlatformDarwinLogInfo
+000000010000e0c3 (__TEXT,__text) external _uarpPlatformDataTransferResume
+0000000100016592 (__TEXT,__text) external _uarpPlatformDelegateForDownstreamID
+000000010001635a (__TEXT,__text) external _uarpPlatformDownstreamEndpointAdd
+000000010000e67e (__TEXT,__text) external _uarpPlatformDownstreamEndpointAddToList
+00000001000163ed (__TEXT,__text) external _uarpPlatformDownstreamEndpointAddWithID
+000000010000e730 (__TEXT,__text) external _uarpPlatformDownstreamEndpointDelegateFindOnListByID
+0000000100016350 (__TEXT,__text) external _uarpPlatformDownstreamEndpointDiscovery
+000000010000e6b4 (__TEXT,__text) external _uarpPlatformDownstreamEndpointFindOnList
+000000010000e6da (__TEXT,__text) external _uarpPlatformDownstreamEndpointFindOnListByDelegate
+000000010000e700 (__TEXT,__text) external _uarpPlatformDownstreamEndpointIDFindOnListByDelegate
+00000001000163f7 (__TEXT,__text) external _uarpPlatformDownstreamEndpointReachable
+0000000100016493 (__TEXT,__text) external _uarpPlatformDownstreamEndpointRemove
+000000010000e761 (__TEXT,__text) external _uarpPlatformDownstreamEndpointRemoveFromList
+0000000100016546 (__TEXT,__text) external _uarpPlatformDownstreamEndpointSendMessage
+000000010000e58c (__TEXT,__text) external _uarpPlatformDownstreamEndpointSendMessageInternal
+00000001000164c7 (__TEXT,__text) external _uarpPlatformDownstreamEndpointUnreachable
+000000010001622a (__TEXT,__text) external _uarpPlatformEndpointApplyStagedAssets
+0000000100015791 (__TEXT,__text) external _uarpPlatformEndpointAssetAbandon
+00000001000153b6 (__TEXT,__text) external _uarpPlatformEndpointAssetAccept
+00000001000153ed (__TEXT,__text) external _uarpPlatformEndpointAssetAcceptWithPayloadAndDecompressionWindows
+00000001000153d2 (__TEXT,__text) external _uarpPlatformEndpointAssetAcceptWithPayloadWindow
+00000001000157a9 (__TEXT,__text) external _uarpPlatformEndpointAssetCorrupt
+0000000100015712 (__TEXT,__text) external _uarpPlatformEndpointAssetDeny
+0000000100015c8a (__TEXT,__text) external _uarpPlatformEndpointAssetFullyStaged
+0000000100015f90 (__TEXT,__text) external _uarpPlatformEndpointAssetGetBytesAtOffset
+00000001000152d3 (__TEXT,__text) external _uarpPlatformEndpointAssetIsAcceptable
+0000000100015b70 (__TEXT,__text) external _uarpPlatformEndpointAssetPayloadTag
+0000000100015b31 (__TEXT,__text) external _uarpPlatformEndpointAssetPayloadVersion
+000000010001592c (__TEXT,__text) external _uarpPlatformEndpointAssetQueryAssetLength
+0000000100015900 (__TEXT,__text) external _uarpPlatformEndpointAssetQueryAssetVersion
+00000001000158d7 (__TEXT,__text) external _uarpPlatformEndpointAssetQueryFormatVersion
+00000001000158a8 (__TEXT,__text) external _uarpPlatformEndpointAssetQueryNumberOfPayloads
+0000000100015956 (__TEXT,__text) external _uarpPlatformEndpointAssetQueryTag
+00000001000157cb (__TEXT,__text) external _uarpPlatformEndpointAssetRelease
+0000000100015801 (__TEXT,__text) external _uarpPlatformEndpointAssetRelease2
+000000010001589e (__TEXT,__text) external _uarpPlatformEndpointAssetRequestMetaData
+0000000100016150 (__TEXT,__text) external _uarpPlatformEndpointAssetSetBytesAtOffset
+00000001000156d6 (__TEXT,__text) external _uarpPlatformEndpointAssetSetCallbacks
+0000000100015980 (__TEXT,__text) external _uarpPlatformEndpointAssetSetPayloadIndex
+000000010001598c (__TEXT,__text) external _uarpPlatformEndpointAssetSetPayloadIndex2
+0000000100015bf4 (__TEXT,__text) external _uarpPlatformEndpointAssetSetPayloadOffset
+000000010000dbad (__TEXT,__text) external _uarpPlatformEndpointAssetStore
+00000001000166a6 (__TEXT,__text) external _uarpPlatformEndpointBulkInfoQuery
+000000010001694c (__TEXT,__text) external _uarpPlatformEndpointBulkInfoResponse
+000000010001679f (__TEXT,__text) external _uarpPlatformEndpointBulkInfoResponseAddTLV
+0000000100011099 (__TEXT,__text) external _uarpPlatformEndpointCallbackAppleSpecific
+0000000100015e20 (__TEXT,__text) external _uarpPlatformEndpointCleanupAssets
+0000000100015e35 (__TEXT,__text) external _uarpPlatformEndpointCleanupAssets2
+00000001000150d3 (__TEXT,__text) external _uarpPlatformEndpointDeinit
+00000001000165ed (__TEXT,__text) external _uarpPlatformEndpointDiscoverEndpointIDs
+000000010001611b (__TEXT,__text) external _uarpPlatformEndpointDynamicAssetSolicitationDeny
+0000000100014fc7 (__TEXT,__text) external _uarpPlatformEndpointInit
+0000000100014fac (__TEXT,__text) external _uarpPlatformEndpointInit2
+0000000100015e7a (__TEXT,__text) external _uarpPlatformEndpointOfferAsset
+0000000100016282 (__TEXT,__text) external _uarpPlatformEndpointPauseAssetTransfers
+0000000100015bad (__TEXT,__text) external _uarpPlatformEndpointPayloadRequestAllHeadersAndMetaData
+0000000100015ad4 (__TEXT,__text) external _uarpPlatformEndpointPayloadRequestData
+0000000100015c2b (__TEXT,__text) external _uarpPlatformEndpointPayloadRequestDataPause
+0000000100015c4c (__TEXT,__text) external _uarpPlatformEndpointPayloadRequestDataResume
+0000000100015bea (__TEXT,__text) external _uarpPlatformEndpointPayloadRequestMetaData
+0000000100015e48 (__TEXT,__text) external _uarpPlatformEndpointPrepareDynamicAsset
+0000000100015e58 (__TEXT,__text) external _uarpPlatformEndpointPrepareSolicitedDynamicAsset
+0000000100015e65 (__TEXT,__text) external _uarpPlatformEndpointPrepareSuperBinary
+00000001000160ad (__TEXT,__text) external _uarpPlatformEndpointProvideAssetPayloadWindow
+000000010000d4a8 (__TEXT,__text) external _uarpPlatformEndpointQueryActiveFirmwareVersion
+000000010000d4d1 (__TEXT,__text) external _uarpPlatformEndpointQueryStagedFirmwareVersion
+000000010000ef6c (__TEXT,__text) external _uarpPlatformEndpointRecvMessage
+0000000100016067 (__TEXT,__text) external _uarpPlatformEndpointRemoveAssetPayloadWindow
+00000001000152a7 (__TEXT,__text) external _uarpPlatformEndpointRequestInfoProperty
+0000000100016204 (__TEXT,__text) external _uarpPlatformEndpointRescindAllAssets
+00000001000161b0 (__TEXT,__text) external _uarpPlatformEndpointRescindAsset
+00000001000162a3 (__TEXT,__text) external _uarpPlatformEndpointResumeAssetTransfers
+0000000100016edb (__TEXT,__text) external _uarpPlatformEndpointSendMessageComplete
+000000010000e887 (__TEXT,__text) external _uarpPlatformEndpointSendMessageCompleteInternal
+000000010000e895 (__TEXT,__text) external _uarpPlatformEndpointSendSyncMsg
+0000000100016317 (__TEXT,__text) external _uarpPlatformEndpointSendVendorSpecific
+00000001000162c4 (__TEXT,__text) external _uarpPlatformEndpointSolicitDynamicAsset
+000000010000adca (__TEXT,__text) external _uarpPlatformEndpointStreamingRecvBytes
+000000010000ad5d (__TEXT,__text) external _uarpPlatformEndpointStreamingRecvDeinit
+000000010000acaa (__TEXT,__text) external _uarpPlatformEndpointStreamingRecvInit
+0000000100015cba (__TEXT,__text) external _uarpPlatformEndpointSuperBinaryMerge
+000000010001618a (__TEXT,__text) external _uarpPlatformEndpointWatchDogExpired
+000000010000e3db (__TEXT,__text) external _uarpPlatformFindPreparedAsset
+000000010000e050 (__TEXT,__text) external _uarpPlatformGarbageCollection
+0000000100016cd2 (__TEXT,__text) external _uarpPlatformGetMaxRxPayloadLength
+0000000100016c89 (__TEXT,__text) external _uarpPlatformGetMaxTxPayloadLength
+0000000100016cfc (__TEXT,__text) external _uarpPlatformGetSupportsBulkInfoQueries
+0000000100016d2c (__TEXT,__text) external _uarpPlatformGetUseHostPushModel
+00000001000165aa (__TEXT,__text) external _uarpPlatformNoFirmwareUpdateAvailable
+000000010000da8d (__TEXT,__text) external _uarpPlatformPayloadCleanup
+000000010000d923 (__TEXT,__text) external _uarpPlatformPrepareAsset
+000000010000dd14 (__TEXT,__text) external _uarpPlatformQueryAccessoryInfo
+0000000100016630 (__TEXT,__text) external _uarpPlatformQueryEndpointComponentDiscovery
+000000010000dc28 (__TEXT,__text) external _uarpPlatformReOfferFirmware
+000000010000e7d2 (__TEXT,__text) external _uarpPlatformReleaseEndpointIDs
+000000010000e854 (__TEXT,__text) external _uarpPlatformReleaseEndpointTags
+0000000100016a5c (__TEXT,__text) external _uarpPlatformRemoteDelegateForAssetDelegate
+0000000100015115 (__TEXT,__text) external _uarpPlatformRemoteEndpointAdd
+000000010000e59a (__TEXT,__text) external _uarpPlatformRemoteEndpointAddEntry
+000000010000e88d (__TEXT,__text) external _uarpPlatformRemoteEndpointAlloc
+0000000100015228 (__TEXT,__text) external _uarpPlatformRemoteEndpointRemove
+000000010000de94 (__TEXT,__text) external _uarpPlatformResponseAccessoryInfo
+000000010000e7a6 (__TEXT,__text) external _uarpPlatformSendDownstreamMessageWithDownstreamID
+0000000100016532 (__TEXT,__text) external _uarpPlatformSendMessageFromDownstreamEndpointID
+000000010001653c (__TEXT,__text) external _uarpPlatformSendMessageToDownstreamEndpointID
+0000000100016cb2 (__TEXT,__text) external _uarpPlatformSetMaxRxPayloadLength
+0000000100016c6a (__TEXT,__text) external _uarpPlatformSetMaxTxPayloadLength
+00000001000128a8 (__TEXT,__text) external _uarpPrintDataResponseDetails
+0000000100012541 (__TEXT,__text) external _uarpProcessPayloadTLVInternal
+000000010000bfaa (__TEXT,__text) external _uarpProcessTLV
+00000001000123f4 (__TEXT,__text) external _uarpProcessingFlagsReasonToString
+00000001000123ea (__TEXT,__text) external _uarpProcessingFlagsToString
+0000000100012421 (__TEXT,__text) external _uarpProcessingStatusToString
+0000000100016a7a (__TEXT,__text) external _uarpRemoteEndpointForAsset
+0000000100016a28 (__TEXT,__text) external _uarpRemoteEndpointID
+0000000100016a3d (__TEXT,__text) external _uarpRemoteEndpointIDForAsset
+000000010000ec11 (__TEXT,__text) external _uarpSendAssetRequestData
+000000010000ead9 (__TEXT,__text) external _uarpSendDataTransferNotificationPause
+000000010000eb73 (__TEXT,__text) external _uarpSendDataTransferNotificationResume
+000000010000ed8d (__TEXT,__text) external _uarpSendDownstreamEndpointDiscovery
+000000010000edd0 (__TEXT,__text) external _uarpSendDownstreamEndpointReachable
+000000010000ee46 (__TEXT,__text) external _uarpSendDownstreamEndpointUnreachable
+000000010000eb82 (__TEXT,__text) external _uarpSendDynamicAssetPreProcessingStatus
+000000010000ea65 (__TEXT,__text) external _uarpSendInformationRequest
+000000010000ecb3 (__TEXT,__text) external _uarpSendVendorSpecific
+000000010000e8f2 (__TEXT,__text) external _uarpSendVersionDiscoveryRequest
+000000010000e98e (__TEXT,__text) external _uarpSendVersionDiscoveryResponse
+000000010000e37c (__TEXT,__text) external _uarpSolicitDynamicAsset
+0000000100012449 (__TEXT,__text) external _uarpStageStatusToString
+0000000100012363 (__TEXT,__text) external _uarpStatusCodeToString
+00000001000144ef (__TEXT,__text) external _uarpSuperBinaryHeaderEndianSwap
+00000001000121fc (__TEXT,__text) external _uarpTagStructPack32
+0000000100012204 (__TEXT,__text) external _uarpTagStructUnpack32
+0000000100012d39 (__TEXT,__text) external _uarpTransmitBuffer2
+000000010000eebc (__TEXT,__text) external _uarpTransmitBufferUpstream
+000000010000eec6 (__TEXT,__text) external _uarpTransmitMessageToDownstreamEndpointID
+0000000100013139 (__TEXT,__text) external _uarpTransmitQueueAssetRescinded
+000000010001318d (__TEXT,__text) external _uarpTransmitQueuePurge
+0000000100012fc7 (__TEXT,__text) external _uarpTransmitQueueReclaimEntries
+0000000100012d97 (__TEXT,__text) external _uarpTransmitQueueService
+0000000100013084 (__TEXT,__text) external _uarpTransmitQueuesCleanup
+000000010001225c (__TEXT,__text) external _uarpVersionCompare
+0000000100012324 (__TEXT,__text) external _uarpVersionEndianSwap
+00000001000131fc (__TEXT,__text) external _uarpZalloc
+0000000100013215 (__TEXT,__text) external _uarpZero
+                 (undefined) external _usleep (from libSystem)
+                 (undefined) external _vsnprintf (from libSystem)
+
+/System/Library/PrivateFrameworks/MobileAccessoryUpdater.framework/XPCServices/UARPUpdaterServiceDFU.xpc/Contents/MacOS/UARPUpdaterServiceDFU (for architecture arm64e):
+                 (undefined) external _CC_SHA256_Final (from libSystem)
+                 (undefined) external _CC_SHA256_Init (from libSystem)
+                 (undefined) external _CC_SHA256_Update (from libSystem)
+                 (undefined) external _CC_SHA384_Final (from libSystem)
+                 (undefined) external _CC_SHA384_Init (from libSystem)
+                 (undefined) external _CC_SHA384_Update (from libSystem)
+                 (undefined) external _CC_SHA512_Final (from libSystem)
+                 (undefined) external _CC_SHA512_Init (from libSystem)
+                 (undefined) external _CC_SHA512_Update (from libSystem)
+                 (undefined) external _CFDictionaryGetValue (from CoreFoundation)
+                 (undefined) external _CFRelease (from CoreFoundation)
+                 (undefined) external _CFRunLoopAddSource (from CoreFoundation)
+                 (undefined) external _CFRunLoopGetCurrent (from CoreFoundation)
+                 (undefined) external _CFUUIDGetConstantUUIDWithBytes (from CoreFoundation)
+                 (undefined) external _CFUUIDGetUUIDBytes (from CoreFoundation)
+                 (undefined) external _IOCreatePlugInInterfaceForService (from IOKit)
+                 (undefined) external _IOHIDDeviceClose (from IOKit)
+                 (undefined) external _IOHIDDeviceCreate (from IOKit)
+                 (undefined) external _IOHIDDeviceOpen (from IOKit)
+                 (undefined) external _IOHIDDeviceSetReport (from IOKit)
+                 (undefined) external _IOIteratorIsValid (from IOKit)
+                 (undefined) external _IOIteratorNext (from IOKit)
+                 (undefined) external _IONotificationPortCreate (from IOKit)
+                 (undefined) external _IONotificationPortGetRunLoopSource (from IOKit)
+                 (undefined) external _IONotificationPortSetDispatchQueue (from IOKit)
+                 (undefined) external _IOObjectRelease (from IOKit)
+                 (undefined) external _IORegistryEntryCreateCFProperties (from IOKit)
+                 (undefined) external _IOServiceAddMatchingNotification (from IOKit)
+                 (undefined) external _IOServiceGetMatchingService (from IOKit)
+                 (undefined) external _IOServiceGetMatchingServices (from IOKit)
+                 (undefined) external _IOServiceMatching (from IOKit)
+                 (undefined) external _OBJC_CLASS_$_NSArray (from CoreFoundation)
+                 (undefined) external _OBJC_CLASS_$_NSCondition (from Foundation)
+                 (undefined) external _OBJC_CLASS_$_NSConstantArray (from CoreFoundation)
+                 (undefined) external _OBJC_CLASS_$_NSConstantIntegerNumber (from Foundation)
+                 (undefined) external _OBJC_CLASS_$_NSData (from CoreFoundation)
+                 (undefined) external _OBJC_CLASS_$_NSError (from Foundation)
+                 (undefined) external _OBJC_CLASS_$_NSMutableArray (from CoreFoundation)
+                 (undefined) external _OBJC_CLASS_$_NSMutableData (from CoreFoundation)
+                 (undefined) external _OBJC_CLASS_$_NSMutableDictionary (from CoreFoundation)
+                 (undefined) external _OBJC_CLASS_$_NSMutableSet (from CoreFoundation)
+                 (undefined) external _OBJC_CLASS_$_NSNumber (from Foundation)
+                 (undefined) external _OBJC_CLASS_$_NSObject (from libobjc)
+                 (undefined) external _OBJC_CLASS_$_NSSet (from CoreFoundation)
+                 (undefined) external _OBJC_CLASS_$_NSString (from Foundation)
+                 (undefined) external _OBJC_CLASS_$_NSValue (from Foundation)
+                 (undefined) external _OBJC_CLASS_$_NSXPCInterface (from Foundation)
+                 (undefined) external _OBJC_CLASS_$_NSXPCListener (from Foundation)
+000000010002a130 (__DATA,__objc_data) external _OBJC_CLASS_$_ServiceDelegate
+                 (undefined) external _OBJC_CLASS_$_UARPAccessory (from CoreUARP)
+                 (undefined) external _OBJC_CLASS_$_UARPAccessoryHardwareUSB (from CoreUARP)
+                 (undefined) external _OBJC_CLASS_$_UARPAssetID (from CoreUARP)
+                 (undefined) external _OBJC_CLASS_$_UARPController (from CoreUARP)
+000000010002a1a8 (__DATA,__objc_data) external _OBJC_CLASS_$_UARPDFUUpdater
+                 (undefined) external _OBJC_CLASS_$_UARPSupportedAccessory (from CoreUARP)
+000000010002a1f8 (__DATA,__objc_data) external _OBJC_CLASS_$_UARPUSBDFUAccessory
+                 (undefined) external _OBJC_CLASS_$_UARPUpdaterServiceBase (from UARPUpdaterService)
+000000010002a158 (__DATA,__objc_data) external _OBJC_CLASS_$_UARPUpdaterServiceDFU
+000000010002a248 (__DATA,__objc_data) external _OBJC_CLASS_$_USBAudioAsset
+000000010002a0b8 (__DATA,__objc_data) external _OBJC_CLASS_$_USBDFUUpdater
+                 (undefined) external _OBJC_METACLASS_$_NSObject (from libobjc)
+000000010002a108 (__DATA,__objc_data) external _OBJC_METACLASS_$_ServiceDelegate
+000000010002a1d0 (__DATA,__objc_data) external _OBJC_METACLASS_$_UARPDFUUpdater
+000000010002a220 (__DATA,__objc_data) external _OBJC_METACLASS_$_UARPUSBDFUAccessory
+                 (undefined) external _OBJC_METACLASS_$_UARPUpdaterServiceBase (from UARPUpdaterService)
+000000010002a180 (__DATA,__objc_data) external _OBJC_METACLASS_$_UARPUpdaterServiceDFU
+000000010002a270 (__DATA,__objc_data) external _OBJC_METACLASS_$_USBAudioAsset
+000000010002a0e0 (__DATA,__objc_data) external _OBJC_METACLASS_$_USBDFUUpdater
+                 (undefined) external _UARPAccessoryPropertyToString (from CoreUARP)
+                 (undefined) external _UARPFirmwareStagingCompletionStatusToString (from CoreUARP)
+000000010000c2b8 (__TEXT,__text) external _UARPLayer2ActiveFirmwareVersion2
+000000010000c354 (__TEXT,__text) external _UARPLayer2ActiveFirmwareVersionResponse
+000000010000c090 (__TEXT,__text) external _UARPLayer2ApplyStagedAssets
+000000010000c0ac (__TEXT,__text) external _UARPLayer2ApplyStagedAssetsResponse
+000000010000cc44 (__TEXT,__text) external _UARPLayer2AssetAllHeadersAndMetaDataComplete
+000000010000ca08 (__TEXT,__text) external _UARPLayer2AssetCorrupt
+000000010000ca94 (__TEXT,__text) external _UARPLayer2AssetGetBytesAtOffset2
+000000010000c898 (__TEXT,__text) external _UARPLayer2AssetMetaDataComplete
+000000010000c8b0 (__TEXT,__text) external _UARPLayer2AssetMetaDataProcessingError
+000000010000c880 (__TEXT,__text) external _UARPLayer2AssetMetaDataTLV
+000000010000cb60 (__TEXT,__text) external _UARPLayer2AssetOrphaned
+000000010000cc04 (__TEXT,__text) external _UARPLayer2AssetPreProcessingNotification
+000000010000cc24 (__TEXT,__text) external _UARPLayer2AssetPreProcessingNotificationAck
+000000010000cbac (__TEXT,__text) external _UARPLayer2AssetProcessingNotification2
+000000010000cbe4 (__TEXT,__text) external _UARPLayer2AssetProcessingNotificationAck
+000000010000c868 (__TEXT,__text) external _UARPLayer2AssetReady
+000000010000cb78 (__TEXT,__text) external _UARPLayer2AssetReleased2
+000000010000cb20 (__TEXT,__text) external _UARPLayer2AssetRescinded
+000000010000cb40 (__TEXT,__text) external _UARPLayer2AssetRescindedAck
+000000010000cadc (__TEXT,__text) external _UARPLayer2AssetSetBytesAtOffset2
+000000010000c470 (__TEXT,__text) external _UARPLayer2AssetSolicitation
+000000010000cc60 (__TEXT,__text) external _UARPLayer2AssetStore
+000000010000c71c (__TEXT,__text) external _UARPLayer2CompressBuffer
+000000010000bff0 (__TEXT,__text) external _UARPLayer2DataTransferPause
+000000010000c00c (__TEXT,__text) external _UARPLayer2DataTransferPauseAck
+000000010000c028 (__TEXT,__text) external _UARPLayer2DataTransferResume
+000000010000c044 (__TEXT,__text) external _UARPLayer2DataTransferResumeAck
+000000010000c6f4 (__TEXT,__text) external _UARPLayer2DecompressBuffer
+000000010000c078 (__TEXT,__text) external _UARPLayer2DynamicAssetOffered
+000000010000c6c4 (__TEXT,__text) external _UARPLayer2EndpointBulkInformationQuery
+000000010000c6dc (__TEXT,__text) external _UARPLayer2EndpointBulkInformationResponse
+000000010000c6ac (__TEXT,__text) external _UARPLayer2EndpointIDComponents
+000000010000c694 (__TEXT,__text) external _UARPLayer2EndpointIDs
+000000010000c574 (__TEXT,__text) external _UARPLayer2FriendlyName
+000000010000c5d8 (__TEXT,__text) external _UARPLayer2FriendlyNameResponse
+000000010000c23c (__TEXT,__text) external _UARPLayer2HardwareVersion
+000000010000c2a0 (__TEXT,__text) external _UARPLayer2HardwareVersionResponse
+000000010000c7a0 (__TEXT,__text) external _UARPLayer2HashFinal
+000000010000c744 (__TEXT,__text) external _UARPLayer2HashInfo
+000000010000c768 (__TEXT,__text) external _UARPLayer2HashInit
+000000010000c7c0 (__TEXT,__text) external _UARPLayer2HashLog
+000000010000c780 (__TEXT,__text) external _UARPLayer2HashUpdate
+000000010000c420 (__TEXT,__text) external _UARPLayer2LastError
+000000010000c440 (__TEXT,__text) external _UARPLayer2LastErrorResponse
+000000010000c7d8 (__TEXT,__text) external _UARPLayer2LogPacket
+000000010000c0c8 (__TEXT,__text) external _UARPLayer2ManufacturerName
+000000010000c12c (__TEXT,__text) external _UARPLayer2ManufacturerNameResponse
+000000010000c144 (__TEXT,__text) external _UARPLayer2ModelName
+000000010000c1a8 (__TEXT,__text) external _UARPLayer2ModelNameResponse
+000000010000c514 (__TEXT,__text) external _UARPLayer2MonotonicClockTime
+000000010000ca38 (__TEXT,__text) external _UARPLayer2PayloadData
+000000010000ca50 (__TEXT,__text) external _UARPLayer2PayloadDataComplete
+000000010000ca68 (__TEXT,__text) external _UARPLayer2PayloadDataComplete2
+000000010000c974 (__TEXT,__text) external _UARPLayer2PayloadMetaDataComplete
+000000010000ca20 (__TEXT,__text) external _UARPLayer2PayloadMetaDataProcessingError
+000000010000c8e0 (__TEXT,__text) external _UARPLayer2PayloadMetaDataTLV
+000000010000c8c8 (__TEXT,__text) external _UARPLayer2PayloadReady
+000000010000c55c (__TEXT,__text) external _UARPLayer2ProtocolVersion
+000000010000bd14 (__TEXT,__text) external _UARPLayer2RequestBuffer
+000000010000be34 (__TEXT,__text) external _UARPLayer2RequestTransmitMsgBuffer
+000000010000c48c (__TEXT,__text) external _UARPLayer2RescindAllAssets
+000000010000c4b0 (__TEXT,__text) external _UARPLayer2RescindAllAssetsAck
+000000010000bde0 (__TEXT,__text) external _UARPLayer2ReturnBuffer
+000000010000bf28 (__TEXT,__text) external _UARPLayer2ReturnTransmitMsgBuffer
+000000010000bf88 (__TEXT,__text) external _UARPLayer2SendMessage
+000000010000c1c0 (__TEXT,__text) external _UARPLayer2SerialNumber
+000000010000c224 (__TEXT,__text) external _UARPLayer2SerialNumberResponse
+000000010000c36c (__TEXT,__text) external _UARPLayer2StagedFirmwareVersion2
+000000010000c408 (__TEXT,__text) external _UARPLayer2StagedFirmwareVersionResponse
+000000010000c458 (__TEXT,__text) external _UARPLayer2StatisticsResponse
+000000010000c060 (__TEXT,__text) external _UARPLayer2SuperBinaryOffered
+000000010000c818 (__TEXT,__text) external _UARPLayer2VendorSpecificCheckExpectedResponse
+000000010000c834 (__TEXT,__text) external _UARPLayer2VendorSpecificCheckValidToSend
+000000010000c850 (__TEXT,__text) external _UARPLayer2VendorSpecificExceededRetries
+000000010000c7f0 (__TEXT,__text) external _UARPLayer2VendorSpecificRecvMessage
+000000010000c4f4 (__TEXT,__text) external _UARPLayer2WatchdogCancel
+000000010000c4d0 (__TEXT,__text) external _UARPLayer2WatchdogSet
+000000010000df0c (__TEXT,__text) external _UARPPlatformDownstreamEndpointByDelegate
+000000010000deb8 (__TEXT,__text) external _UARPPlatformDownstreamEndpointByID
+00000001000121fc (__TEXT,__text) external _UARPProtocolVersionRequiresDownstreamMessageACK
+0000000100012208 (__TEXT,__text) external _UARPProtocolVersionResponseAdjustByProtocolVersion
+0000000100013124 (__TEXT,__text) external _UARPSuperBinaryAddMetaData
+0000000100013db8 (__TEXT,__text) external _UARPSuperBinaryAddPayload
+0000000100013de4 (__TEXT,__text) external _UARPSuperBinaryAddPayload2
+00000001000136f8 (__TEXT,__text) external _UARPSuperBinaryAddPayloadData
+0000000100013670 (__TEXT,__text) external _UARPSuperBinaryAddPayloadDataLarge
+0000000100013448 (__TEXT,__text) external _UARPSuperBinaryAddPayloadMetaData
+0000000100013d04 (__TEXT,__text) external _UARPSuperBinaryAddSuperBinaryMetaData
+0000000100013f10 (__TEXT,__text) external _UARPSuperBinaryAppendPayloadMetaData
+0000000100014024 (__TEXT,__text) external _UARPSuperBinaryAppendPayloadMetaDataBlob
+0000000100014134 (__TEXT,__text) external _UARPSuperBinaryBuildMetaData
+00000001000141ec (__TEXT,__text) external _UARPSuperBinaryFinalizeDynamicAsset
+00000001000138d8 (__TEXT,__text) external _UARPSuperBinaryFinalizeHeader
+0000000100014504 (__TEXT,__text) external _UARPSuperBinaryGetInternalPayloadMetaData
+0000000100014494 (__TEXT,__text) external _UARPSuperBinaryGetInternalSuperBinaryMetaData
+0000000100013cb4 (__TEXT,__text) external _UARPSuperBinaryPrepareDynamicAsset
+00000001000132d4 (__TEXT,__text) external _UARPSuperBinaryPreparePayload
+0000000100013c30 (__TEXT,__text) external _UARPSuperBinaryQueryAssetLength
+0000000100013018 (__TEXT,__text) external _UARPSuperBinarySetupHeader
+                 (undefined) external __Block_object_assign (from libSystem)
+                 (undefined) external __Block_object_dispose (from libSystem)
+                 (undefined) external __NSConcreteStackBlock (from libSystem)
+                 (undefined) external ___CFConstantStringClassReference (from CoreFoundation)
+                 (undefined) external ___chkstk_darwin (from libSystem)
+                 (undefined) external ___kCFBooleanTrue (from CoreFoundation)
+                 (undefined) external ___stack_chk_fail (from libSystem)
+                 (undefined) external ___stack_chk_guard (from libSystem)
+0000000100000000 (__TEXT,__text) [referenced dynamically] external __mh_execute_header
+                 (undefined) external __objc_empty_cache (from libobjc)
+                 (undefined) external __os_log_debug_impl (from libSystem)
+                 (undefined) external __os_log_default (from libSystem)
+                 (undefined) external __os_log_error_impl (from libSystem)
+                 (undefined) external __os_log_fault_impl (from libSystem)
+                 (undefined) external __os_log_impl (from libSystem)
+                 (undefined) external _bzero (from libSystem)
+                 (undefined) external _calloc (from libSystem)
+                 (undefined) external _compression_decode_buffer (from libcompression)
+                 (undefined) external _createPowerAssertion (from CoreUARP)
+                 (undefined) external _dispatch_async (from libSystem)
+                 (undefined) external _dispatch_once (from libSystem)
+                 (undefined) external _dispatch_queue_create (from libSystem)
+                 (undefined) external _dispatch_sync (from libSystem)
+000000010000c5f0 (__TEXT,__text) external _fUarpLayer3DownstreamEndpointDiscovery
+000000010000c60c (__TEXT,__text) external _fUarpLayer3DownstreamEndpointReachable
+000000010000c65c (__TEXT,__text) external _fUarpLayer3DownstreamEndpointRecvMessage
+000000010000c644 (__TEXT,__text) external _fUarpLayer3DownstreamEndpointReleased
+000000010000c628 (__TEXT,__text) external _fUarpLayer3DownstreamEndpointUnreachable
+000000010000c67c (__TEXT,__text) external _fUarpLayer3NoFirmwareUpdateAvailable
+                 (undefined) external _free (from libSystem)
+                 (undefined) external _kCFAllocatorDefault (from CoreFoundation)
+                 (undefined) external _kCFRunLoopDefaultMode (from CoreFoundation)
+                 (undefined) external _kIOMainPortDefault (from IOKit)
+                 (undefined) external _kUARPErrorDomain (from CoreUARP)
+00000001000021bc (__TEXT,__text) external _main
+                 (undefined) external _malloc_type_calloc (from libSystem)
+                 (undefined) external _memcmp (from libSystem)
+                 (undefined) external _memcpy (from libSystem)
+                 (undefined) external _objc_alloc (from libobjc)
+                 (undefined) external _objc_alloc_init (from libobjc)
+                 (undefined) external _objc_autoreleaseReturnValue (from libobjc)
+                 (undefined) external _objc_copyStruct (from libobjc)
+                 (undefined) external _objc_enumerationMutation (from libobjc)
+                 (undefined) external _objc_getProperty (from libobjc)
+                 (undefined) external _objc_msgSend (from libobjc)
+                 (undefined) external _objc_msgSendSuper2 (from libobjc)
+                 (undefined) external _objc_opt_class (from libobjc)
+                 (undefined) external _objc_opt_isKindOfClass (from libobjc)
+                 (undefined) external _objc_opt_new (from libobjc)
+                 (undefined) external _objc_opt_respondsToSelector (from libobjc)
+                 (undefined) external _objc_release (from libobjc)
+                 (undefined) external _objc_retain (from libobjc)
+                 (undefined) external _objc_retainAutorelease (from libobjc)
+                 (undefined) external _objc_retainAutoreleaseReturnValue (from libobjc)
+                 (undefined) external _objc_retainAutoreleasedReturnValue (from libobjc)
+                 (undefined) external _objc_setProperty_atomic (from libobjc)
+                 (undefined) external _objc_storeStrong (from libobjc)
+                 (undefined) external _os_log_create (from libSystem)
+                 (undefined) external _os_log_type_enabled (from libSystem)
+                 (undefined) external _releasePowerAssertion (from CoreUARP)
+                 (undefined) external _sleep (from libSystem)
+                 (undefined) external _snprintf (from libSystem)
+00000001000117fc (__TEXT,__text) external _uarp4ccCompare
+00000001000122f8 (__TEXT,__text) external _uarpAllocPrepareTransmitBuffer2
+0000000100012218 (__TEXT,__text) external _uarpAllocateTransmitBuffer2
+00000001000123fc (__TEXT,__text) external _uarpAllocateTransmitBuffers
+00000001000107a0 (__TEXT,__text) external _uarpApplePlatformEndpointRecvMessage
+000000010001110c (__TEXT,__text) external _uarpApplePlatformMessageCheckExpectedResponse
+00000001000111e0 (__TEXT,__text) external _uarpApplePlatformMessageCheckValidToSend
+00000001000112ec (__TEXT,__text) external _uarpApplePlatformMessageExceededRetries
+0000000100011a74 (__TEXT,__text) external _uarpApplyFlagsToString
+00000001000118ec (__TEXT,__text) external _uarpAssetCompare
+000000010000dae4 (__TEXT,__text) external _uarpAssetProcessingComplete
+00000001000161ec (__TEXT,__text) external _uarpAssetQueryPayloadInfo
+00000001000161a8 (__TEXT,__text) external _uarpAssetQueryPayloadMetaData
+0000000100016180 (__TEXT,__text) external _uarpAssetQuerySuperBinaryMetaData
+000000010000dc6c (__TEXT,__text) external _uarpAssetRescind
+0000000100011f40 (__TEXT,__text) external _uarpAssetSuperBinaryVersionForProtocolVersion
+0000000100011734 (__TEXT,__text) external _uarpAssetTagChdr
+0000000100011724 (__TEXT,__text) external _uarpAssetTagChdr4cc
+0000000100011970 (__TEXT,__text) external _uarpAssetTagCompare
+0000000100011a34 (__TEXT,__text) external _uarpAssetTagIsValid
+0000000100011744 (__TEXT,__text) external _uarpAssetTagStructChdr
+0000000100011a64 (__TEXT,__text) external _uarpAssetTagStructSuperBinary
+000000010000d43c (__TEXT,__text) external _uarpCallbackUpdateInformationTLV
+00000001000116d0 (__TEXT,__text) external _uarpCompressionHeaderEndianSwap
+00000001000120f4 (__TEXT,__text) external _uarpCopyDefaultInfoString
+0000000100011f50 (__TEXT,__text) external _uarpDownstreamEndpointGetID
+0000000100011bd0 (__TEXT,__text) external _uarpEndpointRoleToString
+00000001000129a4 (__TEXT,__text) external _uarpFree
+00000001000129bc (__TEXT,__text) external _uarpHtonl
+00000001000129ac (__TEXT,__text) external _uarpHtonll
+00000001000129cc (__TEXT,__text) external _uarpHtons
+0000000100012c84 (__TEXT,__text) external _uarpLogDebug
+0000000100012ba0 (__TEXT,__text) external _uarpLogError
+0000000100012db4 (__TEXT,__text) external _uarpLogFault
+0000000100012cf0 (__TEXT,__text) external _uarpLogInfo
+0000000100011bf4 (__TEXT,__text) external _uarpLoggingCategoryToString
+0000000100012124 (__TEXT,__text) external _uarpMessageAdjustedForEndpointID
+00000001000121c8 (__TEXT,__text) external _uarpMessagePrintToBuffer
+00000001000121cc (__TEXT,__text) external _uarpMessageTypeToString
+00000001000129c4 (__TEXT,__text) external _uarpNtohl
+00000001000129b4 (__TEXT,__text) external _uarpNtohll
+00000001000129d4 (__TEXT,__text) external _uarpNtohs
+000000010000db9c (__TEXT,__text) external _uarpOfferAssetToRemoteEP
+0000000100010780 (__TEXT,__text) external _uarpOuiAppleGenericFeatures
+0000000100011848 (__TEXT,__text) external _uarpOuiCompare
+0000000100013bbc (__TEXT,__text) external _uarpPayloadHeader2EndianSwap
+0000000100013b28 (__TEXT,__text) external _uarpPayloadHeaderEndianSwap
+0000000100011764 (__TEXT,__text) external _uarpPayloadTagPack
+00000001000117a4 (__TEXT,__text) external _uarpPayloadTagStructPack
+00000001000117c8 (__TEXT,__text) external _uarpPayloadTagStructUnpack
+000000010001176c (__TEXT,__text) external _uarpPayloadTagUnpack
+000000010000cf04 (__TEXT,__text) external _uarpPlatformAssetCleanup
+000000010000d968 (__TEXT,__text) external _uarpPlatformAssetDataRequest
+0000000100014e8c (__TEXT,__text) external _uarpPlatformAssetFindByAssetContext
+0000000100015580 (__TEXT,__text) external _uarpPlatformAssetFindByAssetContextAndList
+000000010000cd18 (__TEXT,__text) external _uarpPlatformAssetFindByAssetID
+000000010000cd50 (__TEXT,__text) external _uarpPlatformAssetFindByTag
+000000010000cce0 (__TEXT,__text) external _uarpPlatformAssetFindFirmware
+000000010000d0a4 (__TEXT,__text) external _uarpPlatformAssetIsKnown
+000000010000ceac (__TEXT,__text) external _uarpPlatformAssetOrphan
+000000010000b0cc (__TEXT,__text) external _uarpPlatformAssetPayloadHeaderProcess
+000000010000b30c (__TEXT,__text) external _uarpPlatformAssetPayloadPullData
+000000010000b1cc (__TEXT,__text) external _uarpPlatformAssetPayloadPullMetaData
+000000010000a8dc (__TEXT,__text) external _uarpPlatformAssetProcessingCompleteInternal
+000000010000b94c (__TEXT,__text) external _uarpPlatformAssetPullAllMetaData
+000000010000b6ac (__TEXT,__text) external _uarpPlatformAssetPullAllPayloadHeaders
+00000001000162a0 (__TEXT,__text) external _uarpPlatformAssetQueryAssetID
+00000001000162c0 (__TEXT,__text) external _uarpPlatformAssetQueryAssetVersion
+000000010000cedc (__TEXT,__text) external _uarpPlatformAssetRelease
+000000010000a98c (__TEXT,__text) external _uarpPlatformAssetRequestData
+000000010000d320 (__TEXT,__text) external _uarpPlatformAssetRescind
+000000010000da60 (__TEXT,__text) external _uarpPlatformAssetRescinded
+000000010000aa10 (__TEXT,__text) external _uarpPlatformAssetResponseData
+0000000100016118 (__TEXT,__text) external _uarpPlatformAssetSelectedPayloadInfo
+000000010000ac9c (__TEXT,__text) external _uarpPlatformAssetSuperBinaryPullHeader
+000000010000ae74 (__TEXT,__text) external _uarpPlatformAssetSuperBinaryPullMetaData
+000000010000afa0 (__TEXT,__text) external _uarpPlatformAssetSuperBinaryPullProposedPayloadHeader
+000000010000abc4 (__TEXT,__text) external _uarpPlatformAssetUpdateMetaData
+000000010000d438 (__TEXT,__text) external _uarpPlatformCancelPendingTxMessages
+000000010000d434 (__TEXT,__text) external _uarpPlatformCancelRxDynamicAssets
+000000010000d05c (__TEXT,__text) external _uarpPlatformCleanupAssets
+000000010000cdbc (__TEXT,__text) external _uarpPlatformCleanupAssetsForRemoteEndpoint
+000000010000de68 (__TEXT,__text) external _uarpPlatformCompareHash
+00000001000163b0 (__TEXT,__text) external _uarpPlatformConfigureEndpointIDs
+0000000100016440 (__TEXT,__text) external _uarpPlatformConfigureEndpointTags
+000000010000ddfc (__TEXT,__text) external _uarpPlatformCreateRxAsset
+0000000100012a90 (__TEXT,__text) external _uarpPlatformDarwinCompressBuffer
+00000001000129dc (__TEXT,__text) external _uarpPlatformDarwinDecompressBuffer
+0000000100012b50 (__TEXT,__text) external _uarpPlatformDarwinHashFinal
+0000000100012a98 (__TEXT,__text) external _uarpPlatformDarwinHashInfo
+0000000100012ad0 (__TEXT,__text) external _uarpPlatformDarwinHashInit
+0000000100012b9c (__TEXT,__text) external _uarpPlatformDarwinHashLog
+0000000100012b04 (__TEXT,__text) external _uarpPlatformDarwinHashUpdate
+0000000100012f48 (__TEXT,__text) external _uarpPlatformDarwinLogDebug
+0000000100012e20 (__TEXT,__text) external _uarpPlatformDarwinLogError
+0000000100012fb0 (__TEXT,__text) external _uarpPlatformDarwinLogFault
+0000000100012e88 (__TEXT,__text) external _uarpPlatformDarwinLogInfo
+000000010000d9d4 (__TEXT,__text) external _uarpPlatformDataTransferResume
+0000000100015bbc (__TEXT,__text) external _uarpPlatformDelegateForDownstreamID
+0000000100015920 (__TEXT,__text) external _uarpPlatformDownstreamEndpointAdd
+000000010000e04c (__TEXT,__text) external _uarpPlatformDownstreamEndpointAddToList
+00000001000159c4 (__TEXT,__text) external _uarpPlatformDownstreamEndpointAddWithID
+000000010000e0e4 (__TEXT,__text) external _uarpPlatformDownstreamEndpointDelegateFindOnListByID
+000000010001591c (__TEXT,__text) external _uarpPlatformDownstreamEndpointDiscovery
+000000010000e078 (__TEXT,__text) external _uarpPlatformDownstreamEndpointFindOnList
+000000010000e098 (__TEXT,__text) external _uarpPlatformDownstreamEndpointFindOnListByDelegate
+000000010000e0b8 (__TEXT,__text) external _uarpPlatformDownstreamEndpointIDFindOnListByDelegate
+00000001000159c8 (__TEXT,__text) external _uarpPlatformDownstreamEndpointReachable
+0000000100015a68 (__TEXT,__text) external _uarpPlatformDownstreamEndpointRemove
+000000010000e110 (__TEXT,__text) external _uarpPlatformDownstreamEndpointRemoveFromList
+0000000100015b48 (__TEXT,__text) external _uarpPlatformDownstreamEndpointSendMessage
+000000010000df5c (__TEXT,__text) external _uarpPlatformDownstreamEndpointSendMessageInternal
+0000000100015ac0 (__TEXT,__text) external _uarpPlatformDownstreamEndpointUnreachable
+0000000100015824 (__TEXT,__text) external _uarpPlatformEndpointApplyStagedAssets
+0000000100014dc4 (__TEXT,__text) external _uarpPlatformEndpointAssetAbandon
+0000000100014970 (__TEXT,__text) external _uarpPlatformEndpointAssetAccept
+00000001000149c8 (__TEXT,__text) external _uarpPlatformEndpointAssetAcceptWithPayloadAndDecompressionWindows
+00000001000149a0 (__TEXT,__text) external _uarpPlatformEndpointAssetAcceptWithPayloadWindow
+0000000100014dd4 (__TEXT,__text) external _uarpPlatformEndpointAssetCorrupt
+0000000100014d24 (__TEXT,__text) external _uarpPlatformEndpointAssetDeny
+0000000100015310 (__TEXT,__text) external _uarpPlatformEndpointAssetFullyStaged
+00000001000155b0 (__TEXT,__text) external _uarpPlatformEndpointAssetGetBytesAtOffset
+0000000100014880 (__TEXT,__text) external _uarpPlatformEndpointAssetIsAcceptable
+00000001000151dc (__TEXT,__text) external _uarpPlatformEndpointAssetPayloadTag
+00000001000151a0 (__TEXT,__text) external _uarpPlatformEndpointAssetPayloadVersion
+0000000100014f68 (__TEXT,__text) external _uarpPlatformEndpointAssetQueryAssetLength
+0000000100014f44 (__TEXT,__text) external _uarpPlatformEndpointAssetQueryAssetVersion
+0000000100014f20 (__TEXT,__text) external _uarpPlatformEndpointAssetQueryFormatVersion
+0000000100014efc (__TEXT,__text) external _uarpPlatformEndpointAssetQueryNumberOfPayloads
+0000000100014f8c (__TEXT,__text) external _uarpPlatformEndpointAssetQueryTag
+0000000100014dec (__TEXT,__text) external _uarpPlatformEndpointAssetRelease
+0000000100014e3c (__TEXT,__text) external _uarpPlatformEndpointAssetRelease2
+0000000100014ef8 (__TEXT,__text) external _uarpPlatformEndpointAssetRequestMetaData
+0000000100015774 (__TEXT,__text) external _uarpPlatformEndpointAssetSetBytesAtOffset
+0000000100014cd0 (__TEXT,__text) external _uarpPlatformEndpointAssetSetCallbacks
+0000000100014fb0 (__TEXT,__text) external _uarpPlatformEndpointAssetSetPayloadIndex
+0000000100014fb8 (__TEXT,__text) external _uarpPlatformEndpointAssetSetPayloadIndex2
+0000000100015280 (__TEXT,__text) external _uarpPlatformEndpointAssetSetPayloadOffset
+000000010000d310 (__TEXT,__text) external _uarpPlatformEndpointAssetStore
+0000000100015d38 (__TEXT,__text) external _uarpPlatformEndpointBulkInfoQuery
+0000000100015fd8 (__TEXT,__text) external _uarpPlatformEndpointBulkInfoResponse
+0000000100015e3c (__TEXT,__text) external _uarpPlatformEndpointBulkInfoResponseAddTLV
+000000010001079c (__TEXT,__text) external _uarpPlatformEndpointCallbackAppleSpecific
+0000000100015454 (__TEXT,__text) external _uarpPlatformEndpointCleanupAssets
+0000000100015468 (__TEXT,__text) external _uarpPlatformEndpointCleanupAssets2
+0000000100014678 (__TEXT,__text) external _uarpPlatformEndpointDeinit
+0000000100015c40 (__TEXT,__text) external _uarpPlatformEndpointDiscoverEndpointIDs
+0000000100015754 (__TEXT,__text) external _uarpPlatformEndpointDynamicAssetSolicitationDeny
+000000010001458c (__TEXT,__text) external _uarpPlatformEndpointInit
+0000000100014584 (__TEXT,__text) external _uarpPlatformEndpointInit2
+0000000100015498 (__TEXT,__text) external _uarpPlatformEndpointOfferAsset
+000000010001589c (__TEXT,__text) external _uarpPlatformEndpointPauseAssetTransfers
+0000000100015214 (__TEXT,__text) external _uarpPlatformEndpointPayloadRequestAllHeadersAndMetaData
+0000000100015138 (__TEXT,__text) external _uarpPlatformEndpointPayloadRequestData
+00000001000152c0 (__TEXT,__text) external _uarpPlatformEndpointPayloadRequestDataPause
+00000001000152e0 (__TEXT,__text) external _uarpPlatformEndpointPayloadRequestDataResume
+000000010001527c (__TEXT,__text) external _uarpPlatformEndpointPayloadRequestMetaData
+0000000100015478 (__TEXT,__text) external _uarpPlatformEndpointPrepareDynamicAsset
+0000000100015480 (__TEXT,__text) external _uarpPlatformEndpointPrepareSolicitedDynamicAsset
+0000000100015488 (__TEXT,__text) external _uarpPlatformEndpointPrepareSuperBinary
+00000001000156dc (__TEXT,__text) external _uarpPlatformEndpointProvideAssetPayloadWindow
+000000010000cc78 (__TEXT,__text) external _uarpPlatformEndpointQueryActiveFirmwareVersion
+000000010000ccac (__TEXT,__text) external _uarpPlatformEndpointQueryStagedFirmwareVersion
+000000010000ea84 (__TEXT,__text) external _uarpPlatformEndpointRecvMessage
+00000001000156b0 (__TEXT,__text) external _uarpPlatformEndpointRemoveAssetPayloadWindow
+0000000100014860 (__TEXT,__text) external _uarpPlatformEndpointRequestInfoProperty
+000000010001580c (__TEXT,__text) external _uarpPlatformEndpointRescindAllAssets
+00000001000157c8 (__TEXT,__text) external _uarpPlatformEndpointRescindAsset
+00000001000158b0 (__TEXT,__text) external _uarpPlatformEndpointResumeAssetTransfers
+000000010001650c (__TEXT,__text) external _uarpPlatformEndpointSendMessageComplete
+000000010000e24c (__TEXT,__text) external _uarpPlatformEndpointSendMessageCompleteInternal
+000000010000e258 (__TEXT,__text) external _uarpPlatformEndpointSendSyncMsg
+0000000100015900 (__TEXT,__text) external _uarpPlatformEndpointSendVendorSpecific
+00000001000158c4 (__TEXT,__text) external _uarpPlatformEndpointSolicitDynamicAsset
+000000010000a7cc (__TEXT,__text) external _uarpPlatformEndpointStreamingRecvBytes
+000000010000a75c (__TEXT,__text) external _uarpPlatformEndpointStreamingRecvDeinit
+000000010000a6ac (__TEXT,__text) external _uarpPlatformEndpointStreamingRecvInit
+0000000100015330 (__TEXT,__text) external _uarpPlatformEndpointSuperBinaryMerge
+0000000100015790 (__TEXT,__text) external _uarpPlatformEndpointWatchDogExpired
+000000010000dd80 (__TEXT,__text) external _uarpPlatformFindPreparedAsset
+000000010000d964 (__TEXT,__text) external _uarpPlatformGarbageCollection
+000000010001633c (__TEXT,__text) external _uarpPlatformGetMaxRxPayloadLength
+00000001000162fc (__TEXT,__text) external _uarpPlatformGetMaxTxPayloadLength
+0000000100016360 (__TEXT,__text) external _uarpPlatformGetSupportsBulkInfoQueries
+0000000100016388 (__TEXT,__text) external _uarpPlatformGetUseHostPushModel
+0000000100015bdc (__TEXT,__text) external _uarpPlatformNoFirmwareUpdateAvailable
+000000010000d22c (__TEXT,__text) external _uarpPlatformPayloadCleanup
+000000010000d0cc (__TEXT,__text) external _uarpPlatformPrepareAsset
+000000010000d4dc (__TEXT,__text) external _uarpPlatformQueryAccessoryInfo
+0000000100015ca4 (__TEXT,__text) external _uarpPlatformQueryEndpointComponentDiscovery
+000000010000d3c8 (__TEXT,__text) external _uarpPlatformReOfferFirmware
+000000010000e180 (__TEXT,__text) external _uarpPlatformReleaseEndpointIDs
+000000010000e210 (__TEXT,__text) external _uarpPlatformReleaseEndpointTags
+00000001000160f0 (__TEXT,__text) external _uarpPlatformRemoteDelegateForAssetDelegate
+00000001000146c4 (__TEXT,__text) external _uarpPlatformRemoteEndpointAdd
+000000010000df64 (__TEXT,__text) external _uarpPlatformRemoteEndpointAddEntry
+000000010000e250 (__TEXT,__text) external _uarpPlatformRemoteEndpointAlloc
+00000001000147c8 (__TEXT,__text) external _uarpPlatformRemoteEndpointRemove
+000000010000d6d4 (__TEXT,__text) external _uarpPlatformResponseAccessoryInfo
+000000010000e158 (__TEXT,__text) external _uarpPlatformSendDownstreamMessageWithDownstreamID
+0000000100015b40 (__TEXT,__text) external _uarpPlatformSendMessageFromDownstreamEndpointID
+0000000100015b44 (__TEXT,__text) external _uarpPlatformSendMessageToDownstreamEndpointID
+0000000100016320 (__TEXT,__text) external _uarpPlatformSetMaxRxPayloadLength
+00000001000162e0 (__TEXT,__text) external _uarpPlatformSetMaxTxPayloadLength
+0000000100011f70 (__TEXT,__text) external _uarpPrintDataResponseDetails
+0000000100011c18 (__TEXT,__text) external _uarpProcessPayloadTLVInternal
+000000010000b888 (__TEXT,__text) external _uarpProcessTLV
+0000000100011aa0 (__TEXT,__text) external _uarpProcessingFlagsReasonToString
+0000000100011a9c (__TEXT,__text) external _uarpProcessingFlagsToString
+0000000100011acc (__TEXT,__text) external _uarpProcessingStatusToString
+000000010001610c (__TEXT,__text) external _uarpRemoteEndpointForAsset
+00000001000160c0 (__TEXT,__text) external _uarpRemoteEndpointID
+00000001000160d4 (__TEXT,__text) external _uarpRemoteEndpointIDForAsset
+000000010000e678 (__TEXT,__text) external _uarpSendAssetRequestData
+000000010000e510 (__TEXT,__text) external _uarpSendDataTransferNotificationPause
+000000010000e5c0 (__TEXT,__text) external _uarpSendDataTransferNotificationResume
+000000010000e828 (__TEXT,__text) external _uarpSendDownstreamEndpointDiscovery
+000000010000e88c (__TEXT,__text) external _uarpSendDownstreamEndpointReachable
+000000010000e920 (__TEXT,__text) external _uarpSendDownstreamEndpointUnreachable
+000000010000e5c8 (__TEXT,__text) external _uarpSendDynamicAssetPreProcessingStatus
+000000010000e47c (__TEXT,__text) external _uarpSendInformationRequest
+000000010000e740 (__TEXT,__text) external _uarpSendVendorSpecific
+000000010000e2d8 (__TEXT,__text) external _uarpSendVersionDiscoveryRequest
+000000010000e38c (__TEXT,__text) external _uarpSendVersionDiscoveryResponse
+000000010000dd00 (__TEXT,__text) external _uarpSolicitDynamicAsset
+0000000100011af8 (__TEXT,__text) external _uarpStageStatusToString
+0000000100011a10 (__TEXT,__text) external _uarpStatusCodeToString
+0000000100013a80 (__TEXT,__text) external _uarpSuperBinaryHeaderEndianSwap
+00000001000117ec (__TEXT,__text) external _uarpTagStructPack32
+00000001000117f4 (__TEXT,__text) external _uarpTagStructUnpack32
+0000000100012468 (__TEXT,__text) external _uarpTransmitBuffer2
+000000010000e9b4 (__TEXT,__text) external _uarpTransmitBufferUpstream
+000000010000e9b8 (__TEXT,__text) external _uarpTransmitMessageToDownstreamEndpointID
+00000001000128bc (__TEXT,__text) external _uarpTransmitQueueAssetRescinded
+0000000100012934 (__TEXT,__text) external _uarpTransmitQueuePurge
+0000000100012748 (__TEXT,__text) external _uarpTransmitQueueReclaimEntries
+00000001000124d8 (__TEXT,__text) external _uarpTransmitQueueService
+000000010001280c (__TEXT,__text) external _uarpTransmitQueuesCleanup
+0000000100011884 (__TEXT,__text) external _uarpVersionCompare
+00000001000119bc (__TEXT,__text) external _uarpVersionEndianSwap
+000000010001299c (__TEXT,__text) external _uarpZalloc
+00000001000129a8 (__TEXT,__text) external _uarpZero
+                 (undefined) external _usleep (from libSystem)
+                 (undefined) external _vsnprintf (from libSystem)
