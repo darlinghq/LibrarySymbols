@@ -25,7 +25,7 @@ impl NmLibrarySymbols {
         .output()
         .expect("Unable to launch 'nm' application");
 
-        let output = String::from_utf8(output.stdout).expect("Unable to save output");
+        let output = String::from_utf8_lossy(&output.stdout).to_string();
         whoami.mask_user_account(&output)
     }
 }
