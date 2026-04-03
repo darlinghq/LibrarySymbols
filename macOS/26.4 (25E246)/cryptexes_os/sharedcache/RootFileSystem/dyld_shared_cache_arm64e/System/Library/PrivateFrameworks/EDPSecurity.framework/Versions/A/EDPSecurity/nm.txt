@@ -1,0 +1,329 @@
+0000000240499a88 (__TEXT,__text) non-external +[EDPUtilities createSignature:withCertChain:withTime:withRemoteHandler:withError:]
+000000024049986c (__TEXT,__text) non-external +[EDPUtilities getCertificateChain:withError:]
+0000000240499f04 (__TEXT,__text) non-external +[EDPUtilities signDigest:algorithm:identity:error:]
+0000000240499ff8 (__TEXT,__text) non-external +[EDPUtilities validateSignature:requireTrust:withError:]
+000000024049973c (__TEXT,__text) non-external -[SignatureResponse .cxx_destruct]
+00000002404996f0 (__TEXT,__text) non-external -[SignatureResponse error]
+00000002404996f8 (__TEXT,__text) non-external -[SignatureResponse setError:]
+00000002404996ac (__TEXT,__text) non-external -[SignatureResponse setSignature:]
+00000002404996a4 (__TEXT,__text) non-external -[SignatureResponse signature]
+0000000240499828 (__TEXT,__text) non-external -[ValidationResponse .cxx_destruct]
+00000002404997dc (__TEXT,__text) non-external -[ValidationResponse certificateChain]
+00000002404997cc (__TEXT,__text) non-external -[ValidationResponse isTrusted]
+00000002404997e4 (__TEXT,__text) non-external -[ValidationResponse setCertificateChain:]
+00000002404997d4 (__TEXT,__text) non-external -[ValidationResponse setIsTrusted:]
+0000000240499788 (__TEXT,__text) non-external -[ValidationResponse setValidatedData:]
+0000000240499780 (__TEXT,__text) non-external -[ValidationResponse validatedData]
+00000002404a98b8 (__TEXT,__gcc_except_tab) non-external GCC_except_table1
+00000002404a98f4 (__TEXT,__gcc_except_tab) non-external GCC_except_table15
+00000002404a9944 (__TEXT,__gcc_except_tab) non-external GCC_except_table17
+00000002404a9974 (__TEXT,__gcc_except_tab) non-external GCC_except_table18
+                 (undefined) external _CFArrayAppendValue (from CoreFoundation)
+                 (undefined) external _CFArrayCreateMutable (from CoreFoundation)
+                 (undefined) external _CFArraySetValueAtIndex (from CoreFoundation)
+                 (undefined) external _CFDictionaryGetValue (from CoreFoundation)
+                 (undefined) external _CFEqual (from CoreFoundation)
+                 (undefined) external _CFRelease (from CoreFoundation)
+00000002404a8d30 (__TEXT,__const) external _EDPSecurityVersionNumber
+00000002404a8d00 (__TEXT,__const) external _EDPSecurityVersionString
+                 (undefined) external _MSDigestAlgorithmSHA256 (from MessageSecurity)
+                 (undefined) external _MSDigestAlgorithmSHA384 (from MessageSecurity)
+                 (undefined) external _MSDigestAlgorithmSHA512 (from MessageSecurity)
+                 (undefined) external _NSURLIsDirectoryKey (from CoreFoundation)
+00000002994b3bb0 (__AUTH,__objc_data) external _OBJC_CLASS_$_EDPUtilities
+                 (undefined) external _OBJC_CLASS_$_MSAlgorithmIdentifier (from MessageSecurity)
+                 (undefined) external _OBJC_CLASS_$_MSCMSContentInfo (from MessageSecurity)
+                 (undefined) external _OBJC_CLASS_$_MSCMSSignedData (from MessageSecurity)
+                 (undefined) external _OBJC_CLASS_$_MSCMSSignerInfo (from MessageSecurity)
+                 (undefined) external _OBJC_CLASS_$_MSCMSSigningTimeAttribute (from MessageSecurity)
+                 (undefined) external _OBJC_CLASS_$_MSDecodeOptions (from MessageSecurity)
+                 (undefined) external _OBJC_CLASS_$_NSDictionary (from CoreFoundation)
+                 (undefined) external _OBJC_CLASS_$_NSError (from Foundation)
+                 (undefined) external _OBJC_CLASS_$_NSFileManager (from Foundation)
+                 (undefined) external _OBJC_CLASS_$_NSNumber (from Foundation)
+                 (undefined) external _OBJC_CLASS_$_NSObject (from libobjc)
+00000002994b3b10 (__AUTH,__objc_data) external _OBJC_CLASS_$_SignatureResponse
+00000002994b3b60 (__AUTH,__objc_data) external _OBJC_CLASS_$_ValidationResponse
+                 (undefined) external _OBJC_CLASS_$__TtCs12_SwiftObject (from libswiftCore)
+0000000295335d24 (__DATA,__objc_ivar) non-external (was a private external) _OBJC_IVAR_$_SignatureResponse.error
+0000000295335d20 (__DATA,__objc_ivar) non-external (was a private external) _OBJC_IVAR_$_SignatureResponse.signature
+0000000295335d30 (__DATA,__objc_ivar) non-external (was a private external) _OBJC_IVAR_$_ValidationResponse.certificateChain
+0000000295335d28 (__DATA,__objc_ivar) non-external (was a private external) _OBJC_IVAR_$_ValidationResponse.isTrusted
+0000000295335d2c (__DATA,__objc_ivar) non-external (was a private external) _OBJC_IVAR_$_ValidationResponse.validatedData
+00000002994b3b88 (__AUTH,__objc_data) external _OBJC_METACLASS_$_EDPUtilities
+                 (undefined) external _OBJC_METACLASS_$_NSObject (from libobjc)
+00000002994b3ae8 (__AUTH,__objc_data) external _OBJC_METACLASS_$_SignatureResponse
+00000002994b3b38 (__AUTH,__objc_data) external _OBJC_METACLASS_$_ValidationResponse
+                 (undefined) external _OBJC_METACLASS_$__TtCs12_SwiftObject (from libswiftCore)
+                 (undefined) external _SecIdentityCopyCertificate (from Security)
+                 (undefined) external _SecIdentityCopyPrivateKey (from Security)
+                 (undefined) external _SecKeyCopyAttributes (from Security)
+                 (undefined) external _SecKeyCreateSignature (from Security)
+                 (undefined) external _SecPolicyCreateBasicX509 (from Security)
+                 (undefined) external _SecPolicyCreateEDPSigning (from Security)
+                 (undefined) external _SecTrustCopyCertificateChain (from Security)
+                 (undefined) external _SecTrustCreateWithCertificates (from Security)
+                 (undefined) external _SecTrustEvaluateWithError (from Security)
+                 (undefined) external __Block_copy (from libSystem)
+                 (undefined) external __Block_release (from libSystem)
+000000029b728bf8 (__AUTH_CONST,__objc_const) non-external __DATA__TtC11EDPSecurity12FileMeasurer
+00000002994b3c28 (__AUTH,__objc_data) non-external __DATA__TtC11EDPSecurity13PackageSigner
+000000029b728b40 (__AUTH_CONST,__objc_const) non-external __DATA__TtC11EDPSecurity16PackageValidator
+000000029b728a28 (__AUTH_CONST,__objc_const) non-external __DATA__TtC11EDPSecurity16ResourceManifest
+00000002994b3bd8 (__AUTH,__objc_data) non-external __DATA__TtC11EDPSecurity22PackageStaticValidator
+000000029b728bd0 (__AUTH_CONST,__objc_const) non-external __IVARS__TtC11EDPSecurity12FileMeasurer
+000000029b7288f0 (__AUTH_CONST,__objc_const) non-external __IVARS__TtC11EDPSecurity13PackageSigner
+000000029b728ab8 (__AUTH_CONST,__objc_const) non-external __IVARS__TtC11EDPSecurity16PackageValidator
+000000029b7289e0 (__AUTH_CONST,__objc_const) non-external __IVARS__TtC11EDPSecurity16ResourceManifest
+000000029b728860 (__AUTH_CONST,__objc_const) non-external __IVARS__TtC11EDPSecurity22PackageStaticValidator
+000000029b728b88 (__AUTH_CONST,__objc_const) non-external __METACLASS_DATA__TtC11EDPSecurity12FileMeasurer
+000000029b7288a8 (__AUTH_CONST,__objc_const) non-external __METACLASS_DATA__TtC11EDPSecurity13PackageSigner
+000000029b728a70 (__AUTH_CONST,__objc_const) non-external __METACLASS_DATA__TtC11EDPSecurity16PackageValidator
+000000029b728998 (__AUTH_CONST,__objc_const) non-external __METACLASS_DATA__TtC11EDPSecurity16ResourceManifest
+000000029b728818 (__AUTH_CONST,__objc_const) non-external __METACLASS_DATA__TtC11EDPSecurity22PackageStaticValidator
+                 (undefined) external __NSConcreteStackBlock (from libSystem)
+00000002404a8c20 (__TEXT,__objc_methlist) non-external __OBJC_$_CLASS_METHODS_EDPUtilities
+00000002404a8c58 (__TEXT,__objc_methlist) non-external __OBJC_$_INSTANCE_METHODS_SignatureResponse
+00000002404a8ca0 (__TEXT,__objc_methlist) non-external __OBJC_$_INSTANCE_METHODS_ValidationResponse
+000000029b7285a0 (__AUTH_CONST,__objc_const) non-external __OBJC_$_INSTANCE_VARIABLES_SignatureResponse
+000000029b7286a0 (__AUTH_CONST,__objc_const) non-external __OBJC_$_INSTANCE_VARIABLES_ValidationResponse
+000000029b7285e8 (__AUTH_CONST,__objc_const) non-external __OBJC_$_PROP_LIST_SignatureResponse
+000000029b728708 (__AUTH_CONST,__objc_const) non-external __OBJC_$_PROP_LIST_ValidationResponse
+000000029b7287d0 (__AUTH_CONST,__objc_const) non-external __OBJC_CLASS_RO_$_EDPUtilities
+000000029b728610 (__AUTH_CONST,__objc_const) non-external __OBJC_CLASS_RO_$_SignatureResponse
+000000029b728740 (__AUTH_CONST,__objc_const) non-external __OBJC_CLASS_RO_$_ValidationResponse
+000000029b728788 (__AUTH_CONST,__objc_const) non-external __OBJC_METACLASS_RO_$_EDPUtilities
+000000029b728558 (__AUTH_CONST,__objc_const) non-external __OBJC_METACLASS_RO_$_SignatureResponse
+000000029b728658 (__AUTH_CONST,__objc_const) non-external __OBJC_METACLASS_RO_$_ValidationResponse
+                 (undefined) external __Unwind_Resume (from libSystem)
+                 (undefined) external ___CFConstantStringClassReference (from CoreFoundation)
+                 (undefined) external ___chkstk_darwin (from libSystem)
+                 (undefined) external ___objc_personality_v0 (from libobjc)
+                 (undefined) external ___stack_chk_fail (from libSystem)
+                 (undefined) external ___stack_chk_guard (from libSystem)
+00000002404a0fdc (__TEXT,__text) non-external (was a private external) ___swift_allocate_boxed_opaque_existential_1
+00000002404a0870 (__TEXT,__text) non-external (was a private external) ___swift_destroy_boxed_opaque_existential_1
+00000002404a0b04 (__TEXT,__text) non-external (was a private external) ___swift_instantiateConcreteTypeFromMangledNameAbstractV2
+000000024049c3c4 (__TEXT,__text) non-external (was a private external) ___swift_instantiateConcreteTypeFromMangledNameV2
+00000002404a0bd0 (__TEXT,__text) non-external (was a private external) ___swift_memcpy17_8
+00000002404a0d3c (__TEXT,__text) non-external (was a private external) ___swift_memcpy1_1
+00000002404a732c (__TEXT,__text) non-external (was a private external) ___swift_memcpy25_8
+00000002404a0c9c (__TEXT,__text) non-external (was a private external) ___swift_memcpy8_8
+00000002404a0d48 (__TEXT,__text) non-external (was a private external) ___swift_noop_void_return
+00000002404a07d8 (__TEXT,__text) non-external (was a private external) ___swift_project_boxed_opaque_existential_1
+00000002404a9430 (__TEXT,__const) non-external (was a private external) ___swift_reflection_version
+                 (undefined) external __objc_empty_cache (from libobjc)
+                 (undefined) external __swiftEmptyArrayStorage (from libswiftCore)
+                 (undefined) external __swiftEmptyDictionarySingleton (from libswiftCore)
+                 (undefined) external __swiftEmptySetSingleton (from libswiftCore)
+                 (undefined) external __swiftImmortalRefCount (from libswiftCore)
+                 (undefined) weak external __swift_FORCE_LOAD_$_swiftCoreFoundation (from libswiftCoreFoundation)
+000000028f9118c8 (__DATA_CONST,__const) non-external (was a private external) __swift_FORCE_LOAD_$_swiftCoreFoundation_$_EDPSecurity
+                 (undefined) weak external __swift_FORCE_LOAD_$_swiftDispatch (from libswiftDispatch)
+000000028f9118b8 (__DATA_CONST,__const) non-external (was a private external) __swift_FORCE_LOAD_$_swiftDispatch_$_EDPSecurity
+                 (undefined) weak external __swift_FORCE_LOAD_$_swiftFoundation (from Foundation)
+000000028f9118a0 (__DATA_CONST,__const) non-external (was a private external) __swift_FORCE_LOAD_$_swiftFoundation_$_EDPSecurity
+                 (undefined) weak external __swift_FORCE_LOAD_$_swiftIOKit (from libswiftIOKit)
+000000028f9118d0 (__DATA_CONST,__const) non-external (was a private external) __swift_FORCE_LOAD_$_swiftIOKit_$_EDPSecurity
+                 (undefined) weak external __swift_FORCE_LOAD_$_swiftObjectiveC (from libswiftObjectiveC)
+000000028f9118c0 (__DATA_CONST,__const) non-external (was a private external) __swift_FORCE_LOAD_$_swiftObjectiveC_$_EDPSecurity
+                 (undefined) weak external __swift_FORCE_LOAD_$_swiftXPC (from libswiftXPC)
+000000028f9118a8 (__DATA_CONST,__const) non-external (was a private external) __swift_FORCE_LOAD_$_swiftXPC_$_EDPSecurity
+                 (undefined) weak external __swift_FORCE_LOAD_$_swift_Builtin_float (from libswift_Builtin_float)
+000000028f9118b0 (__DATA_CONST,__const) non-external (was a private external) __swift_FORCE_LOAD_$_swift_Builtin_float_$_EDPSecurity
+                 (undefined) weak external __swift_FORCE_LOAD_$_swiftos (from libswiftos)
+000000028f9118d8 (__DATA_CONST,__const) non-external (was a private external) __swift_FORCE_LOAD_$_swiftos_$_EDPSecurity
+000000024049d0f8 (__TEXT,__text) non-external __swift_stdlib_malloc_size
+                 (undefined) external __swift_stdlib_reportUnimplementedInitializer (from libswiftCore)
+00000002404a9bea (__TEXT,__swift5_typeref) non-external (was a private external) _associated conformance 11EDPSecurity15FileMeasurementV10CodingKeysOSHAASQ
+00000002404a9bfa (__TEXT,__swift5_typeref) non-external (was a private external) _associated conformance 11EDPSecurity15FileMeasurementV10CodingKeysOs0D3KeyAAs23CustomStringConvertible
+00000002404a9bf2 (__TEXT,__swift5_typeref) non-external (was a private external) _associated conformance 11EDPSecurity15FileMeasurementV10CodingKeysOs0D3KeyAAs28CustomDebugStringConvertible
+00000002404a9cd0 (__TEXT,__swift5_typeref) non-external (was a private external) _associated conformance 11EDPSecurity16ResourceManifestC10CodingKeys33_A02F4B56132C56C1F98038C55355E9B6LLOSHAASQ
+00000002404a9ce0 (__TEXT,__swift5_typeref) non-external (was a private external) _associated conformance 11EDPSecurity16ResourceManifestC10CodingKeys33_A02F4B56132C56C1F98038C55355E9B6LLOs0D3KeyAAs23CustomStringConvertible
+00000002404a9cd8 (__TEXT,__swift5_typeref) non-external (was a private external) _associated conformance 11EDPSecurity16ResourceManifestC10CodingKeys33_A02F4B56132C56C1F98038C55355E9B6LLOs0D3KeyAAs28CustomDebugStringConvertible
+00000002404a9b68 (__TEXT,__swift5_typeref) non-external (was a private external) _associated conformance So16NSURLResourceKeyaSHSCSQ
+00000002404a9b58 (__TEXT,__swift5_typeref) non-external (was a private external) _associated conformance So16NSURLResourceKeyas20_SwiftNewtypeWrapperSCSY
+00000002404a9b60 (__TEXT,__swift5_typeref) non-external (was a private external) _associated conformance So16NSURLResourceKeyas20_SwiftNewtypeWrapperSCs35_HasCustomAnyHashableRepresentation
+00000002404a9b06 (__TEXT,__swift5_typeref) non-external (was a private external) _associated conformance So20SecCSDigestAlgorithmVSHSCSQ
+00000002404a3734 (__TEXT,__text) non-external _block_copy_helper
+000000029b7282f0 (__AUTH_CONST,__const) non-external _block_descriptor
+00000002404a3748 (__TEXT,__text) non-external _block_destroy_helper
+                 (undefined) external _bzero (from libSystem)
+00000002404993e8 (__TEXT,__text) external _createTrustPolicy
+00000002404a0bb4 (__TEXT,__text) non-external (was a private external) _get_enum_tag_for_layout_string 11EDPSecurity20FileMeasurementErrorO
+00000002404a7310 (__TEXT,__text) non-external (was a private external) _get_enum_tag_for_layout_string 11EDPSecurity21PackageValidatorErrorO
+                 (undefined) external _kSecAttrKeyType (from Security)
+                 (undefined) external _kSecAttrKeyTypeEC (from Security)
+                 (undefined) external _kSecAttrKeyTypeRSA (from Security)
+                 (undefined) external _kSecKeyAlgorithmECDSASignatureDigestX962SHA256 (from Security)
+                 (undefined) external _kSecKeyAlgorithmECDSASignatureDigestX962SHA384 (from Security)
+                 (undefined) external _kSecKeyAlgorithmECDSASignatureDigestX962SHA512 (from Security)
+                 (undefined) external _kSecKeyAlgorithmRSASignatureDigestPKCS1v15SHA256 (from Security)
+                 (undefined) external _kSecKeyAlgorithmRSASignatureDigestPKCS1v15SHA384 (from Security)
+                 (undefined) external _kSecKeyAlgorithmRSASignatureDigestPKCS1v15SHA512 (from Security)
+                 (undefined) external _malloc_size (from libSystem)
+0000000240499614 (__TEXT,__text) external _mapDigestAlgorithm
+                 (undefined) external _memcmp (from libSystem)
+                 (undefined) external _memcpy (from libSystem)
+                 (undefined) external _memmove (from libSystem)
+                 (undefined) external _objc_alloc (from libobjc)
+                 (undefined) external _objc_allocWithZone (from libobjc)
+                 (undefined) external _objc_alloc_init (from libobjc)
+                 (undefined) external _objc_autorelease (from libobjc)
+                 (undefined) external _objc_autoreleaseReturnValue (from libobjc)
+                 (undefined) external _objc_msgSend (from libobjc)
+00000002404abe60 (__TEXT,__objc_stubs) non-external (was a private external) _objc_msgSend$OIDString
+00000002404abe80 (__TEXT,__objc_stubs) non-external (was a private external) _objc_msgSend$addProtectedAttribute:
+00000002404abea0 (__TEXT,__objc_stubs) non-external (was a private external) _objc_msgSend$algorithm
+00000002404abec0 (__TEXT,__objc_stubs) non-external (was a private external) _objc_msgSend$allObjects
+00000002404abee0 (__TEXT,__objc_stubs) non-external (was a private external) _objc_msgSend$calculateSignerInfoDigest:
+00000002404abf00 (__TEXT,__objc_stubs) non-external (was a private external) _objc_msgSend$certificateChain
+00000002404abf20 (__TEXT,__objc_stubs) non-external (was a private external) _objc_msgSend$code
+00000002404abf40 (__TEXT,__objc_stubs) non-external (was a private external) _objc_msgSend$createSignature:withCertChain:withTime:withRemoteHandler:withError:
+00000002404abf60 (__TEXT,__objc_stubs) non-external (was a private external) _objc_msgSend$createTrustObjectWithPolicies:error:
+00000002404abf80 (__TEXT,__objc_stubs) non-external (was a private external) _objc_msgSend$dataContent
+00000002404abfa0 (__TEXT,__objc_stubs) non-external (was a private external) _objc_msgSend$decodeMessageSecurityObject:options:error:
+00000002404abfc0 (__TEXT,__objc_stubs) non-external (was a private external) _objc_msgSend$defaultManager
+00000002404abfe0 (__TEXT,__objc_stubs) non-external (was a private external) _objc_msgSend$dictionaryWithObjects:forKeys:count:
+00000002404ac000 (__TEXT,__objc_stubs) non-external (was a private external) _objc_msgSend$digestAlgorithmWithSignatureAlgorithm:error:
+00000002404ac020 (__TEXT,__objc_stubs) non-external (was a private external) _objc_msgSend$domain
+00000002404ac040 (__TEXT,__objc_stubs) non-external (was a private external) _objc_msgSend$embeddedContent
+00000002404ac060 (__TEXT,__objc_stubs) non-external (was a private external) _objc_msgSend$encodeMessageSecurityObject:
+00000002404ac080 (__TEXT,__objc_stubs) non-external (was a private external) _objc_msgSend$error
+00000002404ac0a0 (__TEXT,__objc_stubs) non-external (was a private external) _objc_msgSend$errorWithDomain:code:userInfo:
+00000002404ac0c0 (__TEXT,__objc_stubs) non-external (was a private external) _objc_msgSend$fileExistsAtPath:
+00000002404ac0e0 (__TEXT,__objc_stubs) non-external (was a private external) _objc_msgSend$firstObject
+00000002404ac100 (__TEXT,__objc_stubs) non-external (was a private external) _objc_msgSend$init
+00000002404ac120 (__TEXT,__objc_stubs) non-external (was a private external) _objc_msgSend$initWithCertificate:signatureAlgorithm:error:
+00000002404ac140 (__TEXT,__objc_stubs) non-external (was a private external) _objc_msgSend$initWithDataContent:isDetached:signer:additionalCertificates:error:
+00000002404ac160 (__TEXT,__objc_stubs) non-external (was a private external) _objc_msgSend$initWithEmbeddedContent:
+00000002404ac180 (__TEXT,__objc_stubs) non-external (was a private external) _objc_msgSend$initWithSigningTime:
+00000002404ac1a0 (__TEXT,__objc_stubs) non-external (was a private external) _objc_msgSend$isEqualToString:
+00000002404ac1c0 (__TEXT,__objc_stubs) non-external (was a private external) _objc_msgSend$isTrusted
+00000002404ac1e0 (__TEXT,__objc_stubs) non-external (was a private external) _objc_msgSend$nextObject
+00000002404ac200 (__TEXT,__objc_stubs) non-external (was a private external) _objc_msgSend$numberWithUnsignedInt:
+00000002404ac220 (__TEXT,__objc_stubs) non-external (was a private external) _objc_msgSend$objectAtIndexedSubscript:
+00000002404ac240 (__TEXT,__objc_stubs) non-external (was a private external) _objc_msgSend$reverseObjectEnumerator
+00000002404ac260 (__TEXT,__objc_stubs) non-external (was a private external) _objc_msgSend$setCertificateChain:
+00000002404ac280 (__TEXT,__objc_stubs) non-external (was a private external) _objc_msgSend$setError:
+00000002404ac2a0 (__TEXT,__objc_stubs) non-external (was a private external) _objc_msgSend$setIsTrusted:
+00000002404ac2c0 (__TEXT,__objc_stubs) non-external (was a private external) _objc_msgSend$setSignature:
+00000002404ac2e0 (__TEXT,__objc_stubs) non-external (was a private external) _objc_msgSend$setSignerPolicies:
+00000002404ac300 (__TEXT,__objc_stubs) non-external (was a private external) _objc_msgSend$setValidatedData:
+00000002404ac320 (__TEXT,__objc_stubs) non-external (was a private external) _objc_msgSend$setVerifySignatures:
+00000002404ac340 (__TEXT,__objc_stubs) non-external (was a private external) _objc_msgSend$setVerifySigners:
+00000002404ac360 (__TEXT,__objc_stubs) non-external (was a private external) _objc_msgSend$signature
+00000002404ac380 (__TEXT,__objc_stubs) non-external (was a private external) _objc_msgSend$signatureAlgorithm
+00000002404ac3a0 (__TEXT,__objc_stubs) non-external (was a private external) _objc_msgSend$signers
+00000002404ac3c0 (__TEXT,__objc_stubs) non-external (was a private external) _objc_msgSend$validateSignature:requireTrust:withError:
+00000002404ac3e0 (__TEXT,__objc_stubs) non-external (was a private external) _objc_msgSend$validatedData
+                 (undefined) external _objc_opt_new (from libobjc)
+                 (undefined) external _objc_opt_self (from libobjc)
+                 (undefined) external _objc_release (from libobjc)
+                 (undefined) external _objc_retain (from libobjc)
+                 (undefined) external _objc_retainAutorelease (from libobjc)
+                 (undefined) external _objc_retainAutoreleasedReturnValue (from libobjc)
+                 (undefined) external _objc_storeStrong (from libobjc)
+                 (undefined) external _objc_terminate (from libobjc)
+00000002404993ec (__TEXT,__text) external _pickKeyAlgorithm
+                 (undefined) external _swift_allocBox (from libswiftCore)
+                 (undefined) external _swift_allocError (from libswiftCore)
+                 (undefined) external _swift_allocObject (from libswiftCore)
+                 (undefined) external _swift_arrayInitWithCopy (from libswiftCore)
+                 (undefined) external _swift_beginAccess (from libswiftCore)
+                 (undefined) external _swift_bridgeObjectRelease (from libswiftCore)
+                 (undefined) external _swift_bridgeObjectRelease_n (from libswiftCore)
+                 (undefined) external _swift_bridgeObjectRetain (from libswiftCore)
+                 (undefined) external _swift_bridgeObjectRetain_n (from libswiftCore)
+                 (undefined) external _swift_cvw_assignWithCopy (from libswiftCore)
+                 (undefined) external _swift_cvw_assignWithTake (from libswiftCore)
+                 (undefined) external _swift_cvw_destroy (from libswiftCore)
+                 (undefined) external _swift_cvw_enumFn_getEnumTag (from libswiftCore)
+                 (undefined) external _swift_cvw_initEnumMetadataMultiPayloadWithLayoutString (from libswiftCore)
+                 (undefined) external _swift_cvw_initWithCopy (from libswiftCore)
+                 (undefined) external _swift_cvw_initWithTake (from libswiftCore)
+                 (undefined) external _swift_cvw_initializeBufferWithCopyOfBuffer (from libswiftCore)
+                 (undefined) external _swift_cvw_multiPayloadEnumGeneric_destructiveInjectEnumTag (from libswiftCore)
+                 (undefined) external _swift_cvw_multiPayloadEnumGeneric_getEnumTag (from libswiftCore)
+                 (undefined) external _swift_deallocClassInstance (from libswiftCore)
+                 (undefined) external _swift_deallocObject (from libswiftCore)
+                 (undefined) external _swift_deallocPartialClassInstance (from libswiftCore)
+                 (undefined) external _swift_deletedMethodError (from libswiftCore)
+                 (undefined) external _swift_dynamicCast (from libswiftCore)
+                 (undefined) external _swift_endAccess (from libswiftCore)
+                 (undefined) external _swift_errorRelease (from libswiftCore)
+                 (undefined) external _swift_errorRetain (from libswiftCore)
+                 (undefined) external _swift_getForeignTypeMetadata (from libswiftCore)
+                 (undefined) external _swift_getSingletonMetadata (from libswiftCore)
+                 (undefined) external _swift_getTypeByMangledNameInContext2 (from libswiftCore)
+                 (undefined) external _swift_getTypeByMangledNameInContextInMetadataState2 (from libswiftCore)
+                 (undefined) external _swift_getWitnessTable (from libswiftCore)
+                 (undefined) external _swift_initStackObject (from libswiftCore)
+                 (undefined) external _swift_isUniquelyReferenced_nonNull_native (from libswiftCore)
+                 (undefined) external _swift_lookUpClassMethod (from libswiftCore)
+                 (undefined) external _swift_once (from libswiftCore)
+                 (undefined) external _swift_release (from libswiftCore)
+                 (undefined) external _swift_retain (from libswiftCore)
+                 (undefined) external _swift_setDeallocating (from libswiftCore)
+                 (undefined) external _swift_slowAlloc (from libswiftCore)
+                 (undefined) external _swift_slowDealloc (from libswiftCore)
+                 (undefined) weak external _swift_stdlib_isStackAllocationSafe (from libswiftCore)
+                 (undefined) external _swift_storeEnumTagMultiPayload (from libswiftCore)
+                 (undefined) external _swift_unknownObjectRelease (from libswiftCore)
+                 (undefined) external _swift_updateClassMetadata2 (from libswiftCore)
+                 (undefined) external _swift_willThrow (from libswiftCore)
+                 (undefined) external _swift_willThrowTypedImpl (from libswiftCore)
+00000002404a9b14 (__TEXT,__swift5_typeref) non-external (was a private external) _symbolic $sSY
+00000002404a9b70 (__TEXT,__swift5_typeref) non-external (was a private external) _symbolic $ss21_ObjectiveCBridgeableP
+00000002404a9bd8 (__TEXT,__swift5_typeref) non-external (was a private external) _symbolic SDySS_____G 10Foundation4DataV
+00000002404a9c7c (__TEXT,__swift5_typeref) non-external (was a private external) _symbolic SDySS_____G 11EDPSecurity15FileMeasurementV
+00000002404a9b54 (__TEXT,__swift5_typeref) non-external (was a private external) _symbolic SS
+00000002404a9bac (__TEXT,__swift5_typeref) non-external (was a private external) _symbolic SS______t 10Foundation4DataV
+00000002404a9d1a (__TEXT,__swift5_typeref) non-external (was a private external) _symbolic SaySSG5added_AA7missingAA8modifiedt
+00000002404a9c72 (__TEXT,__swift5_typeref) non-external (was a private external) _symbolic Say_____G So17SecCertificateRefa
+00000002404a9af6 (__TEXT,__swift5_typeref) non-external (was a private external) _symbolic Say_____G So20SecCSDigestAlgorithmV
+00000002404a9d3e (__TEXT,__swift5_typeref) non-external (was a private external) _symbolic Sb
+00000002404a9d42 (__TEXT,__swift5_typeref) non-external (was a private external) _symbolic Shy_____G So20SecCSDigestAlgorithmV
+00000002404a9cc0 (__TEXT,__swift5_typeref) non-external (was a private external) _symbolic Si
+00000002404a9b46 (__TEXT,__swift5_typeref) non-external (was a private external) _symbolic So8NSStringC
+00000002404a9af0 (__TEXT,__swift5_typeref) non-external (was a private external) _symbolic _____ 10Foundation3URLV
+00000002404a9c8e (__TEXT,__swift5_typeref) non-external (was a private external) _symbolic _____ 10Foundation4DateV
+00000002404a9c88 (__TEXT,__swift5_typeref) non-external (was a private external) _symbolic _____ 11EDPSecurity12FileMeasurerC
+00000002404a9c6c (__TEXT,__swift5_typeref) non-external (was a private external) _symbolic _____ 11EDPSecurity13PackageSignerC
+00000002404a9bd2 (__TEXT,__swift5_typeref) non-external (was a private external) _symbolic _____ 11EDPSecurity15FileMeasurementV
+00000002404a9be4 (__TEXT,__swift5_typeref) non-external (was a private external) _symbolic _____ 11EDPSecurity15FileMeasurementV10CodingKeysO
+00000002404a9ae4 (__TEXT,__swift5_typeref) non-external (was a private external) _symbolic _____ 11EDPSecurity16PackageValidatorC
+00000002404a9cba (__TEXT,__swift5_typeref) non-external (was a private external) _symbolic _____ 11EDPSecurity16ResourceManifestC
+00000002404a9cca (__TEXT,__swift5_typeref) non-external (was a private external) _symbolic _____ 11EDPSecurity16ResourceManifestC10CodingKeys33_A02F4B56132C56C1F98038C55355E9B6LLO
+00000002404a9c66 (__TEXT,__swift5_typeref) non-external (was a private external) _symbolic _____ 11EDPSecurity18PackageSignerErrorO
+00000002404a9bcc (__TEXT,__swift5_typeref) non-external (was a private external) _symbolic _____ 11EDPSecurity20FileMeasurementErrorO
+00000002404a9d14 (__TEXT,__swift5_typeref) non-external (was a private external) _symbolic _____ 11EDPSecurity21PackageValidatorErrorO
+00000002404a9cc4 (__TEXT,__swift5_typeref) non-external (was a private external) _symbolic _____ 11EDPSecurity21ResourceManifestErrorO
+00000002404a9aea (__TEXT,__swift5_typeref) non-external (was a private external) _symbolic _____ 11EDPSecurity22PackageStaticValidatorC
+00000002404a9b40 (__TEXT,__swift5_typeref) non-external (was a private external) _symbolic _____ So16NSURLResourceKeya
+00000002404a9b00 (__TEXT,__swift5_typeref) non-external (was a private external) _symbolic _____ So20SecCSDigestAlgorithmV
+00000002404a9b0e (__TEXT,__swift5_typeref) non-external (was a private external) _symbolic _____ s6UInt32V
+00000002404a9cf0 (__TEXT,__swift5_typeref) non-external (was a private external) _symbolic _____Sg 10Foundation17URLResourceValuesV
+00000002404a9cf8 (__TEXT,__swift5_typeref) non-external (was a private external) _symbolic _____Sg 10Foundation3URLV
+00000002404a9bc4 (__TEXT,__swift5_typeref) non-external (was a private external) _symbolic _____Sg 10Foundation4DataV
+00000002404a9c22 (__TEXT,__swift5_typeref) non-external (was a private external) _symbolic __________AA______pIggyozo_ 10Foundation4DataV So20SecCSDigestAlgorithmV s5ErrorP
+00000002404a9c3e (__TEXT,__swift5_typeref) non-external (was a private external) _symbolic __________So17SignatureResponseCIggyo_ 10Foundation4DataV So20SecCSDigestAlgorithmV
+00000002404a9ce8 (__TEXT,__swift5_typeref) non-external (was a private external) _symbolic ______p s5ErrorP
+00000002404a9b1a (__TEXT,__swift5_typeref) non-external (was a private external) _symbolic _____ySSG s23_ContiguousArrayStorageC
+00000002404a9c12 (__TEXT,__swift5_typeref) non-external (was a private external) _symbolic _____ySS_____G s18_DictionaryStorageC 10Foundation4DataV
+00000002404a9c02 (__TEXT,__swift5_typeref) non-external (was a private external) _symbolic _____ySS_____G s18_DictionaryStorageC 11EDPSecurity15FileMeasurementV
+00000002404a9b9a (__TEXT,__swift5_typeref) non-external (was a private external) _symbolic _____ySS______tG s23_ContiguousArrayStorageC 10Foundation4DataV
+00000002404a9b24 (__TEXT,__swift5_typeref) non-external (was a private external) _symbolic _____y_____G s11_SetStorageC So16NSURLResourceKeya
+00000002404a9b32 (__TEXT,__swift5_typeref) non-external (was a private external) _symbolic _____y_____G s11_SetStorageC So20SecCSDigestAlgorithmV
+00000002404a9b8c (__TEXT,__swift5_typeref) non-external (was a private external) _symbolic _____y_____G s22KeyedDecodingContainerV 11EDPSecurity15FileMeasurementV10CodingKeysO
+00000002404a9cac (__TEXT,__swift5_typeref) non-external (was a private external) _symbolic _____y_____G s22KeyedDecodingContainerV 11EDPSecurity16ResourceManifestC10CodingKeys33_A02F4B56132C56C1F98038C55355E9B6LLO
+00000002404a9bb6 (__TEXT,__swift5_typeref) non-external (was a private external) _symbolic _____y_____G s22KeyedEncodingContainerV 11EDPSecurity15FileMeasurementV10CodingKeysO
+00000002404a9c9e (__TEXT,__swift5_typeref) non-external (was a private external) _symbolic _____y_____G s22KeyedEncodingContainerV 11EDPSecurity16ResourceManifestC10CodingKeys33_A02F4B56132C56C1F98038C55355E9B6LLO
+00000002404a9d00 (__TEXT,__swift5_typeref) non-external (was a private external) _symbolic _____y_____G s23_ContiguousArrayStorageC So16NSURLResourceKeya
+00000002404a9ad6 (__TEXT,__swift5_typeref) non-external (was a private external) _symbolic _____y_____G s23_ContiguousArrayStorageC So20SecCSDigestAlgorithmV
+00000002404a9c94 (__TEXT,__swift5_typeref) non-external (was a private external) _symbolic _____yypG s23_ContiguousArrayStorageC
+00000002404a9d0e (__TEXT,__swift5_typeref) non-external (was a private external) _symbolic ypSg
+00000002404a9200 (__TEXT,__const) non-external _type_layout_string 11EDPSecurity15FileMeasurementV
+00000002404a9158 (__TEXT,__const) non-external _type_layout_string 11EDPSecurity20FileMeasurementErrorO
+00000002404a9730 (__TEXT,__const) non-external _type_layout_string 11EDPSecurity21PackageValidatorErrorO
+00000002404a8ea0 (__TEXT,__const) non-external _type_layout_string So16NSURLResourceKeya
