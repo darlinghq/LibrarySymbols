@@ -1,0 +1,989 @@
+00007ffc14460275 (__TEXT,__text) non-external +[HMEEvent eventFromProtobuff:]
+00007ffc14465ff3 (__TEXT,__text) non-external +[HMEEventInfo eventInfoFromProtoData:]
+00007ffc1446607c (__TEXT,__text) non-external +[HMEEventInfo eventsMapFromEventInfos:]
+00007ffc144662c2 (__TEXT,__text) non-external +[HMEEventInfo eventsMapFromProtoEvents:]
+00007ffc14465ee6 (__TEXT,__text) non-external +[HMEEventInfo fromProtobuff:]
+00007ffc144664b7 (__TEXT,__text) non-external +[HMEEventInfo topicAndMetadataMaxSizeInBytes]
+00007ffc1445596f (__TEXT,__text) non-external +[HMETopicRouter forwardingTopicsForAdditions:removals:current:indexProvider:]
+00007ffc14467da6 (__TEXT,__text) non-external -[HMEConnectionInfoItem .cxx_destruct]
+00007ffc14467d6c (__TEXT,__text) non-external -[HMEConnectionInfoItem connection]
+00007ffc14467d3a (__TEXT,__text) non-external -[HMEConnectionInfoItem debounceStartTime]
+00007ffc14467d08 (__TEXT,__text) non-external -[HMEConnectionInfoItem expiry]
+00007ffc14467d93 (__TEXT,__text) non-external -[HMEConnectionInfoItem hasPendingRequest]
+00007ffc14467cea (__TEXT,__text) non-external -[HMEConnectionInfoItem identifier]
+00007ffc14467bf7 (__TEXT,__text) non-external -[HMEConnectionInfoItem initWithConnection:expiry:]
+00007ffc14467cfe (__TEXT,__text) non-external -[HMEConnectionInfoItem pendingCachedEventItems]
+00007ffc14467cf4 (__TEXT,__text) non-external -[HMEConnectionInfoItem pendingEventItems]
+00007ffc14467d82 (__TEXT,__text) non-external -[HMEConnectionInfoItem setConnection:]
+00007ffc14467d44 (__TEXT,__text) non-external -[HMEConnectionInfoItem setDebounceStartTime:]
+00007ffc14467d12 (__TEXT,__text) non-external -[HMEConnectionInfoItem setExpiry:]
+00007ffc14467d9d (__TEXT,__text) non-external -[HMEConnectionInfoItem setHasPendingRequest:]
+00007ffc1445d258 (__TEXT,__text) non-external -[HMEDelegatingEventRouter .cxx_destruct]
+00007ffc1445cf76 (__TEXT,__text) non-external -[HMEDelegatingEventRouter cachedEventsForTopicFilters:cachedEventCollection:]
+00007ffc1445bd5b (__TEXT,__text) non-external -[HMEDelegatingEventRouter changeRegistrationsForConsumer:topicFilterAdditions:topicFilterRemovals:completion:]
+00007ffc1445c035 (__TEXT,__text) non-external -[HMEDelegatingEventRouter changeRegistrationsSyncForConsumer:topicFilterAdditions:topicFilterRemovals:completion:]
+00007ffc1445bb67 (__TEXT,__text) non-external -[HMEDelegatingEventRouter description]
+00007ffc1445c83b (__TEXT,__text) non-external -[HMEDelegatingEventRouter didChangeRegistrationsWithTopicFilterAdditions:removals:]
+00007ffc1445c5d7 (__TEXT,__text) non-external -[HMEDelegatingEventRouter didReceiveCachedEvent:topic:source:]
+00007ffc1445c3b3 (__TEXT,__text) non-external -[HMEDelegatingEventRouter didReceiveEvent:topic:]
+00007ffc1445d244 (__TEXT,__text) non-external -[HMEDelegatingEventRouter identifier]
+00007ffc1445b889 (__TEXT,__text) non-external -[HMEDelegatingEventRouter initWithQueue:dataSource:]
+00007ffc1445b9c5 (__TEXT,__text) non-external -[HMEDelegatingEventRouter initWithQueue:dataSource:logger:]
+00007ffc1445b910 (__TEXT,__text) non-external -[HMEDelegatingEventRouter initWithQueue:dataSource:storeReadHandle:logCategory:identifier:]
+00007ffc1445b9ee (__TEXT,__text) non-external -[HMEDelegatingEventRouter initWithQueue:dataSource:storeReadHandle:logger:identifier:]
+00007ffc1445be8f (__TEXT,__text) non-external -[HMEDelegatingEventRouter registerConsumer:topicFilters:completion:]
+00007ffc1445bbf7 (__TEXT,__text) non-external -[HMEDelegatingEventRouter registerSubRouter:]
+00007ffc1445beab (__TEXT,__text) non-external -[HMEDelegatingEventRouter unregisterConsumer:completion:]
+00007ffc1445bf8e (__TEXT,__text) non-external -[HMEDelegatingEventRouter unregisterConsumer:topicFilters:completion:]
+00007ffc1445c2ae (__TEXT,__text) non-external -[HMEDelegatingEventRouter unregisterConsumerSync:completion:]
+00007ffc1445bca9 (__TEXT,__text) non-external -[HMEDelegatingEventRouter unregisterSubRouter:]
+00007ffc1445cf02 (__TEXT,__text) non-external -[HMEDelegatingEventRouter upstreamTopicsForTopic:]
+00007ffc1446024d (__TEXT,__text) non-external -[HMEEvent .cxx_destruct]
+00007ffc1445fdfe (__TEXT,__text) non-external -[HMEEvent _initWithEventData:metadata:]
+00007ffc1445fef0 (__TEXT,__text) non-external -[HMEEvent description]
+00007ffc1445fea8 (__TEXT,__text) non-external -[HMEEvent encodedData]
+00007ffc14460243 (__TEXT,__text) non-external -[HMEEvent eventData]
+00007ffc1446022f (__TEXT,__text) non-external -[HMEEvent eventMetadata]
+00007ffc1445fd77 (__TEXT,__text) non-external -[HMEEvent initWithEventData:]
+00007ffc1445fdec (__TEXT,__text) non-external -[HMEEvent initWithEventData:metadata:]
+00007ffc1445fcd2 (__TEXT,__text) non-external -[HMEEvent initWithSubclassedEventMetadata:]
+00007ffc1445ff94 (__TEXT,__text) non-external -[HMEEvent pbEvent]
+00007ffc14465ebe (__TEXT,__text) non-external -[HMEEventInfo .cxx_destruct]
+00007ffc14465d59 (__TEXT,__text) non-external -[HMEEventInfo description]
+00007ffc14465eaa (__TEXT,__text) non-external -[HMEEventInfo event]
+00007ffc14465cb8 (__TEXT,__text) non-external -[HMEEventInfo initWithEvent:topic:]
+00007ffc14465dec (__TEXT,__text) non-external -[HMEEventInfo pbEventInfo]
+00007ffc14465eb4 (__TEXT,__text) non-external -[HMEEventInfo topic]
+00007ffc1445fcc2 (__TEXT,__text) non-external -[HMEEventMetadata .cxx_destruct]
+00007ffc1445fb9c (__TEXT,__text) non-external -[HMEEventMetadata _initWithSource:rawCachePolicy:rawCombineType:rawQos:timestamp:]
+00007ffc1445fc39 (__TEXT,__text) non-external -[HMEEventMetadata cachePolicy]
+00007ffc1445fc5f (__TEXT,__text) non-external -[HMEEventMetadata combineType]
+00007ffc1445fb3d (__TEXT,__text) non-external -[HMEEventMetadata initDefaultMetadata]
+00007ffc1445fb84 (__TEXT,__text) non-external -[HMEEventMetadata initWithSource:cachePolicy:combineType:timestamp:]
+00007ffc1445fc99 (__TEXT,__text) non-external -[HMEEventMetadata intervalSinceReferenceDate]
+00007ffc1445fcae (__TEXT,__text) non-external -[HMEEventMetadata rawCachePolicy]
+00007ffc1445fca4 (__TEXT,__text) non-external -[HMEEventMetadata rawCombineType]
+00007ffc1445fcb8 (__TEXT,__text) non-external -[HMEEventMetadata rawQOS]
+00007ffc1445fc85 (__TEXT,__text) non-external -[HMEEventMetadata source]
+00007ffc1445737c (__TEXT,__text) non-external -[HMELastEventStore .cxx_destruct]
+00007ffc14458d7e (__TEXT,__text) non-external -[HMELastEventStore _cleanupResetRecreateAndRestartAfterIntegrityError]
+00007ffc144573ba (__TEXT,__text) non-external -[HMELastEventStore _doesCachePolicyAllowSaveForEvent:]
+00007ffc144577ca (__TEXT,__text) non-external -[HMELastEventStore _errorFromSqlContext:statement:]
+00007ffc1445752b (__TEXT,__text) non-external -[HMELastEventStore _executeInsertWithStatement:query:key:value:eventSource:eventTimestamp:eventCachePolicy:eventCombineType:eventQOS:outDidChangeRow:error:]
+00007ffc144579ad (__TEXT,__text) non-external -[HMELastEventStore _executeSelectEventByKeyStatementWithKey:outResult:error:]
+00007ffc14458ecc (__TEXT,__text) non-external -[HMELastEventStore _prepare:preparedStatement:error:]
+00007ffc14457dce (__TEXT,__text) non-external -[HMELastEventStore _startupWithRepair:]
+00007ffc14455c8e (__TEXT,__text) non-external -[HMELastEventStore dealloc]
+00007ffc1445629a (__TEXT,__text) non-external -[HMELastEventStore eventsForTopicFilters:]
+00007ffc14455ee0 (__TEXT,__text) non-external -[HMELastEventStore eventsForTopicFilters:sinceReferenceTimestamp:]
+00007ffc14457318 (__TEXT,__text) non-external -[HMELastEventStore fileName]
+00007ffc14455bd1 (__TEXT,__text) non-external -[HMELastEventStore initInMemoryStore]
+00007ffc14455bea (__TEXT,__text) non-external -[HMELastEventStore initWithFileName:]
+00007ffc14455c01 (__TEXT,__text) non-external -[HMELastEventStore initWithFileName:useWal:]
+00007ffc14457359 (__TEXT,__text) non-external -[HMELastEventStore integrityCheckError]
+00007ffc14458b1b (__TEXT,__text) non-external -[HMELastEventStore isInMemoryStore]
+00007ffc144562af (__TEXT,__text) non-external -[HMELastEventStore lastEventForTopic:]
+00007ffc14457336 (__TEXT,__text) non-external -[HMELastEventStore readJournalMode]
+00007ffc1445647f (__TEXT,__text) non-external -[HMELastEventStore resetBeforeReferenceTimestamp:]
+00007ffc14455de0 (__TEXT,__text) non-external -[HMELastEventStore resetEventStore]
+00007ffc1445669c (__TEXT,__text) non-external -[HMELastEventStore resetTopic:]
+00007ffc1445691e (__TEXT,__text) non-external -[HMELastEventStore resetWildcardTopics:]
+00007ffc1445736d (__TEXT,__text) non-external -[HMELastEventStore setIntegrityCheckError:]
+00007ffc1445734a (__TEXT,__text) non-external -[HMELastEventStore setReadJournalMode:]
+00007ffc14455d59 (__TEXT,__text) non-external -[HMELastEventStore startup]
+00007ffc1445732c (__TEXT,__text) non-external -[HMELastEventStore useWal]
+00007ffc14456ba0 (__TEXT,__text) non-external -[HMELastEventStore writer:saveEvent:topic:]
+00007ffc14456eea (__TEXT,__text) non-external -[HMELastEventStore writer:saveEventIfAllowed:topic:]
+00007ffc14456f74 (__TEXT,__text) non-external -[HMELastEventStore writer:saveEventIfDifferent:topic:]
+00007ffc1446fdec (__TEXT,__text) non-external -[HMEMemoryEventBus .cxx_destruct]
+00007ffc1447041f (__TEXT,__text) non-external -[HMEMemoryEventBus _cachedEventsForTopics:]
+00007ffc1446fcce (__TEXT,__text) non-external -[HMEMemoryEventBus cachedEventsForTopicFilters:cachedEventCollection:]
+00007ffc1446f2b4 (__TEXT,__text) non-external -[HMEMemoryEventBus changeRegistrationsForConsumer:topicFilterAdditions:topicFilterRemovals:completion:]
+00007ffc1446f6d1 (__TEXT,__text) non-external -[HMEMemoryEventBus changeRegistrationsSyncForConsumer:topicFilterAdditions:topicFilterRemovals:completion:]
+00007ffc1446fd75 (__TEXT,__text) non-external -[HMEMemoryEventBus dataSource]
+00007ffc1446fd4e (__TEXT,__text) non-external -[HMEMemoryEventBus delegate]
+00007ffc1446fc46 (__TEXT,__text) non-external -[HMEMemoryEventBus didChangeRegistrationsWithTopicFilterAdditions:removals:]
+00007ffc1446fb45 (__TEXT,__text) non-external -[HMEMemoryEventBus didReceiveCachedEvent:topic:source:]
+00007ffc1446fb30 (__TEXT,__text) non-external -[HMEMemoryEventBus didReceiveEvent:topic:]
+00007ffc1446fdc4 (__TEXT,__text) non-external -[HMEMemoryEventBus eventStoreReadHandle]
+00007ffc1446fdd8 (__TEXT,__text) non-external -[HMEMemoryEventBus eventStoreWriteHandle]
+00007ffc1446fa32 (__TEXT,__text) non-external -[HMEMemoryEventBus forwardEvent:topic:completion:]
+00007ffc1446f165 (__TEXT,__text) non-external -[HMEMemoryEventBus initWithQueue:]
+00007ffc1446f183 (__TEXT,__text) non-external -[HMEMemoryEventBus initWithQueue:storeReadHandle:storeWriteHandle:logCategory:]
+00007ffc1446fdb0 (__TEXT,__text) non-external -[HMEMemoryEventBus queue]
+00007ffc1446f3e9 (__TEXT,__text) non-external -[HMEMemoryEventBus registerConsumer:topicFilters:completion:]
+00007ffc1446fd8b (__TEXT,__text) non-external -[HMEMemoryEventBus setDataSource:]
+00007ffc1446fd64 (__TEXT,__text) non-external -[HMEMemoryEventBus setDelegate:]
+00007ffc1446f6c8 (__TEXT,__text) non-external -[HMEMemoryEventBus synchronousSubscriptionProvider]
+00007ffc1446fd9c (__TEXT,__text) non-external -[HMEMemoryEventBus topicRouter]
+00007ffc1446f4ee (__TEXT,__text) non-external -[HMEMemoryEventBus unregisterConsumer:completion:]
+00007ffc1446f5c3 (__TEXT,__text) non-external -[HMEMemoryEventBus unregisterConsumer:topicFilters:completion:]
+00007ffc1446f913 (__TEXT,__text) non-external -[HMEMemoryEventBus unregisterConsumerSync:completion:]
+00007ffc1446fcd4 (__TEXT,__text) non-external -[HMEMemoryEventBus upstreamTopicsForTopic:]
+00007ffc14461d7b (__TEXT,__text) non-external -[HMEMessageDatagramClient .cxx_destruct]
+00007ffc1446258c (__TEXT,__text) non-external -[HMEMessageDatagramClient _didDisconnect]
+00007ffc144627b2 (__TEXT,__text) non-external -[HMEMessageDatagramClient _enableKeepAliveIfNeeded]
+00007ffc14463699 (__TEXT,__text) non-external -[HMEMessageDatagramClient _enableRetryTimer]
+00007ffc14462647 (__TEXT,__text) non-external -[HMEMessageDatagramClient _performConnectRequest]
+00007ffc144626c0 (__TEXT,__text) non-external -[HMEMessageDatagramClient _performDisconnectRequest]
+00007ffc14462739 (__TEXT,__text) non-external -[HMEMessageDatagramClient _performKeepAliveRequest]
+00007ffc14461e4b (__TEXT,__text) non-external -[HMEMessageDatagramClient _performNextOperation]
+00007ffc14462e74 (__TEXT,__text) non-external -[HMEMessageDatagramClient _performRequestWithBlock:]
+00007ffc14462be3 (__TEXT,__text) non-external -[HMEMessageDatagramClient _performSubscriptionFetchRequest]
+00007ffc14462b60 (__TEXT,__text) non-external -[HMEMessageDatagramClient _removeDormantFetchTimer]
+00007ffc14463198 (__TEXT,__text) non-external -[HMEMessageDatagramClient _removeKeepAliveTimer]
+00007ffc14464c4c (__TEXT,__text) non-external -[HMEMessageDatagramClient _removeRetryTimerAndResetInterval]
+00007ffc144633e9 (__TEXT,__text) non-external -[HMEMessageDatagramClient _removeRetryTimer]
+00007ffc14461c2a (__TEXT,__text) non-external -[HMEMessageDatagramClient connectedServerIdentifier]
+00007ffc14461c73 (__TEXT,__text) non-external -[HMEMessageDatagramClient connectingServerIdentifier]
+00007ffc14461447 (__TEXT,__text) non-external -[HMEMessageDatagramClient connectionCapabilityDidChange]
+00007ffc14461cbc (__TEXT,__text) non-external -[HMEMessageDatagramClient connectionMode]
+00007ffc14461a93 (__TEXT,__text) non-external -[HMEMessageDatagramClient dataSource]
+00007ffc14460881 (__TEXT,__text) non-external -[HMEMessageDatagramClient delegate]
+00007ffc14461113 (__TEXT,__text) non-external -[HMEMessageDatagramClient didReceiveFetchResponseWithCachedEvents:]
+00007ffc14460b5a (__TEXT,__text) non-external -[HMEMessageDatagramClient didReceiveMessageWithCachedEvents:serverIdentifier:completion:]
+00007ffc14460893 (__TEXT,__text) non-external -[HMEMessageDatagramClient didReceiveMessageWithEvents:serverIdentifier:completion:]
+00007ffc14461d39 (__TEXT,__text) non-external -[HMEMessageDatagramClient dormantFetchConditionsMet]
+00007ffc14461cf0 (__TEXT,__text) non-external -[HMEMessageDatagramClient dormantFetchTimer]
+00007ffc14461cde (__TEXT,__text) non-external -[HMEMessageDatagramClient dormatFetchTimerInterval]
+00007ffc14461967 (__TEXT,__text) non-external -[HMEMessageDatagramClient dumpStateDescription]
+00007ffc144618c7 (__TEXT,__text) non-external -[HMEMessageDatagramClient forwardingTopicsForTopics:]
+00007ffc14461681 (__TEXT,__text) non-external -[HMEMessageDatagramClient handleChangeRegistrationsWithTopicFilterAdditions:removals:]
+00007ffc14461b65 (__TEXT,__text) non-external -[HMEMessageDatagramClient hasPendingKeepAliveRequest]
+00007ffc14461b23 (__TEXT,__text) non-external -[HMEMessageDatagramClient hasPendingRequest]
+00007ffc14461b44 (__TEXT,__text) non-external -[HMEMessageDatagramClient hasPendingServerChangeRequest]
+00007ffc14460656 (__TEXT,__text) non-external -[HMEMessageDatagramClient initWithQueue:timerProvider:keepAliveInterval:dormantFetchTimerInterval:retryIntervalProvider:]
+00007ffc1446067a (__TEXT,__text) non-external -[HMEMessageDatagramClient initWithQueue:timerProvider:keepAliveInterval:dormantFetchTimerInterval:retryIntervalProvider:storeReadHandle:storeWriteHandle:logCategory:]
+00007ffc14461b02 (__TEXT,__text) non-external -[HMEMessageDatagramClient isConnected]
+00007ffc14461d5a (__TEXT,__text) non-external -[HMEMessageDatagramClient isWaitingForFetchConditionsWhenDormant]
+00007ffc14461b86 (__TEXT,__text) non-external -[HMEMessageDatagramClient keepAliveInterval]
+00007ffc14461b98 (__TEXT,__text) non-external -[HMEMessageDatagramClient keepAliveTimer]
+00007ffc14461aec (__TEXT,__text) non-external -[HMEMessageDatagramClient pendingTopicsCombiner]
+00007ffc14461611 (__TEXT,__text) non-external -[HMEMessageDatagramClient resetRetryTimerToInitialState]
+00007ffc14461ac0 (__TEXT,__text) non-external -[HMEMessageDatagramClient retryIntervalProvider]
+00007ffc14461be1 (__TEXT,__text) non-external -[HMEMessageDatagramClient retryTimer]
+00007ffc144611aa (__TEXT,__text) non-external -[HMEMessageDatagramClient serverDidChangeWithServerIdentifier:]
+00007ffc14461c3b (__TEXT,__text) non-external -[HMEMessageDatagramClient setConnectedServerIdentifier:]
+00007ffc14461c84 (__TEXT,__text) non-external -[HMEMessageDatagramClient setConnectingServerIdentifier:]
+00007ffc14461ccd (__TEXT,__text) non-external -[HMEMessageDatagramClient setConnectionMode:]
+00007ffc14461aac (__TEXT,__text) non-external -[HMEMessageDatagramClient setDataSource:]
+00007ffc1446086f (__TEXT,__text) non-external -[HMEMessageDatagramClient setDelegate:]
+00007ffc14461d4a (__TEXT,__text) non-external -[HMEMessageDatagramClient setDormantFetchConditionsMet:]
+00007ffc14461d01 (__TEXT,__text) non-external -[HMEMessageDatagramClient setDormantFetchTimer:]
+00007ffc14461b76 (__TEXT,__text) non-external -[HMEMessageDatagramClient setHasPendingKeepAliveRequest:]
+00007ffc14461b34 (__TEXT,__text) non-external -[HMEMessageDatagramClient setHasPendingRequest:]
+00007ffc14461b55 (__TEXT,__text) non-external -[HMEMessageDatagramClient setHasPendingServerChangeRequest:]
+00007ffc14461b13 (__TEXT,__text) non-external -[HMEMessageDatagramClient setIsConnected:]
+00007ffc14461d6b (__TEXT,__text) non-external -[HMEMessageDatagramClient setIsWaitingForFetchConditionsWhenDormant:]
+00007ffc14461ba9 (__TEXT,__text) non-external -[HMEMessageDatagramClient setKeepAliveTimer:]
+00007ffc14461bf2 (__TEXT,__text) non-external -[HMEMessageDatagramClient setRetryTimer:]
+00007ffc14461ad6 (__TEXT,__text) non-external -[HMEMessageDatagramClient timerProvider]
+00007ffc144614a7 (__TEXT,__text) non-external -[HMEMessageDatagramClient updateConnectionMode:completion:]
+00007ffc1446155c (__TEXT,__text) non-external -[HMEMessageDatagramClient updateDormantFetchCondition:completion:]
+00007ffc1446184a (__TEXT,__text) non-external -[HMEMessageDatagramClient upstreamTopicsForTopic:]
+00007ffc1446a892 (__TEXT,__text) non-external -[HMEMessageDatagramServer .cxx_destruct]
+00007ffc1446b16a (__TEXT,__text) non-external -[HMEMessageDatagramServer _addCachedEvents:connections:]
+00007ffc1446aaa4 (__TEXT,__text) non-external -[HMEMessageDatagramServer _connectionItemForConnection:]
+00007ffc1446df3e (__TEXT,__text) non-external -[HMEMessageDatagramServer _eventSize:]
+00007ffc1446aec2 (__TEXT,__text) non-external -[HMEMessageDatagramServer _expiryItemForConnection:]
+00007ffc1446c02f (__TEXT,__text) non-external -[HMEMessageDatagramServer _nextDebounceInterval]
+00007ffc1446cca7 (__TEXT,__text) non-external -[HMEMessageDatagramServer _pruneExpiredItemsFromConnectionItems]
+00007ffc1446a903 (__TEXT,__text) non-external -[HMEMessageDatagramServer _removeConnection:]
+00007ffc1446aa44 (__TEXT,__text) non-external -[HMEMessageDatagramServer _resetDebounceTimer]
+00007ffc1446e323 (__TEXT,__text) non-external -[HMEMessageDatagramServer _setupAndStartExpiryTimer]
+00007ffc1446baa9 (__TEXT,__text) non-external -[HMEMessageDatagramServer _startDebounceTimerIfNeeded]
+00007ffc1446aca1 (__TEXT,__text) non-external -[HMEMessageDatagramServer _updateConnectionExpiryForConnection:reason:]
+00007ffc1446938d (__TEXT,__text) non-external -[HMEMessageDatagramServer changeRegistrationsForConnection:topicFilterAdditions:topicFilterRemovals:completion:]
+00007ffc14468863 (__TEXT,__text) non-external -[HMEMessageDatagramServer connectWithConnection:connectEvent:unregisterEvent:topicFilterAdditions:completion:]
+00007ffc1446a86b (__TEXT,__text) non-external -[HMEMessageDatagramServer connectionDebounceTimer]
+00007ffc1446a844 (__TEXT,__text) non-external -[HMEMessageDatagramServer connectionExpiryTimer]
+00007ffc1446a833 (__TEXT,__text) non-external -[HMEMessageDatagramServer connectionInfoItems]
+00007ffc1446a806 (__TEXT,__text) non-external -[HMEMessageDatagramServer dataSource]
+00007ffc1446a7d9 (__TEXT,__text) non-external -[HMEMessageDatagramServer delegate]
+00007ffc144692e1 (__TEXT,__text) non-external -[HMEMessageDatagramServer disconnectConnection:]
+00007ffc1446a39f (__TEXT,__text) non-external -[HMEMessageDatagramServer dumpStateDescription]
+00007ffc144686cd (__TEXT,__text) non-external -[HMEMessageDatagramServer expandedTopicsForTopics:]
+00007ffc14469a2d (__TEXT,__text) non-external -[HMEMessageDatagramServer fetchCachedEventsForTopics:isMultiHop:connection:cachedEventCollection:error:]
+00007ffc14468522 (__TEXT,__text) non-external -[HMEMessageDatagramServer handleCachedEvent:topic:]
+00007ffc14467f43 (__TEXT,__text) non-external -[HMEMessageDatagramServer handleEvent:topic:]
+00007ffc14467df8 (__TEXT,__text) non-external -[HMEMessageDatagramServer initWithQueue:provider:registrationEventRouter:]
+00007ffc14467e21 (__TEXT,__text) non-external -[HMEMessageDatagramServer initWithQueue:provider:registrationEventRouter:storeReadHandle:logCategory:]
+00007ffc14469908 (__TEXT,__text) non-external -[HMEMessageDatagramServer keepAliveConnection:completion:]
+00007ffc1446874a (__TEXT,__text) non-external -[HMEMessageDatagramServer refreshConnection:]
+00007ffc14469f50 (__TEXT,__text) non-external -[HMEMessageDatagramServer resetExistingEvents]
+00007ffc1446a161 (__TEXT,__text) non-external -[HMEMessageDatagramServer reset]
+00007ffc1446a881 (__TEXT,__text) non-external -[HMEMessageDatagramServer setConnectionDebounceTimer:]
+00007ffc1446a85a (__TEXT,__text) non-external -[HMEMessageDatagramServer setConnectionExpiryTimer:]
+00007ffc1446a81f (__TEXT,__text) non-external -[HMEMessageDatagramServer setDataSource:]
+00007ffc1446a7f2 (__TEXT,__text) non-external -[HMEMessageDatagramServer setDelegate:]
+00007ffc14468650 (__TEXT,__text) non-external -[HMEMessageDatagramServer upstreamTopicsForTopic:]
+00007ffc14465ca8 (__TEXT,__text) non-external -[HMEPendingEventsCollection .cxx_destruct]
+00007ffc14465220 (__TEXT,__text) non-external -[HMEPendingEventsCollection _addEventInfo:]
+00007ffc1446520e (__TEXT,__text) non-external -[HMEPendingEventsCollection addEventInfo:]
+00007ffc1446554e (__TEXT,__text) non-external -[HMEPendingEventsCollection addEventInfoItems:]
+00007ffc1446567a (__TEXT,__text) non-external -[HMEPendingEventsCollection combinePreviousEvents:]
+00007ffc14465be4 (__TEXT,__text) non-external -[HMEPendingEventsCollection eventInfoMaxSizeInBytes:]
+00007ffc144651c6 (__TEXT,__text) non-external -[HMEPendingEventsCollection eventItems]
+00007ffc1446588e (__TEXT,__text) non-external -[HMEPendingEventsCollection hasEventItem]
+00007ffc1446513a (__TEXT,__text) non-external -[HMEPendingEventsCollection initWithEvents:]
+00007ffc144651ad (__TEXT,__text) non-external -[HMEPendingEventsCollection init]
+00007ffc14465c76 (__TEXT,__text) non-external -[HMEPendingEventsCollection mutableEventItems]
+00007ffc144658d9 (__TEXT,__text) non-external -[HMEPendingEventsCollection popEventItemsUpWithFragments:toSizeInBytes:usedBytes:]
+00007ffc1446583b (__TEXT,__text) non-external -[HMEPendingEventsCollection resetItems]
+00007ffc14465c80 (__TEXT,__text) non-external -[HMEPendingEventsCollection setMutableEventItems:]
+00007ffc14467bcf (__TEXT,__text) non-external -[HMEPendingTopicsCombiner .cxx_destruct]
+00007ffc14467b89 (__TEXT,__text) non-external -[HMEPendingTopicsCombiner addTopicFilters]
+00007ffc14467930 (__TEXT,__text) non-external -[HMEPendingTopicsCombiner combineOntoPreviousAdditions:removals:]
+00007ffc14467524 (__TEXT,__text) non-external -[HMEPendingTopicsCombiner combineWithAdditions:removals:]
+00007ffc14467487 (__TEXT,__text) non-external -[HMEPendingTopicsCombiner init]
+00007ffc14467bac (__TEXT,__text) non-external -[HMEPendingTopicsCombiner removeTopicFilters]
+00007ffc14467af7 (__TEXT,__text) non-external -[HMEPendingTopicsCombiner reset]
+00007ffc14467b9d (__TEXT,__text) non-external -[HMEPendingTopicsCombiner setAddTopicFilters:]
+00007ffc14467bc0 (__TEXT,__text) non-external -[HMEPendingTopicsCombiner setRemoveTopicFilters:]
+00007ffc14467a57 (__TEXT,__text) non-external -[HMEPendingTopicsCombiner topicFiltersToAdd]
+00007ffc14467aa7 (__TEXT,__text) non-external -[HMEPendingTopicsCombiner topicFiltersToRemove]
+00007ffc1446f018 (__TEXT,__text) non-external -[HMEPersistentConnectionClient .cxx_destruct]
+00007ffc1446eb5f (__TEXT,__text) non-external -[HMEPersistentConnectionClient delegate]
+00007ffc1446eb71 (__TEXT,__text) non-external -[HMEPersistentConnectionClient didInvalidateConnection]
+00007ffc1446eb77 (__TEXT,__text) non-external -[HMEPersistentConnectionClient didReconnect]
+00007ffc1446efcc (__TEXT,__text) non-external -[HMEPersistentConnectionClient finishedWritingToStore:]
+00007ffc1446eea6 (__TEXT,__text) non-external -[HMEPersistentConnectionClient forwardingTopicsForTopics:]
+00007ffc1446ea8d (__TEXT,__text) non-external -[HMEPersistentConnectionClient initWithQueue:]
+00007ffc1446eaa4 (__TEXT,__text) non-external -[HMEPersistentConnectionClient initWithQueue:storeReadHandle:storeWriteHandle:]
+00007ffc1446e9f9 (__TEXT,__text) non-external -[HMEPersistentConnectionClient initWithQueue:storeReadHandle:storeWriteHandle:logger:]
+00007ffc1446ef43 (__TEXT,__text) non-external -[HMEPersistentConnectionClient isActiveForSaving]
+00007ffc1446edec (__TEXT,__text) non-external -[HMEPersistentConnectionClient processReceivedCachedEventsFromMessage:]
+00007ffc1446ed67 (__TEXT,__text) non-external -[HMEPersistentConnectionClient processReceivedEventsFromMessage:]
+00007ffc1446eb4d (__TEXT,__text) non-external -[HMEPersistentConnectionClient setDelegate:]
+00007ffc1446ef88 (__TEXT,__text) non-external -[HMEPersistentConnectionClient willWriteToStore]
+00007ffc1445e3a5 (__TEXT,__text) non-external -[HMEPersistentConnectionServer .cxx_destruct]
+00007ffc1445e0f4 (__TEXT,__text) non-external -[HMEPersistentConnectionServer changeRegistrationsForConnection:topicFilterAdditions:topicFilterRemovals:completion:]
+00007ffc1445df39 (__TEXT,__text) non-external -[HMEPersistentConnectionServer connectWithConnection:connectEvent:unregisterEvent:completion:]
+00007ffc1445e378 (__TEXT,__text) non-external -[HMEPersistentConnectionServer dataSource]
+00007ffc1445e34b (__TEXT,__text) non-external -[HMEPersistentConnectionServer delegate]
+00007ffc1445e048 (__TEXT,__text) non-external -[HMEPersistentConnectionServer didInvalidateConnection:]
+00007ffc1445df9c (__TEXT,__text) non-external -[HMEPersistentConnectionServer disconnectConnection:]
+00007ffc1445debc (__TEXT,__text) non-external -[HMEPersistentConnectionServer expandedTopicsForTopics:]
+00007ffc1445db8d (__TEXT,__text) non-external -[HMEPersistentConnectionServer handleCachedEvent:topic:]
+00007ffc1445d8a5 (__TEXT,__text) non-external -[HMEPersistentConnectionServer handleEvent:topic:]
+00007ffc1445d78d (__TEXT,__text) non-external -[HMEPersistentConnectionServer initWithQueue:provider:registrationEventRouter:]
+00007ffc1445d7b6 (__TEXT,__text) non-external -[HMEPersistentConnectionServer initWithQueue:provider:registrationEventRouter:storeReadHandle:logCategory:]
+00007ffc1445e391 (__TEXT,__text) non-external -[HMEPersistentConnectionServer setDataSource:]
+00007ffc1445e364 (__TEXT,__text) non-external -[HMEPersistentConnectionServer setDelegate:]
+00007ffc1445de3f (__TEXT,__text) non-external -[HMEPersistentConnectionServer upstreamTopicsForTopic:]
+00007ffc14470c1e (__TEXT,__text) non-external -[HMEProtoEvent .cxx_destruct]
+00007ffc14470907 (__TEXT,__text) non-external -[HMEProtoEvent copyTo:]
+00007ffc1447096a (__TEXT,__text) non-external -[HMEProtoEvent copyWithZone:]
+00007ffc1447073d (__TEXT,__text) non-external -[HMEProtoEvent description]
+00007ffc144707ec (__TEXT,__text) non-external -[HMEProtoEvent dictionaryRepresentation]
+00007ffc14470b8c (__TEXT,__text) non-external -[HMEProtoEvent eventData]
+00007ffc14470bd5 (__TEXT,__text) non-external -[HMEProtoEvent eventMetadata]
+00007ffc1447070f (__TEXT,__text) non-external -[HMEProtoEvent hasEventData]
+00007ffc14470726 (__TEXT,__text) non-external -[HMEProtoEvent hasEventMetadata]
+00007ffc14470ac6 (__TEXT,__text) non-external -[HMEProtoEvent hash]
+00007ffc14470a08 (__TEXT,__text) non-external -[HMEProtoEvent isEqual:]
+00007ffc14470b13 (__TEXT,__text) non-external -[HMEProtoEvent mergeFrom:]
+00007ffc1447089d (__TEXT,__text) non-external -[HMEProtoEvent readFrom:]
+00007ffc14470b9d (__TEXT,__text) non-external -[HMEProtoEvent setEventData:]
+00007ffc14470be6 (__TEXT,__text) non-external -[HMEProtoEvent setEventMetadata:]
+00007ffc144708aa (__TEXT,__text) non-external -[HMEProtoEvent writeTo:]
+00007ffc1445944a (__TEXT,__text) non-external -[HMEProtoEventInfo .cxx_destruct]
+00007ffc14459133 (__TEXT,__text) non-external -[HMEProtoEventInfo copyTo:]
+00007ffc14459196 (__TEXT,__text) non-external -[HMEProtoEventInfo copyWithZone:]
+00007ffc14458f69 (__TEXT,__text) non-external -[HMEProtoEventInfo description]
+00007ffc14459018 (__TEXT,__text) non-external -[HMEProtoEventInfo dictionaryRepresentation]
+00007ffc14459401 (__TEXT,__text) non-external -[HMEProtoEventInfo event]
+00007ffc14458f52 (__TEXT,__text) non-external -[HMEProtoEventInfo hasEvent]
+00007ffc14458f3b (__TEXT,__text) non-external -[HMEProtoEventInfo hasTopic]
+00007ffc144592f2 (__TEXT,__text) non-external -[HMEProtoEventInfo hash]
+00007ffc14459234 (__TEXT,__text) non-external -[HMEProtoEventInfo isEqual:]
+00007ffc1445933f (__TEXT,__text) non-external -[HMEProtoEventInfo mergeFrom:]
+00007ffc144590c9 (__TEXT,__text) non-external -[HMEProtoEventInfo readFrom:]
+00007ffc14459412 (__TEXT,__text) non-external -[HMEProtoEventInfo setEvent:]
+00007ffc144593c9 (__TEXT,__text) non-external -[HMEProtoEventInfo setTopic:]
+00007ffc144593b8 (__TEXT,__text) non-external -[HMEProtoEventInfo topic]
+00007ffc144590d6 (__TEXT,__text) non-external -[HMEProtoEventInfo writeTo:]
+00007ffc1445ee32 (__TEXT,__text) non-external -[HMEProtoEventMetadata .cxx_destruct]
+00007ffc1445ee02 (__TEXT,__text) non-external -[HMEProtoEventMetadata cachePolicy]
+00007ffc1445ee12 (__TEXT,__text) non-external -[HMEProtoEventMetadata combinePolicy]
+00007ffc1445e890 (__TEXT,__text) non-external -[HMEProtoEventMetadata copyTo:]
+00007ffc1445e94a (__TEXT,__text) non-external -[HMEProtoEventMetadata copyWithZone:]
+00007ffc1445e534 (__TEXT,__text) non-external -[HMEProtoEventMetadata description]
+00007ffc1445e5e3 (__TEXT,__text) non-external -[HMEProtoEventMetadata dictionaryRepresentation]
+00007ffc1445e47e (__TEXT,__text) non-external -[HMEProtoEventMetadata hasCachePolicy]
+00007ffc1445e4cd (__TEXT,__text) non-external -[HMEProtoEventMetadata hasCombinePolicy]
+00007ffc1445e51d (__TEXT,__text) non-external -[HMEProtoEventMetadata hasQos]
+00007ffc1445e3e3 (__TEXT,__text) non-external -[HMEProtoEventMetadata hasSource]
+00007ffc1445e432 (__TEXT,__text) non-external -[HMEProtoEventMetadata hasTimestamp]
+00007ffc1445eb65 (__TEXT,__text) non-external -[HMEProtoEventMetadata hash]
+00007ffc1445ea39 (__TEXT,__text) non-external -[HMEProtoEventMetadata isEqual:]
+00007ffc1445eced (__TEXT,__text) non-external -[HMEProtoEventMetadata mergeFrom:]
+00007ffc1445ee22 (__TEXT,__text) non-external -[HMEProtoEventMetadata qos]
+00007ffc1445e7b1 (__TEXT,__text) non-external -[HMEProtoEventMetadata readFrom:]
+00007ffc1445e446 (__TEXT,__text) non-external -[HMEProtoEventMetadata setCachePolicy:]
+00007ffc1445e494 (__TEXT,__text) non-external -[HMEProtoEventMetadata setCombinePolicy:]
+00007ffc1445e461 (__TEXT,__text) non-external -[HMEProtoEventMetadata setHasCachePolicy:]
+00007ffc1445e4af (__TEXT,__text) non-external -[HMEProtoEventMetadata setHasCombinePolicy:]
+00007ffc1445e4ff (__TEXT,__text) non-external -[HMEProtoEventMetadata setHasQos:]
+00007ffc1445e417 (__TEXT,__text) non-external -[HMEProtoEventMetadata setHasTimestamp:]
+00007ffc1445e4e4 (__TEXT,__text) non-external -[HMEProtoEventMetadata setQos:]
+00007ffc1445edb8 (__TEXT,__text) non-external -[HMEProtoEventMetadata setSource:]
+00007ffc1445e3fa (__TEXT,__text) non-external -[HMEProtoEventMetadata setTimestamp:]
+00007ffc1445eda7 (__TEXT,__text) non-external -[HMEProtoEventMetadata source]
+00007ffc1445edf0 (__TEXT,__text) non-external -[HMEProtoEventMetadata timestamp]
+00007ffc1445e7be (__TEXT,__text) non-external -[HMEProtoEventMetadata writeTo:]
+00007ffc1445b207 (__TEXT,__text) non-external -[HMERouterClient .cxx_destruct]
+00007ffc1445b3d7 (__TEXT,__text) non-external -[HMERouterClient _cachedEventsForExpandedTopics:]
+00007ffc1445b151 (__TEXT,__text) non-external -[HMERouterClient cachedEventsForTopicFilters:cachedEventCollection:]
+00007ffc14459af9 (__TEXT,__text) non-external -[HMERouterClient changeRegistrationsForConsumer:topicFilterAdditions:topicFilterRemovals:completion:]
+00007ffc14459f16 (__TEXT,__text) non-external -[HMERouterClient changeRegistrationsSyncForConsumer:topicFilterAdditions:topicFilterRemovals:completion:]
+00007ffc144599ad (__TEXT,__text) non-external -[HMERouterClient didChangeRegistrationsWithTopicFilterAdditions:removals:]
+00007ffc144598f0 (__TEXT,__text) non-external -[HMERouterClient dumpStateDescription]
+00007ffc1445b190 (__TEXT,__text) non-external -[HMERouterClient eventStoreReadHandle]
+00007ffc1445b1a4 (__TEXT,__text) non-external -[HMERouterClient eventStoreWriteHandle]
+00007ffc1445b18a (__TEXT,__text) non-external -[HMERouterClient finishedWritingToStore:]
+00007ffc1445b157 (__TEXT,__text) non-external -[HMERouterClient forwardingTopicsForTopics:]
+00007ffc1445ae13 (__TEXT,__text) non-external -[HMERouterClient handleChangeRegistrationsWithTopicFilterAdditions:removals:]
+00007ffc14459886 (__TEXT,__text) non-external -[HMERouterClient initWithQueue:]
+00007ffc1445986e (__TEXT,__text) non-external -[HMERouterClient initWithQueue:storeReadHandle:logger:]
+00007ffc1445974c (__TEXT,__text) non-external -[HMERouterClient initWithQueue:storeReadHandle:storeWriteHandle:logger:]
+00007ffc1445b177 (__TEXT,__text) non-external -[HMERouterClient isActiveForSaving]
+00007ffc1445a0f6 (__TEXT,__text) non-external -[HMERouterClient isCachedEventSourceCurrentProcess]
+00007ffc1445b1e0 (__TEXT,__text) non-external -[HMERouterClient privateDelegate]
+00007ffc1445a736 (__TEXT,__text) non-external -[HMERouterClient processReceivedCachedEvents:]
+00007ffc1445a0fe (__TEXT,__text) non-external -[HMERouterClient processReceivedEvents:]
+00007ffc1445b1b8 (__TEXT,__text) non-external -[HMERouterClient queue]
+00007ffc14459c2e (__TEXT,__text) non-external -[HMERouterClient registerConsumer:topicFilters:completion:]
+00007ffc1445b1f6 (__TEXT,__text) non-external -[HMERouterClient setPrivateDelegate:]
+00007ffc14459f0d (__TEXT,__text) non-external -[HMERouterClient synchronousSubscriptionProvider]
+00007ffc1445b1cc (__TEXT,__text) non-external -[HMERouterClient topicRouter]
+00007ffc14459d33 (__TEXT,__text) non-external -[HMERouterClient unregisterConsumer:completion:]
+00007ffc14459e08 (__TEXT,__text) non-external -[HMERouterClient unregisterConsumer:topicFilters:completion:]
+00007ffc1445a037 (__TEXT,__text) non-external -[HMERouterClient unregisterConsumerSync:completion:]
+00007ffc1445b149 (__TEXT,__text) non-external -[HMERouterClient upstreamTopicsForTopic:]
+00007ffc1445b182 (__TEXT,__text) non-external -[HMERouterClient willWriteToStore]
+00007ffc144671ec (__TEXT,__text) non-external -[HMERouterServer .cxx_destruct]
+00007ffc14466d5c (__TEXT,__text) non-external -[HMERouterServer cachedEventsForExpandedTopics:]
+00007ffc144670c4 (__TEXT,__text) non-external -[HMERouterServer cachedEventsForTopicFilters:cachedEventCollection:]
+00007ffc14466f1f (__TEXT,__text) non-external -[HMERouterServer didChangeRegistrationsWithTopicFilterAdditions:removals:]
+00007ffc144668f3 (__TEXT,__text) non-external -[HMERouterServer didConnectConnection:connectEvent:unregisterEvent:]
+00007ffc14466835 (__TEXT,__text) non-external -[HMERouterServer didReceiveCachedEvent:topic:source:]
+00007ffc144667a3 (__TEXT,__text) non-external -[HMERouterServer didReceiveEvent:topic:]
+00007ffc14466b0f (__TEXT,__text) non-external -[HMERouterServer didRemoveConnection:]
+00007ffc144666e6 (__TEXT,__text) non-external -[HMERouterServer dumpStateDescription]
+00007ffc144671b0 (__TEXT,__text) non-external -[HMERouterServer eventStoreReadHandle]
+00007ffc1446714c (__TEXT,__text) non-external -[HMERouterServer expandedTopicsForTopics:]
+00007ffc14466ebf (__TEXT,__text) non-external -[HMERouterServer handleCachedEvent:topic:]
+00007ffc14466e5f (__TEXT,__text) non-external -[HMERouterServer handleEvent:topic:]
+00007ffc144664c2 (__TEXT,__text) non-external -[HMERouterServer initWithQueue:provider:registrationEventRouter:]
+00007ffc14466564 (__TEXT,__text) non-external -[HMERouterServer initWithQueue:provider:registrationEventRouter:storeReadHandle:logger:]
+00007ffc1446719c (__TEXT,__text) non-external -[HMERouterServer localEventForwarder]
+00007ffc144671c4 (__TEXT,__text) non-external -[HMERouterServer queue]
+00007ffc14467188 (__TEXT,__text) non-external -[HMERouterServer subscriptionProvider]
+00007ffc144671d8 (__TEXT,__text) non-external -[HMERouterServer topicRouter]
+00007ffc14467174 (__TEXT,__text) non-external -[HMERouterServer unregisterEvents]
+00007ffc1446716c (__TEXT,__text) non-external -[HMERouterServer upstreamTopicsForTopic:]
+00007ffc1445fb2c (__TEXT,__text) non-external -[HMEThreadSafePendingEventsCollection .cxx_destruct]
+00007ffc1445f87d (__TEXT,__text) non-external -[HMEThreadSafePendingEventsCollection addEventInfo:]
+00007ffc1445f925 (__TEXT,__text) non-external -[HMEThreadSafePendingEventsCollection addEventInfoItems:]
+00007ffc1445f7d5 (__TEXT,__text) non-external -[HMEThreadSafePendingEventsCollection combinePreviousEvents:]
+00007ffc1445faff (__TEXT,__text) non-external -[HMEThreadSafePendingEventsCollection delegate]
+00007ffc1445f705 (__TEXT,__text) non-external -[HMEThreadSafePendingEventsCollection didFinishAddingAdditionalEvents]
+00007ffc1445f620 (__TEXT,__text) non-external -[HMEThreadSafePendingEventsCollection eventItems]
+00007ffc1445f9cd (__TEXT,__text) non-external -[HMEThreadSafePendingEventsCollection hasEventItem]
+00007ffc1445f681 (__TEXT,__text) non-external -[HMEThreadSafePendingEventsCollection initWithEvents:]
+00007ffc1445f78d (__TEXT,__text) non-external -[HMEThreadSafePendingEventsCollection isFinishedAddingItems]
+00007ffc1445fa21 (__TEXT,__text) non-external -[HMEThreadSafePendingEventsCollection popEventItemsUpWithFragments:toSizeInBytes:usedBytes:]
+00007ffc1445faa0 (__TEXT,__text) non-external -[HMEThreadSafePendingEventsCollection resetItems]
+00007ffc1445fb18 (__TEXT,__text) non-external -[HMEThreadSafePendingEventsCollection setDelegate:]
+00007ffc1445faef (__TEXT,__text) non-external -[HMEThreadSafePendingEventsCollection setIsFinishedAddingItems:]
+00007ffc1445f6d2 (__TEXT,__text) non-external -[HMEThreadSafePendingEventsCollection willAddAdditionalEvents]
+00007ffc144557a0 (__TEXT,__text) non-external -[HMETopicRouter .cxx_destruct]
+00007ffc14454f0b (__TEXT,__text) non-external -[HMETopicRouter allRegisteredTopicFilters]
+00007ffc14453fe2 (__TEXT,__text) non-external -[HMETopicRouter changeRegistrationsForConsumer:topicFilterAdditions:topicFilterRemovals:]
+00007ffc14454afa (__TEXT,__text) non-external -[HMETopicRouter consumersForTopic:]
+00007ffc1445578a (__TEXT,__text) non-external -[HMETopicRouter delegate]
+00007ffc14454f53 (__TEXT,__text) non-external -[HMETopicRouter dumpStateDescription]
+00007ffc14454898 (__TEXT,__text) non-external -[HMETopicRouter fetchCachedEventsForConsumer:topicFilters:cachedEventCollection:]
+00007ffc14453e3c (__TEXT,__text) non-external -[HMETopicRouter initWithDelegate:]
+00007ffc14453e55 (__TEXT,__text) non-external -[HMETopicRouter initWithDelegate:logCategory:]
+00007ffc14453ebc (__TEXT,__text) non-external -[HMETopicRouter initWithDelegate:logger:]
+00007ffc14453e28 (__TEXT,__text) non-external -[HMETopicRouter init]
+00007ffc14454ec2 (__TEXT,__text) non-external -[HMETopicRouter minimalSpanningTopicFilters]
+00007ffc14453fad (__TEXT,__text) non-external -[HMETopicRouter registerConsumer:topicFilters:]
+00007ffc14455780 (__TEXT,__text) non-external -[HMETopicRouter registeredTopics]
+00007ffc14455776 (__TEXT,__text) non-external -[HMETopicRouter registrations]
+00007ffc1445493a (__TEXT,__text) non-external -[HMETopicRouter topicsForConsumer:]
+00007ffc14454a06 (__TEXT,__text) non-external -[HMETopicRouter unregisterConsumer:]
+00007ffc14453fc6 (__TEXT,__text) non-external -[HMETopicRouter unregisterConsumer:topicFilters:]
+00007ffc14472664 (__TEXT,__gcc_except_tab) non-external GCC_except_table26
+00007ffc14472670 (__TEXT,__gcc_except_tab) non-external GCC_except_table27
+00007ffc1447268c (__TEXT,__gcc_except_tab) non-external GCC_except_table28
+00007ffc144728c4 (__TEXT,__gcc_except_tab) non-external GCC_except_table283
+00007ffc144728f0 (__TEXT,__gcc_except_tab) non-external GCC_except_table288
+00007ffc1447291c (__TEXT,__gcc_except_tab) non-external GCC_except_table292
+00007ffc144726c0 (__TEXT,__gcc_except_tab) non-external GCC_except_table30
+00007ffc1447293c (__TEXT,__gcc_except_tab) non-external GCC_except_table300
+00007ffc14472954 (__TEXT,__gcc_except_tab) non-external GCC_except_table303
+00007ffc14472998 (__TEXT,__gcc_except_tab) non-external GCC_except_table305
+00007ffc144729cc (__TEXT,__gcc_except_tab) non-external GCC_except_table309
+00007ffc144726f0 (__TEXT,__gcc_except_tab) non-external GCC_except_table31
+00007ffc144729e4 (__TEXT,__gcc_except_tab) non-external GCC_except_table311
+00007ffc1447272c (__TEXT,__gcc_except_tab) non-external GCC_except_table32
+00007ffc1447277c (__TEXT,__gcc_except_tab) non-external GCC_except_table33
+00007ffc14472a18 (__TEXT,__gcc_except_tab) non-external GCC_except_table423
+00007ffc14472a68 (__TEXT,__gcc_except_tab) non-external GCC_except_table425
+00007ffc14472aac (__TEXT,__gcc_except_tab) non-external GCC_except_table429
+00007ffc14472acc (__TEXT,__gcc_except_tab) non-external GCC_except_table440
+00007ffc14472b4c (__TEXT,__gcc_except_tab) non-external GCC_except_table449
+00007ffc144727cc (__TEXT,__gcc_except_tab) non-external GCC_except_table45
+00007ffc14472824 (__TEXT,__gcc_except_tab) non-external GCC_except_table47
+00007ffc14472880 (__TEXT,__gcc_except_tab) non-external GCC_except_table77
+00007ffc144728a0 (__TEXT,__gcc_except_tab) non-external GCC_except_table88
+00007ffc41a6cfc8 (__DATA_CONST,__const) external _HMEErrorDomain
+00007ffc1446d84c (__TEXT,__text) external _HMEEventComponentsFromTopic
+00007ffc1445947b (__TEXT,__text) external _HMEProtoEventInfoReadFrom
+00007ffc1445ee45 (__TEXT,__text) external _HMEProtoEventMetadataReadFrom
+00007ffc14470c4f (__TEXT,__text) external _HMEProtoEventReadFrom
+                 (undefined) external _NSInternalInconsistencyException (from CoreFoundation)
+                 (undefined) external _NSInvalidArgumentException (from CoreFoundation)
+                 (undefined) external _NSStringFromClass (from Foundation)
+00007ffc14457d94 (__TEXT,__text) non-external _NSStringFromSQLiteStatement
+00007ffc43291428 (__DATA,__objc_data) non-external _OBJC_CLASS_$_HMEConnectionInfoItem
+00007ffc42612548 (__DATA_DIRTY,__objc_data) external _OBJC_CLASS_$_HMEDelegatingEventRouter
+00007ffc432913d8 (__DATA,__objc_data) external _OBJC_CLASS_$_HMEEvent
+00007ffc432914f0 (__DATA,__objc_data) external _OBJC_CLASS_$_HMEEventInfo
+00007ffc43291310 (__DATA,__objc_data) external _OBJC_CLASS_$_HMEEventMetadata
+00007ffc42612688 (__DATA_DIRTY,__objc_data) external _OBJC_CLASS_$_HMELastEventStore
+00007ffc42612520 (__DATA_DIRTY,__objc_data) external _OBJC_CLASS_$_HMEMemoryEventBus
+00007ffc426126b0 (__DATA_DIRTY,__objc_data) external _OBJC_CLASS_$_HMEMessageDatagramClient
+00007ffc432914a0 (__DATA,__objc_data) external _OBJC_CLASS_$_HMEMessageDatagramServer
+00007ffc43291450 (__DATA,__objc_data) external _OBJC_CLASS_$_HMEPendingEventsCollection
+00007ffc42612700 (__DATA_DIRTY,__objc_data) external _OBJC_CLASS_$_HMEPendingTopicsCombiner
+00007ffc426125e8 (__DATA_DIRTY,__objc_data) external _OBJC_CLASS_$_HMEPersistentConnectionClient
+00007ffc426124f8 (__DATA_DIRTY,__objc_data) external _OBJC_CLASS_$_HMEPersistentConnectionServer
+00007ffc43291518 (__DATA,__objc_data) external _OBJC_CLASS_$_HMEProtoEvent
+00007ffc432913b0 (__DATA,__objc_data) external _OBJC_CLASS_$_HMEProtoEventInfo
+00007ffc43291540 (__DATA,__objc_data) external _OBJC_CLASS_$_HMEProtoEventMetadata
+00007ffc426125c0 (__DATA_DIRTY,__objc_data) external _OBJC_CLASS_$_HMERouterClient
+00007ffc426124d0 (__DATA_DIRTY,__objc_data) external _OBJC_CLASS_$_HMERouterServer
+00007ffc432912c0 (__DATA,__objc_data) external _OBJC_CLASS_$_HMEThreadSafePendingEventsCollection
+00007ffc42612660 (__DATA_DIRTY,__objc_data) external _OBJC_CLASS_$_HMETopicRouter
+                 (undefined) external _OBJC_CLASS_$_NSArray (from CoreFoundation)
+                 (undefined) external _OBJC_CLASS_$_NSConstantArray (from CoreFoundation)
+                 (undefined) external _OBJC_CLASS_$_NSConstantIntegerNumber (from Foundation)
+                 (undefined) external _OBJC_CLASS_$_NSData (from CoreFoundation)
+                 (undefined) external _OBJC_CLASS_$_NSDate (from CoreFoundation)
+                 (undefined) external _OBJC_CLASS_$_NSDictionary (from CoreFoundation)
+                 (undefined) external _OBJC_CLASS_$_NSError (from Foundation)
+                 (undefined) external _OBJC_CLASS_$_NSException (from CoreFoundation)
+                 (undefined) external _OBJC_CLASS_$_NSFileManager (from Foundation)
+                 (undefined) external _OBJC_CLASS_$_NSMapTable (from Foundation)
+                 (undefined) external _OBJC_CLASS_$_NSMutableArray (from CoreFoundation)
+                 (undefined) external _OBJC_CLASS_$_NSMutableDictionary (from CoreFoundation)
+                 (undefined) external _OBJC_CLASS_$_NSMutableSet (from CoreFoundation)
+                 (undefined) external _OBJC_CLASS_$_NSMutableString (from Foundation)
+                 (undefined) external _OBJC_CLASS_$_NSNumber (from Foundation)
+                 (undefined) external _OBJC_CLASS_$_NSObject (from libobjc)
+                 (undefined) external _OBJC_CLASS_$_NSSet (from CoreFoundation)
+                 (undefined) external _OBJC_CLASS_$_NSString (from Foundation)
+                 (undefined) external _OBJC_CLASS_$_NSUUID (from Foundation)
+                 (undefined) external _OBJC_CLASS_$_PBCodable (from ProtocolBuffer)
+00007ffc432911e8 (__DATA,__objc_ivar) non-external _OBJC_IVAR_$_HMEConnectionInfoItem._connection
+00007ffc432911e0 (__DATA,__objc_ivar) non-external _OBJC_IVAR_$_HMEConnectionInfoItem._debounceStartTime
+00007ffc432911d8 (__DATA,__objc_ivar) non-external _OBJC_IVAR_$_HMEConnectionInfoItem._expiry
+00007ffc432911b8 (__DATA,__objc_ivar) non-external _OBJC_IVAR_$_HMEConnectionInfoItem._hasPendingRequest
+00007ffc432911c0 (__DATA,__objc_ivar) non-external _OBJC_IVAR_$_HMEConnectionInfoItem._identifier
+00007ffc432911d0 (__DATA,__objc_ivar) non-external _OBJC_IVAR_$_HMEConnectionInfoItem._pendingCachedEventItems
+00007ffc432911c8 (__DATA,__objc_ivar) non-external _OBJC_IVAR_$_HMEConnectionInfoItem._pendingEventItems
+00007ffc43291010 (__DATA,__objc_ivar) non-external _OBJC_IVAR_$_HMEDelegatingEventRouter._dataSource
+00007ffc43291018 (__DATA,__objc_ivar) non-external _OBJC_IVAR_$_HMEDelegatingEventRouter._eventStoreReadHandle
+00007ffc43290ff0 (__DATA,__objc_ivar) non-external _OBJC_IVAR_$_HMEDelegatingEventRouter._identifier
+00007ffc43290fe8 (__DATA,__objc_ivar) non-external _OBJC_IVAR_$_HMEDelegatingEventRouter._logger
+00007ffc43290ff8 (__DATA,__objc_ivar) non-external _OBJC_IVAR_$_HMEDelegatingEventRouter._queue
+00007ffc43291008 (__DATA,__objc_ivar) non-external _OBJC_IVAR_$_HMEDelegatingEventRouter._subRouters
+00007ffc43291000 (__DATA,__objc_ivar) non-external _OBJC_IVAR_$_HMEDelegatingEventRouter._topicRouter
+00007ffc432910b8 (__DATA,__objc_ivar) non-external _OBJC_IVAR_$_HMEEvent._eventData
+00007ffc432910b0 (__DATA,__objc_ivar) non-external _OBJC_IVAR_$_HMEEvent._eventMetadata
+00007ffc43291160 (__DATA,__objc_ivar) non-external _OBJC_IVAR_$_HMEEventInfo._event
+00007ffc43291168 (__DATA,__objc_ivar) non-external _OBJC_IVAR_$_HMEEventInfo._topic
+00007ffc43291090 (__DATA,__objc_ivar) non-external _OBJC_IVAR_$_HMEEventMetadata._intervalSinceReferenceDate
+00007ffc432910a0 (__DATA,__objc_ivar) non-external _OBJC_IVAR_$_HMEEventMetadata._rawCachePolicy
+00007ffc43291098 (__DATA,__objc_ivar) non-external _OBJC_IVAR_$_HMEEventMetadata._rawCombineType
+00007ffc432910a8 (__DATA,__objc_ivar) non-external _OBJC_IVAR_$_HMEEventMetadata._rawQOS
+00007ffc43291088 (__DATA,__objc_ivar) non-external _OBJC_IVAR_$_HMEEventMetadata._source
+00007ffc43290f48 (__DATA,__objc_ivar) non-external _OBJC_IVAR_$_HMELastEventStore._db
+00007ffc43290f90 (__DATA,__objc_ivar) non-external _OBJC_IVAR_$_HMELastEventStore._fileName
+00007ffc43290fa0 (__DATA,__objc_ivar) non-external _OBJC_IVAR_$_HMELastEventStore._integrityCheckError
+00007ffc43290f80 (__DATA,__objc_ivar) non-external _OBJC_IVAR_$_HMELastEventStore._lock
+00007ffc43290f40 (__DATA,__objc_ivar) non-external _OBJC_IVAR_$_HMELastEventStore._logger
+00007ffc43290f98 (__DATA,__objc_ivar) non-external _OBJC_IVAR_$_HMELastEventStore._readJournalMode
+00007ffc43290f88 (__DATA,__objc_ivar) non-external _OBJC_IVAR_$_HMELastEventStore._useWal
+00007ffc43290f78 (__DATA,__objc_ivar) non-external _OBJC_IVAR_$_HMELastEventStore.deleteBeforeTimestampPreparedStatement
+00007ffc43290f70 (__DATA,__objc_ivar) non-external _OBJC_IVAR_$_HMELastEventStore.deleteEventByKeyLikePreparedStatement
+00007ffc43290f68 (__DATA,__objc_ivar) non-external _OBJC_IVAR_$_HMELastEventStore.deleteEventByKeyPreparedStatement
+00007ffc43290f50 (__DATA,__objc_ivar) non-external _OBJC_IVAR_$_HMELastEventStore.insertEventPreparedStatement
+00007ffc43290f58 (__DATA,__objc_ivar) non-external _OBJC_IVAR_$_HMELastEventStore.replaceEventIfMoreRecentOrDifferentSourcePreparedStatement
+00007ffc43290f60 (__DATA,__objc_ivar) non-external _OBJC_IVAR_$_HMELastEventStore.selectEventByKeyPreparedStatement
+00007ffc43291238 (__DATA,__objc_ivar) non-external _OBJC_IVAR_$_HMEMemoryEventBus._dataSource
+00007ffc43291230 (__DATA,__objc_ivar) non-external _OBJC_IVAR_$_HMEMemoryEventBus._delegate
+00007ffc43291250 (__DATA,__objc_ivar) non-external _OBJC_IVAR_$_HMEMemoryEventBus._eventStoreReadHandle
+00007ffc43291258 (__DATA,__objc_ivar) non-external _OBJC_IVAR_$_HMEMemoryEventBus._eventStoreWriteHandle
+00007ffc43291228 (__DATA,__objc_ivar) non-external _OBJC_IVAR_$_HMEMemoryEventBus._logger
+00007ffc43291248 (__DATA,__objc_ivar) non-external _OBJC_IVAR_$_HMEMemoryEventBus._queue
+00007ffc43291240 (__DATA,__objc_ivar) non-external _OBJC_IVAR_$_HMEMemoryEventBus._topicRouter
+00007ffc43291140 (__DATA,__objc_ivar) non-external _OBJC_IVAR_$_HMEMessageDatagramClient._connectedServerIdentifier
+00007ffc43291148 (__DATA,__objc_ivar) non-external _OBJC_IVAR_$_HMEMessageDatagramClient._connectingServerIdentifier
+00007ffc43291110 (__DATA,__objc_ivar) non-external _OBJC_IVAR_$_HMEMessageDatagramClient._connectionMode
+00007ffc43291128 (__DATA,__objc_ivar) non-external _OBJC_IVAR_$_HMEMessageDatagramClient._dataSource
+00007ffc43291120 (__DATA,__objc_ivar) non-external _OBJC_IVAR_$_HMEMessageDatagramClient._dormantFetchConditionsMet
+00007ffc43291150 (__DATA,__objc_ivar) non-external _OBJC_IVAR_$_HMEMessageDatagramClient._dormantFetchTimer
+00007ffc432910e0 (__DATA,__objc_ivar) non-external _OBJC_IVAR_$_HMEMessageDatagramClient._dormatFetchTimerInterval
+00007ffc43291108 (__DATA,__objc_ivar) non-external _OBJC_IVAR_$_HMEMessageDatagramClient._hasPendingKeepAliveRequest
+00007ffc432910f8 (__DATA,__objc_ivar) non-external _OBJC_IVAR_$_HMEMessageDatagramClient._hasPendingRequest
+00007ffc43291100 (__DATA,__objc_ivar) non-external _OBJC_IVAR_$_HMEMessageDatagramClient._hasPendingServerChangeRequest
+00007ffc432910f0 (__DATA,__objc_ivar) non-external _OBJC_IVAR_$_HMEMessageDatagramClient._isConnected
+00007ffc43291118 (__DATA,__objc_ivar) non-external _OBJC_IVAR_$_HMEMessageDatagramClient._isWaitingForFetchConditionsWhenDormant
+00007ffc432910d8 (__DATA,__objc_ivar) non-external _OBJC_IVAR_$_HMEMessageDatagramClient._keepAliveInterval
+00007ffc43291130 (__DATA,__objc_ivar) non-external _OBJC_IVAR_$_HMEMessageDatagramClient._keepAliveTimer
+00007ffc432910c0 (__DATA,__objc_ivar) non-external _OBJC_IVAR_$_HMEMessageDatagramClient._logger
+00007ffc432910c8 (__DATA,__objc_ivar) non-external _OBJC_IVAR_$_HMEMessageDatagramClient._pendingTopicsCombiner
+00007ffc432910e8 (__DATA,__objc_ivar) non-external _OBJC_IVAR_$_HMEMessageDatagramClient._retryIntervalProvider
+00007ffc43291138 (__DATA,__objc_ivar) non-external _OBJC_IVAR_$_HMEMessageDatagramClient._retryTimer
+00007ffc432910d0 (__DATA,__objc_ivar) non-external _OBJC_IVAR_$_HMEMessageDatagramClient._timerProvider
+00007ffc43291218 (__DATA,__objc_ivar) non-external _OBJC_IVAR_$_HMEMessageDatagramServer._connectionDebounceTimer
+00007ffc43291210 (__DATA,__objc_ivar) non-external _OBJC_IVAR_$_HMEMessageDatagramServer._connectionExpiryTimer
+00007ffc432911f8 (__DATA,__objc_ivar) non-external _OBJC_IVAR_$_HMEMessageDatagramServer._connectionInfoItems
+00007ffc43291208 (__DATA,__objc_ivar) non-external _OBJC_IVAR_$_HMEMessageDatagramServer._dataSource
+00007ffc43291200 (__DATA,__objc_ivar) non-external _OBJC_IVAR_$_HMEMessageDatagramServer._delegate
+00007ffc432911f0 (__DATA,__objc_ivar) non-external _OBJC_IVAR_$_HMEMessageDatagramServer._logger
+00007ffc43291158 (__DATA,__objc_ivar) non-external _OBJC_IVAR_$_HMEPendingEventsCollection._mutableEventItems
+00007ffc432911a8 (__DATA,__objc_ivar) non-external _OBJC_IVAR_$_HMEPendingTopicsCombiner._addTopicFilters
+00007ffc432911b0 (__DATA,__objc_ivar) non-external _OBJC_IVAR_$_HMEPendingTopicsCombiner._removeTopicFilters
+00007ffc43291220 (__DATA,__objc_ivar) non-external _OBJC_IVAR_$_HMEPersistentConnectionClient._logger
+00007ffc43291030 (__DATA,__objc_ivar) non-external _OBJC_IVAR_$_HMEPersistentConnectionServer._dataSource
+00007ffc43291028 (__DATA,__objc_ivar) non-external _OBJC_IVAR_$_HMEPersistentConnectionServer._delegate
+00007ffc43291020 (__DATA,__objc_ivar) non-external _OBJC_IVAR_$_HMEPersistentConnectionServer._logger
+00007ffc43291260 (__DATA,__objc_ivar) external _OBJC_IVAR_$_HMEProtoEvent._eventData
+00007ffc43291268 (__DATA,__objc_ivar) external _OBJC_IVAR_$_HMEProtoEvent._eventMetadata
+00007ffc43290fb0 (__DATA,__objc_ivar) external _OBJC_IVAR_$_HMEProtoEventInfo._event
+00007ffc43290fa8 (__DATA,__objc_ivar) external _OBJC_IVAR_$_HMEProtoEventInfo._topic
+00007ffc43291050 (__DATA,__objc_ivar) external _OBJC_IVAR_$_HMEProtoEventMetadata._cachePolicy
+00007ffc43291058 (__DATA,__objc_ivar) external _OBJC_IVAR_$_HMEProtoEventMetadata._combinePolicy
+00007ffc43291040 (__DATA,__objc_ivar) external _OBJC_IVAR_$_HMEProtoEventMetadata._has
+00007ffc43291060 (__DATA,__objc_ivar) external _OBJC_IVAR_$_HMEProtoEventMetadata._qos
+00007ffc43291038 (__DATA,__objc_ivar) external _OBJC_IVAR_$_HMEProtoEventMetadata._source
+00007ffc43291048 (__DATA,__objc_ivar) external _OBJC_IVAR_$_HMEProtoEventMetadata._timestamp
+00007ffc43290fc0 (__DATA,__objc_ivar) non-external _OBJC_IVAR_$_HMERouterClient._eventStoreReadHandle
+00007ffc43290fc8 (__DATA,__objc_ivar) non-external _OBJC_IVAR_$_HMERouterClient._eventStoreWriteHandle
+00007ffc43290fb8 (__DATA,__objc_ivar) non-external _OBJC_IVAR_$_HMERouterClient._logger
+00007ffc43290fe0 (__DATA,__objc_ivar) non-external _OBJC_IVAR_$_HMERouterClient._privateDelegate
+00007ffc43290fd0 (__DATA,__objc_ivar) non-external _OBJC_IVAR_$_HMERouterClient._queue
+00007ffc43290fd8 (__DATA,__objc_ivar) non-external _OBJC_IVAR_$_HMERouterClient._topicRouter
+00007ffc43291190 (__DATA,__objc_ivar) non-external _OBJC_IVAR_$_HMERouterServer._eventStoreReadHandle
+00007ffc43291188 (__DATA,__objc_ivar) non-external _OBJC_IVAR_$_HMERouterServer._localEventForwarder
+00007ffc43291170 (__DATA,__objc_ivar) non-external _OBJC_IVAR_$_HMERouterServer._logger
+00007ffc43291198 (__DATA,__objc_ivar) non-external _OBJC_IVAR_$_HMERouterServer._queue
+00007ffc43291180 (__DATA,__objc_ivar) non-external _OBJC_IVAR_$_HMERouterServer._subscriptionProvider
+00007ffc432911a0 (__DATA,__objc_ivar) non-external _OBJC_IVAR_$_HMERouterServer._topicRouter
+00007ffc43291178 (__DATA,__objc_ivar) non-external _OBJC_IVAR_$_HMERouterServer._unregisterEvents
+00007ffc43291080 (__DATA,__objc_ivar) non-external _OBJC_IVAR_$_HMEThreadSafePendingEventsCollection._delegate
+00007ffc43291070 (__DATA,__objc_ivar) non-external _OBJC_IVAR_$_HMEThreadSafePendingEventsCollection._expectedEventAdditionCount
+00007ffc43291078 (__DATA,__objc_ivar) non-external _OBJC_IVAR_$_HMEThreadSafePendingEventsCollection._isFinishedAddingItems
+00007ffc43291068 (__DATA,__objc_ivar) non-external _OBJC_IVAR_$_HMEThreadSafePendingEventsCollection._lock
+00007ffc43290f38 (__DATA,__objc_ivar) non-external _OBJC_IVAR_$_HMETopicRouter._delegate
+00007ffc43290f20 (__DATA,__objc_ivar) non-external _OBJC_IVAR_$_HMETopicRouter._logger
+00007ffc43290f30 (__DATA,__objc_ivar) non-external _OBJC_IVAR_$_HMETopicRouter._registeredTopics
+00007ffc43290f28 (__DATA,__objc_ivar) non-external _OBJC_IVAR_$_HMETopicRouter._registrations
+00007ffc43291478 (__DATA,__objc_data) non-external _OBJC_METACLASS_$_HMEConnectionInfoItem
+00007ffc426124a8 (__DATA_DIRTY,__objc_data) external _OBJC_METACLASS_$_HMEDelegatingEventRouter
+00007ffc43291360 (__DATA,__objc_data) external _OBJC_METACLASS_$_HMEEvent
+00007ffc43291400 (__DATA,__objc_data) external _OBJC_METACLASS_$_HMEEventInfo
+00007ffc43291338 (__DATA,__objc_data) external _OBJC_METACLASS_$_HMEEventMetadata
+00007ffc42612638 (__DATA_DIRTY,__objc_data) external _OBJC_METACLASS_$_HMELastEventStore
+00007ffc42612480 (__DATA_DIRTY,__objc_data) external _OBJC_METACLASS_$_HMEMemoryEventBus
+00007ffc426126d8 (__DATA_DIRTY,__objc_data) external _OBJC_METACLASS_$_HMEMessageDatagramClient
+00007ffc432914c8 (__DATA,__objc_data) external _OBJC_METACLASS_$_HMEMessageDatagramServer
+00007ffc43291388 (__DATA,__objc_data) external _OBJC_METACLASS_$_HMEPendingEventsCollection
+00007ffc42612728 (__DATA_DIRTY,__objc_data) external _OBJC_METACLASS_$_HMEPendingTopicsCombiner
+00007ffc42612598 (__DATA_DIRTY,__objc_data) external _OBJC_METACLASS_$_HMEPersistentConnectionClient
+00007ffc42612458 (__DATA_DIRTY,__objc_data) external _OBJC_METACLASS_$_HMEPersistentConnectionServer
+00007ffc43291568 (__DATA,__objc_data) external _OBJC_METACLASS_$_HMEProtoEvent
+00007ffc43291270 (__DATA,__objc_data) external _OBJC_METACLASS_$_HMEProtoEventInfo
+00007ffc43291298 (__DATA,__objc_data) external _OBJC_METACLASS_$_HMEProtoEventMetadata
+00007ffc42612570 (__DATA_DIRTY,__objc_data) external _OBJC_METACLASS_$_HMERouterClient
+00007ffc42612430 (__DATA_DIRTY,__objc_data) external _OBJC_METACLASS_$_HMERouterServer
+00007ffc432912e8 (__DATA,__objc_data) external _OBJC_METACLASS_$_HMEThreadSafePendingEventsCollection
+00007ffc42612610 (__DATA_DIRTY,__objc_data) external _OBJC_METACLASS_$_HMETopicRouter
+                 (undefined) external _OBJC_METACLASS_$_NSObject (from libobjc)
+                 (undefined) external _OBJC_METACLASS_$_PBCodable (from ProtocolBuffer)
+                 (undefined) external _PBDataWriterWriteDataField (from ProtocolBuffer)
+                 (undefined) external _PBDataWriterWriteDoubleField (from ProtocolBuffer)
+                 (undefined) external _PBDataWriterWriteStringField (from ProtocolBuffer)
+                 (undefined) external _PBDataWriterWriteSubmessage (from ProtocolBuffer)
+                 (undefined) external _PBDataWriterWriteUint32Field (from ProtocolBuffer)
+                 (undefined) external _PBReaderPlaceMark (from ProtocolBuffer)
+                 (undefined) external _PBReaderReadData (from ProtocolBuffer)
+                 (undefined) external _PBReaderReadString (from ProtocolBuffer)
+                 (undefined) external _PBReaderRecallMark (from ProtocolBuffer)
+                 (undefined) external _PBReaderSkipValueWithTag (from ProtocolBuffer)
+                 (undefined) external __Block_object_assign (from libSystem)
+                 (undefined) external __Block_object_dispose (from libSystem)
+                 (undefined) external __NSConcreteStackBlock (from libSystem)
+00007ffc144710d0 (__TEXT,__objc_methlist) non-external __OBJC_$_CLASS_METHODS_HMEEvent
+00007ffc144710e8 (__TEXT,__objc_methlist) non-external __OBJC_$_CLASS_METHODS_HMEEventInfo
+00007ffc14471130 (__TEXT,__objc_methlist) non-external __OBJC_$_CLASS_METHODS_HMETopicRouter
+00007ffc41a6f0d0 (__DATA_CONST,__objc_const) non-external __OBJC_$_CLASS_PROP_LIST_HMEEventInfo
+00007ffc14471148 (__TEXT,__objc_methlist) non-external __OBJC_$_INSTANCE_METHODS_HMEConnectionInfoItem
+00007ffc144711f0 (__TEXT,__objc_methlist) non-external __OBJC_$_INSTANCE_METHODS_HMEDelegatingEventRouter
+00007ffc144712e8 (__TEXT,__objc_methlist) non-external __OBJC_$_INSTANCE_METHODS_HMEEvent
+00007ffc14471368 (__TEXT,__objc_methlist) non-external __OBJC_$_INSTANCE_METHODS_HMEEventInfo
+00007ffc144713b8 (__TEXT,__objc_methlist) non-external __OBJC_$_INSTANCE_METHODS_HMEEventMetadata
+00007ffc14471448 (__TEXT,__objc_methlist) non-external __OBJC_$_INSTANCE_METHODS_HMELastEventStore
+00007ffc14471558 (__TEXT,__objc_methlist) non-external __OBJC_$_INSTANCE_METHODS_HMEMemoryEventBus
+00007ffc14471680 (__TEXT,__objc_methlist) non-external __OBJC_$_INSTANCE_METHODS_HMEMessageDatagramClient
+00007ffc144718c8 (__TEXT,__objc_methlist) non-external __OBJC_$_INSTANCE_METHODS_HMEMessageDatagramServer
+00007ffc14471a00 (__TEXT,__objc_methlist) non-external __OBJC_$_INSTANCE_METHODS_HMEPendingEventsCollection
+00007ffc14471ab0 (__TEXT,__objc_methlist) non-external __OBJC_$_INSTANCE_METHODS_HMEPendingTopicsCombiner
+00007ffc14471b40 (__TEXT,__objc_methlist) non-external __OBJC_$_INSTANCE_METHODS_HMEPersistentConnectionClient
+00007ffc14471bf0 (__TEXT,__objc_methlist) non-external __OBJC_$_INSTANCE_METHODS_HMEPersistentConnectionServer
+00007ffc14471cb0 (__TEXT,__objc_methlist) non-external __OBJC_$_INSTANCE_METHODS_HMEProtoEvent
+00007ffc14471d78 (__TEXT,__objc_methlist) non-external __OBJC_$_INSTANCE_METHODS_HMEProtoEventInfo
+00007ffc14471e40 (__TEXT,__objc_methlist) non-external __OBJC_$_INSTANCE_METHODS_HMEProtoEventMetadata
+00007ffc14471fa8 (__TEXT,__objc_methlist) non-external __OBJC_$_INSTANCE_METHODS_HMERouterClient
+00007ffc14472110 (__TEXT,__objc_methlist) non-external __OBJC_$_INSTANCE_METHODS_HMERouterServer
+00007ffc14472218 (__TEXT,__objc_methlist) non-external __OBJC_$_INSTANCE_METHODS_HMEThreadSafePendingEventsCollection
+00007ffc144722d8 (__TEXT,__objc_methlist) non-external __OBJC_$_INSTANCE_METHODS_HMETopicRouter
+00007ffc41a6f598 (__DATA_CONST,__objc_const) non-external __OBJC_$_INSTANCE_VARIABLES_HMEConnectionInfoItem
+00007ffc41a6e300 (__DATA_CONST,__objc_const) non-external __OBJC_$_INSTANCE_VARIABLES_HMEDelegatingEventRouter
+00007ffc41a6eaf8 (__DATA_CONST,__objc_const) non-external __OBJC_$_INSTANCE_VARIABLES_HMEEvent
+00007ffc41a6f130 (__DATA_CONST,__objc_const) non-external __OBJC_$_INSTANCE_VARIABLES_HMEEventInfo
+00007ffc41a6e948 (__DATA_CONST,__objc_const) non-external __OBJC_$_INSTANCE_VARIABLES_HMEEventMetadata
+00007ffc41a6db80 (__DATA_CONST,__objc_const) non-external __OBJC_$_INSTANCE_VARIABLES_HMELastEventStore
+00007ffc41a6fa50 (__DATA_CONST,__objc_const) non-external __OBJC_$_INSTANCE_VARIABLES_HMEMemoryEventBus
+00007ffc41a6ec08 (__DATA_CONST,__objc_const) non-external __OBJC_$_INSTANCE_VARIABLES_HMEMessageDatagramClient
+00007ffc41a6f788 (__DATA_CONST,__objc_const) non-external __OBJC_$_INSTANCE_VARIABLES_HMEMessageDatagramServer
+00007ffc41a6f038 (__DATA_CONST,__objc_const) non-external __OBJC_$_INSTANCE_VARIABLES_HMEPendingEventsCollection
+00007ffc41a6f478 (__DATA_CONST,__objc_const) non-external __OBJC_$_INSTANCE_VARIABLES_HMEPendingTopicsCombiner
+00007ffc41a6f938 (__DATA_CONST,__objc_const) non-external __OBJC_$_INSTANCE_VARIABLES_HMEPersistentConnectionClient
+00007ffc41a6e4d0 (__DATA_CONST,__objc_const) non-external __OBJC_$_INSTANCE_VARIABLES_HMEPersistentConnectionServer
+00007ffc41a6fc88 (__DATA_CONST,__objc_const) non-external __OBJC_$_INSTANCE_VARIABLES_HMEProtoEvent
+00007ffc41a6de60 (__DATA_CONST,__objc_const) non-external __OBJC_$_INSTANCE_VARIABLES_HMEProtoEventInfo
+00007ffc41a6e608 (__DATA_CONST,__objc_const) non-external __OBJC_$_INSTANCE_VARIABLES_HMEProtoEventMetadata
+00007ffc41a6e0a8 (__DATA_CONST,__objc_const) non-external __OBJC_$_INSTANCE_VARIABLES_HMERouterClient
+00007ffc41a6f258 (__DATA_CONST,__objc_const) non-external __OBJC_$_INSTANCE_VARIABLES_HMERouterServer
+00007ffc41a6e808 (__DATA_CONST,__objc_const) non-external __OBJC_$_INSTANCE_VARIABLES_HMEThreadSafePendingEventsCollection
+00007ffc41a6d888 (__DATA_CONST,__objc_const) non-external __OBJC_$_INSTANCE_VARIABLES_HMETopicRouter
+00007ffc41a6df50 (__DATA_CONST,__objc_const) non-external __OBJC_$_PROP_LIST_HMECachedEventSource
+00007ffc41a6f680 (__DATA_CONST,__objc_const) non-external __OBJC_$_PROP_LIST_HMEConnectionInfoItem
+00007ffc41a6e3e8 (__DATA_CONST,__objc_const) non-external __OBJC_$_PROP_LIST_HMEDelegatingEventRouter
+00007ffc41a6eb40 (__DATA_CONST,__objc_const) non-external __OBJC_$_PROP_LIST_HMEEvent
+00007ffc41a6f178 (__DATA_CONST,__objc_const) non-external __OBJC_$_PROP_LIST_HMEEventInfo
+00007ffc41a6e9f0 (__DATA_CONST,__objc_const) non-external __OBJC_$_PROP_LIST_HMEEventMetadata
+00007ffc41a6dd28 (__DATA_CONST,__objc_const) non-external __OBJC_$_PROP_LIST_HMELastEventStore
+00007ffc41a6fb38 (__DATA_CONST,__objc_const) non-external __OBJC_$_PROP_LIST_HMEMemoryEventBus
+00007ffc41a6ee70 (__DATA_CONST,__objc_const) non-external __OBJC_$_PROP_LIST_HMEMessageDatagramClient
+00007ffc41a6f850 (__DATA_CONST,__objc_const) non-external __OBJC_$_PROP_LIST_HMEMessageDatagramServer
+00007ffc41a6f060 (__DATA_CONST,__objc_const) non-external __OBJC_$_PROP_LIST_HMEPendingEventsCollection
+00007ffc41a6f4c0 (__DATA_CONST,__objc_const) non-external __OBJC_$_PROP_LIST_HMEPendingTopicsCombiner
+00007ffc41a6f960 (__DATA_CONST,__objc_const) non-external __OBJC_$_PROP_LIST_HMEPersistentConnectionClient
+00007ffc41a6e538 (__DATA_CONST,__objc_const) non-external __OBJC_$_PROP_LIST_HMEPersistentConnectionServer
+00007ffc41a6fcd0 (__DATA_CONST,__objc_const) non-external __OBJC_$_PROP_LIST_HMEProtoEvent
+00007ffc41a6dea8 (__DATA_CONST,__objc_const) non-external __OBJC_$_PROP_LIST_HMEProtoEventInfo
+00007ffc41a6e6d0 (__DATA_CONST,__objc_const) non-external __OBJC_$_PROP_LIST_HMEProtoEventMetadata
+00007ffc41a6e170 (__DATA_CONST,__objc_const) non-external __OBJC_$_PROP_LIST_HMERouterClient
+00007ffc41a6f340 (__DATA_CONST,__objc_const) non-external __OBJC_$_PROP_LIST_HMERouterServer
+00007ffc41a6e890 (__DATA_CONST,__objc_const) non-external __OBJC_$_PROP_LIST_HMEThreadSafePendingEventsCollection
+00007ffc41a6d910 (__DATA_CONST,__objc_const) non-external __OBJC_$_PROP_LIST_HMETopicRouter
+00007ffc41a6d990 (__DATA_CONST,__objc_const) non-external __OBJC_$_PROP_LIST_NSObject
+00007ffc144723b8 (__TEXT,__objc_methlist) non-external __OBJC_$_PROTOCOL_INSTANCE_METHODS_HMECachedEventSource
+00007ffc144723d0 (__TEXT,__objc_methlist) non-external __OBJC_$_PROTOCOL_INSTANCE_METHODS_HMEEventConsumer
+00007ffc144723e8 (__TEXT,__objc_methlist) non-external __OBJC_$_PROTOCOL_INSTANCE_METHODS_HMEEventForwarder
+00007ffc14472400 (__TEXT,__objc_methlist) non-external __OBJC_$_PROTOCOL_INSTANCE_METHODS_HMEEventPersistence
+00007ffc14472420 (__TEXT,__objc_methlist) non-external __OBJC_$_PROTOCOL_INSTANCE_METHODS_HMELastEventStoreReadHandle
+00007ffc14472440 (__TEXT,__objc_methlist) non-external __OBJC_$_PROTOCOL_INSTANCE_METHODS_HMELastEventStoreWriteHandle
+00007ffc14472478 (__TEXT,__objc_methlist) non-external __OBJC_$_PROTOCOL_INSTANCE_METHODS_HMESubscriptionProviding
+00007ffc144724b0 (__TEXT,__objc_methlist) non-external __OBJC_$_PROTOCOL_INSTANCE_METHODS_HMESynchronousSubscriptionProviding
+00007ffc144724e0 (__TEXT,__objc_methlist) non-external __OBJC_$_PROTOCOL_INSTANCE_METHODS_HMETopicRouterDelegate
+00007ffc14472500 (__TEXT,__objc_methlist) non-external __OBJC_$_PROTOCOL_INSTANCE_METHODS_NSCopying
+00007ffc14472518 (__TEXT,__objc_methlist) non-external __OBJC_$_PROTOCOL_INSTANCE_METHODS_NSObject
+00007ffc14472608 (__TEXT,__objc_methlist) non-external __OBJC_$_PROTOCOL_INSTANCE_METHODS_OPT_HMEEventConsumer
+00007ffc14472620 (__TEXT,__objc_methlist) non-external __OBJC_$_PROTOCOL_INSTANCE_METHODS_OPT_HMESubscriptionProviding
+00007ffc14472638 (__TEXT,__objc_methlist) non-external __OBJC_$_PROTOCOL_INSTANCE_METHODS_OPT_HMETopicRouterDelegate
+00007ffc14472650 (__TEXT,__objc_methlist) non-external __OBJC_$_PROTOCOL_INSTANCE_METHODS_OPT_NSObject
+00007ffc41a6df68 (__DATA_CONST,__objc_const) non-external __OBJC_$_PROTOCOL_METHOD_TYPES_HMECachedEventSource
+00007ffc41a6e278 (__DATA_CONST,__objc_const) non-external __OBJC_$_PROTOCOL_METHOD_TYPES_HMEEventConsumer
+00007ffc41a6f9c0 (__DATA_CONST,__objc_const) non-external __OBJC_$_PROTOCOL_METHOD_TYPES_HMEEventForwarder
+00007ffc41a6db10 (__DATA_CONST,__objc_const) non-external __OBJC_$_PROTOCOL_METHOD_TYPES_HMEEventPersistence
+00007ffc41a6da90 (__DATA_CONST,__objc_const) non-external __OBJC_$_PROTOCOL_METHOD_TYPES_HMELastEventStoreReadHandle
+00007ffc41a6dab8 (__DATA_CONST,__objc_const) non-external __OBJC_$_PROTOCOL_METHOD_TYPES_HMELastEventStoreWriteHandle
+00007ffc41a6e000 (__DATA_CONST,__objc_const) non-external __OBJC_$_PROTOCOL_METHOD_TYPES_HMESubscriptionProviding
+00007ffc41a6dfd0 (__DATA_CONST,__objc_const) non-external __OBJC_$_PROTOCOL_METHOD_TYPES_HMESynchronousSubscriptionProviding
+00007ffc41a6dfa0 (__DATA_CONST,__objc_const) non-external __OBJC_$_PROTOCOL_METHOD_TYPES_HMETopicRouterDelegate
+00007ffc41a6ddf8 (__DATA_CONST,__objc_const) non-external __OBJC_$_PROTOCOL_METHOD_TYPES_NSCopying
+00007ffc41a6d9d8 (__DATA_CONST,__objc_const) non-external __OBJC_$_PROTOCOL_METHOD_TYPES_NSObject
+00007ffc41a6df38 (__DATA_CONST,__objc_const) non-external __OBJC_$_PROTOCOL_REFS_HMECachedEventSource
+00007ffc41a6e260 (__DATA_CONST,__objc_const) non-external __OBJC_$_PROTOCOL_REFS_HMEEventConsumer
+00007ffc41a6daf8 (__DATA_CONST,__objc_const) non-external __OBJC_$_PROTOCOL_REFS_HMEEventPersistence
+00007ffc41a6dad8 (__DATA_CONST,__objc_const) non-external __OBJC_$_PROTOCOL_REFS_HMELastEventStore
+00007ffc41a6da78 (__DATA_CONST,__objc_const) non-external __OBJC_$_PROTOCOL_REFS_HMELastEventStoreReadHandle
+00007ffc41a6daa0 (__DATA_CONST,__objc_const) non-external __OBJC_$_PROTOCOL_REFS_HMELastEventStoreWriteHandle
+00007ffc41a6df70 (__DATA_CONST,__objc_const) non-external __OBJC_$_PROTOCOL_REFS_HMELastEventStoreWriter
+00007ffc41a6dfe8 (__DATA_CONST,__objc_const) non-external __OBJC_$_PROTOCOL_REFS_HMESubscriptionProviding
+00007ffc41a6dfb8 (__DATA_CONST,__objc_const) non-external __OBJC_$_PROTOCOL_REFS_HMESynchronousSubscriptionProviding
+00007ffc41a6df88 (__DATA_CONST,__objc_const) non-external __OBJC_$_PROTOCOL_REFS_HMETopicRouterDelegate
+00007ffc41a6e288 (__DATA_CONST,__objc_const) non-external __OBJC_CLASS_PROTOCOLS_$_HMEDelegatingEventRouter
+00007ffc41a6db20 (__DATA_CONST,__objc_const) non-external __OBJC_CLASS_PROTOCOLS_$_HMELastEventStore
+00007ffc41a6f9c8 (__DATA_CONST,__objc_const) non-external __OBJC_CLASS_PROTOCOLS_$_HMEMemoryEventBus
+00007ffc41a6fc28 (__DATA_CONST,__objc_const) non-external __OBJC_CLASS_PROTOCOLS_$_HMEProtoEvent
+00007ffc41a6de00 (__DATA_CONST,__objc_const) non-external __OBJC_CLASS_PROTOCOLS_$_HMEProtoEventInfo
+00007ffc41a6e5a8 (__DATA_CONST,__objc_const) non-external __OBJC_CLASS_PROTOCOLS_$_HMEProtoEventMetadata
+00007ffc41a6e028 (__DATA_CONST,__objc_const) non-external __OBJC_CLASS_PROTOCOLS_$_HMERouterClient
+00007ffc41a6f1e8 (__DATA_CONST,__objc_const) non-external __OBJC_CLASS_PROTOCOLS_$_HMERouterServer
+00007ffc41a6f6f8 (__DATA_CONST,__objc_const) non-external __OBJC_CLASS_RO_$_HMEConnectionInfoItem
+00007ffc41a6e440 (__DATA_CONST,__objc_const) non-external __OBJC_CLASS_RO_$_HMEDelegatingEventRouter
+00007ffc41a6eb78 (__DATA_CONST,__objc_const) non-external __OBJC_CLASS_RO_$_HMEEvent
+00007ffc41a6f1a0 (__DATA_CONST,__objc_const) non-external __OBJC_CLASS_RO_$_HMEEventInfo
+00007ffc41a6ea68 (__DATA_CONST,__objc_const) non-external __OBJC_CLASS_RO_$_HMEEventMetadata
+00007ffc41a6ddb0 (__DATA_CONST,__objc_const) non-external __OBJC_CLASS_RO_$_HMELastEventStore
+00007ffc41a6fbe0 (__DATA_CONST,__objc_const) non-external __OBJC_CLASS_RO_$_HMEMemoryEventBus
+00007ffc41a6efa8 (__DATA_CONST,__objc_const) non-external __OBJC_CLASS_RO_$_HMEMessageDatagramClient
+00007ffc41a6f8a8 (__DATA_CONST,__objc_const) non-external __OBJC_CLASS_RO_$_HMEMessageDatagramServer
+00007ffc41a6f088 (__DATA_CONST,__objc_const) non-external __OBJC_CLASS_RO_$_HMEPendingEventsCollection
+00007ffc41a6f508 (__DATA_CONST,__objc_const) non-external __OBJC_CLASS_RO_$_HMEPendingTopicsCombiner
+00007ffc41a6f978 (__DATA_CONST,__objc_const) non-external __OBJC_CLASS_RO_$_HMEPersistentConnectionClient
+00007ffc41a6e560 (__DATA_CONST,__objc_const) non-external __OBJC_CLASS_RO_$_HMEPersistentConnectionServer
+00007ffc41a6fd18 (__DATA_CONST,__objc_const) non-external __OBJC_CLASS_RO_$_HMEProtoEvent
+00007ffc41a6def0 (__DATA_CONST,__objc_const) non-external __OBJC_CLASS_RO_$_HMEProtoEventInfo
+00007ffc41a6e778 (__DATA_CONST,__objc_const) non-external __OBJC_CLASS_RO_$_HMEProtoEventMetadata
+00007ffc41a6e218 (__DATA_CONST,__objc_const) non-external __OBJC_CLASS_RO_$_HMERouterClient
+00007ffc41a6f3e8 (__DATA_CONST,__objc_const) non-external __OBJC_CLASS_RO_$_HMERouterServer
+00007ffc41a6e8b8 (__DATA_CONST,__objc_const) non-external __OBJC_CLASS_RO_$_HMEThreadSafePendingEventsCollection
+00007ffc41a6d948 (__DATA_CONST,__objc_const) non-external __OBJC_CLASS_RO_$_HMETopicRouter
+00007ffc41a6d7f0 (__DATA_CONST,__objc_protolist) non-external (was a private external) __OBJC_LABEL_PROTOCOL_$_HMECachedEventSource
+00007ffc41a6d828 (__DATA_CONST,__objc_protolist) non-external (was a private external) __OBJC_LABEL_PROTOCOL_$_HMEEventConsumer
+00007ffc41a6d818 (__DATA_CONST,__objc_protolist) non-external (was a private external) __OBJC_LABEL_PROTOCOL_$_HMEEventForwarder
+00007ffc41a6d7e8 (__DATA_CONST,__objc_protolist) non-external (was a private external) __OBJC_LABEL_PROTOCOL_$_HMEEventPersistence
+00007ffc41a6d7e0 (__DATA_CONST,__objc_protolist) non-external (was a private external) __OBJC_LABEL_PROTOCOL_$_HMELastEventStore
+00007ffc41a6d7d0 (__DATA_CONST,__objc_protolist) non-external (was a private external) __OBJC_LABEL_PROTOCOL_$_HMELastEventStoreReadHandle
+00007ffc41a6d7d8 (__DATA_CONST,__objc_protolist) non-external (was a private external) __OBJC_LABEL_PROTOCOL_$_HMELastEventStoreWriteHandle
+00007ffc41a6d800 (__DATA_CONST,__objc_protolist) non-external (was a private external) __OBJC_LABEL_PROTOCOL_$_HMELastEventStoreWriter
+00007ffc41a6d820 (__DATA_CONST,__objc_protolist) non-external (was a private external) __OBJC_LABEL_PROTOCOL_$_HMESubscriptionProviding
+00007ffc41a6d810 (__DATA_CONST,__objc_protolist) non-external (was a private external) __OBJC_LABEL_PROTOCOL_$_HMESynchronousSubscriptionProviding
+00007ffc41a6d808 (__DATA_CONST,__objc_protolist) non-external (was a private external) __OBJC_LABEL_PROTOCOL_$_HMETopicRouterDelegate
+00007ffc41a6d830 (__DATA_CONST,__objc_protolist) non-external (was a private external) __OBJC_LABEL_PROTOCOL_$_NSCopying
+00007ffc41a6d7f8 (__DATA_CONST,__objc_protolist) non-external (was a private external) __OBJC_LABEL_PROTOCOL_$_NSObject
+00007ffc41a6f550 (__DATA_CONST,__objc_const) non-external __OBJC_METACLASS_RO_$_HMEConnectionInfoItem
+00007ffc41a6e2b8 (__DATA_CONST,__objc_const) non-external __OBJC_METACLASS_RO_$_HMEDelegatingEventRouter
+00007ffc41a6eab0 (__DATA_CONST,__objc_const) non-external __OBJC_METACLASS_RO_$_HMEEvent
+00007ffc41a6f0e8 (__DATA_CONST,__objc_const) non-external __OBJC_METACLASS_RO_$_HMEEventInfo
+00007ffc41a6e900 (__DATA_CONST,__objc_const) non-external __OBJC_METACLASS_RO_$_HMEEventMetadata
+00007ffc41a6db38 (__DATA_CONST,__objc_const) non-external __OBJC_METACLASS_RO_$_HMELastEventStore
+00007ffc41a6fa08 (__DATA_CONST,__objc_const) non-external __OBJC_METACLASS_RO_$_HMEMemoryEventBus
+00007ffc41a6ebc0 (__DATA_CONST,__objc_const) non-external __OBJC_METACLASS_RO_$_HMEMessageDatagramClient
+00007ffc41a6f740 (__DATA_CONST,__objc_const) non-external __OBJC_METACLASS_RO_$_HMEMessageDatagramServer
+00007ffc41a6eff0 (__DATA_CONST,__objc_const) non-external __OBJC_METACLASS_RO_$_HMEPendingEventsCollection
+00007ffc41a6f430 (__DATA_CONST,__objc_const) non-external __OBJC_METACLASS_RO_$_HMEPendingTopicsCombiner
+00007ffc41a6f8f0 (__DATA_CONST,__objc_const) non-external __OBJC_METACLASS_RO_$_HMEPersistentConnectionClient
+00007ffc41a6e488 (__DATA_CONST,__objc_const) non-external __OBJC_METACLASS_RO_$_HMEPersistentConnectionServer
+00007ffc41a6fc40 (__DATA_CONST,__objc_const) non-external __OBJC_METACLASS_RO_$_HMEProtoEvent
+00007ffc41a6de18 (__DATA_CONST,__objc_const) non-external __OBJC_METACLASS_RO_$_HMEProtoEventInfo
+00007ffc41a6e5c0 (__DATA_CONST,__objc_const) non-external __OBJC_METACLASS_RO_$_HMEProtoEventMetadata
+00007ffc41a6e060 (__DATA_CONST,__objc_const) non-external __OBJC_METACLASS_RO_$_HMERouterClient
+00007ffc41a6f210 (__DATA_CONST,__objc_const) non-external __OBJC_METACLASS_RO_$_HMERouterServer
+00007ffc41a6e7c0 (__DATA_CONST,__objc_const) non-external __OBJC_METACLASS_RO_$_HMEThreadSafePendingEventsCollection
+00007ffc41a6d840 (__DATA_CONST,__objc_const) non-external __OBJC_METACLASS_RO_$_HMETopicRouter
+00007ffc43291710 (__DATA,__data) non-external (was a private external) __OBJC_PROTOCOL_$_HMECachedEventSource
+00007ffc432919b0 (__DATA,__data) non-external (was a private external) __OBJC_PROTOCOL_$_HMEEventConsumer
+00007ffc432918f0 (__DATA,__data) non-external (was a private external) __OBJC_PROTOCOL_$_HMEEventForwarder
+00007ffc432916b0 (__DATA,__data) non-external (was a private external) __OBJC_PROTOCOL_$_HMEEventPersistence
+00007ffc43291650 (__DATA,__data) non-external (was a private external) __OBJC_PROTOCOL_$_HMELastEventStore
+00007ffc43291590 (__DATA,__data) non-external (was a private external) __OBJC_PROTOCOL_$_HMELastEventStoreReadHandle
+00007ffc432915f0 (__DATA,__data) non-external (was a private external) __OBJC_PROTOCOL_$_HMELastEventStoreWriteHandle
+00007ffc432917d0 (__DATA,__data) non-external (was a private external) __OBJC_PROTOCOL_$_HMELastEventStoreWriter
+00007ffc43291950 (__DATA,__data) non-external (was a private external) __OBJC_PROTOCOL_$_HMESubscriptionProviding
+00007ffc43291890 (__DATA,__data) non-external (was a private external) __OBJC_PROTOCOL_$_HMESynchronousSubscriptionProviding
+00007ffc43291830 (__DATA,__data) non-external (was a private external) __OBJC_PROTOCOL_$_HMETopicRouterDelegate
+00007ffc43291a10 (__DATA,__data) non-external (was a private external) __OBJC_PROTOCOL_$_NSCopying
+00007ffc43291770 (__DATA,__data) non-external (was a private external) __OBJC_PROTOCOL_$_NSObject
+                 (undefined) external __Unwind_Resume (from libSystem)
+00007ffc1445b6d9 (__TEXT,__text) non-external ___102-[HMERouterClient changeRegistrationsForConsumer:topicFilterAdditions:topicFilterRemovals:completion:]_block_invoke
+00007ffc144706e6 (__TEXT,__text) non-external ___104-[HMEMemoryEventBus changeRegistrationsForConsumer:topicFilterAdditions:topicFilterRemovals:completion:]_block_invoke
+00007ffc1445d459 (__TEXT,__text) non-external ___111-[HMEDelegatingEventRouter changeRegistrationsForConsumer:topicFilterAdditions:topicFilterRemovals:completion:]_block_invoke
+00007ffc1446e26c (__TEXT,__text) non-external ___111-[HMEMessageDatagramServer connectWithConnection:connectEvent:unregisterEvent:topicFilterAdditions:completion:]_block_invoke
+00007ffc1446b0b3 (__TEXT,__text) non-external ___113-[HMEMessageDatagramServer changeRegistrationsForConnection:topicFilterAdditions:topicFilterRemovals:completion:]_block_invoke
+00007ffc144557dc (__TEXT,__text) non-external ___38-[HMETopicRouter dumpStateDescription]_block_invoke
+00007ffc14467357 (__TEXT,__text) non-external ___39-[HMERouterServer didRemoveConnection:]_block_invoke
+00007ffc1446d0fc (__TEXT,__text) non-external ___44-[HMEMessageDatagramServer _performRequest:]_block_invoke
+00007ffc1446d2e7 (__TEXT,__text) non-external ___44-[HMEMessageDatagramServer _performRequest:]_block_invoke_2
+00007ffc14463968 (__TEXT,__text) non-external ___45-[HMEMessageDatagramClient _enableRetryTimer]_block_invoke
+00007ffc1446f02b (__TEXT,__text) non-external ___45-[HMEPersistentConnectionClient didReconnect]_block_invoke
+00007ffc1446f129 (__TEXT,__text) non-external ___45-[HMEPersistentConnectionClient didReconnect]_block_invoke_2
+00007ffc1445d4c1 (__TEXT,__text) non-external ___46-[HMEDelegatingEventRouter registerSubRouter:]_block_invoke
+00007ffc1445d70c (__TEXT,__text) non-external ___46-[HMEDelegatingEventRouter registerSubRouter:]_block_invoke.27
+00007ffc1446e8fb (__TEXT,__text) non-external ___46-[HMEMessageDatagramServer refreshConnection:]_block_invoke
+00007ffc1445d482 (__TEXT,__text) non-external ___48-[HMEDelegatingEventRouter unregisterSubRouter:]_block_invoke
+00007ffc1446d2cf (__TEXT,__text) non-external ___49-[HMEConnectionInfoItem performRequestWithBlock:]_block_invoke
+00007ffc1445b5b2 (__TEXT,__text) non-external ___49-[HMERouterClient unregisterConsumer:completion:]_block_invoke
+00007ffc14464553 (__TEXT,__text) non-external ___50-[HMEMessageDatagramClient _performConnectRequest]_block_invoke
+00007ffc14464819 (__TEXT,__text) non-external ___50-[HMEMessageDatagramClient _performConnectRequest]_block_invoke.60
+00007ffc1447010d (__TEXT,__text) non-external ___51-[HMEMemoryEventBus forwardEvent:topic:completion:]_block_invoke
+00007ffc144705b6 (__TEXT,__text) non-external ___51-[HMEMemoryEventBus unregisterConsumer:completion:]_block_invoke
+00007ffc14463062 (__TEXT,__text) non-external ___52-[HMEMessageDatagramClient _enableKeepAliveIfNeeded]_block_invoke
+00007ffc14463225 (__TEXT,__text) non-external ___52-[HMEMessageDatagramClient _performKeepAliveRequest]_block_invoke
+00007ffc14463476 (__TEXT,__text) non-external ___52-[HMEMessageDatagramClient _performKeepAliveRequest]_block_invoke.87
+00007ffc1446425e (__TEXT,__text) non-external ___53-[HMEMessageDatagramClient _performDisconnectRequest]_block_invoke
+00007ffc1446440f (__TEXT,__text) non-external ___53-[HMEMessageDatagramClient _performDisconnectRequest]_block_invoke.81
+00007ffc14462f29 (__TEXT,__text) non-external ___53-[HMEMessageDatagramClient _performRequestWithBlock:]_block_invoke
+00007ffc1446e83b (__TEXT,__text) non-external ___53-[HMEMessageDatagramServer _setupAndStartExpiryTimer]_block_invoke
+00007ffc1446c093 (__TEXT,__text) non-external ___55-[HMEMessageDatagramServer _startDebounceTimerIfNeeded]_block_invoke
+00007ffc1446fe47 (__TEXT,__text) non-external ___56-[HMEMemoryEventBus didReceiveCachedEvent:topic:source:]_block_invoke
+00007ffc1446b5cc (__TEXT,__text) non-external ___57-[HMEMessageDatagramServer _addCachedEvents:connections:]_block_invoke
+00007ffc1445d438 (__TEXT,__text) non-external ___58-[HMEDelegatingEventRouter unregisterConsumer:completion:]_block_invoke
+00007ffc14462a04 (__TEXT,__text) non-external ___60-[HMEMessageDatagramClient _enableDormantFetchTimerIfNeeded]_block_invoke
+00007ffc14462c5c (__TEXT,__text) non-external ___60-[HMEMessageDatagramClient _performSubscriptionFetchRequest]_block_invoke
+00007ffc14462f83 (__TEXT,__text) non-external ___60-[HMEMessageDatagramClient _performSubscriptionFetchRequest]_block_invoke.99
+00007ffc14464f08 (__TEXT,__text) non-external ___60-[HMEMessageDatagramClient updateConnectionMode:completion:]_block_invoke
+00007ffc1445b643 (__TEXT,__text) non-external ___60-[HMERouterClient registerConsumer:topicFilters:completion:]_block_invoke
+00007ffc144705d7 (__TEXT,__text) non-external ___62-[HMEMemoryEventBus registerConsumer:topicFilters:completion:]_block_invoke
+00007ffc14463a5f (__TEXT,__text) non-external ___62-[HMEMessageDatagramClient _performChangeRegistrationsRequest]_block_invoke
+00007ffc14463e0f (__TEXT,__text) non-external ___62-[HMEMessageDatagramClient _performChangeRegistrationsRequest]_block_invoke.73
+00007ffc1445b4c3 (__TEXT,__text) non-external ___62-[HMERouterClient unregisterConsumer:topicFilters:completion:]_block_invoke
+00007ffc144704d4 (__TEXT,__text) non-external ___64-[HMEMemoryEventBus unregisterConsumer:topicFilters:completion:]_block_invoke
+00007ffc14464d3f (__TEXT,__text) non-external ___67-[HMEMessageDatagramClient updateDormantFetchCondition:completion:]_block_invoke
+00007ffc144673ef (__TEXT,__text) non-external ___69-[HMERouterServer didConnectConnection:connectEvent:unregisterEvent:]_block_invoke
+00007ffc1445d40f (__TEXT,__text) non-external ___71-[HMEDelegatingEventRouter unregisterConsumer:topicFilters:completion:]_block_invoke
+00007ffc1445b78e (__TEXT,__text) non-external ___75-[HMERouterClient didChangeRegistrationsWithTopicFilterAdditions:removals:]_block_invoke
+00007ffc1445b863 (__TEXT,__text) non-external ___75-[HMERouterClient didChangeRegistrationsWithTopicFilterAdditions:removals:]_block_invoke_2
+00007ffc1446724b (__TEXT,__text) non-external ___75-[HMERouterServer didChangeRegistrationsWithTopicFilterAdditions:removals:]_block_invoke
+00007ffc1445b259 (__TEXT,__text) non-external ___78-[HMERouterClient handleChangeRegistrationsWithTopicFilterAdditions:removals:]_block_invoke
+00007ffc1445b272 (__TEXT,__text) non-external ___78-[HMERouterClient handleChangeRegistrationsWithTopicFilterAdditions:removals:]_block_invoke.90
+00007ffc1445b367 (__TEXT,__text) non-external ___78-[HMERouterClient handleChangeRegistrationsWithTopicFilterAdditions:removals:]_block_invoke_2
+00007ffc1445d2b5 (__TEXT,__text) non-external ___84-[HMEDelegatingEventRouter didChangeRegistrationsWithTopicFilterAdditions:removals:]_block_invoke
+00007ffc1445d362 (__TEXT,__text) non-external ___84-[HMEDelegatingEventRouter didChangeRegistrationsWithTopicFilterAdditions:removals:]_block_invoke.60
+00007ffc14461e32 (__TEXT,__text) non-external ___87-[HMEMessageDatagramClient handleChangeRegistrationsWithTopicFilterAdditions:removals:]_block_invoke
+                 (undefined) external ___CFConstantStringClassReference (from CoreFoundation)
+                 (undefined) external ___NSArray0__struct (from CoreFoundation)
+                 (undefined) external ___NSDictionary0__struct (from CoreFoundation)
+00007ffc41a6cb48 (__DATA_CONST,__const) non-external ___block_descriptor_40_e8_32bs_e34_v24?0"NSDictionary"8"NSError"16l
+00007ffc41a6cc08 (__DATA_CONST,__const) non-external ___block_descriptor_40_e8_32s_e14_v16?0?<v?>8l
+00007ffc41a6cd28 (__DATA_CONST,__const) non-external ___block_descriptor_40_e8_32s_e17_v16?0"NSError"8l
+00007ffc41a6ccf8 (__DATA_CONST,__const) non-external ___block_descriptor_40_e8_32s_e22_"NSSet"16?0"NSSet"8l
+00007ffc41a6cab8 (__DATA_CONST,__const) non-external ___block_descriptor_40_e8_32s_e31_v32?0"NSUUID"8"NSArray"16*24l
+00007ffc41a6cd88 (__DATA_CONST,__const) non-external ___block_descriptor_40_e8_32s_e5_v8?0l
+00007ffc41a6cae8 (__DATA_CONST,__const) non-external ___block_descriptor_40_e8_32w_e34_v24?0"NSDictionary"8"NSError"16l
+00007ffc41a6ce18 (__DATA_CONST,__const) non-external ___block_descriptor_40_e8_32w_e5_v8?0l
+00007ffc41a6cc68 (__DATA_CONST,__const) non-external ___block_descriptor_48_e8_32bs40w_e17_v16?0"NSError"8l
+00007ffc41a6cc98 (__DATA_CONST,__const) non-external ___block_descriptor_48_e8_32bs40w_e45_v32?0"NSUUID"8"NSDictionary"16"NSError"24l
+00007ffc41a6cb18 (__DATA_CONST,__const) non-external ___block_descriptor_48_e8_32s40s_e34_v24?0"NSDictionary"8"NSError"16l
+00007ffc41a6cea8 (__DATA_CONST,__const) non-external ___block_descriptor_48_e8_32s40s_e5_v8?0l
+00007ffc41a6ced8 (__DATA_CONST,__const) non-external ___block_descriptor_48_e8_32s40w_e34_v24?0"NSDictionary"8"NSError"16l
+00007ffc41a6ccc8 (__DATA_CONST,__const) non-external ___block_descriptor_48_e8_32w_e5_v8?0l
+00007ffc41a6cbd8 (__DATA_CONST,__const) non-external ___block_descriptor_56_e8_32s40bs48w_e45_v32?0"NSUUID"8"NSDictionary"16"NSError"24l
+00007ffc41a6cba8 (__DATA_CONST,__const) non-external ___block_descriptor_56_e8_32s40bs_e5_v8?0l
+00007ffc41a6cf68 (__DATA_CONST,__const) non-external ___block_descriptor_56_e8_32s40s48bs_e5_v8?0l
+00007ffc41a6cde8 (__DATA_CONST,__const) non-external ___block_descriptor_56_e8_32s40s48s_e14_v16?0?<v?>8l
+00007ffc41a6cb78 (__DATA_CONST,__const) non-external ___block_descriptor_56_e8_32s40s48s_e22_"NSSet"16?0"NSSet"8l
+00007ffc41a6cd58 (__DATA_CONST,__const) non-external ___block_descriptor_56_e8_32s40s48s_e34_v24?0"NSDictionary"8"NSError"16l
+00007ffc41a6ce78 (__DATA_CONST,__const) non-external ___block_descriptor_56_e8_32s40s48s_e5_v8?0l
+00007ffc41a6cdb8 (__DATA_CONST,__const) non-external ___block_descriptor_64_e8_32s40bs48w56w_e17_v16?0"NSError"8l
+00007ffc41a6cc38 (__DATA_CONST,__const) non-external ___block_descriptor_64_e8_32s40s48bs56w_e34_v24?0"NSDictionary"8"NSError"16l
+00007ffc41a6cf38 (__DATA_CONST,__const) non-external ___block_descriptor_64_e8_32s40s48s56bs_e5_v8?0l
+00007ffc41a6cf98 (__DATA_CONST,__const) non-external ___block_descriptor_64_e8_32s40s48s56s_e5_v8?0l
+00007ffc41a6cf08 (__DATA_CONST,__const) non-external ___block_descriptor_72_e8_32s40s48s56s64bs_e5_v8?0l
+00007ffc41a6ce48 (__DATA_CONST,__const) non-external ___block_descriptor_72_e8_32s40s48s56s64r_e34_v32?0"NSString"8"HMEEvent"16*24l
+00007ffc1445d421 (__TEXT,__text) non-external ___copy_helper_block_e8_32b
+00007ffc1446300a (__TEXT,__text) non-external ___copy_helper_block_e8_32b40w
+00007ffc14455951 (__TEXT,__text) non-external ___copy_helper_block_e8_32s
+00007ffc14464ed8 (__TEXT,__text) non-external ___copy_helper_block_e8_32s40b
+00007ffc14464bde (__TEXT,__text) non-external ___copy_helper_block_e8_32s40b48w
+00007ffc1446d732 (__TEXT,__text) non-external ___copy_helper_block_e8_32s40b48w56w
+00007ffc1445b38d (__TEXT,__text) non-external ___copy_helper_block_e8_32s40s
+00007ffc1445b5d3 (__TEXT,__text) non-external ___copy_helper_block_e8_32s40s48b
+00007ffc144641d5 (__TEXT,__text) non-external ___copy_helper_block_e8_32s40s48b56w
+00007ffc1445d3e3 (__TEXT,__text) non-external ___copy_helper_block_e8_32s40s48s
+00007ffc1445b534 (__TEXT,__text) non-external ___copy_helper_block_e8_32s40s48s56b
+00007ffc144700da (__TEXT,__text) non-external ___copy_helper_block_e8_32s40s48s56s
+00007ffc1445b702 (__TEXT,__text) non-external ___copy_helper_block_e8_32s40s48s56s64b
+00007ffc1446d7b9 (__TEXT,__text) non-external ___copy_helper_block_e8_32s40s48s56s64r
+00007ffc1446f0fb (__TEXT,__text) non-external ___copy_helper_block_e8_32s40w
+00007ffc1445b347 (__TEXT,__text) non-external ___copy_helper_block_e8_32w
+00007ffc14455960 (__TEXT,__text) non-external ___destroy_helper_block_e8_32s
+00007ffc1445b3b2 (__TEXT,__text) non-external ___destroy_helper_block_e8_32s40s
+00007ffc1445b617 (__TEXT,__text) non-external ___destroy_helper_block_e8_32s40s48s
+00007ffc1445b57f (__TEXT,__text) non-external ___destroy_helper_block_e8_32s40s48s56s
+00007ffc1446d80b (__TEXT,__text) non-external ___destroy_helper_block_e8_32s40s48s56s64r
+00007ffc1445b754 (__TEXT,__text) non-external ___destroy_helper_block_e8_32s40s48s56s64s
+00007ffc14464229 (__TEXT,__text) non-external ___destroy_helper_block_e8_32s40s48s56w
+00007ffc14464c1e (__TEXT,__text) non-external ___destroy_helper_block_e8_32s40s48w
+00007ffc1446d77f (__TEXT,__text) non-external ___destroy_helper_block_e8_32s40s48w56w
+00007ffc14463040 (__TEXT,__text) non-external ___destroy_helper_block_e8_32s40w
+00007ffc1445b359 (__TEXT,__text) non-external ___destroy_helper_block_e8_32w
+00007ffc14457d69 (__TEXT,__text) non-external ___destructor_8_s0_s8_s16
+                 (undefined) external ___error (from libSystem)
+                 (undefined) external ___objc_personality_v0 (from libobjc)
+                 (undefined) external ___stack_chk_fail (from libSystem)
+                 (undefined) external ___stack_chk_guard (from libSystem)
+                 (undefined) external __objc_empty_cache (from libobjc)
+                 (undefined) external __os_log_debug_impl (from libSystem)
+                 (undefined) external __os_log_error_impl (from libSystem)
+                 (undefined) external __os_log_impl (from libSystem)
+00007ffc1446e04d (__TEXT,__text) non-external _compressTopicComponents
+                 (undefined) external _dispatch_assert_queue$V2 (from libSystem)
+                 (undefined) external _dispatch_async (from libSystem)
+00007ffc14458c82 (__TEXT,__text) non-external _integrityCheckCallback
+                 (undefined) external _objc_alloc (from libobjc)
+                 (undefined) external _objc_alloc_init (from libobjc)
+                 (undefined) external _objc_autorelease (from libobjc)
+                 (undefined) external _objc_autoreleasePoolPop (from libobjc)
+                 (undefined) external _objc_autoreleasePoolPush (from libobjc)
+                 (undefined) external _objc_autoreleaseReturnValue (from libobjc)
+                 (undefined) external _objc_copyWeak (from libobjc)
+                 (undefined) external _objc_destroyWeak (from libobjc)
+                 (undefined) external _objc_enumerationMutation (from libobjc)
+                 (undefined) external _objc_exception_throw (from libobjc)
+                 (undefined) external _objc_getProperty (from libobjc)
+                 (undefined) external _objc_initWeak (from libobjc)
+                 (undefined) external _objc_loadWeakRetained (from libobjc)
+                 (undefined) external _objc_msgSend (from libobjc)
+                 (undefined) external _objc_msgSendSuper2 (from libobjc)
+                 (undefined) external _objc_opt_class (from libobjc)
+                 (undefined) external _objc_opt_respondsToSelector (from libobjc)
+                 (undefined) external _objc_release (from libobjc)
+                 (undefined) external _objc_retain (from libobjc)
+                 (undefined) external _objc_retainAutorelease (from libobjc)
+                 (undefined) external _objc_retainAutoreleasedReturnValue (from libobjc)
+                 (undefined) external _objc_setProperty_atomic (from libobjc)
+                 (undefined) external _objc_storeStrong (from libobjc)
+                 (undefined) external _objc_storeWeak (from libobjc)
+                 (undefined) external _objc_unsafeClaimAutoreleasedReturnValue (from libobjc)
+                 (undefined) external _os_log_create (from libSystem)
+                 (undefined) external _os_log_type_enabled (from libSystem)
+                 (undefined) external _os_unfair_lock_assert_owner (from libSystem)
+                 (undefined) external _os_unfair_lock_lock (from libSystem)
+                 (undefined) external _os_unfair_lock_unlock (from libSystem)
+00007ffc14458b67 (__TEXT,__text) non-external _pragmaCallback
+                 (undefined) external _setxattr (from libSystem)
+                 (undefined) external _sqlite3_bind_blob64 (from libsqlite3)
+                 (undefined) external _sqlite3_bind_double (from libsqlite3)
+                 (undefined) external _sqlite3_bind_int (from libsqlite3)
+                 (undefined) external _sqlite3_bind_text (from libsqlite3)
+                 (undefined) external _sqlite3_changes (from libsqlite3)
+                 (undefined) external _sqlite3_clear_bindings (from libsqlite3)
+                 (undefined) external _sqlite3_close_v2 (from libsqlite3)
+                 (undefined) external _sqlite3_column_blob (from libsqlite3)
+                 (undefined) external _sqlite3_column_bytes (from libsqlite3)
+                 (undefined) external _sqlite3_column_double (from libsqlite3)
+                 (undefined) external _sqlite3_column_int (from libsqlite3)
+                 (undefined) external _sqlite3_column_text (from libsqlite3)
+                 (undefined) external _sqlite3_column_type (from libsqlite3)
+                 (undefined) external _sqlite3_errcode (from libsqlite3)
+                 (undefined) external _sqlite3_errmsg (from libsqlite3)
+                 (undefined) external _sqlite3_exec (from libsqlite3)
+                 (undefined) external _sqlite3_extended_errcode (from libsqlite3)
+                 (undefined) external _sqlite3_finalize (from libsqlite3)
+                 (undefined) external _sqlite3_open_v2 (from libsqlite3)
+                 (undefined) external _sqlite3_prepare_v2 (from libsqlite3)
+                 (undefined) external _sqlite3_reset (from libsqlite3)
+                 (undefined) external _sqlite3_step (from libsqlite3)
+                 (undefined) external _strerror (from libSystem)
